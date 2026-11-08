@@ -1,0 +1,133 @@
+check_tex_v03 report
+paper.tex SHA-256 095c5b068ec0e25d6c4a06c430c1e2d7f4ac0d1d128c40e22942bf0ee456cb81 (1052 lines); refs.bib SHA-256 5091cd0f7711a3f94819961d56d6cf592830204bf3c9b6e95f8631f981b08b71
+built from manuscript SHA-256 953c210f2fd31daeb5a20c0e06c89d3c9b78fe3e536e4df181d7a9dd0798d954
+
+H1 braces and environments
+--------------------------
+  PASS  braces balanced
+  PASS  environments nested correctly: IEEEbiographynophoto x1, abstract x1, algorithm* x2, algorithmic x2, center x2, document x1, enumerate x4, equation* x10, figure x2, figure* x2, itemize x23, keywords x1, quote x1, supertabular x1, table x3, table* x7, tabular x11
+
+H2 math delimiters
+------------------
+  PASS  every paragraph has an even number of unescaped $
+  PASS  no "$$"
+  info  \[ ... \] displays: none expected; equation* environments are used
+
+H3 citations and refs.bib
+-------------------------
+  info  103 \cite commands; 106 distinct cited keys; 106 entries in refs.bib
+  PASS  every cited key is in refs.bib
+  PASS  refs.bib holds exactly the cited keys
+  PASS  no duplicate keys
+  PASS  refs.bib is ASCII
+  PASS  \bibliographystyle{IEEEtran} and \bibliography{refs} present
+
+H4 graphics files
+-----------------
+  PASS  figs/fig01_pipeline.pdf present (74428 bytes, SHA-256 e61cde31fb0cd788)
+  PASS  figs/fig02_mstar_cells.pdf present (61707 bytes, SHA-256 60315b527ced96f3)
+  PASS  figs/fig03_infeasible_arms.pdf present (43955 bytes, SHA-256 7e51c868a0566b10)
+  PASS  figs/fig04_tradeoff_v04.pdf present (83753 bytes, SHA-256 a536254cccda88c4)
+
+H5 characters outside printable ASCII
+-------------------------------------
+  PASS  paper.tex is pure printable ASCII (allowed set: none needed)
+
+H6 Markdown remnants
+--------------------
+  PASS  no **, `, |---|, Markdown headings or bullets, bracket citations or straight double quotes
+
+H7 float numbering and cross-references
+---------------------------------------
+  PASS  table floats in source order carry tab:1..tab:10 (LaTeX numbers them 1..10 in this order)
+  PASS  \thetable is not redefined: tables print as TABLE 1 ... TABLE 10 (class default, Arabic)
+  PASS  figure floats in source order carry 1..4
+  PASS  algorithm floats in source order carry 1..2
+  info  captioned table floats: 10; figure floats: 4; algorithm floats: 2; uncaptioned tables (in text): 2
+  PASS  no "Table <Roman>" reference remains (section numerals such as "Section V-E(a)" are not table references)
+  PASS  18 textual table references (body, captions and cells), all Arabic and within 1..10; no \ref is used
+  PASS  every "Table N", "Fig. N" and "Algorithm N" cited in the text exists
+  PASS  first citations of tables in the body occur in the order 1..10
+  PASS  first citations of figures in the body occur in the order 1..4
+  info  table 1: float at line 240, first mention at line 227
+  info  table 2: float at line 265, first mention at line 263
+  info  table 3: float at line 341, first mention at line 366
+  info  table 4: float at line 390, first mention at line 375
+  info  table 5: float at line 427, first mention at line 425
+  info  table 6: float at line 466, first mention at line 464
+  info  table 7: float at line 502, first mention at line 500
+  info  table 8: float at line 536, first mention at line 534
+  info  table 9: float at line 589, first mention at line 587
+  info  table 10: float at line 901, first mention at line 895
+  info  figure 1: float at line 157, first mention at line 155
+  info  figure 2: float at line 368, first mention at line 366
+  info  figure 3: float at line 377, first mention at line 375
+  info  figure 4: float at line 578, first mention at line 576
+  PASS  17 labels, all unique
+
+H8 abstract
+-----------
+  PASS  abstract has 247 words (limit 250; LaTeX-based count, a math span counts as one word)
+  info  abstract in the manuscript Markdown: 247 words (whitespace tokens with a letter or digit)
+  PASS  abstract has no citation
+  PASS  abstract is one paragraph without display math
+  PASS  abstract contains no math symbol (only the name M$^{*}$, 5 times)
+  info  7 index terms; alphabetical: yes
+
+H9 table widths (static estimate)
+---------------------------------
+  PASS  tabular at line 245: 4 columns, 501.0 pt of 503.2 pt (\textwidth)
+  PASS  tabular at line 270: 8 columns, 500.4 pt of 503.2 pt (\textwidth)
+  PASS  tabular at line 346: 8 columns, 500.3 pt of 503.2 pt (\textwidth)
+  PASS  tabular at line 395: 15 columns, 499.8 pt of 503.2 pt (\textwidth)
+  PASS  tabular at line 432: 4 columns, 500.5 pt of 503.2 pt (\textwidth)
+  PASS  tabular at line 471: 7 columns, 500.5 pt of 503.2 pt (\textwidth)
+  PASS  tabular at line 507: 9 columns, 240.5 pt of 241.8 pt (\columnwidth)
+  PASS  tabular at line 541: 7 columns, 499.4 pt of 503.2 pt (\textwidth)
+  PASS  tabular at line 594: 3 columns, 240.7 pt of 241.8 pt (\columnwidth)
+  PASS  tabular at line 872: 2 columns, 240.5 pt of 241.8 pt (\columnwidth)
+  PASS  tabular at line 906: 2 columns, 240.5 pt of 241.8 pt (\columnwidth)
+  PASS  tabular at line 1000: 2 columns, 240.5 pt of 241.8 pt (\columnwidth)
+  info  column widths were chosen by the converter from estimated Times widths of the longest unbreakable cell content (see conversion_log_v03.md section 3); only a compile can confirm there is no overfull box
+
+H10 unescaped special characters in text
+----------------------------------------
+  PASS  no raw % & # _ ^ outside math, commands and table rows
+
+H11 supplement submission copy
+------------------------------
+  info  supplement_v06f_submission.md: 369692 bytes, SHA-256 6f4079f2496812359b22304d49a606fc3691f7dea2368baed9ea9603f96f4981
+  PASS  no "main-text Table(s) <Roman>" remains
+  info  "main-text Table N" references now in the copy: line 497 "main-text Table 4"; line 499 "main-text Table 4"; line 664 "main-text Table 5"; line 2708 "main-text Table 3"
+  PASS  the copy equals the source with exactly 4 "main-text Table" replacements and nothing else changed (byte-for-byte; source SHA-256 8576730d525c48b5)
+  info  line 2122: "Table II" is a Roman table reference outside the "main-text Table" form; left unchanged as instructed (it may refer to a main-text table -- author decision)
+  info  line 2543: "Table X" is a Roman table reference outside the "main-text Table" form; left unchanged as instructed (it may refer to a main-text table -- author decision)
+
+Placeholders (to be filled by the authors)
+------------------------------------------
+  info  line 1046: [Biography (about 100 words) and a photograph to be supplied by the author; IEEE Access prints both.]
+
+Tool and agent names (allowed only in the Tools and author responsibility section)
+----------------------------------------------------------------------------------
+  PASS  no tool or agent names outside the tools statement
+
+Word-level comparison with the manuscript (report only)
+-------------------------------------------------------
+  info  word tokens (3+ letters): manuscript 13740, paper.tex 13477
+  info  more often in the manuscript than in paper.tex (word: excess): abstract:1, ahmed:1, algorithm:4, alpha:2, altmanbland:1, anandakopalli:1, angelopoulos:4, appendices:1, appendix:3, argmax:4, argoverse:1, bao:2, barber:2, barshalom:3, barthfranke:1, baseline:2, bates:2, berger:1, bianbarber:1, blackmore:3, blombarshalom:1, bostrom:1, caesar:1, canmot:1, captions:1, cbgs:1, cdot:1, checks:1, chen:4, chiu:2, cleaveland:1, cos:9, dauner:2, degroot:1, delta:5, deployment:1, ding:1, dixit:2, dixitmei:1, djuric:2, dsilva:1, dunn:2, dutoit:1, ego:1, exp:3, feng:1, fig:4, figure:1, forsling:3, gibbs:1, gibbscandes:2, github:1, gneiting:2, gneitingresin:1, guo:1, hardy:1, hat:4, holm:1, https:2, huang:1, iii:4, index:1, inf:6, ivanovic:1, ivanovica:1, ivanovicpavone:1, jiang:1, jincandes:1, json:1, kalrapaddock:1, karnchanachari:3, kiyani:1, lambda:6, learntrack:1, leebarberwillett:1, lefevre:1, lei:1, lekeufack:1, leq:1, lim:1, lindemann:4, local:1, ltt:1, marques:4, mathrm:9, mathsf:1, max:24, mazor:1, mcallister:1, meaning:1, mehra:1, meyer:1, min:7, mjx:1, mohamed:2, mot:2, mstar:1, mustafa:1, nair:3, natraj:1, nees:1, noarov:1, offline:1, online:1, ono:3, osf:1, osterburg:6, pan:1, paper:4, peri:1, phanminh:1, philion:1, poly:2, pouria:3, proofs:1, qfk:1, ren:3, sahoo:1, salzmann:1, sarkka:1, schuirmann:1, shah:3, shi:1, sigma:4, sin:2, sqrt:1, sup:1, table:10, tang:1, term:1, terms:1, thm:1, tibshirani:2, tilde:2, times:5, ulreich:1, varepsilon:1, vii:3, viii:2, vlahakis:1, vovk:3, voxelnext:1, weisman:3, wellek:1, weng:2, yan:1, yang:1, yin:1, zhang:2, zhao:2, zhu:5, ziegel:2
+  info  more often in paper.tex than in the manuscript (word: excess): about:1, access:2, anand:1, ananda:2, arg:4, author:2, biography:1, both:1, corresponding:1, covariances:2, current:1, date:2, external:1, funding:1, gmail:1, ieee:1, ieeetran:1, knvasks:1, kopalli:4, kumar:2, mail:1, matched:1, naga:2, photograph:1, planner:1, prints:1, publication:1, received:1, refs:1, siva:2, supplied:1, the:1, tracker:2, venkata:2, version:1, words:1, work:1, xxxx:2
+  info  expected sources of difference: headings and labels the class prints itself ("Abstract", "Index Terms", "Table N.", "Fig. N.", "Algorithm N" code header, "Figure captions", Roman section numerals), math notation (cos, max, sum, mathrm words), the placeholders and template front matter, and Markdown-only escapes
+
+Algorithms
+----------
+  info  Algorithm 1: 14 numbered \STATE lines, 3 unnumbered \item[] lines, 2 \COMMENT
+  info  Algorithm 2: 21 numbered \STATE lines, 2 unnumbered \item[] lines, 5 \COMMENT
+
+Packages and class
+------------------
+  info  class: ieeeaccess
+  info  packages: cite, amsmath,amssymb,amsfonts, algorithmic, algorithm, graphicx, textcomp, array, url, supertabular, bm
+
+Summary
+-------
+  PASS: 0 hard check(s) failed
