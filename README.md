@@ -1,6 +1,10 @@
 # Planner-matched calibration of tracker covariances (M\*): code, protocol and results
 
+[![DOI](https://zenodo.org/badge/1449989385.svg)](https://doi.org/10.5281/zenodo.24048339)
+
 This repository accompanies the paper *Planner-Matched Calibration of Tracker Covariances for Chance-Constrained Planning, with a Registered Open-Loop Log-Replay Test on Argoverse 2*, by Ananda Siva Kumar Kopalli Naga Venkata (Independent Researcher; ORCID [0009-0002-5241-9922](https://orcid.org/0009-0002-5241-9922)). The paper is submitted to IEEE Access.
+
+Archived on Zenodo: release v1.0, https://doi.org/10.5281/zenodo.24048340 (all versions: https://doi.org/10.5281/zenodo.24048339).
 
 It holds the code, the registered protocol, the run log and the results behind every table and figure. Data are not included. The folder layout is the one used during the study, so every file path cited in the paper or its supplement resolves here.
 
@@ -13,9 +17,9 @@ It holds the code, the registered protocol, the run log and the results behind e
 | `60_RESULTS/` | **`c1_av2_v01/`** holds the results of record: `c1_decision_r1.json`, `c1_analysis_r1.json` and `c1_analysis_csv_r1/`. **`x3_explore_v01/`** holds the exploratory results, amendments A1–A5 included. Also: the tracker and detector notes and metrics, the folds, the transfer fits, E⁰, and the nuScenes-stage summaries. |
 | `70_TESTS/` | The separate re-derivation of the registered results (`R21_c1_v01/`), the development analyses and the integrity reports of the exploratory analyses. |
 | `10_PROOFS/` | Numeric checks of the proofs (Appendix A and Supplement S8). |
-| `20_DESIGN/` | The manuscript (Markdown, `MANUSCRIPT_DRAFT_v06h.md`), the supplement, the exploratory plan and its five amendments (with hash sidecars), the reference list, and the abstract fixed before the verdict. |
+| `20_DESIGN/` | The manuscript (Markdown, `MANUSCRIPT_DRAFT_v06i.md`), the supplement, the exploratory plan and its five amendments (with hash sidecars), the reference list, and the abstract fixed before the verdict. |
 | `90_DECISIONS/` | The GO decision report, the authors' decision record (`D16_DELEGATED_CHOICES_v61.md`), the criteria register and the errata. |
-| `95_SUBMISSION/` | The LaTeX source for IEEE Access (`latex_v05/`), the figures, and the plotted values of each figure (`figs_v02/*points*.csv`). |
+| `95_SUBMISSION/` | The LaTeX source for IEEE Access (`latex_v06/`), the figures, and the plotted values of each figure (`figs_v02/*points*.csv`). |
 | `80_LOGS/` | The scripts that assembled the manuscript, drew the figures and built this repository. |
 
 ## Checking the registered files
