@@ -1,0 +1,108 @@
+# R21 run-log check
+
+- run log: C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\40_PROTOCOL\C1_RUN_LOG.txt (82 lines, SHA-256 8bc6235d0c582f0b52952dcb86717a6ab42236a1e472582ebf8f4a10f95e2090); chain ok: True
+- checks: 96, problems: 0
+
+- [ok] chain intact (prev_sha256 of every line; file ends with a newline)
+- [ok] every done line has its start line
+- [ok] decision's run_log_sha256 = SHA-256 of the log's first `lines` lines
+- [ok] decision's last_line_sha256 = SHA-256 of line `lines`
+- [ok] the analysis's run_id has a start and a done line
+- [ok] the analysis's start line lies in the recorded prefix (it is line `lines` or earlier)
+- [ok] analysis done line lists the decision with its current SHA-256
+- [ok] analysis done line lists the analysis with its current SHA-256
+- [ok] analysis done line under the decision's deposit record
+- [ok] table of record: method_stage t1
+- [ok] table of record: method_stage t3
+- [ok] table of record: h9 t1
+- [ok] table of record: h9 t3
+- [ok] table of record: h9_descriptive tab
+- [ok] table of record: h8
+- [ok] table of record: within_lt3d t1 run record
+- [ok] table of record: within_lt3d t1 fits
+- [ok] within_lt3d t1: episodes hash = run record
+- [ok] within_lt3d t1: counts hash = run record
+- [ok] within_lt3d t1: decisions hash = run record
+- [ok] within_lt3d t1: cal hash = run record
+- [ok] table of record: within_lt3d t3 run record
+- [ok] table of record: within_lt3d t3 fits
+- [ok] within_lt3d t3: episodes hash = run record
+- [ok] within_lt3d t3: counts hash = run record
+- [ok] within_lt3d t3: decisions hash = run record
+- [ok] within_lt3d t3: cal hash = run record
+- [ok] table of record: within_lt3d tab run record
+- [ok] table of record: within_lt3d tab fits
+- [ok] within_lt3d tab: episodes hash = run record
+- [ok] within_lt3d tab: counts hash = run record
+- [ok] within_lt3d tab: decisions hash = run record
+- [ok] within_lt3d tab: cal hash = run record
+- [ok] table of record: transfer_lt3d t1 run record
+- [ok] table of record: transfer_lt3d t1 fits
+- [ok] transfer_lt3d t1: episodes hash = run record
+- [ok] transfer_lt3d t1: counts hash = run record
+- [ok] transfer_lt3d t1: decisions hash = run record
+- [ok] transfer_lt3d t1: cal hash = run record
+- [ok] table of record: transfer_lt3d t3 run record
+- [ok] table of record: transfer_lt3d t3 fits
+- [ok] transfer_lt3d t3: episodes hash = run record
+- [ok] transfer_lt3d t3: counts hash = run record
+- [ok] transfer_lt3d t3: decisions hash = run record
+- [ok] transfer_lt3d t3: cal hash = run record
+- [ok] table of record: public_lt3d_val t1 run record
+- [ok] table of record: public_lt3d_val t1 fits
+- [ok] public_lt3d_val t1: episodes hash = run record
+- [ok] public_lt3d_val t1: counts hash = run record
+- [ok] public_lt3d_val t1: decisions hash = run record
+- [ok] public_lt3d_val t1: cal hash = run record
+- [ok] table of record: public_lt3d_val t3 run record
+- [ok] table of record: public_lt3d_val t3 fits
+- [ok] public_lt3d_val t3: episodes hash = run record
+- [ok] public_lt3d_val t3: counts hash = run record
+- [ok] public_lt3d_val t3: decisions hash = run record
+- [ok] public_lt3d_val t3: cal hash = run record
+- [ok] table of record: voxelnext_val t1 run record
+- [ok] table of record: voxelnext_val t1 fits
+- [ok] voxelnext_val t1: episodes hash = run record
+- [ok] voxelnext_val t1: counts hash = run record
+- [ok] voxelnext_val t1: decisions hash = run record
+- [ok] voxelnext_val t1: cal hash = run record
+- [ok] table of record: voxelnext_val t3 run record
+- [ok] table of record: voxelnext_val t3 fits
+- [ok] voxelnext_val t3: episodes hash = run record
+- [ok] voxelnext_val t3: counts hash = run record
+- [ok] voxelnext_val t3: decisions hash = run record
+- [ok] voxelnext_val t3: cal hash = run record
+- [ok] table of record: source_transfer t1 run record
+- [ok] table of record: source_transfer t1 fits
+- [ok] source_transfer t1: episodes hash = run record
+- [ok] source_transfer t1: counts hash = run record
+- [ok] source_transfer t1: decisions hash = run record
+- [ok] source_transfer t1: cal hash = run record
+- [ok] table of record: source_transfer t3 run record
+- [ok] table of record: source_transfer t3 fits
+- [ok] source_transfer t3: episodes hash = run record
+- [ok] source_transfer t3: counts hash = run record
+- [ok] source_transfer t3: decisions hash = run record
+- [ok] source_transfer t3: cal hash = run record
+- [ok] decision's tables_in_run_log method_stage 60_RESULTS/c1_av2_v01/mstage/mstage_t1.json has that done line
+- [ok] decision's table 60_RESULTS/c1_av2_v01/mstage/mstage_t1.json still hashes as recorded
+- [ok] decision's tables_in_run_log method_stage 60_RESULTS/c1_av2_v01/mstage/mstage_t3.json has that done line
+- [ok] decision's table 60_RESULTS/c1_av2_v01/mstage/mstage_t3.json still hashes as recorded
+- [ok] decision's tables_in_run_log h8 60_RESULTS/c1_av2_v01/h8/h8_t1.json has that done line
+- [ok] decision's table 60_RESULTS/c1_av2_v01/h8/h8_t1.json still hashes as recorded
+- [ok] decision's tables_in_run_log h9 60_RESULTS/c1_av2_v01/h9/h9_t1.json has that done line
+- [ok] decision's table 60_RESULTS/c1_av2_v01/h9/h9_t1.json still hashes as recorded
+- [ok] decision's tables_in_run_log h9 60_RESULTS/c1_av2_v01/h9/h9_t3.json has that done line
+- [ok] decision's table 60_RESULTS/c1_av2_v01/h9/h9_t3.json still hashes as recorded
+- [ok] decision's tables_in_run_log h9_descriptive 60_RESULTS/c1_av2_v01/h9/h9_tab.json has that done line
+- [ok] decision's table 60_RESULTS/c1_av2_v01/h9/h9_tab.json still hashes as recorded
+- [ok] the decision given is the first completed analysis run (table of record, plan 8.6 and 9)
+- [ok] every line carries the frozen plan's SHA-256
+- [ok] one deposit record on every non-exempt line, equal to the decision's
+
+## Analysis runs
+
+- ed69b9e4568b4b42aa8867c9b4825d39: lines 81-82: completed run
+
+## Start lines without a done line
+

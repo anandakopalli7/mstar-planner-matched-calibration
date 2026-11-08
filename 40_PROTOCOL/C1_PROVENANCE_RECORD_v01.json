@@ -1,0 +1,800 @@
+{
+ "kinds": [
+  "exports",
+  "horizon",
+  "ego",
+  "gt",
+  "scene_json"
+ ],
+ "logs_file": "30_DATA/av2_trk_v02/C1_LOGS_375_v01.json",
+ "logs_file_sha256": "49c363fd3e1e41a71bbc39d73fba7f0732730d8a6b47045e206bfd081e157f88",
+ "manifests": {
+  "30_DATA/av2_cache_stageA_v01/cache_stageA_t1_lt3d/MANIFEST.json": {
+   "builder": "50_CODE/av2/av2_cache_stageA_v01.py",
+   "inputs": {
+    "ego": {
+     "method": "re-made",
+     "producer": {
+      "seconds": 28.2,
+      "sha256": "037015f21dae83729725e097271ddf037cbea7ab054e62a596e48ea8b384089a",
+      "tool": "50_CODE/av2/av2_ego_prep_v02.py"
+     },
+     "sha256": "ff3d5eee19f706d32b54dd7b87115497cd209f5d687ed25967889170df32e99e"
+    },
+    "exports": [
+     {
+      "detection_adapter": {
+       "sha256": "8cd2fac9aebdbcc353098e41afa59277d819e2c611ab1ca595c1b61a8f364b8e",
+       "tool": "50_CODE/av2/av2_tracker_input_v01.py"
+      },
+      "experiment": "paper/local/canmot/sc",
+      "producer": {
+       "sha256": "79b6f44104a09a5b685723552e5484138290669483124509ffbac1369a26da16",
+       "tool": "50_CODE/av2/av2_track_v01.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v01/export/t1_lt3d/worker0",
+      "x1_tracks_sha256": "b3e5a9390cf30f0304dd48ff2a38dd8caeeb9e6fe2a27047a5800643db2f525f"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "8cd2fac9aebdbcc353098e41afa59277d819e2c611ab1ca595c1b61a8f364b8e",
+       "tool": "50_CODE/av2/av2_tracker_input_v01.py"
+      },
+      "experiment": "paper/local/canmot/sc",
+      "producer": {
+       "sha256": "79b6f44104a09a5b685723552e5484138290669483124509ffbac1369a26da16",
+       "tool": "50_CODE/av2/av2_track_v01.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v01/export/t1_lt3d/worker1",
+      "x1_tracks_sha256": "c6f18e461e61b09ec52e9b148d0fbf6a261ffc9a8ca026bc679524ae36861a38"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "8cd2fac9aebdbcc353098e41afa59277d819e2c611ab1ca595c1b61a8f364b8e",
+       "tool": "50_CODE/av2/av2_tracker_input_v01.py"
+      },
+      "experiment": "paper/local/canmot/sc",
+      "producer": {
+       "sha256": "79b6f44104a09a5b685723552e5484138290669483124509ffbac1369a26da16",
+       "tool": "50_CODE/av2/av2_track_v01.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v01/export/t1_lt3d/worker2",
+      "x1_tracks_sha256": "9d72e63a55bf98ed7ec6d4a74d9427bbbe58495fb6881e40a2870ebe7d56cf4d"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "8cd2fac9aebdbcc353098e41afa59277d819e2c611ab1ca595c1b61a8f364b8e",
+       "tool": "50_CODE/av2/av2_tracker_input_v01.py"
+      },
+      "experiment": "paper/local/canmot/sc",
+      "producer": {
+       "sha256": "79b6f44104a09a5b685723552e5484138290669483124509ffbac1369a26da16",
+       "tool": "50_CODE/av2/av2_track_v01.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v01/export/t1_lt3d/worker3",
+      "x1_tracks_sha256": "947b7a2c08d5216d3cf19d441e7b0dfc873921e058301ecdbb562fbea758f1f7"
+     }
+    ],
+    "gt": {
+     "method": "re-made, hashed, deleted unopened",
+     "producer": {
+      "seconds": 133.3,
+      "sha256": "5cba8fb9d190ed39b45f1376192cf5eeea24205efac3bc8ff30bc7f4eef8ba77",
+      "tool": "50_CODE/av2/av2_gt_prep_v02.py"
+     },
+     "sha256": "9642db5b35c557944a597977c728cb36f66648afb0ad7fc093bb215cf91c70f2"
+    },
+    "horizon": {
+     "decompressed_sha256": "9232f581c988151e59dd5241d56a0b8504c0610b247c0f025aebe30d30844fd5",
+     "method": "re-made",
+     "producer": {
+      "seconds": 420.1,
+      "sha256": "76cc6a9aa7f7ad0992ab3f449298755feb1eef413e7e83f8c8979ba9bc02e540",
+      "tool": "50_CODE/av2/av2_horizon_prep_v02.py"
+     },
+     "sha256": "c553d54f4cf480525beddb7698107295682283b13129b557ca19fe60038dbb5e"
+    }
+   },
+   "sha256": "1431b89f44cabd4344b098f203fbb3bb27f61d2a92645a7c6eb6d2186be8a98b"
+  },
+  "30_DATA/av2_cache_stageA_v01/cache_stageA_t1_voxelnext/MANIFEST.json": {
+   "builder": "50_CODE/av2/av2_cache_stageA_v01.py",
+   "inputs": {
+    "ego": {
+     "method": "re-made",
+     "producer": {
+      "seconds": 29.6,
+      "sha256": "037015f21dae83729725e097271ddf037cbea7ab054e62a596e48ea8b384089a",
+      "tool": "50_CODE/av2/av2_ego_prep_v02.py"
+     },
+     "sha256": "ff3d5eee19f706d32b54dd7b87115497cd209f5d687ed25967889170df32e99e"
+    },
+    "exports": [
+     {
+      "detection_adapter": {
+       "sha256": "8cd2fac9aebdbcc353098e41afa59277d819e2c611ab1ca595c1b61a8f364b8e",
+       "tool": "50_CODE/av2/av2_tracker_input_v01.py"
+      },
+      "experiment": "paper/local/canmot/sc",
+      "producer": {
+       "sha256": "79b6f44104a09a5b685723552e5484138290669483124509ffbac1369a26da16",
+       "tool": "50_CODE/av2/av2_track_v01.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v01/export/t1_voxelnext/worker0",
+      "x1_tracks_sha256": "893614f1b3e090ab80c4b1859ef9b880408e2a2a39929dae6acd7e0eb6773161"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "8cd2fac9aebdbcc353098e41afa59277d819e2c611ab1ca595c1b61a8f364b8e",
+       "tool": "50_CODE/av2/av2_tracker_input_v01.py"
+      },
+      "experiment": "paper/local/canmot/sc",
+      "producer": {
+       "sha256": "79b6f44104a09a5b685723552e5484138290669483124509ffbac1369a26da16",
+       "tool": "50_CODE/av2/av2_track_v01.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v01/export/t1_voxelnext/worker1",
+      "x1_tracks_sha256": "3b1b54b29375cda8a7062ad1e825cb02285313fe42969d6ad592c5fed3cd91d8"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "8cd2fac9aebdbcc353098e41afa59277d819e2c611ab1ca595c1b61a8f364b8e",
+       "tool": "50_CODE/av2/av2_tracker_input_v01.py"
+      },
+      "experiment": "paper/local/canmot/sc",
+      "producer": {
+       "sha256": "79b6f44104a09a5b685723552e5484138290669483124509ffbac1369a26da16",
+       "tool": "50_CODE/av2/av2_track_v01.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v01/export/t1_voxelnext/worker2",
+      "x1_tracks_sha256": "49314bca7e7066ae9f2f09b430024df0102df62341476b6f3bf7350a66d1408b"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "8cd2fac9aebdbcc353098e41afa59277d819e2c611ab1ca595c1b61a8f364b8e",
+       "tool": "50_CODE/av2/av2_tracker_input_v01.py"
+      },
+      "experiment": "paper/local/canmot/sc",
+      "producer": {
+       "sha256": "79b6f44104a09a5b685723552e5484138290669483124509ffbac1369a26da16",
+       "tool": "50_CODE/av2/av2_track_v01.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v01/export/t1_voxelnext/worker3",
+      "x1_tracks_sha256": "5a0ce48f3faada72e6b8464abe43dea334e3a2498ee394d733422ff0661fc130"
+     }
+    ],
+    "gt": {
+     "method": "re-made, hashed, deleted unopened",
+     "producer": {
+      "seconds": 132.5,
+      "sha256": "5cba8fb9d190ed39b45f1376192cf5eeea24205efac3bc8ff30bc7f4eef8ba77",
+      "tool": "50_CODE/av2/av2_gt_prep_v02.py"
+     },
+     "sha256": "9642db5b35c557944a597977c728cb36f66648afb0ad7fc093bb215cf91c70f2"
+    },
+    "horizon": {
+     "decompressed_sha256": "cf853b36de4ab3f72723dc13bc869f72d8bc9c8aba7c4fab851b7f30a0f22ac4",
+     "method": "re-made",
+     "producer": {
+      "seconds": 340.1,
+      "sha256": "76cc6a9aa7f7ad0992ab3f449298755feb1eef413e7e83f8c8979ba9bc02e540",
+      "tool": "50_CODE/av2/av2_horizon_prep_v02.py"
+     },
+     "sha256": "cd07754ab7db7f2e653aa4fb73fb80bb3167661ec3d6d19a10f629f5e329d60b"
+    }
+   },
+   "sha256": "ca457bb8ad12d6b72eb48807b83a520786cb4ffa1b53197aeea66f13789b8c3f"
+  },
+  "30_DATA/av2_cache_stageA_v01/cache_stageA_t3_lt3d/MANIFEST.json": {
+   "builder": "50_CODE/av2/av2_cache_stageA_v01.py",
+   "inputs": {
+    "ego": {
+     "method": "re-made",
+     "producer": {
+      "seconds": 26.7,
+      "sha256": "037015f21dae83729725e097271ddf037cbea7ab054e62a596e48ea8b384089a",
+      "tool": "50_CODE/av2/av2_ego_prep_v02.py"
+     },
+     "sha256": "ff3d5eee19f706d32b54dd7b87115497cd209f5d687ed25967889170df32e99e"
+    },
+    "exports": [
+     {
+      "detection_adapter": {
+       "sha256": "8cd2fac9aebdbcc353098e41afa59277d819e2c611ab1ca595c1b61a8f364b8e",
+       "tool": "50_CODE/av2/av2_tracker_input_v01.py"
+      },
+      "experiment": "paper/baseline/poly_mot",
+      "producer": {
+       "sha256": "79b6f44104a09a5b685723552e5484138290669483124509ffbac1369a26da16",
+       "tool": "50_CODE/av2/av2_track_v01.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v01/export/t3_lt3d/worker0",
+      "x1_tracks_sha256": "ff5da24204138429bcb57bae0776405bcb7d7f3b66421b5c28a8db96e5b39bde"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "8cd2fac9aebdbcc353098e41afa59277d819e2c611ab1ca595c1b61a8f364b8e",
+       "tool": "50_CODE/av2/av2_tracker_input_v01.py"
+      },
+      "experiment": "paper/baseline/poly_mot",
+      "producer": {
+       "sha256": "79b6f44104a09a5b685723552e5484138290669483124509ffbac1369a26da16",
+       "tool": "50_CODE/av2/av2_track_v01.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v01/export/t3_lt3d/worker1",
+      "x1_tracks_sha256": "32d610a977340a51b5368d0e8fe51668b20cacaaf456635d6e6c120868f2e8aa"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "8cd2fac9aebdbcc353098e41afa59277d819e2c611ab1ca595c1b61a8f364b8e",
+       "tool": "50_CODE/av2/av2_tracker_input_v01.py"
+      },
+      "experiment": "paper/baseline/poly_mot",
+      "producer": {
+       "sha256": "79b6f44104a09a5b685723552e5484138290669483124509ffbac1369a26da16",
+       "tool": "50_CODE/av2/av2_track_v01.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v01/export/t3_lt3d/worker2",
+      "x1_tracks_sha256": "a20c24e44ef4167c8a346901f7e7eefa8ad4df75262371e4d8bc7fd34a264378"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "8cd2fac9aebdbcc353098e41afa59277d819e2c611ab1ca595c1b61a8f364b8e",
+       "tool": "50_CODE/av2/av2_tracker_input_v01.py"
+      },
+      "experiment": "paper/baseline/poly_mot",
+      "producer": {
+       "sha256": "79b6f44104a09a5b685723552e5484138290669483124509ffbac1369a26da16",
+       "tool": "50_CODE/av2/av2_track_v01.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v01/export/t3_lt3d/worker3",
+      "x1_tracks_sha256": "c80c6c05ce45a89bcc5cb1e22416126d1cd5d00008dc05a02f7b378176a56080"
+     }
+    ],
+    "gt": {
+     "method": "re-made, hashed, deleted unopened",
+     "producer": {
+      "seconds": 130.3,
+      "sha256": "5cba8fb9d190ed39b45f1376192cf5eeea24205efac3bc8ff30bc7f4eef8ba77",
+      "tool": "50_CODE/av2/av2_gt_prep_v02.py"
+     },
+     "sha256": "9642db5b35c557944a597977c728cb36f66648afb0ad7fc093bb215cf91c70f2"
+    },
+    "horizon": {
+     "decompressed_sha256": "c25a35cbb0bea03f9141814d914ce87050e81bd64ece5beb1841e2e82a253076",
+     "method": "re-made",
+     "producer": {
+      "seconds": 347.2,
+      "sha256": "76cc6a9aa7f7ad0992ab3f449298755feb1eef413e7e83f8c8979ba9bc02e540",
+      "tool": "50_CODE/av2/av2_horizon_prep_v02.py"
+     },
+     "sha256": "0dd9ff74706a680024751ed21f464b7b97562af3ac3be76a564de34bfc80cde2"
+    }
+   },
+   "sha256": "903fdb29180ab763a7fef31d03e377b0ccc22973f8d6b6eb352cfa5fdd89ada0"
+  },
+  "30_DATA/av2_cache_stageA_v01/cache_stageA_t3_voxelnext/MANIFEST.json": {
+   "builder": "50_CODE/av2/av2_cache_stageA_v01.py",
+   "inputs": {
+    "ego": {
+     "method": "re-made",
+     "producer": {
+      "seconds": 20.1,
+      "sha256": "037015f21dae83729725e097271ddf037cbea7ab054e62a596e48ea8b384089a",
+      "tool": "50_CODE/av2/av2_ego_prep_v02.py"
+     },
+     "sha256": "ff3d5eee19f706d32b54dd7b87115497cd209f5d687ed25967889170df32e99e"
+    },
+    "exports": [
+     {
+      "detection_adapter": {
+       "sha256": "8cd2fac9aebdbcc353098e41afa59277d819e2c611ab1ca595c1b61a8f364b8e",
+       "tool": "50_CODE/av2/av2_tracker_input_v01.py"
+      },
+      "experiment": "paper/baseline/poly_mot",
+      "producer": {
+       "sha256": "79b6f44104a09a5b685723552e5484138290669483124509ffbac1369a26da16",
+       "tool": "50_CODE/av2/av2_track_v01.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v01/export/t3_voxelnext/worker0",
+      "x1_tracks_sha256": "228b5280063257899613b7b433f4f70d80f39b0af74035ee067d6354c134f59b"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "8cd2fac9aebdbcc353098e41afa59277d819e2c611ab1ca595c1b61a8f364b8e",
+       "tool": "50_CODE/av2/av2_tracker_input_v01.py"
+      },
+      "experiment": "paper/baseline/poly_mot",
+      "producer": {
+       "sha256": "79b6f44104a09a5b685723552e5484138290669483124509ffbac1369a26da16",
+       "tool": "50_CODE/av2/av2_track_v01.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v01/export/t3_voxelnext/worker1",
+      "x1_tracks_sha256": "ee99ef9d250791f728ad5daf912081c6d3e9615012cce192f097a1172755b6df"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "8cd2fac9aebdbcc353098e41afa59277d819e2c611ab1ca595c1b61a8f364b8e",
+       "tool": "50_CODE/av2/av2_tracker_input_v01.py"
+      },
+      "experiment": "paper/baseline/poly_mot",
+      "producer": {
+       "sha256": "79b6f44104a09a5b685723552e5484138290669483124509ffbac1369a26da16",
+       "tool": "50_CODE/av2/av2_track_v01.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v01/export/t3_voxelnext/worker2",
+      "x1_tracks_sha256": "60e0a749587c2e1decdaeb24b64cf42126e5f49d948b9a067e4e58dd92ee5d49"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "8cd2fac9aebdbcc353098e41afa59277d819e2c611ab1ca595c1b61a8f364b8e",
+       "tool": "50_CODE/av2/av2_tracker_input_v01.py"
+      },
+      "experiment": "paper/baseline/poly_mot",
+      "producer": {
+       "sha256": "79b6f44104a09a5b685723552e5484138290669483124509ffbac1369a26da16",
+       "tool": "50_CODE/av2/av2_track_v01.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v01/export/t3_voxelnext/worker3",
+      "x1_tracks_sha256": "d32045fbb97148e20e0b59caa2878fed2cefcd9382567149dba8df8029371cb6"
+     }
+    ],
+    "gt": {
+     "method": "re-made, hashed, deleted unopened",
+     "producer": {
+      "seconds": 45.3,
+      "sha256": "5cba8fb9d190ed39b45f1376192cf5eeea24205efac3bc8ff30bc7f4eef8ba77",
+      "tool": "50_CODE/av2/av2_gt_prep_v02.py"
+     },
+     "sha256": "9642db5b35c557944a597977c728cb36f66648afb0ad7fc093bb215cf91c70f2"
+    },
+    "horizon": {
+     "decompressed_sha256": "29aa257636efb53e59d4fa83ec373d4408fc1fe00545e648db38710e5188cefd",
+     "method": "re-made",
+     "producer": {
+      "seconds": 364.1,
+      "sha256": "76cc6a9aa7f7ad0992ab3f449298755feb1eef413e7e83f8c8979ba9bc02e540",
+      "tool": "50_CODE/av2/av2_horizon_prep_v02.py"
+     },
+     "sha256": "00e888a0505baf938802b8f7996bf6f20127303dd2c6d95bc3acdb30f1533aad"
+    }
+   },
+   "sha256": "7fe4d75326e2f5394c528ad1da6e6f2bb48f27c0a53a22e12e2f93137a7bf6e2"
+  },
+  "30_DATA/av2_cache_stageA_v02/cache_stageA_ab3dmot_owncp375/MANIFEST.json": {
+   "builder": "50_CODE/av2/av2_cache_stageA_v02.py",
+   "inputs": {
+    "ego": {
+     "method": "re-made",
+     "producer": {
+      "seconds": 54.4,
+      "sha256": "037015f21dae83729725e097271ddf037cbea7ab054e62a596e48ea8b384089a",
+      "tool": "50_CODE/av2/av2_ego_prep_v02.py"
+     },
+     "sha256": "3e4acb4a946f8a07aa55dd73e7f100fa298e91b0b7012f7df4cb5e2729c50033"
+    },
+    "exports": [
+     {
+      "experiment": "lt3d/ab3dmot",
+      "horizon8_decompressed_sha256": "e7c0ef28883cd7a020d2541e7bba7eede2db34615543eb7e3dd07cb1082068b0",
+      "horizon8_file": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\av2_trk_v02\\export_tab_owncp\\horizon8_ab3dmot_kf_worker0.jsonl.gz",
+      "producer": {
+       "sha256": "e4ea995048402403c7a553bd49e2ffe3a2f26e44238e83825972349a4aa59d54",
+       "tool": "50_CODE/av2/av2_ab3dmot_v05.py"
+      },
+      "record_worker": 0,
+      "worker": "30_DATA/av2_trk_v02/export_tab_owncp/ab3dmot_kf/worker0",
+      "x1_tracks_sha256": "9b3bdbe0c3d266fd5f4ab590ba65c96cb615e9854a86aacc27cdb199d834b240"
+     },
+     {
+      "experiment": "lt3d/ab3dmot",
+      "horizon8_decompressed_sha256": "3d44ab01b4f40a6eadb7222a516273261015647f3b14b1c63254da53e5ab4af4",
+      "horizon8_file": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\av2_trk_v02\\export_tab_owncp\\horizon8_ab3dmot_kf_worker1.jsonl.gz",
+      "producer": {
+       "sha256": "e4ea995048402403c7a553bd49e2ffe3a2f26e44238e83825972349a4aa59d54",
+       "tool": "50_CODE/av2/av2_ab3dmot_v05.py"
+      },
+      "record_worker": 1,
+      "worker": "30_DATA/av2_trk_v02/export_tab_owncp/ab3dmot_kf/worker1",
+      "x1_tracks_sha256": "291484417f5ffce4d7d4a8dba9412431c5c6301746a19966d3a9eb0827d8bec4"
+     },
+     {
+      "experiment": "lt3d/ab3dmot",
+      "horizon8_decompressed_sha256": "c9e36d2031bd98b3c18470ab8c8edbd1d244d785468cd2dfa48294b68590aca6",
+      "horizon8_file": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\av2_trk_v02\\export_tab_owncp\\horizon8_ab3dmot_kf_worker2.jsonl.gz",
+      "producer": {
+       "sha256": "e4ea995048402403c7a553bd49e2ffe3a2f26e44238e83825972349a4aa59d54",
+       "tool": "50_CODE/av2/av2_ab3dmot_v05.py"
+      },
+      "record_worker": 2,
+      "worker": "30_DATA/av2_trk_v02/export_tab_owncp/ab3dmot_kf/worker2",
+      "x1_tracks_sha256": "f0239965d28270023e0eee54009725c9fbe85b8f8b0686bed06b07211a0b5d51"
+     },
+     {
+      "experiment": "lt3d/ab3dmot",
+      "horizon8_decompressed_sha256": "59ce0d33dfd56e5a02118b296762236b94d1f8dbc6f75c27d60f05b91040ab6b",
+      "horizon8_file": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\av2_trk_v02\\export_tab_owncp\\horizon8_ab3dmot_kf_worker3.jsonl.gz",
+      "producer": {
+       "sha256": "e4ea995048402403c7a553bd49e2ffe3a2f26e44238e83825972349a4aa59d54",
+       "tool": "50_CODE/av2/av2_ab3dmot_v05.py"
+      },
+      "record_worker": 3,
+      "worker": "30_DATA/av2_trk_v02/export_tab_owncp/ab3dmot_kf/worker3",
+      "x1_tracks_sha256": "7f30da0eff0340d1d3f5e2e8dff736d08a0f8c19f6441051101fa30a20ad6cea"
+     },
+     {
+      "experiment": "lt3d/ab3dmot",
+      "horizon8_decompressed_sha256": "e387c8e4a927921f9250ea5377184594aaff7fd1dd1d9b9681583ab3d4209741",
+      "horizon8_file": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\av2_trk_v02\\export_tab_owncp\\horizon8_ab3dmot_kf_worker4.jsonl.gz",
+      "producer": {
+       "sha256": "e4ea995048402403c7a553bd49e2ffe3a2f26e44238e83825972349a4aa59d54",
+       "tool": "50_CODE/av2/av2_ab3dmot_v05.py"
+      },
+      "record_worker": 4,
+      "worker": "30_DATA/av2_trk_v02/export_tab_owncp/ab3dmot_kf/worker4",
+      "x1_tracks_sha256": "03ef202e15bfd7e5a50db289d21fede9361e3cb93d9026c87039461062814398"
+     },
+     {
+      "experiment": "lt3d/ab3dmot",
+      "horizon8_decompressed_sha256": "726a8d74322349c8e08278bacae8a94b7773a91aeb467ff867fd9c80a80df0c2",
+      "horizon8_file": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\av2_trk_v02\\export_tab_owncp\\horizon8_ab3dmot_kf_worker5.jsonl.gz",
+      "producer": {
+       "sha256": "e4ea995048402403c7a553bd49e2ffe3a2f26e44238e83825972349a4aa59d54",
+       "tool": "50_CODE/av2/av2_ab3dmot_v05.py"
+      },
+      "record_worker": 5,
+      "worker": "30_DATA/av2_trk_v02/export_tab_owncp/ab3dmot_kf/worker5",
+      "x1_tracks_sha256": "ce668191672f152588fcbb717056358d6c975857b4721814f3c2b70b325d72c9"
+     }
+    ],
+    "gt": {
+     "method": "re-made, hashed, deleted unopened",
+     "producer": {
+      "seconds": 329.7,
+      "sha256": "5cba8fb9d190ed39b45f1376192cf5eeea24205efac3bc8ff30bc7f4eef8ba77",
+      "tool": "50_CODE/av2/av2_gt_prep_v02.py"
+     },
+     "sha256": "e5c390aad971502aec3546d4e2093a3282d3774ed93dc004fb141599d8adb2c2"
+    },
+    "horizon": {
+     "decompressed_sha256": "676eb7e2c227c7969b25b9521954d9e51d6c44a781e55342e42a6da5853c724a",
+     "method": "concatenation of the AB3DMOT workers' horizon8 files",
+     "parts": [
+      "30_DATA/av2_trk_v02/export_tab_owncp/horizon8_ab3dmot_kf_worker0.jsonl.gz",
+      "30_DATA/av2_trk_v02/export_tab_owncp/horizon8_ab3dmot_kf_worker1.jsonl.gz",
+      "30_DATA/av2_trk_v02/export_tab_owncp/horizon8_ab3dmot_kf_worker2.jsonl.gz",
+      "30_DATA/av2_trk_v02/export_tab_owncp/horizon8_ab3dmot_kf_worker3.jsonl.gz",
+      "30_DATA/av2_trk_v02/export_tab_owncp/horizon8_ab3dmot_kf_worker4.jsonl.gz",
+      "30_DATA/av2_trk_v02/export_tab_owncp/horizon8_ab3dmot_kf_worker5.jsonl.gz"
+     ],
+     "producer": {
+      "sha256": "e4ea995048402403c7a553bd49e2ffe3a2f26e44238e83825972349a4aa59d54",
+      "tool": "50_CODE/av2/av2_ab3dmot_v05.py"
+     },
+     "sha256": "578a813a830285246ca92e657a756e72a6fe80ebd9882ea97e25bdb1861b8835"
+    }
+   },
+   "sha256": "50dd453a112ffd1a9ff0c89d84b522ad0353415251861d808d35c9e77f831899"
+  },
+  "30_DATA/av2_cache_stageA_v02/cache_stageA_t1_owncp375/MANIFEST.json": {
+   "builder": "50_CODE/av2/av2_cache_stageA_v02.py",
+   "inputs": {
+    "ego": {
+     "method": "re-made",
+     "producer": {
+      "seconds": 36.3,
+      "sha256": "037015f21dae83729725e097271ddf037cbea7ab054e62a596e48ea8b384089a",
+      "tool": "50_CODE/av2/av2_ego_prep_v02.py"
+     },
+     "sha256": "3e4acb4a946f8a07aa55dd73e7f100fa298e91b0b7012f7df4cb5e2729c50033"
+    },
+    "exports": [
+     {
+      "detection_adapter": {
+       "sha256": "b236804f30864c9bceac8a72cd999b240045009bc3f7c7f96c4439091e5813af",
+       "tool": "50_CODE/av2/av2_tracker_input_v02.py"
+      },
+      "experiment": "paper/local/canmot/sc",
+      "producer": {
+       "sha256": "0a9a0eb300de4cd58ddcddf661547953688a8cf639e81bf45eafa74ceee25eed",
+       "tool": "50_CODE/av2/av2_track_v02.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v02/export/t1_owncp/worker0",
+      "x1_tracks_sha256": "ff63140158a1b0a8bf222b80386cf7f8414e801aa247869deb0324bf3d51a0d1"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "b236804f30864c9bceac8a72cd999b240045009bc3f7c7f96c4439091e5813af",
+       "tool": "50_CODE/av2/av2_tracker_input_v02.py"
+      },
+      "experiment": "paper/local/canmot/sc",
+      "producer": {
+       "sha256": "0a9a0eb300de4cd58ddcddf661547953688a8cf639e81bf45eafa74ceee25eed",
+       "tool": "50_CODE/av2/av2_track_v02.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v02/export/t1_owncp/worker1",
+      "x1_tracks_sha256": "b86f4769e87b3d04f9f8c30d041ca81c96f1aec31ef25b417d6fdf4c470c4a44"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "b236804f30864c9bceac8a72cd999b240045009bc3f7c7f96c4439091e5813af",
+       "tool": "50_CODE/av2/av2_tracker_input_v02.py"
+      },
+      "experiment": "paper/local/canmot/sc",
+      "producer": {
+       "sha256": "0a9a0eb300de4cd58ddcddf661547953688a8cf639e81bf45eafa74ceee25eed",
+       "tool": "50_CODE/av2/av2_track_v02.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v02/export/t1_owncp/worker2",
+      "x1_tracks_sha256": "4d3d3d5a7ab35efc0b062347c7c23878a6d7e9f0f5a9e839271ba5dfca864478"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "b236804f30864c9bceac8a72cd999b240045009bc3f7c7f96c4439091e5813af",
+       "tool": "50_CODE/av2/av2_tracker_input_v02.py"
+      },
+      "experiment": "paper/local/canmot/sc",
+      "producer": {
+       "sha256": "0a9a0eb300de4cd58ddcddf661547953688a8cf639e81bf45eafa74ceee25eed",
+       "tool": "50_CODE/av2/av2_track_v02.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v02/export/t1_owncp/worker3",
+      "x1_tracks_sha256": "afe6f5bda1a54ce58e1753e12383ffd7c7c6d5267a0b5d00abb9ead49e9aacba"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "b236804f30864c9bceac8a72cd999b240045009bc3f7c7f96c4439091e5813af",
+       "tool": "50_CODE/av2/av2_tracker_input_v02.py"
+      },
+      "experiment": "paper/local/canmot/sc",
+      "producer": {
+       "sha256": "0a9a0eb300de4cd58ddcddf661547953688a8cf639e81bf45eafa74ceee25eed",
+       "tool": "50_CODE/av2/av2_track_v02.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v02/export/t1_owncp/worker4",
+      "x1_tracks_sha256": "9dc42c213b52fb75980e04a8753d8a350d00263bd23130e4b39e399de9b85561"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "b236804f30864c9bceac8a72cd999b240045009bc3f7c7f96c4439091e5813af",
+       "tool": "50_CODE/av2/av2_tracker_input_v02.py"
+      },
+      "experiment": "paper/local/canmot/sc",
+      "producer": {
+       "sha256": "0a9a0eb300de4cd58ddcddf661547953688a8cf639e81bf45eafa74ceee25eed",
+       "tool": "50_CODE/av2/av2_track_v02.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v02/export/t1_owncp/worker5",
+      "x1_tracks_sha256": "1ebc86a2952d480e0b1ea89ffc2163fce683d93a90bd4b982f38a3271ddba13e"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "b236804f30864c9bceac8a72cd999b240045009bc3f7c7f96c4439091e5813af",
+       "tool": "50_CODE/av2/av2_tracker_input_v02.py"
+      },
+      "experiment": "paper/local/canmot/sc",
+      "producer": {
+       "sha256": "0a9a0eb300de4cd58ddcddf661547953688a8cf639e81bf45eafa74ceee25eed",
+       "tool": "50_CODE/av2/av2_track_v02.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v02/export/t1_owncp/worker6",
+      "x1_tracks_sha256": "6d5e571617001e471d5fc1ed81ad04ef638dd4d856216fb22d2412ef28c8e32e"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "b236804f30864c9bceac8a72cd999b240045009bc3f7c7f96c4439091e5813af",
+       "tool": "50_CODE/av2/av2_tracker_input_v02.py"
+      },
+      "experiment": "paper/local/canmot/sc",
+      "producer": {
+       "sha256": "0a9a0eb300de4cd58ddcddf661547953688a8cf639e81bf45eafa74ceee25eed",
+       "tool": "50_CODE/av2/av2_track_v02.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v02/export/t1_owncp/worker7",
+      "x1_tracks_sha256": "fd66684282b8ad0fc5fa31337126a79735c8698b30ecd692bb10741fff0481d5"
+     }
+    ],
+    "gt": {
+     "method": "re-made, hashed, deleted unopened",
+     "producer": {
+      "seconds": 160.3,
+      "sha256": "5cba8fb9d190ed39b45f1376192cf5eeea24205efac3bc8ff30bc7f4eef8ba77",
+      "tool": "50_CODE/av2/av2_gt_prep_v02.py"
+     },
+     "sha256": "e5c390aad971502aec3546d4e2093a3282d3774ed93dc004fb141599d8adb2c2"
+    },
+    "horizon": {
+     "decompressed_sha256": "879da73eb27aaebfb1b390c6279d6577a06d53efa5145567f9fa4cb0ec0507ae",
+     "method": "re-made",
+     "producer": {
+      "seconds": 732.0,
+      "sha256": "76cc6a9aa7f7ad0992ab3f449298755feb1eef413e7e83f8c8979ba9bc02e540",
+      "tool": "50_CODE/av2/av2_horizon_prep_v02.py"
+     },
+     "sha256": "168f0ad9eb55d8ff9ed14cb75677c853d9e2b1356bea471e1daa1963321651f2"
+    }
+   },
+   "sha256": "e9b3a385552f976fb12f74a8accef5b932f6aedd13d30b067aa16570c423c5e3"
+  },
+  "30_DATA/av2_cache_stageA_v02/cache_stageA_t3_owncp375/MANIFEST.json": {
+   "builder": "50_CODE/av2/av2_cache_stageA_v02.py",
+   "inputs": {
+    "ego": {
+     "method": "re-made",
+     "producer": {
+      "seconds": 33.9,
+      "sha256": "037015f21dae83729725e097271ddf037cbea7ab054e62a596e48ea8b384089a",
+      "tool": "50_CODE/av2/av2_ego_prep_v02.py"
+     },
+     "sha256": "3e4acb4a946f8a07aa55dd73e7f100fa298e91b0b7012f7df4cb5e2729c50033"
+    },
+    "exports": [
+     {
+      "detection_adapter": {
+       "sha256": "b236804f30864c9bceac8a72cd999b240045009bc3f7c7f96c4439091e5813af",
+       "tool": "50_CODE/av2/av2_tracker_input_v02.py"
+      },
+      "experiment": "paper/baseline/poly_mot",
+      "producer": {
+       "sha256": "0a9a0eb300de4cd58ddcddf661547953688a8cf639e81bf45eafa74ceee25eed",
+       "tool": "50_CODE/av2/av2_track_v02.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v02/export/t3_owncp/worker0",
+      "x1_tracks_sha256": "6a7f1ad426dcacd3c8d1eda83b0ab914eadd89f6c63623978283fd6cbf312696"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "b236804f30864c9bceac8a72cd999b240045009bc3f7c7f96c4439091e5813af",
+       "tool": "50_CODE/av2/av2_tracker_input_v02.py"
+      },
+      "experiment": "paper/baseline/poly_mot",
+      "producer": {
+       "sha256": "0a9a0eb300de4cd58ddcddf661547953688a8cf639e81bf45eafa74ceee25eed",
+       "tool": "50_CODE/av2/av2_track_v02.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v02/export/t3_owncp/worker1",
+      "x1_tracks_sha256": "877e6cac648e1d0600fcc46904bf0cbce030fe929407913990c67ac7ac261ea1"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "b236804f30864c9bceac8a72cd999b240045009bc3f7c7f96c4439091e5813af",
+       "tool": "50_CODE/av2/av2_tracker_input_v02.py"
+      },
+      "experiment": "paper/baseline/poly_mot",
+      "producer": {
+       "sha256": "0a9a0eb300de4cd58ddcddf661547953688a8cf639e81bf45eafa74ceee25eed",
+       "tool": "50_CODE/av2/av2_track_v02.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v02/export/t3_owncp/worker2",
+      "x1_tracks_sha256": "9f58432579d46b1d2d2e8b05a0fd5ba3625091cb584c3d3e3351ff8d15767d32"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "b236804f30864c9bceac8a72cd999b240045009bc3f7c7f96c4439091e5813af",
+       "tool": "50_CODE/av2/av2_tracker_input_v02.py"
+      },
+      "experiment": "paper/baseline/poly_mot",
+      "producer": {
+       "sha256": "0a9a0eb300de4cd58ddcddf661547953688a8cf639e81bf45eafa74ceee25eed",
+       "tool": "50_CODE/av2/av2_track_v02.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v02/export/t3_owncp/worker3",
+      "x1_tracks_sha256": "ac04c88bc25e1f6bc2f0122ec3ceecd4baa4dd14fd0005eb3c956bce70af6f12"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "b236804f30864c9bceac8a72cd999b240045009bc3f7c7f96c4439091e5813af",
+       "tool": "50_CODE/av2/av2_tracker_input_v02.py"
+      },
+      "experiment": "paper/baseline/poly_mot",
+      "producer": {
+       "sha256": "0a9a0eb300de4cd58ddcddf661547953688a8cf639e81bf45eafa74ceee25eed",
+       "tool": "50_CODE/av2/av2_track_v02.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v02/export/t3_owncp/worker4",
+      "x1_tracks_sha256": "79872b3d70562dc8935b009310505e9503e5f3edf503232499c792b10ce52131"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "b236804f30864c9bceac8a72cd999b240045009bc3f7c7f96c4439091e5813af",
+       "tool": "50_CODE/av2/av2_tracker_input_v02.py"
+      },
+      "experiment": "paper/baseline/poly_mot",
+      "producer": {
+       "sha256": "0a9a0eb300de4cd58ddcddf661547953688a8cf639e81bf45eafa74ceee25eed",
+       "tool": "50_CODE/av2/av2_track_v02.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v02/export/t3_owncp/worker5",
+      "x1_tracks_sha256": "a9862efdae2c0151af648bf664e3308095e2716ab88ad55abdda91aa3beecd04"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "b236804f30864c9bceac8a72cd999b240045009bc3f7c7f96c4439091e5813af",
+       "tool": "50_CODE/av2/av2_tracker_input_v02.py"
+      },
+      "experiment": "paper/baseline/poly_mot",
+      "producer": {
+       "sha256": "0a9a0eb300de4cd58ddcddf661547953688a8cf639e81bf45eafa74ceee25eed",
+       "tool": "50_CODE/av2/av2_track_v02.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v02/export/t3_owncp/worker6",
+      "x1_tracks_sha256": "3cd8ce7be90c383d2cc1cc34ddb3fcf9f137a4415942aaa1769bb7bb0442ce44"
+     },
+     {
+      "detection_adapter": {
+       "sha256": "b236804f30864c9bceac8a72cd999b240045009bc3f7c7f96c4439091e5813af",
+       "tool": "50_CODE/av2/av2_tracker_input_v02.py"
+      },
+      "experiment": "paper/baseline/poly_mot",
+      "producer": {
+       "sha256": "0a9a0eb300de4cd58ddcddf661547953688a8cf639e81bf45eafa74ceee25eed",
+       "tool": "50_CODE/av2/av2_track_v02.py"
+      },
+      "record_worker": null,
+      "worker": "30_DATA/av2_trk_v02/export/t3_owncp/worker7",
+      "x1_tracks_sha256": "f218cfd08a02d6b3101c8ade35f32c9789a80c6475908d4cd87c779aa7739ff5"
+     }
+    ],
+    "gt": {
+     "method": "re-made, hashed, deleted unopened",
+     "producer": {
+      "seconds": 236.3,
+      "sha256": "5cba8fb9d190ed39b45f1376192cf5eeea24205efac3bc8ff30bc7f4eef8ba77",
+      "tool": "50_CODE/av2/av2_gt_prep_v02.py"
+     },
+     "sha256": "e5c390aad971502aec3546d4e2093a3282d3774ed93dc004fb141599d8adb2c2"
+    },
+    "horizon": {
+     "decompressed_sha256": "216bbf65c8063b5c7b06b2b46543ae24101bb4cd7a8b5eecbe4fa88f84c6ecf8",
+     "method": "re-made",
+     "producer": {
+      "seconds": 598.0,
+      "sha256": "76cc6a9aa7f7ad0992ab3f449298755feb1eef413e7e83f8c8979ba9bc02e540",
+      "tool": "50_CODE/av2/av2_horizon_prep_v02.py"
+     },
+     "sha256": "b10ea0715040817c6cd41a32062d7957c2ac0e655e0632d50ebe263629141181"
+    }
+   },
+   "sha256": "7c16d94e0b8498afc3eec78de22d3dacea3b5331db1a1c64e20a95db4919bdf7"
+  }
+ },
+ "ok": true,
+ "readme": "50_CODE/c1_av2/README_C1_CODE_v10.md",
+ "readme_sha256": "16c55409cbd2164d707452238810331e02a18e73e399f19e417a2e3d342b7684",
+ "seconds": 4356.6,
+ "status": "PASS",
+ "tool": "c1_av2_provenance_v01",
+ "tool_sha256": "df9b0400cdbd4df59f1f3983add9e72e494762cd3cf20a91ee25fcdb7614bc0b",
+ "utc": "2026-11-06T19:11:32Z"
+}

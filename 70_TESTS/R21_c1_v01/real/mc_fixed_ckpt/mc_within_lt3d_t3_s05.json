@@ -1,0 +1,983 @@
+{
+ "arms": {
+  "Mstar": {
+   "PD7_primary": {
+    "flagged": [],
+    "family_flagged": [],
+    "family_size": 19,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new",
+     "car|lat|static",
+     "car|lat|straight",
+     "car|lat|turning",
+     "car|lat|new",
+     "pedestrian|long|static",
+     "pedestrian|long|straight",
+     "pedestrian|long|turning",
+     "pedestrian|long|new",
+     "pedestrian|lat|static",
+     "pedestrian|lat|straight",
+     "pedestrian|lat|turning",
+     "pedestrian|lat|new",
+     "large|long|static",
+     "large|long|straight",
+     "large|lat|static"
+    ],
+    "NoFlag": true,
+    "FamFlag": false,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": true,
+    "shown_above": false,
+    "pooled_lb": 0.04020047446161392,
+    "pooled_lb_mcse": 1.9391978403802076e-05,
+    "pooled_ub": 0.0470388843977085,
+    "pooled_ub_mcse": 4.921881111867184e-05,
+    "max_lb_minus_delta": -0.008763912681232763,
+    "family_max_lb_minus_delta": -0.00744513108550101,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   },
+   "SD1_7_gap_le_5m": {
+    "flagged": [],
+    "family_flagged": [],
+    "family_size": 8,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|lat|static",
+     "car|lat|straight",
+     "car|lat|new",
+     "pedestrian|long|static",
+     "pedestrian|lat|static",
+     "pedestrian|lat|straight"
+    ],
+    "NoFlag": true,
+    "FamFlag": false,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": true,
+    "shown_above": false,
+    "pooled_lb": 0.025556220505303248,
+    "pooled_lb_mcse": 5.173021569809255e-05,
+    "pooled_ub": 0.04112634613207369,
+    "pooled_ub_mcse": 9.715655168764678e-05,
+    "max_lb_minus_delta": -0.03241919450791873,
+    "family_max_lb_minus_delta": -0.030319796577319053,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   },
+   "PD_inpath": {
+    "flagged": [],
+    "family_flagged": [],
+    "family_size": 5,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new",
+     "car|lat|static"
+    ],
+    "NoFlag": true,
+    "FamFlag": false,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": true,
+    "shown_above": false,
+    "pooled_lb": 0.032164577707489345,
+    "pooled_lb_mcse": 5.7170895313183674e-05,
+    "pooled_ub": 0.05182910146234593,
+    "pooled_ub_mcse": 0.00017151658798868276,
+    "max_lb_minus_delta": -0.027578158503838712,
+    "family_max_lb_minus_delta": -0.031425981858477614,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   }
+  },
+  "B0": {
+   "PD7_primary": {
+    "flagged": [],
+    "family_flagged": [],
+    "family_size": 19,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new",
+     "car|lat|static",
+     "car|lat|straight",
+     "car|lat|turning",
+     "car|lat|new",
+     "pedestrian|long|static",
+     "pedestrian|long|straight",
+     "pedestrian|long|turning",
+     "pedestrian|long|new",
+     "pedestrian|lat|static",
+     "pedestrian|lat|straight",
+     "pedestrian|lat|turning",
+     "pedestrian|lat|new",
+     "large|long|static",
+     "large|long|straight",
+     "large|lat|static"
+    ],
+    "NoFlag": true,
+    "FamFlag": false,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": true,
+    "shown_above": false,
+    "pooled_lb": 0.0027648126905667194,
+    "pooled_lb_mcse": 3.458571869852957e-05,
+    "pooled_ub": 0.0051197413247237,
+    "pooled_ub_mcse": 1.3052125537026058e-05,
+    "max_lb_minus_delta": -0.04243286006065432,
+    "family_max_lb_minus_delta": -0.04240400369124131,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   },
+   "SD1_7_gap_le_5m": {
+    "flagged": [],
+    "family_flagged": [],
+    "family_size": 5,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|lat|static",
+     "pedestrian|long|static",
+     "pedestrian|lat|static"
+    ],
+    "NoFlag": true,
+    "FamFlag": false,
+    "NoFlag_pool": true,
+    "Floor": false,
+    "HK1c": true,
+    "valid": false,
+    "shown_above": false,
+    "pooled_lb": -0.001532571737615021,
+    "pooled_lb_mcse": 0.00013133325197995415,
+    "pooled_ub": 0.005562805256450025,
+    "pooled_ub_mcse": 1.6573695461843335e-05,
+    "max_lb_minus_delta": -0.05,
+    "family_max_lb_minus_delta": -0.05,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   },
+   "PD_inpath": {
+    "flagged": [],
+    "family_flagged": [],
+    "family_size": 4,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new"
+    ],
+    "NoFlag": true,
+    "FamFlag": false,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": true,
+    "shown_above": false,
+    "pooled_lb": -0.0003545704217089618,
+    "pooled_lb_mcse": 7.916950554544097e-05,
+    "pooled_ub": 0.00489461681845191,
+    "pooled_ub_mcse": 1.6719136229750845e-05,
+    "max_lb_minus_delta": -0.05,
+    "family_max_lb_minus_delta": -0.05,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   }
+  },
+  "B1": {
+   "PD7_primary": {
+    "flagged": [],
+    "family_flagged": [
+     "car|long|new"
+    ],
+    "family_size": 19,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new",
+     "car|lat|static",
+     "car|lat|straight",
+     "car|lat|turning",
+     "car|lat|new",
+     "pedestrian|long|static",
+     "pedestrian|long|straight",
+     "pedestrian|long|turning",
+     "pedestrian|long|new",
+     "pedestrian|lat|static",
+     "pedestrian|lat|straight",
+     "pedestrian|lat|turning",
+     "pedestrian|lat|new",
+     "large|long|static",
+     "large|long|straight",
+     "large|lat|static"
+    ],
+    "NoFlag": true,
+    "FamFlag": true,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": false,
+    "shown_above": true,
+    "pooled_lb": 0.011950909400185668,
+    "pooled_lb_mcse": 9.744728014523826e-05,
+    "pooled_ub": 0.018617863124107334,
+    "pooled_ub_mcse": 3.323844044777134e-05,
+    "max_lb_minus_delta": -0.00012020588594291448,
+    "family_max_lb_minus_delta": 0.0012657057903757707,
+    "near_t_minus_q": [
+     {
+      "cell": "car|long|new",
+      "t": 5.010294960655702,
+      "q": 5.026196247789829
+     }
+    ],
+    "family_near_t_minus_q": [
+     {
+      "cell": "car|long|new",
+      "t": 5.010294960655702,
+      "q": 4.842862633675878
+     }
+    ]
+   },
+   "SD1_7_gap_le_5m": {
+    "flagged": [],
+    "family_flagged": [],
+    "family_size": 6,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|lat|static",
+     "pedestrian|long|static",
+     "pedestrian|lat|static",
+     "pedestrian|lat|straight"
+    ],
+    "NoFlag": true,
+    "FamFlag": false,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": true,
+    "shown_above": false,
+    "pooled_lb": 0.004476451202118371,
+    "pooled_lb_mcse": 0.00012576302757400353,
+    "pooled_ub": 0.014108902083801594,
+    "pooled_ub_mcse": 4.394414696768876e-05,
+    "max_lb_minus_delta": -0.05,
+    "family_max_lb_minus_delta": -0.051833534508947815,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   },
+   "PD_inpath": {
+    "flagged": [],
+    "family_flagged": [],
+    "family_size": 4,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new"
+    ],
+    "NoFlag": true,
+    "FamFlag": false,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": true,
+    "shown_above": false,
+    "pooled_lb": 0.007770093517832376,
+    "pooled_lb_mcse": 0.00038223984636847057,
+    "pooled_ub": 0.029358462282428062,
+    "pooled_ub_mcse": 9.717230843231664e-05,
+    "max_lb_minus_delta": -0.05,
+    "family_max_lb_minus_delta": -0.04832745960468872,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   }
+  },
+  "B3": {
+   "PD7_primary": {
+    "flagged": [],
+    "family_flagged": [],
+    "family_size": 19,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new",
+     "car|lat|static",
+     "car|lat|straight",
+     "car|lat|turning",
+     "car|lat|new",
+     "pedestrian|long|static",
+     "pedestrian|long|straight",
+     "pedestrian|long|turning",
+     "pedestrian|long|new",
+     "pedestrian|lat|static",
+     "pedestrian|lat|straight",
+     "pedestrian|lat|turning",
+     "pedestrian|lat|new",
+     "large|long|static",
+     "large|long|straight",
+     "large|lat|static"
+    ],
+    "NoFlag": true,
+    "FamFlag": false,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": true,
+    "shown_above": false,
+    "pooled_lb": 0.0005610656352849657,
+    "pooled_lb_mcse": 1.718885409984941e-05,
+    "pooled_ub": 0.001996322090724026,
+    "pooled_ub_mcse": 6.904253442752093e-06,
+    "max_lb_minus_delta": -0.05,
+    "family_max_lb_minus_delta": -0.05,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   },
+   "SD1_7_gap_le_5m": {
+    "flagged": [],
+    "family_flagged": [],
+    "family_size": 2,
+    "family": [
+     "car|lat|static",
+     "pedestrian|lat|static"
+    ],
+    "NoFlag": true,
+    "FamFlag": false,
+    "NoFlag_pool": true,
+    "Floor": false,
+    "HK1c": true,
+    "valid": false,
+    "shown_above": false,
+    "pooled_lb": -0.004508516878725825,
+    "pooled_lb_mcse": 0.00013001211719118583,
+    "pooled_ub": 0.0028595939376608523,
+    "pooled_ub_mcse": 0.0,
+    "max_lb_minus_delta": -0.05,
+    "family_max_lb_minus_delta": -0.05,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   },
+   "PD_inpath": {
+    "flagged": [],
+    "family_flagged": [],
+    "family_size": 4,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new"
+    ],
+    "NoFlag": true,
+    "FamFlag": false,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": true,
+    "shown_above": false,
+    "pooled_lb": -0.0005444786078228055,
+    "pooled_lb_mcse": 2.570691617665763e-05,
+    "pooled_ub": 0.000772039951626515,
+    "pooled_ub_mcse": 0.0,
+    "max_lb_minus_delta": -0.05,
+    "family_max_lb_minus_delta": -0.05,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   }
+  },
+  "B4": {
+   "PD7_primary": {
+    "flagged": [
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new",
+     "large|long|straight",
+     "large|long|turning",
+     "large|long|new"
+    ],
+    "family_flagged": [
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new",
+     "large|long|straight"
+    ],
+    "family_size": 19,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new",
+     "car|lat|static",
+     "car|lat|straight",
+     "car|lat|turning",
+     "car|lat|new",
+     "pedestrian|long|static",
+     "pedestrian|long|straight",
+     "pedestrian|long|turning",
+     "pedestrian|long|new",
+     "pedestrian|lat|static",
+     "pedestrian|lat|straight",
+     "pedestrian|lat|turning",
+     "pedestrian|lat|new",
+     "large|long|static",
+     "large|long|straight",
+     "large|lat|static"
+    ],
+    "NoFlag": false,
+    "FamFlag": true,
+    "NoFlag_pool": false,
+    "Floor": true,
+    "HK1c": true,
+    "valid": false,
+    "shown_above": true,
+    "pooled_lb": 0.05241558680757498,
+    "pooled_lb_mcse": 0.00019311651423822306,
+    "pooled_ub": 0.06713430064830309,
+    "pooled_ub_mcse": 8.497079407901223e-05,
+    "max_lb_minus_delta": 0.1425283115629552,
+    "family_max_lb_minus_delta": 0.1466166906840714,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": [
+     {
+      "cell": "large|long|static",
+      "t": 4.320832620455871,
+      "q": 4.471777465711324
+     }
+    ]
+   },
+   "SD1_7_gap_le_5m": {
+    "flagged": [
+     "car|long|straight",
+     "car|long|new"
+    ],
+    "family_flagged": [
+     "car|long|straight"
+    ],
+    "family_size": 8,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|long|turning",
+     "car|lat|static",
+     "car|lat|straight",
+     "pedestrian|long|static",
+     "pedestrian|lat|static",
+     "pedestrian|lat|straight"
+    ],
+    "NoFlag": false,
+    "FamFlag": true,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": false,
+    "shown_above": true,
+    "pooled_lb": 0.030975401120181233,
+    "pooled_lb_mcse": 0.00029752201855954153,
+    "pooled_ub": 0.05208418267107288,
+    "pooled_ub_mcse": 9.635237070014197e-05,
+    "max_lb_minus_delta": 0.09081031540555258,
+    "family_max_lb_minus_delta": 0.07177856774558476,
+    "near_t_minus_q": [
+     {
+      "cell": "large|long|straight",
+      "t": 5.003205545011726,
+      "q": 5.143371052738034
+     }
+    ],
+    "family_near_t_minus_q": [
+     {
+      "cell": "car|long|turning",
+      "t": 4.597013971518237,
+      "q": 4.632008143322664
+     }
+    ]
+   },
+   "PD_inpath": {
+    "flagged": [
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new"
+    ],
+    "family_flagged": [
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new"
+    ],
+    "family_size": 5,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new",
+     "car|lat|static"
+    ],
+    "NoFlag": false,
+    "FamFlag": true,
+    "NoFlag_pool": false,
+    "Floor": true,
+    "HK1c": false,
+    "valid": false,
+    "shown_above": true,
+    "pooled_lb": 0.0827803313787446,
+    "pooled_lb_mcse": 0.0006941146706961344,
+    "pooled_ub": 0.13479628438153562,
+    "pooled_ub_mcse": 0.00029407068874452995,
+    "max_lb_minus_delta": 0.04919929420456477,
+    "family_max_lb_minus_delta": 0.053582019624417734,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   }
+  },
+  "B6": {
+   "PD7_primary": {
+    "flagged": [
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new",
+     "car|lat|turning"
+    ],
+    "family_flagged": [
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new",
+     "car|lat|turning",
+     "car|lat|new"
+    ],
+    "family_size": 19,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new",
+     "car|lat|static",
+     "car|lat|straight",
+     "car|lat|turning",
+     "car|lat|new",
+     "pedestrian|long|static",
+     "pedestrian|long|straight",
+     "pedestrian|long|turning",
+     "pedestrian|long|new",
+     "pedestrian|lat|static",
+     "pedestrian|lat|straight",
+     "pedestrian|lat|turning",
+     "pedestrian|lat|new",
+     "large|long|static",
+     "large|long|straight",
+     "large|lat|static"
+    ],
+    "NoFlag": false,
+    "FamFlag": true,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": false,
+    "shown_above": true,
+    "pooled_lb": 0.04333442407533533,
+    "pooled_lb_mcse": 0.00016732632243242928,
+    "pooled_ub": 0.053552359901978416,
+    "pooled_ub_mcse": 5.887871355816494e-05,
+    "max_lb_minus_delta": 0.08184156398187341,
+    "family_max_lb_minus_delta": 0.08578848848346192,
+    "near_t_minus_q": [
+     {
+      "cell": "car|lat|new",
+      "t": 4.869367936422505,
+      "q": 4.983498528997997
+     }
+    ],
+    "family_near_t_minus_q": []
+   },
+   "SD1_7_gap_le_5m": {
+    "flagged": [],
+    "family_flagged": [],
+    "family_size": 8,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|lat|static",
+     "car|lat|straight",
+     "car|lat|turning",
+     "pedestrian|long|static",
+     "pedestrian|lat|static",
+     "pedestrian|lat|straight"
+    ],
+    "NoFlag": true,
+    "FamFlag": false,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": true,
+    "shown_above": false,
+    "pooled_lb": 0.022131262847724896,
+    "pooled_lb_mcse": 0.00032191068153374953,
+    "pooled_ub": 0.045304502691499264,
+    "pooled_ub_mcse": 0.00010597584225271272,
+    "max_lb_minus_delta": -0.03143797429209025,
+    "family_max_lb_minus_delta": -0.025200834007461086,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   },
+   "PD_inpath": {
+    "flagged": [],
+    "family_flagged": [],
+    "family_size": 5,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new",
+     "car|lat|static"
+    ],
+    "NoFlag": true,
+    "FamFlag": false,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": true,
+    "shown_above": false,
+    "pooled_lb": 0.027372957051939286,
+    "pooled_lb_mcse": 0.0004461325343841832,
+    "pooled_ub": 0.05598036196918766,
+    "pooled_ub_mcse": 0.00015872653083201006,
+    "max_lb_minus_delta": -0.03150939898466991,
+    "family_max_lb_minus_delta": -0.03709969192412954,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   }
+  },
+  "B9": {
+   "PD7_primary": {
+    "flagged": [
+     "car|long|new"
+    ],
+    "family_flagged": [
+     "car|long|new"
+    ],
+    "family_size": 19,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new",
+     "car|lat|static",
+     "car|lat|straight",
+     "car|lat|turning",
+     "car|lat|new",
+     "pedestrian|long|static",
+     "pedestrian|long|straight",
+     "pedestrian|long|turning",
+     "pedestrian|long|new",
+     "pedestrian|lat|static",
+     "pedestrian|lat|straight",
+     "pedestrian|lat|turning",
+     "pedestrian|lat|new",
+     "large|long|static",
+     "large|long|straight",
+     "large|lat|static"
+    ],
+    "NoFlag": false,
+    "FamFlag": true,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": false,
+    "shown_above": true,
+    "pooled_lb": 0.010693517386816696,
+    "pooled_lb_mcse": 5.355863869951046e-05,
+    "pooled_ub": 0.01613717820153046,
+    "pooled_ub_mcse": 2.9515087697401737e-05,
+    "max_lb_minus_delta": 0.03320917023930671,
+    "family_max_lb_minus_delta": 0.03476564765966571,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   },
+   "SD1_7_gap_le_5m": {
+    "flagged": [],
+    "family_flagged": [],
+    "family_size": 6,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|lat|static",
+     "car|lat|straight",
+     "pedestrian|long|static",
+     "pedestrian|lat|static"
+    ],
+    "NoFlag": true,
+    "FamFlag": false,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": true,
+    "shown_above": false,
+    "pooled_lb": 0.0006307468641547744,
+    "pooled_lb_mcse": 9.399770590510899e-05,
+    "pooled_ub": 0.007352499138819933,
+    "pooled_ub_mcse": 2.623074544962826e-05,
+    "max_lb_minus_delta": -0.05,
+    "family_max_lb_minus_delta": -0.05160534791895578,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   },
+   "PD_inpath": {
+    "flagged": [],
+    "family_flagged": [],
+    "family_size": 4,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new"
+    ],
+    "NoFlag": true,
+    "FamFlag": false,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": true,
+    "shown_above": false,
+    "pooled_lb": 0.006812736702885682,
+    "pooled_lb_mcse": 0.0002457123351929883,
+    "pooled_ub": 0.022417714147813822,
+    "pooled_ub_mcse": 8.082435667750075e-05,
+    "max_lb_minus_delta": -0.05,
+    "family_max_lb_minus_delta": -0.042383275985906035,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   }
+  },
+  "RETUNED": {
+   "PD7_primary": {
+    "flagged": [
+     "car|long|turning",
+     "car|long|new"
+    ],
+    "family_flagged": [
+     "car|long|turning",
+     "car|long|new"
+    ],
+    "family_size": 19,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new",
+     "car|lat|static",
+     "car|lat|straight",
+     "car|lat|turning",
+     "car|lat|new",
+     "pedestrian|long|static",
+     "pedestrian|long|straight",
+     "pedestrian|long|turning",
+     "pedestrian|long|new",
+     "pedestrian|lat|static",
+     "pedestrian|lat|straight",
+     "pedestrian|lat|turning",
+     "pedestrian|lat|new",
+     "large|long|static",
+     "large|long|straight",
+     "large|lat|static"
+    ],
+    "NoFlag": false,
+    "FamFlag": true,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": false,
+    "shown_above": true,
+    "pooled_lb": 0.020492259930895172,
+    "pooled_lb_mcse": 0.00016417449062782158,
+    "pooled_ub": 0.03072159370007224,
+    "pooled_ub_mcse": 5.2049204930564396e-05,
+    "max_lb_minus_delta": 0.06006415895175714,
+    "family_max_lb_minus_delta": 0.061848010669039874,
+    "near_t_minus_q": [
+     {
+      "cell": "car|long|turning",
+      "t": 5.191072831161642,
+      "q": 5.078820820708269
+     }
+    ],
+    "family_near_t_minus_q": [
+     {
+      "cell": "car|long|straight",
+      "t": 4.842437318548991,
+      "q": 4.901166086922183
+     }
+    ]
+   },
+   "SD1_7_gap_le_5m": {
+    "flagged": [],
+    "family_flagged": [],
+    "family_size": 7,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|lat|static",
+     "car|lat|straight",
+     "pedestrian|long|static",
+     "pedestrian|lat|static",
+     "pedestrian|lat|straight"
+    ],
+    "NoFlag": true,
+    "FamFlag": false,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": true,
+    "shown_above": false,
+    "pooled_lb": 0.008747602438531815,
+    "pooled_lb_mcse": 0.0001208553662220137,
+    "pooled_ub": 0.0184770338528759,
+    "pooled_ub_mcse": 5.1149411018796385e-05,
+    "max_lb_minus_delta": -0.03132281690205155,
+    "family_max_lb_minus_delta": -0.0280197282862088,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   },
+   "PD_inpath": {
+    "flagged": [],
+    "family_flagged": [],
+    "family_size": 4,
+    "family": [
+     "car|long|static",
+     "car|long|straight",
+     "car|long|turning",
+     "car|long|new"
+    ],
+    "NoFlag": true,
+    "FamFlag": false,
+    "NoFlag_pool": true,
+    "Floor": true,
+    "HK1c": true,
+    "valid": true,
+    "shown_above": false,
+    "pooled_lb": 0.02372710036110128,
+    "pooled_lb_mcse": 0.00042619033310842367,
+    "pooled_ub": 0.05971547107681204,
+    "pooled_ub_mcse": 0.00016089402082745548,
+    "max_lb_minus_delta": -0.0362359767267822,
+    "family_max_lb_minus_delta": -0.027643889012683234,
+    "near_t_minus_q": [],
+    "family_near_t_minus_q": []
+   }
+  }
+ },
+ "V": [
+  "B0",
+  "B3"
+ ],
+ "valid_Mstar": true,
+ "met": true,
+ "vacuous": false,
+ "removal_stat": {
+  "B0": -0.04240400369124131,
+  "B1": 0.0012657057903757707,
+  "B3": -0.04943893436471504,
+  "B4": 0.1466166906840714,
+  "B6": 0.08578848848346192,
+  "B9": 0.03476564765966571,
+  "RETUNED": 0.061848010669039874
+ },
+ "removal_stat_mcse": {
+  "B0": 0.0004733424000753396,
+  "B1": 0.0006964065417698792,
+  "B3": 1.718885409984941e-05,
+  "B4": 0.0008234456337577131,
+  "B6": 0.0011109265801208697,
+  "B9": 0.001124235802024439,
+  "RETUNED": 0.0008531357873963982
+ },
+ "without_zero_se": {
+  "V": [
+   "B0",
+   "B3"
+  ],
+  "met": true
+ },
+ "form_b": {
+  "B0": {
+   "ub": -0.5816064418229482,
+   "ub_mcse": 0.00040880881531469914,
+   "p": 2.499937501562461e-05,
+   "level": 0.99375
+  },
+  "B3": {
+   "ub": -0.6658484160112926,
+   "ub_mcse": 0.0003836222162000283,
+   "p": 2.499937501562461e-05,
+   "level": 0.99375
+  }
+ },
+ "form_b_p": 4.999875003124922e-05,
+ "H3": {
+  "VJ": [
+   "B0",
+   "B3"
+  ],
+  "validJ": true,
+  "p": 1.0,
+  "met_bound_form": false,
+  "ub": {
+   "B0": 0.05572238253680177,
+   "B3": -0.02845378100423473
+  },
+  "ub_mcse": {
+   "B0": 0.00023006850607301728,
+   "B3": 0.00018178421608870405
+  }
+ },
+ "H2": {
+  "mean_diff": -0.06855366001209921,
+  "ub": -0.053981814882032644,
+  "ub_mcse": 0.00010981232126351362,
+  "c": 0.03,
+  "met": true,
+  "p_k": 0,
+  "p": 2.499937501562461e-05
+ },
+ "fixed_level_form_b": {
+  "B0": {
+   "ub": -0.5816064418229482,
+   "ub_mcse": 0.00040880881531469914,
+   "p": 2.499937501562461e-05,
+   "level": 0.99375
+  },
+  "B3": {
+   "ub": -0.6658484160112926,
+   "ub_mcse": 0.0003836222162000283,
+   "p": 2.499937501562461e-05,
+   "level": 0.99375
+  }
+ },
+ "set": 5,
+ "seed": [
+  20261121,
+  1,
+  0,
+  5
+ ],
+ "B": 40000,
+ "power_mode": "fixed",
+ "seconds": 3.7494277954101562,
+ "memory": {
+  "working_set_mb": 288.1328125,
+  "peak_working_set_mb": 358.609375,
+  "peak_private_mb": 376.36328125
+ }
+}

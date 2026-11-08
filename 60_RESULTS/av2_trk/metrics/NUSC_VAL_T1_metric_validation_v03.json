@@ -1,0 +1,182 @@
+{
+ "label": "nuScenes val T1 (paper/local/canmot/sc), x1_export_val150_fast_v04 workers 0-2, GT x1_val_gt_v02.json; code av2_track_metrics_v03",
+ "status": "the run computed all four classes and then stopped in its reference-comparison block (a key error: the per-class reference values are under 'label_metrics'; fixed in the file afterwards). The values below are parsed from the run log by this script and compared with CANMOT's reference evaluation (reproducibility/reference/local_canmot_sc.json)",
+ "log": "C:/Users/anand/Downloads/ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911/30_DATA/av2_trk_v01/logs/metrics_nusc_t1_validation_v03.log",
+ "per_class": {
+  "bicycle": {
+   "amota": {
+    "ours": 0.5665326171495492,
+    "reference": 0.5665326171495492,
+    "equal": true
+   },
+   "mota": {
+    "ours": 0.5052684395383844,
+    "reference": 0.5052684395383844,
+    "equal": true
+   },
+   "recall": {
+    "ours": 0.6467636728549925,
+    "reference": 0.6467636728549925,
+    "equal": true
+   },
+   "ids": {
+    "ours": 1.0,
+    "reference": 1.0,
+    "equal": true
+   },
+   "tp": {
+    "ours": 1288.0,
+    "reference": 1288.0,
+    "equal": true
+   },
+   "fp": {
+    "ours": 281.0,
+    "reference": 281.0,
+    "equal": true
+   },
+   "fn": {
+    "ours": 704.0,
+    "reference": 704.0,
+    "equal": true
+   },
+   "gt": {
+    "ours": 1993.0,
+    "reference": 1993.0,
+    "equal": true
+   }
+  },
+  "bus": {
+   "amota": {
+    "ours": 0.8758941459875682,
+    "reference": 0.8758941459875682,
+    "equal": true
+   },
+   "mota": {
+    "ours": 0.7902462121212122,
+    "reference": 0.7902462121212122,
+    "equal": true
+   },
+   "recall": {
+    "ours": 0.8674242424242424,
+    "reference": 0.8674242424242424,
+    "equal": true
+   },
+   "ids": {
+    "ours": 0.0,
+    "reference": 0.0,
+    "equal": true
+   },
+   "tp": {
+    "ours": 1832.0,
+    "reference": 1832.0,
+    "equal": true
+   },
+   "fp": {
+    "ours": 163.0,
+    "reference": 163.0,
+    "equal": true
+   },
+   "fn": {
+    "ours": 280.0,
+    "reference": 280.0,
+    "equal": true
+   },
+   "gt": {
+    "ours": 2112.0,
+    "reference": 2112.0,
+    "equal": true
+   }
+  },
+  "car": {
+   "amota": {
+    "ours": 0.8648777514719983,
+    "reference": 0.8648777514719983,
+    "equal": true
+   },
+   "mota": {
+    "ours": 0.7384810604112009,
+    "reference": 0.7384810604112009,
+    "equal": true
+   },
+   "recall": {
+    "ours": 0.8418985887477065,
+    "reference": 0.8418985887477065,
+    "equal": true
+   },
+   "ids": {
+    "ours": 72.0,
+    "reference": 72.0,
+    "equal": true
+   },
+   "tp": {
+    "ours": 49025.0,
+    "reference": 49025.0,
+    "equal": true
+   },
+   "fp": {
+    "ours": 5959.0,
+    "reference": 5959.0,
+    "equal": true
+   },
+   "fn": {
+    "ours": 9220.0,
+    "reference": 9220.0,
+    "equal": true
+   },
+   "gt": {
+    "ours": 58317.0,
+    "reference": 58317.0,
+    "equal": true
+   }
+  },
+  "pedestrian": {
+   "amota": {
+    "ours": 0.8340153133784283,
+    "reference": 0.8340153133784283,
+    "equal": true
+   },
+   "mota": {
+    "ours": 0.7058962356920898,
+    "reference": 0.7058962356920898,
+    "equal": true
+   },
+   "recall": {
+    "ours": 0.8528104472328206,
+    "reference": 0.8528104472328206,
+    "equal": true
+   },
+   "ids": {
+    "ours": 109.0,
+    "reference": 109.0,
+    "equal": true
+   },
+   "tp": {
+    "ours": 21572.0,
+    "reference": 21572.0,
+    "equal": true
+   },
+   "fp": {
+    "ours": 3626.0,
+    "reference": 3626.0,
+    "equal": true
+   },
+   "fn": {
+    "ours": 3742.0,
+    "reference": 3742.0,
+    "equal": true
+   },
+   "gt": {
+    "ours": 25423.0,
+    "reference": 25423.0,
+    "equal": true
+   }
+  }
+ },
+ "all_equal": true,
+ "classes_checked": [
+  "bicycle",
+  "bus",
+  "car",
+  "pedestrian"
+ ]
+}

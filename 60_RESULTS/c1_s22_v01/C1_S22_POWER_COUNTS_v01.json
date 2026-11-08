@@ -1,0 +1,604 @@
+{
+ "script": "50_CODE/c1_av2/c1_power_counts_v05.py",
+ "script_sha256": "d2b9907cd6ffd503bf2b45ab2fde19c0c3a8eab4cecf6ec3a386e1cadeac6bdc",
+ "modules_sha256": {
+  "v02": "8f78393519d80572730c6babcb52e8133faaaab03981aa44d9e82f0cfb536b6b",
+  "v03": "38fdb281815185e8ccb53fcc6d505fee364452c00be2dfa3fcb1ea4b12696270",
+  "v04": "8dd60b800d490584737c0c40a5d68a934897884761c837392584afbb06868d42"
+ },
+ "status": "S22: reported only; changes no label, rule, threshold or population (D16 v26 Choice 47i)",
+ "parts": [
+  "A",
+  "B",
+  "H9",
+  "J"
+ ],
+ "development_inputs": {
+  "part_B": "70_TESTS/k8_expl_v02_linux_analysis_v03/k8_exploratory_analysis_v03.json (K8 Linux replicate, v03 analysis, R16)",
+  "part_H9": "30_DATA/tpp_v01/keys_t{1,3}_val_v01.npz (nuScenes Trajectron++ keys: history shares)"
+ },
+ "outcome_statement": "AV2: stage-A counts-only items and counts v01/v02 only. No AV2 outcome computed or read.",
+ "partH9": {
+  "t1": {
+   "items_file": "30_DATA/av2_cache_stageA_v02/items/items_k8_v04_av2_stageA_t1_owncp375.npz",
+   "items_sha256": "8e9fac1c7b56e7e7d68d3e0f4a8fb8e45ce0fcd583c4eaad0c13d134d8cedc89",
+   "units": 375,
+   "pd_items": 5090,
+   "dev_keys": "30_DATA/tpp_v01/keys_t1_val_v01.npz",
+   "dev_keys_sha256": "6a2a3df9f053ea06ae3c2cb8b543c81a8c5ae50d7c202e8be4e3c1510b34352a",
+   "dev_pd_items": 1681,
+   "dev_history_shares": {
+    "all": {
+     "-1": 0.04104699583581202,
+     "0": 0.06067816775728733,
+     "1": 0.11659726353361094,
+     "2": 0.7816775728732898
+    },
+    "by_group": {
+     "0": {
+      "-1": 0.027966101694915254,
+      "0": 0.05677966101694915,
+      "1": 0.11186440677966102,
+      "2": 0.8033898305084746
+     },
+     "1": {
+      "-1": 0.05963302752293578,
+      "0": 0.045871559633027525,
+      "1": 0.11009174311926606,
+      "2": 0.7844036697247706
+     },
+     "2": {
+      "-1": 0.1506849315068493,
+      "0": 0.1780821917808219,
+      "1": 0.273972602739726,
+      "2": 0.3972602739726027
+     },
+     "3": {
+      "-1": 0.05714285714285714,
+      "0": 0.05714285714285714,
+      "1": 0.09523809523809523,
+      "2": 0.7904761904761904
+     }
+    }
+   },
+   "primary": {
+    "label": "no history length (Choice 49g): every PD item, E2 cells only; overstates H9's power",
+    "first_draw": {
+     "375_logs": {
+      "cells": [
+       "car|all ranges|long|static",
+       "car|all ranges|long|straight",
+       "car|all ranges|long|turning",
+       "car|all ranges|long|new",
+       "car|all ranges|lat|static",
+       "car|all ranges|lat|straight",
+       "car|all ranges|lat|turning",
+       "all groups|all ranges|both axes|static",
+       "all groups|all ranges|both axes|straight",
+       "all groups|all ranges|both axes|turning",
+       "all groups|all ranges|both axes|new"
+      ],
+      "items_per_cell": [
+       852,
+       2103,
+       300,
+       227,
+       395,
+       217,
+       205,
+       210,
+       330,
+       155,
+       96
+      ],
+      "evaluable": 11,
+      "evaluable_E2": 11,
+      "family_size": 2,
+      "family_size_E2": 2,
+      "E2_family_item_share": 0.5805500982318271,
+      "power_rule": "c1_rules_v01.power_target (target-only, 2000 datasets)"
+     }
+    },
+    "375_logs": {
+     "units": 375,
+     "draws": 1,
+     "family_size_E2_median": 2.0,
+     "family_size_E2_min": 2,
+     "family_size_E2_max": 2,
+     "P_family_E2_ge_6": 0.0
+    }
+   },
+   "sensitivity_dev_history": {
+    "label": "descriptive: development history shares, joint E2 + HL family",
+    "first_draw": {
+     "375_logs": {
+      "cells": [
+       "car|all ranges|long|static",
+       "car|all ranges|long|straight",
+       "car|all ranges|long|turning",
+       "car|all ranges|long|new",
+       "car|all ranges|lat|static",
+       "car|all ranges|lat|straight",
+       "car|all ranges|lat|turning",
+       "all groups|all ranges|both axes|static",
+       "all groups|all ranges|both axes|straight",
+       "all groups|all ranges|both axes|turning",
+       "all groups|all ranges|both axes|new",
+       "hist=2",
+       "hist=3-4",
+       "hist>=5"
+      ],
+      "items_per_cell": [
+       832,
+       2033,
+       290,
+       222,
+       382,
+       214,
+       196,
+       196,
+       312,
+       149,
+       93,
+       310,
+       550,
+       4059
+      ],
+      "evaluable": 14,
+      "evaluable_E2": 11,
+      "family_size": 5,
+      "family_size_E2": 2,
+      "E2_family_item_share": 0.5824354543606424,
+      "power_rule": "c1_rules_v01.power_target (target-only, 2000 datasets)"
+     }
+    },
+    "375_logs": {
+     "units": 375,
+     "draws": 20,
+     "family_size_E2_median": 2.0,
+     "family_size_E2_min": 2,
+     "family_size_E2_max": 2,
+     "P_family_E2_ge_6": 0.0
+    }
+   }
+  },
+  "t3": {
+   "items_file": "30_DATA/av2_cache_stageA_v02/items/items_k8_v04_av2_stageA_t3_owncp375.npz",
+   "items_sha256": "699fdca99d4ed9b79a98fdc71d4f92acdb86741acb42a208173d68afbba86ac2",
+   "units": 375,
+   "pd_items": 4901,
+   "dev_keys": "30_DATA/tpp_v01/keys_t3_val_v01.npz",
+   "dev_keys_sha256": "05f4d6ff3ca2dd211884912d44dcdc7a1d4f42941cd649ae922f6d9aec4284c1",
+   "dev_pd_items": 1636,
+   "dev_history_shares": {
+    "all": {
+     "-1": 0.04523227383863081,
+     "0": 0.0617359413202934,
+     "1": 0.11063569682151589,
+     "2": 0.78239608801956
+    },
+    "by_group": {
+     "0": {
+      "-1": 0.03836094158674804,
+      "0": 0.05579773321708806,
+      "1": 0.1028770706190061,
+      "2": 0.8029642545771578
+     },
+     "1": {
+      "-1": 0.0430622009569378,
+      "0": 0.05263157894736842,
+      "1": 0.10047846889952153,
+      "2": 0.8038277511961722
+     },
+     "2": {
+      "-1": 0.14084507042253522,
+      "0": 0.19718309859154928,
+      "1": 0.29577464788732394,
+      "2": 0.36619718309859156
+     },
+     "3": {
+      "-1": 0.05263157894736842,
+      "0": 0.05741626794258373,
+      "1": 0.10047846889952153,
+      "2": 0.7894736842105263
+     }
+    }
+   },
+   "primary": {
+    "label": "no history length (Choice 49g): every PD item, E2 cells only; overstates H9's power",
+    "first_draw": {
+     "375_logs": {
+      "cells": [
+       "car|all ranges|long|static",
+       "car|all ranges|long|straight",
+       "car|all ranges|long|turning",
+       "car|all ranges|long|new",
+       "car|all ranges|lat|static",
+       "car|all ranges|lat|straight",
+       "car|all ranges|lat|turning",
+       "all groups|all ranges|both axes|static",
+       "all groups|all ranges|both axes|straight",
+       "all groups|all ranges|both axes|turning",
+       "all groups|all ranges|both axes|new"
+      ],
+      "items_per_cell": [
+       827,
+       2067,
+       332,
+       222,
+       348,
+       185,
+       170,
+       205,
+       326,
+       135,
+       84
+      ],
+      "evaluable": 11,
+      "evaluable_E2": 11,
+      "family_size": 2,
+      "family_size_E2": 2,
+      "E2_family_item_share": 0.5904917363803306,
+      "power_rule": "c1_rules_v01.power_target (target-only, 2000 datasets)"
+     }
+    },
+    "375_logs": {
+     "units": 375,
+     "draws": 1,
+     "family_size_E2_median": 2.0,
+     "family_size_E2_min": 2,
+     "family_size_E2_max": 2,
+     "P_family_E2_ge_6": 0.0
+    }
+   },
+   "sensitivity_dev_history": {
+    "label": "descriptive: development history shares, joint E2 + HL family",
+    "first_draw": {
+     "375_logs": {
+      "cells": [
+       "car|all ranges|long|static",
+       "car|all ranges|long|straight",
+       "car|all ranges|long|turning",
+       "car|all ranges|long|new",
+       "car|all ranges|lat|static",
+       "car|all ranges|lat|straight",
+       "car|all ranges|lat|turning",
+       "all groups|all ranges|both axes|static",
+       "all groups|all ranges|both axes|straight",
+       "all groups|all ranges|both axes|turning",
+       "all groups|all ranges|both axes|new",
+       "hist=2",
+       "hist=3-4",
+       "hist>=5"
+      ],
+      "items_per_cell": [
+       797,
+       1976,
+       321,
+       214,
+       338,
+       173,
+       165,
+       199,
+       309,
+       125,
+       81,
+       300,
+       487,
+       3911
+      ],
+      "evaluable": 14,
+      "evaluable_E2": 11,
+      "family_size": 5,
+      "family_size_E2": 2,
+      "E2_family_item_share": 0.5902511707109408,
+      "power_rule": "c1_rules_v01.power_target (target-only, 2000 datasets)"
+     }
+    },
+    "375_logs": {
+     "units": 375,
+     "draws": 20,
+     "family_size_E2_median": 2.0,
+     "family_size_E2_min": 2,
+     "family_size_E2_max": 2,
+     "P_family_E2_ge_6": 0.0
+    }
+   }
+  }
+ },
+ "counts_v02_sha256": "4f42248489b31dce7d324ddfdd0c7a83ada4de75760695947149732e4ecd90fa",
+ "partA_375": {
+  "k": 2.5,
+  "logs": 375,
+  "t1_lt3d": {
+   "PD7_primary": {
+    "family_median": 20.0,
+    "family_p10": 19.0,
+    "evaluable_median": 26.0,
+    "P_family_ge_6": 1.0
+   },
+   "SD1_7_gap_le_5m": {
+    "family_median": 11.0,
+    "family_p10": 10.0,
+    "evaluable_median": 18.0,
+    "P_family_ge_6": 1.0
+   },
+   "PD_inpath": {
+    "family_median": 6.0,
+    "family_p10": 6.0,
+    "evaluable_median": 9.0,
+    "P_family_ge_6": 0.99725
+   },
+   "P_floors_met": 1.0
+  },
+  "t3_lt3d": {
+   "PD7_primary": {
+    "family_median": 20.0,
+    "family_p10": 19.0,
+    "evaluable_median": 26.0,
+    "P_family_ge_6": 1.0
+   },
+   "SD1_7_gap_le_5m": {
+    "family_median": 11.0,
+    "family_p10": 10.0,
+    "evaluable_median": 18.0,
+    "P_family_ge_6": 1.0
+   },
+   "PD_inpath": {
+    "family_median": 6.0,
+    "family_p10": 6.0,
+    "evaluable_median": 8.0,
+    "P_family_ge_6": 0.9885
+   },
+   "P_floors_met": 1.0
+  },
+  "t1_voxelnext": {
+   "PD7_primary": {
+    "family_median": 22.0,
+    "family_p10": 22.0,
+    "evaluable_median": 26.0,
+    "P_family_ge_6": 1.0
+   },
+   "SD1_7_gap_le_5m": {
+    "family_median": 15.0,
+    "family_p10": 14.0,
+    "evaluable_median": 21.0,
+    "P_family_ge_6": 1.0
+   },
+   "PD_inpath": {
+    "family_median": 7.0,
+    "family_p10": 7.0,
+    "evaluable_median": 14.0,
+    "P_family_ge_6": 1.0
+   },
+   "P_floors_met": 1.0
+  },
+  "t3_voxelnext": {
+   "PD7_primary": {
+    "family_median": 21.0,
+    "family_p10": 20.0,
+    "evaluable_median": 26.0,
+    "P_family_ge_6": 1.0
+   },
+   "SD1_7_gap_le_5m": {
+    "family_median": 13.0,
+    "family_p10": 12.0,
+    "evaluable_median": 20.0,
+    "P_family_ge_6": 1.0
+   },
+   "PD_inpath": {
+    "family_median": 7.0,
+    "family_p10": 7.0,
+    "evaluable_median": 17.0,
+    "P_family_ge_6": 1.0
+   },
+   "P_floors_met": 1.0
+  },
+  "P_floors_met_T1_and_T3_lt3d": 1.0,
+  "P_floors_met_T1_and_T3_voxelnext": 1.0
+ },
+ "partJ": {
+  "nuScenes_fold_about_165_scenes": {
+   "n_calibration_units": 165,
+   "finite_sample_term": 0.006024096385542169,
+   "max_mean_calibration_joint_loss": 0.04424242424242425
+  },
+  "AV2_val_only_fold_30_logs": {
+   "n_calibration_units": 30,
+   "finite_sample_term": 0.03225806451612903,
+   "max_mean_calibration_joint_loss": 0.018333333333333337
+  },
+  "AV2_375_fold_75_logs": {
+   "n_calibration_units": 75,
+   "finite_sample_term": 0.013157894736842105,
+   "max_mean_calibration_joint_loss": 0.037333333333333336
+  }
+ },
+ "analysis_sha256": "ec85ce1207a4d8479b822a4fb9e807337d075d1273d2a8fdbd7cf7c89d0f72eb",
+ "partB_375": {
+  "plug_in": {
+   "P_H1_with_floors_synthetic": 0.92,
+   "P_H1_without_floors": 0.92,
+   "P_H2": 1.0,
+   "P_H10": 1.0,
+   "t1": {
+    "P_formB_without_floors": 0.95,
+    "P_Mstar_failure_reason": {
+     "cell_flag": 0.0033333333333333335,
+     "floor": 0.0,
+     "family_flag": 0.01,
+     "pooled": 0.023333333333333334,
+     "hk1c": 0.03666666666666667
+    },
+    "P_B6_not_shown_above_delta": 0.0,
+    "P_B6_strict_valid": 0.0,
+    "P_beats_B6_given_in_V": null,
+    "synthetic_family_median": {
+     "PD7_primary": 19.0,
+     "SD1_7_gap_le_5m": 7.0,
+     "PD_inpath": 3.0
+    },
+    "P_in_V": {
+     "B0": 0.0,
+     "B1": 0.0,
+     "B3": 1.0,
+     "B4": 0.0,
+     "B6": 0.0,
+     "B9": 0.0033333333333333335,
+     "RETUNED": 0.0
+    }
+   },
+   "t3": {
+    "P_formB_without_floors": 0.9633333333333334,
+    "P_Mstar_failure_reason": {
+     "cell_flag": 0.013333333333333334,
+     "floor": 0.0,
+     "family_flag": 0.03666666666666667,
+     "pooled": 0.0,
+     "hk1c": 0.0
+    },
+    "P_B6_not_shown_above_delta": 0.0,
+    "P_B6_strict_valid": 0.0,
+    "P_beats_B6_given_in_V": null,
+    "synthetic_family_median": {
+     "PD7_primary": 19.0,
+     "SD1_7_gap_le_5m": 6.0,
+     "PD_inpath": 4.0
+    },
+    "P_in_V": {
+     "B0": 1.0,
+     "B1": 0.0,
+     "B3": 1.0,
+     "B4": 0.0,
+     "B6": 0.0,
+     "B9": 0.0,
+     "RETUNED": 0.0
+    }
+   },
+   "P_H1_combined_estimate": 0.92
+  },
+  "Mstar_capped": {
+   "P_H1_with_floors_synthetic": 0.9733333333333334,
+   "P_H1_without_floors": 0.9733333333333334,
+   "P_H2": 1.0,
+   "P_H10": 1.0,
+   "t1": {
+    "P_formB_without_floors": 0.9766666666666667,
+    "P_Mstar_failure_reason": {
+     "cell_flag": 0.0033333333333333335,
+     "floor": 0.0,
+     "family_flag": 0.0,
+     "pooled": 0.0033333333333333335,
+     "hk1c": 0.016666666666666666
+    },
+    "P_B6_not_shown_above_delta": 0.0,
+    "P_B6_strict_valid": 0.0,
+    "P_beats_B6_given_in_V": null,
+    "synthetic_family_median": {
+     "PD7_primary": 19.0,
+     "SD1_7_gap_le_5m": 7.0,
+     "PD_inpath": 3.0
+    },
+    "P_in_V": {
+     "B0": 0.0,
+     "B1": 0.0,
+     "B3": 1.0,
+     "B4": 0.0,
+     "B6": 0.0,
+     "B9": 0.0,
+     "RETUNED": 0.0
+    }
+   },
+   "t3": {
+    "P_formB_without_floors": 0.9966666666666667,
+    "P_Mstar_failure_reason": {
+     "cell_flag": 0.0033333333333333335,
+     "floor": 0.0,
+     "family_flag": 0.0033333333333333335,
+     "pooled": 0.0,
+     "hk1c": 0.0
+    },
+    "P_B6_not_shown_above_delta": 0.0,
+    "P_B6_strict_valid": 0.0,
+    "P_beats_B6_given_in_V": null,
+    "synthetic_family_median": {
+     "PD7_primary": 19.0,
+     "SD1_7_gap_le_5m": 6.0,
+     "PD_inpath": 4.0
+    },
+    "P_in_V": {
+     "B0": 1.0,
+     "B1": 0.0,
+     "B3": 1.0,
+     "B4": 0.0,
+     "B6": 0.0,
+     "B9": 0.0,
+     "RETUNED": 0.0
+    }
+   },
+   "P_H1_combined_estimate": 0.9733333333333334
+  },
+  "kappa_0.5": {
+   "P_H1_with_floors_synthetic": 0.88,
+   "P_H1_without_floors": 0.88,
+   "P_H2": 1.0,
+   "P_H10": 0.98,
+   "t1": {
+    "P_formB_without_floors": 0.9233333333333333,
+    "P_Mstar_failure_reason": {
+     "cell_flag": 0.006666666666666667,
+     "floor": 0.0,
+     "family_flag": 0.03,
+     "pooled": 0.04666666666666667,
+     "hk1c": 0.04666666666666667
+    },
+    "P_B6_not_shown_above_delta": 0.0033333333333332993,
+    "P_B6_strict_valid": 0.0033333333333333335,
+    "P_beats_B6_given_in_V": 1.0,
+    "synthetic_family_median": {
+     "PD7_primary": 19.0,
+     "SD1_7_gap_le_5m": 7.0,
+     "PD_inpath": 3.0
+    },
+    "P_in_V": {
+     "B0": 0.0,
+     "B1": 0.0,
+     "B3": 1.0,
+     "B4": 0.0,
+     "B6": 0.0033333333333333335,
+     "B9": 0.0,
+     "RETUNED": 0.0
+    }
+   },
+   "t3": {
+    "P_formB_without_floors": 0.95,
+    "P_Mstar_failure_reason": {
+     "cell_flag": 0.03,
+     "floor": 0.0,
+     "family_flag": 0.043333333333333335,
+     "pooled": 0.0,
+     "hk1c": 0.0
+    },
+    "P_B6_not_shown_above_delta": 0.00666666666666671,
+    "P_B6_strict_valid": 0.006666666666666667,
+    "P_beats_B6_given_in_V": 0.0,
+    "synthetic_family_median": {
+     "PD7_primary": 19.0,
+     "SD1_7_gap_le_5m": 6.0,
+     "PD_inpath": 4.0
+    },
+    "P_in_V": {
+     "B0": 1.0,
+     "B1": 0.0,
+     "B3": 1.0,
+     "B4": 0.0,
+     "B6": 0.006666666666666667,
+     "B9": 0.0,
+     "RETUNED": 0.0
+    }
+   },
+   "P_H1_combined_estimate": 0.88
+  }
+ },
+ "wall_seconds": 378.7
+}

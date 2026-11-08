@@ -1,0 +1,1518 @@
+{
+ "tracker": "t3",
+ "arm": "B3",
+ "pops": {
+  "PD7": {
+   "cells_used": 27,
+   "evaluable": 32,
+   "anova_pooled": 0.09610907764094336,
+   "anova_pooled_ci95": [
+    0.07133367926516992,
+    0.14150489677703418
+   ],
+   "bb_pooled": 0.12136608864791011,
+   "bb_pooled_converged": true,
+   "bb_pooled_ci95": [
+    0.08715576514002939,
+    0.18589042733760805
+   ],
+   "bb_boot_B": 200,
+   "anova_cell_median": 0.04881387063264603,
+   "anova_cell_iqr": [
+    0.010174020522088274,
+    0.17211291524889022
+   ],
+   "bb_cell_median": 0.13128379477985802,
+   "implied_cell_median": 0.06929650054196358,
+   "implied_cell_iqr": [
+    -0.16073649963568248,
+    0.30317152720875284
+   ],
+   "implied_cell_max": 0.6650776591151616,
+   "cells": {
+    "car|long|static": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 766,
+     "records": 158581,
+     "exceed": 78,
+     "E": 0.0013460100948282905,
+     "se_boot_k8": 0.00041693826676626164,
+     "anova_rho": 0.03612166844879602,
+     "anova_rho_ci95": [
+      0.01592968229670973,
+      0.07514824752089964
+     ],
+     "bb_rho": 0.050098804726995384,
+     "implied_rho": 0.06775753341101487,
+     "median_records_per_scene": 139.5
+    },
+    "car|long|straight": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 632,
+     "records": 35617,
+     "exceed": 86,
+     "E": 0.00412160268149184,
+     "se_boot_k8": 0.0017352071075639921,
+     "anova_rho": 0.04086274416738755,
+     "anova_rho_ci95": [
+      0.015678444851768617,
+      0.08343812982183331
+     ],
+     "bb_rho": 0.028199468126826728,
+     "implied_rho": 0.41597765213572657,
+     "median_records_per_scene": 31.0
+    },
+    "car|long|turning": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 597,
+     "records": 13301,
+     "exceed": 77,
+     "E": 0.005213639650590209,
+     "se_boot_k8": 0.0015044914349564248,
+     "anova_rho": 0.09230655594236149,
+     "anova_rho_ci95": [
+      0.030133219544557627,
+      0.15069471549531813
+     ],
+     "bb_rho": 0.13027026807616177,
+     "implied_rho": 0.12569627520840698,
+     "median_records_per_scene": 14.0
+    },
+    "car|long|new": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 602,
+     "records": 5865,
+     "exceed": 126,
+     "E": 0.019567819048805144,
+     "se_boot_k8": 0.0033243318507565523,
+     "anova_rho": 0.17378239906854798,
+     "anova_rho_ci95": [
+      0.1120886806700854,
+      0.2518309710078902
+     ],
+     "bb_rho": 0.19935693883053127,
+     "implied_rho": 0.18528866660590937,
+     "median_records_per_scene": 7.0
+    },
+    "car|lat|static": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 734,
+     "records": 150932,
+     "exceed": 102,
+     "E": 0.0010789634408246776,
+     "se_boot_k8": 0.0004055750827507047,
+     "anova_rho": 0.0321524531091652,
+     "anova_rho_ci95": [
+      0.01762143087006653,
+      0.04570698823155919
+     ],
+     "bb_rho": 0.04316188208459136,
+     "implied_rho": 0.06929650054196358,
+     "median_records_per_scene": 121.5
+    },
+    "car|lat|straight": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 384,
+     "records": 4820,
+     "exceed": 9,
+     "E": 0.0008396247908125449,
+     "se_boot_k8": 0.0006050185359590749,
+     "anova_rho": -0.011804412064988657,
+     "anova_rho_ci95": [
+      -0.08176584011093707,
+      0.0891189999050459
+     ],
+     "bb_rho": 0.021797859107437867,
+     "implied_rho": -0.16786903288522176,
+     "median_records_per_scene": 6.0
+    },
+    "car|lat|turning": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 366,
+     "records": 4043,
+     "exceed": 20,
+     "E": 0.0027605103343541983,
+     "se_boot_k8": 0.0010059408205322915,
+     "anova_rho": 0.042651005051535566,
+     "anova_rho_ci95": [
+      -0.02458962200653733,
+      0.10148483991728798
+     ],
+     "bb_rho": 0.12217620322481203,
+     "implied_rho": -0.29039314627034185,
+     "median_records_per_scene": 6.0
+    },
+    "car|lat|new": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 365,
+     "records": 2020,
+     "exceed": 6,
+     "E": 0.001539630796278661,
+     "se_boot_k8": 0.000808020469899288,
+     "anova_rho": -0.04817117127485968,
+     "anova_rho_ci95": [
+      -0.12449299055677183,
+      0.017054650725444157
+     ],
+     "bb_rho": 0.0695726210842766,
+     "implied_rho": -0.3952474771545618,
+     "median_records_per_scene": 4.0
+    },
+    "pedestrian|long|static": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 650,
+     "records": 47142,
+     "exceed": 181,
+     "E": 0.001060029295612963,
+     "se_boot_k8": 0.0003503640592489293,
+     "anova_rho": 0.044833886059092366,
+     "anova_rho_ci95": [
+      0.0052732359619366564,
+      0.0680200312592294
+     ],
+     "bb_rho": 0.046199235240554436,
+     "implied_rho": -0.016825760839114412,
+     "median_records_per_scene": 34.0
+    },
+    "pedestrian|long|straight": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 602,
+     "records": 32703,
+     "exceed": 188,
+     "E": 0.0014541264546766774,
+     "se_boot_k8": 0.0004918188505306192,
+     "anova_rho": 0.04881387063264603,
+     "anova_rho_ci95": [
+      0.016553562846562744,
+      0.0673384493330557
+     ],
+     "bb_rho": 0.08092529403579399,
+     "implied_rho": -0.011600228154596442,
+     "median_records_per_scene": 25.0
+    },
+    "pedestrian|long|turning": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 630,
+     "records": 36251,
+     "exceed": 280,
+     "E": 0.0024380702525986595,
+     "se_boot_k8": 0.00097898747219759,
+     "anova_rho": 0.09124906197202015,
+     "anova_rho_ci95": [
+      0.06379546860908865,
+      0.10556651766313747
+     ],
+     "bb_rho": 0.13358754811283285,
+     "implied_rho": 0.17331398048769028,
+     "median_records_per_scene": 28.0
+    },
+    "pedestrian|long|new": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 520,
+     "records": 6660,
+     "exceed": 14,
+     "E": 0.0012689335194375519,
+     "se_boot_k8": 0.0007733520717727058,
+     "anova_rho": 0.07929998964225453,
+     "anova_rho_ci95": [
+      -0.010942440176947909,
+      0.27320565557138654
+     ],
+     "bb_rho": 0.1902374004517808,
+     "implied_rho": 0.07216396830240471,
+     "median_records_per_scene": 8.0
+    },
+    "pedestrian|lat|static": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 644,
+     "records": 60124,
+     "exceed": 312,
+     "E": 0.0012028887206596355,
+     "se_boot_k8": 0.0004385562597189524,
+     "anova_rho": 0.03651598898506656,
+     "anova_rho_ci95": [
+      0.01628217896227296,
+      0.04745494750504982
+     ],
+     "bb_rho": 0.04670110146225364,
+     "implied_rho": 0.022933022318437905,
+     "median_records_per_scene": 42.0
+    },
+    "pedestrian|lat|straight": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 542,
+     "records": 23646,
+     "exceed": 43,
+     "E": 0.0020988186669783017,
+     "se_boot_k8": 0.0016443654757059617,
+     "anova_rho": 0.2582997896841329,
+     "anova_rho_ci95": [
+      0.0129532248441852,
+      0.8866885541840893
+     ],
+     "bb_rho": 0.5568854152676106,
+     "implied_rho": 0.6590376524574582,
+     "median_records_per_scene": 22.0
+    },
+    "pedestrian|lat|turning": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 568,
+     "records": 22486,
+     "exceed": 48,
+     "E": 0.0019108952992974355,
+     "se_boot_k8": 0.0015412122044282145,
+     "anova_rho": 0.3079752290216954,
+     "anova_rho_ci95": [
+      0.0021443086293578646,
+      0.8331644698215567
+     ],
+     "bb_rho": 0.40616058890396195,
+     "implied_rho": 0.6650776591151616,
+     "median_records_per_scene": 19.5
+    },
+    "pedestrian|lat|new": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 491,
+     "records": 6170,
+     "exceed": 1,
+     "E": 5.0916496945010185e-05,
+     "se_boot_k8": 4.922841675433694e-05,
+     "anova_rho": -0.059600499152601565,
+     "anova_rho_ci95": [
+      -0.0804463237151974,
+      -0.042444082029014396
+     ],
+     "bb_rho": 1.526144462986016e-07,
+     "implied_rho": -0.24500978349151778,
+     "median_records_per_scene": 7.0
+    },
+    "two_wheeler|long|static": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 302,
+     "records": 6015,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 10.0
+    },
+    "two_wheeler|long|straight": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 112,
+     "records": 1790,
+     "exceed": 3,
+     "E": 0.00045645904079639023,
+     "se_boot_k8": 0.00043650227906320973,
+     "anova_rho": -0.042314265368882095,
+     "anova_rho_ci95": [
+      -0.06552638923589797,
+      -0.025681299309569874
+     ],
+     "bb_rho": 0.010030222909207541,
+     "implied_rho": -0.271191824615768,
+     "median_records_per_scene": 7.0
+    },
+    "two_wheeler|long|turning": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 87,
+     "records": 811,
+     "exceed": 6,
+     "E": 0.010144548937652386,
+     "se_boot_k8": 0.008815739583831594,
+     "anova_rho": 0.3422331712702625,
+     "anova_rho_ci95": [
+      -0.0820042792001465,
+      0.7247147325022711
+     ],
+     "bb_rho": 0.34698660266449144,
+     "implied_rho": 0.5369593020311701,
+     "median_records_per_scene": 6.0
+    },
+    "two_wheeler|long|new": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 101,
+     "records": 451,
+     "exceed": 2,
+     "E": 0.0019801980198019802,
+     "se_boot_k8": 0.0017371457002220553,
+     "anova_rho": -0.03359911674951441,
+     "anova_rho_ci95": [
+      -0.08721215258110972,
+      -0.004736733285986916
+     ],
+     "bb_rho": 0.14794894559981087,
+     "implied_rho": -0.2652170429036926,
+     "median_records_per_scene": 3.0
+    },
+    "two_wheeler|lat|static": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 308,
+     "records": 6590,
+     "exceed": 1,
+     "E": 3.959455178967374e-05,
+     "se_boot_k8": 4.0816159807478716e-05,
+     "anova_rho": -0.03648801317235286,
+     "anova_rho_ci95": [
+      -0.04363557859923403,
+      -0.030691143421426717
+     ],
+     "bb_rho": 3.324255604087266e-08,
+     "implied_rho": -0.15360396638614324,
+     "median_records_per_scene": 14.0
+    },
+    "two_wheeler|lat|straight": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 82,
+     "records": 835,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 8.0
+    },
+    "two_wheeler|lat|turning": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 58,
+     "records": 439,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 5.0
+    },
+    "two_wheeler|lat|new": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 46,
+     "records": 186,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 3.0
+    },
+    "large|long|static": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 516,
+     "records": 31822,
+     "exceed": 59,
+     "E": 0.0031737900391930864,
+     "se_boot_k8": 0.0014472188506606833,
+     "anova_rho": 0.16056727776613267,
+     "anova_rho_ci95": [
+      0.05566100905885237,
+      0.2209293869189269
+     ],
+     "bb_rho": 0.19985149441031733,
+     "implied_rho": 0.2993312647299768,
+     "median_records_per_scene": 42.0
+    },
+    "large|long|straight": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 348,
+     "records": 7691,
+     "exceed": 19,
+     "E": 0.006692171900979449,
+     "se_boot_k8": 0.0031477012617148682,
+     "anova_rho": 0.17044343142923246,
+     "anova_rho_ci95": [
+      0.04363196133217425,
+      0.31754734155342207
+     ],
+     "bb_rho": 0.13128379477985802,
+     "implied_rho": 0.41189792433369593,
+     "median_records_per_scene": 12.0
+    },
+    "large|long|turning": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 272,
+     "records": 3554,
+     "exceed": 26,
+     "E": 0.009997646126961982,
+     "se_boot_k8": 0.0046032369763577404,
+     "anova_rho": 0.39838297176050186,
+     "anova_rho_ci95": [
+      0.03539268423909692,
+      0.5818246478940573
+     ],
+     "bb_rho": 0.36328490119009993,
+     "implied_rho": 0.4544124814041168,
+     "median_records_per_scene": 8.0
+    },
+    "large|long|new": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 239,
+     "records": 1067,
+     "exceed": 7,
+     "E": 0.0048814504881450485,
+     "se_boot_k8": 0.002942325146951894,
+     "anova_rho": 0.33769999553379854,
+     "anova_rho_ci95": [
+      0.014870270687399845,
+      0.5725220688280607
+     ],
+     "bb_rho": 0.38092958168737273,
+     "implied_rho": 0.15688593082799135,
+     "median_records_per_scene": 4.0
+    },
+    "large|lat|static": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 462,
+     "records": 28409,
+     "exceed": 2,
+     "E": 0.00027056277056277056,
+     "se_boot_k8": 0.00027853240557181567,
+     "anova_rho": 0.11098732669998691,
+     "anova_rho_ci95": [
+      0.10838043090933021,
+      0.11271197079108955
+     ],
+     "bb_rho": 0.22068288315882903,
+     "implied_rho": 0.04352854577960242,
+     "median_records_per_scene": 36.0
+    },
+    "large|lat|straight": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 192,
+     "records": 1970,
+     "exceed": 2,
+     "E": 0.0026041666666666665,
+     "se_boot_k8": 0.0026828940146465937,
+     "anova_rho": 0.44973910535991063,
+     "anova_rho_ci95": [
+      0.4335157625935913,
+      0.4591448410855964
+     ],
+     "bb_rho": 0.49697375919172465,
+     "implied_rho": 0.30701178968752885,
+     "median_records_per_scene": 4.0
+    },
+    "large|lat|turning": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 153,
+     "records": 1501,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 5.0
+    },
+    "large|lat|new": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 112,
+     "records": 407,
+     "exceed": 3,
+     "E": 0.0020604395604395605,
+     "se_boot_k8": 0.0019624258270055277,
+     "anova_rho": -0.06733997935638968,
+     "anova_rho_ci95": [
+      -0.13610117979568961,
+      -0.015736574208524465
+     ],
+     "bb_rho": 0.19935910430391948,
+     "implied_rho": -0.4409555265449366,
+     "median_records_per_scene": 3.0
+    }
+   }
+  },
+  "SD1_7": {
+   "cells_used": 4,
+   "evaluable": 17,
+   "anova_pooled": 0.14475680847635847,
+   "anova_pooled_ci95": [
+    -0.1669158384227255,
+    0.6585739182688053
+   ],
+   "bb_pooled": 0.06611741298664371,
+   "bb_pooled_converged": true,
+   "bb_pooled_ci95": [
+    1.522997951276035e-08,
+    0.5520921035045814
+   ],
+   "bb_boot_B": 200,
+   "anova_cell_median": -0.08880805366818245,
+   "anova_cell_iqr": [
+    -0.11531442482800894,
+    0.18387901748725036
+   ],
+   "bb_cell_median": 0.039988564142676805,
+   "implied_cell_median": -0.6463210383847381,
+   "implied_cell_iqr": [
+    -0.8775795153541732,
+    -0.1151253215402101
+   ],
+   "implied_cell_max": 0.9876340237251852,
+   "cells": {
+    "car|long|static": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 288,
+     "records": 3849,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 5.0
+    },
+    "car|long|straight": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 188,
+     "records": 627,
+     "exceed": 1,
+     "E": 0.0008865248226950354,
+     "se_boot_k8": 0.0007962589893589075,
+     "anova_rho": -0.1928933073539397,
+     "anova_rho_ci95": [
+      -0.289043103626902,
+      -0.1157055438100832
+     ],
+     "bb_rho": 5.20229656067602e-07,
+     "implied_rho": -1.0805271409942903,
+     "median_records_per_scene": 2.0
+    },
+    "car|long|turning": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 90,
+     "records": 164,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 1.0
+    },
+    "car|long|new": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 35,
+     "records": 41,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 1.0
+    },
+    "car|lat|static": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 336,
+     "records": 11185,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 12.5
+    },
+    "car|lat|straight": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 64,
+     "records": 178,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 2.0
+    },
+    "car|lat|turning": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 47,
+     "records": 106,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 2.0
+    },
+    "car|lat|new": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 17,
+     "records": 18,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 1.0
+    },
+    "pedestrian|long|static": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 162,
+     "records": 1050,
+     "exceed": 3,
+     "E": 0.0005144032921810699,
+     "se_boot_k8": 0.0005253154558451972,
+     "anova_rho": -0.08816131001699953,
+     "anova_rho_ci95": [
+      -0.17257631893383368,
+      -0.036982956315504655
+     ],
+     "bb_rho": 0.07721874684304558,
+     "implied_rho": -0.8099303068074676,
+     "median_records_per_scene": 2.0
+    },
+    "pedestrian|long|straight": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 89,
+     "records": 313,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 2.0
+    },
+    "pedestrian|long|turning": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 91,
+     "records": 267,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 2.0
+    },
+    "pedestrian|long|new": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 8,
+     "records": 9,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 1.0
+    },
+    "pedestrian|lat|static": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 274,
+     "records": 2010,
+     "exceed": 6,
+     "E": 0.001277216460771635,
+     "se_boot_k8": 0.000892555889528612,
+     "anova_rho": -0.08945479731936536,
+     "anova_rho_ci95": [
+      -0.1799217153324239,
+      0.06225052535348681
+     ],
+     "bb_rho": 0.002758381442308029,
+     "implied_rho": -0.48271176996200854,
+     "median_records_per_scene": 3.0
+    },
+    "pedestrian|lat|straight": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 111,
+     "records": 719,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 3.0
+    },
+    "pedestrian|lat|turning": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 118,
+     "records": 557,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 3.0
+    },
+    "pedestrian|lat|new": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 19,
+     "records": 27,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 1.0
+    },
+    "two_wheeler|long|static": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 53,
+     "records": 187,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 2.0
+    },
+    "two_wheeler|long|straight": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 15,
+     "records": 57,
+     "exceed": 1,
+     "E": 0.06666666666666667,
+     "se_boot_k8": 0.0665312619711808,
+     "anova_rho": 1.0,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": 1.3121994728868043,
+     "median_records_per_scene": 1.0
+    },
+    "two_wheeler|long|turning": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 4,
+     "records": 6,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 1.5
+    },
+    "two_wheeler|long|new": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 2,
+     "records": 2,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 1.0
+    },
+    "two_wheeler|lat|static": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 73,
+     "records": 265,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 2.0
+    },
+    "two_wheeler|lat|straight": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 15,
+     "records": 45,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 2.0
+    },
+    "two_wheeler|lat|turning": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 13,
+     "records": 21,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 1.0
+    },
+    "two_wheeler|lat|new": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 3,
+     "records": 6,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 1.0
+    },
+    "large|long|static": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 118,
+     "records": 623,
+     "exceed": 3,
+     "E": 0.00847457627118644,
+     "se_boot_k8": 0.008414620560132277,
+     "anova_rho": 1.0,
+     "anova_rho_ci95": [
+      1.0,
+      1.0
+     ],
+     "bb_rho": 0.9996646498695336,
+     "implied_rho": 0.9876340237251852,
+     "median_records_per_scene": 2.0
+    },
+    "large|long|straight": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 50,
+     "records": 95,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 1.0
+    },
+    "large|long|turning": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 24,
+     "records": 39,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 1.0
+    },
+    "large|long|new": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 5,
+     "records": 5,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 1.0
+    },
+    "large|lat|static": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 139,
+     "records": 1781,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 6.0
+    },
+    "large|lat|straight": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 20,
+     "records": 52,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 1.5
+    },
+    "large|lat|turning": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 15,
+     "records": 28,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 2.0
+    }
+   }
+  },
+  "PD": {
+   "cells_used": 4,
+   "evaluable": 14,
+   "anova_pooled": 0.7692417490616931,
+   "anova_pooled_ci95": [
+    0.09018614672874369,
+    1.0
+   ],
+   "bb_pooled": 0.7423132275945575,
+   "bb_pooled_converged": true,
+   "bb_pooled_ci95": [
+    1.522997951276035e-08,
+    0.9435248427039132
+   ],
+   "bb_boot_B": 200,
+   "anova_cell_median": 0.3650995481646693,
+   "anova_cell_iqr": [
+    0.05623575060497772,
+    0.7359713491056499
+   ],
+   "bb_cell_median": 0.3398067274586431,
+   "implied_cell_median": 0.2595996565056627,
+   "implied_cell_iqr": [
+    -0.12996147650490103,
+    0.7457754948354011
+   ],
+   "implied_cell_max": 1.1491672491752705,
+   "cells": {
+    "car|long|static": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 178,
+     "records": 2298,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 10.0
+    },
+    "car|long|straight": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 262,
+     "records": 7384,
+     "exceed": 1,
+     "E": 5.612932195779075e-05,
+     "se_boot_k8": 5.3628101000229206e-05,
+     "anova_rho": -0.021768890145505208,
+     "anova_rho_ci95": [
+      -0.03169682122498089,
+      -0.013482019688103829
+     ],
+     "bb_rho": 8.171994343398324e-08,
+     "implied_rho": -0.24350911488724664,
+     "median_records_per_scene": 9.0
+    },
+    "car|long|turning": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 212,
+     "records": 1351,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 4.0
+    },
+    "car|long|new": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 201,
+     "records": 707,
+     "exceed": 10,
+     "E": 0.009950248756218905,
+     "se_boot_k8": 0.0073129634158449015,
+     "anova_rho": 1.0,
+     "anova_rho_ci95": [
+      1.0,
+      1.0
+     ],
+     "bb_rho": 0.9996646498695336,
+     "implied_rho": 1.1491672491752705,
+     "median_records_per_scene": 3.0
+    },
+    "car|lat|static": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 99,
+     "records": 861,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 4.0
+    },
+    "car|lat|straight": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 19,
+     "records": 34,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 2.0
+    },
+    "car|lat|turning": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 31,
+     "records": 107,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 2.0
+    },
+    "car|lat|new": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 23,
+     "records": 50,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 2.0
+    },
+    "pedestrian|long|static": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 42,
+     "records": 187,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 3.0
+    },
+    "pedestrian|long|straight": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 59,
+     "records": 323,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 4.0
+    },
+    "pedestrian|long|turning": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 70,
+     "records": 303,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 4.0
+    },
+    "pedestrian|long|new": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 9,
+     "records": 22,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 2.0
+    },
+    "pedestrian|lat|static": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 50,
+     "records": 377,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 5.0
+    },
+    "pedestrian|lat|straight": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 39,
+     "records": 248,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 3.0
+    },
+    "pedestrian|lat|turning": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 47,
+     "records": 254,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 3.0
+    },
+    "pedestrian|lat|new": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 9,
+     "records": 41,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 3.0
+    },
+    "two_wheeler|long|static": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 16,
+     "records": 95,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 4.0
+    },
+    "two_wheeler|long|straight": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 14,
+     "records": 279,
+     "exceed": 2,
+     "E": 0.0017857142857142859,
+     "se_boot_k8": 0.0016320354350305816,
+     "anova_rho": -0.03579284223844249,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": -0.2839571572667671,
+     "median_records_per_scene": 11.5
+    },
+    "two_wheeler|long|turning": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 11,
+     "records": 48,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 4.0
+    },
+    "two_wheeler|long|new": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 10,
+     "records": 45,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 3.0
+    },
+    "two_wheeler|lat|static": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 14,
+     "records": 96,
+     "exceed": 1,
+     "E": 0.00510204081632653,
+     "se_boot_k8": 0.0051543171067040755,
+     "anova_rho": -0.09889652300645431,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": -0.23172489350652548,
+     "median_records_per_scene": 4.0
+    },
+    "two_wheeler|lat|straight": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 4,
+     "records": 17,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 4.0
+    },
+    "two_wheeler|lat|turning": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 4,
+     "records": 23,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 5.0
+    },
+    "large|long|static": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 70,
+     "records": 549,
+     "exceed": 9,
+     "E": 0.00989010989010989,
+     "se_boot_k8": 0.010047942086451211,
+     "anova_rho": 0.6479617988075332,
+     "anova_rho_ci95": [
+      0.623296151219948,
+      0.6587500732157208
+     ],
+     "bb_rho": 0.6460616189645326,
+     "implied_rho": 0.6113115767221112,
+     "median_records_per_scene": 6.0
+    },
+    "large|long|straight": {
+     "evaluable": true,
+     "used_for_pooling": false,
+     "scenes": 65,
+     "records": 914,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 6.0
+    },
+    "large|long|turning": {
+     "evaluable": true,
+     "used_for_pooling": true,
+     "scenes": 57,
+     "records": 309,
+     "exceed": 1,
+     "E": 0.0043859649122807015,
+     "se_boot_k8": 0.0042238033296930965,
+     "anova_rho": 0.08223729752180536,
+     "anova_rho_ci95": [
+      0.016412516475334343,
+      0.11722113631298298
+     ],
+     "bb_rho": 0.03355183595275357,
+     "implied_rho": -0.09211226371078583,
+     "median_records_per_scene": 4.0
+    },
+    "large|long|new": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 31,
+     "records": 93,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 3.0
+    },
+    "large|lat|static": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 24,
+     "records": 101,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 4.0
+    },
+    "large|lat|straight": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 9,
+     "records": 25,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 3.0
+    },
+    "large|lat|turning": {
+     "evaluable": false,
+     "used_for_pooling": false,
+     "scenes": 7,
+     "records": 45,
+     "exceed": 0,
+     "E": 0.0,
+     "se_boot_k8": 0.0,
+     "anova_rho": null,
+     "anova_rho_ci95": null,
+     "bb_rho": null,
+     "implied_rho": null,
+     "median_records_per_scene": 5.0
+    }
+   }
+  }
+ },
+ "seeds": {
+  "ci_bootstrap": [
+   20261205,
+   1,
+   1
+  ],
+  "B_anova": 1000,
+  "B_bb": 200,
+  "implied_rho_weights": [
+   20261106,
+   1,
+   0
+  ]
+ },
+ "seconds": 68.07911825180054
+}

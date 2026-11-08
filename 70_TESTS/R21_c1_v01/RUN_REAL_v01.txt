@@ -1,0 +1,65 @@
+R21 on the real C1 outputs: run sheet v01 (7 Nov 2026; written outcome-blind, before any AV2 decision existed)
+=====================================================================================================================
+
+WHEN. Only after c1_analyse_v10 has exited and its decision of record exists. Never while it runs (it needs ~5 GB).
+WHERE. This laptop only, workspace W = C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911.
+WHAT IT TOUCHES. Reads the frozen config, the run log, the stage-B log, the decision, the analysis JSON and CSV folder, and the
+run tables / fits / tables the config names; hashes them; writes only under W\70_TESTS\R21_c1_v01\real\ (created by the
+scripts). Runs nothing from 50_CODE\c1_av2; appends nothing to any log. Every script is single-threaded (it sets OMP/OPENBLAS/
+MKL/NUMEXPR threads to 1 itself). The frozen verdict stands whatever R21 prints (plan section 9).
+
+Shells. Each command is one line. In cmd.exe or Git Bash run it as written. In PowerShell put "& " in front of the quoted
+python path. Run from any folder (all paths are absolute).
+
+Step 0. Set N to the decision of record: 1 for ..._r1, or 2/3/4 if section 9's resource-error rule moved it. Step 1 checks this.
+
+Step 1. Run log and tables of record (seconds to ~2 min, < 100 MB). Expect "problems: 0"; any problem is reported, never fixed.
+"C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\50_CODE\env\canmot310\Scripts\python.exe" -B "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\70_TESTS\R21_c1_v01\r21_runlog_check_v01.py" --run-log "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\40_PROTOCOL\C1_RUN_LOG.txt" --decision "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\60_RESULTS\c1_av2_v01\c1_decision_r1.json" --analysis "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\60_RESULTS\c1_av2_v01\c1_analysis_r1.json" --config "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\40_PROTOCOL\C1_ANALYSIS_CONFIG_AV2_v01.json" --root "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911" --plan "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\40_PROTOCOL\C1_AV2_CONFIRMATORY_PREREG_v07m.md" --stage-b-log "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\40_PROTOCOL\C1_STAGE_B_LOG.txt" --out "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\70_TESTS\R21_c1_v01\real\r21_runlog_check_r1.json" --md "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\70_TESTS\R21_c1_v01\real\r21_runlog_check_r1.md"
+   (exit code 0 = no problem, 1 = problems listed; the "analysis runs" section names the first completed run = the table of
+    record; if it is not _r1, rerun step 1 with that N, and use that N below: replace every "_r1" by "_rN". A route the
+    analysis reports "not run" (e.g. voxelnext_val, H5 "not tested") shows as missing tables: report it, it is expected.)
+
+Step 2. Re-derivation (B = 40000, registered seed; expected 10-20 min, peak ~0.5-0.8 GB).
+"C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\50_CODE\env\canmot310\Scripts\python.exe" -B "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\70_TESTS\R21_c1_v01\r21_rederive_v01.py" --config "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\40_PROTOCOL\C1_ANALYSIS_CONFIG_AV2_v01.json" --analysis "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\60_RESULTS\c1_av2_v01\c1_analysis_r1.json" --decision "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\60_RESULTS\c1_av2_v01\c1_decision_r1.json" --csv-dir "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\60_RESULTS\c1_av2_v01\c1_analysis_csv_r1" --out "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\70_TESTS\R21_c1_v01\real\r21_rederive_r1.json" --md "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\70_TESTS\R21_c1_v01\real\r21_rederive_r1.md" --B 40000 --B-analysis 40000 --power-datasets 500 --routes within_lt3d,transfer_lt3d --trackers t1,t3 --k8-routes within_lt3d,transfer_lt3d --k8-trackers t1,t3,tab --max-mem-mb 3000
+   Read first: "exact weight reproduction" (true = R21 drew the analysis's own weights: then every status difference is a
+   disagreement, no MC allowance), the comparison summary, every disagreement and every MC-borderline row, H1 and H1 without
+   zero-SE removals. Optional, descriptive routes (H1-P, H5, source transfer): same command with
+   --routes public_lt3d_val,voxelnext_val,source_transfer --k8-routes public_lt3d_val,voxelnext_val,source_transfer --k8-trackers t1,t3
+   and output names r21_rederive_desc_r1.*; a route the analysis reports "not run" will simply be missing.
+
+Step 3. Monte Carlo error and seed stability, families fixed at the reference (20 sets, B = 40000; expected 30-60 min, peak
+~0.3-0.5 GB; resumable: after any stop rerun the same command, finished sets are skipped).
+"C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\50_CODE\env\canmot310\Scripts\python.exe" -B "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\70_TESTS\R21_c1_v01\r21_mcse_v01.py" --config "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\40_PROTOCOL\C1_ANALYSIS_CONFIG_AV2_v01.json" --analysis "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\60_RESULTS\c1_av2_v01\c1_analysis_r1.json" --ckpt-dir "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\70_TESTS\R21_c1_v01\real\mc_fixed_ckpt" --out "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\70_TESTS\R21_c1_v01\real\r21_mcse_fixed_r1.json" --md "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\70_TESTS\R21_c1_v01\real\r21_mcse_fixed_r1.md" --sets 20 --B 40000 --power fixed --ref-power-datasets 500 --routes within_lt3d,transfer_lt3d --trackers t1,t3 --max-mem-mb 3000
+
+Step 4. The same with the power rule redrawn per set (every power-family size change; 2000 datasets per arm and population;
+expected ~5-6 h in all, ~4 min per set and route-tracker; resumable; may be split across sittings with
+--only within_lt3d/t1 etc.; add --lowmem if memory is short).
+"C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\50_CODE\env\canmot310\Scripts\python.exe" -B "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\70_TESTS\R21_c1_v01\r21_mcse_v01.py" --config "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\40_PROTOCOL\C1_ANALYSIS_CONFIG_AV2_v01.json" --analysis "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\60_RESULTS\c1_av2_v01\c1_analysis_r1.json" --ckpt-dir "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\70_TESTS\R21_c1_v01\real\mc_recompute_ckpt" --out "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\70_TESTS\R21_c1_v01\real\r21_mcse_recompute_r1.json" --md "C:\Users\anand\Downloads\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\70_TESTS\R21_c1_v01\real\r21_mcse_recompute_r1.md" --sets 20 --B 40000 --power recompute --power-datasets 2000 --ref-power-datasets 500 --routes within_lt3d,transfer_lt3d --trackers t1,t3 --max-mem-mb 3000
+
+Expected cost basis: timing probe on the rehearsal (U = 375 by tiling): one arm-population bootstrap 12.6 ms at B = 2000 (about
+0.15-0.25 s at 40000); one power dataset 5.0 ms. Memory: weights 30 MB (int16) + 120 MB float64 cache (none with --lowmem),
+run tables ~150 MB while loading, the analysis JSON in memory. --max-mem-mb 3000 only stops R21 if its working set passes 3 GB.
+
+Before reporting: record the SHA-256 of every file in real\ and of this sheet; R21 then writes its review (agreement counts,
+every disagreement with its diagnosis, H1 with and without zero-SE removals, MC SE and stability) in a new file; nothing bound is
+edited, and a confirmed code error goes to the lead for an erratum showing both verdicts.
+
+SHA-256 of every R21 file at the time of writing (this sheet's own hash is reported separately by the reviewer):
+35a6ba9c919507fa3f4b3eb1d2604bc047cc0e67142d4c6525900420fcc92149  R21_DESIGN_v01.md
+86f43889239bcae13456fefe90d0b2a80f9d9b10d96e2da78d8fdf98241064d9  R21_TEST_ON_REHEARSAL_v01.md
+31ed82cb61047e2d2db2858b2c84437d766e8d5a214343d060f428ef2d4f9a52  r21_lib_v01.py
+4ebd379afaab74b19e13402c3b9a3572a85310dde65ac03ae5d58df01298c0c7  r21_rederive_v01.py
+c071cf8f0ed1497ee026dc4cf7f6a2b180a0dc025fe3ae7ca2bda4bed794fe8a  r21_mcse_v01.py
+a445c66ec4ba0838fb0c328bf9f7b2c9ceb11b42cfd43fe946a5f839d5099da8  r21_runlog_check_v01.py
+6c739c2b1df6037160e3c67fe7c7d0167ee1159d64293934fd0eb8be4c2ff961  rehearsal_test/r21_timing_probe_v01.py
+2fd84eebb71a177e069298d2c98ae3aa8064581eac5d164f17f09b04cd860fb8  rehearsal_test/r21_borderline_recheck_v01.py
+4845580d120503e35d4a0237928bd9eed4ec62ef51503b83fc41cfc329843e76  rehearsal_test/timing_probe_v01.json
+ebba1a85fc8be36210c12518296102a4c5029236fa8f1bf05a50aee515c5adb8  rehearsal_test/borderline_recheck_v01.json
+eb1756d7604751a5e32b95e557c54c8a12c41547550df102a957e8567e760377  rehearsal_test/final/r21_rederive_rehearsal_B2000.json
+efb96d7e1fdb9709b014ce5d65778be1bc52648b7a4dafc1f3d4ef466d74063c  rehearsal_test/final/r21_rederive_rehearsal_B2000.md
+b85d96fccb844e661350c07e4929613136164b70ce8697b95fc9ca8f0b06c223  rehearsal_test/final/r21_mcse_rehearsal_fixed.json
+3eaf8dba9c1d41a7ca3ec840cbc534daff31d6a70e5797e79c1d6bf05c39c492  rehearsal_test/final/r21_mcse_rehearsal_recompute.json
+3866586174ba16db5519fbd5a37f3e1f09408ec2a0089431a2c5ecefbc6faacf  rehearsal_test/final/runlog_standin_dec1.json
+64389177464c4e2e637ead59aa8f3e03a8998dc6e1f69c93be1a850516161f8d  rehearsal_test/final/runlog_standin_dec2.json
+f58be55828d4a5cbe33a953c36140b09fa94d39cf1da54b47c3d380089c5a5fd  rehearsal_test/final/runlog_tampered_run_log.json
+549dcbd7a935e836e309147237403f5d0ec7d8a0a52962554719c632ef3a4753  rehearsal_test/final/runlog_cut_run_log.json

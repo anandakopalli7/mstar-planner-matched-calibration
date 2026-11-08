@@ -1,0 +1,2100 @@
+{
+ "stamp": "X3 POST-REGISTRATION EXPLORATORY (after the verdict of record; not part of the registered test)",
+ "gate": "V2",
+ "tracker": "t1",
+ "x3_run": "C:/Users/anand/Downloads/ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911/60_RESULTS/x3_explore_v01/runs\\core_t1",
+ "arms": [
+  "Mstar",
+  "B0",
+  "B1",
+  "B3",
+  "B4",
+  "B6",
+  "B9"
+ ],
+ "partial": false,
+ "partition_checks_in_run": 78484,
+ "by_arm": {
+  "Mstar": {
+   "scenes": 375,
+   "bins_used": {
+    "P0_distance_range": [
+     0,
+     1,
+     2
+    ],
+    "P1_track_speed": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P2_track_length": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P3_track_age": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P4_detection_score": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P5_ego_speed": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P6_gt_lidar_points": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P7_city": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "by_partition": {
+    "P0_distance_range": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 534846,
+      "exceed": 24223,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 57257,
+      "exceed": 1818,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20692,
+      "exceed": 731,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 514154,
+      "exceed": 23492,
+      "logs_differing": 0
+     }
+    },
+    "P1_track_speed": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 534846,
+      "exceed": 24223,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 57257,
+      "exceed": 1818,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20692,
+      "exceed": 731,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 514154,
+      "exceed": 23492,
+      "logs_differing": 0
+     }
+    },
+    "P2_track_length": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 534846,
+      "exceed": 24223,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 57257,
+      "exceed": 1818,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20692,
+      "exceed": 731,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 514154,
+      "exceed": 23492,
+      "logs_differing": 0
+     }
+    },
+    "P3_track_age": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 534846,
+      "exceed": 24223,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 57257,
+      "exceed": 1818,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20692,
+      "exceed": 731,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 514154,
+      "exceed": 23492,
+      "logs_differing": 0
+     }
+    },
+    "P4_detection_score": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 534846,
+      "exceed": 24223,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 57257,
+      "exceed": 1818,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20692,
+      "exceed": 731,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 514154,
+      "exceed": 23492,
+      "logs_differing": 0
+     }
+    },
+    "P5_ego_speed": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 534846,
+      "exceed": 24223,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 57257,
+      "exceed": 1818,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20692,
+      "exceed": 731,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 514154,
+      "exceed": 23492,
+      "logs_differing": 0
+     }
+    },
+    "P6_gt_lidar_points": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 534846,
+      "exceed": 24223,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 57257,
+      "exceed": 1818,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20692,
+      "exceed": 731,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 514154,
+      "exceed": 23492,
+      "logs_differing": 0
+     }
+    },
+    "P7_city": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 534846,
+      "exceed": 24223,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 57257,
+      "exceed": 1818,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20692,
+      "exceed": 731,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 514154,
+      "exceed": 23492,
+      "logs_differing": 0
+     }
+    }
+   },
+   "equal": true
+  },
+  "B0": {
+   "scenes": 375,
+   "bins_used": {
+    "P0_distance_range": [
+     0,
+     1,
+     2
+    ],
+    "P1_track_speed": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P2_track_length": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P3_track_age": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P4_detection_score": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P5_ego_speed": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P6_gt_lidar_points": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P7_city": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "by_partition": {
+    "P0_distance_range": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 527372,
+      "exceed": 17797,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 48653,
+      "exceed": 1086,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20320,
+      "exceed": 765,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 507052,
+      "exceed": 17032,
+      "logs_differing": 0
+     }
+    },
+    "P1_track_speed": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 527372,
+      "exceed": 17797,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 48653,
+      "exceed": 1086,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20320,
+      "exceed": 765,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 507052,
+      "exceed": 17032,
+      "logs_differing": 0
+     }
+    },
+    "P2_track_length": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 527372,
+      "exceed": 17797,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 48653,
+      "exceed": 1086,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20320,
+      "exceed": 765,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 507052,
+      "exceed": 17032,
+      "logs_differing": 0
+     }
+    },
+    "P3_track_age": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 527372,
+      "exceed": 17797,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 48653,
+      "exceed": 1086,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20320,
+      "exceed": 765,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 507052,
+      "exceed": 17032,
+      "logs_differing": 0
+     }
+    },
+    "P4_detection_score": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 527372,
+      "exceed": 17797,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 48653,
+      "exceed": 1086,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20320,
+      "exceed": 765,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 507052,
+      "exceed": 17032,
+      "logs_differing": 0
+     }
+    },
+    "P5_ego_speed": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 527372,
+      "exceed": 17797,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 48653,
+      "exceed": 1086,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20320,
+      "exceed": 765,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 507052,
+      "exceed": 17032,
+      "logs_differing": 0
+     }
+    },
+    "P6_gt_lidar_points": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 527372,
+      "exceed": 17797,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 48653,
+      "exceed": 1086,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20320,
+      "exceed": 765,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 507052,
+      "exceed": 17032,
+      "logs_differing": 0
+     }
+    },
+    "P7_city": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 527372,
+      "exceed": 17797,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 48653,
+      "exceed": 1086,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20320,
+      "exceed": 765,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 507052,
+      "exceed": 17032,
+      "logs_differing": 0
+     }
+    }
+   },
+   "equal": true
+  },
+  "B1": {
+   "scenes": 375,
+   "bins_used": {
+    "P0_distance_range": [
+     0,
+     1,
+     2
+    ],
+    "P1_track_speed": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P2_track_length": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P3_track_age": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P4_detection_score": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P5_ego_speed": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P6_gt_lidar_points": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P7_city": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "by_partition": {
+    "P0_distance_range": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 512072,
+      "exceed": 6288,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 39252,
+      "exceed": 483,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 19438,
+      "exceed": 450,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 492634,
+      "exceed": 5838,
+      "logs_differing": 0
+     }
+    },
+    "P1_track_speed": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 512072,
+      "exceed": 6288,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 39252,
+      "exceed": 483,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 19438,
+      "exceed": 450,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 492634,
+      "exceed": 5838,
+      "logs_differing": 0
+     }
+    },
+    "P2_track_length": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 512072,
+      "exceed": 6288,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 39252,
+      "exceed": 483,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 19438,
+      "exceed": 450,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 492634,
+      "exceed": 5838,
+      "logs_differing": 0
+     }
+    },
+    "P3_track_age": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 512072,
+      "exceed": 6288,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 39252,
+      "exceed": 483,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 19438,
+      "exceed": 450,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 492634,
+      "exceed": 5838,
+      "logs_differing": 0
+     }
+    },
+    "P4_detection_score": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 512072,
+      "exceed": 6288,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 39252,
+      "exceed": 483,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 19438,
+      "exceed": 450,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 492634,
+      "exceed": 5838,
+      "logs_differing": 0
+     }
+    },
+    "P5_ego_speed": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 512072,
+      "exceed": 6288,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 39252,
+      "exceed": 483,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 19438,
+      "exceed": 450,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 492634,
+      "exceed": 5838,
+      "logs_differing": 0
+     }
+    },
+    "P6_gt_lidar_points": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 512072,
+      "exceed": 6288,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 39252,
+      "exceed": 483,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 19438,
+      "exceed": 450,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 492634,
+      "exceed": 5838,
+      "logs_differing": 0
+     }
+    },
+    "P7_city": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 512072,
+      "exceed": 6288,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 39252,
+      "exceed": 483,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 19438,
+      "exceed": 450,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 492634,
+      "exceed": 5838,
+      "logs_differing": 0
+     }
+    }
+   },
+   "equal": true
+  },
+  "B3": {
+   "scenes": 375,
+   "bins_used": {
+    "P0_distance_range": [
+     0,
+     1,
+     2
+    ],
+    "P1_track_speed": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P2_track_length": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P3_track_age": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P4_detection_score": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P5_ego_speed": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P6_gt_lidar_points": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P7_city": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "by_partition": {
+    "P0_distance_range": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 356260,
+      "exceed": 1031,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 10629,
+      "exceed": 84,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 8743,
+      "exceed": 7,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 347517,
+      "exceed": 1024,
+      "logs_differing": 0
+     }
+    },
+    "P1_track_speed": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 356260,
+      "exceed": 1031,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 10629,
+      "exceed": 84,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 8743,
+      "exceed": 7,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 347517,
+      "exceed": 1024,
+      "logs_differing": 0
+     }
+    },
+    "P2_track_length": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 356260,
+      "exceed": 1031,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 10629,
+      "exceed": 84,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 8743,
+      "exceed": 7,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 347517,
+      "exceed": 1024,
+      "logs_differing": 0
+     }
+    },
+    "P3_track_age": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 356260,
+      "exceed": 1031,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 10629,
+      "exceed": 84,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 8743,
+      "exceed": 7,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 347517,
+      "exceed": 1024,
+      "logs_differing": 0
+     }
+    },
+    "P4_detection_score": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 356260,
+      "exceed": 1031,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 10629,
+      "exceed": 84,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 8743,
+      "exceed": 7,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 347517,
+      "exceed": 1024,
+      "logs_differing": 0
+     }
+    },
+    "P5_ego_speed": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 356260,
+      "exceed": 1031,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 10629,
+      "exceed": 84,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 8743,
+      "exceed": 7,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 347517,
+      "exceed": 1024,
+      "logs_differing": 0
+     }
+    },
+    "P6_gt_lidar_points": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 356260,
+      "exceed": 1031,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 10629,
+      "exceed": 84,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 8743,
+      "exceed": 7,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 347517,
+      "exceed": 1024,
+      "logs_differing": 0
+     }
+    },
+    "P7_city": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 356260,
+      "exceed": 1031,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 10629,
+      "exceed": 84,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 8743,
+      "exceed": 7,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 347517,
+      "exceed": 1024,
+      "logs_differing": 0
+     }
+    }
+   },
+   "equal": true
+  },
+  "B4": {
+   "scenes": 375,
+   "bins_used": {
+    "P0_distance_range": [
+     0,
+     1,
+     2
+    ],
+    "P1_track_speed": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P2_track_length": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P3_track_age": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P4_detection_score": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P5_ego_speed": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P6_gt_lidar_points": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P7_city": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "by_partition": {
+    "P0_distance_range": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 533554,
+      "exceed": 27918,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 56152,
+      "exceed": 1780,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 21000,
+      "exceed": 1293,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 512554,
+      "exceed": 26625,
+      "logs_differing": 0
+     }
+    },
+    "P1_track_speed": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 533554,
+      "exceed": 27918,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 56152,
+      "exceed": 1780,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 21000,
+      "exceed": 1293,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 512554,
+      "exceed": 26625,
+      "logs_differing": 0
+     }
+    },
+    "P2_track_length": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 533554,
+      "exceed": 27918,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 56152,
+      "exceed": 1780,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 21000,
+      "exceed": 1293,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 512554,
+      "exceed": 26625,
+      "logs_differing": 0
+     }
+    },
+    "P3_track_age": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 533554,
+      "exceed": 27918,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 56152,
+      "exceed": 1780,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 21000,
+      "exceed": 1293,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 512554,
+      "exceed": 26625,
+      "logs_differing": 0
+     }
+    },
+    "P4_detection_score": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 533554,
+      "exceed": 27918,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 56152,
+      "exceed": 1780,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 21000,
+      "exceed": 1293,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 512554,
+      "exceed": 26625,
+      "logs_differing": 0
+     }
+    },
+    "P5_ego_speed": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 533554,
+      "exceed": 27918,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 56152,
+      "exceed": 1780,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 21000,
+      "exceed": 1293,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 512554,
+      "exceed": 26625,
+      "logs_differing": 0
+     }
+    },
+    "P6_gt_lidar_points": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 533554,
+      "exceed": 27918,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 56152,
+      "exceed": 1780,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 21000,
+      "exceed": 1293,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 512554,
+      "exceed": 26625,
+      "logs_differing": 0
+     }
+    },
+    "P7_city": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 533554,
+      "exceed": 27918,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 56152,
+      "exceed": 1780,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 21000,
+      "exceed": 1293,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 512554,
+      "exceed": 26625,
+      "logs_differing": 0
+     }
+    }
+   },
+   "equal": true
+  },
+  "B6": {
+   "scenes": 375,
+   "bins_used": {
+    "P0_distance_range": [
+     0,
+     1,
+     2
+    ],
+    "P1_track_speed": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P2_track_length": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P3_track_age": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P4_detection_score": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P5_ego_speed": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P6_gt_lidar_points": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P7_city": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "by_partition": {
+    "P0_distance_range": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 534861,
+      "exceed": 24507,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 57273,
+      "exceed": 1742,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20511,
+      "exceed": 762,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 514350,
+      "exceed": 23745,
+      "logs_differing": 0
+     }
+    },
+    "P1_track_speed": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 534861,
+      "exceed": 24507,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 57273,
+      "exceed": 1742,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20511,
+      "exceed": 762,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 514350,
+      "exceed": 23745,
+      "logs_differing": 0
+     }
+    },
+    "P2_track_length": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 534861,
+      "exceed": 24507,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 57273,
+      "exceed": 1742,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20511,
+      "exceed": 762,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 514350,
+      "exceed": 23745,
+      "logs_differing": 0
+     }
+    },
+    "P3_track_age": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 534861,
+      "exceed": 24507,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 57273,
+      "exceed": 1742,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20511,
+      "exceed": 762,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 514350,
+      "exceed": 23745,
+      "logs_differing": 0
+     }
+    },
+    "P4_detection_score": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 534861,
+      "exceed": 24507,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 57273,
+      "exceed": 1742,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20511,
+      "exceed": 762,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 514350,
+      "exceed": 23745,
+      "logs_differing": 0
+     }
+    },
+    "P5_ego_speed": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 534861,
+      "exceed": 24507,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 57273,
+      "exceed": 1742,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20511,
+      "exceed": 762,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 514350,
+      "exceed": 23745,
+      "logs_differing": 0
+     }
+    },
+    "P6_gt_lidar_points": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 534861,
+      "exceed": 24507,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 57273,
+      "exceed": 1742,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20511,
+      "exceed": 762,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 514350,
+      "exceed": 23745,
+      "logs_differing": 0
+     }
+    },
+    "P7_city": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 534861,
+      "exceed": 24507,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 57273,
+      "exceed": 1742,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 20511,
+      "exceed": 762,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 514350,
+      "exceed": 23745,
+      "logs_differing": 0
+     }
+    }
+   },
+   "equal": true
+  },
+  "B9": {
+   "scenes": 375,
+   "bins_used": {
+    "P0_distance_range": [
+     0,
+     1,
+     2
+    ],
+    "P1_track_speed": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P2_track_length": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P3_track_age": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P4_detection_score": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P5_ego_speed": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P6_gt_lidar_points": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P7_city": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "by_partition": {
+    "P0_distance_range": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 497127,
+      "exceed": 5006,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 21086,
+      "exceed": 89,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 18606,
+      "exceed": 263,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 478521,
+      "exceed": 4743,
+      "logs_differing": 0
+     }
+    },
+    "P1_track_speed": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 497127,
+      "exceed": 5006,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 21086,
+      "exceed": 89,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 18606,
+      "exceed": 263,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 478521,
+      "exceed": 4743,
+      "logs_differing": 0
+     }
+    },
+    "P2_track_length": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 497127,
+      "exceed": 5006,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 21086,
+      "exceed": 89,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 18606,
+      "exceed": 263,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 478521,
+      "exceed": 4743,
+      "logs_differing": 0
+     }
+    },
+    "P3_track_age": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 497127,
+      "exceed": 5006,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 21086,
+      "exceed": 89,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 18606,
+      "exceed": 263,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 478521,
+      "exceed": 4743,
+      "logs_differing": 0
+     }
+    },
+    "P4_detection_score": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 497127,
+      "exceed": 5006,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 21086,
+      "exceed": 89,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 18606,
+      "exceed": 263,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 478521,
+      "exceed": 4743,
+      "logs_differing": 0
+     }
+    },
+    "P5_ego_speed": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 497127,
+      "exceed": 5006,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 21086,
+      "exceed": 89,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 18606,
+      "exceed": 263,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 478521,
+      "exceed": 4743,
+      "logs_differing": 0
+     }
+    },
+    "P6_gt_lidar_points": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 497127,
+      "exceed": 5006,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 21086,
+      "exceed": 89,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 18606,
+      "exceed": 263,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 478521,
+      "exceed": 4743,
+      "logs_differing": 0
+     }
+    },
+    "P7_city": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 497127,
+      "exceed": 5006,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 21086,
+      "exceed": 89,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 18606,
+      "exceed": 263,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 478521,
+      "exceed": 4743,
+      "logs_differing": 0
+     }
+    }
+   },
+   "equal": true
+  }
+ },
+ "passed": true,
+ "seconds": 1.9
+}

@@ -1,0 +1,7876 @@
+{
+ "stamp": "X3 POST-REGISTRATION EXPLORATORY (after the verdict of record; not part of the registered test)",
+ "analysis": "(a) matched validity",
+ "plan_sha256": "38e2526d9f43f202fe4c8fe345be03d21421d6c7ada585022abf34a649362dc6",
+ "B_selection": 4000,
+ "by_tracker": {
+  "t1": {
+   "tracker": "t1",
+   "seeds": {
+    "bootstrap": [
+     20261201,
+     0,
+     1
+    ],
+    "power": [
+     20261202,
+     0,
+     1
+    ]
+   },
+   "B": 4000,
+   "B_selection": 4000,
+   "Mstar_infeasible_rate": 0.1863591853196209,
+   "families": {
+    "B4": {
+     "grid_fittable": [
+      "0.05",
+      "0.04",
+      "0.03",
+      "0.02",
+      "0.015",
+      "0.01",
+      "0.005"
+     ],
+     "grid_not_fittable": [
+      "0.0025",
+      "0.001"
+     ],
+     "order": [
+      "B4@0.05",
+      "B4@0.04",
+      "B4@0.03",
+      "B4@0.02",
+      "B4@0.015",
+      "B4@0.01",
+      "B4@0.005"
+     ],
+     "curve": [
+      {
+       "point": "B4@0.05",
+       "delta_prime": 0.05,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "car|lat|straight",
+           "car|lat|turning",
+           "car|lat|new",
+           "pedestrian|long|static",
+           "pedestrian|long|straight",
+           "pedestrian|long|turning",
+           "pedestrian|long|new",
+           "large|long|new"
+          ],
+          "family_flagged": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "car|lat|straight",
+           "car|lat|turning",
+           "car|lat|new",
+           "pedestrian|long|static",
+           "pedestrian|long|straight",
+           "pedestrian|long|turning",
+           "pedestrian|long|new"
+          ],
+          "family_size": 19,
+          "evaluable": 27
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new",
+           "car|lat|turning",
+           "pedestrian|long|static",
+           "pedestrian|long|turning"
+          ],
+          "family_flagged": [
+           "car|lat|straight",
+           "car|lat|turning",
+           "pedestrian|long|static"
+          ],
+          "family_size": 8,
+          "evaluable": 18
+         },
+         "PD_inpath": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": false,
+          "Floor": true,
+          "HK1c": false,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new",
+           "car|lat|straight",
+           "car|lat|turning"
+          ],
+          "family_flagged": [
+           "car|long|new",
+           "car|lat|straight"
+          ],
+          "family_size": 6,
+          "evaluable": 9
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.053516062025152404,
+         "lb": 0.04974661704923555,
+         "ub": 0.059068883211025755,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.03788018114687653,
+         "lb": 0.031595076366044646,
+         "ub": 0.046480533233336375,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.07733081132033018,
+         "lb": 0.06278309495095581,
+         "ub": 0.09757200424960463,
+         "flagged": true
+        }
+       },
+       "infeasible_rate": 0.2018868320225852,
+       "infeasible_ci95": [
+        0.1815808913087317,
+        0.22363209518048
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.015527646702964307,
+        "ci95": [
+         -0.036809751966122205,
+         0.004483508771929848
+        ],
+        "ub_0.95": 0.0013996773543052989,
+        "p_lt0": 0.06523369157710572
+       },
+       "seconds": 3.0
+      },
+      {
+       "point": "B4@0.04",
+       "delta_prime": 0.04,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|turning",
+           "car|long|new",
+           "car|lat|turning",
+           "car|lat|new",
+           "pedestrian|long|static",
+           "pedestrian|long|straight",
+           "pedestrian|long|turning",
+           "pedestrian|long|new",
+           "large|long|new"
+          ],
+          "family_flagged": [
+           "car|long|turning",
+           "car|long|new",
+           "car|lat|turning",
+           "car|lat|new",
+           "pedestrian|long|static",
+           "pedestrian|long|straight",
+           "pedestrian|long|turning",
+           "pedestrian|long|new"
+          ],
+          "family_size": 19,
+          "evaluable": 26
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|lat|turning"
+          ],
+          "family_flagged": [
+           "car|lat|turning"
+          ],
+          "family_size": 9,
+          "evaluable": 18
+         },
+         "PD_inpath": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": false,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new",
+           "car|lat|turning"
+          ],
+          "family_flagged": [
+           "car|long|new"
+          ],
+          "family_size": 6,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.04218276031505157,
+         "lb": 0.03906093618363922,
+         "ub": 0.046705327698996296,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.03018957787171249,
+         "lb": 0.024581590392663964,
+         "ub": 0.03773618238221027,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.06204171962638848,
+         "lb": 0.04893519023736713,
+         "ub": 0.08048125563820907,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.2644894535188546,
+       "infeasible_ci95": [
+        0.24171916112119377,
+        0.2903821778584393
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.07813026819923372,
+        "ci95": [
+         -0.10243683403912078,
+         -0.05535825368017744
+        ],
+        "ub_0.95": -0.058935704779189343,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 4.6
+      },
+      {
+       "point": "B4@0.03",
+       "delta_prime": 0.03,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new",
+           "car|lat|turning",
+           "car|lat|new",
+           "pedestrian|long|static",
+           "large|long|new"
+          ],
+          "family_flagged": [
+           "car|long|new",
+           "car|lat|turning",
+           "car|lat|new",
+           "pedestrian|long|static"
+          ],
+          "family_size": 19,
+          "evaluable": 26
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|lat|turning"
+          ],
+          "family_flagged": [
+           "car|lat|turning"
+          ],
+          "family_size": 10,
+          "evaluable": 16
+         },
+         "PD_inpath": {
+          "NoFlag": false,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|lat|turning"
+          ],
+          "family_flagged": [],
+          "family_size": 5,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.03048396270355032,
+         "lb": 0.02805594265339984,
+         "ub": 0.03404236189073239,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.02453297542402913,
+         "lb": 0.018997402080648203,
+         "ub": 0.03158321533726348,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.04496499115273368,
+         "lb": 0.03377874361452496,
+         "ub": 0.06057278115195263,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.3523178060092761,
+       "infeasible_ci95": [
+        0.3262304416212947,
+        0.38057480137124405
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.1659586206896552,
+        "ci95": [
+         -0.1926129421254285,
+         -0.14181925791490219
+        ],
+        "ub_0.95": -0.14561216374269007,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 5.5
+      },
+      {
+       "point": "B4@0.02",
+       "delta_prime": 0.02,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new",
+           "car|lat|turning"
+          ],
+          "family_flagged": [
+           "car|long|new",
+           "car|lat|turning"
+          ],
+          "family_size": 19,
+          "evaluable": 25
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|lat|turning"
+          ],
+          "family_flagged": [
+           "car|lat|turning"
+          ],
+          "family_size": 9,
+          "evaluable": 15
+         },
+         "PD_inpath": {
+          "NoFlag": false,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|lat|turning"
+          ],
+          "family_flagged": [],
+          "family_size": 5,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.01907511696025789,
+         "lb": 0.017209762071825854,
+         "ub": 0.02179846160090554,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.018110435522683765,
+         "lb": 0.013328541001228413,
+         "ub": 0.024242138917132804,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.029103572064137644,
+         "lb": 0.019777437398791065,
+         "ub": 0.041425402421266265,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.47501528533978626,
+       "infeasible_ci95": [
+        0.4471864771123209,
+        0.5049911151441822
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.2886561000201654,
+        "ci95": [
+         -0.31520493244605774,
+         -0.2632653075216777
+        ],
+        "ub_0.95": -0.2678674732809033,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 5.2
+      },
+      {
+       "point": "B4@0.015",
+       "delta_prime": 0.015,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|lat|turning"
+          ],
+          "family_flagged": [
+           "car|lat|turning"
+          ],
+          "family_size": 19,
+          "evaluable": 25
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [],
+          "family_flagged": [
+           "car|lat|turning"
+          ],
+          "family_size": 8,
+          "evaluable": 13
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 5,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.013655398662302339,
+         "lb": 0.012106518163309621,
+         "ub": 0.015945218993182485,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.01306507241066962,
+         "lb": 0.009146875303483914,
+         "ub": 0.018070481210236845,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.021253670806659495,
+         "lb": 0.012845183184829231,
+         "ub": 0.03164467771260756,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.5676907441016333,
+       "infeasible_ci95": [
+        0.537822060899375,
+        0.5978235208711433
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.3813315587820125,
+        "ci95": [
+         -0.40878422665860065,
+         -0.3549861988304095
+        ],
+        "ub_0.95": -0.35953509175236936,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 4.9
+      },
+      {
+       "point": "B4@0.01",
+       "delta_prime": 0.01,
+       "in_sample": {
+        "valid": true,
+        "shown_above": false,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 19,
+          "evaluable": 25
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 8,
+          "evaluable": 12
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 5,
+          "evaluable": 7
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.008176499586389198,
+         "lb": 0.007034131902705991,
+         "ub": 0.009849490022892975,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.010337676437049439,
+         "lb": 0.00644140704041783,
+         "ub": 0.015218493934048935,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.01130971091186653,
+         "lb": 0.006734156108208557,
+         "ub": 0.016976870337609966,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.6951335349868926,
+       "infeasible_ci95": [
+        0.6674034321435772,
+        0.7228894938495665
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.5087743496672716,
+        "ci95": [
+         -0.5348635813672115,
+         -0.483250235934664
+        ],
+        "ub_0.95": -0.48693046985279276,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 4.7
+      },
+      {
+       "point": "B4@0.005",
+       "delta_prime": 0.005,
+       "in_sample": {
+        "valid": false,
+        "shown_above": false,
+        "floor_only": true,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 17,
+          "evaluable": 24
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": false,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 5,
+          "evaluable": 7
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 7
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.00242443152012979,
+         "lb": 0.0018458385143965636,
+         "ub": 0.0032583353357883917,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.004846774449401313,
+         "lb": 0.0008809496747143233,
+         "ub": 0.008709373993704573,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.002844346481679845,
+         "lb": 0.0012314127427299566,
+         "ub": 0.004826452893706479,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.9106152046783625,
+       "infeasible_ci95": [
+        0.8940431578947362,
+        0.9263116959064329
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.7242560193587417,
+        "ci95": [
+         -0.7445948578342411,
+         -0.7032278402903812
+        ],
+        "ub_0.95": -0.7063188626739263,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 4.1
+      }
+     ],
+     "choice_by_fold": {
+      "0": {
+       "point": "B4@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      },
+      "1": {
+       "point": "B4@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      },
+      "2": {
+       "point": "B4@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      },
+      "3": {
+       "point": "B4@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      },
+      "4": {
+       "point": "B4@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      }
+     },
+     "selection_trace": {
+      "0": [
+       {
+        "point": "B4@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "NoFlag_pool",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "NoFlag_pool",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "Floor"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "Floor"
+         ],
+         "PD_inpath": [
+          "NoFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "Floor"
+         ],
+         "PD_inpath": [
+          "NoFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.015",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": [
+          "NoFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.01",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "1": [
+       {
+        "point": "B4@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "Floor",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "NoFlag_pool",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "Floor"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "NoFlag_pool",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "Floor"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": [
+          "NoFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.015",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.01",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "2": [
+       {
+        "point": "B4@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "Floor",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "NoFlag_pool",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "Floor"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "Floor"
+         ],
+         "PD_inpath": [
+          "NoFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "Floor"
+         ],
+         "PD_inpath": [
+          "NoFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.015",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.01",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "3": [
+       {
+        "point": "B4@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "NoFlag_pool",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "Floor"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "NoFlag_pool",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "Floor"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": [
+          "NoFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.015",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.01",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "4": [
+       {
+        "point": "B4@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "NoFlag_pool",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "Floor"
+         ],
+         "PD_inpath": [
+          "NoFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.015",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.01",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ]
+     },
+     "selection_seconds": 151.6,
+     "composite": {
+      "label": "X3A_B4_composite",
+      "status": {
+       "valid": false,
+       "shown_above": false,
+       "floor_only": true,
+       "pops": {
+        "PD7_primary": {
+         "NoFlag": true,
+         "FamFlag": false,
+         "pooled_evaluable": true,
+         "NoFlag_pool": true,
+         "Floor": true,
+         "HK1c": true,
+         "valid": true,
+         "shown_above": false,
+         "flagged_cells": [],
+         "family_flagged": [],
+         "family_size": 17,
+         "evaluable": 24
+        },
+        "SD1_7_gap_le_5m": {
+         "NoFlag": true,
+         "FamFlag": false,
+         "pooled_evaluable": true,
+         "NoFlag_pool": true,
+         "Floor": false,
+         "HK1c": true,
+         "valid": false,
+         "shown_above": false,
+         "flagged_cells": [],
+         "family_flagged": [],
+         "family_size": 5,
+         "evaluable": 7
+        },
+        "PD_inpath": {
+         "NoFlag": true,
+         "FamFlag": false,
+         "pooled_evaluable": true,
+         "NoFlag_pool": true,
+         "Floor": true,
+         "HK1c": true,
+         "valid": true,
+         "shown_above": false,
+         "flagged_cells": [],
+         "family_flagged": [],
+         "family_size": 4,
+         "evaluable": 7
+        }
+       }
+      },
+      "pooled": {
+       "PD7_primary": {
+        "E": 0.00242443152012979,
+        "lb": 0.0018458385143965636,
+        "ub": 0.0032583353357883917,
+        "flagged": false
+       },
+       "SD1_7_gap_le_5m": {
+        "E": 0.004846774449401313,
+        "lb": 0.0008809496747143233,
+        "ub": 0.008709373993704573,
+        "flagged": false
+       },
+       "PD_inpath": {
+        "E": 0.002844346481679845,
+        "lb": 0.0012314127427299566,
+        "ub": 0.004826452893706479,
+        "flagged": false
+       }
+      },
+      "infeasible_rate": 0.9106152046783625,
+      "Mstar_minus_composite": {
+       "mean_diff": -0.7242560193587417,
+       "ci95": [
+        -0.7445948578342411,
+        -0.7032278402903812
+       ],
+       "ub_0.95": -0.7063188626739263,
+       "p_lt0": 0.00024993751562109475
+      }
+     }
+    },
+    "B6": {
+     "grid_fittable": [
+      "0.05",
+      "0.04",
+      "0.03",
+      "0.02",
+      "0.015",
+      "0.01",
+      "0.005"
+     ],
+     "grid_not_fittable": [
+      "0.0025",
+      "0.001"
+     ],
+     "order": [
+      "B6@0.05",
+      "B6@0.04",
+      "B6@0.03",
+      "B6@0.02",
+      "B6@0.015",
+      "B6@0.01",
+      "B6@0.005"
+     ],
+     "curve": [
+      {
+       "point": "B6@0.05",
+       "delta_prime": 0.05,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "car|lat|straight",
+           "car|lat|turning",
+           "car|lat|new",
+           "large|long|new"
+          ],
+          "family_flagged": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "car|lat|straight",
+           "car|lat|turning",
+           "car|lat|new"
+          ],
+          "family_size": 19,
+          "evaluable": 27
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|lat|straight",
+           "car|lat|turning"
+          ],
+          "family_flagged": [
+           "car|lat|straight",
+           "car|lat|turning"
+          ],
+          "family_size": 9,
+          "evaluable": 17
+         },
+         "PD_inpath": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new"
+          ],
+          "family_flagged": [
+           "car|long|new"
+          ],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.047380064320545125,
+         "lb": 0.044049579505852664,
+         "ub": 0.05252146051270512,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.04136351292345279,
+         "lb": 0.03381650959654891,
+         "ub": 0.05140546527947997,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.04684247590657583,
+         "lb": 0.03566064298756176,
+         "ub": 0.062289631712227095,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.16529267997580158,
+       "infeasible_ci95": [
+        0.14841390199637022,
+        0.18362120588828398
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": 0.02106650534381932,
+        "ci95": [
+         0.0020199314377898738,
+         0.039398656987295846
+        ],
+        "ub_0.95": 0.036399274047186916,
+        "p_lt0": 0.9837540614846289
+       },
+       "seconds": 5.9
+      },
+      {
+       "point": "B6@0.04",
+       "delta_prime": 0.04,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|turning",
+           "car|long|new",
+           "car|lat|straight",
+           "car|lat|turning",
+           "car|lat|new",
+           "large|long|new"
+          ],
+          "family_flagged": [
+           "car|long|turning",
+           "car|long|new",
+           "car|lat|straight",
+           "car|lat|turning",
+           "car|lat|new"
+          ],
+          "family_size": 19,
+          "evaluable": 26
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|lat|turning"
+          ],
+          "family_flagged": [
+           "car|lat|turning"
+          ],
+          "family_size": 9,
+          "evaluable": 17
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.03730531165700464,
+         "lb": 0.0344176727306227,
+         "ub": 0.041787351068516575,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.03274581288329937,
+         "lb": 0.025927259058455866,
+         "ub": 0.04190648006393299,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.0369426286328163,
+         "lb": 0.027229310546521304,
+         "ub": 0.050037732512092044,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.23365597902802987,
+       "infeasible_ci95": [
+        0.2123429038112522,
+        0.2568905505142166
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.04729679370840895,
+        "ci95": [
+         -0.0691686106069772,
+         -0.0259579229683404
+        ],
+        "ub_0.95": -0.029637330106876403,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 5.1
+      },
+      {
+       "point": "B6@0.03",
+       "delta_prime": 0.03,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new",
+           "car|lat|turning",
+           "car|lat|new"
+          ],
+          "family_flagged": [
+           "car|long|new",
+           "car|lat|turning",
+           "car|lat|new"
+          ],
+          "family_size": 19,
+          "evaluable": 27
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|lat|turning"
+          ],
+          "family_flagged": [
+           "car|lat|turning"
+          ],
+          "family_size": 10,
+          "evaluable": 16
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.027466638306456726,
+         "lb": 0.025013011994038544,
+         "ub": 0.031077953763084497,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.023835791214820656,
+         "lb": 0.018048592672036307,
+         "ub": 0.031568297808212464,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.02833012318476515,
+         "lb": 0.018954344250522233,
+         "ub": 0.04023429462633045,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.33274208509780195,
+       "infeasible_ci95": [
+        0.3070456301673725,
+        0.36155717281710015
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.14638289977818109,
+        "ci95": [
+         -0.17175068360556572,
+         -0.12266619883040931
+        ],
+        "ub_0.95": -0.12658632788868726,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 5.6
+      },
+      {
+       "point": "B6@0.02",
+       "delta_prime": 0.02,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new",
+           "car|lat|turning"
+          ],
+          "family_flagged": [
+           "car|long|new",
+           "car|lat|turning"
+          ],
+          "family_size": 19,
+          "evaluable": 26
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 8,
+          "evaluable": 15
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.017221400160580914,
+         "lb": 0.015482363857081884,
+         "ub": 0.01992987597466905,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.01258499477317897,
+         "lb": 0.008541221211776251,
+         "ub": 0.01751536480226986,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.015499528567060878,
+         "lb": 0.008252435792974789,
+         "ub": 0.024051958518901323,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.4926006049606775,
+       "infeasible_ci95": [
+        0.46267403105464805,
+        0.5225709417221215
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.30624141964105667,
+        "ci95": [
+         -0.3328951401492236,
+         -0.2815149707602339
+        ],
+        "ub_0.95": -0.28616938898971567,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 5.4
+      },
+      {
+       "point": "B6@0.015",
+       "delta_prime": 0.015,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": true,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [],
+          "family_flagged": [
+           "car|long|new"
+          ],
+          "family_size": 19,
+          "evaluable": 26
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 7,
+          "evaluable": 15
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 9
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.0120067736668676,
+         "lb": 0.010582918468780202,
+         "ub": 0.014193148350881351,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.009265374363674974,
+         "lb": 0.005681741171248961,
+         "ub": 0.013574668461001325,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.014344560854461471,
+         "lb": 0.009191841188592585,
+         "ub": 0.020917862776081018,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.5571728171002218,
+       "infeasible_ci95": [
+        0.5265635692679976,
+        0.5884626416616254
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.37081363178060095,
+        "ci95": [
+         -0.39861898769913284,
+         -0.34489832627545886
+        ],
+        "ub_0.95": -0.3494810405323654,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 5.3
+      },
+      {
+       "point": "B6@0.01",
+       "delta_prime": 0.01,
+       "in_sample": {
+        "valid": true,
+        "shown_above": false,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 19,
+          "evaluable": 26
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 8,
+          "evaluable": 14
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 9
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.0073393890699626815,
+         "lb": 0.006282577616441352,
+         "ub": 0.008895327749636415,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.006699706002870769,
+         "lb": 0.003748013537754053,
+         "ub": 0.010328361581605546,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.006819235743902931,
+         "lb": 0.003396350647957189,
+         "ub": 0.010806523261893717,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.6783561201855213,
+       "infeasible_ci95": [
+        0.650164964710627,
+        0.7065492962290786
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.49199693486590046,
+        "ci95": [
+         -0.5178567574107684,
+         -0.46724647307924977
+        ],
+        "ub_0.95": -0.47116942932042755,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 4.8
+      },
+      {
+       "point": "B6@0.005",
+       "delta_prime": 0.005,
+       "in_sample": {
+        "valid": false,
+        "shown_above": false,
+        "floor_only": true,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 18,
+          "evaluable": 24
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": false,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 2,
+          "evaluable": 10
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 7
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.0019223967353295638,
+         "lb": 0.0014634788447963087,
+         "ub": 0.0025668957393300226,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.004246562946547745,
+         "lb": 0.001067559186779041,
+         "ub": 0.007791636392147184,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.0011876466231107092,
+         "lb": 6.810004242833448e-05,
+         "ub": 0.0022691940777782686,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.8631345029239766,
+       "infeasible_ci95": [
+        0.8439987134502922,
+        0.8818530994152048
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.6767753176043558,
+        "ci95": [
+         -0.6983573825368017,
+         -0.6546993466424683
+        ],
+        "ub_0.95": -0.658599072393628,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 4.3
+      }
+     ],
+     "choice_by_fold": {
+      "0": {
+       "point": "B6@0.015",
+       "none_qualifies": false,
+       "points_tried": 5
+      },
+      "1": {
+       "point": "B6@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      },
+      "2": {
+       "point": "B6@0.015",
+       "none_qualifies": false,
+       "points_tried": 5
+      },
+      "3": {
+       "point": "B6@0.015",
+       "none_qualifies": false,
+       "points_tried": 5
+      },
+      "4": {
+       "point": "B6@0.015",
+       "none_qualifies": false,
+       "points_tried": 5
+      }
+     },
+     "selection_trace": {
+      "0": [
+       {
+        "point": "B6@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B6@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.015",
+        "valid": true,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "1": [
+       {
+        "point": "B6@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B6@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag"
+         ],
+         "PD_inpath": [
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B6@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.015",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.01",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "2": [
+       {
+        "point": "B6@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B6@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.015",
+        "valid": true,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "3": [
+       {
+        "point": "B6@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B6@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag"
+         ],
+         "PD_inpath": [
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B6@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.015",
+        "valid": true,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "4": [
+       {
+        "point": "B6@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B6@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.015",
+        "valid": true,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       }
+      ]
+     },
+     "selection_seconds": 95.4,
+     "composite": {
+      "label": "X3A_B6_composite",
+      "status": {
+       "valid": true,
+       "shown_above": false,
+       "floor_only": false,
+       "pops": {
+        "PD7_primary": {
+         "NoFlag": true,
+         "FamFlag": false,
+         "pooled_evaluable": true,
+         "NoFlag_pool": true,
+         "Floor": true,
+         "HK1c": true,
+         "valid": true,
+         "shown_above": false,
+         "flagged_cells": [],
+         "family_flagged": [],
+         "family_size": 19,
+         "evaluable": 26
+        },
+        "SD1_7_gap_le_5m": {
+         "NoFlag": true,
+         "FamFlag": false,
+         "pooled_evaluable": true,
+         "NoFlag_pool": true,
+         "Floor": true,
+         "HK1c": true,
+         "valid": true,
+         "shown_above": false,
+         "flagged_cells": [],
+         "family_flagged": [],
+         "family_size": 7,
+         "evaluable": 15
+        },
+        "PD_inpath": {
+         "NoFlag": true,
+         "FamFlag": false,
+         "pooled_evaluable": true,
+         "NoFlag_pool": true,
+         "Floor": true,
+         "HK1c": true,
+         "valid": true,
+         "shown_above": false,
+         "flagged_cells": [],
+         "family_flagged": [],
+         "family_size": 4,
+         "evaluable": 8
+        }
+       }
+      },
+      "pooled": {
+       "PD7_primary": {
+        "E": 0.0095115216154218,
+        "lb": 0.008232377431840599,
+        "ub": 0.011378050217340358,
+        "flagged": false
+       },
+       "SD1_7_gap_le_5m": {
+        "E": 0.006846722200197363,
+        "lb": 0.004241390018778839,
+        "ub": 0.010129301270041868,
+        "flagged": false
+       },
+       "PD_inpath": {
+        "E": 0.012454914096600331,
+        "lb": 0.0075633562635110665,
+        "ub": 0.018804758022942396,
+        "flagged": false
+       }
+      },
+      "infeasible_rate": 0.6225950393224441,
+      "Mstar_minus_composite": {
+       "mean_diff": -0.43623585400282316,
+       "ci95": [
+        -0.46344405726961097,
+        -0.40984808630772335
+       ],
+       "ub_0.95": -0.414066586005243,
+       "p_lt0": 0.00024993751562109475
+      }
+     }
+    },
+    "B9": {
+     "grid_fittable": [
+      "0.05",
+      "0.04",
+      "0.03",
+      "0.02",
+      "0.015",
+      "0.01",
+      "0.005"
+     ],
+     "grid_not_fittable": [
+      "0.0025",
+      "0.001"
+     ],
+     "order": [
+      "B9@0.05",
+      "B9@0.04",
+      "B9@0.03",
+      "B9@0.02",
+      "B9@0.015",
+      "B9@0.01",
+      "B9@0.005"
+     ],
+     "curve": [
+      {
+       "point": "B9@0.05",
+       "delta_prime": 0.05,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new",
+           "large|long|new"
+          ],
+          "family_flagged": [
+           "car|long|new"
+          ],
+          "family_size": 19,
+          "evaluable": 25
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 6,
+          "evaluable": 17
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.011823235048389238,
+         "lb": 0.010347873402215628,
+         "ub": 0.013926296706930063,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.005255382854824071,
+         "lb": 0.0034337387546777313,
+         "ub": 0.00773276964545172,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.01958798999306799,
+         "lb": 0.011529706157314006,
+         "ub": 0.029862043328610675,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.692768058076225,
+       "infeasible_ci95": [
+        0.6659075620084697,
+        0.7197549788263764
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.5064088727566042,
+        "ci95": [
+         -0.532194184311353,
+         -0.481006170598911
+        ],
+        "ub_0.95": -0.4853432304900183,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 2.7
+      },
+      {
+       "point": "B9@0.04",
+       "delta_prime": 0.04,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new",
+           "large|long|new"
+          ],
+          "family_flagged": [
+           "car|long|new"
+          ],
+          "family_size": 19,
+          "evaluable": 25
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 6,
+          "evaluable": 15
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.009225911022660863,
+         "lb": 0.008017648031380645,
+         "ub": 0.01096493422934843,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.004389682090313172,
+         "lb": 0.002618757560528215,
+         "ub": 0.006766602096448124,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.012519273234007193,
+         "lb": 0.005755727347507737,
+         "ub": 0.020171732382593743,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.7261413994757009,
+       "infeasible_ci95": [
+        0.700483182093164,
+        0.752261443839484
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.5397822141560799,
+        "ci95": [
+         -0.5649131518451301,
+         -0.5144232748538011
+        ],
+        "ub_0.95": -0.518799911272434,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 2.7
+      },
+      {
+       "point": "B9@0.03",
+       "delta_prime": 0.03,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new"
+          ],
+          "family_flagged": [
+           "car|long|new"
+          ],
+          "family_size": 19,
+          "evaluable": 25
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 6,
+          "evaluable": 13
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.006675446096979409,
+         "lb": 0.0056688004187294486,
+         "ub": 0.008081442439149076,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.0029839360058916014,
+         "lb": 0.001442450568969845,
+         "ub": 0.0049457382754427,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.009047217297299934,
+         "lb": 0.0028353340423301412,
+         "ub": 0.015425725429594157,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.7658948981649526,
+       "infeasible_ci95": [
+        0.7418554829602744,
+        0.7898353660012101
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.5795357128453317,
+        "ci95": [
+         -0.6036113490623111,
+         -0.5548250776366204
+        ],
+        "ub_0.95": -0.5591438757814077,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 2.6
+      },
+      {
+       "point": "B9@0.02",
+       "delta_prime": 0.02,
+       "in_sample": {
+        "valid": true,
+        "shown_above": false,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 19,
+          "evaluable": 25
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 6,
+          "evaluable": 13
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.004222950311089407,
+         "lb": 0.0034794183112379718,
+         "ub": 0.00527089723133926,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.0020634916316625714,
+         "lb": 0.0005835720816254086,
+         "ub": 0.0038786674765816835,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.004633650953555199,
+         "lb": 0.0011018013954555194,
+         "ub": 0.008339722092033324,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.8215875781407541,
+       "infeasible_ci95": [
+        0.8000886549707604,
+        0.841993099415205
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.6352283928211333,
+        "ci95": [
+         -0.6580184150030252,
+         -0.6123133413994761
+        ],
+        "ub_0.95": -0.6158984714660211,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 2.6
+      },
+      {
+       "point": "B9@0.015",
+       "delta_prime": 0.015,
+       "in_sample": {
+        "valid": false,
+        "shown_above": false,
+        "floor_only": true,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 19,
+          "evaluable": 24
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": false,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 3,
+          "evaluable": 13
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 7
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.002978845476677935,
+         "lb": 0.0023790076005081725,
+         "ub": 0.003827100899026153,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.0018467939194341976,
+         "lb": 0.00019938203952585731,
+         "ub": 0.0036618458378526514,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.002003843476414285,
+         "lb": 0.0006986328758231228,
+         "ub": 0.0036123291158661718,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.8545730994152047,
+       "infeasible_ci95": [
+        0.8342921637426903,
+        0.8729657309941524
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.6682139140955837,
+        "ci95": [
+         -0.6908918612623514,
+         -0.646167441016334
+        ],
+        "ub_0.95": -0.6494736116152451,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 2.5
+      },
+      {
+       "point": "B9@0.01",
+       "delta_prime": 0.01,
+       "in_sample": {
+        "valid": false,
+        "shown_above": false,
+        "floor_only": true,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 19,
+          "evaluable": 24
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": false,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 2,
+          "evaluable": 8
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 7
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.0016701864409842315,
+         "lb": 0.001243481438067507,
+         "ub": 0.0022870137885707765,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.002218110534999102,
+         "lb": -0.00010821213975350987,
+         "ub": 0.004436221069998204,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.0010247022751300684,
+         "lb": 5.4467565537794646e-05,
+         "ub": 0.002049404550260137,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.8955883040935674,
+       "infeasible_ci95": [
+        0.8787693567251462,
+        0.9111326315789473
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.7092291187739466,
+        "ci95": [
+         -0.7303464045170398,
+         -0.6880452631578947
+        ],
+        "ub_0.95": -0.6911072474289169,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 2.3
+      },
+      {
+       "point": "B9@0.005",
+       "delta_prime": 0.005,
+       "in_sample": {
+        "valid": false,
+        "shown_above": false,
+        "floor_only": true,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 16,
+          "evaluable": 23
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": false,
+          "NoFlag_pool": false,
+          "Floor": false,
+          "HK1c": false,
+          "valid": false,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 0,
+          "evaluable": 0
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 3,
+          "evaluable": 4
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.00014812594402711807,
+         "lb": 3.0028690082901905e-05,
+         "ub": 0.00026492564071746156,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": null,
+         "lb": null,
+         "ub": null,
+         "flagged": null
+        },
+        "PD_inpath": {
+         "E": 0.0,
+         "lb": 0.0,
+         "ub": 0.0,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.9723929824561404,
+       "infeasible_ci95": [
+        0.9637707602339183,
+        0.9802672514619882
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.7860337971365194,
+        "ci95": [
+         -0.8047175115950798,
+         -0.7670357531760433
+        ],
+        "ub_0.95": -0.7699409155071588,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 1.5
+      }
+     ],
+     "choice_by_fold": {
+      "0": {
+       "point": "B9@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      },
+      "1": {
+       "point": "B9@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      },
+      "2": {
+       "point": "B9@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      },
+      "3": {
+       "point": "B9@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      },
+      "4": {
+       "point": "B9@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      }
+     },
+     "selection_trace": {
+      "0": [
+       {
+        "point": "B9@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.02",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.015",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.01",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "NoFlag_pool",
+          "Floor",
+          "HK1c"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "1": [
+       {
+        "point": "B9@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.02",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.015",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.01",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "NoFlag_pool",
+          "Floor",
+          "HK1c"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "2": [
+       {
+        "point": "B9@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.02",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.015",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.01",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "NoFlag_pool",
+          "Floor",
+          "HK1c"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "3": [
+       {
+        "point": "B9@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.02",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.015",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.01",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "NoFlag_pool",
+          "Floor",
+          "HK1c"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "4": [
+       {
+        "point": "B9@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.02",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.015",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.01",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "NoFlag_pool",
+          "Floor",
+          "HK1c"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ]
+     },
+     "selection_seconds": 75.4,
+     "composite": {
+      "label": "X3A_B9_composite",
+      "status": {
+       "valid": false,
+       "shown_above": false,
+       "floor_only": true,
+       "pops": {
+        "PD7_primary": {
+         "NoFlag": true,
+         "FamFlag": false,
+         "pooled_evaluable": true,
+         "NoFlag_pool": true,
+         "Floor": true,
+         "HK1c": true,
+         "valid": true,
+         "shown_above": false,
+         "flagged_cells": [],
+         "family_flagged": [],
+         "family_size": 16,
+         "evaluable": 23
+        },
+        "SD1_7_gap_le_5m": {
+         "NoFlag": true,
+         "FamFlag": false,
+         "pooled_evaluable": false,
+         "NoFlag_pool": false,
+         "Floor": false,
+         "HK1c": false,
+         "valid": false,
+         "shown_above": false,
+         "flagged_cells": [],
+         "family_flagged": [],
+         "family_size": 0,
+         "evaluable": 0
+        },
+        "PD_inpath": {
+         "NoFlag": true,
+         "FamFlag": false,
+         "pooled_evaluable": true,
+         "NoFlag_pool": true,
+         "Floor": true,
+         "HK1c": true,
+         "valid": true,
+         "shown_above": false,
+         "flagged_cells": [],
+         "family_flagged": [],
+         "family_size": 3,
+         "evaluable": 4
+        }
+       }
+      },
+      "pooled": {
+       "PD7_primary": {
+        "E": 0.00014812594402711807,
+        "lb": 3.0028690082901905e-05,
+        "ub": 0.00026492564071746156,
+        "flagged": false
+       },
+       "SD1_7_gap_le_5m": {
+        "E": null,
+        "lb": null,
+        "ub": null,
+        "flagged": null
+       },
+       "PD_inpath": {
+        "E": 0.0,
+        "lb": 0.0,
+        "ub": 0.0,
+        "flagged": false
+       }
+      },
+      "infeasible_rate": 0.9723929824561404,
+      "Mstar_minus_composite": {
+       "mean_diff": -0.7860337971365194,
+       "ci95": [
+        -0.8047175115950798,
+        -0.7670357531760433
+       ],
+       "ub_0.95": -0.7699409155071588,
+       "p_lt0": 0.00024993751562109475
+      }
+     }
+    }
+   }
+  },
+  "t3": {
+   "tracker": "t3",
+   "seeds": {
+    "bootstrap": [
+     20261201,
+     1,
+     1
+    ],
+    "power": [
+     20261202,
+     1,
+     1
+    ]
+   },
+   "B": 4000,
+   "B_selection": 4000,
+   "Mstar_infeasible_rate": 0.2466319822544868,
+   "families": {
+    "B4": {
+     "grid_fittable": [
+      "0.05",
+      "0.04",
+      "0.03",
+      "0.02",
+      "0.015",
+      "0.01",
+      "0.005"
+     ],
+     "grid_not_fittable": [
+      "0.0025",
+      "0.001"
+     ],
+     "order": [
+      "B4@0.05",
+      "B4@0.04",
+      "B4@0.03",
+      "B4@0.02",
+      "B4@0.015",
+      "B4@0.01",
+      "B4@0.005"
+     ],
+     "curve": [
+      {
+       "point": "B4@0.05",
+       "delta_prime": 0.05,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": false,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "large|long|static",
+           "large|long|straight",
+           "large|long|turning",
+           "large|long|new"
+          ],
+          "family_flagged": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "large|long|static",
+           "large|long|straight"
+          ],
+          "family_size": 19,
+          "evaluable": 26
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "large|long|straight"
+          ],
+          "family_flagged": [
+           "car|long|straight"
+          ],
+          "family_size": 7,
+          "evaluable": 18
+         },
+         "PD_inpath": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": false,
+          "Floor": true,
+          "HK1c": false,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "large|long|straight"
+          ],
+          "family_flagged": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new"
+          ],
+          "family_size": 5,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.06081005521149861,
+         "lb": 0.056367880638456325,
+         "ub": 0.06739507191491857,
+         "flagged": true
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.043705598660995035,
+         "lb": 0.03722683868804188,
+         "ub": 0.05185004512124157,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.11219694504338794,
+         "lb": 0.09583047623493729,
+         "ub": 0.1337478429773894,
+         "flagged": true
+        }
+       },
+       "infeasible_rate": 0.315185642266586,
+       "infeasible_ci95": [
+        0.29226539221617265,
+        0.33821461181689855
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.06855366001209921,
+        "ci95": [
+         -0.08281373664045172,
+         -0.05390972373462392
+        ],
+        "ub_0.95": -0.056489356725146225,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 3.1
+      },
+      {
+       "point": "B4@0.04",
+       "delta_prime": 0.04,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "large|long|straight",
+           "large|long|turning",
+           "large|long|new"
+          ],
+          "family_flagged": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "large|long|straight"
+          ],
+          "family_size": 19,
+          "evaluable": 26
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "large|long|straight"
+          ],
+          "family_flagged": [
+           "car|long|straight"
+          ],
+          "family_size": 7,
+          "evaluable": 18
+         },
+         "PD_inpath": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": false,
+          "Floor": true,
+          "HK1c": false,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "large|long|straight"
+          ],
+          "family_flagged": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new"
+          ],
+          "family_size": 5,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.048682812400834365,
+         "lb": 0.04473332405906609,
+         "ub": 0.0545954856719486,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.030478743051091363,
+         "lb": 0.026371813108259142,
+         "ub": 0.03636290344758074,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.08079820717078032,
+         "lb": 0.06707872350826788,
+         "ub": 0.09910343096733862,
+         "flagged": true
+        }
+       },
+       "infeasible_rate": 0.38235111917725345,
+       "infeasible_ci95": [
+        0.35746231901593045,
+        0.4072466263359548
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.1357191369227667,
+        "ci95": [
+         -0.15262833232506554,
+         -0.11917106674732816
+        ],
+        "ub_0.95": -0.1219284775156282,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 3.2
+      },
+      {
+       "point": "B4@0.03",
+       "delta_prime": 0.03,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "large|long|straight",
+           "large|long|turning",
+           "large|long|new"
+          ],
+          "family_flagged": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "large|long|straight"
+          ],
+          "family_size": 19,
+          "evaluable": 25
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|straight",
+           "car|long|new",
+           "large|long|straight"
+          ],
+          "family_flagged": [
+           "car|long|straight"
+          ],
+          "family_size": 7,
+          "evaluable": 17
+         },
+         "PD_inpath": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|straight",
+           "car|long|new"
+          ],
+          "family_flagged": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new"
+          ],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.03655295675607264,
+         "lb": 0.0329733469461552,
+         "ub": 0.04162273017602739,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.023172582661132094,
+         "lb": 0.01948105167580906,
+         "ub": 0.02879592123748661,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.05923239298809788,
+         "lb": 0.04730697972811557,
+         "ub": 0.07492375143393482,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.4678948175035289,
+       "infeasible_ci95": [
+        0.44107924984875974,
+        0.4944758136721114
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.22126283524904217,
+        "ci95": [
+         -0.24123684613833427,
+         -0.20196596894535182
+        ],
+        "ub_0.95": -0.20451917725347843,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 3.1
+      },
+      {
+       "point": "B4@0.02",
+       "delta_prime": 0.02,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "large|long|straight",
+           "large|long|new"
+          ],
+          "family_flagged": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "large|long|straight"
+          ],
+          "family_size": 19,
+          "evaluable": 25
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": false,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new"
+          ],
+          "family_flagged": [],
+          "family_size": 7,
+          "evaluable": 16
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.02345082718703801,
+         "lb": 0.02074939331713536,
+         "ub": 0.027343567771064774,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.014446728007645343,
+         "lb": 0.01142516141052422,
+         "ub": 0.018774715158164437,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.035840821554787544,
+         "lb": 0.02762962858041772,
+         "ub": 0.04730967112266794,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.5659171607178867,
+       "infeasible_ci95": [
+        0.5391661504335551,
+        0.5925457632587214
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.3192851784633999,
+        "ci95": [
+         -0.34098975196612213,
+         -0.29794610203670086
+        ],
+        "ub_0.95": -0.30098188344424287,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 3.0
+      },
+      {
+       "point": "B4@0.015",
+       "delta_prime": 0.015,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new",
+           "large|long|new"
+          ],
+          "family_flagged": [
+           "car|long|new"
+          ],
+          "family_size": 19,
+          "evaluable": 25
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 6,
+          "evaluable": 16
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.01666091345693753,
+         "lb": 0.014694163671507674,
+         "ub": 0.019543721235180365,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.010900626562320643,
+         "lb": 0.008161925396299374,
+         "ub": 0.01472925733606929,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.023069733841930992,
+         "lb": 0.017056807436927997,
+         "ub": 0.03130014144710591,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.6331105464811454,
+       "infeasible_ci95": [
+        0.6061638273845533,
+        0.6588281952006454
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.3864785642266586,
+        "ci95": [
+         -0.40819216374268996,
+         -0.36428759427303903
+        ],
+        "ub_0.95": -0.3674880258116556,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 2.9
+      },
+      {
+       "point": "B4@0.01",
+       "delta_prime": 0.01,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new"
+          ],
+          "family_flagged": [
+           "car|long|new"
+          ],
+          "family_size": 19,
+          "evaluable": 25
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": false,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 5,
+          "evaluable": 16
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.009354503592123928,
+         "lb": 0.008191410103987126,
+         "ub": 0.011146511323533458,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.004689201187182216,
+         "lb": 0.0025262036710898828,
+         "ub": 0.007229211810179598,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.011743255881827274,
+         "lb": 0.008097100750374722,
+         "ub": 0.016575054242117835,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.7205838273845533,
+       "infeasible_ci95": [
+        0.6959952974389998,
+        0.7442106432748536
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.4739518451300666,
+        "ci95": [
+         -0.49693705182496484,
+         -0.4511848880822745
+        ],
+        "ub_0.95": -0.45410078644888086,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 3.0
+      },
+      {
+       "point": "B4@0.005",
+       "delta_prime": 0.005,
+       "in_sample": {
+        "valid": false,
+        "shown_above": false,
+        "floor_only": true,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 19,
+          "evaluable": 24
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": false,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 8
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 7
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.0022035835494304333,
+         "lb": 0.0016870142153161249,
+         "ub": 0.0029218655936216094,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.0018309219134914664,
+         "lb": -0.0003254693070684374,
+         "ub": 0.0036028606961583487,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.001302342406660516,
+         "lb": 0.00041835153278352874,
+         "ub": 0.002343959472340963,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.8646923976608186,
+       "infeasible_ci95": [
+        0.8462030409356729,
+        0.8822555555555553
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.6180604154063319,
+        "ci95": [
+         -0.6408308691268404,
+         -0.5954106876386369
+        ],
+        "ub_0.95": -0.598994926396451,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 3.0
+      }
+     ],
+     "choice_by_fold": {
+      "0": {
+       "point": "B4@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      },
+      "1": {
+       "point": "B4@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      },
+      "2": {
+       "point": "B4@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      },
+      "3": {
+       "point": "B4@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      },
+      "4": {
+       "point": "B4@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      }
+     },
+     "selection_trace": {
+      "0": [
+       {
+        "point": "B4@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "NoFlag_pool",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "NoFlag_pool",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "NoFlag_pool",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.015",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.01",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "1": [
+       {
+        "point": "B4@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "NoFlag_pool",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "NoFlag_pool",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "NoFlag_pool",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag"
+         ],
+         "PD_inpath": [
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.015",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.01",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "2": [
+       {
+        "point": "B4@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "NoFlag_pool",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "NoFlag_pool",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "NoFlag_pool",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.015",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.01",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "3": [
+       {
+        "point": "B4@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "NoFlag_pool",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "NoFlag_pool",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "NoFlag_pool",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.015",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.01",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "4": [
+       {
+        "point": "B4@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "NoFlag_pool",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "NoFlag_pool",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "NoFlag_pool",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "PD_inpath": [
+          "NoFlag",
+          "NoFlag_pool",
+          "HK1c",
+          "FamFlag"
+         ]
+        }
+       },
+       {
+        "point": "B4@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.015",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.01",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B4@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ]
+     },
+     "selection_seconds": 87.4,
+     "composite": {
+      "label": "X3A_B4_composite",
+      "status": {
+       "valid": false,
+       "shown_above": false,
+       "floor_only": true,
+       "pops": {
+        "PD7_primary": {
+         "NoFlag": true,
+         "FamFlag": false,
+         "pooled_evaluable": true,
+         "NoFlag_pool": true,
+         "Floor": true,
+         "HK1c": true,
+         "valid": true,
+         "shown_above": false,
+         "flagged_cells": [],
+         "family_flagged": [],
+         "family_size": 19,
+         "evaluable": 24
+        },
+        "SD1_7_gap_le_5m": {
+         "NoFlag": true,
+         "FamFlag": false,
+         "pooled_evaluable": true,
+         "NoFlag_pool": true,
+         "Floor": false,
+         "HK1c": true,
+         "valid": false,
+         "shown_above": false,
+         "flagged_cells": [],
+         "family_flagged": [],
+         "family_size": 4,
+         "evaluable": 8
+        },
+        "PD_inpath": {
+         "NoFlag": true,
+         "FamFlag": false,
+         "pooled_evaluable": true,
+         "NoFlag_pool": true,
+         "Floor": true,
+         "HK1c": true,
+         "valid": true,
+         "shown_above": false,
+         "flagged_cells": [],
+         "family_flagged": [],
+         "family_size": 4,
+         "evaluable": 7
+        }
+       }
+      },
+      "pooled": {
+       "PD7_primary": {
+        "E": 0.0022035835494304333,
+        "lb": 0.0016870142153161249,
+        "ub": 0.0029218655936216094,
+        "flagged": false
+       },
+       "SD1_7_gap_le_5m": {
+        "E": 0.0018309219134914664,
+        "lb": -0.0003254693070684374,
+        "ub": 0.0036028606961583487,
+        "flagged": false
+       },
+       "PD_inpath": {
+        "E": 0.001302342406660516,
+        "lb": 0.00041835153278352874,
+        "ub": 0.002343959472340963,
+        "flagged": false
+       }
+      },
+      "infeasible_rate": 0.8646923976608186,
+      "Mstar_minus_composite": {
+       "mean_diff": -0.6180604154063319,
+       "ci95": [
+        -0.6408308691268404,
+        -0.5954106876386369
+       ],
+       "ub_0.95": -0.598994926396451,
+       "p_lt0": 0.00024993751562109475
+      }
+     }
+    },
+    "B6": {
+     "grid_fittable": [
+      "0.05",
+      "0.04",
+      "0.03",
+      "0.02",
+      "0.015",
+      "0.01",
+      "0.005"
+     ],
+     "grid_not_fittable": [
+      "0.0025",
+      "0.001"
+     ],
+     "order": [
+      "B6@0.05",
+      "B6@0.04",
+      "B6@0.03",
+      "B6@0.02",
+      "B6@0.015",
+      "B6@0.01",
+      "B6@0.005"
+     ],
+     "curve": [
+      {
+       "point": "B6@0.05",
+       "delta_prime": 0.05,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "car|lat|turning",
+           "car|lat|new",
+           "large|long|new"
+          ],
+          "family_flagged": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "car|lat|turning",
+           "car|lat|new"
+          ],
+          "family_size": 19,
+          "evaluable": 27
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 7,
+          "evaluable": 18
+         },
+         "PD_inpath": {
+          "NoFlag": false,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|lat|turning"
+          ],
+          "family_flagged": [],
+          "family_size": 5,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.04899733179233997,
+         "lb": 0.0459977302316117,
+         "ub": 0.05397446125658659,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.03612058525397221,
+         "lb": 0.02906487455556194,
+         "ub": 0.045611047493638465,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.04369201051578729,
+         "lb": 0.03504306151803893,
+         "ub": 0.056367105114953894,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.22861286549707605,
+       "infeasible_ci95": [
+        0.2078877192982457,
+        0.2498297076023391
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": 0.018019116757410768,
+        "ci95": [
+         0.009059475700746111,
+         0.0267725993143779
+        ],
+        "ub_0.95": 0.02543188546077837,
+        "p_lt0": 1.0
+       },
+       "seconds": 3.3
+      },
+      {
+       "point": "B6@0.04",
+       "delta_prime": 0.04,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "car|lat|turning",
+           "car|lat|new"
+          ],
+          "family_flagged": [
+           "car|long|straight",
+           "car|long|turning",
+           "car|long|new",
+           "car|lat|turning",
+           "car|lat|new"
+          ],
+          "family_size": 19,
+          "evaluable": 27
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 8,
+          "evaluable": 17
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 5,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.03857772669588862,
+         "lb": 0.0360749878305975,
+         "ub": 0.04253577879662197,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.029439316171565505,
+         "lb": 0.02265618909417006,
+         "ub": 0.03823300730634867,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.033108713092524694,
+         "lb": 0.026195449791445318,
+         "ub": 0.042942667710433154,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.2626900584795322,
+       "infeasible_ci95": [
+        0.24146409356725138,
+        0.2851350877192983
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.016058076225045372,
+        "ci95": [
+         -0.025565997176850166,
+         -0.006724190360959869
+        ],
+        "ub_0.95": -0.00811449889090543,
+        "p_lt0": 0.0007498125468632841
+       },
+       "seconds": 3.0
+      },
+      {
+       "point": "B6@0.03",
+       "delta_prime": 0.03,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new",
+           "car|lat|turning"
+          ],
+          "family_flagged": [
+           "car|long|new",
+           "car|lat|turning",
+           "car|lat|new"
+          ],
+          "family_size": 19,
+          "evaluable": 27
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 8,
+          "evaluable": 17
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 5,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.02854493645084077,
+         "lb": 0.026464982654678025,
+         "ub": 0.031905749250700687,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.021047017067050516,
+         "lb": 0.014641443923538316,
+         "ub": 0.0287595014407193,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.024679409061227633,
+         "lb": 0.01862437104490216,
+         "ub": 0.03321982345072783,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.3215390199637024,
+       "infeasible_ci95": [
+        0.2982894656180682,
+        0.34493809639040124
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.07490703770921557,
+        "ci95": [
+         -0.0863512684008873,
+         -0.0632090986085904
+        ],
+        "ub_0.95": -0.06521698729582576,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 3.0
+      },
+      {
+       "point": "B6@0.02",
+       "delta_prime": 0.02,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new"
+          ],
+          "family_flagged": [
+           "car|long|new"
+          ],
+          "family_size": 19,
+          "evaluable": 27
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 6,
+          "evaluable": 17
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 5,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.01807963810202578,
+         "lb": 0.0166144884931776,
+         "ub": 0.02048753575110543,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.014623386915859717,
+         "lb": 0.008774313327353067,
+         "ub": 0.0213201109457838,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.013670425287895069,
+         "lb": 0.009797545851503643,
+         "ub": 0.018928683871339645,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.4295714458560194,
+       "infeasible_ci95": [
+        0.4045400524299252,
+        0.4545221012300866
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.1829394636015326,
+        "ci95": [
+         -0.19791637830207692,
+         -0.16833660818713453
+        ],
+        "ub_0.95": -0.17046018955434564,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 2.9
+      },
+      {
+       "point": "B6@0.015",
+       "delta_prime": 0.015,
+       "in_sample": {
+        "valid": true,
+        "shown_above": false,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 19,
+          "evaluable": 27
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 7,
+          "evaluable": 14
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 5,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.013319807252888137,
+         "lb": 0.012016377141574417,
+         "ub": 0.015302275392116918,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.010996902108229553,
+         "lb": 0.0063205259049366885,
+         "ub": 0.01646321349235575,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.0108035391946152,
+         "lb": 0.007643289823860765,
+         "ub": 0.015149156754412137,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.48622464206493243,
+       "infeasible_ci95": [
+        0.4605445372050816,
+        0.5117464448477517
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.23959265981044564,
+        "ci95": [
+         -0.255871195805606,
+         -0.2236758983666061
+        ],
+        "ub_0.95": -0.22605422867513603,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 2.8
+      },
+      {
+       "point": "B6@0.01",
+       "delta_prime": 0.01,
+       "in_sample": {
+        "valid": true,
+        "shown_above": false,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 19,
+          "evaluable": 27
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 7,
+          "evaluable": 14
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 5,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.007875375499036195,
+         "lb": 0.006938019740829084,
+         "ub": 0.009260141507519793,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.0056330936814065,
+         "lb": 0.003608420742336993,
+         "ub": 0.008305683434586484,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.0047352041333028885,
+         "lb": 0.002748167094051587,
+         "ub": 0.0072163793181909365,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.6245849566444848,
+       "infeasible_ci95": [
+        0.5986600161322846,
+        0.6495815003024804
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.377952974389998,
+        "ci95": [
+         -0.3991015849969752,
+         -0.3569177374470658
+        ],
+        "ub_0.95": -0.36017864085501106,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 2.9
+      },
+      {
+       "point": "B6@0.005",
+       "delta_prime": 0.005,
+       "in_sample": {
+        "valid": false,
+        "shown_above": false,
+        "floor_only": true,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 19,
+          "evaluable": 25
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": false,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 3,
+          "evaluable": 10
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.0023515986912984684,
+         "lb": 0.0018408929498092024,
+         "ub": 0.003071411746402723,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.0017976298174081846,
+         "lb": 0.0006658105943635442,
+         "ub": 0.0031249236639120078,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.00041479224413510784,
+         "lb": 7.139761185812559e-05,
+         "ub": 0.0007838221097030901,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.875875297439,
+       "infeasible_ci95": [
+        0.8575310465819719,
+        0.8931389997983461
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.629243315184513,
+        "ci95": [
+         -0.6521988707400687,
+         -0.605693547086106
+        ],
+        "ub_0.95": -0.6092290623109496,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 2.5
+      }
+     ],
+     "choice_by_fold": {
+      "0": {
+       "point": "B6@0.015",
+       "none_qualifies": false,
+       "points_tried": 5
+      },
+      "1": {
+       "point": "B6@0.015",
+       "none_qualifies": false,
+       "points_tried": 5
+      },
+      "2": {
+       "point": "B6@0.015",
+       "none_qualifies": false,
+       "points_tried": 5
+      },
+      "3": {
+       "point": "B6@0.015",
+       "none_qualifies": false,
+       "points_tried": 5
+      },
+      "4": {
+       "point": "B6@0.015",
+       "none_qualifies": false,
+       "points_tried": 5
+      }
+     },
+     "selection_trace": {
+      "0": [
+       {
+        "point": "B6@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": [
+          "NoFlag"
+         ]
+        }
+       },
+       {
+        "point": "B6@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": [
+          "NoFlag"
+         ]
+        }
+       },
+       {
+        "point": "B6@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.015",
+        "valid": true,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "1": [
+       {
+        "point": "B6@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.015",
+        "valid": true,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "2": [
+       {
+        "point": "B6@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": [
+          "NoFlag"
+         ]
+        }
+       },
+       {
+        "point": "B6@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.015",
+        "valid": true,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "3": [
+       {
+        "point": "B6@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": [
+          "NoFlag"
+         ]
+        }
+       },
+       {
+        "point": "B6@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.015",
+        "valid": true,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "4": [
+       {
+        "point": "B6@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": [
+          "NoFlag"
+         ]
+        }
+       },
+       {
+        "point": "B6@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.02",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B6@0.015",
+        "valid": true,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       }
+      ]
+     },
+     "selection_seconds": 68.0,
+     "composite": {
+      "label": "X3A_B6_composite",
+      "status": {
+       "valid": true,
+       "shown_above": false,
+       "floor_only": false,
+       "pops": {
+        "PD7_primary": {
+         "NoFlag": true,
+         "FamFlag": false,
+         "pooled_evaluable": true,
+         "NoFlag_pool": true,
+         "Floor": true,
+         "HK1c": true,
+         "valid": true,
+         "shown_above": false,
+         "flagged_cells": [],
+         "family_flagged": [],
+         "family_size": 19,
+         "evaluable": 27
+        },
+        "SD1_7_gap_le_5m": {
+         "NoFlag": true,
+         "FamFlag": false,
+         "pooled_evaluable": true,
+         "NoFlag_pool": true,
+         "Floor": true,
+         "HK1c": true,
+         "valid": true,
+         "shown_above": false,
+         "flagged_cells": [],
+         "family_flagged": [],
+         "family_size": 8,
+         "evaluable": 14
+        },
+        "PD_inpath": {
+         "NoFlag": true,
+         "FamFlag": false,
+         "pooled_evaluable": true,
+         "NoFlag_pool": true,
+         "Floor": true,
+         "HK1c": true,
+         "valid": true,
+         "shown_above": false,
+         "flagged_cells": [],
+         "family_flagged": [],
+         "family_size": 5,
+         "evaluable": 8
+        }
+       }
+      },
+      "pooled": {
+       "PD7_primary": {
+        "E": 0.013319807252888137,
+        "lb": 0.012016377141574417,
+        "ub": 0.015302275392116918,
+        "flagged": false
+       },
+       "SD1_7_gap_le_5m": {
+        "E": 0.010996902108229553,
+        "lb": 0.0063205259049366885,
+        "ub": 0.01646321349235575,
+        "flagged": false
+       },
+       "PD_inpath": {
+        "E": 0.0108035391946152,
+        "lb": 0.007643289823860765,
+        "ub": 0.015149156754412137,
+        "flagged": false
+       }
+      },
+      "infeasible_rate": 0.48622464206493243,
+      "Mstar_minus_composite": {
+       "mean_diff": -0.23959265981044564,
+       "ci95": [
+        -0.255871195805606,
+        -0.2236758983666061
+       ],
+       "ub_0.95": -0.22605422867513603,
+       "p_lt0": 0.00024993751562109475
+      }
+     }
+    },
+    "B9": {
+     "grid_fittable": [
+      "0.05",
+      "0.04",
+      "0.03",
+      "0.02",
+      "0.015",
+      "0.01",
+      "0.005"
+     ],
+     "grid_not_fittable": [
+      "0.0025",
+      "0.001"
+     ],
+     "order": [
+      "B9@0.05",
+      "B9@0.04",
+      "B9@0.03",
+      "B9@0.02",
+      "B9@0.015",
+      "B9@0.01",
+      "B9@0.005"
+     ],
+     "curve": [
+      {
+       "point": "B9@0.05",
+       "delta_prime": 0.05,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new",
+           "large|long|new"
+          ],
+          "family_flagged": [
+           "car|long|new"
+          ],
+          "family_size": 19,
+          "evaluable": 26
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 6,
+          "evaluable": 17
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.013743258079723413,
+         "lb": 0.01210162760768318,
+         "ub": 0.016274220700853624,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.00484131980115978,
+         "lb": 0.0027261871213948565,
+         "ub": 0.007443484287835618,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.015947897586433613,
+         "lb": 0.011229385781250833,
+         "ub": 0.022385460885728382,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.6629360758217382,
+       "infeasible_ci95": [
+        0.6348570397257511,
+        0.6905211010284332
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.4163040935672515,
+        "ci95": [
+         -0.44346959467634617,
+         -0.3887249042145594
+        ],
+        "ub_0.95": -0.39325920548497684,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 3.1
+      },
+      {
+       "point": "B9@0.04",
+       "delta_prime": 0.04,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new",
+           "large|long|new"
+          ],
+          "family_flagged": [
+           "car|long|new"
+          ],
+          "family_size": 19,
+          "evaluable": 26
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 6,
+          "evaluable": 17
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.010827211784797789,
+         "lb": 0.009438245678868161,
+         "ub": 0.012936378784070637,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.00407333027551334,
+         "lb": 0.001928685650406894,
+         "ub": 0.0065398833979042285,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.011924097647893999,
+         "lb": 0.007480168421858642,
+         "ub": 0.017613356531851435,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.7073421254285137,
+       "infeasible_ci95": [
+        0.6800801734220611,
+        0.7341988667069975
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.46071014317402703,
+        "ci95": [
+         -0.48791883040935685,
+         -0.43363966525509173
+        ],
+        "ub_0.95": -0.437389151038516,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 3.1
+      },
+      {
+       "point": "B9@0.03",
+       "delta_prime": 0.03,
+       "in_sample": {
+        "valid": false,
+        "shown_above": true,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": false,
+          "FamFlag": true,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": true,
+          "flagged_cells": [
+           "car|long|new"
+          ],
+          "family_flagged": [
+           "car|long|new"
+          ],
+          "family_size": 19,
+          "evaluable": 26
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 6,
+          "evaluable": 13
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.007802644981713865,
+         "lb": 0.006710769963502689,
+         "ub": 0.009478327372433194,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.002383207459583209,
+         "lb": 0.0004904756066514931,
+         "ub": 0.00416762933599641,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.008404208249383373,
+         "lb": 0.004687983699097054,
+         "ub": 0.0132078087572989,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.7530682798951402,
+       "infeasible_ci95": [
+        0.7276238354506958,
+        0.7772007824158098
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.5064362976406535,
+        "ci95": [
+         -0.5326059810445654,
+         -0.4797075620084695
+        ],
+        "ub_0.95": -0.483497124420246,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 2.9
+      },
+      {
+       "point": "B9@0.02",
+       "delta_prime": 0.02,
+       "in_sample": {
+        "valid": true,
+        "shown_above": false,
+        "floor_only": false,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 19,
+          "evaluable": 24
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 6,
+          "evaluable": 13
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.004930511605516079,
+         "lb": 0.004094804731951279,
+         "ub": 0.00618817249223858,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.0021468028437380696,
+         "lb": 0.0003017772437714746,
+         "ub": 0.0039950061216113475,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.0039008174344581925,
+         "lb": 0.001614903380376057,
+         "ub": 0.006546747985181777,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.8174315789473685,
+       "infeasible_ci95": [
+        0.7943297076023391,
+        0.8387650292397664
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.5707995966928817,
+        "ci95": [
+         -0.5962469489816494,
+         -0.5457003387779793
+        ],
+        "ub_0.95": -0.5493303649929424,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 2.8
+      },
+      {
+       "point": "B9@0.015",
+       "delta_prime": 0.015,
+       "in_sample": {
+        "valid": false,
+        "shown_above": false,
+        "floor_only": true,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 19,
+          "evaluable": 24
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": false,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 3,
+          "evaluable": 13
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.00353039044337048,
+         "lb": 0.0028564485456045964,
+         "ub": 0.004551948681006922,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.0016147877661856472,
+         "lb": -0.0004130152522956625,
+         "ub": 0.003154094480667417,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.003579754116443847,
+         "lb": 0.0006488953637316403,
+         "ub": 0.006418815268398312,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.8573286549707603,
+       "infeasible_ci95": [
+        0.8367414035087724,
+        0.8764871345029237
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.6106966727162734,
+        "ci95": [
+         -0.6355736761443841,
+         -0.5855343617664852
+        ],
+        "ub_0.95": -0.5897855293405927,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 2.7
+      },
+      {
+       "point": "B9@0.01",
+       "delta_prime": 0.01,
+       "in_sample": {
+        "valid": false,
+        "shown_above": false,
+        "floor_only": true,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 19,
+          "evaluable": 24
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": false,
+          "HK1c": true,
+          "valid": false,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 2,
+          "evaluable": 8
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 8
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.0020862457257254667,
+         "lb": 0.0015745467256871773,
+         "ub": 0.002817258484181397,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": 0.001238012205754141,
+         "lb": -0.0009641899964480613,
+         "ub": 0.002476024411508282,
+         "flagged": false
+        },
+        "PD_inpath": {
+         "E": 0.0009199304283872551,
+         "lb": 0.00024041937065772399,
+         "ub": 0.0017425586618535981,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.9068771929824561,
+       "infeasible_ci95": [
+        0.8910821052631575,
+        0.9217783625730994
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.6602452107279695,
+        "ci95": [
+         -0.6833976003226457,
+         -0.6372555353901996
+        ],
+        "ub_0.95": -0.6401469086509378,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 2.4
+      },
+      {
+       "point": "B9@0.005",
+       "delta_prime": 0.005,
+       "in_sample": {
+        "valid": false,
+        "shown_above": false,
+        "floor_only": true,
+        "pops": {
+         "PD7_primary": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 16,
+          "evaluable": 23
+         },
+         "SD1_7_gap_le_5m": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": false,
+          "NoFlag_pool": false,
+          "Floor": false,
+          "HK1c": false,
+          "valid": false,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 0,
+          "evaluable": 0
+         },
+         "PD_inpath": {
+          "NoFlag": true,
+          "FamFlag": false,
+          "pooled_evaluable": true,
+          "NoFlag_pool": true,
+          "Floor": true,
+          "HK1c": true,
+          "valid": true,
+          "shown_above": false,
+          "flagged_cells": [],
+          "family_flagged": [],
+          "family_size": 4,
+          "evaluable": 4
+         }
+        }
+       },
+       "pooled": {
+        "PD7_primary": {
+         "E": 0.0004233535352011401,
+         "lb": 0.00019087650576698773,
+         "ub": 0.000716947699455635,
+         "flagged": false
+        },
+        "SD1_7_gap_le_5m": {
+         "E": null,
+         "lb": null,
+         "ub": null,
+         "flagged": null
+        },
+        "PD_inpath": {
+         "E": 0.0,
+         "lb": 0.0,
+         "ub": 0.0,
+         "flagged": false
+        }
+       },
+       "infeasible_rate": 0.9715040935672514,
+       "infeasible_ci95": [
+        0.9627031578947368,
+        0.9793076023391812
+       ],
+       "Mstar_minus_point": {
+        "mean_diff": -0.7248721113127647,
+        "ci95": [
+         -0.7461386126235126,
+         -0.703711921758419
+        ],
+        "ub_0.95": -0.706485444646098,
+        "p_lt0": 0.00024993751562109475
+       },
+       "seconds": 2.0
+      }
+     ],
+     "choice_by_fold": {
+      "0": {
+       "point": "B9@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      },
+      "1": {
+       "point": "B9@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      },
+      "2": {
+       "point": "B9@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      },
+      "3": {
+       "point": "B9@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      },
+      "4": {
+       "point": "B9@0.005",
+       "none_qualifies": true,
+       "points_tried": 7
+      }
+     },
+     "selection_trace": {
+      "0": [
+       {
+        "point": "B9@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.03",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.02",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.015",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.01",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "NoFlag_pool",
+          "Floor",
+          "HK1c"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "1": [
+       {
+        "point": "B9@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.03",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.02",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.015",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.01",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "NoFlag_pool",
+          "Floor",
+          "HK1c"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "2": [
+       {
+        "point": "B9@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.03",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.02",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.015",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.01",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "NoFlag_pool",
+          "Floor",
+          "HK1c"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "3": [
+       {
+        "point": "B9@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.03",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.02",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.015",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.01",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "NoFlag_pool",
+          "Floor",
+          "HK1c"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ],
+      "4": [
+       {
+        "point": "B9@0.05",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.04",
+        "valid": false,
+        "shown_above": true,
+        "failing": {
+         "PD7_primary": [
+          "NoFlag",
+          "FamFlag"
+         ],
+         "SD1_7_gap_le_5m": [],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.03",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.02",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.015",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.01",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "Floor"
+         ],
+         "PD_inpath": []
+        }
+       },
+       {
+        "point": "B9@0.005",
+        "valid": false,
+        "shown_above": false,
+        "failing": {
+         "PD7_primary": [],
+         "SD1_7_gap_le_5m": [
+          "NoFlag_pool",
+          "Floor",
+          "HK1c"
+         ],
+         "PD_inpath": []
+        }
+       }
+      ]
+     },
+     "selection_seconds": 76.3,
+     "composite": {
+      "label": "X3A_B9_composite",
+      "status": {
+       "valid": false,
+       "shown_above": false,
+       "floor_only": true,
+       "pops": {
+        "PD7_primary": {
+         "NoFlag": true,
+         "FamFlag": false,
+         "pooled_evaluable": true,
+         "NoFlag_pool": true,
+         "Floor": true,
+         "HK1c": true,
+         "valid": true,
+         "shown_above": false,
+         "flagged_cells": [],
+         "family_flagged": [],
+         "family_size": 16,
+         "evaluable": 23
+        },
+        "SD1_7_gap_le_5m": {
+         "NoFlag": true,
+         "FamFlag": false,
+         "pooled_evaluable": false,
+         "NoFlag_pool": false,
+         "Floor": false,
+         "HK1c": false,
+         "valid": false,
+         "shown_above": false,
+         "flagged_cells": [],
+         "family_flagged": [],
+         "family_size": 0,
+         "evaluable": 0
+        },
+        "PD_inpath": {
+         "NoFlag": true,
+         "FamFlag": false,
+         "pooled_evaluable": true,
+         "NoFlag_pool": true,
+         "Floor": true,
+         "HK1c": true,
+         "valid": true,
+         "shown_above": false,
+         "flagged_cells": [],
+         "family_flagged": [],
+         "family_size": 4,
+         "evaluable": 4
+        }
+       }
+      },
+      "pooled": {
+       "PD7_primary": {
+        "E": 0.0004233535352011401,
+        "lb": 0.00019087650576698773,
+        "ub": 0.000716947699455635,
+        "flagged": false
+       },
+       "SD1_7_gap_le_5m": {
+        "E": null,
+        "lb": null,
+        "ub": null,
+        "flagged": null
+       },
+       "PD_inpath": {
+        "E": 0.0,
+        "lb": 0.0,
+        "ub": 0.0,
+        "flagged": false
+       }
+      },
+      "infeasible_rate": 0.9715040935672514,
+      "Mstar_minus_composite": {
+       "mean_diff": -0.7248721113127647,
+       "ci95": [
+        -0.7461386126235126,
+        -0.703711921758419
+       ],
+       "ub_0.95": -0.706485444646098,
+       "p_lt0": 0.00024993751562109475
+      }
+     }
+    }
+   }
+  }
+ },
+ "B0_family_from_record": {
+  "t1": {
+   "choice_by_fold": {
+    "0": {
+     "arm": "B0a8",
+     "none_qualifies": true,
+     "points_tried": 21,
+     "alpha_eq": 8.0
+    },
+    "1": {
+     "arm": "B0a8",
+     "none_qualifies": true,
+     "points_tried": 21,
+     "alpha_eq": 8.0
+    },
+    "2": {
+     "arm": "B0a8",
+     "none_qualifies": true,
+     "points_tried": 21,
+     "alpha_eq": 8.0
+    },
+    "3": {
+     "arm": "B0a8",
+     "none_qualifies": true,
+     "points_tried": 21,
+     "alpha_eq": 8.0
+    },
+    "4": {
+     "arm": "B0a8",
+     "none_qualifies": true,
+     "points_tried": 21,
+     "alpha_eq": 8.0
+    }
+   },
+   "valid": true,
+   "shown_above": false,
+   "infeasible_rate": 0.780954708610607,
+   "Mstar_minus_RETUNED_HK1": {
+    "mean_diff": -0.5945955232909861,
+    "ci95": [
+     -0.6186798467432949,
+     -0.5703660334744908
+    ],
+    "ub": -0.5741656221012301,
+    "level": 0.95
+   },
+   "source": "60_RESULTS/c1_av2_v01/c1_analysis_r1.json c1.within_lt3d.t1.RETUNED_HK1 (B = 40000; reported, not re-run)"
+  },
+  "t3": {
+   "choice_by_fold": {
+    "0": {
+     "arm": "B0a8",
+     "none_qualifies": true,
+     "points_tried": 21,
+     "alpha_eq": 8.0
+    },
+    "1": {
+     "arm": "B0a8",
+     "none_qualifies": true,
+     "points_tried": 21,
+     "alpha_eq": 8.0
+    },
+    "2": {
+     "arm": "B0a8",
+     "none_qualifies": true,
+     "points_tried": 21,
+     "alpha_eq": 8.0
+    },
+    "3": {
+     "arm": "B0a8",
+     "none_qualifies": true,
+     "points_tried": 21,
+     "alpha_eq": 8.0
+    },
+    "4": {
+     "arm": "B0a8",
+     "none_qualifies": true,
+     "points_tried": 21,
+     "alpha_eq": 8.0
+    }
+   },
+   "valid": false,
+   "shown_above": false,
+   "infeasible_rate": 0.9769777777777778,
+   "Mstar_minus_RETUNED_HK1": {
+    "mean_diff": -0.730345795523291,
+    "ci95": [
+     -0.7513471627344223,
+     -0.7090576245210727
+    ],
+    "ub": -0.7123797539826578,
+    "level": 0.95
+   },
+   "source": "60_RESULTS/c1_av2_v01/c1_analysis_r1.json c1.within_lt3d.t3.RETUNED_HK1 (B = 40000; reported, not re-run)"
+  }
+ },
+ "fits_summaries": {
+  "t1": "689c92b9bce777775dab546c7453331b4eb7cba382d9dba58ccf450e7bfb48c1",
+  "t3": "f6df85ffaf129155f6eb0e1855cf8fc77b7f234deecd204d3c6049ec56aba361"
+ },
+ "runs": {
+  "t1": {
+   "core": "3c16ac4fb3b56bc0c3d31aa6fc3f1d9f1a89d4162f9d25503974583516f349d7",
+   "a": "cf41cfcf4ac8b0f87ed62db468328976ba37351db5729ce86eb83c4da0e97afa"
+  },
+  "t3": {
+   "core": "70194508ae5d83ea7ef80eda49159cd9e001ab364ee6434959e49fad81f6db7d",
+   "a": "ebf3e6f3b5205e03749cf4a825a59c5905378f1c9603fc7bd9f454ad44d93b27"
+  }
+ },
+ "seconds": 703.1
+}

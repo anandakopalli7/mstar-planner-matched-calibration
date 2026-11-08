@@ -1,0 +1,735 @@
+{
+ "tested_files_sha256": {
+  "c1_guard_v05.py": "cd40e98ac1d6d4f559ea3a95075dcb361f4779e688947356e66e880853a87608",
+  "c1_guard_v06.py": "c5e3f8f1d51a1ea8ad63b84de8f3310e087af15730381eb7d88b75300bdb197f",
+  "c1_freeze_v07.py": "6b1a156da8086fa02441796f97faea1737b5cb5884148b0426b38ced5056b736",
+  "c1_quarantine_v03.py": "8f00f5358aa60c5d654a1aa95bcf39e8bde34400db20d9ccb1c439af9d6675cd",
+  "c1_av2_gt_inventory_v01.py": "ae4a95a186573e1310e9f862c2afb0a2dfd606bc8af0e874a627c561411d95e6",
+  "c1_av2_provenance_v01.py": "df9b0400cdbd4df59f1f3983add9e72e494762cd3cf20a91ee25fcdb7614bc0b",
+  "c1_power_counts_v05.py": "d2b9907cd6ffd503bf2b45ab2fde19c0c3a8eab4cecf6ec3a386e1cadeac6bdc",
+  "c1_av2_scene_map_v01.py": "56f6d883810c997879360d963adb18b095c5b365211608b8b7b800180b8d1877",
+  "c1_tpp_envcheck_v01.py": "00c193343c9a542bbf722247e9a1fdba8cc436a04d1bb8f82c44f7da86d34f12",
+  "c1_analyse_v10.py": "6fc42675a98f8effb96efb95d151ac39eedb2d7748d667d4084d24575cb92598",
+  "c1_predarm_v07.py": "b5227e659a309dd137c34527bfa55440f56ed23314a4605f76c0f93179c6c36f",
+  "c1_fit_v06.py": "82e1eb4ab52d044a7e47dcb5f4b41d84a536421523956f90c401236dce0d3190",
+  "c1_run_v06.py": "77967094aecd19a76363569e336c359d0f697182dd343614ef8e00da761f72b6",
+  "c1_mstage_v06.py": "1e1477ff788e708ce33a401c6916fdb4c4fd924c91ef494524bcf0a131dda89f",
+  "c1_h8_v06.py": "101a47acb78eb00f83ec1afa6a8ab2469d5ab32d246fa8bfb63e311f4142c026",
+  "c1_e0_v05.py": "8f1312a373a40ca82a020d37ee46c5904808c8f139683e1871868035382c438e",
+  "tests/test_c1_v13.py": "b0d8dcd1b90079bcc18c78adf74de58497bbcef62054d25175372aad0e29bb93",
+  "../av2/av2_cache_stageB_v06.py": "c3056518897a7d4d8728c5db5db1bccb87db174721b395fca5a1b9ebb7c47d41",
+  "../k8/k8_items_v08.py": "dfc7b8cface55b2234e6173a96eb68ecf2b906b6cba808d74c482faa551a65e3",
+  "../tpp/tpp_keys_v03.py": "1cf461361a717e03ef84fbec5767d3573a2558d633464ee79239f9626e2331ca",
+  "../tpp/tpp_run_v03.py": "1c640a8b1d72d4d070f22f53b3f687525f2c74f92c905f726075a857acfc6442",
+  "../av2/av2_horizon_prep_v02.py": "76cc6a9aa7f7ad0992ab3f449298755feb1eef413e7e83f8c8979ba9bc02e540",
+  "c1_rules_v01.py": "074cf798e563189fe0c0db77edf099317014d37e6bc89771b3036f9e7b597215",
+  "c1_rules_v02.py": "7ca17c235ef698fcc7b565b8a9fa8f2853c3536c8f94e40de9a68951096ab5a0",
+  "tests/c1_devreplay_v02.py": "48a0a2d2545d9e50f94c7617d42ec37040a33cf5147497c08c46cb66930cbaea"
+ },
+ "python": "3.10.22 (main, Oct  9 2026, 15:18:58) [MSC v.1944 64 bit (AMD64)]",
+ "versions": {
+  "python": "3.10.22",
+  "numpy": "1.26.4",
+  "scipy": "1.15.3"
+ },
+ "readme": "README_C1_CODE_v10.md",
+ "readme_sha256": "16c55409cbd2164d707452238810331e02a18e73e399f19e417a2e3d342b7684",
+ "parallel": {
+  "max_workers": 3,
+  "pool": [
+   "TREE",
+   "FRZ7",
+   "PC5",
+   "CRIT",
+   "PROV",
+   "GTINV",
+   "ME",
+   "MD",
+   "Q3",
+   "AN9",
+   "C53",
+   "G5",
+   "RUNLOG",
+   "SCENEMAP",
+   "DEVREPLAY",
+   "REHEARSAL"
+  ],
+  "alone_afterwards": [
+   "SWEEP",
+   "LEGACY"
+  ],
+  "rule": "one group per worker process, each in its own output folder; SWEEP and LEGACY alone (process-ID reuse)"
+ },
+ "freeze_skip": false,
+ "C1_FREEZE_LOG_SHA256": "absent",
+ "real_tree_before": {
+  "hash_log": false,
+  "deposit_record": false,
+  "stage_B_log": false,
+  "run_log_nonexempt_lines": 0,
+  "run_log_sha256": null,
+  "quarantine": true
+ },
+ "PC5": {
+  "pass": true,
+  "result": {
+   "t1": {
+    "primary_375": {
+     "family_size_E2_median": 2.0,
+     "family_size_E2_min": 2,
+     "family_size_E2_max": 2,
+     "P_family_E2_ge_6": 0.0
+    },
+    "sensitivity_375": {
+     "family_size_E2_median": 2.0,
+     "P_family_E2_ge_6": 0.0
+    }
+   },
+   "t3": {
+    "primary_375": {
+     "family_size_E2_median": 2.0,
+     "family_size_E2_min": 2,
+     "family_size_E2_max": 2,
+     "P_family_E2_ge_6": 0.0
+    },
+    "sensitivity_375": {
+     "family_size_E2_median": 2.0,
+     "P_family_E2_ge_6": 0.0
+    }
+   },
+   "part_B_rule": "failing HK1c alone no longer counts as shown invalid (v02 counted it); a flagged family cell does; M*'s strict validity unchanged"
+  },
+  "seconds": 89.8,
+  "worker": {
+   "exit": 0,
+   "log": "70_TESTS/c1_v01/tests_v13/parallel/PC5.log",
+   "wall_seconds": 106.4
+  }
+ },
+ "CRIT": {
+  "pass": true,
+  "result": {
+   "constants_pinned": "35 constants, each: value, stated equal (accepted), stated different (refused, top level and criteria block)",
+   "shared_with_c1_rules_v01": "30 shared constants equal; B_BOOT differs (20000 there, read by neither c1_predarm_v07 nor c1_power_counts_v05)",
+   "levels": {
+    "against": 0.95,
+    "for": 0.975,
+    "removal_V_t": 0.9986111111111111,
+    "removal_VJ_t": 0.9991666666666666,
+    "removal_V_t_H4": 0.9997222222222222,
+    "h4_route": "transfer_lt3d",
+    "hk1c_ub": 0.995,
+    "form_a": 0.99375,
+    "power_flag": 0.95,
+    "form_b": "1 - 0.0125 / |V_t| (H1 and the descriptive routes; H4's nominal bound, 1 - 0.025 / (2 |V_t|), is the same number)",
+    "h3": "p = min(1, 2 |V^J| max p); nominal bound 1 - 0.025 / (2 |V^J|)",
+    "h4": "on transfer_lt3d: removal at 1 - 0.0025 / 9; p = min(1, 2 |V_t| max p); nominal bound 1 - 0.025 / (2 |V_t|)",
+    "p_value": "(k + 1) / (B + 1), k = the replicates on the null side (D16 v34 Choice 53d)",
+    "holm_family_S": 0.025,
+    "holm_levels": [
+     0.005,
+     0.00625,
+     0.008333333333333333,
+     0.0125,
+     0.025
+    ],
+    "bootstrap_B": 40000,
+    "power_weights": 500,
+    "decision_form": "H1: the bound; family S (H2, H3, H4, H6b, H10): the p-value, the bound at the Holm-assigned level reported (Choice 52e)"
+   },
+   "config_refusal": "a config stating c, ALPHA_FOR or HK1C_LEVEL differently is refused (decide_all and main); stated equal is accepted",
+   "power_rule": {
+    "vectorised_equals_reference": true,
+    "nested": "100 datasets = 50 + 50 from one generator",
+    "size_at_delta_max": 0.0,
+    "mean_power_at_0.15": 0.5166666666666666
+   },
+   "hk1_rule_criteria": {
+    "flags_by_arm_role": {
+     "Mstar": {
+      "PD7_primary": [
+       "cell2",
+       "cell3"
+      ],
+      "SD1_7_gap_le_5m": [
+       "cell2",
+       "cell3"
+      ],
+      "PD_inpath": [
+       "cell2",
+       "cell3"
+      ]
+     },
+     "B3": {
+      "PD7_primary": [
+       "cell2",
+       "cell3"
+      ],
+      "SD1_7_gap_le_5m": [
+       "cell2",
+       "cell3"
+      ],
+      "PD_inpath": [
+       "cell3"
+      ]
+     },
+     "B0a1": {
+      "PD7_primary": [
+       "cell2",
+       "cell3"
+      ],
+      "SD1_7_gap_le_5m": [
+       "cell2",
+       "cell3"
+      ],
+      "PD_inpath": [
+       "cell2",
+       "cell3"
+      ]
+     }
+    },
+    "rule": "M* and descriptive arms at 0.95; comparators at 1 - 0.0125/9; HK1c's UB at 0.995; families by power_target (2000 datasets; 500 for descriptive arms); M*'s descriptive power at 0.10, 0.12, 0.20 (500) and 0.15 (2000), floors at F_MIN 4, 6, 8, record shares"
+   },
+   "removal_level_effect": "a cell flagged at one-sided 0.95 but not at 1 - 0.0125/9 (seed 0): it removes M*'s validity but not a comparator",
+   "forms": {
+    "A": 0.99375,
+    "C": 0.975,
+    "H3_level": 0.9984375,
+    "H3_V^J": 8
+   },
+   "H10_H6b_Holm": {
+    "H10_cells": [
+     "c0"
+    ],
+    "H6b_cells": [
+     "cell a"
+    ],
+    "Holm_H2_level": 0.005,
+    "Holm_H3_rejected": false,
+    "note": "H3's p 0.007 > 0.025/4 after H2: not rejected at 0.025 (it would be at 0.05: 0.0125)",
+    "decision_form": "the p-value governs in S (H2 confirmed although its nominal bound form says 'does not hold'); the bound at the Holm-assigned level is reported with agreement; H6b: p-values only"
+   },
+   "H9_floor_rule": "c1_predarm_v07.h9_rule_v07 replaces h9_rule_v05 in c1_predarm_v05; its family is power_target's (2000 datasets, seed [20261111, i, 5])",
+   "H9_descriptive": "status 'descriptive'; estimates, simultaneous one-sided 95 % bounds, family size and floor status reported; no 'does not hold'",
+   "tests": 54
+  },
+  "seconds": 56.1,
+  "worker": {
+   "exit": 0,
+   "log": "70_TESTS/c1_v01/tests_v13/parallel/CRIT.log",
+   "wall_seconds": 71.9
+  }
+ },
+ "PROV": {
+  "pass": true,
+  "result": {
+   "horizon_re_made": "the bound av2_horizon_prep_v02 re-makes the horizon from the bound export (decompressed SHA-256 equal); the export's tool av2_track_v02 and its detection adapter av2_tracker_input_v02 are bound builders",
+   "refused_track_input_from_unbound_tool": "refused",
+   "refused_detection_input_from_unbound_adapter": "refused",
+   "refused_horizon_not_made_by_the_bound_builder": "refused",
+   "refused_unbound_stage_A_builder": "refused",
+   "refused_no_builder_sha256": "refused",
+   "refused_scene_json_changed": "refused",
+   "ego_gt_reproduced": "pass; the re-made files lay outside the workspace and are gone (the ground truth deleted unopened)",
+   "refused_re_made_ego_differs": "refused",
+   "refused_re_made_gt_differs": "refused",
+   "real_cache_stageA_ab3dmot_lt3d": "pass (exports, horizon; 6 exports, tools ['av2_ab3dmot_v04.py']; 7 s)",
+   "real_cache_stageA_t1_lt3d": "pass (exports; 4 exports, tools ['av2_track_v01.py']; 0 s)",
+   "cli_failure_writes_nothing": "exit non-zero; no record, no partial file",
+   "record_check_refuses_another_readme": "refused",
+   "record_check_refuses_not_covering": "refused",
+   "record_check_refuses_partial_kinds": "refused",
+   "record_check_refuses_failed": "refused",
+   "cli_success": "the record is written (through a temporary name) only on success, and passes c1_guard_v06's check"
+  },
+  "seconds": 93.1,
+  "worker": {
+   "exit": 0,
+   "log": "70_TESTS/c1_v01/tests_v13/parallel/PROV.log",
+   "wall_seconds": 108.8
+  }
+ },
+ "FRZ7": {
+  "pass": true,
+  "result": {
+   "48c_dry_run": "every check passed (the bound tests are not run); nothing written: no plan change, sidecar, log line, test or results",
+   "first_freeze": "done (43fca5684e88); five blocks once each",
+   "second_freeze": "refused",
+   "amend_with_stage_B_folder": "refused",
+   "amend": "appended, logged; only the new plan accepted",
+   "stage_B_manifest_present": "refused",
+   "config_q1_in_config": "refused",
+   "config_no_h8_units": "refused",
+   "config_h8_units_other": "refused",
+   "config_no_e0_plan": "refused",
+   "config_no_scene_json": "refused",
+   "failing_test": "refused",
+   "unbound_builder": "refused",
+   "rerandomised_child": "refused",
+   "drafted_env_block": "refused (Choice 41a)"
+  },
+  "seconds": 329.8,
+  "worker": {
+   "exit": 0,
+   "log": "70_TESTS/c1_v01/tests_v13/parallel/FRZ7.log",
+   "wall_seconds": 346.3
+  }
+ },
+ "GTINV": {
+  "pass": true,
+  "result": {
+   "listed": "3 ground-truth files with class, producer, deciding code, date and SHA-256; the archive by member names (4), never extracted; 1 database log among the confirmation logs found; ego, identity-only and aggregate files checked, not listed",
+   "pending": "the port's 375-log file listed as pending by its expected path",
+   "uncovered_name_gt": "refused, nothing written",
+   "uncovered_pickle": "refused, nothing written",
+   "include_port": "refused while the file is absent; listed once present (pending empty); refused when the port's list names a file the inventory lacks; an existing output refused",
+   "real_inventory": "C1_GT_INVENTORY_v02.json: 8 files, read by c1_guard_v06.inventory_files; the archive listed (2,838,906,880 B); port included: True"
+  },
+  "seconds": 106.4,
+  "worker": {
+   "exit": 0,
+   "log": "70_TESTS/c1_v01/tests_v13/parallel/GTINV.log",
+   "wall_seconds": 122.2
+  }
+ },
+ "MD": {
+  "pass": true,
+  "result": {
+   "gate_True": "C1_verdict, gate_H1, family_S, H9 identical to v07's with and without a Q1 table; Q1 not tested with 44(d)'s reasons",
+   "gate_False": "C1_verdict, gate_H1, family_S, H9 identical to v07's with and without a Q1 table; Q1 not tested with 44(d)'s reasons",
+   "q1_config": "refused (decide_all and main)",
+   "predarm_v07_qcnet": "refused (--q1-only, --qcnet-deployed, --qcnet-gt-summary)"
+  },
+  "seconds": 68.4,
+  "worker": {
+   "exit": 0,
+   "log": "70_TESTS/c1_v01/tests_v13/parallel/MD.log",
+   "wall_seconds": 84.3
+  }
+ },
+ "ME": {
+  "pass": true,
+  "result": {
+   "records": {
+    "keys_canmot310": {
+     "python": "3.10.22",
+     "numpy": "1.26.4",
+     "torch": null
+    },
+    "keys_tpp38": {
+     "python": "3.8.20",
+     "numpy": "1.18.5",
+     "torch": "1.4.0+cpu"
+    },
+    "run_tpp38": {
+     "python": "3.8.20",
+     "numpy": "1.18.5",
+     "torch": "1.4.0+cpu"
+    }
+   },
+   "FROZEN_ENV_TPP": {
+    "python": "3.8.20",
+    "numpy": "1.18.5",
+    "torch": "1.4.0+cpu"
+   },
+   "keys_canmot310_vs_FROZEN_ENV": "pass",
+   "keys_tpp38_vs_FROZEN_ENV": "refused",
+   "run_tpp38_vs_FROZEN_ENV_TPP": "pass",
+   "canmot310_record_as_run": "refused",
+   "predarm_v07_wrapper_v06": "run(tpp38) passes; the one-scene keys are refused as a --scenes subset (R17c M4) before the version check",
+   "no_blocks": "refused",
+   "envcheck_canmot310_tpp_keys": "ok",
+   "envcheck_tpp38_tpp_keys": "refused",
+   "envcheck_tpp38_tpp_run": "ok",
+   "envcheck_canmot310_tpp_run": "refused",
+   "dry_record_tpp38": "written under tpp38; passes as tpp_run, refused as tpp_keys"
+  },
+  "seconds": 158.0,
+  "worker": {
+   "exit": 0,
+   "log": "70_TESTS/c1_v01/tests_v13/parallel/ME.log",
+   "wall_seconds": 174.0
+  }
+ },
+ "AN9": {
+  "pass": true,
+  "result": {
+   "47e_V_t": "v08's rule: V_t = ['B6', 'B9']; v09's: ['B0', 'B6', 'B9', 'RETUNED'] (B0 and RETUNED fail HK1c without a flag: kept, with reasons); B1, B3, B4 (flagged cell, pooled cell, family cell) removed by both",
+   "47e_Mstar_HK1c_unchanged": "M* failing only HK1c is not valid (Form B not met), as in v08",
+   "47e_no_hk1c_only": "without an HK1c-only comparator, v10's Form B equals v08's (at the same alpha) in every key, its p-values (k + 1)/(B + 1) where v08's were k/B (D16 v34 Choice 53d); its default alpha is ALPHA_FORM_B = 0.0125: level 1 - 0.0125/|V_t| (D16 v33 Choice 52c)",
+   "49c_VJ": "v08's V^J = ['B3', 'B4', 'B6', 'B9', 'RETUNED']; v09's = ['Mstar', 'B3', 'B4', 'B6', 'B9', 'RETUNED'] (M* fails only the pooled bound: kept); B0 flagged and B1 not evaluable removed by both",
+   "47f_upper_bounds": "equal k6_analyse_v02.flag's simultaneous one-sided 95 % upper bounds, max = largest, labelled approximate; absent for a comparator; reported in the decision",
+   "m13_zero_se": "an all-zero M* population raises under v08's setting (STRICT_Q); under v09's it is judged by E-hat > delta (no cell flagged) and reported: ['PD_inpath:cells', 'PD_inpath:pooled', 'PD_inpath:family']",
+   "47c_h9_label": "a missing or other label refused (decide_all and main); no default",
+   "49l_H9_status": {
+    "floor fails on t1 (2 < 6)": "does not hold: floor not met",
+    "reason": "floor not met (condition a: >= 6 power-qualified E2 cells): t1 family_size_E2 = 2 < 6",
+    "floor met, H9 false": "does not hold",
+    "floor met, H9 true": "holds",
+    "descriptive label": "descriptive",
+    "no table": "not tested",
+    "other keys": "C1_verdict, gate_H1, family_S equal v08's"
+   },
+   "m5_Q1": "the H9 exception path: v08's path lists 1 Q1 line(s) among the missing inputs, v09's none; Q1 stays not tested"
+  },
+  "seconds": 18.1,
+  "worker": {
+   "exit": 0,
+   "log": "70_TESTS/c1_v01/tests_v13/parallel/AN9.log",
+   "wall_seconds": 33.9
+  }
+ },
+ "Q3": {
+  "pass": true,
+  "result": {
+   "quarantine": "a 67112960 B tar quarantined whole as one gzip member (never unpacked); peak Python memory 3989167 B (limit 16777216)",
+   "rerun": "idempotent, the member verified streamed (peak 2409338 B)",
+   "scan": "c1_guard_v06.scan_plain_v06 finds a renamed plain copy by size and hash, streamed (peak 2116211 B)"
+  },
+  "seconds": 49.5,
+  "worker": {
+   "exit": 0,
+   "log": "70_TESTS/c1_v01/tests_v13/parallel/Q3.log",
+   "wall_seconds": 65.5
+  }
+ },
+ "C53": {
+  "pass": true,
+  "result": {
+   "route_levels": {
+    "within_lt3d": {
+     "comparator": 0.9986111111111111,
+     "Mstar": 0.95
+    },
+    "transfer_lt3d": {
+     "comparator": 0.9997222222222222,
+     "Mstar": 0.95
+    },
+    "source_transfer": {
+     "comparator": 0.9986111111111111,
+     "Mstar": 0.95
+    },
+    "public_lt3d_val": {
+     "comparator": 0.9986111111111111,
+     "Mstar": 0.95
+    }
+   },
+   "removal_level_effect": "seed 0: the comparator's cell is flagged at 1 - 0.0125/9 (removed from H1's V_t: PD7_primary: cell flagged at one-sided 0.99861 (cell0)) and not at 1 - 0.0025/9 (no cell flag on H4's route)",
+   "H4_form_b": {
+    "V_t": 7,
+    "p_H1": 0.0031499212519687006,
+    "p_H4": 0.006299842503937401,
+    "level_H4": 0.9982142857142857,
+    "rule": "H4: p = min(1, 2 |V_t| max p), nominal 1 - 0.025/(2 |V_t|), Holm level a at 1 - a/(2 |V_t|); H1: not doubled"
+   },
+   "H4_in_family_S": {
+    "p": 0.006299842503937401,
+    "status": "does not hold",
+    "p_values_in_decision": 26
+   },
+   "no_zero_p": {
+    "mc_p(0, B)": 2.499937501562461e-05,
+    "paired_floor": 2.499937501562461e-05,
+    "form_c_floor": 2.499937501562461e-05,
+    "supt_zero_se": 2.499937501562461e-05,
+    "h10_ni_floor": 2.499937501562461e-05,
+    "H6b_from_k0_of_200": 0.004975124378109453,
+    "H3_floor": 0.00039999000024999373,
+    "note": "H6b can pass at Holm's smallest level 0.005 only with k = 0 (1/201 = 0.004975; D16 v34 Choice 53d)"
+   },
+   "docstring": "c1_analyse_v10's criteria paragraph states removal 1 - 0.0125/9 (H4's route 1 - 0.0025/9), H1's Form B 1 - 0.0125/|V_t|, H4's and H3's 1 - 0.025/(2 |V|), p = (k + 1)/(B + 1)",
+   "tests": 9
+  },
+  "seconds": 1.2,
+  "worker": {
+   "exit": 0,
+   "log": "70_TESTS/c1_v01/tests_v13/parallel/C53.log",
+   "wall_seconds": 16.9
+  }
+ },
+ "G5": {
+  "pass": true,
+  "result": {
+   "valid_url": "pass",
+   "valid_doi": "pass",
+   "refused_project_url": "refused",
+   "refused_project_url_no_slash": "refused",
+   "refused_project_doi": "refused",
+   "refused_project_url_upper": "refused",
+   "refused_no_plan_time_direct": "refused",
+   "PB4_registration_TODO": "refused",
+   "PB4_time_not_yet": "refused",
+   "PB4_time_2099": "refused",
+   "PB4_duplicated_key": "refused",
+   "before_plan_line": "refused",
+   "wrong_plan": "refused",
+   "refused_hand_written_plan_line_via_guard": "refused",
+   "guard_with_parsable_line": "pass (no run-log line on nuScenes)"
+  },
+  "seconds": 31.5,
+  "worker": {
+   "exit": 0,
+   "log": "70_TESTS/c1_v01/tests_v13/parallel/G5.log",
+   "wall_seconds": 47.3
+  }
+ },
+ "RUNLOG": {
+  "pass": true,
+  "result": {
+   "chain_and_logged_check": "3 chained lines; the logged table found, another missing; 2 non-exempt lines",
+   "refused_changed_line": "refused (also for a further write)",
+   "refused_deleted_line": "refused (also for a further write)",
+   "refused_unchained_line_appended": "refused (also for a further write)",
+   "refused_truncated_last_line": "refused (also for a further write)",
+   "two_writers": "50 lines, chain intact, lock released"
+  },
+  "seconds": 31.0,
+  "worker": {
+   "exit": 0,
+   "log": "70_TESTS/c1_v01/tests_v13/parallel/RUNLOG.log",
+   "wall_seconds": 46.8
+  }
+ },
+ "DEVREPLAY": {
+  "pass": true,
+  "result": {
+   "result": "70_TESTS/c1_v01/status_v10/c1_devreplay_v02.json",
+   "sha256": "57f7c91bc3cd314919c13faf22d5c5c5d6b575f8b0c29fa99ccc745d050fa7a5",
+   "verdicts": {
+    "t1": {
+     "valid_Mstar": true,
+     "V_t": [
+      "B3"
+     ],
+     "A": true,
+     "B": true,
+     "C": true
+    },
+    "t3": {
+     "valid_Mstar": true,
+     "V_t": [
+      "B0",
+      "B3"
+     ],
+     "A": true,
+     "B": true,
+     "C": true
+    }
+   },
+   "levels": {
+    "against": 0.95,
+    "for": 0.975,
+    "removal_V_t": 0.9986111111111111,
+    "removal_VJ_t": 0.9991666666666666,
+    "removal_V_t_H4": 0.9997222222222222,
+    "h4_route": "transfer_lt3d",
+    "hk1c_ub": 0.995,
+    "form_a": 0.99375,
+    "power_flag": 0.95,
+    "form_b": "1 - 0.0125 / |V_t| (H1 and the descriptive routes; H4's nominal bound, 1 - 0.025 / (2 |V_t|), is the same number)",
+    "h3": "p = min(1, 2 |V^J| max p); nominal bound 1 - 0.025 / (2 |V^J|)",
+    "h4": "on transfer_lt3d: removal at 1 - 0.0025 / 9; p = min(1, 2 |V_t| max p); nominal bound 1 - 0.025 / (2 |V_t|)",
+    "p_value": "(k + 1) / (B + 1), k = the replicates on the null side (D16 v34 Choice 53d)",
+    "holm_family_S": 0.025,
+    "holm_levels": [
+     0.005,
+     0.00625,
+     0.008333333333333333,
+     0.0125,
+     0.025
+    ],
+    "bootstrap_B": 40000,
+    "power_weights": 500,
+    "decision_form": "H1: the bound; family S (H2, H3, H4, H6b, H10): the p-value, the bound at the Holm-assigned level reported (Choice 52e)"
+   },
+   "seconds_of_the_replay": 560.5,
+   "larger_differences": {
+    "t1": [],
+    "t3": [
+     "Form A UB M*-B0 at 1-0.025/4 vs reference v02 (B = 2000)",
+     "Form A UB M*-B1 at 1-0.025/4 vs reference v02 (B = 2000)",
+     "Form A UB M*-B9 at 1-0.025/4 vs reference v02 (B = 2000)"
+    ]
+   }
+  },
+  "seconds": 0.7,
+  "worker": {
+   "exit": 0,
+   "log": "70_TESTS/c1_v01/tests_v13/parallel/DEVREPLAY.log",
+   "wall_seconds": 16.7
+  }
+ },
+ "REHEARSAL": {
+  "pass": true,
+  "result": {
+   "skipped": "no --rehearsal"
+  },
+  "seconds": 0.0,
+  "worker": {
+   "exit": 0,
+   "log": "70_TESTS/c1_v01/tests_v13/parallel/REHEARSAL.log",
+   "wall_seconds": 15.9
+  }
+ },
+ "SCENEMAP": {
+  "pass": true,
+  "result": {
+   "av2_ids": "50 units, log_token = name (as av2_cache_stageA_v02 records)",
+   "manifest_logs": "log_token = the manifest's log",
+   "refused": "existing output, nuScenes manifest, two logs for one unit"
+  },
+  "seconds": 75.9,
+  "worker": {
+   "exit": 0,
+   "log": "70_TESTS/c1_v01/tests_v13/parallel/SCENEMAP.log",
+   "wall_seconds": 91.7
+  }
+ },
+ "TREE": {
+  "pass": true,
+  "result": {
+   "m4_scene_map_built": "c1_av2_scene_map_v01 in the tree (50 units)",
+   "provenance_record": "made for the probe README before the quarantine (kinds ['exports', 'horizon', 'ego', 'gt', 'scene_json']; a stand-in runner reproduces horizon, ego and ground truth; exports and builders checked by the tool)",
+   "freeze_before_quarantine": "refused",
+   "E2_refusal": "c1_quarantine_v01 with the given manifests left the older manifest's ground truth plain; c1_freeze_v07 refused",
+   "quarantine_v03": "dry run changed nothing; union found the older manifest; --extra and the inventory-only archive quarantined (--gt-inventory); renamed stray copy removed; the copy under 50_CODE/env/ left; skipped folders named; rerun idempotent",
+   "quarantine_refusals_and_pod": "a tampered plain file refused; a pod-recorded path quarantined from 30_DATA",
+   "N1_refusal": "a gunzip -k copy inside the quarantine folder: the freeze refused; c1_quarantine_v03 removed it as a plain copy (recorded); any other stray entry there refused by both",
+   "N2_refusal": "an older stage-A folder moved deeper than the search: refused with its ground truth restored, and refused again with it removed (the member's manifest is not at its recorded path)",
+   "inventory_copy_refusal": "a renamed plain copy of an inventory-only archive refused",
+   "m6_refusal": "an AV2 stage-A manifest without builder_sha256 refused",
+   "m2_provenance_failed": "refused",
+   "m2_provenance_partial": "refused",
+   "m2_provenance_other_readme": "refused",
+   "m2_provenance_not_covering": "refused",
+   "47j_missing_role": "a freeze without data:port_equiv, data:provenance or data:gt_inventory refused",
+   "51a_missing_freeze_record": "an AV2 freeze without data:freeze_record refused (D16 v32 Choice 51a; a stand-in file in the copy tree)",
+   "48c_dry_run": "every check passed; no file in the tree created or changed (plan, sidecar, log, tests)",
+   "freeze_after_quarantine": "done; five blocks once each; ground truth (members, inventory files), skipped folders, AV2 data roles (data:port_equiv twice) and the provenance check recorded",
+   "E3_refusal": "x2_full_v02 cannot run on the older ground truth after the freeze (FileNotFoundError: [Errno 2] No such file or directory: 'C:\\\\Users\\\\anand\\\\Downl)",
+   "PB1_h8_v06": "refused (no deposit record)",
+   "PB1_mstage_v06": "refused (no deposit record)",
+   "PB1_predarm_v07": "refused (no deposit record)",
+   "entry:c1_e0": "exempt from the deposit; one exempt start line",
+   "M-C_amend_before_outcomes": "passes with only an exempt run-log line; its suite passes through C1_FREEZE_LOG_SHA256 and fails directly; logged",
+   "m2_project_as_registration": "refused",
+   "amend_after_deposit": "refused",
+   "m1_h8_after_deposit": "runs from the quarantine; scene.json (50 units); chained start and done lines, the done line holds the output hash; the same output refused, leaving its start line",
+   "m1_analysis": "c1_analyse_v10 on AV2 records the run log and accepts the logged H8 table; after the table's bytes change it has no 'done' line and is not provenance-valid; Q1 not tested and never a missing input; the v09 blocks present",
+   "E7_refusal": "after an H8 outcome, deleting the deposit record does not reopen --amend (non-exempt run-log lines)",
+   "stageB_same_tag": "refused",
+   "stageB_out_on_av2": "refused",
+   "stageB_plain_gt": "refused",
+   "deposit_after_stageB_build": "refused",
+   "amend_after_stageB": "refused",
+   "stageB_v06": "writes only 30_DATA/av2_cache_stageB_<tag>/; one stage-B log line; chained start and done lines; deposit recorded"
+  },
+  "seconds": 1039.1,
+  "worker": {
+   "exit": 0,
+   "log": "70_TESTS/c1_v01/tests_v13/parallel/TREE.log",
+   "wall_seconds": 1055.7
+  }
+ },
+ "SWEEP": {
+  "pass": true,
+  "result": {
+   "swept": "dead pid and old pid-less folders",
+   "kept": "own pid, recent pid-less, unrelated",
+   "guard_sweeps": "yes"
+  },
+  "seconds": 15.2,
+  "worker": {
+   "exit": 0,
+   "log": "70_TESTS/c1_v01/tests_v13/parallel/SWEEP.log",
+   "wall_seconds": 31.1
+  }
+ },
+ "LEGACY": {
+  "pass": true,
+  "result": {
+   "test_c1_v01": "skipped by the lead's rule: 12 groups passed in the lead's test_c1_v11 rerun (50a786c56c94), 1 skipped there by rule",
+   "test_c1_v02": "skipped by the lead's rule: 5 groups passed in the lead's test_c1_v11 rerun (50a786c56c94), 2 skipped there by rule",
+   "test_c1_v03": "skipped by the lead's rule: 8 groups passed in the lead's test_c1_v11 rerun (50a786c56c94), 1 skipped there by rule",
+   "test_c1_v04": "skipped by the lead's rule: 2 groups passed in the lead's test_c1_v11 rerun (50a786c56c94), 0 skipped there by rule",
+   "test_c1_v05": "skipped by the lead's rule: 4 groups passed in the lead's test_c1_v11 rerun (50a786c56c94), 0 skipped there by rule",
+   "test_c1_v06": "skipped by the lead's rule: 13 groups passed in the lead's test_c1_v11 rerun (50a786c56c94), 1 skipped there by rule",
+   "test_c1_v07": "skipped by the lead's rule: 5 groups passed in the lead's test_c1_v11 rerun (50a786c56c94), 0 skipped there by rule",
+   "test_c1_v08": "skipped by the lead's rule: 4 groups passed in the lead's test_c1_v11 rerun (50a786c56c94), 1 skipped there by rule",
+   "test_c1_v09": "skipped by the lead's rule: 10 groups passed in the lead's test_c1_v11 rerun (50a786c56c94), 1 skipped there by rule",
+   "test_c1_v10": "skipped by the lead's rule: 8 groups passed in the lead's test_c1_v11 rerun (50a786c56c94), 2 skipped there by rule",
+   "README_C1_CODE_v08_files_unchanged": "154 of 154",
+   "README_C1_CODE_v09_files_unchanged": "180 of 180",
+   "test_c1_v12": {
+    "rule": "not re-run: its groups are this suite's groups on the v10 code; its ALL_PASS records on README v09 checked",
+    "records": {
+     "70_TESTS/c1_v01/rehearsal150_v09b/c1_tests_v12_rehearsal.json": {
+      "sha256": "a2ca9f8bc6303e9b27a7c4c856867dde71766c4131a21285424003604e533a28",
+      "verdict": "ALL_PASS",
+      "seconds": 1432.0
+     },
+     "70_TESTS/c1_v01/rehearsal150_v09b/freeze_tests/test_c1_v12_freeze.json": {
+      "sha256": "78b2cb069e2454f8baec3dbb3173d7d5ddaf784772f3e00749b16a8e2abfd51a",
+      "verdict": "ALL_PASS",
+      "seconds": 1426.1
+     }
+    }
+   },
+   "test_c1_v11": {
+    "G5": "pass",
+    "RUNLOG": "pass",
+    "SWEEP": "pass",
+    "ME": "pass",
+    "MD": "pass",
+    "SCENEMAP": "pass",
+    "FRZ6": "skipped (by rule)",
+    "TREE": "skipped (by rule)",
+    "REHEARSAL": "pass",
+    "LEGACY": "skipped (by rule)"
+   }
+  },
+  "seconds": 391.2,
+  "worker": {
+   "exit": 0,
+   "log": "70_TESTS/c1_v01/tests_v13/parallel/LEGACY.log",
+   "wall_seconds": 406.9
+  }
+ },
+ "real_tree_after": {
+  "hash_log": false,
+  "deposit_record": false,
+  "stage_B_log": false,
+  "run_log_nonexempt_lines": 0,
+  "run_log_sha256": null,
+  "quarantine": true
+ },
+ "tested_files_sha256_at_end": {
+  "c1_guard_v05.py": "cd40e98ac1d6d4f559ea3a95075dcb361f4779e688947356e66e880853a87608",
+  "c1_guard_v06.py": "c5e3f8f1d51a1ea8ad63b84de8f3310e087af15730381eb7d88b75300bdb197f",
+  "c1_freeze_v07.py": "6b1a156da8086fa02441796f97faea1737b5cb5884148b0426b38ced5056b736",
+  "c1_quarantine_v03.py": "8f00f5358aa60c5d654a1aa95bcf39e8bde34400db20d9ccb1c439af9d6675cd",
+  "c1_av2_gt_inventory_v01.py": "ae4a95a186573e1310e9f862c2afb0a2dfd606bc8af0e874a627c561411d95e6",
+  "c1_av2_provenance_v01.py": "df9b0400cdbd4df59f1f3983add9e72e494762cd3cf20a91ee25fcdb7614bc0b",
+  "c1_power_counts_v05.py": "d2b9907cd6ffd503bf2b45ab2fde19c0c3a8eab4cecf6ec3a386e1cadeac6bdc",
+  "c1_av2_scene_map_v01.py": "56f6d883810c997879360d963adb18b095c5b365211608b8b7b800180b8d1877",
+  "c1_tpp_envcheck_v01.py": "00c193343c9a542bbf722247e9a1fdba8cc436a04d1bb8f82c44f7da86d34f12",
+  "c1_analyse_v10.py": "6fc42675a98f8effb96efb95d151ac39eedb2d7748d667d4084d24575cb92598",
+  "c1_predarm_v07.py": "b5227e659a309dd137c34527bfa55440f56ed23314a4605f76c0f93179c6c36f",
+  "c1_fit_v06.py": "82e1eb4ab52d044a7e47dcb5f4b41d84a536421523956f90c401236dce0d3190",
+  "c1_run_v06.py": "77967094aecd19a76363569e336c359d0f697182dd343614ef8e00da761f72b6",
+  "c1_mstage_v06.py": "1e1477ff788e708ce33a401c6916fdb4c4fd924c91ef494524bcf0a131dda89f",
+  "c1_h8_v06.py": "101a47acb78eb00f83ec1afa6a8ab2469d5ab32d246fa8bfb63e311f4142c026",
+  "c1_e0_v05.py": "8f1312a373a40ca82a020d37ee46c5904808c8f139683e1871868035382c438e",
+  "tests/test_c1_v13.py": "b0d8dcd1b90079bcc18c78adf74de58497bbcef62054d25175372aad0e29bb93",
+  "../av2/av2_cache_stageB_v06.py": "c3056518897a7d4d8728c5db5db1bccb87db174721b395fca5a1b9ebb7c47d41",
+  "../k8/k8_items_v08.py": "dfc7b8cface55b2234e6173a96eb68ecf2b906b6cba808d74c482faa551a65e3",
+  "../tpp/tpp_keys_v03.py": "1cf461361a717e03ef84fbec5767d3573a2558d633464ee79239f9626e2331ca",
+  "../tpp/tpp_run_v03.py": "1c640a8b1d72d4d070f22f53b3f687525f2c74f92c905f726075a857acfc6442",
+  "../av2/av2_horizon_prep_v02.py": "76cc6a9aa7f7ad0992ab3f449298755feb1eef413e7e83f8c8979ba9bc02e540",
+  "c1_rules_v01.py": "074cf798e563189fe0c0db77edf099317014d37e6bc89771b3036f9e7b597215",
+  "c1_rules_v02.py": "7ca17c235ef698fcc7b565b8a9fa8f2853c3536c8f94e40de9a68951096ab5a0",
+  "tests/c1_devreplay_v02.py": "48a0a2d2545d9e50f94c7617d42ec37040a33cf5147497c08c46cb66930cbaea"
+ },
+ "verdict": "ALL_PASS",
+ "seconds": 1493.8
+}

@@ -1,0 +1,43 @@
+{
+ "thresholds_from_train_E0": {
+  "car|<20|lat": 0.0764514081255771,
+  "car|20-40|lat": 0.07647127465090046,
+  "car|<20|long": 0.06415843626705175,
+  "car|20-40|long": 0.05
+ },
+ "f=0.6": {
+  "cells": [
+   "car|<20|lat",
+   "car|20-40|lat",
+   "car|<20|long",
+   "car|20-40|long"
+  ],
+  "reps": 300,
+  "P_any_FAILS": 1.0,
+  "P_lateral_FAILS": 1.0
+ },
+ "f=0.8": {
+  "cells": [
+   "car|<20|lat",
+   "car|20-40|lat",
+   "car|<20|long",
+   "car|20-40|long"
+  ],
+  "reps": 300,
+  "P_any_FAILS": 1.0,
+  "P_lateral_FAILS": 1.0
+ },
+ "f=1.0": {
+  "cells": [
+   "car|<20|lat",
+   "car|20-40|lat",
+   "car|<20|long",
+   "car|20-40|long"
+  ],
+  "reps": 300,
+  "P_any_FAILS": 1.0,
+  "P_lateral_FAILS": 1.0
+ },
+ "note": "power of condition (a1) only; a2-a5 and H2 are not simulated",
+ "wall_s": 61.2
+}

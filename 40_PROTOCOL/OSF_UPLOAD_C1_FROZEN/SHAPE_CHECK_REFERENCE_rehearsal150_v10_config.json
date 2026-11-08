@@ -1,0 +1,123 @@
+{
+ "routes": [
+  {
+   "name": "within_lt3d",
+   "runs": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\runs",
+   "tags": {
+    "t1": "t1_within_lt3d",
+    "t3": "t3_within_lt3d",
+    "tab": "tab_within_lt3d"
+   },
+   "fits": {
+    "t1": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\fits_within_t1.json",
+    "t3": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\fits_within_t3.json",
+    "tab": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\fits_within_tab.json"
+   },
+   "folds": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\folds.json",
+   "modes": [
+    "decide"
+   ]
+  },
+  {
+   "name": "transfer_lt3d",
+   "runs": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\runs",
+   "tags": {
+    "t1": "t1_transfer_lt3d",
+    "t3": "t3_transfer_lt3d"
+   },
+   "fits": {
+    "t1": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\transfer_applied_t1.json",
+    "t3": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\transfer_applied_t3.json"
+   },
+   "folds": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\folds.json",
+   "modes": [
+    "decide"
+   ]
+  },
+  {
+   "name": "public_lt3d_val",
+   "runs": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\runs",
+   "tags": {
+    "t1": "t1_public_lt3d_val",
+    "t3": "t3_public_lt3d_val"
+   },
+   "fits": {
+    "t1": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\fits_val150_t1.json",
+    "t3": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\fits_val150_t3.json"
+   },
+   "folds": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\folds_val150.json",
+   "modes": [
+    "decide"
+   ]
+  },
+  {
+   "name": "source_transfer",
+   "runs": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\runs",
+   "tags": {
+    "t1": "t1_source_transfer",
+    "t3": "t3_source_transfer"
+   },
+   "fits": {
+    "t1": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\fits_source_t1.json",
+    "t3": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\fits_source_t3.json"
+   },
+   "folds": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\folds_val150.json",
+   "modes": [
+    "decide"
+   ]
+  }
+ ],
+ "units_are_logs": true,
+ "manifests": [
+  "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\k6\\cache_v02_t1_train\\MANIFEST.json",
+  "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\k6\\cache_v02_t1_val\\MANIFEST.json"
+ ],
+ "c": {
+  "t1": 0.03,
+  "t3": 0.03
+ },
+ "folds": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\folds.json",
+ "folds_val150": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\folds_val150.json",
+ "folds_train225": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\folds_train225.json",
+ "e0": {
+  "plan_values": {
+   "car|<20|lat": 0.08331039544912378,
+   "car|20-40|lat": 0.08771551724137931
+  },
+  "seed": 20261114,
+  "sigma_a": 0.1,
+  "inputs": {
+   "workers": [
+    "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\60_RESULTS\\x1_export_val150_v02\\worker0",
+    "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\60_RESULTS\\x1_export_val150_v02\\worker1",
+    "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\60_RESULTS\\x1_export_val150_v02\\worker2"
+   ],
+   "gt": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\x1_gt\\x1_val_gt_v02.json",
+   "meta": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\nuscenes\\v1.0-trainval",
+   "horizon": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\60_RESULTS\\x1\\x1_horizon_v01.jsonl.gz"
+  },
+  "inputs_sha256": {
+   "60_RESULTS/x1_export_val150_v02/worker0/x1_tracks.jsonl.gz": "5037c2c0bc7140eb72c603b5d16a6cbdf44584b131825debbf1b63e4c1f0df24",
+   "60_RESULTS/x1_export_val150_v02/worker1/x1_tracks.jsonl.gz": "42f8433403ec9f0d441c67b2f79f72e8ec8f75a67114b024f9a3f31eaa33ae4f",
+   "60_RESULTS/x1_export_val150_v02/worker2/x1_tracks.jsonl.gz": "31e82ce904edf1201b1d89fb8cfc05e43d5cd130a119ecce71dfb9b6b189027a",
+   "30_DATA/x1_gt/x1_val_gt_v02.json": "0c9e4b92bfea0340aaddd37cd756a4fbc99672a6905b0f2a17a82fcad14654e0",
+   "60_RESULTS/x1/x1_horizon_v01.jsonl.gz": "e3e5071ea83d4f3a658f05294e608c32e82a8acd3807e298c2600dce95053f70",
+   "30_DATA/nuscenes/v1.0-trainval/scene.json": "bdc3211bfbfda652d5e9dab73c45c7132925ca84f869bf45e8e14edeafb1d20b"
+  }
+ },
+ "method_stage": {
+  "t1": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\mstage_t1.json",
+  "t3": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\mstage_t3.json"
+ },
+ "h8": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\h8_t1.json",
+ "h8_units": "folds",
+ "h9": {
+  "t1": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\h9_t1.json",
+  "t3": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\h9_t3.json"
+ },
+ "h9_label": "descriptive",
+ "h9_descriptive": {
+  "tab": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\c1_v01\\rehearsal150_v10\\h9_tab.json"
+ },
+ "note": "rehearsal v09 config: voxelnext_val is left out on purpose (H5 'not tested'); 'tab' is T1's data as an AB3DMOT stand-in; no q1 entry: Q1 is not tested in C1 (D16 v23 Choice 44d)"
+}

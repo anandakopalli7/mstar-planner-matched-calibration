@@ -1,0 +1,41 @@
+{
+ "tracker": "t1",
+ "arm": "Mstar",
+ "pop": "PD",
+ "seed": [
+  20261405,
+  0,
+  2
+ ],
+ "weights": "first 500 of [20261401, i, 0], B = 20000",
+ "power": {
+  "car|long|static": 0.997,
+  "car|long|straight": 1.0,
+  "car|long|turning": 0.99,
+  "car|long|new": 0.9845,
+  "car|lat|static": 0.954,
+  "car|lat|straight": 0.6975,
+  "car|lat|turning": 0.393,
+  "car|lat|new": 0.113,
+  "pedestrian|long|static": 0.2355,
+  "pedestrian|long|straight": 0.5795,
+  "pedestrian|long|turning": 0.6525,
+  "pedestrian|lat|static": 0.3545,
+  "pedestrian|lat|straight": 0.342,
+  "pedestrian|lat|turning": 0.4715,
+  "large|long|static": 0.607,
+  "large|long|straight": 0.355,
+  "large|long|turning": 0.3315,
+  "large|lat|static": 0.1255
+ },
+ "family": [
+  "car|long|static",
+  "car|long|straight",
+  "car|long|turning",
+  "car|long|new",
+  "car|lat|static"
+ ],
+ "family_size": 5,
+ "record_share": 0.6549283249742113,
+ "seconds": 58.54396605491638
+}

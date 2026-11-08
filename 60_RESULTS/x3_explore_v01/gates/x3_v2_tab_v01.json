@@ -1,0 +1,312 @@
+{
+ "stamp": "X3 POST-REGISTRATION EXPLORATORY (after the verdict of record; not part of the registered test)",
+ "gate": "V2",
+ "tracker": "tab",
+ "x3_run": "C:/Users/anand/Downloads/ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911/60_RESULTS/x3_explore_v01/runs\\core_tab",
+ "arms": [
+  "Mstar"
+ ],
+ "partial": false,
+ "partition_checks_in_run": 11180,
+ "by_arm": {
+  "Mstar": {
+   "scenes": 375,
+   "bins_used": {
+    "P0_distance_range": [
+     0,
+     1,
+     2
+    ],
+    "P1_track_speed": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P2_track_length": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P3_track_age": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P4_detection_score": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P5_ego_speed": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P6_gt_lidar_points": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "P7_city": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   },
+   "by_partition": {
+    "P0_distance_range": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 524152,
+      "exceed": 33277,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 63530,
+      "exceed": 3431,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 19199,
+      "exceed": 792,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 504953,
+      "exceed": 32485,
+      "logs_differing": 0
+     }
+    },
+    "P1_track_speed": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 524152,
+      "exceed": 33277,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 63530,
+      "exceed": 3431,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 19199,
+      "exceed": 792,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 504953,
+      "exceed": 32485,
+      "logs_differing": 0
+     }
+    },
+    "P2_track_length": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 524152,
+      "exceed": 33277,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 63530,
+      "exceed": 3431,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 19199,
+      "exceed": 792,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 504953,
+      "exceed": 32485,
+      "logs_differing": 0
+     }
+    },
+    "P3_track_age": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 524152,
+      "exceed": 33277,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 63530,
+      "exceed": 3431,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 19199,
+      "exceed": 792,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 504953,
+      "exceed": 32485,
+      "logs_differing": 0
+     }
+    },
+    "P4_detection_score": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 524152,
+      "exceed": 33277,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 63530,
+      "exceed": 3431,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 19199,
+      "exceed": 792,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 504953,
+      "exceed": 32485,
+      "logs_differing": 0
+     }
+    },
+    "P5_ego_speed": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 524152,
+      "exceed": 33277,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 63530,
+      "exceed": 3431,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 19199,
+      "exceed": 792,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 504953,
+      "exceed": 32485,
+      "logs_differing": 0
+     }
+    },
+    "P6_gt_lidar_points": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 524152,
+      "exceed": 33277,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 63530,
+      "exceed": 3431,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 19199,
+      "exceed": 792,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 504953,
+      "exceed": 32485,
+      "logs_differing": 0
+     }
+    },
+    "P7_city": {
+     "PD7_primary": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 524152,
+      "exceed": 33277,
+      "logs_differing": 0
+     },
+     "SD1_7_gap_le_5m": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 63530,
+      "exceed": 3431,
+      "logs_differing": 0
+     },
+     "PD_inpath": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 19199,
+      "exceed": 792,
+      "logs_differing": 0
+     },
+     "NIP_not_in_path": {
+      "n_equal": true,
+      "exceed_equal": true,
+      "records": 504953,
+      "exceed": 32485,
+      "logs_differing": 0
+     }
+    }
+   },
+   "equal": true
+  }
+ },
+ "passed": true,
+ "seconds": 2.5
+}

@@ -1,0 +1,370 @@
+{
+ "prereg_sha256": "6366020a4cb8f52af0865a6bd29fd6ff5e970405eb39efb339f434fe7621d42d",
+ "per_tracker": {
+  "T1": {
+   "HM1": true,
+   "HM6": true,
+   "HM6a": true,
+   "HM6b": true,
+   "HM2": {
+    "B1": [
+     "car|20-40|lat|turning",
+     "car|<20|lat|turning"
+    ],
+    "B4": [
+     "car|20-40|lat|straight",
+     "car|20-40|lat|turning",
+     "car|<20|lat|straight",
+     "car|<20|lat|turning"
+    ],
+    "B9": []
+   },
+   "HM2b": {
+    "B5": [
+     "car|20-40|long|new",
+     "car|<20|lat|turning"
+    ],
+    "B7": [],
+    "B8": [],
+    "B10": []
+   },
+   "HM3_testable": true,
+   "HM3_cells": [
+    "car|<20|lat|turning"
+   ],
+   "fixed_rule_alone": {
+    "HM2": {
+     "B1": [
+      "car|20-40|lat|turning",
+      "car|<20|lat|turning"
+     ],
+     "B4": [
+      "car|20-40|lat|new",
+      "car|20-40|lat|straight",
+      "car|20-40|lat|turning",
+      "car|<20|lat|new",
+      "car|<20|lat|straight",
+      "car|<20|lat|turning"
+     ],
+     "B9": []
+    },
+    "HM2b": {
+     "B5": [
+      "car|20-40|lat|turning",
+      "car|20-40|long|new",
+      "car|<20|lat|turning",
+      "car|<20|long|new",
+      "pedestrian|<20|long|static"
+     ],
+     "B7": [],
+     "B8": [],
+     "B10": []
+    },
+    "HM3": [
+     "car|<20|lat|turning"
+    ]
+   },
+   "both_inferences": {
+    "HM2": {
+     "B1": [
+      "car|20-40|lat|turning",
+      "car|<20|lat|turning"
+     ],
+     "B4": [
+      "car|20-40|lat|straight",
+      "car|20-40|lat|turning",
+      "car|<20|lat|straight",
+      "car|<20|lat|turning"
+     ],
+     "B9": []
+    },
+    "HM2b": {
+     "B5": [
+      "car|20-40|long|new",
+      "car|<20|lat|turning"
+     ],
+     "B7": [],
+     "B8": [],
+     "B10": []
+    },
+    "HM3": [
+     "car|<20|lat|turning"
+    ]
+   },
+   "pooled_val": {
+    "pooled_E": 0.04303354875666434,
+    "pooled_lb": 0.013056016600903213,
+    "pooled_ub_bias_corrected": 0.06313092625983574,
+    "pooled_equivalence_at_eps": true
+   }
+  },
+  "T2": {
+   "HM1": true,
+   "HM6": true,
+   "HM6a": true,
+   "HM6b": true,
+   "HM2": {
+    "B1": [
+     "car|20-40|lat|turning",
+     "car|20-40|long|new"
+    ],
+    "B4": [
+     "car|20-40|lat|turning",
+     "car|20-40|long|new",
+     "car|<20|lat|turning"
+    ],
+    "B9": [
+     "car|20-40|long|new"
+    ]
+   },
+   "HM2b": {
+    "B5": [
+     "car|20-40|long|new",
+     "car|<20|lat|turning"
+    ],
+    "B7": [],
+    "B8": [],
+    "B10": []
+   },
+   "HM3_testable": true,
+   "HM3_cells": [
+    "car|<20|lat|turning"
+   ],
+   "fixed_rule_alone": {
+    "HM2": {
+     "B1": [
+      "car|20-40|lat|turning",
+      "car|20-40|long|new",
+      "car|<20|lat|turning",
+      "large|lat|remainder"
+     ],
+     "B4": [
+      "car|20-40|lat|turning",
+      "car|20-40|long|new",
+      "car|<20|lat|turning"
+     ],
+     "B9": [
+      "car|20-40|long|new"
+     ]
+    },
+    "HM2b": {
+     "B5": [
+      "car|20-40|long|new",
+      "car|20-40|long|turning",
+      "car|<20|lat|turning"
+     ],
+     "B7": [
+      "pedestrian|<20|long|static"
+     ],
+     "B8": [],
+     "B10": []
+    },
+    "HM3": [
+     "car|<20|lat|turning"
+    ]
+   },
+   "both_inferences": {
+    "HM2": {
+     "B1": [
+      "car|20-40|lat|turning",
+      "car|20-40|long|new"
+     ],
+     "B4": [
+      "car|20-40|lat|turning",
+      "car|20-40|long|new",
+      "car|<20|lat|turning"
+     ],
+     "B9": [
+      "car|20-40|long|new"
+     ]
+    },
+    "HM2b": {
+     "B5": [
+      "car|20-40|long|new",
+      "car|<20|lat|turning"
+     ],
+     "B7": [],
+     "B8": [],
+     "B10": []
+    },
+    "HM3": [
+     "car|<20|lat|turning"
+    ]
+   },
+   "pooled_val": {
+    "pooled_E": 0.043802503422071246,
+    "pooled_lb": 0.019101003810577794,
+    "pooled_ub_bias_corrected": 0.06150610241967449,
+    "pooled_equivalence_at_eps": true
+   }
+  },
+  "T3": {
+   "HM1": true,
+   "HM6": true,
+   "HM6a": true,
+   "HM6b": true,
+   "HM2": {
+    "B1": [],
+    "B4": [
+     "car|20-40|long|straight"
+    ],
+    "B9": []
+   },
+   "HM2b": {
+    "B5": [],
+    "B7": [],
+    "B8": [],
+    "B10": []
+   },
+   "HM3_testable": true,
+   "HM3_cells": [],
+   "fixed_rule_alone": {
+    "HM2": {
+     "B1": [],
+     "B4": [
+      "car|20-40|long|straight"
+     ],
+     "B9": [
+      "car|20-40|lat|turning"
+     ]
+    },
+    "HM2b": {
+     "B5": [],
+     "B7": [
+      "pedestrian|<20|lat|static"
+     ],
+     "B8": [],
+     "B10": []
+    },
+    "HM3": []
+   },
+   "both_inferences": {
+    "HM2": {
+     "B1": [],
+     "B4": [
+      "car|20-40|long|straight"
+     ],
+     "B9": []
+    },
+    "HM2b": {
+     "B5": [],
+     "B7": [],
+     "B8": [],
+     "B10": []
+    },
+    "HM3": []
+   },
+   "pooled_val": {
+    "pooled_E": 0.03799310031412427,
+    "pooled_lb": 0.018426567624095686,
+    "pooled_ub_bias_corrected": 0.05141311730183258,
+    "pooled_equivalence_at_eps": true
+   }
+  }
+ },
+ "METHOD_DECISION": "GO-B",
+ "claims": {
+  "K5_validity_consistency_and_transfer": true,
+  "K5a_practitioner_on_T1_and_T3": [
+   "B4"
+  ],
+  "K5a_ablations_on_T1_and_T3": [],
+  "K5b_motion_state_confirmatory_T3": false,
+  "K5b_T1_foreknown_reported": true,
+  "K5b_T2_reported": true
+ },
+ "MLS_recommended": false,
+ "efficiency_descriptive": {
+  "T1": {
+   "Mstar/B3": {
+    "point": 0.16530376478759887,
+    "ci": [
+     0.16006933351472433,
+     0.1713209772986241
+    ]
+   },
+   "Mstar/B6c": {
+    "point": 0.554304738876663,
+    "ci": [
+     0.5400168376106746,
+     0.5716057050836549
+    ]
+   },
+   "Mstar/B9": {
+    "point": 0.5902980613989095,
+    "ci": [
+     0.5675596664153185,
+     0.617240650009286
+    ]
+   },
+   "MLS/Mstar": {
+    "point": 1.0336568019137022,
+    "ci": [
+     1.0178393699836827,
+     1.0495222705021228
+    ]
+   }
+  },
+  "T2": {
+   "Mstar/B3": {
+    "point": 0.31084643039519294,
+    "ci": [
+     0.302030949827511,
+     0.32152488628981696
+    ]
+   },
+   "Mstar/B6c": {
+    "point": 0.6510279558823228,
+    "ci": [
+     0.6344473693687768,
+     0.6688336335292328
+    ]
+   },
+   "Mstar/B9": {
+    "point": 0.5418594580829283,
+    "ci": [
+     0.5250187827787205,
+     0.560274031291027
+    ]
+   },
+   "MLS/Mstar": {
+    "point": 1.0881020512787765,
+    "ci": [
+     1.0690646778117792,
+     1.1090410145766287
+    ]
+   }
+  },
+  "T3": {
+   "Mstar/B3": {
+    "point": 0.26532287457184206,
+    "ci": [
+     0.2539449193354656,
+     0.27670539862225196
+    ]
+   },
+   "Mstar/B6c": {
+    "point": 0.6608559938979038,
+    "ci": [
+     0.6407220200839792,
+     0.6822279115308345
+    ]
+   },
+   "Mstar/B9": {
+    "point": 0.734775177287389,
+    "ci": [
+     0.6815334999405461,
+     0.7920918785153765
+    ]
+   },
+   "MLS/Mstar": {
+    "point": 0.9874878709232009,
+    "ci": [
+     0.9638341587551739,
+     1.0100395082670681
+    ]
+   }
+  }
+ },
+ "if_HM1_failed_Mstar_log_consistent": {}
+}

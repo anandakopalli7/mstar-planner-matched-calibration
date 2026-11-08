@@ -1,0 +1,1870 @@
+{
+ "stamp": "X3 POST-REGISTRATION EXPLORATORY (after the verdict of record; not part of the registered test)",
+ "label": "added after review (amendment A4)",
+ "part": "(2) loop mode, descriptive",
+ "by_tracker": {
+  "t1": {
+   "tracker": "t1",
+   "runs": [
+    "a4loop_first_t1",
+    "a4loop_rest_t1"
+   ],
+   "seed_bootstrap": [
+    20261201,
+    0,
+    12
+   ],
+   "B": 4000,
+   "keys": 1054,
+   "arms": {
+    "Mstar": {
+     "episodes": 1054,
+     "entered_keys": 1054,
+     "at_fault_tracked": 31,
+     "at_fault_tracked_per_1000": 29.41176470588235,
+     "at_fault_tracked_ci": [
+      19.98386715288601,
+      41.74765228012217
+     ],
+     "at_fault_tracked_fallback_related": 29,
+     "at_fault_untracked": 0,
+     "at_fault_untracked_per_1000": 0.0,
+     "at_fault_untracked_ci": [
+      0.0,
+      3.499885630089123
+     ],
+     "artefact_collisions": 95,
+     "progress_mean": 0.8821445231953026,
+     "infeasible_frame_share": 0.18338155456584637,
+     "emergency_stop_frame_share": 0.0010727869705146127,
+     "hard_brake_frame_share": 0.06339195734859075,
+     "key_level": {
+      "collisions_at_fault_tracked_per_episode": {
+       "mean": 0.029411764705882353,
+       "ci95": [
+        0.015237370994024987,
+        0.04580152671755725
+       ],
+       "n": 1054
+      },
+      "collisions_at_fault_untracked_per_episode": {
+       "mean": 0.0,
+       "ci95": [
+        0.0,
+        0.0
+       ],
+       "n": 1054
+      },
+      "progress": {
+       "mean": 0.8821445231953026,
+       "ci95": [
+        0.8646984567528415,
+        0.8987085654744017
+       ],
+       "n": 1021
+      },
+      "infeasible_frame_share": {
+       "mean": 0.18336701568972089,
+       "ci95": [
+        0.1661476146043096,
+        0.2004255555768697
+       ],
+       "n": 1054
+      },
+      "hard_brake_frame_share": {
+       "mean": 0.06344221894590953,
+       "ci95": [
+        0.05770242159819119,
+        0.06958973384914328
+       ],
+       "n": 1054
+      },
+      "divergence_share": {
+       "mean": 0.20867164411298414,
+       "ci95": [
+        0.1878438898325833,
+        0.23065614193379694
+       ],
+       "n": 1054
+      },
+      "progress_ratio": {
+       "mean": 0.8854617994761419,
+       "ci95": [
+        0.868446134085728,
+        0.9018293555353563
+       ],
+       "n": 1048
+      }
+     }
+    },
+    "B0": {
+     "episodes": 1054,
+     "entered_keys": 1054,
+     "at_fault_tracked": 49,
+     "at_fault_tracked_per_1000": 46.48956356736243,
+     "at_fault_tracked_ci": [
+      34.393235055815126,
+      61.46166849422988
+     ],
+     "at_fault_tracked_fallback_related": 48,
+     "at_fault_untracked": 2,
+     "at_fault_untracked_per_1000": 1.8975332068311195,
+     "at_fault_untracked_ci": [
+      0.22980007451989098,
+      6.8545423792447435
+     ],
+     "artefact_collisions": 88,
+     "progress_mean": 0.7604975745852015,
+     "infeasible_frame_share": 0.3305484217028055,
+     "emergency_stop_frame_share": 0.0010077695783622118,
+     "hard_brake_frame_share": 0.10139462306166899,
+     "key_level": {
+      "collisions_at_fault_tracked_per_episode": {
+       "mean": 0.046489563567362426,
+       "ci95": [
+        0.02764471832584321,
+        0.06805506169972679
+       ],
+       "n": 1054
+      },
+      "collisions_at_fault_untracked_per_episode": {
+       "mean": 0.0018975332068311196,
+       "ci95": [
+        0.0,
+        0.004752964766490723
+       ],
+       "n": 1054
+      },
+      "progress": {
+       "mean": 0.7604975745852015,
+       "ci95": [
+        0.7370388041975603,
+        0.7830200499734074
+       ],
+       "n": 1021
+      },
+      "infeasible_frame_share": {
+       "mean": 0.3303163727085626,
+       "ci95": [
+        0.3051132102822339,
+        0.3567426210416371
+       ],
+       "n": 1054
+      },
+      "hard_brake_frame_share": {
+       "mean": 0.10139584062248504,
+       "ci95": [
+        0.09435308507073335,
+        0.10858672909155545
+       ],
+       "n": 1054
+      },
+      "divergence_share": {
+       "mean": 0.3357224410086223,
+       "ci95": [
+        0.31004332341888585,
+        0.36146686101868863
+       ],
+       "n": 1054
+      },
+      "progress_ratio": {
+       "mean": 0.7650896157993263,
+       "ci95": [
+        0.7418224205505146,
+        0.78739824681332
+       ],
+       "n": 1048
+      }
+     }
+    },
+    "B4": {
+     "episodes": 1054,
+     "entered_keys": 1054,
+     "at_fault_tracked": 41,
+     "at_fault_tracked_per_1000": 38.89943074003795,
+     "at_fault_tracked_ci": [
+      27.914903101001215,
+      52.771470176219076
+     ],
+     "at_fault_tracked_fallback_related": 40,
+     "at_fault_untracked": 1,
+     "at_fault_untracked_per_1000": 0.9487666034155597,
+     "at_fault_untracked_ci": [
+      0.024020690687182066,
+      5.28618917546385
+     ],
+     "artefact_collisions": 92,
+     "progress_mean": 0.8303781997746343,
+     "infeasible_frame_share": 0.1849094632814278,
+     "emergency_stop_frame_share": 0.0010402782744384123,
+     "hard_brake_frame_share": 0.0762003836026137,
+     "key_level": {
+      "collisions_at_fault_tracked_per_episode": {
+       "mean": 0.03889943074003795,
+       "ci95": [
+        0.021862598803346584,
+        0.05838316810574566
+       ],
+       "n": 1054
+      },
+      "collisions_at_fault_untracked_per_episode": {
+       "mean": 0.0009487666034155598,
+       "ci95": [
+        0.0,
+        0.0028790786948176585
+       ],
+       "n": 1054
+      },
+      "progress": {
+       "mean": 0.8303781997746343,
+       "ci95": [
+        0.8094716671095421,
+        0.8508614917246798
+       ],
+       "n": 1021
+      },
+      "infeasible_frame_share": {
+       "mean": 0.18492930642884314,
+       "ci95": [
+        0.16589553152960335,
+        0.20504606472904796
+       ],
+       "n": 1054
+      },
+      "hard_brake_frame_share": {
+       "mean": 0.07624317129143279,
+       "ci95": [
+        0.06962840039832677,
+        0.08319241614552664
+       ],
+       "n": 1054
+      },
+      "divergence_share": {
+       "mean": 0.249586360924544,
+       "ci95": [
+        0.22602879729351635,
+        0.27401987125023736
+       ],
+       "n": 1054
+      },
+      "progress_ratio": {
+       "mean": 0.8347835929639899,
+       "ci95": [
+        0.8144045023357531,
+        0.8551221643215133
+       ],
+       "n": 1048
+      }
+     }
+    },
+    "B6": {
+     "episodes": 1054,
+     "entered_keys": 1054,
+     "at_fault_tracked": 34,
+     "at_fault_tracked_per_1000": 32.25806451612903,
+     "at_fault_tracked_ci": [
+      22.33964742369286,
+      45.07741185503139
+     ],
+     "at_fault_tracked_fallback_related": 33,
+     "at_fault_untracked": 1,
+     "at_fault_untracked_per_1000": 0.9487666034155597,
+     "at_fault_untracked_ci": [
+      0.024020690687182066,
+      5.28618917546385
+     ],
+     "artefact_collisions": 94,
+     "progress_mean": 0.8554259885221958,
+     "infeasible_frame_share": 0.14674425408796854,
+     "emergency_stop_frame_share": 0.0010727869705146127,
+     "hard_brake_frame_share": 0.06706544000520138,
+     "key_level": {
+      "collisions_at_fault_tracked_per_episode": {
+       "mean": 0.03225806451612903,
+       "ci95": [
+        0.018903145421992784,
+        0.04743474818650566
+       ],
+       "n": 1054
+      },
+      "collisions_at_fault_untracked_per_episode": {
+       "mean": 0.0009487666034155598,
+       "ci95": [
+        0.0,
+        0.0028680688336520078
+       ],
+       "n": 1054
+      },
+      "progress": {
+       "mean": 0.8554259885221958,
+       "ci95": [
+        0.8353303530173917,
+        0.8743385009034775
+       ],
+       "n": 1021
+      },
+      "infeasible_frame_share": {
+       "mean": 0.14684678312127533,
+       "ci95": [
+        0.13111890453820516,
+        0.16370727458424503
+       ],
+       "n": 1054
+      },
+      "hard_brake_frame_share": {
+       "mean": 0.06705690548786293,
+       "ci95": [
+        0.06097529115941579,
+        0.0733487725062816
+       ],
+       "n": 1054
+      },
+      "divergence_share": {
+       "mean": 0.2206008543933035,
+       "ci95": [
+        0.19935465298336905,
+        0.2440405923856769
+       ],
+       "n": 1054
+      },
+      "progress_ratio": {
+       "mean": 0.8579062965428909,
+       "ci95": [
+        0.8381725805128216,
+        0.8766423775625612
+       ],
+       "n": 1048
+      }
+     }
+    },
+    "X3E1_B8": {
+     "episodes": 1054,
+     "entered_keys": 1054,
+     "at_fault_tracked": 23,
+     "at_fault_tracked_per_1000": 21.821631878557874,
+     "at_fault_tracked_ci": [
+      13.833042729643912,
+      32.74316213931027
+     ],
+     "at_fault_tracked_fallback_related": 23,
+     "at_fault_untracked": 2,
+     "at_fault_untracked_per_1000": 1.8975332068311195,
+     "at_fault_untracked_ci": [
+      0.22980007451989098,
+      6.8545423792447435
+     ],
+     "artefact_collisions": 91,
+     "progress_mean": 0.8454682220254256,
+     "infeasible_frame_share": 0.29771463866584313,
+     "emergency_stop_frame_share": 0.0011378043626670135,
+     "hard_brake_frame_share": 0.07785832710249992,
+     "key_level": {
+      "collisions_at_fault_tracked_per_episode": {
+       "mean": 0.021821631878557873,
+       "ci95": [
+        0.011352885525070956,
+        0.03415559772296015
+       ],
+       "n": 1054
+      },
+      "collisions_at_fault_untracked_per_episode": {
+       "mean": 0.0018975332068311196,
+       "ci95": [
+        0.0,
+        0.005758157389635317
+       ],
+       "n": 1054
+      },
+      "progress": {
+       "mean": 0.8454682220254256,
+       "ci95": [
+        0.8261192687001604,
+        0.8642909574970955
+       ],
+       "n": 1021
+      },
+      "infeasible_frame_share": {
+       "mean": 0.29809930977204124,
+       "ci95": [
+        0.27499896856020273,
+        0.32172861930536123
+       ],
+       "n": 1054
+      },
+      "hard_brake_frame_share": {
+       "mean": 0.07789806716423471,
+       "ci95": [
+        0.07155082821710725,
+        0.08443912944204314
+       ],
+       "n": 1054
+      },
+      "divergence_share": {
+       "mean": 0.2510247620131468,
+       "ci95": [
+        0.229381218158762,
+        0.2744166755981206
+       ],
+       "n": 1054
+      },
+      "progress_ratio": {
+       "mean": 0.8496990797173521,
+       "ci95": [
+        0.8308564149311473,
+        0.8680942359655276
+       ],
+       "n": 1048
+      }
+     }
+    },
+    "A_B6_composite": {
+     "episodes": 1054,
+     "entered_keys": 1054,
+     "at_fault_tracked": 51,
+     "at_fault_tracked_per_1000": 48.38709677419355,
+     "at_fault_tracked_ci": [
+      36.02737176308422,
+      63.62009618273604
+     ],
+     "at_fault_tracked_fallback_related": 48,
+     "at_fault_untracked": 5,
+     "at_fault_untracked_per_1000": 4.743833017077799,
+     "at_fault_untracked_ci": [
+      1.5403096680440427,
+      11.070523794423785
+     ],
+     "artefact_collisions": 89,
+     "progress_mean": 0.7223471476121894,
+     "infeasible_frame_share": 0.5103215110041937,
+     "emergency_stop_frame_share": 0.0010402782744384123,
+     "hard_brake_frame_share": 0.1185592145899028,
+     "key_level": {
+      "collisions_at_fault_tracked_per_episode": {
+       "mean": 0.04838709677419355,
+       "ci95": [
+        0.029636003623208257,
+        0.07136150234741784
+       ],
+       "n": 1054
+      },
+      "collisions_at_fault_untracked_per_episode": {
+       "mean": 0.004743833017077799,
+       "ci95": [
+        0.0,
+        0.011516314779270634
+       ],
+       "n": 1054
+      },
+      "progress": {
+       "mean": 0.7223471476121894,
+       "ci95": [
+        0.699861386169624,
+        0.7455448879469044
+       ],
+       "n": 1021
+      },
+      "infeasible_frame_share": {
+       "mean": 0.510143271034985,
+       "ci95": [
+        0.4796383897143014,
+        0.5414247771687335
+       ],
+       "n": 1054
+      },
+      "hard_brake_frame_share": {
+       "mean": 0.11855818191626691,
+       "ci95": [
+        0.111635864656905,
+        0.12563456934017683
+       ],
+       "n": 1054
+      },
+      "divergence_share": {
+       "mean": 0.4011669217392211,
+       "ci95": [
+        0.3754762591549089,
+        0.42722274750670897
+       ],
+       "n": 1054
+      },
+      "progress_ratio": {
+       "mean": 0.7296149913957919,
+       "ci95": [
+        0.7071590597444776,
+        0.7524045139793067
+       ],
+       "n": 1048
+      }
+     }
+    }
+   },
+   "by_delay": {
+    "0": {
+     "Mstar": {
+      "episodes": 375,
+      "at_fault_tracked": 8,
+      "at_fault_untracked": 0,
+      "progress_mean": 0.890492589219947,
+      "infeasible_frame_share": 0.1820286375718083,
+      "hard_brake_frame_share": 0.061304981565634915
+     },
+     "B0": {
+      "episodes": 375,
+      "at_fault_tracked": 19,
+      "at_fault_untracked": 0,
+      "progress_mean": 0.7633308808599893,
+      "infeasible_frame_share": 0.33576266826716966,
+      "hard_brake_frame_share": 0.1004887250278659
+     },
+     "B6": {
+      "episodes": 375,
+      "at_fault_tracked": 10,
+      "at_fault_untracked": 0,
+      "progress_mean": 0.8627653350645634,
+      "infeasible_frame_share": 0.14387378890508445,
+      "hard_brake_frame_share": 0.06662093800908857
+     },
+     "B4": {
+      "episodes": 375,
+      "at_fault_tracked": 11,
+      "at_fault_untracked": 0,
+      "progress_mean": 0.8370242074837998,
+      "infeasible_frame_share": 0.1820286375718083,
+      "hard_brake_frame_share": 0.07545228500385835
+     },
+     "X3E1_B8": {
+      "episodes": 375,
+      "at_fault_tracked": 7,
+      "at_fault_untracked": 0,
+      "progress_mean": 0.8554311711043202,
+      "infeasible_frame_share": 0.2899768498671011,
+      "hard_brake_frame_share": 0.07605247363457086
+     },
+     "A_B6_composite": {
+      "episodes": 375,
+      "at_fault_tracked": 20,
+      "at_fault_untracked": 2,
+      "progress_mean": 0.7161678227594811,
+      "infeasible_frame_share": 0.5242218983108977,
+      "hard_brake_frame_share": 0.11858012518220012
+     }
+    },
+    "2": {
+     "Mstar": {
+      "episodes": 360,
+      "at_fault_tracked": 10,
+      "at_fault_untracked": 0,
+      "progress_mean": 0.8841622308301365,
+      "infeasible_frame_share": 0.18390914296621494,
+      "hard_brake_frame_share": 0.06127123496850544
+     },
+     "B0": {
+      "episodes": 360,
+      "at_fault_tracked": 16,
+      "at_fault_untracked": 0,
+      "progress_mean": 0.762830876754405,
+      "infeasible_frame_share": 0.3234395877075778,
+      "hard_brake_frame_share": 0.09944645924794808
+     },
+     "B6": {
+      "episodes": 360,
+      "at_fault_tracked": 11,
+      "at_fault_untracked": 1,
+      "progress_mean": 0.8559621596834964,
+      "infeasible_frame_share": 0.15050582172170263,
+      "hard_brake_frame_share": 0.06613857606413438
+     },
+     "B4": {
+      "episodes": 360,
+      "at_fault_tracked": 19,
+      "at_fault_untracked": 1,
+      "progress_mean": 0.8319327471913769,
+      "infeasible_frame_share": 0.18543615193739263,
+      "hard_brake_frame_share": 0.07129223134185914
+     },
+     "X3E1_B8": {
+      "episodes": 360,
+      "at_fault_tracked": 5,
+      "at_fault_untracked": 1,
+      "progress_mean": 0.851774991686698,
+      "infeasible_frame_share": 0.292326779919832,
+      "hard_brake_frame_share": 0.07482343958770758
+     },
+     "A_B6_composite": {
+      "episodes": 360,
+      "at_fault_tracked": 16,
+      "at_fault_untracked": 1,
+      "progress_mean": 0.7266082638975524,
+      "infeasible_frame_share": 0.5007635044855888,
+      "hard_brake_frame_share": 0.11748425271998474
+     }
+    },
+    "4": {
+     "Mstar": {
+      "episodes": 319,
+      "at_fault_tracked": 13,
+      "at_fault_untracked": 0,
+      "progress_mean": 0.8699255523042525,
+      "infeasible_frame_share": 0.1845707656612529,
+      "hard_brake_frame_share": 0.06879350348027842
+     },
+     "B0": {
+      "episodes": 319,
+      "at_fault_tracked": 14,
+      "at_fault_untracked": 2,
+      "progress_mean": 0.7544764695449752,
+      "infeasible_frame_share": 0.3321345707656613,
+      "hard_brake_frame_share": 0.10498839907192575
+     },
+     "B6": {
+      "episodes": 319,
+      "at_fault_tracked": 13,
+      "at_fault_untracked": 0,
+      "progress_mean": 0.846090531768912,
+      "infeasible_frame_share": 0.1460556844547564,
+      "hard_brake_frame_share": 0.06879350348027842
+     },
+     "B4": {
+      "episodes": 319,
+      "at_fault_tracked": 11,
+      "at_fault_untracked": 0,
+      "progress_mean": 0.8207093728616424,
+      "infeasible_frame_share": 0.18816705336426914,
+      "hard_brake_frame_share": 0.08317865429234339
+     },
+     "X3E1_B8": {
+      "episodes": 319,
+      "at_fault_tracked": 11,
+      "at_fault_untracked": 1,
+      "progress_mean": 0.8264534369258149,
+      "infeasible_frame_share": 0.31473317865429234,
+      "hard_brake_frame_share": 0.0839907192575406
+     },
+     "A_B6_composite": {
+      "episodes": 319,
+      "at_fault_tracked": 15,
+      "at_fault_untracked": 2,
+      "progress_mean": 0.7248498316110394,
+      "infeasible_frame_share": 0.5031322505800464,
+      "hard_brake_frame_share": 0.11983758700696055
+     }
+    }
+   },
+   "Mstar_minus_arm": [
+    {
+     "endpoint": "collisions_at_fault_tracked_per_episode",
+     "arm_b": "B0",
+     "mean_diff": -0.017077798861480076,
+     "ci95_lo": -0.03317614234196966,
+     "ci95_hi": -0.0018992901820226297,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "collisions_at_fault_untracked_per_episode",
+     "arm_b": "B0",
+     "mean_diff": -0.0018975332068311196,
+     "ci95_lo": -0.004752964766490722,
+     "ci95_hi": 0.0,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress",
+     "arm_b": "B0",
+     "mean_diff": 0.12164694861010097,
+     "ci95_lo": 0.10229958635445882,
+     "ci95_hi": 0.14105724130880556,
+     "n_scenes": 1021
+    },
+    {
+     "endpoint": "infeasible_frame_share",
+     "arm_b": "B0",
+     "mean_diff": -0.1469493570188418,
+     "ci95_lo": -0.1705860393805757,
+     "ci95_hi": -0.12432401269185084,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "hard_brake_frame_share",
+     "arm_b": "B0",
+     "mean_diff": -0.0379536216765755,
+     "ci95_lo": -0.043810619916994545,
+     "ci95_hi": -0.03189545404548851,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "divergence_share",
+     "arm_b": "B0",
+     "mean_diff": -0.1270507968956382,
+     "ci95_lo": -0.1483876160704479,
+     "ci95_hi": -0.10592930839998328,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress_ratio",
+     "arm_b": "B0",
+     "mean_diff": 0.12037218367681558,
+     "ci95_lo": 0.10084828321081378,
+     "ci95_hi": 0.1391433191494814,
+     "n_scenes": 1048
+    },
+    {
+     "endpoint": "collisions_at_fault_tracked_per_episode",
+     "arm_b": "B4",
+     "mean_diff": -0.009487666034155597,
+     "ci95_lo": -0.023832221163012392,
+     "ci95_hi": 0.004734848484848485,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "collisions_at_fault_untracked_per_episode",
+     "arm_b": "B4",
+     "mean_diff": -0.0009487666034155598,
+     "ci95_lo": -0.0028790786948176585,
+     "ci95_hi": 0.0,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress",
+     "arm_b": "B4",
+     "mean_diff": 0.051766323420668135,
+     "ci95_lo": 0.03580650052167198,
+     "ci95_hi": 0.06800450485986308,
+     "n_scenes": 1021
+    },
+    {
+     "endpoint": "infeasible_frame_share",
+     "arm_b": "B4",
+     "mean_diff": -0.001562290739122258,
+     "ci95_lo": -0.020189516080297436,
+     "ci95_hi": 0.01647069206257986,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "hard_brake_frame_share",
+     "arm_b": "B4",
+     "mean_diff": -0.012800952345523269,
+     "ci95_lo": -0.01818421509163032,
+     "ci95_hi": -0.0073439150806662405,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "divergence_share",
+     "arm_b": "B4",
+     "mean_diff": -0.040914716811559816,
+     "ci95_lo": -0.05965329633565217,
+     "ci95_hi": -0.02151571559921513,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress_ratio",
+     "arm_b": "B4",
+     "mean_diff": 0.050678206512152046,
+     "ci95_lo": 0.03506089308334984,
+     "ci95_hi": 0.06652655334317202,
+     "n_scenes": 1048
+    },
+    {
+     "endpoint": "collisions_at_fault_tracked_per_episode",
+     "arm_b": "B6",
+     "mean_diff": -0.0028462998102466793,
+     "ci95_lo": -0.014245014245014245,
+     "ci95_hi": 0.008530805687203791,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "collisions_at_fault_untracked_per_episode",
+     "arm_b": "B6",
+     "mean_diff": -0.0009487666034155598,
+     "ci95_lo": -0.0028680688336520078,
+     "ci95_hi": 0.0,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress",
+     "arm_b": "B6",
+     "mean_diff": 0.026718534673106687,
+     "ci95_lo": 0.01327291021899069,
+     "ci95_hi": 0.04032359491630053,
+     "n_scenes": 1021
+    },
+    {
+     "endpoint": "infeasible_frame_share",
+     "arm_b": "B6",
+     "mean_diff": 0.036520232568445526,
+     "ci95_lo": 0.021046632273073518,
+     "ci95_hi": 0.05166660621672245,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "hard_brake_frame_share",
+     "arm_b": "B6",
+     "mean_diff": -0.0036146865419533973,
+     "ci95_lo": -0.0083779311674215,
+     "ci95_hi": 0.0010765311641698977,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "divergence_share",
+     "arm_b": "B6",
+     "mean_diff": -0.011929210280319355,
+     "ci95_lo": -0.027835554923443664,
+     "ci95_hi": 0.004206176543424331,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress_ratio",
+     "arm_b": "B6",
+     "mean_diff": 0.027555502933251055,
+     "ci95_lo": 0.014072484490270399,
+     "ci95_hi": 0.04140628768388009,
+     "n_scenes": 1048
+    },
+    {
+     "endpoint": "collisions_at_fault_tracked_per_episode",
+     "arm_b": "X3E1_B8",
+     "mean_diff": 0.007590132827324478,
+     "ci95_lo": -0.0028821222824652135,
+     "ci95_hi": 0.01994396870705149,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "collisions_at_fault_untracked_per_episode",
+     "arm_b": "X3E1_B8",
+     "mean_diff": -0.0018975332068311196,
+     "ci95_lo": -0.005758157389635317,
+     "ci95_hi": 0.0,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress",
+     "arm_b": "X3E1_B8",
+     "mean_diff": 0.0366763011698768,
+     "ci95_lo": 0.024846009006044063,
+     "ci95_hi": 0.04875573415040982,
+     "n_scenes": 1021
+    },
+    {
+     "endpoint": "infeasible_frame_share",
+     "arm_b": "X3E1_B8",
+     "mean_diff": -0.11473229408232037,
+     "ci95_lo": -0.12839580457551333,
+     "ci95_hi": -0.10195625275993807,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "hard_brake_frame_share",
+     "arm_b": "X3E1_B8",
+     "mean_diff": -0.014455848218325185,
+     "ci95_lo": -0.018132984816611544,
+     "ci95_hi": -0.010489816822087317,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "divergence_share",
+     "arm_b": "X3E1_B8",
+     "mean_diff": -0.04235311790016258,
+     "ci95_lo": -0.05494906711789959,
+     "ci95_hi": -0.030188648743797918,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress_ratio",
+     "arm_b": "X3E1_B8",
+     "mean_diff": 0.03576271975878972,
+     "ci95_lo": 0.024168327513031357,
+     "ci95_hi": 0.04757130767279275,
+     "n_scenes": 1048
+    },
+    {
+     "endpoint": "collisions_at_fault_tracked_per_episode",
+     "arm_b": "A_B6_composite",
+     "mean_diff": -0.018975332068311195,
+     "ci95_lo": -0.03467829155501582,
+     "ci95_hi": -0.005763412457414738,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "collisions_at_fault_untracked_per_episode",
+     "arm_b": "A_B6_composite",
+     "mean_diff": -0.004743833017077799,
+     "ci95_lo": -0.011516314779270634,
+     "ci95_hi": 0.0,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress",
+     "arm_b": "A_B6_composite",
+     "mean_diff": 0.15979737558311294,
+     "ci95_lo": 0.13904168331514458,
+     "ci95_hi": 0.18026939272898787,
+     "n_scenes": 1021
+    },
+    {
+     "endpoint": "infeasible_frame_share",
+     "arm_b": "A_B6_composite",
+     "mean_diff": -0.32677625534526417,
+     "ci95_lo": -0.35346388435125764,
+     "ci95_hi": -0.30082401798901653,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "hard_brake_frame_share",
+     "arm_b": "A_B6_composite",
+     "mean_diff": -0.055115962970357375,
+     "ci95_lo": -0.06140423709106317,
+     "ci95_hi": -0.04862431289742913,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "divergence_share",
+     "arm_b": "A_B6_composite",
+     "mean_diff": -0.19249527762623697,
+     "ci95_lo": -0.21599708413599977,
+     "ci95_hi": -0.16940120494788707,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress_ratio",
+     "arm_b": "A_B6_composite",
+     "mean_diff": 0.15584680808034992,
+     "ci95_lo": 0.13570464906270405,
+     "ci95_hi": 0.17607673841257296,
+     "n_scenes": 1048
+    }
+   ],
+   "confound_note": "descriptive: log replay with non-reactive agents (nuPlan's CL-NR); an arm that is infeasible more often runs more often at a backed-off margin (K6 R09b MJ1), so collision contrasts are not read as calibration effects (D10 section 2)"
+  },
+  "t3": {
+   "tracker": "t3",
+   "runs": [
+    "a4loop_first_t3",
+    "a4loop_rest_t3"
+   ],
+   "seed_bootstrap": [
+    20261201,
+    1,
+    12
+   ],
+   "B": 4000,
+   "keys": 1054,
+   "arms": {
+    "Mstar": {
+     "episodes": 1054,
+     "entered_keys": 1054,
+     "at_fault_tracked": 26,
+     "at_fault_tracked_per_1000": 24.667931688804554,
+     "at_fault_tracked_ci": [
+      16.113911969256492,
+      36.14423537298387
+     ],
+     "at_fault_tracked_fallback_related": 26,
+     "at_fault_untracked": 5,
+     "at_fault_untracked_per_1000": 4.743833017077799,
+     "at_fault_untracked_ci": [
+      1.5403096680440427,
+      11.070523794423785
+     ],
+     "artefact_collisions": 95,
+     "progress_mean": 0.8888074802661625,
+     "infeasible_frame_share": 0.24989434673775235,
+     "emergency_stop_frame_share": 0.0013003478430480154,
+     "hard_brake_frame_share": 0.0683332791521732,
+     "key_level": {
+      "collisions_at_fault_tracked_per_episode": {
+       "mean": 0.024667931688804556,
+       "ci95": [
+        0.012451809382390143,
+        0.038350910834132314
+       ],
+       "n": 1054
+      },
+      "collisions_at_fault_untracked_per_episode": {
+       "mean": 0.004743833017077799,
+       "ci95": [
+        0.0009398496240601503,
+        0.010396975425330813
+       ],
+       "n": 1054
+      },
+      "progress": {
+       "mean": 0.8888074802661625,
+       "ci95": [
+        0.8726307415157065,
+        0.904732086081113
+       ],
+       "n": 1021
+      },
+      "infeasible_frame_share": {
+       "mean": 0.24956207399170593,
+       "ci95": [
+        0.2302598899399222,
+        0.26885710537217067
+       ],
+       "n": 1054
+      },
+      "hard_brake_frame_share": {
+       "mean": 0.06844722638066708,
+       "ci95": [
+        0.06280316210182504,
+        0.07424348840187762
+       ],
+       "n": 1054
+      },
+      "divergence_share": {
+       "mean": 0.2128467974412129,
+       "ci95": [
+        0.19192205717355448,
+        0.23349451045253197
+       ],
+       "n": 1054
+      },
+      "progress_ratio": {
+       "mean": 0.8917697015835735,
+       "ci95": [
+        0.8759442398377134,
+        0.9075146514902948
+       ],
+       "n": 1048
+      }
+     }
+    },
+    "B0": {
+     "episodes": 1054,
+     "entered_keys": 1054,
+     "at_fault_tracked": 40,
+     "at_fault_tracked_per_1000": 37.95066413662239,
+     "at_fault_tracked_ci": [
+      27.112510855587253,
+      51.67803317266041
+     ],
+     "at_fault_tracked_fallback_related": 40,
+     "at_fault_untracked": 3,
+     "at_fault_untracked_per_1000": 2.846299810246679,
+     "at_fault_untracked_ci": [
+      0.5869754486675536,
+      8.318095891596132
+     ],
+     "artefact_collisions": 94,
+     "progress_mean": 0.7809520376513405,
+     "infeasible_frame_share": 0.8057280322486265,
+     "emergency_stop_frame_share": 0.0015604174116576185,
+     "hard_brake_frame_share": 0.11176489710997692,
+     "key_level": {
+      "collisions_at_fault_tracked_per_episode": {
+       "mean": 0.03795066413662239,
+       "ci95": [
+        0.0217386172352917,
+        0.056605109840183875
+       ],
+       "n": 1054
+      },
+      "collisions_at_fault_untracked_per_episode": {
+       "mean": 0.0028462998102466793,
+       "ci95": [
+        0.0,
+        0.006610165634020039
+       ],
+       "n": 1054
+      },
+      "progress": {
+       "mean": 0.7809520376513405,
+       "ci95": [
+        0.7610410419006476,
+        0.8012033840701757
+       ],
+       "n": 1021
+      },
+      "infeasible_frame_share": {
+       "mean": 0.8044803947787549,
+       "ci95": [
+        0.782946047208964,
+        0.8247583389444636
+       ],
+       "n": 1054
+      },
+      "hard_brake_frame_share": {
+       "mean": 0.11200713212568045,
+       "ci95": [
+        0.10561660777310772,
+        0.1183630347312104
+       ],
+       "n": 1054
+      },
+      "divergence_share": {
+       "mean": 0.37088449395123685,
+       "ci95": [
+        0.34721300843293806,
+        0.39334236461942385
+       ],
+       "n": 1054
+      },
+      "progress_ratio": {
+       "mean": 0.786954193251122,
+       "ci95": [
+        0.7673580668441599,
+        0.8071395342847381
+       ],
+       "n": 1048
+      }
+     }
+    },
+    "B4": {
+     "episodes": 1054,
+     "entered_keys": 1054,
+     "at_fault_tracked": 34,
+     "at_fault_tracked_per_1000": 32.25806451612903,
+     "at_fault_tracked_ci": [
+      22.33964742369286,
+      45.07741185503139
+     ],
+     "at_fault_tracked_fallback_related": 32,
+     "at_fault_untracked": 4,
+     "at_fault_untracked_per_1000": 3.795066413662239,
+     "at_fault_untracked_ci": [
+      1.0340278687156783,
+      9.716877301142025
+     ],
+     "artefact_collisions": 93,
+     "progress_mean": 0.8570773692680421,
+     "infeasible_frame_share": 0.2966093429992523,
+     "emergency_stop_frame_share": 0.0014954000195052176,
+     "hard_brake_frame_share": 0.084522609798121,
+     "key_level": {
+      "collisions_at_fault_tracked_per_episode": {
+       "mean": 0.03225806451612903,
+       "ci95": [
+        0.017109454477240424,
+        0.04966586820558404
+       ],
+       "n": 1054
+      },
+      "collisions_at_fault_untracked_per_episode": {
+       "mean": 0.003795066413662239,
+       "ci95": [
+        0.0,
+        0.009442870632672332
+       ],
+       "n": 1054
+      },
+      "progress": {
+       "mean": 0.8570773692680421,
+       "ci95": [
+        0.8391267909561261,
+        0.8742559453402934
+       ],
+       "n": 1021
+      },
+      "infeasible_frame_share": {
+       "mean": 0.2962509211000049,
+       "ci95": [
+        0.2754656470341417,
+        0.31689910508320984
+       ],
+       "n": 1054
+      },
+      "hard_brake_frame_share": {
+       "mean": 0.08461255696387288,
+       "ci95": [
+        0.07811476396917437,
+        0.09107608794054786
+       ],
+       "n": 1054
+      },
+      "divergence_share": {
+       "mean": 0.2759299872137666,
+       "ci95": [
+        0.25270362589187056,
+        0.2987002541179573
+       ],
+       "n": 1054
+      },
+      "progress_ratio": {
+       "mean": 0.8601163368986526,
+       "ci95": [
+        0.8428792546251888,
+        0.8770796243561024
+       ],
+       "n": 1048
+      }
+     }
+    },
+    "B6": {
+     "episodes": 1054,
+     "entered_keys": 1054,
+     "at_fault_tracked": 28,
+     "at_fault_tracked_per_1000": 26.565464895635674,
+     "at_fault_tracked_ci": [
+      17.652558497018532,
+      38.394493304808535
+     ],
+     "at_fault_tracked_fallback_related": 27,
+     "at_fault_untracked": 3,
+     "at_fault_untracked_per_1000": 2.846299810246679,
+     "at_fault_untracked_ci": [
+      0.5869754486675536,
+      8.318095891596132
+     ],
+     "artefact_collisions": 95,
+     "progress_mean": 0.8824119802393791,
+     "infeasible_frame_share": 0.23068170735671792,
+     "emergency_stop_frame_share": 0.0012028217548194142,
+     "hard_brake_frame_share": 0.07171418354409805,
+     "key_level": {
+      "collisions_at_fault_tracked_per_episode": {
+       "mean": 0.026565464895635674,
+       "ci95": [
+        0.014176691568570508,
+        0.040855704475641984
+       ],
+       "n": 1054
+      },
+      "collisions_at_fault_untracked_per_episode": {
+       "mean": 0.0028462998102466793,
+       "ci95": [
+        0.0,
+        0.007590313029908224
+       ],
+       "n": 1054
+      },
+      "progress": {
+       "mean": 0.8824119802393791,
+       "ci95": [
+        0.8664246215020245,
+        0.8985572957330481
+       ],
+       "n": 1021
+      },
+      "infeasible_frame_share": {
+       "mean": 0.23089960043743818,
+       "ci95": [
+        0.21143648649563543,
+        0.2506497896641052
+       ],
+       "n": 1054
+      },
+      "hard_brake_frame_share": {
+       "mean": 0.0718041039072419,
+       "ci95": [
+        0.06566859001058048,
+        0.07783344015567487
+       ],
+       "n": 1054
+      },
+      "divergence_share": {
+       "mean": 0.22680220474543913,
+       "ci95": [
+        0.20509825325466202,
+        0.2480298558201452
+       ],
+       "n": 1054
+      },
+      "progress_ratio": {
+       "mean": 0.885864580719827,
+       "ci95": [
+        0.8699326063179698,
+        0.9018185784219828
+       ],
+       "n": 1048
+      }
+     }
+    },
+    "X3E1_B8": {
+     "episodes": 1054,
+     "entered_keys": 1054,
+     "at_fault_tracked": 32,
+     "at_fault_tracked_per_1000": 30.36053130929791,
+     "at_fault_tracked_ci": [
+      20.76658094049769,
+      42.86001146055072
+     ],
+     "at_fault_tracked_fallback_related": 32,
+     "at_fault_untracked": 3,
+     "at_fault_untracked_per_1000": 2.846299810246679,
+     "at_fault_untracked_ci": [
+      0.5869754486675536,
+      8.318095891596132
+     ],
+     "artefact_collisions": 89,
+     "progress_mean": 0.7976584399538252,
+     "infeasible_frame_share": 0.4624687103800267,
+     "emergency_stop_frame_share": 0.0009102434901336107,
+     "hard_brake_frame_share": 0.10058190565976399,
+     "key_level": {
+      "collisions_at_fault_tracked_per_episode": {
+       "mean": 0.030360531309297913,
+       "ci95": [
+        0.01602224298932713,
+        0.046579054711609086
+       ],
+       "n": 1054
+      },
+      "collisions_at_fault_untracked_per_episode": {
+       "mean": 0.0028462998102466793,
+       "ci95": [
+        0.0,
+        0.006616257088846881
+       ],
+       "n": 1054
+      },
+      "progress": {
+       "mean": 0.7976584399538252,
+       "ci95": [
+        0.7776504834044364,
+        0.8180304706988871
+       ],
+       "n": 1021
+      },
+      "infeasible_frame_share": {
+       "mean": 0.4615023255864967,
+       "ci95": [
+        0.43610355263795303,
+        0.48574574276495514
+       ],
+       "n": 1054
+      },
+      "hard_brake_frame_share": {
+       "mean": 0.10074080449951384,
+       "ci95": [
+        0.09410092477488666,
+        0.10712819491321661
+       ],
+       "n": 1054
+      },
+      "divergence_share": {
+       "mean": 0.32631058676722946,
+       "ci95": [
+        0.3023837551459065,
+        0.3500298144994822
+       ],
+       "n": 1054
+      },
+      "progress_ratio": {
+       "mean": 0.8031765238809405,
+       "ci95": [
+        0.7834014150231002,
+        0.8234655673791814
+       ],
+       "n": 1048
+      }
+     }
+    },
+    "A_B6_composite": {
+     "episodes": 1054,
+     "entered_keys": 1054,
+     "at_fault_tracked": 41,
+     "at_fault_tracked_per_1000": 38.89943074003795,
+     "at_fault_tracked_ci": [
+      27.914903101001215,
+      52.771470176219076
+     ],
+     "at_fault_tracked_fallback_related": 40,
+     "at_fault_untracked": 2,
+     "at_fault_untracked_per_1000": 1.8975332068311195,
+     "at_fault_untracked_ci": [
+      0.22980007451989098,
+      6.8545423792447435
+     ],
+     "artefact_collisions": 90,
+     "progress_mean": 0.816606978967926,
+     "infeasible_frame_share": 0.46744254087968534,
+     "emergency_stop_frame_share": 0.001105295666590813,
+     "hard_brake_frame_share": 0.10308507525763141,
+     "key_level": {
+      "collisions_at_fault_tracked_per_episode": {
+       "mean": 0.03889943074003795,
+       "ci95": [
+        0.023605509408193427,
+        0.056191815334332026
+       ],
+       "n": 1054
+      },
+      "collisions_at_fault_untracked_per_episode": {
+       "mean": 0.0018975332068311196,
+       "ci95": [
+        0.0,
+        0.004761904761904762
+       ],
+       "n": 1054
+      },
+      "progress": {
+       "mean": 0.816606978967926,
+       "ci95": [
+        0.797793415626919,
+        0.8357053480762645
+       ],
+       "n": 1021
+      },
+      "infeasible_frame_share": {
+       "mean": 0.46677600918091616,
+       "ci95": [
+        0.4435150013576079,
+        0.4906566880926832
+       ],
+       "n": 1054
+      },
+      "hard_brake_frame_share": {
+       "mean": 0.10324810706058689,
+       "ci95": [
+        0.0966174856380834,
+        0.10975994102478254
+       ],
+       "n": 1054
+      },
+      "divergence_share": {
+       "mean": 0.31585425428626707,
+       "ci95": [
+        0.2925109008752586,
+        0.33924506078173017
+       ],
+       "n": 1054
+      },
+      "progress_ratio": {
+       "mean": 0.8215754386821389,
+       "ci95": [
+        0.8027011188429045,
+        0.8405918966817655
+       ],
+       "n": 1048
+      }
+     }
+    }
+   },
+   "by_delay": {
+    "0": {
+     "Mstar": {
+      "episodes": 375,
+      "at_fault_tracked": 6,
+      "at_fault_untracked": 0,
+      "progress_mean": 0.903607800761914,
+      "infeasible_frame_share": 0.2575666638086256,
+      "hard_brake_frame_share": 0.0652490782817457
+     },
+     "B0": {
+      "episodes": 375,
+      "at_fault_tracked": 13,
+      "at_fault_untracked": 0,
+      "progress_mean": 0.8062547110323233,
+      "infeasible_frame_share": 0.8294606876446883,
+      "hard_brake_frame_share": 0.10331818571551059
+     },
+     "B6": {
+      "episodes": 375,
+      "at_fault_tracked": 7,
+      "at_fault_untracked": 0,
+      "progress_mean": 0.8966096848415328,
+      "infeasible_frame_share": 0.231329846523193,
+      "hard_brake_frame_share": 0.07039355225928148
+     },
+     "B4": {
+      "episodes": 375,
+      "at_fault_tracked": 10,
+      "at_fault_untracked": 0,
+      "progress_mean": 0.8766168233730592,
+      "infeasible_frame_share": 0.3030952585098174,
+      "hard_brake_frame_share": 0.08085398268027094
+     },
+     "X3E1_B8": {
+      "episodes": 375,
+      "at_fault_tracked": 9,
+      "at_fault_untracked": 0,
+      "progress_mean": 0.8140713617699236,
+      "infeasible_frame_share": 0.48332333018948814,
+      "hard_brake_frame_share": 0.09628740461287834
+     },
+     "A_B6_composite": {
+      "episodes": 375,
+      "at_fault_tracked": 12,
+      "at_fault_untracked": 0,
+      "progress_mean": 0.8379707013233858,
+      "infeasible_frame_share": 0.47817885621195233,
+      "hard_brake_frame_share": 0.09920260653348195
+     }
+    },
+    "2": {
+     "Mstar": {
+      "episodes": 360,
+      "at_fault_tracked": 11,
+      "at_fault_untracked": 2,
+      "progress_mean": 0.8942589945938185,
+      "infeasible_frame_share": 0.24260355029585798,
+      "hard_brake_frame_share": 0.06709295667112045
+     },
+     "B0": {
+      "episodes": 360,
+      "at_fault_tracked": 15,
+      "at_fault_untracked": 1,
+      "progress_mean": 0.7801550035872635,
+      "infeasible_frame_share": 0.8047337278106509,
+      "hard_brake_frame_share": 0.11395304447413629
+     },
+     "B6": {
+      "episodes": 360,
+      "at_fault_tracked": 10,
+      "at_fault_untracked": 1,
+      "progress_mean": 0.8886471713786199,
+      "infeasible_frame_share": 0.22332506203473945,
+      "hard_brake_frame_share": 0.06881084176369537
+     },
+     "B4": {
+      "episodes": 360,
+      "at_fault_tracked": 12,
+      "at_fault_untracked": 1,
+      "progress_mean": 0.8537594525919802,
+      "infeasible_frame_share": 0.2906088948272571,
+      "hard_brake_frame_share": 0.0822676083221989
+     },
+     "X3E1_B8": {
+      "episodes": 360,
+      "at_fault_tracked": 13,
+      "at_fault_untracked": 1,
+      "progress_mean": 0.792680123572243,
+      "infeasible_frame_share": 0.45161290322580644,
+      "hard_brake_frame_share": 0.101164344340523
+     },
+     "A_B6_composite": {
+      "episodes": 360,
+      "at_fault_tracked": 16,
+      "at_fault_untracked": 0,
+      "progress_mean": 0.8157452844149738,
+      "infeasible_frame_share": 0.4639244130559267,
+      "hard_brake_frame_share": 0.101164344340523
+     }
+    },
+    "4": {
+     "Mstar": {
+      "episodes": 319,
+      "at_fault_tracked": 9,
+      "at_fault_untracked": 3,
+      "progress_mean": 0.8650136839101328,
+      "infeasible_frame_share": 0.24837587006960557,
+      "hard_brake_frame_share": 0.0740139211136891
+     },
+     "B0": {
+      "episodes": 319,
+      "at_fault_tracked": 12,
+      "at_fault_untracked": 2,
+      "progress_mean": 0.7517751291963051,
+      "infeasible_frame_share": 0.7748259860788863,
+      "hard_brake_frame_share": 0.12053364269141531
+     },
+     "B6": {
+      "episodes": 319,
+      "at_fault_tracked": 11,
+      "at_fault_untracked": 2,
+      "progress_mean": 0.8584437591078443,
+      "infeasible_frame_share": 0.23874709976798145,
+      "hard_brake_frame_share": 0.07703016241299304
+     },
+     "B4": {
+      "episodes": 319,
+      "at_fault_tracked": 12,
+      "at_fault_untracked": 3,
+      "progress_mean": 0.837618255820532,
+      "infeasible_frame_share": 0.2951276102088167,
+      "hard_brake_frame_share": 0.09222737819025523
+     },
+     "X3E1_B8": {
+      "episodes": 319,
+      "at_fault_tracked": 10,
+      "at_fault_untracked": 2,
+      "progress_mean": 0.7838040945280802,
+      "infeasible_frame_share": 0.4474477958236659,
+      "hard_brake_frame_share": 0.10568445475638051
+     },
+     "A_B6_composite": {
+      "episodes": 319,
+      "at_fault_tracked": 13,
+      "at_fault_untracked": 2,
+      "progress_mean": 0.7921866947309149,
+      "infeasible_frame_share": 0.4571925754060325,
+      "hard_brake_frame_share": 0.11067285382830626
+     }
+    }
+   },
+   "Mstar_minus_arm": [
+    {
+     "endpoint": "collisions_at_fault_tracked_per_episode",
+     "arm_b": "B0",
+     "mean_diff": -0.013282732447817837,
+     "ci95_lo": -0.027436140018921477,
+     "ci95_hi": -0.001893939393939394,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "collisions_at_fault_untracked_per_episode",
+     "arm_b": "B0",
+     "mean_diff": 0.0018975332068311196,
+     "ci95_lo": -0.0038096145989377638,
+     "ci95_hi": 0.007670182166826462,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress",
+     "arm_b": "B0",
+     "mean_diff": 0.10785544261482206,
+     "ci95_lo": 0.08744168125926384,
+     "ci95_hi": 0.12840231503757785,
+     "n_scenes": 1021
+    },
+    {
+     "endpoint": "infeasible_frame_share",
+     "arm_b": "B0",
+     "mean_diff": -0.5549183207870492,
+     "ci95_lo": -0.5776808461535758,
+     "ci95_hi": -0.5327321407686547,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "hard_brake_frame_share",
+     "arm_b": "B0",
+     "mean_diff": -0.04355990574501338,
+     "ci95_lo": -0.05011794925194558,
+     "ci95_hi": -0.03671236552671127,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "divergence_share",
+     "arm_b": "B0",
+     "mean_diff": -0.15803769651002397,
+     "ci95_lo": -0.18138832269245295,
+     "ci95_hi": -0.1344183126831607,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress_ratio",
+     "arm_b": "B0",
+     "mean_diff": 0.1048155083324515,
+     "ci95_lo": 0.08502107528374954,
+     "ci95_hi": 0.1250301869246825,
+     "n_scenes": 1048
+    },
+    {
+     "endpoint": "collisions_at_fault_tracked_per_episode",
+     "arm_b": "B4",
+     "mean_diff": -0.007590132827324478,
+     "ci95_lo": -0.019868491258905874,
+     "ci95_hi": 0.0028169014084507044,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "collisions_at_fault_untracked_per_episode",
+     "arm_b": "B4",
+     "mean_diff": 0.0009487666034155598,
+     "ci95_lo": 0.0,
+     "ci95_hi": 0.0028763183125599234,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress",
+     "arm_b": "B4",
+     "mean_diff": 0.03173011099812043,
+     "ci95_lo": 0.019340221871202302,
+     "ci95_hi": 0.04459154503949448,
+     "n_scenes": 1021
+    },
+    {
+     "endpoint": "infeasible_frame_share",
+     "arm_b": "B4",
+     "mean_diff": -0.046688847108299035,
+     "ci95_lo": -0.061475026094313406,
+     "ci95_hi": -0.032087055174822236,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "hard_brake_frame_share",
+     "arm_b": "B4",
+     "mean_diff": -0.016165330583205812,
+     "ci95_lo": -0.02102588916073135,
+     "ci95_hi": -0.011561716909093621,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "divergence_share",
+     "arm_b": "B4",
+     "mean_diff": -0.06308318977255367,
+     "ci95_lo": -0.07944515993738015,
+     "ci95_hi": -0.04696989839873713,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress_ratio",
+     "arm_b": "B4",
+     "mean_diff": 0.031653364684921026,
+     "ci95_lo": 0.01952081795586616,
+     "ci95_hi": 0.04437422419270393,
+     "n_scenes": 1048
+    },
+    {
+     "endpoint": "collisions_at_fault_tracked_per_episode",
+     "arm_b": "B6",
+     "mean_diff": -0.0018975332068311196,
+     "ci95_lo": -0.009560229445506692,
+     "ci95_hi": 0.004813135580574646,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "collisions_at_fault_untracked_per_episode",
+     "arm_b": "B6",
+     "mean_diff": 0.0018975332068311196,
+     "ci95_lo": 0.0,
+     "ci95_hi": 0.004752964766490723,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress",
+     "arm_b": "B6",
+     "mean_diff": 0.006395500026783567,
+     "ci95_lo": -0.002580912261020897,
+     "ci95_hi": 0.01551027388186955,
+     "n_scenes": 1021
+    },
+    {
+     "endpoint": "infeasible_frame_share",
+     "arm_b": "B6",
+     "mean_diff": 0.018662473554267728,
+     "ci95_lo": 0.009839648888030688,
+     "ci95_hi": 0.027768438768270332,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "hard_brake_frame_share",
+     "arm_b": "B6",
+     "mean_diff": -0.0033568775265748287,
+     "ci95_lo": -0.006731668604940284,
+     "ci95_hi": -3.566619392138499e-05,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "divergence_share",
+     "arm_b": "B6",
+     "mean_diff": -0.013955407304226255,
+     "ci95_lo": -0.024295597738018804,
+     "ci95_hi": -0.0037057436306191685,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress_ratio",
+     "arm_b": "B6",
+     "mean_diff": 0.005905120863746655,
+     "ci95_lo": -0.002839066888938941,
+     "ci95_hi": 0.014746075783453473,
+     "n_scenes": 1048
+    },
+    {
+     "endpoint": "collisions_at_fault_tracked_per_episode",
+     "arm_b": "X3E1_B8",
+     "mean_diff": -0.0056925996204933585,
+     "ci95_lo": -0.013320647002854425,
+     "ci95_hi": 0.0009597159456524345,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "collisions_at_fault_untracked_per_episode",
+     "arm_b": "X3E1_B8",
+     "mean_diff": 0.0018975332068311196,
+     "ci95_lo": -0.001890359168241966,
+     "ci95_hi": 0.005698141106886355,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress",
+     "arm_b": "X3E1_B8",
+     "mean_diff": 0.09114904031233738,
+     "ci95_lo": 0.0743697029730689,
+     "ci95_hi": 0.10818512586470816,
+     "n_scenes": 1021
+    },
+    {
+     "endpoint": "infeasible_frame_share",
+     "arm_b": "X3E1_B8",
+     "mean_diff": -0.2119402515947908,
+     "ci95_lo": -0.23015318095155088,
+     "ci95_hi": -0.19467142569065882,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "hard_brake_frame_share",
+     "arm_b": "X3E1_B8",
+     "mean_diff": -0.032293578118846755,
+     "ci95_lo": -0.03728167906468796,
+     "ci95_hi": -0.027414320190223586,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "divergence_share",
+     "arm_b": "X3E1_B8",
+     "mean_diff": -0.1134637893260166,
+     "ci95_lo": -0.1319210144369416,
+     "ci95_hi": -0.09561397984354093,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress_ratio",
+     "arm_b": "X3E1_B8",
+     "mean_diff": 0.08859317770263311,
+     "ci95_lo": 0.07209790202735893,
+     "ci95_hi": 0.10528831449595341,
+     "n_scenes": 1048
+    },
+    {
+     "endpoint": "collisions_at_fault_tracked_per_episode",
+     "arm_b": "A_B6_composite",
+     "mean_diff": -0.014231499051233396,
+     "ci95_lo": -0.025400409777253375,
+     "ci95_hi": -0.004721435316336166,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "collisions_at_fault_untracked_per_episode",
+     "arm_b": "A_B6_composite",
+     "mean_diff": 0.0028462998102466793,
+     "ci95_lo": -0.0009541984732824427,
+     "ci95_hi": 0.007547347978691183,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress",
+     "arm_b": "A_B6_composite",
+     "mean_diff": 0.0722005012982365,
+     "ci95_lo": 0.058466818341411354,
+     "ci95_hi": 0.08615572543808656,
+     "n_scenes": 1021
+    },
+    {
+     "endpoint": "infeasible_frame_share",
+     "arm_b": "A_B6_composite",
+     "mean_diff": -0.21721393518921028,
+     "ci95_lo": -0.23192322354146983,
+     "ci95_hi": -0.2028223808469555,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "hard_brake_frame_share",
+     "arm_b": "A_B6_composite",
+     "mean_diff": -0.0348008806799198,
+     "ci95_lo": -0.03984738448324491,
+     "ci95_hi": -0.030146805568755097,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "divergence_share",
+     "arm_b": "A_B6_composite",
+     "mean_diff": -0.10300745684505418,
+     "ci95_lo": -0.11870406066775019,
+     "ci95_hi": -0.08713873354842072,
+     "n_scenes": 1054
+    },
+    {
+     "endpoint": "progress_ratio",
+     "arm_b": "A_B6_composite",
+     "mean_diff": 0.07019426290143463,
+     "ci95_lo": 0.0566793752746711,
+     "ci95_hi": 0.08411280885933936,
+     "n_scenes": 1048
+    }
+   ],
+   "confound_note": "descriptive: log replay with non-reactive agents (nuPlan's CL-NR); an arm that is infeasible more often runs more often at a backed-off margin (K6 R09b MJ1), so collision contrasts are not read as calibration effects (D10 section 2)"
+  }
+ },
+ "seconds": 6.6
+}

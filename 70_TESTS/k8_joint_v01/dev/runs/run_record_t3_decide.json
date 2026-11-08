@@ -1,0 +1,78 @@
+{
+ "tag": "t3_decide",
+ "mode": "decide",
+ "prereg": "DEV MODE (nuScenes-mini scenes only; excluded from K8)",
+ "exploratory": false,
+ "joint": false,
+ "dry_run": false,
+ "stamp": "DEV MODE (nuScenes-mini scenes only; excluded from K8)",
+ "arms": [
+  "B0",
+  "B1",
+  "B3",
+  "B4",
+  "B6",
+  "B9",
+  "Mstar",
+  "MstarJ",
+  "MstarJx"
+ ],
+ "delays_kf": [
+  0,
+  2,
+  4
+ ],
+ "scenes": 10,
+ "episodes": 90,
+ "fits": "../../70_TESTS/k8_joint_v01/dev/k8_joint_fits_dev_t3_v01.json",
+ "fits_sha256": "a0bac489ff0ab50b032d7491df19859783c8196c2acc35919ffd0e4924a9228f",
+ "sim_sha256": "03881acdbf28e53afbe6c5f4de8aeb352e14ddd43ad9f2feff6c67217a528e01",
+ "runner_sha256": "98376598e3671ec96d2cdb05600dd565a021e73ec85b81330b9202ca78f1f3c8",
+ "manifest_sha256": [
+  "0988453cc5885b6e1e91b6920200fe6fbb6282aa5f0295d6bf8d9f242a969635",
+  "f0be2a92bea3edd35bd9af82624e9aea1c2f996930f90a8165e3e8d298db2a8b"
+ ],
+ "hashes": {
+  "sim_sha256": "03881acdbf28e53afbe6c5f4de8aeb352e14ddd43ad9f2feff6c67217a528e01",
+  "runner_sha256": "98376598e3671ec96d2cdb05600dd565a021e73ec85b81330b9202ca78f1f3c8",
+  "k6_sim_v02_sha256": "257bb10f5127c05eee82b81392a76e169e1becaaeaaa7d90acdf5aac0543aea4",
+  "analysis_sha256": "edd721dac4612b023e3e77b102bd1844cd74a700be6056de68072c0ea86fad94",
+  "joint_fit_sha256": "766c1d9328f49ac7a315e0f9b69ab0e81577e89141cb0443f2718976ae11dd84",
+  "k6_analyse_v02_sha256": "9afb4dd848ac5614d4d351d404edc2b820030d9dfb67eee668407cc76cdecf61",
+  "m_lib_v04_sha256": "6d191e5c4d476bd1684d7c52dd2ba0b4ad3030e77648147432b5251f11bb54d5",
+  "fits_sha256": "a0bac489ff0ab50b032d7491df19859783c8196c2acc35919ffd0e4924a9228f",
+  "manifest_sha256": [
+   "0988453cc5885b6e1e91b6920200fe6fbb6282aa5f0295d6bf8d9f242a969635",
+   "f0be2a92bea3edd35bd9af82624e9aea1c2f996930f90a8165e3e8d298db2a8b"
+  ]
+ },
+ "launch_record": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\k8_joint_v01\\dev\\runs\\launch_record_t3_decide.json",
+ "launch_record_sha256": "d1bf74c06e68ee723bf773a33241a6c6b403dfb1951015825faddd6f78b77a81",
+ "hashes_equal_at_end": true,
+ "caches": [
+  "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\k6\\cache_v02_t3_train",
+  "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\k6\\cache_v02_t3_val"
+ ],
+ "episodes_sha256": "5ec30a1ac818af9fc45a25b7037d25b0a7ca9dfd8d7cd6f32b1bfff72e4242d4",
+ "counts_sha256": "eb55448c4946658159596720f77b5fbb725eaeed265a96be62f15c2e9933d4b2",
+ "decisions_sha256": "72f21b5c54a5f752f691ab972274ad233833e37a973c90c8f77c58ac2e86bdf6",
+ "decisions": 3456,
+ "cal_sha256": "512f813d6384bc4ef1cace79f907b12b574aa0b5ef8cbacb06aad7e87f89ab51",
+ "scene_names": [
+  "scene-0061",
+  "scene-0103",
+  "scene-0553",
+  "scene-0655",
+  "scene-0757",
+  "scene-0796",
+  "scene-0916",
+  "scene-1077",
+  "scene-1094",
+  "scene-1100"
+ ],
+ "shards_reused": 0,
+ "numpy": "1.26.4",
+ "seconds": 126.1,
+ "scene_seconds_median": 12.248849099996733,
+ "scene_seconds_sum": 122.19281310006045
+}

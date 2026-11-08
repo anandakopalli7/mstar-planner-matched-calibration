@@ -1,0 +1,146 @@
+{
+  "written": "2026-11-07 17:39 EST",
+  "what": "Figs. 1 and 4 for the v06c manuscript (IEEE Access), vector PDF + 300 dpi PNG; Fig. 4 reads result files only (no new quantities beyond selecting values).",
+  "interpreter": {
+    "executable": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\50_CODE\\env\\canmot310\\Scripts\\python.exe",
+    "python": "3.10.22",
+    "numpy": "1.26.4",
+    "matplotlib": "3.5.2"
+  },
+  "commands": [
+    "python -B 80_LOGS/c1_figs_v02/make_fig01_v01.py 95_SUBMISSION/figs_v02",
+    "python -B 80_LOGS/c1_figs_v02/make_fig04_v01.py 60_RESULTS/x3_explore_v01/a3_review/x3_a3_i_infeasible_cost_v01.json 60_RESULTS/x3_explore_v01/a4_review/x3_a4_1_neutral_v01.json 60_RESULTS/x3_explore_v01/f_tradeoff/x3_f_tradeoff_v01.json 95_SUBMISSION/figs_v02",
+    "python -B 80_LOGS/c1_figs_v02/make_manifest_v01.py <W> \"<date>\""
+  ],
+  "scripts_sha256": {
+    "80_LOGS/c1_figs_v02/make_fig01_v01.py": "9839eadf9304395a5626820937d8cd55e8820d1db1605b9437dbc58d7b4d5a0f",
+    "80_LOGS/c1_figs_v02/make_fig04_v01.py": "8b9dcbb11d43fa4c930311e2f71398f028291faf367a110291fee74c0700b7ee",
+    "80_LOGS/c1_figs_v02/make_manifest_v01.py": "ed2ebcf0a9ca0e11250c01ab9a38d89bf283cf76f3d5b18d4004af7771e7e7de"
+  },
+  "run_logs_sha256": {
+    "80_LOGS/c1_figs_v02/fig01_run_v01.log": "fc5e4755596c835e34e0f23e7f4cf7e9c950a2cb31e9d3da985b72a7b77e093f",
+    "80_LOGS/c1_figs_v02/fig04_run_v01.log": "42de76e32cb6ef39316314cde23c0c1015735119caf21504eebe991b078e0ff1"
+  },
+  "inputs_read_by_scripts_sha256": {
+    "60_RESULTS/x3_explore_v01/a3_review/x3_a3_i_infeasible_cost_v01.json": "dc75309f3e155fece232af70feeb226823464179772bc9a56104beb6903bf62d",
+    "60_RESULTS/x3_explore_v01/a4_review/x3_a4_1_neutral_v01.json": "23422131be72480a99bcc7e636e7b789fdf3b7f362307fb17fd69eb8f34f1f92",
+    "60_RESULTS/x3_explore_v01/f_tradeoff/x3_f_tradeoff_v01.json": "c24e964a8ac953d01456e99a22c03e2dbfdbde63f3d83dca39c2805a0133b1b0"
+  },
+  "inputs_read_for_checking_sha256": {
+    "20_DESIGN/ms_v06_parts/04_method_v04.md": "bac3951f7d4a177aa51c9d6adada5487d975861dc47c6cfea63b7759c335f1cb",
+    "20_DESIGN/ms_v06_parts/05E_x3_v04.md": "f7e60057967a38aef7f2441f621632cf4575a95de45357532301823ecd61d333",
+    "60_RESULTS/x3_explore_v01/a3_review/x3_a3_i_infeasible_cost_v01.md": "c47468f469df2808292492d625dc25f5aa8c3bd69986f7365fdef002bdaaae45",
+    "60_RESULTS/x3_explore_v01/a4_review/x3_a4_1_neutral_v01.md": "5260619f4e6fbe5a93655d45b22db9c986146df038d60ac5a3e90f8aebad3ae2",
+    "60_RESULTS/x3_explore_v01/f_tradeoff/x3_f_tradeoff_v01.md": "4534155c654592aacae51f60252d32c6e480647eefddca3cb5eb9cbea6c1a780",
+    "60_RESULTS/x3_explore_v01/f_tradeoff/x3_f_infeasible_vs_V2_v01.png": "538e87ccaf5805539e2e54bc5fa4b473be85f79f6267212893ebcee1acc64995"
+  },
+  "outputs_sha256": {
+    "95_SUBMISSION/figs_v02/fig01_pipeline.pdf": "e61cde31fb0cd788e5b2f90a219abb49f168eaac1b6b21344b2c54ad006b2ac3",
+    "95_SUBMISSION/figs_v02/fig01_pipeline.png": "71a4e1779ef9e66a8d1bca8bc7a5c523ec1be10062cf4bafd5b082a73043f73b",
+    "95_SUBMISSION/figs_v02/fig04_tradeoff.pdf": "4175e6ab481f52eae526ccea2f1b85528b9761c6dfc6ed169bec2d90829c201e",
+    "95_SUBMISSION/figs_v02/fig04_tradeoff.png": "534cd5db0f491f0adacae31c4e62fc7dd16d553aab8f35b22a145e7a15bad738",
+    "95_SUBMISSION/figs_v02/fig04_points_v01.csv": "3d2a4ced122c8ff302ee86d5136e0d506d549cb145ff34e1d9ab1457d5a4c729",
+    "95_SUBMISSION/figs_v02/FIG_CAPTIONS_v01.md": "d95aad12bf7c27bafc5d35fe259fd5ecd78b051f86e9b6106e06553c3d9c84fb"
+  },
+  "style": {
+    "font": "Times New Roman (TrueType embedded, pdf.fonttype 42); math in STIX; 8 pt text, 9 pt panel and region titles",
+    "palette": "Okabe-Ito (M* vermillion #D55E00, B0 #0072B2, B1 #E69F00, B3 #56B4E9, B4 #009E73, B6 #CC79A7, B9 #F0E442, RETUNED black); identity also carried by marker shape and fill, checked on a greyscale conversion of the PNG. The palette validator script was not run (no Node.js runtime on this machine).",
+    "fig01_size_in": [
+      3.5,
+      3.45
+    ],
+    "fig04_size_in": [
+      7.16,
+      6.62
+    ]
+  },
+  "fig01": {
+    "source_checked": "04_method_v04.md Sections IV-A to IV-F (Algorithm 1, Proposition 5)",
+    "differences_from_brief_followed_part": [
+      "Brief: 'tracker 2 s predicted covariance V-hat'. Part: predicted mean and 2x2 covariance Sigma-hat_h at every check time h in {0.5, 1, 1.5, 2} s. Drawn as 'm-hat_h, Sigma-hat_h at each check time h' (no numbers), symbol Sigma-hat as in the part.",
+      "Brief: 'enforced and relied constraint items'. Part IV-A: fitting uses every separating axis of every enforced pair at the reference pose; the relied axis is used only for scoring. Drawn as 'constraints the planner enforces, at the logged reference ego pose' and 'each separating object axis'.",
+      "Strata as in the brief (group x range x axis x course-change state); the part adds that thresholds are fitted separately per check time and for in-path and other tracks; drawn.",
+      "'5-fold cross-fitting' drawn as 'cross-fitted over log folds' to keep the figure free of numbers; the caption keeps it general too.",
+      "Deployed covariance identical to the brief and Proposition 5: Sigma-tilde = A (Sigma-hat_h + sigma_a^2 I) A, A diagonal along the box axes; alpha = max(c-hat, eps)/z added from Algorithm 1 line 12."
+    ]
+  },
+  "fig04": {
+    "rows": {
+      "a": "V2",
+      "b": "V2_exec",
+      "c": "V2_viol"
+    },
+    "y": "infeasible_rate (log mean)",
+    "axis_ranges": {
+      "x_a": [
+        -0.02,
+        1.02
+      ],
+      "x_b": [
+        0.3,
+        1.01
+      ],
+      "x_c": [
+        -0.0012,
+        0.0612
+      ],
+      "y_all": [
+        -0.03,
+        1.03
+      ]
+    },
+    "plotted": {
+      "arms_of_record_filled": [
+        "Mstar",
+        "B0",
+        "B1",
+        "B3",
+        "B4",
+        "B6",
+        "B9",
+        "RETUNED"
+      ],
+      "b0_sweep_grey_line": "all 21 B0a*/B0d* keys of the a3 file, joined in order of descending V2",
+      "exploratory_hollow": [
+        "A_B6_composite",
+        "X3E1_B8"
+      ],
+      "neutral_screen_hollow_star": "Mstar@0.03 (families.Mstar.composite_endpoints of the a4 file), row (b) only",
+      "points_total": 188
+    },
+    "omitted": {
+      "per_brief": [
+        "Z0",
+        "X3G_* (learning curve)",
+        "X3D_Mstar_d1",
+        "X3D_Mstar_d2"
+      ],
+      "not_in_design_list": [
+        "A_B4_composite",
+        "A_B9_composite",
+        "X3E1_B5",
+        "X3E1_B7",
+        "X3E2_B0_qrefit",
+        "X3E2_B0_qrefit_ext",
+        "RETUNED_HK1 (identical to B0a8, drawn as a sweep point)"
+      ],
+      "neutral_matched_composites": "B4, B6, B9 and B0 families on the neutral screen carry only infeasible_rate and V2_exec (no V2, no V2_viol); not drawn, because the design list names only M*(0.03) from the neutral screen.",
+      "neutral_Mstar_rows_a_c": "V2 and V2_viol are absent from the a4 file for Mstar@0.03, so it appears in row (b) only."
+    },
+    "checks": [
+      "M* T1 infeasible 0.1864, V2 0.4909, V2_exec 0.5509, V2_viol 0.0161: PASS",
+      "M* T3 infeasible 0.2466, V2 0.4963, V2_exec 0.5805, V2_viol 0.0176: PASS",
+      "Mstar@0.03 chosen in every fold on both trackers; composite endpoints equal the in-sample curve point: PASS",
+      "a3 values vs the earlier trade-off record (x3_f_tradeoff_v01.json rows): 180 values, max |diff| 3.33e-16: PASS",
+      "Legends inside the page and clear of the column titles: PASS"
+    ],
+    "data_notes": [
+      "B0a1, B0d0.05 and B0 have identical values (the raw margin).",
+      "B0a2 and B0d0.01 agree to 1e-4 (T1 V2_exec 0.4609 vs 0.4608; T3 identical), consistent with alpha scaling the covariance (sqrt(2) x 1.645 = 2.326 = z_0.99).",
+      "B0d0.5 has the same values as Z0 (z = 0, zero margin); it is drawn as the end of the sweep and Z0 is not marked separately.",
+      "RETUNED_HK1 has the same values as B0a8 (chosen in every fold).",
+      "T1 carries X3G_n25_r1; T3 does not (51 vs 50 arm entries). Not plotted."
+    ],
+    "points_table": "95_SUBMISSION/figs_v02/fig04_points_v01.csv (one row per plotted point; source a3 = x3_a3_i_infeasible_cost_v01.json, a4 = x3_a4_1_neutral_v01.json)"
+  }
+}

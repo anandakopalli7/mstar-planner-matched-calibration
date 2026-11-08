@@ -1,0 +1,2423 @@
+{
+ "stamp": "X3 POST-REGISTRATION EXPLORATORY (after the verdict of record; not part of the registered test)",
+ "analysis": "X3 (h) AB3DMOT diagnosis, plan 2(h); referee M7",
+ "plan": {
+  "path": "20_DESIGN/X3_POSTREG_EXPLORATORY_PLAN_v01.md",
+  "sha256": "38e2526d9f43f202fe4c8fe345be03d21421d6c7ada585022abf34a649362dc6"
+ },
+ "inputs": {
+  "analysis_sha256": "1100bbf7e21047f1fce016e66464bdf4ab7fe7488bac9653e3db195b29a970a4",
+  "fits_sha256": {
+   "t1": "40f01c67b86da9204bc0765342a82c207338f853b8e3313e09c9f6ad28e83c6d",
+   "t3": "d6635e5783d02c14979ecae907cc5062cb364633ea7faf43dd7ec3135b7e30d9",
+   "tab": "076d95b57671115a3488b721bd4499d4c4e3f83cb3ecd9dfcee1026492667c03"
+  },
+  "cells_csv_sha256": {
+   "t1": "a7a3c73f73265d9fa0c4b7ad4e40e87e6c8402fa194112cb6cd39693cc46b953",
+   "t3": "68c36cf29293f62b548a8b9ff406bc3996b8c145df1dcedc3a4dc72cfd3744f8",
+   "tab": "01c895822784605f46ecf110648e17387674bea16e5c32a1c535a44b415e8402"
+  },
+  "cache_manifest_sha256": {
+   "t1": "1957fbe529233fb4145f9007262c42c21c9a9b8d8f4c4e995eb2b0cbfc7fa936",
+   "t3": "c7c56c9e8afd5df074cae8f4cb27496e4b49b933bb773a7d19fad31f8282ba50",
+   "tab": "f1a6fa19209d55e2b1d59b703cb9090f43ce24f48bb827b4483cacf3faf87101"
+  }
+ },
+ "code_sha256": {
+  "x3_stats_h_v01.py": "3758f225d3a5bf1eb1acd14195042901e8a41d6ae450a2fe3364df7957921599",
+  "x3_stats_common_v01.py": "def79e85212f39e5e2d16a8bfe9118114dc85baf9604bd373fe5d28bffb6bfbf"
+ },
+ "versions": {
+  "python": "3.10.22",
+  "numpy": "1.26.4",
+  "executable": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\50_CODE\\env\\canmot310\\Scripts\\python.exe"
+ },
+ "score_bins_P4": [
+  "<0.4",
+  "[0.4,0.5)",
+  "[0.5,0.7)",
+  "[0.7,0.85)",
+  ">=0.85"
+ ],
+ "trackers": {
+  "t1": {
+   "h1": {
+    "status": {
+     "valid": true,
+     "shown_above": false,
+     "floor_only": false
+    },
+    "pops": {
+     "PD7_primary": {
+      "NoFlag": true,
+      "FamFlag": false,
+      "NoFlag_pool": true,
+      "Floor": true,
+      "HK1c": true,
+      "valid": true,
+      "shown_above": false,
+      "flagged_cells": [],
+      "family_flagged": [],
+      "evaluable": 27,
+      "family_size": 19,
+      "pooled": {
+       "E": 0.043966572620651324,
+       "lb_0.95": 0.041068744689897255,
+       "ub_0.995": 0.048248944458227916,
+       "flagged": false
+      },
+      "cells_above_delta": [
+       {
+        "cell": "large|long|turning",
+        "E": 0.07100276398522012,
+        "lb_sim_0.95": -0.003588958106268872,
+        "ub_sim_0.95": 0.12679163195043472,
+        "evaluable": true,
+        "flag": false,
+        "records": 947.0,
+        "exceed": 44.0,
+        "E_record_pooled": 0.046462513199577615,
+        "logs": 81.0,
+        "fallback_share": 0.3368532206969377,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "two_wheeler|lat|turning",
+        "E": 0.06366459627329192,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 229.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 22.0,
+        "fallback_share": 0.851528384279476,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "car|lat|new",
+        "E": 0.06350266631025114,
+        "lb_sim_0.95": 0.03374888841390117,
+        "ub_sim_0.95": 0.08575620249339269,
+        "evaluable": true,
+        "flag": false,
+        "records": 4638.0,
+        "exceed": 327.0,
+        "E_record_pooled": 0.0705045278137128,
+        "logs": 290.0,
+        "fallback_share": 0.0019404915912031048,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "car|lat|static",
+        "E": 0.061532479741457265,
+        "lb_sim_0.95": 0.04187003361774401,
+        "ub_sim_0.95": 0.07623847633077782,
+        "evaluable": true,
+        "flag": false,
+        "records": 93791.0,
+        "exceed": 4422.0,
+        "E_record_pooled": 0.04714738087876236,
+        "logs": 371.0,
+        "fallback_share": 4.2648015267989464e-05,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|lat|turning",
+        "E": 0.05855062380683498,
+        "lb_sim_0.95": -0.021792359447314898,
+        "ub_sim_0.95": 0.11864099253702204,
+        "evaluable": true,
+        "flag": false,
+        "records": 379.0,
+        "exceed": 20.0,
+        "E_record_pooled": 0.052770448548812667,
+        "logs": 56.0,
+        "fallback_share": 0.14511873350923482,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|long|new",
+        "E": 0.0551701677251262,
+        "lb_sim_0.95": -0.011900744434799104,
+        "ub_sim_0.95": 0.10533404862074536,
+        "evaluable": true,
+        "flag": false,
+        "records": 441.0,
+        "exceed": 20.0,
+        "E_record_pooled": 0.045351473922902494,
+        "logs": 89.0,
+        "fallback_share": 0.25396825396825395,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "car|long|turning",
+        "E": 0.053587893508844936,
+        "lb_sim_0.95": 0.021045084235049277,
+        "ub_sim_0.95": 0.07792741053415438,
+        "evaluable": true,
+        "flag": false,
+        "records": 8131.0,
+        "exceed": 266.0,
+        "E_record_pooled": 0.032714303283728936,
+        "logs": 279.0,
+        "fallback_share": 0.0017218054359857337,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "two_wheeler|lat|static",
+        "E": 0.0532329988851728,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 330.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 23.0,
+        "fallback_share": 0.9545454545454546,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "pedestrian|lat|new",
+        "E": 0.053017027006242244,
+        "lb_sim_0.95": 0.016355480482222816,
+        "ub_sim_0.95": 0.08043704253987562,
+        "evaluable": true,
+        "flag": false,
+        "records": 1514.0,
+        "exceed": 112.0,
+        "E_record_pooled": 0.07397622192866579,
+        "logs": 152.0,
+        "fallback_share": 0.031704095112285335,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|lat|new",
+        "E": 0.05267295597484276,
+        "lb_sim_0.95": -0.0386518236011602,
+        "ub_sim_0.95": 0.12097686325652343,
+        "evaluable": true,
+        "flag": false,
+        "records": 206.0,
+        "exceed": 14.0,
+        "E_record_pooled": 0.06796116504854369,
+        "logs": 53.0,
+        "fallback_share": 0.2524271844660194,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|lat|static",
+        "E": 0.05123970285455901,
+        "lb_sim_0.95": 0.004654087166770106,
+        "ub_sim_0.95": 0.0860821584221699,
+        "evaluable": true,
+        "flag": false,
+        "records": 4442.0,
+        "exceed": 132.0,
+        "E_record_pooled": 0.029716343989194056,
+        "logs": 154.0,
+        "fallback_share": 0.00945520036019811,
+        "coarser_bound_only": false
+       }
+      ],
+      "records_in_cells_above_delta_share": 0.215104908702692,
+      "records": 534846.0
+     },
+     "SD1_7_gap_le_5m": {
+      "NoFlag": true,
+      "FamFlag": false,
+      "NoFlag_pool": true,
+      "Floor": true,
+      "HK1c": true,
+      "valid": true,
+      "shown_above": false,
+      "flagged_cells": [],
+      "family_flagged": [],
+      "evaluable": 16,
+      "family_size": 9,
+      "pooled": {
+       "E": 0.0376366655516585,
+       "lb_0.95": 0.03015178581260245,
+       "ub_0.995": 0.04725353717335544,
+       "flagged": false
+      },
+      "cells_above_delta": [
+       {
+        "cell": "two_wheeler|lat|static",
+        "E": 0.10809178743961352,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 153.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 12.0,
+        "fallback_share": 0.9673202614379085,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "pedestrian|long|new",
+        "E": 0.09523809523809523,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 44.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 21.0,
+        "fallback_share": 0.0,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "pedestrian|lat|new",
+        "E": 0.08974358974358974,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 87.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 24.0,
+        "fallback_share": 0.011494252873563218,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "two_wheeler|lat|new",
+        "E": 0.08928571428571429,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 23.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 8.0,
+        "fallback_share": 0.9130434782608695,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "two_wheeler|lat|turning",
+        "E": 0.08333333333333333,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 37.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 9.0,
+        "fallback_share": 0.8918918918918919,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "large|lat|turning",
+        "E": 0.08095238095238096,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 83.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 21.0,
+        "fallback_share": 0.060240963855421686,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "pedestrian|lat|straight",
+        "E": 0.07216859412268997,
+        "lb_sim_0.95": 0.006668877598685841,
+        "ub_sim_0.95": 0.11842091998935708,
+        "evaluable": true,
+        "flag": false,
+        "records": 2245.0,
+        "exceed": 73.0,
+        "E_record_pooled": 0.032516703786191536,
+        "logs": 117.0,
+        "fallback_share": 0.0,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "pedestrian|long|straight",
+        "E": 0.05168320379018381,
+        "lb_sim_0.95": -0.008098847147763578,
+        "ub_sim_0.95": 0.09389802620008394,
+        "evaluable": true,
+        "flag": false,
+        "records": 725.0,
+        "exceed": 32.0,
+        "E_record_pooled": 0.044137931034482755,
+        "logs": 89.0,
+        "fallback_share": 0.0,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "car|long|turning",
+        "E": 0.05098039215686275,
+        "lb_sim_0.95": -0.017941624867263493,
+        "ub_sim_0.95": 0.0996493599014729,
+        "evaluable": true,
+        "flag": false,
+        "records": 304.0,
+        "exceed": 8.0,
+        "E_record_pooled": 0.02631578947368421,
+        "logs": 85.0,
+        "fallback_share": 0.0,
+        "coarser_bound_only": false
+       }
+      ],
+      "records_in_cells_above_delta_share": 0.06463838482630944,
+      "records": 57257.0
+     },
+     "PD_inpath": {
+      "NoFlag": true,
+      "FamFlag": false,
+      "NoFlag_pool": true,
+      "Floor": true,
+      "HK1c": true,
+      "valid": true,
+      "shown_above": false,
+      "flagged_cells": [],
+      "family_flagged": [],
+      "evaluable": 8,
+      "family_size": 5,
+      "pooled": {
+       "E": 0.04040572614693565,
+       "lb_0.95": 0.029627890638079517,
+       "ub_0.995": 0.05459639540329428,
+       "flagged": false
+      },
+      "cells_above_delta": [
+       {
+        "cell": "large|lat|turning",
+        "E": 0.25,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 19.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 4.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "large|long|new",
+        "E": 0.11764705882352941,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 73.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 17.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "large|long|turning",
+        "E": 0.07783564814814815,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 187.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 16.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "car|lat|straight",
+        "E": 0.07317927170868346,
+        "lb_sim_0.95": -0.002448059458342297,
+        "ub_sim_0.95": 0.12850140056022408,
+        "evaluable": true,
+        "flag": false,
+        "records": 649.0,
+        "exceed": 31.0,
+        "E_record_pooled": 0.04776579352850539,
+        "logs": 85.0,
+        "fallback_share": 0.0,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "car|lat|new",
+        "E": 0.07142857142857142,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 118.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 28.0,
+        "fallback_share": 0.07627118644067797,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|lat|straight",
+        "E": 0.07142857142857142,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 35.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 14.0,
+        "fallback_share": 0.6285714285714286,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "pedestrian|lat|straight",
+        "E": 0.05555555555555555,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 229.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 27.0,
+        "fallback_share": 0.0611353711790393,
+        "coarser_bound_only": false
+       }
+      ],
+      "records_in_cells_above_delta_share": 0.06330949159095303,
+      "records": 20692.0
+     }
+    }
+   },
+   "h2": {
+    "entries": 20,
+    "strata_per_entry": 192,
+    "share_coarser_entries": 0.48411458333333335,
+    "share_by_level": {
+     "0": 0.5158854166666667,
+     "1": 0.20182291666666666,
+     "2": 0.15729166666666666,
+     "3": 0.125
+    },
+    "by_in_path": {
+     "not_in_path": 0.22239583333333332,
+     "in_path": 0.7458333333333333
+    },
+    "by_step": {
+     "h0p5s": 0.4708333333333333,
+     "h1s": 0.49270833333333336,
+     "h1p5s": 0.490625,
+     "h2s": 0.4822916666666667
+    },
+    "by_fold": {
+     "0": 0.4934895833333333,
+     "1": 0.48828125,
+     "2": 0.4778645833333333,
+     "3": 0.4778645833333333,
+     "4": 0.4830729166666667
+    },
+    "check_vs_record_by_l0_inpath_max_abs_diff": 0.0,
+    "record_weighted_A13_pooled": {
+     "PD7_primary": {
+      "records": 534846,
+      "fallback_records": 3548,
+      "share": 0.0066336852103222235
+     },
+     "SD1_7_gap_le_5m": {
+      "records": 57257,
+      "fallback_records": 442,
+      "share": 0.007719580138673
+     },
+     "PD_inpath": {
+      "records": 20692,
+      "fallback_records": 1543,
+      "share": 0.07456988208003093
+     },
+     "NIP_not_in_path": {
+      "records": 514154,
+      "fallback_records": 2005,
+      "share": 0.0038996098445212915
+     }
+    },
+    "record_weighted_coarser_bound_only_cells": {
+     "PD7_primary": [
+      "two_wheeler|lat|new",
+      "two_wheeler|lat|static",
+      "two_wheeler|lat|turning",
+      "two_wheeler|long|static",
+      "two_wheeler|long|turning"
+     ],
+     "SD1_7_gap_le_5m": [
+      "large|long|new",
+      "large|long|turning",
+      "two_wheeler|lat|new",
+      "two_wheeler|lat|static",
+      "two_wheeler|lat|turning",
+      "two_wheeler|long|new",
+      "two_wheeler|long|static",
+      "two_wheeler|long|turning"
+     ],
+     "PD_inpath": [
+      "large|lat|new",
+      "large|lat|static",
+      "large|lat|straight",
+      "large|lat|turning",
+      "large|long|new",
+      "large|long|static",
+      "large|long|straight",
+      "large|long|turning",
+      "pedestrian|lat|new",
+      "pedestrian|long|new",
+      "two_wheeler|lat|new",
+      "two_wheeler|lat|static",
+      "two_wheeler|lat|straight",
+      "two_wheeler|lat|turning",
+      "two_wheeler|long|new",
+      "two_wheeler|long|static",
+      "two_wheeler|long|straight",
+      "two_wheeler|long|turning"
+     ]
+    }
+   },
+   "h34": {
+    "join": {
+     "records": 538417,
+     "keyframe_mismatches": 0,
+     "instance_mismatches": 0,
+     "records_without_score": 0,
+     "relied_records": 537924
+    },
+    "relied_records_by_score": {
+     "records": 537924,
+     "share_by_bin": {
+      "<0.4": 0.0,
+      "[0.4,0.5)": 0.08040726942839509,
+      "[0.5,0.7)": 0.3656334352064604,
+      "[0.7,0.85)": 0.5189747994140437,
+      ">=0.85": 0.0349844959511009
+     },
+     "share_below_0.5": 0.08040726942839509,
+     "share_below_0.7": 0.44604070463485546
+    },
+    "all_records_by_score": {
+     "records": 538417,
+     "share_by_bin": {
+      "<0.4": 0.0,
+      "[0.4,0.5)": 0.08037821985561378,
+      "[0.5,0.7)": 0.3655920968320094,
+      "[0.7,0.85)": 0.5190475040721225,
+      ">=0.85": 0.0349821792402543
+     },
+     "share_below_0.5": 0.08037821985561378,
+     "share_below_0.7": 0.44597031668762316
+    },
+    "relied_in_path_by_score": {
+     "records": 21442,
+     "share_by_bin": {
+      "<0.4": 0.0,
+      "[0.4,0.5)": 0.03777632683518328,
+      "[0.5,0.7)": 0.2974535957466654,
+      "[0.7,0.85)": 0.6408450704225352,
+      ">=0.85": 0.02392500699561608
+     },
+     "share_below_0.5": 0.03777632683518328,
+     "share_below_0.7": 0.3352299225818487
+    },
+    "enforced_pairs": {
+     "decisions": 11288,
+     "pairs_enforced_all_tracks": 637896,
+     "pairs_enforced_no_gt_track": 77490,
+     "share_without_gt_match": 0.12147748222280748,
+     "per_decision_without_gt": 6.864812189936216,
+     "decisions_with_an_enforced_no_gt_track_share": 0.6426293408929837,
+     "share_without_gt_by_score_bin": {
+      "<0.4": null,
+      "[0.4,0.5)": 0.44797903319743737,
+      "[0.5,0.7)": 0.1397318278052223,
+      "[0.7,0.85)": 0.017943333595963264,
+      ">=0.85": 0.0069137599417788635
+     },
+     "enforced_by_score_bin": {
+      "gt_matched": {
+       "<0.4": 0.0,
+       "[0.4,0.5)": 47391.0,
+       "[0.5,0.7)": 207230.0,
+       "[0.7,0.85)": 286681.0,
+       ">=0.85": 19104.0
+      },
+      "no_gt_match": {
+       "<0.4": 0.0,
+       "[0.4,0.5)": 38459.0,
+       "[0.5,0.7)": 33660.0,
+       "[0.7,0.85)": 5238.0,
+       ">=0.85": 133.0
+      }
+     },
+     "direct_count_file": "x3_h_fpcount_t1_v01.json",
+     "direct_count_sha256": "ac0207a25308584ebf7d19c96efec754c01f25a95739c5670ab9056d8b32090f",
+     "validation_against_items_summary": {
+      "decisions": {
+       "x3": 11288,
+       "record": 11288,
+       "equal": true
+      },
+      "pairs_considered": {
+       "x3": 561124,
+       "record": 561124,
+       "equal": true
+      },
+      "pairs_enforced": {
+       "x3": 560406,
+       "record": 560406,
+       "equal": true
+      },
+      "pairs_with_gt": {
+       "x3": 538417,
+       "record": 538417,
+       "equal": true
+      }
+     }
+    },
+    "items_summary_gt_matched_pairs": {
+     "pairs_enforced": 560406,
+     "pairs_with_gt": 538417,
+     "share_without_usable_annotation": 0.03923762415106191,
+     "note": "GT-matched tracks only (the items skip unmatched tracks): the complement is a GT-matched track without an annotation (>= 1 point, not in a rack) at k + h"
+    },
+    "cache_track_rows": {
+     "rows_by_score_bin": {
+      "<0.4": 0.0,
+      "[0.4,0.5)": 44490.0,
+      "[0.5,0.7)": 126825.0,
+      "[0.7,0.85)": 149237.0,
+      ">=0.85": 9237.0
+     },
+     "share_by_score_bin": {
+      "<0.4": 0.0,
+      "[0.4,0.5)": 0.13490443889881107,
+      "[0.5,0.7)": 0.384564069753691,
+      "[0.7,0.85)": 0.45252267358826403,
+      ">=0.85": 0.028008817759233934
+     },
+     "share_without_gt_by_bin": {
+      "<0.4": null,
+      "[0.4,0.5)": 0.47394920206788044,
+      "[0.5,0.7)": 0.1646441947565543,
+      "[0.7,0.85)": 0.03745719895200252,
+      ">=0.85": 0.01277471040381076
+     },
+     "share_without_gt_all": 0.1445621291189215,
+     "share_of_no_gt_rows_below_0.5": 0.4422863135815417
+    },
+    "items_summary_sha256": "53f194302737f9066e74ba120ad4bb94239ee811a497c157afa2a7af9d02cb4e",
+    "items_sha256": "c9345ba95635a3835b17d825384b6621607d58bfc536bb87f4f1004960073104"
+   }
+  },
+  "t3": {
+   "h1": {
+    "status": {
+     "valid": true,
+     "shown_above": false,
+     "floor_only": false
+    },
+    "pops": {
+     "PD7_primary": {
+      "NoFlag": true,
+      "FamFlag": false,
+      "NoFlag_pool": true,
+      "Floor": true,
+      "HK1c": true,
+      "valid": true,
+      "shown_above": false,
+      "flagged_cells": [],
+      "family_flagged": [],
+      "evaluable": 27,
+      "family_size": 19,
+      "pooled": {
+       "E": 0.04295600831997782,
+       "lb_0.95": 0.040197003626934166,
+       "ub_0.995": 0.047100102412368255,
+       "flagged": false
+      },
+      "cells_above_delta": [
+       {
+        "cell": "two_wheeler|lat|turning",
+        "E": 0.07897374847374847,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 261.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 25.0,
+        "fallback_share": 0.9118773946360154,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "two_wheeler|lat|new",
+        "E": 0.06810344827586207,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 157.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 29.0,
+        "fallback_share": 0.5732484076433121,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "car|lat|straight",
+        "E": 0.06258662249631419,
+        "lb_sim_0.95": 0.0347314657150537,
+        "ub_sim_0.95": 0.08314849866806041,
+        "evaluable": true,
+        "flag": false,
+        "records": 15761.0,
+        "exceed": 687.0,
+        "E_record_pooled": 0.04358860478396041,
+        "logs": 319.0,
+        "fallback_share": 0.0,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "car|lat|new",
+        "E": 0.06255890528486956,
+        "lb_sim_0.95": 0.03530197295722265,
+        "ub_sim_0.95": 0.0826791893580788,
+        "evaluable": true,
+        "flag": false,
+        "records": 5856.0,
+        "exceed": 323.0,
+        "E_record_pooled": 0.05515710382513661,
+        "logs": 302.0,
+        "fallback_share": 0.0010245901639344263,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|long|turning",
+        "E": 0.06251027453559098,
+        "lb_sim_0.95": -0.01792206023448005,
+        "ub_sim_0.95": 0.12188311241741745,
+        "evaluable": true,
+        "flag": false,
+        "records": 754.0,
+        "exceed": 30.0,
+        "E_record_pooled": 0.03978779840848806,
+        "logs": 79.0,
+        "fallback_share": 0.3183023872679045,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "car|lat|turning",
+        "E": 0.06005581370520401,
+        "lb_sim_0.95": 0.023085379727461455,
+        "ub_sim_0.95": 0.08734632552804439,
+        "evaluable": true,
+        "flag": false,
+        "records": 4567.0,
+        "exceed": 221.0,
+        "E_record_pooled": 0.04839062842128312,
+        "logs": 244.0,
+        "fallback_share": 0.0,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "pedestrian|lat|new",
+        "E": 0.058525663390051524,
+        "lb_sim_0.95": 0.018440044445280745,
+        "ub_sim_0.95": 0.08811571522435618,
+        "evaluable": true,
+        "flag": false,
+        "records": 1842.0,
+        "exceed": 123.0,
+        "E_record_pooled": 0.06677524429967427,
+        "logs": 186.0,
+        "fallback_share": 0.02225841476655809,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "car|lat|static",
+        "E": 0.05744156345450079,
+        "lb_sim_0.95": 0.04112652652815957,
+        "ub_sim_0.95": 0.06948485481527966,
+        "evaluable": true,
+        "flag": false,
+        "records": 92164.0,
+        "exceed": 4426.0,
+        "E_record_pooled": 0.04802308927563908,
+        "logs": 370.0,
+        "fallback_share": 6.51013410876264e-05,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|long|static",
+        "E": 0.05604515522323795,
+        "lb_sim_0.95": 0.016041459989135684,
+        "ub_sim_0.95": 0.08557473332883507,
+        "evaluable": true,
+        "flag": false,
+        "records": 5493.0,
+        "exceed": 224.0,
+        "E_record_pooled": 0.04077917349353723,
+        "logs": 184.0,
+        "fallback_share": 0.039686874203531765,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "car|long|new",
+        "E": 0.05575532009133511,
+        "lb_sim_0.95": 0.03515660881654954,
+        "ub_sim_0.95": 0.07096069674226227,
+        "evaluable": true,
+        "flag": false,
+        "records": 7880.0,
+        "exceed": 515.0,
+        "E_record_pooled": 0.06535532994923858,
+        "logs": 339.0,
+        "fallback_share": 0.0038071065989847717,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|lat|straight",
+        "E": 0.053605966288142314,
+        "lb_sim_0.95": -0.008505443752264578,
+        "ub_sim_0.95": 0.09945482408249465,
+        "evaluable": true,
+        "flag": false,
+        "records": 1311.0,
+        "exceed": 71.0,
+        "E_record_pooled": 0.05415713196033562,
+        "logs": 99.0,
+        "fallback_share": 0.02364607170099161,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|long|straight",
+        "E": 0.05255757351152145,
+        "lb_sim_0.95": 0.011324759730659328,
+        "ub_sim_0.95": 0.08299445160316193,
+        "evaluable": true,
+        "flag": false,
+        "records": 2471.0,
+        "exceed": 114.0,
+        "E_record_pooled": 0.04613516794819911,
+        "logs": 127.0,
+        "fallback_share": 0.15702144880615135,
+        "coarser_bound_only": false
+       }
+      ],
+      "records_in_cells_above_delta_share": 0.25972051127723683,
+      "records": 533331.0
+     },
+     "SD1_7_gap_le_5m": {
+      "NoFlag": true,
+      "FamFlag": false,
+      "NoFlag_pool": true,
+      "Floor": true,
+      "HK1c": true,
+      "valid": true,
+      "shown_above": false,
+      "flagged_cells": [],
+      "family_flagged": [],
+      "evaluable": 16,
+      "family_size": 8,
+      "pooled": {
+       "E": 0.03239819091422257,
+       "lb_0.95": 0.025526115074112735,
+       "ub_0.995": 0.041157314596901313,
+       "flagged": false
+      },
+      "cells_above_delta": [
+       {
+        "cell": "large|long|new",
+        "E": 0.25,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 3.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 2.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "large|lat|turning",
+        "E": 0.11481900452488687,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 59.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 17.0,
+        "fallback_share": 0.22033898305084745,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "pedestrian|long|new",
+        "E": 0.10909090909090909,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 21.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 11.0,
+        "fallback_share": 0.09523809523809523,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "pedestrian|lat|new",
+        "E": 0.07924731182795698,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 125.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 31.0,
+        "fallback_share": 0.008,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "two_wheeler|lat|straight",
+        "E": 0.07575757575757575,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 141.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 22.0,
+        "fallback_share": 0.09929078014184398,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "two_wheeler|lat|new",
+        "E": 0.07142857142857142,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 17.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 7.0,
+        "fallback_share": 0.7647058823529411,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "pedestrian|lat|turning",
+        "E": 0.0630399922789186,
+        "lb_sim_0.95": 0.0076168670414872505,
+        "ub_sim_0.95": 0.10092591651981656,
+        "evaluable": true,
+        "flag": false,
+        "records": 1395.0,
+        "exceed": 90.0,
+        "E_record_pooled": 0.06451612903225806,
+        "logs": 111.0,
+        "fallback_share": 0.013620071684587814,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "two_wheeler|lat|turning",
+        "E": 0.05371900826446281,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 66.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 11.0,
+        "fallback_share": 0.9696969696969697,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "large|lat|straight",
+        "E": 0.052024638598712675,
+        "lb_sim_0.95": -0.03218959487271485,
+        "ub_sim_0.95": 0.10959147655012058,
+        "evaluable": true,
+        "flag": false,
+        "records": 497.0,
+        "exceed": 19.0,
+        "E_record_pooled": 0.03822937625754527,
+        "logs": 54.0,
+        "fallback_share": 0.030181086519114688,
+        "coarser_bound_only": false
+       }
+      ],
+      "records_in_cells_above_delta_share": 0.040443415763186746,
+      "records": 57463.0
+     },
+     "PD_inpath": {
+      "NoFlag": true,
+      "FamFlag": false,
+      "NoFlag_pool": true,
+      "Floor": true,
+      "HK1c": true,
+      "valid": true,
+      "shown_above": false,
+      "flagged_cells": [],
+      "family_flagged": [],
+      "evaluable": 8,
+      "family_size": 5,
+      "pooled": {
+       "E": 0.040455847744691874,
+       "lb_0.95": 0.03219285814246208,
+       "ub_0.995": 0.05209951133667985,
+       "flagged": false
+      },
+      "cells_above_delta": [
+       {
+        "cell": "two_wheeler|lat|turning",
+        "E": 0.37857142857142856,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 27.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 5.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "two_wheeler|lat|new",
+        "E": 0.25,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 14.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 3.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "pedestrian|lat|new",
+        "E": 0.22999999999999998,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 41.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 5.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "two_wheeler|lat|straight",
+        "E": 0.125,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 47.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 8.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "car|lat|straight",
+        "E": 0.0994937055281883,
+        "lb_sim_0.95": 0.023052274557674085,
+        "ub_sim_0.95": 0.1568567112896337,
+        "evaluable": true,
+        "flag": false,
+        "records": 540.0,
+        "exceed": 53.0,
+        "E_record_pooled": 0.09814814814814815,
+        "logs": 87.0,
+        "fallback_share": 0.0,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|long|new",
+        "E": 0.078125,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 55.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 16.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "large|long|turning",
+        "E": 0.07692307692307693,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 114.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 13.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "car|lat|new",
+        "E": 0.06809352263897718,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 99.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 33.0,
+        "fallback_share": 0.06060606060606061,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "car|lat|turning",
+        "E": 0.06755270092226615,
+        "lb_sim_0.95": -0.011012787509702845,
+        "ub_sim_0.95": 0.1265096370805152,
+        "evaluable": true,
+        "flag": false,
+        "records": 583.0,
+        "exceed": 21.0,
+        "E_record_pooled": 0.036020583190394515,
+        "logs": 66.0,
+        "fallback_share": 0.0,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "pedestrian|long|turning",
+        "E": 0.0625,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 108.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 16.0,
+        "fallback_share": 0.8888888888888888,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "large|lat|turning",
+        "E": 0.06060606060606061,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 31.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 6.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "pedestrian|lat|static",
+        "E": 0.05161290322580645,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 222.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 31.0,
+        "fallback_share": 0.17567567567567569,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "pedestrian|long|straight",
+        "E": 0.051369598765432095,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 212.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 24.0,
+        "fallback_share": 0.18867924528301888,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "car|lat|static",
+        "E": 0.050856697819314636,
+        "lb_sim_0.95": -0.002698943884793928,
+        "ub_sim_0.95": 0.09104580135422481,
+        "evaluable": true,
+        "flag": false,
+        "records": 1012.0,
+        "exceed": 25.0,
+        "E_record_pooled": 0.024703557312252964,
+        "logs": 107.0,
+        "fallback_share": 0.005928853754940711,
+        "coarser_bound_only": false
+       }
+      ],
+      "records_in_cells_above_delta_share": 0.15718335526981878,
+      "records": 19754.0
+     }
+    }
+   },
+   "h2": {
+    "entries": 20,
+    "strata_per_entry": 192,
+    "share_coarser_entries": 0.4828125,
+    "share_by_level": {
+     "0": 0.5171875,
+     "1": 0.20677083333333332,
+     "2": 0.15104166666666666,
+     "3": 0.125
+    },
+    "by_in_path": {
+     "not_in_path": 0.221875,
+     "in_path": 0.74375
+    },
+    "by_step": {
+     "h0p5s": 0.46041666666666664,
+     "h1s": 0.49375,
+     "h1p5s": 0.496875,
+     "h2s": 0.48020833333333335
+    },
+    "by_fold": {
+     "0": 0.4908854166666667,
+     "1": 0.4895833333333333,
+     "2": 0.4765625,
+     "3": 0.4739583333333333,
+     "4": 0.4830729166666667
+    },
+    "check_vs_record_by_l0_inpath_max_abs_diff": 0.0,
+    "record_weighted_A13_pooled": {
+     "PD7_primary": {
+      "records": 533331,
+      "fallback_records": 3441,
+      "share": 0.006451903227076618
+     },
+     "SD1_7_gap_le_5m": {
+      "records": 57463,
+      "fallback_records": 530,
+      "share": 0.009223326314324
+     },
+     "PD_inpath": {
+      "records": 19754,
+      "fallback_records": 1497,
+      "share": 0.07578212007694644
+     },
+     "NIP_not_in_path": {
+      "records": 513577,
+      "fallback_records": 1944,
+      "share": 0.0037852162382661218
+     }
+    },
+    "record_weighted_coarser_bound_only_cells": {
+     "PD7_primary": [
+      "two_wheeler|lat|new",
+      "two_wheeler|lat|static",
+      "two_wheeler|lat|turning",
+      "two_wheeler|long|static",
+      "two_wheeler|long|turning"
+     ],
+     "SD1_7_gap_le_5m": [
+      "large|long|new",
+      "large|long|turning",
+      "two_wheeler|lat|new",
+      "two_wheeler|lat|static",
+      "two_wheeler|lat|turning",
+      "two_wheeler|long|new",
+      "two_wheeler|long|static",
+      "two_wheeler|long|turning"
+     ],
+     "PD_inpath": [
+      "large|lat|new",
+      "large|lat|static",
+      "large|lat|straight",
+      "large|lat|turning",
+      "large|long|new",
+      "large|long|static",
+      "large|long|turning",
+      "pedestrian|lat|new",
+      "pedestrian|long|new",
+      "pedestrian|long|turning",
+      "two_wheeler|lat|new",
+      "two_wheeler|lat|static",
+      "two_wheeler|lat|straight",
+      "two_wheeler|lat|turning",
+      "two_wheeler|long|new",
+      "two_wheeler|long|static",
+      "two_wheeler|long|straight",
+      "two_wheeler|long|turning"
+     ]
+    }
+   },
+   "h34": {
+    "join": {
+     "records": 538152,
+     "keyframe_mismatches": 0,
+     "instance_mismatches": 0,
+     "records_without_score": 0,
+     "relied_records": 537754
+    },
+    "relied_records_by_score": {
+     "records": 537754,
+     "share_by_bin": {
+      "<0.4": 0.0,
+      "[0.4,0.5)": 0.0802504490901044,
+      "[0.5,0.7)": 0.3659163855591962,
+      "[0.7,0.85)": 0.5189473253569477,
+      ">=0.85": 0.03488583999375179
+     },
+     "share_below_0.5": 0.0802504490901044,
+     "share_below_0.7": 0.4461668346493006
+    },
+    "all_records_by_score": {
+     "records": 538152,
+     "share_by_bin": {
+      "<0.4": 0.0,
+      "[0.4,0.5)": 0.08023941191336277,
+      "[0.5,0.7)": 0.3658854747357624,
+      "[0.7,0.85)": 0.518998349908576,
+      ">=0.85": 0.03487676344229883
+     },
+     "share_below_0.5": 0.08023941191336277,
+     "share_below_0.7": 0.44612488664912514
+    },
+    "relied_in_path_by_score": {
+     "records": 20645,
+     "share_by_bin": {
+      "<0.4": 0.0,
+      "[0.4,0.5)": 0.03836279970937273,
+      "[0.5,0.7)": 0.30070234923710343,
+      "[0.7,0.85)": 0.6376362315330588,
+      ">=0.85": 0.023298619520465004
+     },
+     "share_below_0.5": 0.03836279970937273,
+     "share_below_0.7": 0.33906514894647616
+    },
+    "enforced_pairs": {
+     "decisions": 11288,
+     "pairs_enforced_all_tracks": 638036,
+     "pairs_enforced_no_gt_track": 77839,
+     "share_without_gt_match": 0.12199781830492323,
+     "per_decision_without_gt": 6.895729978738483,
+     "decisions_with_an_enforced_no_gt_track_share": 0.6473245924875974,
+     "share_without_gt_by_score_bin": {
+      "<0.4": null,
+      "[0.4,0.5)": 0.4484056687333924,
+      "[0.5,0.7)": 0.13970994045272528,
+      "[0.7,0.85)": 0.01885913693849805,
+      ">=0.85": 0.009823284823284824
+     },
+     "enforced_by_score_bin": {
+      "gt_matched": {
+       "<0.4": 0.0,
+       "[0.4,0.5)": 47329.0,
+       "[0.5,0.7)": 207317.0,
+       "[0.7,0.85)": 286500.0,
+       ">=0.85": 19051.0
+      },
+      "no_gt_match": {
+       "<0.4": 0.0,
+       "[0.4,0.5)": 38475.0,
+       "[0.5,0.7)": 33668.0,
+       "[0.7,0.85)": 5507.0,
+       ">=0.85": 189.0
+      }
+     },
+     "direct_count_file": "x3_h_fpcount_t3_v01.json",
+     "direct_count_sha256": "10a5ec8fbf4f0a74c3ee119363cc4311572c7aa5895fc3e7efe2d2246d5039b2",
+     "validation_against_items_summary": {
+      "decisions": {
+       "x3": 11288,
+       "record": 11288,
+       "equal": true
+      },
+      "pairs_considered": {
+       "x3": 560751,
+       "record": 560751,
+       "equal": true
+      },
+      "pairs_enforced": {
+       "x3": 560197,
+       "record": 560197,
+       "equal": true
+      },
+      "pairs_with_gt": {
+       "x3": 538152,
+       "record": 538152,
+       "equal": true
+      }
+     }
+    },
+    "items_summary_gt_matched_pairs": {
+     "pairs_enforced": 560197,
+     "pairs_with_gt": 538152,
+     "share_without_usable_annotation": 0.03935222787697901,
+     "note": "GT-matched tracks only (the items skip unmatched tracks): the complement is a GT-matched track without an annotation (>= 1 point, not in a rack) at k + h"
+    },
+    "cache_track_rows": {
+     "rows_by_score_bin": {
+      "<0.4": 0.0,
+      "[0.4,0.5)": 44490.0,
+      "[0.5,0.7)": 126825.0,
+      "[0.7,0.85)": 149237.0,
+      ">=0.85": 9237.0
+     },
+     "share_by_score_bin": {
+      "<0.4": 0.0,
+      "[0.4,0.5)": 0.13490443889881107,
+      "[0.5,0.7)": 0.384564069753691,
+      "[0.7,0.85)": 0.45252267358826403,
+      ">=0.85": 0.028008817759233934
+     },
+     "share_without_gt_by_bin": {
+      "<0.4": null,
+      "[0.4,0.5)": 0.4743088334457181,
+      "[0.5,0.7)": 0.16447072738024837,
+      "[0.7,0.85)": 0.03806026655588091,
+      ">=0.85": 0.014506874526361372
+     },
+     "share_without_gt_all": 0.1448653533016565,
+     "share_of_no_gt_rows_below_0.5": 0.4416954474097331
+    },
+    "items_summary_sha256": "dd6c79ae5c4dddada80af8a8c6dff7bda6417bb250fb9dab836c904da5406abe",
+    "items_sha256": "3a01032035b77b9818ffea75b634b66666ec00a8043c872afbdc64b9da6bcb3e"
+   }
+  },
+  "tab": {
+   "h1": {
+    "status": {
+     "valid": false,
+     "shown_above": true,
+     "floor_only": false
+    },
+    "pops": {
+     "PD7_primary": {
+      "NoFlag": true,
+      "FamFlag": false,
+      "NoFlag_pool": false,
+      "Floor": true,
+      "HK1c": true,
+      "valid": false,
+      "shown_above": true,
+      "flagged_cells": [],
+      "family_flagged": [],
+      "evaluable": 24,
+      "family_size": 18,
+      "pooled": {
+       "E": 0.060949114441258945,
+       "lb_0.95": 0.05698544614721476,
+       "ub_0.995": 0.06656907205856058,
+       "flagged": true
+      },
+      "cells_above_delta": [
+       {
+        "cell": "two_wheeler|lat|straight",
+        "E": 0.3066798941798942,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 136.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 9.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "two_wheeler|long|turning",
+        "E": 0.24523809523809526,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 79.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 14.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "two_wheeler|lat|turning",
+        "E": 0.23206567142493917,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 104.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 9.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "two_wheeler|long|straight",
+        "E": 0.20065789473684212,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 143.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 12.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "two_wheeler|lat|static",
+        "E": 0.11338192725948797,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 607.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 27.0,
+        "fallback_share": 0.09555189456342669,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|lat|turning",
+        "E": 0.0765625,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 150.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 32.0,
+        "fallback_share": 0.5333333333333333,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "large|lat|static",
+        "E": 0.07548184586799885,
+        "lb_sim_0.95": 0.015013033216797693,
+        "ub_sim_0.95": 0.1222337023953841,
+        "evaluable": true,
+        "flag": false,
+        "records": 3170.0,
+        "exceed": 167.0,
+        "E_record_pooled": 0.0526813880126183,
+        "logs": 111.0,
+        "fallback_share": 0.012933753943217666,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|long|turning",
+        "E": 0.07015356324243295,
+        "lb_sim_0.95": -0.012554949198526566,
+        "ub_sim_0.95": 0.13410018858031922,
+        "evaluable": true,
+        "flag": false,
+        "records": 542.0,
+        "exceed": 51.0,
+        "E_record_pooled": 0.0940959409594096,
+        "logs": 61.0,
+        "fallback_share": 0.42435424354243545,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "car|long|new",
+        "E": 0.06620963118760603,
+        "lb_sim_0.95": 0.03200798651869284,
+        "ub_sim_0.95": 0.09265285562769893,
+        "evaluable": true,
+        "flag": false,
+        "records": 4242.0,
+        "exceed": 355.0,
+        "E_record_pooled": 0.08368694012258368,
+        "logs": 322.0,
+        "fallback_share": 0.004714757190004715,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|long|static",
+        "E": 0.059824684194075724,
+        "lb_sim_0.95": 0.014170682947548557,
+        "ub_sim_0.95": 0.09512237274785135,
+        "evaluable": true,
+        "flag": false,
+        "records": 4071.0,
+        "exceed": 257.0,
+        "E_record_pooled": 0.06312945222304102,
+        "logs": 156.0,
+        "fallback_share": 0.046917219356423484,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "pedestrian|long|static",
+        "E": 0.05958187641018092,
+        "lb_sim_0.95": 0.04380403116996358,
+        "ub_sim_0.95": 0.07178062026904974,
+        "evaluable": true,
+        "flag": false,
+        "records": 61104.0,
+        "exceed": 6021.0,
+        "E_record_pooled": 0.0985369206598586,
+        "logs": 322.0,
+        "fallback_share": 0.0005564283843938204,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "pedestrian|lat|static",
+        "E": 0.0590456505398061,
+        "lb_sim_0.95": 0.0439125525956071,
+        "ub_sim_0.95": 0.07074590382546421,
+        "evaluable": true,
+        "flag": false,
+        "records": 50615.0,
+        "exceed": 4683.0,
+        "E_record_pooled": 0.09252197965030129,
+        "logs": 305.0,
+        "fallback_share": 0.0009285784846389411,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "car|long|static",
+        "E": 0.05726656975059111,
+        "lb_sim_0.95": 0.04522455063825427,
+        "ub_sim_0.95": 0.06657693529534636,
+        "evaluable": true,
+        "flag": false,
+        "records": 187026.0,
+        "exceed": 10216.0,
+        "E_record_pooled": 0.05462342134248714,
+        "logs": 373.0,
+        "fallback_share": 0.0,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|long|straight",
+        "E": 0.054127239152078566,
+        "lb_sim_0.95": 0.004481389435227155,
+        "ub_sim_0.95": 0.09251125136231769,
+        "evaluable": true,
+        "flag": false,
+        "records": 1258.0,
+        "exceed": 121.0,
+        "E_record_pooled": 0.09618441971383147,
+        "logs": 84.0,
+        "fallback_share": 0.3163751987281399,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "car|lat|static",
+        "E": 0.05328999062781936,
+        "lb_sim_0.95": 0.041176477428470415,
+        "ub_sim_0.95": 0.06265563229181688,
+        "evaluable": true,
+        "flag": false,
+        "records": 97215.0,
+        "exceed": 5386.0,
+        "E_record_pooled": 0.05540297279226457,
+        "logs": 367.0,
+        "fallback_share": 1.0286478424111506e-05,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "pedestrian|lat|turning",
+        "E": 0.0529192765905392,
+        "lb_sim_0.95": 0.024230327431467264,
+        "ub_sim_0.95": 0.07510032457544186,
+        "evaluable": true,
+        "flag": false,
+        "records": 8835.0,
+        "exceed": 708.0,
+        "E_record_pooled": 0.08013582342954159,
+        "logs": 229.0,
+        "fallback_share": 0.0014714204867006225,
+        "coarser_bound_only": false
+       }
+      ],
+      "records_in_cells_above_delta_share": 0.7999530670492528,
+      "records": 524152.0
+     },
+     "SD1_7_gap_le_5m": {
+      "NoFlag": true,
+      "FamFlag": false,
+      "NoFlag_pool": true,
+      "Floor": true,
+      "HK1c": true,
+      "valid": true,
+      "shown_above": false,
+      "flagged_cells": [],
+      "family_flagged": [],
+      "evaluable": 15,
+      "family_size": 6,
+      "pooled": {
+       "E": 0.05924099150434746,
+       "lb_0.95": 0.04976159631877191,
+       "ub_0.995": 0.07196437700483721,
+       "flagged": false
+      },
+      "cells_above_delta": [
+       {
+        "cell": "large|long|new",
+        "E": 0.4,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 14.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 5.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "two_wheeler|lat|straight",
+        "E": 0.3333333333333333,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 26.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 3.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "two_wheeler|lat|static",
+        "E": 0.20102313457152166,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 223.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 11.0,
+        "fallback_share": 0.09417040358744394,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|long|straight",
+        "E": 0.16842105263157894,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 64.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 19.0,
+        "fallback_share": 0.453125,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "two_wheeler|long|static",
+        "E": 0.15476190476190474,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 33.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 7.0,
+        "fallback_share": 0.0,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|long|turning",
+        "E": 0.14285714285714285,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 22.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 7.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "large|lat|turning",
+        "E": 0.13333333333333333,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 61.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 15.0,
+        "fallback_share": 0.819672131147541,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "two_wheeler|long|turning",
+        "E": 0.125,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 6.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 4.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "two_wheeler|lat|turning",
+        "E": 0.125,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 33.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 4.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "pedestrian|long|new",
+        "E": 0.08333333333333333,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 49.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 22.0,
+        "fallback_share": 0.04081632653061224,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "car|lat|new",
+        "E": 0.07785638029540469,
+        "lb_sim_0.95": 0.013431334369500239,
+        "ub_sim_0.95": 0.12636842324446823,
+        "evaluable": true,
+        "flag": false,
+        "records": 570.0,
+        "exceed": 67.0,
+        "E_record_pooled": 0.11754385964912281,
+        "logs": 123.0,
+        "fallback_share": 0.0,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|long|static",
+        "E": 0.06694271911663216,
+        "lb_sim_0.95": -0.02271899914287949,
+        "ub_sim_0.95": 0.13445796981734326,
+        "evaluable": true,
+        "flag": false,
+        "records": 408.0,
+        "exceed": 55.0,
+        "E_record_pooled": 0.13480392156862744,
+        "logs": 46.0,
+        "fallback_share": 0.08088235294117647,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|lat|static",
+        "E": 0.06636861994511634,
+        "lb_sim_0.95": -0.014880497301071896,
+        "ub_sim_0.95": 0.1275491842547451,
+        "evaluable": true,
+        "flag": false,
+        "records": 1200.0,
+        "exceed": 50.0,
+        "E_record_pooled": 0.041666666666666664,
+        "logs": 54.0,
+        "fallback_share": 0.02,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "car|long|static",
+        "E": 0.06635926170168481,
+        "lb_sim_0.95": 0.034489571545641445,
+        "ub_sim_0.95": 0.09035713016112618,
+        "evaluable": true,
+        "flag": false,
+        "records": 11059.0,
+        "exceed": 442.0,
+        "E_record_pooled": 0.03996744732796817,
+        "logs": 290.0,
+        "fallback_share": 0.0,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "car|long|turning",
+        "E": 0.061556603773584906,
+        "lb_sim_0.95": 0.004323118928024179,
+        "ub_sim_0.95": 0.10465340308585394,
+        "evaluable": true,
+        "flag": false,
+        "records": 398.0,
+        "exceed": 18.0,
+        "E_record_pooled": 0.04522613065326633,
+        "logs": 106.0,
+        "fallback_share": 0.0,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "car|lat|static",
+        "E": 0.05904021924265465,
+        "lb_sim_0.95": 0.036247360460242545,
+        "ub_sim_0.95": 0.07620323602119168,
+        "evaluable": true,
+        "flag": false,
+        "records": 30807.0,
+        "exceed": 1510.0,
+        "E_record_pooled": 0.04901483429090791,
+        "logs": 301.0,
+        "fallback_share": 0.0,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "pedestrian|long|static",
+        "E": 0.055632472351322654,
+        "lb_sim_0.95": 0.023368623329597757,
+        "ub_sim_0.95": 0.07992714233485898,
+        "evaluable": true,
+        "flag": false,
+        "records": 3610.0,
+        "exceed": 348.0,
+        "E_record_pooled": 0.096398891966759,
+        "logs": 165.0,
+        "fallback_share": 0.0,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "pedestrian|lat|straight",
+        "E": 0.052969229015954855,
+        "lb_sim_0.95": 0.0023160443075103537,
+        "ub_sim_0.95": 0.09111106402386543,
+        "evaluable": true,
+        "flag": false,
+        "records": 1750.0,
+        "exceed": 61.0,
+        "E_record_pooled": 0.03485714285714286,
+        "logs": 101.0,
+        "fallback_share": 0.021714285714285714,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "pedestrian|lat|turning",
+        "E": 0.0518834034163006,
+        "lb_sim_0.95": 0.01683986113990426,
+        "ub_sim_0.95": 0.07827118170294832,
+        "evaluable": true,
+        "flag": false,
+        "records": 1457.0,
+        "exceed": 99.0,
+        "E_record_pooled": 0.06794783802333562,
+        "logs": 103.0,
+        "fallback_share": 0.0,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "pedestrian|long|straight",
+        "E": 0.05149398848099259,
+        "lb_sim_0.95": 0.0003916634426864643,
+        "ub_sim_0.95": 0.08997402604133072,
+        "evaluable": true,
+        "flag": false,
+        "records": 682.0,
+        "exceed": 38.0,
+        "E_record_pooled": 0.05571847507331378,
+        "logs": 86.0,
+        "fallback_share": 0.011730205278592375,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "car|long|straight",
+        "E": 0.05040534732411483,
+        "lb_sim_0.95": 0.005808288154870701,
+        "ub_sim_0.95": 0.08398692136456712,
+        "evaluable": true,
+        "flag": false,
+        "records": 710.0,
+        "exceed": 28.0,
+        "E_record_pooled": 0.03943661971830986,
+        "logs": 126.0,
+        "fallback_share": 0.0,
+        "coarser_bound_only": false
+       }
+      ],
+      "records_in_cells_above_delta_share": 0.8371163229970093,
+      "records": 63530.0
+     },
+     "PD_inpath": {
+      "NoFlag": true,
+      "FamFlag": false,
+      "NoFlag_pool": true,
+      "Floor": true,
+      "HK1c": true,
+      "valid": true,
+      "shown_above": false,
+      "flagged_cells": [],
+      "family_flagged": [],
+      "evaluable": 8,
+      "family_size": 5,
+      "pooled": {
+       "E": 0.040883504403102504,
+       "lb_0.95": 0.03142328596617716,
+       "ub_0.995": 0.05355703364434922,
+       "flagged": false
+      },
+      "cells_above_delta": [
+       {
+        "cell": "large|lat|static",
+        "E": 0.16666666666666666,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 41.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 9.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "large|lat|turning",
+        "E": 0.14285714285714285,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 22.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 7.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "two_wheeler|lat|turning",
+        "E": 0.125,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 16.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 2.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       },
+       {
+        "cell": "car|lat|static",
+        "E": 0.06355971109555808,
+        "lb_sim_0.95": 0.02010038611003606,
+        "ub_sim_0.95": 0.09469295260090571,
+        "evaluable": true,
+        "flag": false,
+        "records": 1237.0,
+        "exceed": 92.0,
+        "E_record_pooled": 0.07437348423605497,
+        "logs": 109.0,
+        "fallback_share": 0.0008084074373484236,
+        "coarser_bound_only": false
+       },
+       {
+        "cell": "large|long|straight",
+        "E": 0.053486570247933886,
+        "lb_sim_0.95": null,
+        "ub_sim_0.95": null,
+        "evaluable": false,
+        "flag": false,
+        "records": 290.0,
+        "exceed": null,
+        "E_record_pooled": null,
+        "logs": 22.0,
+        "fallback_share": 1.0,
+        "coarser_bound_only": true
+       }
+      ],
+      "records_in_cells_above_delta_share": 0.08365019011406843,
+      "records": 19199.0
+     }
+    }
+   },
+   "h2": {
+    "entries": 20,
+    "strata_per_entry": 192,
+    "share_coarser_entries": 0.5203125,
+    "share_by_level": {
+     "0": 0.4796875,
+     "1": 0.20572916666666666,
+     "2": 0.18958333333333333,
+     "3": 0.125
+    },
+    "by_in_path": {
+     "not_in_path": 0.26614583333333336,
+     "in_path": 0.7744791666666667
+    },
+    "by_step": {
+     "h0p5s": 0.5083333333333333,
+     "h1s": 0.51875,
+     "h1p5s": 0.5177083333333333,
+     "h2s": 0.5364583333333334
+    },
+    "by_fold": {
+     "0": 0.5169270833333334,
+     "1": 0.5234375,
+     "2": 0.5208333333333334,
+     "3": 0.5104166666666666,
+     "4": 0.5299479166666666
+    },
+    "check_vs_record_by_l0_inpath_max_abs_diff": 0.0,
+    "record_weighted_A13_pooled": {
+     "PD7_primary": {
+      "records": 524152,
+      "fallback_records": 2182,
+      "share": 0.004162914574398266
+     },
+     "SD1_7_gap_le_5m": {
+      "records": 63530,
+      "fallback_records": 343,
+      "share": 0.005399024083110341
+     },
+     "PD_inpath": {
+      "records": 19199,
+      "fallback_records": 1297,
+      "share": 0.06755560185426324
+     },
+     "NIP_not_in_path": {
+      "records": 504953,
+      "fallback_records": 885,
+      "share": 0.0017526383643626238
+     }
+    },
+    "record_weighted_coarser_bound_only_cells": {
+     "PD7_primary": [
+      "large|lat|turning",
+      "two_wheeler|lat|new",
+      "two_wheeler|lat|straight",
+      "two_wheeler|lat|turning",
+      "two_wheeler|long|new",
+      "two_wheeler|long|straight",
+      "two_wheeler|long|turning"
+     ],
+     "SD1_7_gap_le_5m": [
+      "large|lat|turning",
+      "large|long|new",
+      "large|long|turning",
+      "two_wheeler|lat|new",
+      "two_wheeler|lat|straight",
+      "two_wheeler|lat|turning",
+      "two_wheeler|long|new",
+      "two_wheeler|long|straight",
+      "two_wheeler|long|turning"
+     ],
+     "PD_inpath": [
+      "large|lat|new",
+      "large|lat|static",
+      "large|lat|straight",
+      "large|lat|turning",
+      "large|long|new",
+      "large|long|static",
+      "large|long|straight",
+      "large|long|turning",
+      "pedestrian|lat|new",
+      "pedestrian|long|new",
+      "pedestrian|long|straight",
+      "two_wheeler|lat|new",
+      "two_wheeler|lat|static",
+      "two_wheeler|lat|straight",
+      "two_wheeler|lat|turning",
+      "two_wheeler|long|new"
+     ]
+    }
+   },
+   "h34": {
+    "join": {
+     "records": 587747,
+     "keyframe_mismatches": 0,
+     "instance_mismatches": 0,
+     "records_without_score": 0,
+     "relied_records": 587133
+    },
+    "relied_records_by_score": {
+     "records": 587133,
+     "share_by_bin": {
+      "<0.4": 0.0,
+      "[0.4,0.5)": 0.41315681455479425,
+      "[0.5,0.7)": 0.5014758155307231,
+      "[0.7,0.85)": 0.08396564321882777,
+      ">=0.85": 0.0014017266956549879
+     },
+     "share_below_0.5": 0.41315681455479425,
+     "share_below_0.7": 0.9146326300855172
+    },
+    "all_records_by_score": {
+     "records": 587747,
+     "share_by_bin": {
+      "<0.4": 0.0,
+      "[0.4,0.5)": 0.413237328306227,
+      "[0.5,0.7)": 0.5013789947035033,
+      "[0.7,0.85)": 0.08398341463248643,
+      ">=0.85": 0.0014002623577831959
+     },
+     "share_below_0.5": 0.413237328306227,
+     "share_below_0.7": 0.9146163230097304
+    },
+    "relied_in_path_by_score": {
+     "records": 23227,
+     "share_by_bin": {
+      "<0.4": 0.0,
+      "[0.4,0.5)": 0.48546949670641926,
+      "[0.5,0.7)": 0.4461617944633401,
+      "[0.7,0.85)": 0.06802428208550394,
+      ">=0.85": 0.00034442674473672883
+     },
+     "share_below_0.5": 0.48546949670641926,
+     "share_below_0.7": 0.9316312911697593
+    },
+    "enforced_pairs": {
+     "decisions": 11288,
+     "pairs_enforced_all_tracks": 1013537,
+     "pairs_enforced_no_gt_track": 403577,
+     "share_without_gt_match": 0.3981867460191389,
+     "per_decision_without_gt": 35.752746279234586,
+     "decisions_with_an_enforced_no_gt_track_share": 0.9257618710134656,
+     "share_without_gt_by_score_bin": {
+      "<0.4": null,
+      "[0.4,0.5)": 0.47256342841028787,
+      "[0.5,0.7)": 0.3432429867435109,
+      "[0.7,0.85)": 0.23878969606106037,
+      ">=0.85": 0.47820672478206727
+     },
+     "enforced_by_score_bin": {
+      "gt_matched": {
+       "<0.4": 0.0,
+       "[0.4,0.5)": 254370.0,
+       "[0.5,0.7)": 304487.0,
+       "[0.7,0.85)": 50265.0,
+       ">=0.85": 838.0
+      },
+      "no_gt_match": {
+       "<0.4": 0.0,
+       "[0.4,0.5)": 227906.0,
+       "[0.5,0.7)": 159135.0,
+       "[0.7,0.85)": 15768.0,
+       ">=0.85": 768.0
+      }
+     },
+     "direct_count_file": "x3_h_fpcount_tab_v01.json",
+     "direct_count_sha256": "9688525f54bbffae2910de40fc531b14c16c05e14d826ff84d6b624dd3a92fd6",
+     "validation_against_items_summary": {
+      "decisions": {
+       "x3": 11288,
+       "record": 11288,
+       "equal": true
+      },
+      "pairs_considered": {
+       "x3": 610603,
+       "record": 610603,
+       "equal": true
+      },
+      "pairs_enforced": {
+       "x3": 609960,
+       "record": 609960,
+       "equal": true
+      },
+      "pairs_with_gt": {
+       "x3": 587747,
+       "record": 587747,
+       "equal": true
+      }
+     }
+    },
+    "items_summary_gt_matched_pairs": {
+     "pairs_enforced": 609960,
+     "pairs_with_gt": 587747,
+     "share_without_usable_annotation": 0.03641714210767921,
+     "note": "GT-matched tracks only (the items skip unmatched tracks): the complement is a GT-matched track without an annotation (>= 1 point, not in a rack) at k + h"
+    },
+    "cache_track_rows": {
+     "rows_by_score_bin": {
+      "<0.4": 0.0,
+      "[0.4,0.5)": 246916.0,
+      "[0.5,0.7)": 241139.0,
+      "[0.7,0.85)": 35236.0,
+      ">=0.85": 652.0
+     },
+     "share_by_score_bin": {
+      "<0.4": 0.0,
+      "[0.4,0.5)": 0.4712650040176126,
+      "[0.5,0.7)": 0.460238995463247,
+      "[0.7,0.85)": 0.06725159034475124,
+      ">=0.85": 0.0012444101743891989
+     },
+     "share_without_gt_by_bin": {
+      "<0.4": null,
+      "[0.4,0.5)": 0.4680903627144454,
+      "[0.5,0.7)": 0.3298844235067741,
+      "[0.7,0.85)": 0.2349869451697128,
+      ">=0.85": 0.5
+     },
+     "share_without_gt_all": 0.38884573321907157,
+     "share_of_no_gt_rows_below_0.5": 0.567306229231396
+    },
+    "items_summary_sha256": "cd07109594d2f2391012fbad43890ad2823597a4943479873e1c2e02ce5259f1",
+    "items_sha256": "48a8988b28be84bc4306c35f91da4ae1964f5a1da8bb972ec40fc09c47ed1928"
+   }
+  }
+ },
+ "choices": [
+  "(h1) reads the record's own validity entry and per-cell table; nothing is recomputed (the per-cell bounds are the record's simultaneous 0.95 bounds over the evaluable cells, the flag rule of the screen for M*).",
+  "(h2) 'fallback share' = share of M*'s in-path-split threshold entries (Mstar_ip_src > 0) over folds x the 4 calibrated steps x 192 strata, the record's fallback_strata_fits_entries definition (recomputed and checked); the record-weighted A13 share is read from the record.",
+  "(h3) 'relied records' = the items' records whose reference-relied item is present (joined on scene, keyframe, step, pair); the items are the arm-independent reference-relied records of every enforced pair with a GT match, so they are the certificate's outcome set. Scores come from the cache row rec_row of the record's scene; the join is checked on keyframe and GT instance.",
+  "(h4) the items summaries' pairs_enforced - pairs_with_gt is NOT the false-positive share (the items enumerate GT-matched tracks only); the false-positive share is counted directly by x3_stats_h_fpcount_v01.py with the items' own enumeration (k6_sim_v02's functions, read-only) over every track, validated exactly against the summaries on the GT-matched tracks. The cache-wide share of track rows without GT is added as context (all tracks, not only enforced).",
+  "The exceedance of M* by score bin (partition P4 of analysis (b)) is not computed here: it needs M*'s per-record margins, which (b)'s partition-tagged re-run provides."
+ ],
+ "reading": [
+  "tab: M* is not valid; shown above delta in PD7_primary (flagged cells: {'PD7_primary': [], 'SD1_7_gap_le_5m': [], 'PD_inpath': []}; family flagged: {'PD7_primary': [], 'SD1_7_gap_le_5m': [], 'PD_inpath': []}; pooled flagged: {'PD7_primary': True, 'SD1_7_gap_le_5m': False, 'PD_inpath': False}).",
+  "t1: coarser-level threshold entries 0.484 (record-weighted on P_rel 0.0066); relied records below score 0.5: 0.080, below 0.7: 0.446; enforced pairs whose track has no GT match 0.1215 (6.86 per decision).",
+  "t3: coarser-level threshold entries 0.483 (record-weighted on P_rel 0.0065); relied records below score 0.5: 0.080, below 0.7: 0.446; enforced pairs whose track has no GT match 0.1220 (6.90 per decision).",
+  "tab: coarser-level threshold entries 0.520 (record-weighted on P_rel 0.0042); relied records below score 0.5: 0.413, below 0.7: 0.915; enforced pairs whose track has no GT match 0.3982 (35.75 per decision)."
+ ]
+}

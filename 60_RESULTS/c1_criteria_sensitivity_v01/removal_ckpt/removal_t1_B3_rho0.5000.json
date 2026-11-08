@@ -1,0 +1,71 @@
+{
+ "tracker": "t1",
+ "arm": "B3",
+ "rho": 0.5,
+ "reps": 500,
+ "seed": [
+  20261211,
+  0,
+  3,
+  5000
+ ],
+ "B": 2000,
+ "family_sizes": {
+  "PD7": 26,
+  "SD1_7": 7,
+  "PD": 7
+ },
+ "evaluable": {
+  "PD7": 32,
+  "SD1_7": 12,
+  "PD": 14
+ },
+ "conditions": [
+  "all-evaluable cell flag",
+  "power-family cell flag",
+  "pooled lower bound > delta"
+ ],
+ "rule_0.95_each": {
+  "level_each": 0.95,
+  "P_removed": 0.104,
+  "P_by_condition": {
+   "PD7": [
+    0.01,
+    0.012,
+    0.036
+   ],
+   "SD1_7": [
+    0.0,
+    0.014,
+    0.028
+   ],
+   "PD": [
+    0.0,
+    0.006,
+    0.03
+   ]
+  }
+ },
+ "familywise_bonferroni_9": {
+  "level_each": 0.9944444444444445,
+  "P_removed": 0.004,
+  "P_by_condition": {
+   "PD7": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "SD1_7": [
+    0.0,
+    0.0,
+    0.004
+   ],
+   "PD": [
+    0.0,
+    0.0,
+    0.0
+   ]
+  }
+ },
+ "seconds": 61.65281558036804
+}

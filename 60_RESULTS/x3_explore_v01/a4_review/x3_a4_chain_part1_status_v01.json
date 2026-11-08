@@ -1,0 +1,20 @@
+{
+ "stamp": "X3 POST-REGISTRATION EXPLORATORY (after the verdict of record; not part of the registered test)",
+ "label": "added after review (amendment A4)",
+ "steps": {
+  "spec": "done (0 s)",
+  "run_a4tab": "done (61 s)",
+  "tab": "done (23 s)",
+  "loop_smoke": "done (6 s)",
+  "fits_t1": "done (175 s)",
+  "fits_t3": "done (181 s)",
+  "run_a4ego_t1": "done (215 s)",
+  "run_a4ego_t3": "done (256 s)",
+  "run_a4n_t1": "done (1455 s)",
+  "run_a4n_t3": "done (1481 s)",
+  "check": "done (26 s)",
+  "ego": "done (113 s)",
+  "neutral": "error: Traceback (most recent call last):\n  File \"C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\50_CODE\\x3\\x3_chain_a4_v01.py\", line 45, in guarded\n    fn()\n  File \"C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\50_CODE\\x3\\x3_chain_a4_v01.py\", line 120, in <lambda>\n    guarded(\"neutral\", lambda: A4.main([\"neutral\"]), st)\n  File \"C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\50_CODE\\x3\\x3_a4_v01.py\", line 436, in main\n    r[\"by_tracker\"][t] = neutral_tracker(t)\n  File \"C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\50_CODE\\x3\\x3_a4_v01.py\", line 213, in neutral_tracker\n    ns = neutral(acc[p], kw)\n  File \"C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\50_CODE\\x3\\x3_a4_v01.py\", line 159, in neutral\n    if not A.evaluable(Np, sc, lg)[0]:\n  File \"C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\50_CODE\\k6\\k6_analyse_v02.py\", line 131, in evaluable\n    return np.array([len(set(scene_of_ep[pres[:, j]])) >= MIN_SCENES and len(set(log_of_ep[pres[:, j]])) >= MIN_LOGS for j in range(N.shape[1])])\n  File \"C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\50_CODE\\k6\\k6_analyse_v02.py\", line 131, in <listcomp>\n    return np.array([len(set(scene_of_ep[pres[:, j]])) >= MIN_SCENES and len(set(log_of_ep[pres[:, j]])) >= MIN_LOGS for j in range(N.shape[1])])\nIndexError: boolean index did not match indexed array along dimension 0; dimension is 375 but corresponding boolean dimension is 4\n"
+ },
+ "seconds": 4454.3
+}

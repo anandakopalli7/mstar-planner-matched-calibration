@@ -1,0 +1,391 @@
+{
+ "label": "R21 run-log check (plan sections 8.6, 9); descriptive review",
+ "inputs": {
+  "run_log": {
+   "path": "rehearsal_test/cut_run_log.txt",
+   "sha256": "7f9995510b2f5220b2a40209652148151e38bb5d3ad4266537b13e290e1b363c"
+  },
+  "decision": {
+   "path": "C:/Users/anand/Downloads/ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911/70_TESTS/c1_v01/tests_v13/tree/70_TESTS/dec1.json",
+   "sha256": "b8ff32422c08f85ac4dacbd83e7cd825736e81296346196da74aca2a4dd4827c"
+  },
+  "analysis": {
+   "path": "C:/Users/anand/Downloads/ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911/70_TESTS/c1_v01/tests_v13/tree/70_TESTS/an1.json",
+   "sha256": "f55c8ecf3aa0bcc2ce61792578cad93e74298a3f0461a3e6db4d2f1bf8f68b4d"
+  },
+  "config": {
+   "path": "C:/Users/anand/Downloads/ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911/70_TESTS/c1_v01/tests_v13/tree/30_DATA/fx_config.json",
+   "sha256": "9b0f2dfad7a86c0b1e0a599aeed54c18ab2f39e8a793f2fd9d862118e8b239cf"
+  }
+ },
+ "checks": [
+  {
+   "check": "chain intact (prev_sha256 of every line; file ends with a newline)",
+   "ok": false,
+   "detail": {
+    "errors": [
+     {
+      "line": 13,
+      "error": "not JSON: Unterminated string starting at: line 1 column 852 (char 851)"
+     }
+    ],
+    "ends_with_newline": false,
+    "lines": 13
+   }
+  },
+  {
+   "check": "every done line has its start line",
+   "ok": true,
+   "detail": []
+  },
+  {
+   "check": "decision's run_log_sha256 = SHA-256 of the log's first `lines` lines",
+   "ok": true,
+   "detail": {
+    "lines": 5,
+    "recorded": "c0737be2f11ccacafca524caae77d43a18ff9b511e8108e67100d96335f2e3ab",
+    "recomputed": "c0737be2f11ccacafca524caae77d43a18ff9b511e8108e67100d96335f2e3ab"
+   }
+  },
+  {
+   "check": "decision's last_line_sha256 = SHA-256 of line `lines`",
+   "ok": true,
+   "detail": {
+    "recorded": "b27e68c132a99e5ecfbfa22a53d3781531e4e377743db97883e4ae13f0b85867",
+    "recomputed": "b27e68c132a99e5ecfbfa22a53d3781531e4e377743db97883e4ae13f0b85867"
+   }
+  },
+  {
+   "check": "the analysis's run_id has a start and a done line",
+   "ok": true,
+   "detail": {
+    "run_id": "b55b7397b54d4a5da2fca17e05d8d114",
+    "run": {
+     "start_line": 5,
+     "done_line": 6,
+     "entry": "50_CODE/c1_av2/c1_analyse_v10.py"
+    }
+   }
+  },
+  {
+   "check": "the analysis's start line lies in the recorded prefix (it is line `lines` or earlier)",
+   "ok": true,
+   "detail": {
+    "start_line": 5,
+    "lines": 5
+   }
+  },
+  {
+   "check": "analysis done line lists the decision with its current SHA-256",
+   "ok": true,
+   "detail": {
+    "path": "70_TESTS/dec1.json",
+    "recorded": "b8ff32422c08f85ac4dacbd83e7cd825736e81296346196da74aca2a4dd4827c",
+    "now": "b8ff32422c08f85ac4dacbd83e7cd825736e81296346196da74aca2a4dd4827c"
+   }
+  },
+  {
+   "check": "analysis done line lists the analysis with its current SHA-256",
+   "ok": true,
+   "detail": {
+    "path": "70_TESTS/an1.json",
+    "recorded": "f55c8ecf3aa0bcc2ce61792578cad93e74298a3f0461a3e6db4d2f1bf8f68b4d",
+    "now": "f55c8ecf3aa0bcc2ce61792578cad93e74298a3f0461a3e6db4d2f1bf8f68b4d"
+   }
+  },
+  {
+   "check": "analysis done line under the decision's deposit record",
+   "ok": true,
+   "detail": {
+    "done": "c3f8adc99aef1a36f8110fa8f4e2d1e41e9085452fcf85ba8f4fe80320b2ceed",
+    "decision": "c3f8adc99aef1a36f8110fa8f4e2d1e41e9085452fcf85ba8f4fe80320b2ceed"
+   }
+  },
+  {
+   "check": "table of record: h8",
+   "ok": false,
+   "detail": {
+    "path": "70_TESTS/h8_post.json",
+    "exists": true,
+    "sha256_now": "b9356d505576d2cca39b77b8d28a68c5632a8878a8f536f586a61b31f3af21b1",
+    "done_lines": [
+     {
+      "run_id": "44b091e0522642ff9fb6bb9b05535827",
+      "entry": "50_CODE/c1_av2/c1_h8_v06.py",
+      "done_line": 3,
+      "sha256": "18ce638190462d5dd020408399722d955a6ead1cefdcb8e27e265769046832ef",
+      "deposit_record_sha256": "c3f8adc99aef1a36f8110fa8f4e2d1e41e9085452fcf85ba8f4fe80320b2ceed"
+     }
+    ],
+    "note": null,
+    "first_done_is_this_file": false
+   }
+  },
+  {
+   "check": "decision's tables_in_run_log h8 70_TESTS/h8_post.json has that done line",
+   "ok": true,
+   "detail": {
+    "recorded": {
+     "sha256": "18ce638190462d5dd020408399722d955a6ead1cefdcb8e27e265769046832ef",
+     "done_lines": [
+      {
+       "output": "70_TESTS/h8_post.json",
+       "entry": "50_CODE/c1_av2/c1_h8_v06.py",
+       "run_id": "44b091e0522642ff9fb6bb9b05535827"
+      }
+     ]
+    },
+    "log_done_lines": [
+     {
+      "run_id": "44b091e0522642ff9fb6bb9b05535827",
+      "entry": "50_CODE/c1_av2/c1_h8_v06.py",
+      "done_line": 3,
+      "sha256": "18ce638190462d5dd020408399722d955a6ead1cefdcb8e27e265769046832ef",
+      "deposit_record_sha256": "c3f8adc99aef1a36f8110fa8f4e2d1e41e9085452fcf85ba8f4fe80320b2ceed"
+     }
+    ]
+   }
+  },
+  {
+   "check": "decision's table 70_TESTS/h8_post.json still hashes as recorded",
+   "ok": false,
+   "detail": {
+    "now": "b9356d505576d2cca39b77b8d28a68c5632a8878a8f536f586a61b31f3af21b1",
+    "recorded": "18ce638190462d5dd020408399722d955a6ead1cefdcb8e27e265769046832ef"
+   }
+  },
+  {
+   "check": "the decision given is the first completed analysis run (table of record, plan 8.6 and 9)",
+   "ok": true,
+   "detail": {
+    "first_completed": {
+     "run_id": "b55b7397b54d4a5da2fca17e05d8d114",
+     "start_line": 5,
+     "done_line": 6,
+     "class": "completed run",
+     "outputs_present": {
+      "70_TESTS/an1.json": true,
+      "70_TESTS/dec1.json": true
+     },
+     "seven_string_hits": []
+    },
+    "decision_run_id": "b55b7397b54d4a5da2fca17e05d8d114"
+   }
+  },
+  {
+   "check": "one deposit record on every non-exempt line, equal to the decision's",
+   "ok": false,
+   "detail": {
+    "exempt_lines": [
+     1
+    ],
+    "non_exempt_values": [
+     "0a087f593549185985c39271f9b5935052b5192e2b25611cf1786b0010525861",
+     "c3f8adc99aef1a36f8110fa8f4e2d1e41e9085452fcf85ba8f4fe80320b2ceed"
+    ]
+   }
+  }
+ ],
+ "problems": [
+  "chain intact (prev_sha256 of every line; file ends with a newline)",
+  "table of record: h8",
+  "decision's table 70_TESTS/h8_post.json still hashes as recorded",
+  "one deposit record on every non-exempt line, equal to the decision's"
+ ],
+ "runs": [
+  {
+   "run_id": "5832c751cafc40ad990594072b6288dc",
+   "entry": "50_CODE/c1_av2/c1_e0_v05.py",
+   "role": "entry:c1_e0",
+   "start_line": 1,
+   "start_utc": "2026-11-06T19:54:17Z",
+   "deposit_record_sha256": "exempt (entry:c1_e0)",
+   "plan_sha256": "e5572a60a504a3711f0cc7422f52924fe2c9eac203581680bb0439eb43f91862"
+  },
+  {
+   "run_id": "44b091e0522642ff9fb6bb9b05535827",
+   "entry": "50_CODE/c1_av2/c1_h8_v06.py",
+   "role": "entry:c1_h8",
+   "start_line": 2,
+   "start_utc": "2026-11-06T19:56:31Z",
+   "deposit_record_sha256": "c3f8adc99aef1a36f8110fa8f4e2d1e41e9085452fcf85ba8f4fe80320b2ceed",
+   "plan_sha256": "907595637f7c139e75fbff99ddb30ca4ff2d84f24d9f7d40a60130de6f200b5f",
+   "done_line": 3,
+   "done_utc": "2026-11-06T19:57:31Z",
+   "outputs_sha256": {
+    "70_TESTS/h8_post.json": "18ce638190462d5dd020408399722d955a6ead1cefdcb8e27e265769046832ef"
+   },
+   "inputs_sha256": {
+    "../../../../../../AppData/Local/Temp/c1_gt_4468_mdnorx1s/gt.json": "3b3930a1a3c385b2458c4f96c3e63fb0cf14cf32b65ec51abcfff5e98373fa80",
+    "30_DATA/fx_av2relab/e0_plan.json": "0128102083999d6f0344625e705c2c88eb682a0a26d6f078bbdfbb5cf0d03450",
+    "30_DATA/fx_av2relab/horizon.jsonl.gz": "331a1e23493d88e4be7e2ea3e9a9839cce07fb87279446ae39ff270e7429bed6",
+    "30_DATA/fx_av2relab/worker0/x1_tracks.jsonl.gz": "b95cb9390ec0eeed910510011e7cccb0821aaec5b3c5eee6db4f36352a71d004",
+    "30_DATA/fx_meta/scene.json": "478e1183a7acc6ba7f4f70301b0f16459e6d420462f4b32b5468b42fae65ada5"
+   },
+   "done_deposit_record_sha256": "c3f8adc99aef1a36f8110fa8f4e2d1e41e9085452fcf85ba8f4fe80320b2ceed"
+  },
+  {
+   "run_id": "131048d930d44f1693f004ccda90ea9a",
+   "entry": "50_CODE/c1_av2/c1_h8_v06.py",
+   "role": "entry:c1_h8",
+   "start_line": 4,
+   "start_utc": "2026-11-06T19:58:06Z",
+   "deposit_record_sha256": "c3f8adc99aef1a36f8110fa8f4e2d1e41e9085452fcf85ba8f4fe80320b2ceed",
+   "plan_sha256": "907595637f7c139e75fbff99ddb30ca4ff2d84f24d9f7d40a60130de6f200b5f"
+  },
+  {
+   "run_id": "b55b7397b54d4a5da2fca17e05d8d114",
+   "entry": "50_CODE/c1_av2/c1_analyse_v10.py",
+   "role": "entry:c1_analyse",
+   "start_line": 5,
+   "start_utc": "2026-11-06T19:58:22Z",
+   "deposit_record_sha256": "c3f8adc99aef1a36f8110fa8f4e2d1e41e9085452fcf85ba8f4fe80320b2ceed",
+   "plan_sha256": "907595637f7c139e75fbff99ddb30ca4ff2d84f24d9f7d40a60130de6f200b5f",
+   "done_line": 6,
+   "done_utc": "2026-11-06T19:58:23Z",
+   "outputs_sha256": {
+    "70_TESTS/an1.json": "f55c8ecf3aa0bcc2ce61792578cad93e74298a3f0461a3e6db4d2f1bf8f68b4d",
+    "70_TESTS/dec1.json": "b8ff32422c08f85ac4dacbd83e7cd825736e81296346196da74aca2a4dd4827c"
+   },
+   "inputs_sha256": {
+    "config": "9b0f2dfad7a86c0b1e0a599aeed54c18ab2f39e8a793f2fd9d862118e8b239cf"
+   },
+   "done_deposit_record_sha256": "c3f8adc99aef1a36f8110fa8f4e2d1e41e9085452fcf85ba8f4fe80320b2ceed"
+  },
+  {
+   "run_id": "adbf4ffb89a44818b92650e8b458be4d",
+   "entry": "50_CODE/c1_av2/c1_analyse_v10.py",
+   "role": "entry:c1_analyse",
+   "start_line": 7,
+   "start_utc": "2026-11-06T19:58:39Z",
+   "deposit_record_sha256": "c3f8adc99aef1a36f8110fa8f4e2d1e41e9085452fcf85ba8f4fe80320b2ceed",
+   "plan_sha256": "907595637f7c139e75fbff99ddb30ca4ff2d84f24d9f7d40a60130de6f200b5f",
+   "done_line": 8,
+   "done_utc": "2026-11-06T19:58:39Z",
+   "outputs_sha256": {
+    "70_TESTS/an2.json": "cc852ddb490a4c94d65f6aec35eefeffae8c6fbe470069be4616630bc97f7432",
+    "70_TESTS/dec2.json": "14a7e5ba558c0b4912b9f5a94de2ebf581465b518717d792d4eb52debeab296f"
+   },
+   "inputs_sha256": {
+    "config": "9b0f2dfad7a86c0b1e0a599aeed54c18ab2f39e8a793f2fd9d862118e8b239cf"
+   },
+   "done_deposit_record_sha256": "c3f8adc99aef1a36f8110fa8f4e2d1e41e9085452fcf85ba8f4fe80320b2ceed"
+  },
+  {
+   "run_id": "43a692be98af44488ccdcf0484e4d74f",
+   "entry": "50_CODE/av2/av2_cache_stageB_v06.py",
+   "role": "entry:stageB",
+   "start_line": 9,
+   "start_utc": "2026-11-06T19:59:11Z",
+   "deposit_record_sha256": "0a087f593549185985c39271f9b5935052b5192e2b25611cf1786b0010525861",
+   "plan_sha256": "907595637f7c139e75fbff99ddb30ca4ff2d84f24d9f7d40a60130de6f200b5f",
+   "done_line": 10,
+   "done_utc": "2026-11-06T19:59:11Z",
+   "outputs_sha256": {
+    "30_DATA/av2_cache_stageB_t1/MANIFEST.json": "11607bb27dec6dbd28e615b3a38ca551a3a9987368f5feaffd8ce9b7770df639"
+   },
+   "inputs_sha256": {
+    "gt_decompressed": "3b3930a1a3c385b2458c4f96c3e63fb0cf14cf32b65ec51abcfff5e98373fa80",
+    "stage_a_manifest": "16be045e3eb783709144c47b5aaaa93dbe31996e197e6df9deee93d9f7fdc4b9"
+   },
+   "done_deposit_record_sha256": "0a087f593549185985c39271f9b5935052b5192e2b25611cf1786b0010525861"
+  },
+  {
+   "run_id": "60b9efb27bf34b3bad18783cc07f3958",
+   "entry": "50_CODE/av2/av2_cache_stageB_v06.py",
+   "role": "entry:stageB",
+   "start_line": 11,
+   "start_utc": "2026-11-06T19:59:27Z",
+   "deposit_record_sha256": "0a087f593549185985c39271f9b5935052b5192e2b25611cf1786b0010525861",
+   "plan_sha256": "907595637f7c139e75fbff99ddb30ca4ff2d84f24d9f7d40a60130de6f200b5f"
+  },
+  {
+   "run_id": "e61bd57ced1f4342b43b36fc35a9edae",
+   "entry": "50_CODE/av2/av2_cache_stageB_v06.py",
+   "role": "entry:stageB",
+   "start_line": 12,
+   "start_utc": "2026-11-06T19:59:42Z",
+   "deposit_record_sha256": "0a087f593549185985c39271f9b5935052b5192e2b25611cf1786b0010525861",
+   "plan_sha256": "907595637f7c139e75fbff99ddb30ca4ff2d84f24d9f7d40a60130de6f200b5f"
+  }
+ ],
+ "start_without_done": [
+  {
+   "run_id": "5832c751cafc40ad990594072b6288dc",
+   "entry": "50_CODE/c1_av2/c1_e0_v05.py",
+   "start_line": 1,
+   "utc": "2026-11-06T19:54:17Z"
+  },
+  {
+   "run_id": "131048d930d44f1693f004ccda90ea9a",
+   "entry": "50_CODE/c1_av2/c1_h8_v06.py",
+   "start_line": 4,
+   "utc": "2026-11-06T19:58:06Z"
+  },
+  {
+   "run_id": "60b9efb27bf34b3bad18783cc07f3958",
+   "entry": "50_CODE/av2/av2_cache_stageB_v06.py",
+   "start_line": 11,
+   "utc": "2026-11-06T19:59:27Z"
+  },
+  {
+   "run_id": "e61bd57ced1f4342b43b36fc35a9edae",
+   "entry": "50_CODE/av2/av2_cache_stageB_v06.py",
+   "start_line": 12,
+   "utc": "2026-11-06T19:59:42Z"
+  }
+ ],
+ "done_without_start": [],
+ "tables": {
+  "h8": {
+   "path": "70_TESTS/h8_post.json",
+   "sha256_now": "b9356d505576d2cca39b77b8d28a68c5632a8878a8f536f586a61b31f3af21b1",
+   "done_lines": [
+    {
+     "run_id": "44b091e0522642ff9fb6bb9b05535827",
+     "entry": "50_CODE/c1_av2/c1_h8_v06.py",
+     "done_line": 3,
+     "sha256": "18ce638190462d5dd020408399722d955a6ead1cefdcb8e27e265769046832ef",
+     "deposit_record_sha256": "c3f8adc99aef1a36f8110fa8f4e2d1e41e9085452fcf85ba8f4fe80320b2ceed"
+    }
+   ],
+   "table_of_record_ok": false
+  }
+ },
+ "analysis_runs": [
+  {
+   "run_id": "b55b7397b54d4a5da2fca17e05d8d114",
+   "start_line": 5,
+   "done_line": 6,
+   "class": "completed run",
+   "outputs_present": {
+    "70_TESTS/an1.json": true,
+    "70_TESTS/dec1.json": true
+   },
+   "seven_string_hits": []
+  },
+  {
+   "run_id": "adbf4ffb89a44818b92650e8b458be4d",
+   "start_line": 7,
+   "done_line": 8,
+   "class": "completed run",
+   "outputs_present": {
+    "70_TESTS/an2.json": true,
+    "70_TESTS/dec2.json": true
+   },
+   "seven_string_hits": []
+  }
+ ],
+ "deposit_record_hashes": {
+  "exempt_lines": [
+   1
+  ],
+  "non_exempt_values": [
+   "0a087f593549185985c39271f9b5935052b5192e2b25611cf1786b0010525861",
+   "c3f8adc99aef1a36f8110fa8f4e2d1e41e9085452fcf85ba8f4fe80320b2ceed"
+  ]
+ },
+ "ok": false,
+ "n_checks": 14,
+ "n_problems": 4
+}

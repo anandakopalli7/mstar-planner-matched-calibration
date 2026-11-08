@@ -1,0 +1,118 @@
+{
+ "label": "t1_voxelnext",
+ "evaluator": "av2 0.3.6 av2.evaluation.tracking.eval (TrackEval 1.0.dev1, commit 12c8791b)",
+ "differences_from_official_runner": [
+  "seven tracking classes instead of the 26 AV2 categories",
+  "no ROI filter (no maps)",
+  "threshold tuning run serially"
+ ],
+ "max_range_m": 50,
+ "labels": "AV2 val 2 Hz annotations with >= 1 interior point (av2_gt_prep_v01)",
+ "exports": [
+  "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\av2_trk_v01\\export\\t1_voxelnext\\worker0",
+  "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\av2_trk_v01\\export\\t1_voxelnext\\worker1",
+  "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\av2_trk_v01\\export\\t1_voxelnext\\worker2",
+  "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\av2_trk_v01\\export\\t1_voxelnext\\worker3"
+ ],
+ "per_class": {
+  "car": {
+   "HOTA": 0.7551399654897012,
+   "DetA": 0.705313893916442,
+   "AssA": 0.8118299632900914,
+   "LocA": 0.8831787048095827,
+   "MOTA_av2": 0.7831314362792146,
+   "IDSW_av2": 1092,
+   "CLR_TP": 66795,
+   "CLR_FN": 10307,
+   "CLR_FP": 5322,
+   "tuned_score_threshold": 0.4172694087028504,
+   "HOTA_at_tuned_threshold_from_tuning": 0.7551399654897012,
+   "HOTA_mean_over_10_thresholds": 0.5263475369641385
+  },
+  "pedestrian": {
+   "HOTA": 0.6222540270307988,
+   "DetA": 0.586234680050495,
+   "AssA": 0.6622696533687895,
+   "LocA": 0.9102141457114084,
+   "MOTA_av2": 0.5261853988961365,
+   "IDSW_av2": 1523,
+   "CLR_TP": 24397,
+   "CLR_FN": 7491,
+   "CLR_FP": 6095,
+   "tuned_score_threshold": 0.4203813850879669,
+   "HOTA_at_tuned_threshold_from_tuning": 0.6222540270307988,
+   "HOTA_mean_over_10_thresholds": 0.44946627043831444
+  },
+  "bicycle": {
+   "HOTA": 0.5104799562403978,
+   "DetA": 0.5037208026692722,
+   "AssA": 0.5174388455973313,
+   "LocA": 0.9070302028078016,
+   "MOTA_av2": 0.32447817836812143,
+   "IDSW_av2": 77,
+   "CLR_TP": 354,
+   "CLR_FN": 173,
+   "CLR_FP": 106,
+   "tuned_score_threshold": 0.31998707354068784,
+   "HOTA_at_tuned_threshold_from_tuning": 0.5104799562403978,
+   "HOTA_mean_over_10_thresholds": 0.3792287243701573
+  },
+  "motorcycle": {
+   "HOTA": 0.437841763216713,
+   "DetA": 0.48671298066195756,
+   "AssA": 0.396365472077296,
+   "LocA": 0.8994340309632209,
+   "MOTA_av2": 0.13432835820895522,
+   "IDSW_av2": 74,
+   "CLR_TP": 188,
+   "CLR_FN": 80,
+   "CLR_FP": 78,
+   "tuned_score_threshold": 0.35426504611969006,
+   "HOTA_at_tuned_threshold_from_tuning": 0.437841763216713,
+   "HOTA_mean_over_10_thresholds": 0.3203828357991653
+  },
+  "truck": {
+   "HOTA": 0.46804685799908236,
+   "DetA": 0.3474019964943387,
+   "AssA": 0.6338393162098178,
+   "LocA": 0.8087427148044405,
+   "MOTA_av2": 0.18068690890990544,
+   "IDSW_av2": 14,
+   "CLR_TP": 2191,
+   "CLR_FN": 1827,
+   "CLR_FP": 1451,
+   "tuned_score_threshold": 0.32913356423377993,
+   "HOTA_at_tuned_threshold_from_tuning": 0.46804685799908236,
+   "HOTA_mean_over_10_thresholds": 0.37085564738628884
+  },
+  "bus": {
+   "HOTA": 0.5802505301858257,
+   "DetA": 0.4815227185176707,
+   "AssA": 0.7057066838785483,
+   "LocA": 0.8230421385526514,
+   "MOTA_av2": 0.4691265060240964,
+   "IDSW_av2": 9,
+   "CLR_TP": 920,
+   "CLR_FN": 408,
+   "CLR_FP": 288,
+   "tuned_score_threshold": 0.29181987047195423,
+   "HOTA_at_tuned_threshold_from_tuning": 0.5802505301858257,
+   "HOTA_mean_over_10_thresholds": 0.4504552700597969
+  },
+  "trailer": {
+   "HOTA": 0.33605955623478967,
+   "DetA": 0.2379890458770773,
+   "AssA": 0.48341144469477904,
+   "LocA": 0.7836513452868146,
+   "MOTA_av2": 0.06261022927689594,
+   "IDSW_av2": 27,
+   "CLR_TP": 384,
+   "CLR_FN": 750,
+   "CLR_FP": 286,
+   "tuned_score_threshold": 0.2919915020465851,
+   "HOTA_at_tuned_threshold_from_tuning": 0.33605955623478967,
+   "HOTA_mean_over_10_thresholds": 0.2606105784728841
+  }
+ },
+ "wall_seconds": 389.4
+}

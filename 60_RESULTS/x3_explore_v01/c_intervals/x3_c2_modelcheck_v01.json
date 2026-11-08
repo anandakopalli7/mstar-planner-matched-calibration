@@ -1,0 +1,3646 @@
+{
+ "stamp": "X3 POST-REGISTRATION EXPLORATORY (after the verdict of record; not part of the registered test)",
+ "analysis": "X3 (c2) supplement: model-fidelity check of the beta-binomial simulation (added, not pre-specified)",
+ "inputs": {
+  "c1_json_sha256": "f907de1ccf747b18a69cae79d2e0618de9c3933d0e549bd50db9f914ff44bc17"
+ },
+ "code_sha256": {
+  "x3_stats_c2_modelcheck_v01.py": "40407f7cc77787d57718029e91f3f6258092352544003272e383310301051fac",
+  "x3_stats_common_v01.py": "def79e85212f39e5e2d16a8bfe9118114dc85baf9604bd373fe5d28bffb6bfbf",
+  "r21_lib_v01.py": "31ed82cb61047e2d2db2858b2c84437d766e8d5a214343d060f428ef2d4f9a52"
+ },
+ "trackers": {
+  "t1": {
+   "Mstar|PD7_primary": {
+    "cells": {
+     "car|long|static": {
+      "E": 0.04772244728818133,
+      "rho": 0.06280905331696349,
+      "logs": 373,
+      "records": 174160.0,
+      "se_record_bootstrap": 0.004418431840680129,
+      "se_model": 0.0029123369652908075,
+      "ratio_model_to_record": 0.6591336180581461
+     },
+     "car|long|straight": {
+      "E": 0.03839224312013001,
+      "rho": 0.08805209330518893,
+      "logs": 345,
+      "records": 44460.0,
+      "se_record_bootstrap": 0.004285568230242217,
+      "se_model": 0.003600968029437204,
+      "ratio_model_to_record": 0.8402545090814434
+     },
+     "car|long|turning": {
+      "E": 0.053587893508844915,
+      "rho": 0.23188141332937212,
+      "logs": 279,
+      "records": 8131.0,
+      "se_record_bootstrap": 0.00986026112564281,
+      "se_model": 0.007636826664500866,
+      "ratio_model_to_record": 0.7745055193964759
+     },
+     "car|long|new": {
+      "E": 0.0409269780570053,
+      "rho": 0.201137195769739,
+      "logs": 339,
+      "records": 10241.0,
+      "se_record_bootstrap": 0.005977371536391014,
+      "se_model": 0.005531955357247146,
+      "ratio_model_to_record": 0.9254829356963815
+     },
+     "car|lat|static": {
+      "E": 0.06153247974145729,
+      "rho": 0.07303706300875758,
+      "logs": 371,
+      "records": 93791.0,
+      "se_record_bootstrap": 0.00595759424201926,
+      "se_model": 0.0036723262053058644,
+      "ratio_model_to_record": 0.6164109296676724
+     },
+     "car|lat|straight": {
+      "E": 0.04723283830528848,
+      "rho": 0.16431792544318574,
+      "logs": 316,
+      "records": 16828.0,
+      "se_record_bootstrap": 0.006220365413007184,
+      "se_model": 0.00572541115440013,
+      "ratio_model_to_record": 0.920430034934592
+     },
+     "car|lat|turning": {
+      "E": 0.03721678014965133,
+      "rho": 0.2622196559091352,
+      "logs": 234,
+      "records": 5175.0,
+      "se_record_bootstrap": 0.008437515048420649,
+      "se_model": 0.007702022547351096,
+      "ratio_model_to_record": 0.91283067385969
+     },
+     "car|lat|new": {
+      "E": 0.06350266631025112,
+      "rho": 0.22918260232274018,
+      "logs": 290,
+      "records": 4638.0,
+      "se_record_bootstrap": 0.00901520262322981,
+      "se_model": 0.008681479623288338,
+      "ratio_model_to_record": 0.9629821964199058
+     },
+     "pedestrian|long|static": {
+      "E": 0.04825334251675297,
+      "rho": 0.06053600655301362,
+      "logs": 316,
+      "records": 46624.0,
+      "se_record_bootstrap": 0.006236474175084197,
+      "se_model": 0.0041190528003284595,
+      "ratio_model_to_record": 0.6604778092058482
+     },
+     "pedestrian|long|straight": {
+      "E": 0.04444930442115492,
+      "rho": 0.1263348576961363,
+      "logs": 266,
+      "records": 18469.0,
+      "se_record_bootstrap": 0.007876090621013866,
+      "se_model": 0.005657758482770051,
+      "ratio_model_to_record": 0.7183460367602709
+     },
+     "pedestrian|long|turning": {
+      "E": 0.03806244006440937,
+      "rho": 0.11795785183258586,
+      "logs": 275,
+      "records": 18255.0,
+      "se_record_bootstrap": 0.006092315693158958,
+      "se_model": 0.004969936414799637,
+      "ratio_model_to_record": 0.8157713199892714
+     },
+     "pedestrian|long|new": {
+      "E": 0.037708667408926616,
+      "rho": 0.1163578329035057,
+      "logs": 238,
+      "records": 5294.0,
+      "se_record_bootstrap": 0.006775459424504168,
+      "se_model": 0.005621183662743204,
+      "ratio_model_to_record": 0.8296387463281969
+     },
+     "pedestrian|lat|static": {
+      "E": 0.0457546303269849,
+      "rho": 0.06456511922864912,
+      "logs": 304,
+      "records": 45070.0,
+      "se_record_bootstrap": 0.0049461220140298275,
+      "se_model": 0.003937509814779581,
+      "ratio_model_to_record": 0.7960802025527702
+     },
+     "pedestrian|lat|straight": {
+      "E": 0.039264295304641685,
+      "rho": 0.09374135719404443,
+      "logs": 246,
+      "records": 12212.0,
+      "se_record_bootstrap": 0.007189050741905891,
+      "se_model": 0.005301375469594851,
+      "ratio_model_to_record": 0.7374235709163186
+     },
+     "pedestrian|lat|turning": {
+      "E": 0.04590752762525779,
+      "rho": 0.1051488193939124,
+      "logs": 249,
+      "records": 10923.0,
+      "se_record_bootstrap": 0.005943394540090914,
+      "se_model": 0.005867718766848456,
+      "ratio_model_to_record": 0.9872672472385957
+     },
+     "pedestrian|lat|new": {
+      "E": 0.053017027006242244,
+      "rho": 0.24587456515678088,
+      "logs": 152,
+      "records": 1514.0,
+      "se_record_bootstrap": 0.011108211923419207,
+      "se_model": 0.01162679678893234,
+      "ratio_model_to_record": 1.0466848192209774
+     },
+     "two_wheeler|long|straight": {
+      "E": 0.03389698736637512,
+      "rho": 0.31549911438437617,
+      "logs": 49,
+      "records": 1106.0,
+      "se_record_bootstrap": 0.01585285489838868,
+      "se_model": 0.016734733355613828,
+      "ratio_model_to_record": 1.0556289995005748
+     },
+     "two_wheeler|long|new": {
+      "E": 0.04012297226582941,
+      "rho": 0.46967320347365044,
+      "logs": 49,
+      "records": 305.0,
+      "se_record_bootstrap": 0.02239524994031176,
+      "se_model": 0.021630360214428188,
+      "ratio_model_to_record": 0.9658458946463124
+     },
+     "two_wheeler|lat|straight": {
+      "E": 0.0288643648018648,
+      "rho": 0.25618309466864464,
+      "logs": 40,
+      "records": 482.0,
+      "se_record_bootstrap": 0.015016796982811723,
+      "se_model": 0.017017187510363043,
+      "ratio_model_to_record": 1.1332101998742456
+     },
+     "large|long|static": {
+      "E": 0.04775957064540164,
+      "rho": 0.2721393148609389,
+      "logs": 186,
+      "records": 5570.0,
+      "se_record_bootstrap": 0.011219786100453075,
+      "se_model": 0.009509852651632985,
+      "ratio_model_to_record": 0.8475966089272379
+     },
+     "large|long|straight": {
+      "E": 0.04040089007540799,
+      "rho": 0.4084732999872467,
+      "logs": 132,
+      "records": 2359.0,
+      "se_record_bootstrap": 0.012636975118465649,
+      "se_model": 0.012741146213060996,
+      "ratio_model_to_record": 1.0082433567858442
+     },
+     "large|long|turning": {
+      "E": 0.07100276398522012,
+      "rho": 0.37845448007994814,
+      "logs": 81,
+      "records": 947.0,
+      "se_record_bootstrap": 0.022600810257204815,
+      "se_model": 0.020042768642047074,
+      "ratio_model_to_record": 0.8868163757827101
+     },
+     "large|long|new": {
+      "E": 0.0551701677251262,
+      "rho": 0.44109674388707365,
+      "logs": 89,
+      "records": 441.0,
+      "se_record_bootstrap": 0.020322053399502948,
+      "se_model": 0.018859869658857796,
+      "ratio_model_to_record": 0.928049409579796
+     },
+     "large|lat|static": {
+      "E": 0.05123970285455901,
+      "rho": 0.40859735172574696,
+      "logs": 154,
+      "records": 4442.0,
+      "se_record_bootstrap": 0.014115140813928404,
+      "se_model": 0.012244244884048681,
+      "ratio_model_to_record": 0.8674546747678509
+     },
+     "large|lat|straight": {
+      "E": 0.03334205698194397,
+      "rho": 0.4562469399652106,
+      "logs": 98,
+      "records": 1271.0,
+      "se_record_bootstrap": 0.01388993478972118,
+      "se_model": 0.013441440789974618,
+      "ratio_model_to_record": 0.9677108635471452
+     },
+     "large|lat|turning": {
+      "E": 0.05855062380683498,
+      "rho": 0.2554279348037536,
+      "logs": 56,
+      "records": 379.0,
+      "se_record_bootstrap": 0.024343405261480246,
+      "se_model": 0.022084785365293323,
+      "ratio_model_to_record": 0.9072184079455454
+     },
+     "large|lat|new": {
+      "E": 0.05267295597484276,
+      "rho": 0.7686844011884753,
+      "logs": 53,
+      "records": 206.0,
+      "se_record_bootstrap": 0.027670818652594204,
+      "se_model": 0.02850032356381481,
+      "ratio_model_to_record": 1.0299776064320683
+     }
+    },
+    "ratio_median": 0.9072184079455454,
+    "ratio_min": 0.6164109296676724,
+    "ratio_max": 1.1332101998742456,
+    "share_cells_ratio_below_0.8": 0.25925925925925924
+   },
+   "Mstar|SD1_7_gap_le_5m": {
+    "cells": {
+     "car|long|static": {
+      "E": 0.03651706892978234,
+      "rho": 0.17365200351080443,
+      "logs": 285,
+      "records": 8928.0,
+      "se_record_bootstrap": 0.005613538164031726,
+      "se_model": 0.0058074173461223405,
+      "ratio_model_to_record": 1.0345377864058856
+     },
+     "car|long|straight": {
+      "E": 0.03189210360056755,
+      "rho": 0.26169412727977426,
+      "logs": 198,
+      "records": 1643.0,
+      "se_record_bootstrap": 0.008960293797416792,
+      "se_model": 0.008692523180527541,
+      "ratio_model_to_record": 0.9701158664053575
+     },
+     "car|long|turning": {
+      "E": 0.05098039215686275,
+      "rho": 0.7087556446592367,
+      "logs": 85,
+      "records": 304.0,
+      "se_record_bootstrap": 0.021791036839639205,
+      "se_model": 0.022150615566002885,
+      "ratio_model_to_record": 1.016501221534791
+     },
+     "car|lat|static": {
+      "E": 0.04456366856586097,
+      "rho": 0.22698574346743375,
+      "logs": 292,
+      "records": 24022.0,
+      "se_record_bootstrap": 0.008635696504510593,
+      "se_model": 0.0064096813903655155,
+      "ratio_model_to_record": 0.742230969675418
+     },
+     "car|lat|straight": {
+      "E": 0.049685649674956346,
+      "rho": 0.33653249861776124,
+      "logs": 257,
+      "records": 6217.0,
+      "se_record_bootstrap": 0.01041144451760197,
+      "se_model": 0.008825818172100635,
+      "ratio_model_to_record": 0.847703520599796
+     },
+     "car|lat|turning": {
+      "E": 0.04363228232114102,
+      "rho": 0.3387174908456392,
+      "logs": 96,
+      "records": 483.0,
+      "se_record_bootstrap": 0.017075228756070277,
+      "se_model": 0.01609958879073075,
+      "ratio_model_to_record": 0.9428622609232872
+     },
+     "car|lat|new": {
+      "E": 0.02794168391994479,
+      "rho": 0.3115212603714096,
+      "logs": 138,
+      "records": 556.0,
+      "se_record_bootstrap": 0.011087278604931803,
+      "se_model": 0.010803951066266474,
+      "ratio_model_to_record": 0.9744457094692921
+     },
+     "pedestrian|long|static": {
+      "E": 0.0275335312408718,
+      "rho": 0.12818918786942496,
+      "logs": 157,
+      "records": 3046.0,
+      "se_record_bootstrap": 0.00795689034419245,
+      "se_model": 0.007296592323250024,
+      "ratio_model_to_record": 0.9170155685978051
+     },
+     "pedestrian|long|straight": {
+      "E": 0.05168320379018382,
+      "rho": 0.2668133808446913,
+      "logs": 89,
+      "records": 725.0,
+      "se_record_bootstrap": 0.0189012587063722,
+      "se_model": 0.01715832206366513,
+      "ratio_model_to_record": 0.9077872712191662
+     },
+     "pedestrian|long|turning": {
+      "E": 0.04587673873852735,
+      "rho": 0.43192990746789633,
+      "logs": 90,
+      "records": 576.0,
+      "se_record_bootstrap": 0.01630733702539497,
+      "se_model": 0.017763536384661383,
+      "ratio_model_to_record": 1.0892971891731136
+     },
+     "pedestrian|lat|static": {
+      "E": 0.03629006982431367,
+      "rho": 0.08387056766855361,
+      "logs": 161,
+      "records": 3629.0,
+      "se_record_bootstrap": 0.008889696908053843,
+      "se_model": 0.007579786593116931,
+      "ratio_model_to_record": 0.8526484841400874
+     },
+     "pedestrian|lat|straight": {
+      "E": 0.07216859412268999,
+      "rho": 0.2672576586169625,
+      "logs": 117,
+      "records": 2245.0,
+      "se_record_bootstrap": 0.020709009941784904,
+      "se_model": 0.015689287895232155,
+      "ratio_model_to_record": 0.757606855148378
+     },
+     "pedestrian|lat|turning": {
+      "E": 0.04458623957482685,
+      "rho": 0.14082221898952818,
+      "logs": 115,
+      "records": 1651.0,
+      "se_record_bootstrap": 0.012477002807768445,
+      "se_model": 0.01151274047371026,
+      "ratio_model_to_record": 0.9227168296012713
+     },
+     "large|long|static": {
+      "E": 0.0456140350877193,
+      "rho": 0.3594949447673198,
+      "logs": 57,
+      "records": 392.0,
+      "se_record_bootstrap": 0.019318183305178652,
+      "se_model": 0.021121396807765636,
+      "ratio_model_to_record": 1.0933428094195377
+     },
+     "large|lat|static": {
+      "E": 0.04247931159350252,
+      "rho": 0.3252894966853801,
+      "logs": 74,
+      "records": 1514.0,
+      "se_record_bootstrap": 0.019830481002442557,
+      "se_model": 0.015364418138764678,
+      "ratio_model_to_record": 0.7747879709459501
+     },
+     "large|lat|straight": {
+      "E": 0.030082644628099172,
+      "rho": 0.4309605209754879,
+      "logs": 55,
+      "records": 472.0,
+      "se_record_bootstrap": 0.02008995389908332,
+      "se_model": 0.017331901258446806,
+      "ratio_model_to_record": 0.862714834763142
+     }
+    },
+    "ratio_median": 0.9198661990995383,
+    "ratio_min": 0.742230969675418,
+    "ratio_max": 1.0933428094195377,
+    "share_cells_ratio_below_0.8": 0.1875
+   },
+   "Mstar|PD_inpath": {
+    "cells": {
+     "car|long|static": {
+      "E": 0.036029404657619495,
+      "rho": 0.33182357643095933,
+      "logs": 174,
+      "records": 4089.0,
+      "se_record_bootstrap": 0.009003150936256433,
+      "se_model": 0.009039332189665263,
+      "ratio_model_to_record": 1.0040187322932825
+     },
+     "car|long|straight": {
+      "E": 0.047717001604250485,
+      "rho": 0.2735674909861661,
+      "logs": 215,
+      "records": 8807.0,
+      "se_record_bootstrap": 0.010946258366700474,
+      "se_model": 0.008573266777632288,
+      "ratio_model_to_record": 0.783214363340167
+     },
+     "car|long|turning": {
+      "E": 0.046144133644133646,
+      "rho": 0.5856782113743207,
+      "logs": 117,
+      "records": 1224.0,
+      "se_record_bootstrap": 0.016781382868383175,
+      "se_model": 0.015922221367086306,
+      "ratio_model_to_record": 0.948802699513187
+     },
+     "car|long|new": {
+      "E": 0.04870169082125604,
+      "rho": 0.3910383352255797,
+      "logs": 138,
+      "records": 997.0,
+      "se_record_bootstrap": 0.01586401616482919,
+      "se_model": 0.013325103959077121,
+      "ratio_model_to_record": 0.8399577900468305
+     },
+     "car|lat|static": {
+      "E": 0.04481669976828865,
+      "rho": 0.26355490939379866,
+      "logs": 106,
+      "records": 1153.0,
+      "se_record_bootstrap": 0.013359832924605963,
+      "se_model": 0.013242818224498364,
+      "ratio_model_to_record": 0.9912413051294914
+     },
+     "car|lat|straight": {
+      "E": 0.07317927170868346,
+      "rho": 0.7699493735544184,
+      "logs": 85,
+      "records": 649.0,
+      "se_record_bootstrap": 0.026514999421845313,
+      "se_model": 0.02592568418840726,
+      "ratio_model_to_record": 0.9777742694215363
+     },
+     "car|lat|turning": {
+      "E": 0.03752465483234714,
+      "rho": 0.36875069979349295,
+      "logs": 65,
+      "records": 754.0,
+      "se_record_bootstrap": 0.018288787577230774,
+      "se_model": 0.016730044233830985,
+      "ratio_model_to_record": 0.914770547975504
+     },
+     "large|long|straight": {
+      "E": 0.020429435063581407,
+      "rho": 0.5603704224801459,
+      "logs": 41,
+      "records": 712.0,
+      "se_record_bootstrap": 0.015939426134745215,
+      "se_model": 0.01807016212226302,
+      "ratio_model_to_record": 1.1336770828200124
+     }
+    },
+    "ratio_median": 0.9632884844673617,
+    "ratio_min": 0.783214363340167,
+    "ratio_max": 1.1336770828200124,
+    "share_cells_ratio_below_0.8": 0.125
+   },
+   "B0|PD7_primary": {
+    "cells": {
+     "car|long|static": {
+      "E": 0.008058634265693296,
+      "rho": 0.045661905942855525,
+      "logs": 373,
+      "records": 161679.0,
+      "se_record_bootstrap": 0.002766943488017446,
+      "se_model": 0.0010683303059060916,
+      "ratio_model_to_record": 0.38610485199015226
+     },
+     "car|long|straight": {
+      "E": 0.04659904533704154,
+      "rho": 0.10312276072546231,
+      "logs": 344,
+      "records": 43985.0,
+      "se_record_bootstrap": 0.005699582785924203,
+      "se_model": 0.004152515808099177,
+      "ratio_model_to_record": 0.7285648729156646
+     },
+     "car|long|turning": {
+      "E": 0.080837881033047,
+      "rho": 0.25770906639774305,
+      "logs": 277,
+      "records": 7647.0,
+      "se_record_bootstrap": 0.01197657191566612,
+      "se_model": 0.009670163681714725,
+      "ratio_model_to_record": 0.8074233386488111
+     },
+     "car|long|new": {
+      "E": 0.197914537593526,
+      "rho": 0.2331762087307408,
+      "logs": 340,
+      "records": 10809.0,
+      "se_record_bootstrap": 0.012917124649584383,
+      "se_model": 0.01167138479042437,
+      "ratio_model_to_record": 0.9035590432890886
+     },
+     "car|lat|static": {
+      "E": 0.013347524143281499,
+      "rho": 0.05634433924733055,
+      "logs": 372,
+      "records": 100602.0,
+      "se_record_bootstrap": 0.0031427647466300197,
+      "se_model": 0.0015820298302479606,
+      "ratio_model_to_record": 0.5033879268069199
+     },
+     "car|lat|straight": {
+      "E": 0.052937600315987786,
+      "rho": 0.17194907343460097,
+      "logs": 316,
+      "records": 17408.0,
+      "se_record_bootstrap": 0.007192085035796523,
+      "se_model": 0.006151683231720341,
+      "ratio_model_to_record": 0.8553407254088511
+     },
+     "car|lat|turning": {
+      "E": 0.15817856191434948,
+      "rho": 0.4159713075631552,
+      "logs": 245,
+      "records": 5964.0,
+      "se_record_bootstrap": 0.0176010140120473,
+      "se_model": 0.0164700579084812,
+      "ratio_model_to_record": 0.935744832497037
+     },
+     "car|lat|new": {
+      "E": 0.10056528109928824,
+      "rho": 0.30367181072774596,
+      "logs": 284,
+      "records": 4160.0,
+      "se_record_bootstrap": 0.012748073975466,
+      "se_model": 0.011868766910805637,
+      "ratio_model_to_record": 0.9310243205089167
+     },
+     "pedestrian|long|static": {
+      "E": 0.09024780936200572,
+      "rho": 0.06110621406184821,
+      "logs": 318,
+      "records": 52619.0,
+      "se_record_bootstrap": 0.007741640048209324,
+      "se_model": 0.005360296566049565,
+      "ratio_model_to_record": 0.6923980619958462
+     },
+     "pedestrian|long|straight": {
+      "E": 0.0708598450432628,
+      "rho": 0.12222854009708381,
+      "logs": 271,
+      "records": 20832.0,
+      "se_record_bootstrap": 0.010755783169151946,
+      "se_model": 0.006930031948747031,
+      "ratio_model_to_record": 0.6443075171525087
+     },
+     "pedestrian|long|turning": {
+      "E": 0.08843467100532126,
+      "rho": 0.12278713547777753,
+      "logs": 276,
+      "records": 20202.0,
+      "se_record_bootstrap": 0.01022339683514014,
+      "se_model": 0.007372301392245871,
+      "ratio_model_to_record": 0.7211205347038465
+     },
+     "pedestrian|long|new": {
+      "E": 0.06530816661478685,
+      "rho": 0.14337737793041302,
+      "logs": 240,
+      "records": 5507.0,
+      "se_record_bootstrap": 0.009432553375533165,
+      "se_model": 0.00772201425496757,
+      "ratio_model_to_record": 0.8186557708750937
+     },
+     "pedestrian|lat|static": {
+      "E": 0.002314789739653199,
+      "rho": 0.05658831344615335,
+      "logs": 303,
+      "records": 38610.0,
+      "se_record_bootstrap": 0.0007371918618442092,
+      "se_model": 0.0009140134041161523,
+      "ratio_model_to_record": 1.2398582396577118
+     },
+     "pedestrian|lat|straight": {
+      "E": 0.000779415856539636,
+      "rho": 0.034613557831776026,
+      "logs": 237,
+      "records": 9537.0,
+      "se_record_bootstrap": 0.00045942287821778454,
+      "se_model": 0.0007123230657350073,
+      "ratio_model_to_record": 1.5504736474994136
+     },
+     "pedestrian|lat|turning": {
+      "E": 0.002308891328459064,
+      "rho": 0.041142249857369084,
+      "logs": 241,
+      "records": 8769.0,
+      "se_record_bootstrap": 0.0008836712371148367,
+      "se_model": 0.0012455202366137561,
+      "ratio_model_to_record": 1.4094837359200996
+     },
+     "pedestrian|lat|new": {
+      "E": 0.006547921721074753,
+      "rho": 0.17313890532134052,
+      "logs": 139,
+      "records": 1293.0,
+      "se_record_bootstrap": 0.0036857022074047205,
+      "se_model": 0.00421005397720075,
+      "ratio_model_to_record": 1.1422664502689843
+     },
+     "two_wheeler|long|straight": {
+      "E": 0.0,
+      "rho": 0.0,
+      "logs": 50,
+      "records": 1113.0,
+      "se_record_bootstrap": 0.0,
+      "se_model": 0.0,
+      "ratio_model_to_record": null
+     },
+     "two_wheeler|long|new": {
+      "E": 0.007948717948717949,
+      "rho": 0.05264843668148414,
+      "logs": 50,
+      "records": 305.0,
+      "se_record_bootstrap": 0.005625392941439997,
+      "se_model": 0.00690663154172588,
+      "ratio_model_to_record": 1.2277598407121957
+     },
+     "two_wheeler|lat|straight": {
+      "E": 0.0014245014245014244,
+      "rho": 0.0,
+      "logs": 39,
+      "records": 438.0,
+      "se_record_bootstrap": 0.0014368531329369192,
+      "se_model": 0.003313444049665922,
+      "ratio_model_to_record": 2.3060422625750636
+     },
+     "large|long|static": {
+      "E": 0.01292878631087851,
+      "rho": 0.21463365885651,
+      "logs": 188,
+      "records": 5772.0,
+      "se_record_bootstrap": 0.006240579803606031,
+      "se_model": 0.004625231819106807,
+      "ratio_model_to_record": 0.741154181929407
+     },
+     "large|long|straight": {
+      "E": 0.055269165419365815,
+      "rho": 0.3607246504398928,
+      "logs": 130,
+      "records": 2568.0,
+      "se_record_bootstrap": 0.01455491896393204,
+      "se_model": 0.013795330920882736,
+      "ratio_model_to_record": 0.9478122794821731
+     },
+     "large|long|turning": {
+      "E": 0.09563924750174187,
+      "rho": 0.3402117520753288,
+      "logs": 85,
+      "records": 1038.0,
+      "se_record_bootstrap": 0.02509661446086109,
+      "se_model": 0.021757203273639402,
+      "ratio_model_to_record": 0.8669377818896808
+     },
+     "large|long|new": {
+      "E": 0.23186813186813185,
+      "rho": 0.5837562966297952,
+      "logs": 91,
+      "records": 513.0,
+      "se_record_bootstrap": 0.03894958183925587,
+      "se_model": 0.036644383224563835,
+      "ratio_model_to_record": 0.9408158314970995
+     },
+     "large|lat|static": {
+      "E": 0.007777777777777778,
+      "rho": 0.5075445400795056,
+      "logs": 135,
+      "records": 3194.0,
+      "se_record_bootstrap": 0.00739665728921784,
+      "se_model": 0.0057696759159487415,
+      "ratio_model_to_record": 0.7800382916698384
+     },
+     "large|lat|straight": {
+      "E": 0.0028490028490028487,
+      "rho": 0.14322418105849025,
+      "logs": 78,
+      "records": 868.0,
+      "se_record_bootstrap": 0.002826253923388568,
+      "se_model": 0.003447425736415144,
+      "ratio_model_to_record": 1.2197862718158798
+     },
+     "large|lat|turning": {
+      "E": 0.011594202898550725,
+      "rho": 0.08609244469862543,
+      "logs": 46,
+      "records": 285.0,
+      "se_record_bootstrap": 0.008370745976880811,
+      "se_model": 0.009910012389057903,
+      "ratio_model_to_record": 1.1838864082637792
+     }
+    },
+    "ratio_median": 0.9035590432890886,
+    "ratio_min": 0.38610485199015226,
+    "ratio_max": 2.3060422625750636,
+    "share_cells_ratio_below_0.8": 0.32
+   },
+   "B1|PD7_primary": {
+    "cells": {
+     "car|long|static": {
+      "E": 0.003081941582849345,
+      "rho": 0.0382081050703759,
+      "logs": 373,
+      "records": 152618.0,
+      "se_record_bootstrap": 0.0018020091477144748,
+      "se_model": 0.0006336122346089661,
+      "ratio_model_to_record": 0.35161432749250443
+     },
+     "car|long|straight": {
+      "E": 0.0060388322977363495,
+      "rho": 0.054364129537292354,
+      "logs": 343,
+      "records": 42143.0,
+      "se_record_bootstrap": 0.0014333296600116674,
+      "se_model": 0.001237771643761261,
+      "ratio_model_to_record": 0.8635638250527694
+     },
+     "car|long|turning": {
+      "E": 0.012021131119742852,
+      "rho": 0.15114947366524217,
+      "logs": 273,
+      "records": 7157.0,
+      "se_record_bootstrap": 0.004442172144664992,
+      "se_model": 0.003363416358736614,
+      "ratio_model_to_record": 0.7571557898259405
+     },
+     "car|long|new": {
+      "E": 0.03932431414307933,
+      "rho": 0.1904290060071009,
+      "logs": 338,
+      "records": 10366.0,
+      "se_record_bootstrap": 0.0058705410779600455,
+      "se_model": 0.0053138786110952544,
+      "ratio_model_to_record": 0.9051769744096185
+     },
+     "car|lat|static": {
+      "E": 0.00528227681102295,
+      "rho": 0.0449245196471773,
+      "logs": 371,
+      "records": 104695.0,
+      "se_record_bootstrap": 0.002747287808201239,
+      "se_model": 0.000904386348173131,
+      "ratio_model_to_record": 0.3291924295202509
+     },
+     "car|lat|straight": {
+      "E": 0.02779938065054791,
+      "rho": 0.1376194061515511,
+      "logs": 313,
+      "records": 17551.0,
+      "se_record_bootstrap": 0.004641576229121086,
+      "se_model": 0.004183177213783565,
+      "ratio_model_to_record": 0.901240657761572
+     },
+     "car|lat|turning": {
+      "E": 0.09663229391220166,
+      "rho": 0.2901699089238562,
+      "logs": 246,
+      "records": 6277.0,
+      "se_record_bootstrap": 0.012109695749599534,
+      "se_model": 0.011591020271570567,
+      "ratio_model_to_record": 0.9571685789012396
+     },
+     "car|lat|new": {
+      "E": 0.05900141712283141,
+      "rho": 0.2547656328548597,
+      "logs": 286,
+      "records": 4471.0,
+      "se_record_bootstrap": 0.009625948573383399,
+      "se_model": 0.008738035946944746,
+      "ratio_model_to_record": 0.9077584282037607
+     },
+     "pedestrian|long|static": {
+      "E": 0.019402615243731696,
+      "rho": 0.04002883149015384,
+      "logs": 321,
+      "records": 58608.0,
+      "se_record_bootstrap": 0.003974467696713868,
+      "se_model": 0.0022817851524897085,
+      "ratio_model_to_record": 0.5741108814084243
+     },
+     "pedestrian|long|straight": {
+      "E": 0.011613575656482349,
+      "rho": 0.08236045481722146,
+      "logs": 272,
+      "records": 22976.0,
+      "se_record_bootstrap": 0.0034832787595179596,
+      "se_model": 0.002485122669412844,
+      "ratio_model_to_record": 0.713443522894146
+     },
+     "pedestrian|long|turning": {
+      "E": 0.0174689347913548,
+      "rho": 0.0826608904208784,
+      "logs": 279,
+      "records": 21871.0,
+      "se_record_bootstrap": 0.004367157121179898,
+      "se_model": 0.0029919361306219266,
+      "ratio_model_to_record": 0.6850992642585709
+     },
+     "pedestrian|long|new": {
+      "E": 0.014173463009496805,
+      "rho": 0.11466935158039439,
+      "logs": 245,
+      "records": 5676.0,
+      "se_record_bootstrap": 0.003804333338932013,
+      "se_model": 0.003449651473931773,
+      "ratio_model_to_record": 0.9067689833142198
+     },
+     "pedestrian|lat|static": {
+      "E": 0.0006407286941842897,
+      "rho": 0.06899786294413769,
+      "logs": 296,
+      "records": 27988.0,
+      "se_record_bootstrap": 0.0004449769515999232,
+      "se_model": 0.0005412945590795596,
+      "ratio_model_to_record": 1.2164552728704814
+     },
+     "pedestrian|lat|straight": {
+      "E": 0.0005735069069543564,
+      "rho": 0.015916887622376523,
+      "logs": 195,
+      "records": 4979.0,
+      "se_record_bootstrap": 0.00041972720805923906,
+      "se_model": 0.0007237692797533611,
+      "ratio_model_to_record": 1.7243801827857927
+     },
+     "pedestrian|lat|turning": {
+      "E": 0.0006122977713090685,
+      "rho": 0.0019452099093789112,
+      "logs": 211,
+      "records": 5304.0,
+      "se_record_bootstrap": 0.00042914281534846586,
+      "se_model": 0.0008012064394120846,
+      "ratio_model_to_record": 1.8669925506302638
+     },
+     "pedestrian|lat|new": {
+      "E": 0.004195402298850575,
+      "rho": 0.17634895439958315,
+      "logs": 116,
+      "records": 988.0,
+      "se_record_bootstrap": 0.003099171087553013,
+      "se_model": 0.003766315987600838,
+      "ratio_model_to_record": 1.215265592379599
+     },
+     "two_wheeler|long|straight": {
+      "E": 0.028751571162582076,
+      "rho": 0.16494007614236986,
+      "logs": 49,
+      "records": 1139.0,
+      "se_record_bootstrap": 0.011513730014839688,
+      "se_model": 0.01264872924176451,
+      "ratio_model_to_record": 1.0985778913924469
+     },
+     "two_wheeler|long|new": {
+      "E": 0.05683940242763772,
+      "rho": 0.2579694877916466,
+      "logs": 51,
+      "records": 312.0,
+      "se_record_bootstrap": 0.020858323388427847,
+      "se_model": 0.021684869405282588,
+      "ratio_model_to_record": 1.0396266757141808
+     },
+     "two_wheeler|lat|straight": {
+      "E": 0.04001267173536081,
+      "rho": 0.14600766636990314,
+      "logs": 42,
+      "records": 478.0,
+      "se_record_bootstrap": 0.015360318526202163,
+      "se_model": 0.017626098674394932,
+      "ratio_model_to_record": 1.1475086694541994
+     },
+     "large|long|static": {
+      "E": 0.053587815344793975,
+      "rho": 0.21544906151117404,
+      "logs": 187,
+      "records": 5887.0,
+      "se_record_bootstrap": 0.011830078210722676,
+      "se_model": 0.00924032649946655,
+      "ratio_model_to_record": 0.7810875240952508
+     },
+     "large|long|straight": {
+      "E": 0.11448395740499731,
+      "rho": 0.3405101647265113,
+      "logs": 132,
+      "records": 2645.0,
+      "se_record_bootstrap": 0.01879394889322978,
+      "se_model": 0.018756053047804398,
+      "ratio_model_to_record": 0.9979836145324927
+     },
+     "large|long|turning": {
+      "E": 0.16144733859728588,
+      "rho": 0.4408544776719029,
+      "logs": 87,
+      "records": 1049.0,
+      "se_record_bootstrap": 0.03242772843981362,
+      "se_model": 0.029298385404097616,
+      "ratio_model_to_record": 0.9034979264266347
+     },
+     "large|long|new": {
+      "E": 0.3625576416337286,
+      "rho": 0.6003906779849746,
+      "logs": 92,
+      "records": 518.0,
+      "se_record_bootstrap": 0.044748899141751515,
+      "se_model": 0.0419718554801631,
+      "ratio_model_to_record": 0.9379416317529612
+     },
+     "large|lat|static": {
+      "E": 0.0018248175182481751,
+      "rho": 0.22012821122716628,
+      "logs": 137,
+      "records": 3418.0,
+      "se_record_bootstrap": 0.0018051971802457694,
+      "se_model": 0.0020731657729437135,
+      "ratio_model_to_record": 1.1484428380624112
+     },
+     "large|lat|straight": {
+      "E": 0.008920505871725383,
+      "rho": 0.4114065745834484,
+      "logs": 82,
+      "records": 949.0,
+      "se_record_bootstrap": 0.0065446826083830345,
+      "se_model": 0.007634170162240688,
+      "ratio_model_to_record": 1.1664691199023367
+     },
+     "large|lat|turning": {
+      "E": 0.027898550724637677,
+      "rho": 0.14381283184640947,
+      "logs": 46,
+      "records": 296.0,
+      "se_record_bootstrap": 0.014502706991849046,
+      "se_model": 0.015243926059298358,
+      "ratio_model_to_record": 1.0511090148801805
+     }
+    },
+    "ratio_median": 0.922850029978361,
+    "ratio_min": 0.3291924295202509,
+    "ratio_max": 1.8669925506302638,
+    "share_cells_ratio_below_0.8": 0.2692307692307692
+   },
+   "B4|PD7_primary": {
+    "cells": {
+     "car|long|static": {
+      "E": 0.012880522550792075,
+      "rho": 0.045274433790676444,
+      "logs": 373,
+      "records": 166612.0,
+      "se_record_bootstrap": 0.002930802383959048,
+      "se_model": 0.0013383076902424545,
+      "ratio_model_to_record": 0.4566352537336938
+     },
+     "car|long|straight": {
+      "E": 0.0817230923390854,
+      "rho": 0.11979648857316341,
+      "logs": 344,
+      "records": 44938.0,
+      "se_record_bootstrap": 0.006684152599603329,
+      "se_model": 0.005664266032193654,
+      "ratio_model_to_record": 0.8474172227201695
+     },
+     "car|long|turning": {
+      "E": 0.12737683898087715,
+      "rho": 0.29268318526186826,
+      "logs": 277,
+      "records": 7909.0,
+      "se_record_bootstrap": 0.014254914059243827,
+      "se_model": 0.012228950360557688,
+      "ratio_model_to_record": 0.8578761197530776
+     },
+     "car|long|new": {
+      "E": 0.29328030350039175,
+      "rho": 0.22287012565607142,
+      "logs": 340,
+      "records": 10957.0,
+      "se_record_bootstrap": 0.014668572655529883,
+      "se_model": 0.013045579583461047,
+      "ratio_model_to_record": 0.889355760087742
+     },
+     "car|lat|static": {
+      "E": 0.0201023450830498,
+      "rho": 0.057927088193476826,
+      "logs": 371,
+      "records": 99411.0,
+      "se_record_bootstrap": 0.003444128638669791,
+      "se_model": 0.0019236334226811272,
+      "ratio_model_to_record": 0.558525428197735
+     },
+     "car|lat|straight": {
+      "E": 0.08738867958794531,
+      "rho": 0.17378632965475463,
+      "logs": 318,
+      "records": 17302.0,
+      "se_record_bootstrap": 0.00901413053014909,
+      "se_model": 0.007772150240874701,
+      "ratio_model_to_record": 0.8622185151279536
+     },
+     "car|lat|turning": {
+      "E": 0.18290120022323203,
+      "rho": 0.4292493749004612,
+      "logs": 243,
+      "records": 5811.0,
+      "se_record_bootstrap": 0.01913618559007568,
+      "se_model": 0.017731610357040184,
+      "ratio_model_to_record": 0.9266010863855788
+     },
+     "car|lat|new": {
+      "E": 0.13629125277016843,
+      "rho": 0.28507589190205557,
+      "logs": 285,
+      "records": 4074.0,
+      "se_record_bootstrap": 0.014550949376277792,
+      "se_model": 0.013389356379630818,
+      "ratio_model_to_record": 0.920170638587974
+     },
+     "pedestrian|long|static": {
+      "E": 0.13860785163531633,
+      "rho": 0.06971755299740143,
+      "logs": 318,
+      "records": 50969.0,
+      "se_record_bootstrap": 0.00960314335379367,
+      "se_model": 0.006767832895695123,
+      "ratio_model_to_record": 0.7047518345148442
+     },
+     "pedestrian|long|straight": {
+      "E": 0.13026730639722148,
+      "rho": 0.16796991076114218,
+      "logs": 270,
+      "records": 20116.0,
+      "se_record_bootstrap": 0.013918601766378894,
+      "se_model": 0.00993632331534369,
+      "ratio_model_to_record": 0.7138880386207612
+     },
+     "pedestrian|long|turning": {
+      "E": 0.1498156849734604,
+      "rho": 0.12514499055552222,
+      "logs": 276,
+      "records": 19603.0,
+      "se_record_bootstrap": 0.012026697550561362,
+      "se_model": 0.00944115728392134,
+      "ratio_model_to_record": 0.785016605284188
+     },
+     "pedestrian|long|new": {
+      "E": 0.13637558600670086,
+      "rho": 0.17657363706444237,
+      "logs": 239,
+      "records": 5428.0,
+      "se_record_bootstrap": 0.014486613511360212,
+      "se_model": 0.011372001364734628,
+      "ratio_model_to_record": 0.78500067360925
+     },
+     "pedestrian|lat|static": {
+      "E": 0.004295404517287248,
+      "rho": 0.052867819580759236,
+      "logs": 303,
+      "records": 40625.0,
+      "se_record_bootstrap": 0.0010403033035171578,
+      "se_model": 0.0012056097704263463,
+      "ratio_model_to_record": 1.1589021839595284
+     },
+     "pedestrian|lat|straight": {
+      "E": 0.0011446456777856272,
+      "rho": 0.04064415841112957,
+      "logs": 238,
+      "records": 10473.0,
+      "se_record_bootstrap": 0.0005540151948783574,
+      "se_model": 0.0008421231034499566,
+      "ratio_model_to_record": 1.520036113151838
+     },
+     "pedestrian|lat|turning": {
+      "E": 0.0029967894113448377,
+      "rho": 0.05632159568667911,
+      "logs": 243,
+      "records": 9520.0,
+      "se_record_bootstrap": 0.0010393248886411649,
+      "se_model": 0.001432502170564237,
+      "ratio_model_to_record": 1.3783006509515232
+     },
+     "pedestrian|lat|new": {
+      "E": 0.008251699467543819,
+      "rho": 0.27872955893513973,
+      "logs": 148,
+      "records": 1381.0,
+      "se_record_bootstrap": 0.0047958605288538105,
+      "se_model": 0.005063410027363176,
+      "ratio_model_to_record": 1.0557875895055082
+     },
+     "two_wheeler|long|straight": {
+      "E": 0.02174304329377626,
+      "rho": 0.18728107924483262,
+      "logs": 49,
+      "records": 1125.0,
+      "se_record_bootstrap": 0.010154423001803737,
+      "se_model": 0.011402439546121284,
+      "ratio_model_to_record": 1.1229037380160214
+     },
+     "two_wheeler|long|new": {
+      "E": 0.05053688141923436,
+      "rho": 0.26993584037255425,
+      "logs": 51,
+      "records": 306.0,
+      "se_record_bootstrap": 0.024481651936456995,
+      "se_model": 0.021099212715350212,
+      "ratio_model_to_record": 0.8618377865233103
+     },
+     "two_wheeler|lat|straight": {
+      "E": 0.016965937036359575,
+      "rho": 0.0641627038286817,
+      "logs": 42,
+      "records": 469.0,
+      "se_record_bootstrap": 0.008071643814566608,
+      "se_model": 0.011419036208494188,
+      "ratio_model_to_record": 1.4147101223528544
+     },
+     "large|long|static": {
+      "E": 0.03443942937942025,
+      "rho": 0.22393193918987683,
+      "logs": 188,
+      "records": 5884.0,
+      "se_record_bootstrap": 0.009293862559148137,
+      "se_model": 0.007545100252926071,
+      "ratio_model_to_record": 0.811836865986282
+     },
+     "large|long|straight": {
+      "E": 0.10348192476340469,
+      "rho": 0.36185637727973163,
+      "logs": 132,
+      "records": 2657.0,
+      "se_record_bootstrap": 0.01808222388407713,
+      "se_model": 0.018226455893565825,
+      "ratio_model_to_record": 1.0079764530299673
+     },
+     "large|long|turning": {
+      "E": 0.14891015914586406,
+      "rho": 0.425397040443632,
+      "logs": 87,
+      "records": 1057.0,
+      "se_record_bootstrap": 0.03170322688324262,
+      "se_model": 0.028017970468449598,
+      "ratio_model_to_record": 0.8837576872422114
+     },
+     "large|long|new": {
+      "E": 0.3452579566448456,
+      "rho": 0.6090383372804277,
+      "logs": 91,
+      "records": 511.0,
+      "se_record_bootstrap": 0.0444404411699613,
+      "se_model": 0.04185968262770576,
+      "ratio_model_to_record": 0.9419277020139044
+     },
+     "large|lat|static": {
+      "E": 0.0011029411764705882,
+      "rho": 0.11591918455706642,
+      "logs": 136,
+      "records": 3441.0,
+      "se_record_bootstrap": 0.0010909897298647883,
+      "se_model": 0.0013656672972192747,
+      "ratio_model_to_record": 1.2517691595396856
+     },
+     "large|lat|straight": {
+      "E": 0.0049085229808121375,
+      "rho": 0.34936265292556906,
+      "logs": 83,
+      "records": 961.0,
+      "se_record_bootstrap": 0.0048676470685382065,
+      "se_model": 0.005383846606204958,
+      "ratio_model_to_record": 1.106047034716872
+     },
+     "large|lat|turning": {
+      "E": 0.022946859903381637,
+      "rho": 0.09126014903966528,
+      "logs": 46,
+      "records": 299.0,
+      "se_record_bootstrap": 0.011335116760047278,
+      "se_model": 0.013014224552282763,
+      "ratio_model_to_record": 1.1481332594785272
+     },
+     "large|lat|new": {
+      "E": 0.03205128205128205,
+      "rho": 0.6472784290300904,
+      "logs": 39,
+      "records": 140.0,
+      "se_record_bootstrap": 0.026237249666111552,
+      "se_model": 0.025300088872498416,
+      "ratio_model_to_record": 0.9642812868902342
+     }
+    },
+    "ratio_median": 0.920170638587974,
+    "ratio_min": 0.4566352537336938,
+    "ratio_max": 1.520036113151838,
+    "share_cells_ratio_below_0.8": 0.2222222222222222
+   },
+   "B6|PD7_primary": {
+    "cells": {
+     "car|long|static": {
+      "E": 0.013056999456338194,
+      "rho": 0.05375137875095684,
+      "logs": 373,
+      "records": 165419.0,
+      "se_record_bootstrap": 0.002956364218502393,
+      "se_model": 0.0014523893680602694,
+      "ratio_model_to_record": 0.49127551976529027
+     },
+     "car|long|straight": {
+      "E": 0.0731537773820756,
+      "rho": 0.11411576718938574,
+      "logs": 344,
+      "records": 44733.0,
+      "se_record_bootstrap": 0.0063155870473080205,
+      "se_model": 0.0052930974173568115,
+      "ratio_model_to_record": 0.8381006195794516
+     },
+     "car|long|turning": {
+      "E": 0.12015598769779343,
+      "rho": 0.24880782676790017,
+      "logs": 277,
+      "records": 7903.0,
+      "se_record_bootstrap": 0.013423686350545782,
+      "se_model": 0.011325071320109084,
+      "ratio_model_to_record": 0.843663284761464
+     },
+     "car|long|new": {
+      "E": 0.28088556602628545,
+      "rho": 0.21967520024628123,
+      "logs": 340,
+      "records": 10917.0,
+      "se_record_bootstrap": 0.01434109306785083,
+      "se_model": 0.012808174719490717,
+      "ratio_model_to_record": 0.8931100759818277
+     },
+     "car|lat|static": {
+      "E": 0.02758274500140189,
+      "rho": 0.05666160488344655,
+      "logs": 371,
+      "records": 100990.0,
+      "se_record_bootstrap": 0.0037948183137267704,
+      "se_model": 0.00224015359218077,
+      "ratio_model_to_record": 0.590319063254648
+     },
+     "car|lat|straight": {
+      "E": 0.10659923022229091,
+      "rho": 0.15955986652572712,
+      "logs": 317,
+      "records": 17523.0,
+      "se_record_bootstrap": 0.00933072155257316,
+      "se_model": 0.008159989105432527,
+      "ratio_model_to_record": 0.8745292697307234
+     },
+     "car|lat|turning": {
+      "E": 0.1831244462913959,
+      "rho": 0.41621205967624353,
+      "logs": 241,
+      "records": 5767.0,
+      "se_record_bootstrap": 0.01891604335221518,
+      "se_model": 0.017616616429633924,
+      "ratio_model_to_record": 0.9313055643621642
+     },
+     "car|lat|new": {
+      "E": 0.15471193655443258,
+      "rho": 0.25978844959430175,
+      "logs": 282,
+      "records": 4118.0,
+      "se_record_bootstrap": 0.014527953863971366,
+      "se_model": 0.013685444119135057,
+      "ratio_model_to_record": 0.9420076803158294
+     },
+     "pedestrian|long|static": {
+      "E": 0.05669104955527713,
+      "rho": 0.061209499135943014,
+      "logs": 316,
+      "records": 46710.0,
+      "se_record_bootstrap": 0.006587158649330858,
+      "se_model": 0.004460610264701247,
+      "ratio_model_to_record": 0.6771675774279959
+     },
+     "pedestrian|long|straight": {
+      "E": 0.036286606963609136,
+      "rho": 0.11770882295913887,
+      "logs": 266,
+      "records": 18481.0,
+      "se_record_bootstrap": 0.0073174300957845224,
+      "se_model": 0.005033024150445448,
+      "ratio_model_to_record": 0.6878130825390336
+     },
+     "pedestrian|long|turning": {
+      "E": 0.04380112184698048,
+      "rho": 0.11483273109575007,
+      "logs": 274,
+      "records": 18260.0,
+      "se_record_bootstrap": 0.0067197443239040405,
+      "se_model": 0.005278828218740658,
+      "ratio_model_to_record": 0.7855698021072566
+     },
+     "pedestrian|long|new": {
+      "E": 0.03415309674419661,
+      "rho": 0.12258397668354531,
+      "logs": 238,
+      "records": 5292.0,
+      "se_record_bootstrap": 0.006482935161272818,
+      "se_model": 0.005436971799635772,
+      "ratio_model_to_record": 0.8386589815234728
+     },
+     "pedestrian|lat|static": {
+      "E": 0.05973633433676258,
+      "rho": 0.07012999818700448,
+      "logs": 305,
+      "records": 45018.0,
+      "se_record_bootstrap": 0.006161695930693146,
+      "se_model": 0.004626550789660518,
+      "ratio_model_to_record": 0.7508567189455687
+     },
+     "pedestrian|lat|straight": {
+      "E": 0.0335053670099609,
+      "rho": 0.08513883068285787,
+      "logs": 246,
+      "records": 12200.0,
+      "se_record_bootstrap": 0.0067824025066958405,
+      "se_model": 0.004765015666720575,
+      "ratio_model_to_record": 0.7025557185696917
+     },
+     "pedestrian|lat|turning": {
+      "E": 0.0529781495439293,
+      "rho": 0.10795576295803955,
+      "logs": 249,
+      "records": 10926.0,
+      "se_record_bootstrap": 0.006885419628590243,
+      "se_model": 0.006356346412463766,
+      "ratio_model_to_record": 0.923160352648717
+     },
+     "pedestrian|lat|new": {
+      "E": 0.07719829438535099,
+      "rho": 0.2895768906392731,
+      "logs": 152,
+      "records": 1518.0,
+      "se_record_bootstrap": 0.015964003880879967,
+      "se_model": 0.014458351158741634,
+      "ratio_model_to_record": 0.9056845179083395
+     },
+     "two_wheeler|long|straight": {
+      "E": 0.04595088935681231,
+      "rho": 0.2805553650266323,
+      "logs": 49,
+      "records": 1131.0,
+      "se_record_bootstrap": 0.0185852637868308,
+      "se_model": 0.01848478090718417,
+      "ratio_model_to_record": 0.9945934111670867
+     },
+     "two_wheeler|long|new": {
+      "E": 0.04862637362637363,
+      "rho": 0.4672556176133911,
+      "logs": 49,
+      "records": 306.0,
+      "se_record_bootstrap": 0.023928289797147576,
+      "se_model": 0.023768494889101655,
+      "ratio_model_to_record": 0.9933219252441112
+     },
+     "two_wheeler|lat|straight": {
+      "E": 0.0340530303030303,
+      "rho": 0.25186687879162306,
+      "logs": 40,
+      "records": 467.0,
+      "se_record_bootstrap": 0.016480483496179126,
+      "se_model": 0.018491282461711493,
+      "ratio_model_to_record": 1.1220109207353386
+     },
+     "large|long|static": {
+      "E": 0.008986675592735738,
+      "rho": 0.20026187949509383,
+      "logs": 184,
+      "records": 5210.0,
+      "se_record_bootstrap": 0.00570383649609432,
+      "se_model": 0.003880700717504769,
+      "ratio_model_to_record": 0.6803667531778066
+     },
+     "large|long|straight": {
+      "E": 0.06018128352222303,
+      "rho": 0.4000654405614607,
+      "logs": 130,
+      "records": 2427.0,
+      "se_record_bootstrap": 0.014518742001296998,
+      "se_model": 0.015169104726445936,
+      "ratio_model_to_record": 1.0447947022607633
+     },
+     "large|long|turning": {
+      "E": 0.08547383972284385,
+      "rho": 0.3342243994019447,
+      "logs": 83,
+      "records": 975.0,
+      "se_record_bootstrap": 0.02325304619141756,
+      "se_model": 0.020929603720281666,
+      "ratio_model_to_record": 0.9000800818951002
+     },
+     "large|long|new": {
+      "E": 0.1984500561167228,
+      "rho": 0.5315722631690377,
+      "logs": 90,
+      "records": 468.0,
+      "se_record_bootstrap": 0.0355989896940115,
+      "se_model": 0.034053790636591384,
+      "ratio_model_to_record": 0.95659430026802
+     },
+     "large|lat|static": {
+      "E": 0.024600284955254525,
+      "rho": 0.344155187742678,
+      "logs": 155,
+      "records": 4586.0,
+      "se_record_bootstrap": 0.009740796028199467,
+      "se_model": 0.008025372704633927,
+      "ratio_model_to_record": 0.8238929017095303
+     },
+     "large|lat|straight": {
+      "E": 0.061227029167787064,
+      "rho": 0.5180818101882095,
+      "logs": 102,
+      "records": 1356.0,
+      "se_record_bootstrap": 0.019185829068418054,
+      "se_model": 0.018398749093226894,
+      "ratio_model_to_record": 0.958975972714842
+     },
+     "large|lat|turning": {
+      "E": 0.13117837328363643,
+      "rho": 0.5454610773469566,
+      "logs": 57,
+      "records": 399.0,
+      "se_record_bootstrap": 0.03924626218208304,
+      "se_model": 0.036840969438248446,
+      "ratio_model_to_record": 0.9387128197667529
+     },
+     "large|lat|new": {
+      "E": 0.13144654088050314,
+      "rho": 0.5656339910918025,
+      "logs": 53,
+      "records": 185.0,
+      "se_record_bootstrap": 0.04083325455526405,
+      "se_model": 0.04077588891688797,
+      "ratio_model_to_record": 0.9985951245130745
+     }
+    },
+    "ratio_median": 0.8931100759818277,
+    "ratio_min": 0.49127551976529027,
+    "ratio_max": 1.1220109207353386,
+    "share_cells_ratio_below_0.8": 0.2962962962962963
+   },
+   "B9|PD7_primary": {
+    "cells": {
+     "car|long|static": {
+      "E": 0.006054228033782961,
+      "rho": 0.04839178514861535,
+      "logs": 373,
+      "records": 170380.0,
+      "se_record_bootstrap": 0.0027229533907811992,
+      "se_model": 0.0009473598375065064,
+      "ratio_model_to_record": 0.34791628851007045
+     },
+     "car|long|straight": {
+      "E": 0.023928556922675242,
+      "rho": 0.07104544585654543,
+      "logs": 345,
+      "records": 45326.0,
+      "se_record_bootstrap": 0.003425097742091426,
+      "se_model": 0.002621045515733803,
+      "ratio_model_to_record": 0.7652469252259487
+     },
+     "car|long|turning": {
+      "E": 0.04466613260733869,
+      "rho": 0.23350453884246808,
+      "logs": 278,
+      "records": 8093.0,
+      "se_record_bootstrap": 0.009257046851425922,
+      "se_model": 0.007034231389375538,
+      "ratio_model_to_record": 0.7598785554695567
+     },
+     "car|long|new": {
+      "E": 0.14443070917825435,
+      "rho": 0.23852309715663164,
+      "logs": 340,
+      "records": 11337.0,
+      "se_record_bootstrap": 0.011370882111894801,
+      "se_model": 0.010293258786122339,
+      "ratio_model_to_record": 0.9052295754042523
+     },
+     "car|lat|static": {
+      "E": 0.004855883630613328,
+      "rho": 0.06942423729666777,
+      "logs": 365,
+      "records": 74498.0,
+      "se_record_bootstrap": 0.003060442742860768,
+      "se_model": 0.001075641593854992,
+      "ratio_model_to_record": 0.35146600810101397
+     },
+     "car|lat|straight": {
+      "E": 0.002545070469538308,
+      "rho": 0.15229735944366213,
+      "logs": 284,
+      "records": 10805.0,
+      "se_record_bootstrap": 0.001431647083018692,
+      "se_model": 0.0015330872878619884,
+      "ratio_model_to_record": 1.0708555942637799
+     },
+     "car|lat|turning": {
+      "E": 0.01292699386999755,
+      "rho": 0.10728872582765686,
+      "logs": 228,
+      "records": 4798.0,
+      "se_record_bootstrap": 0.005055431305036468,
+      "se_model": 0.0038713497839488954,
+      "ratio_model_to_record": 0.7657803163287111
+     },
+     "car|lat|new": {
+      "E": 0.022515248978613917,
+      "rho": 0.2020981304049065,
+      "logs": 243,
+      "records": 3144.0,
+      "se_record_bootstrap": 0.006316385862481875,
+      "se_model": 0.005820891257679521,
+      "ratio_model_to_record": 0.9215540950806224
+     },
+     "pedestrian|long|static": {
+      "E": 0.0010352792753614553,
+      "rho": 0.00959862937217307,
+      "logs": 315,
+      "records": 45224.0,
+      "se_record_bootstrap": 0.0002483944059588069,
+      "se_model": 0.0004771125046654749,
+      "ratio_model_to_record": 1.9207860290726435
+     },
+     "pedestrian|long|straight": {
+      "E": 0.0030081215552717074,
+      "rho": 0.04534714181521192,
+      "logs": 265,
+      "records": 18305.0,
+      "se_record_bootstrap": 0.0011899592389505696,
+      "se_model": 0.0012100848563571776,
+      "ratio_model_to_record": 1.0169128628509636
+     },
+     "pedestrian|long|turning": {
+      "E": 0.0032600316317997744,
+      "rho": 0.060765569737484496,
+      "logs": 274,
+      "records": 18025.0,
+      "se_record_bootstrap": 0.0011574087324977798,
+      "se_model": 0.0012811594184597228,
+      "ratio_model_to_record": 1.1069204702602158
+     },
+     "pedestrian|long|new": {
+      "E": 0.0009451614983094137,
+      "rho": 0.03709228412226776,
+      "logs": 238,
+      "records": 5293.0,
+      "se_record_bootstrap": 0.0006304474896072683,
+      "se_model": 0.0007334374380968054,
+      "ratio_model_to_record": 1.1633600738955974
+     },
+     "pedestrian|lat|static": {
+      "E": 0.0015215359392215127,
+      "rho": 0.0627122567152788,
+      "logs": 303,
+      "records": 42593.0,
+      "se_record_bootstrap": 0.0006216007392985081,
+      "se_model": 0.0007360356010787912,
+      "ratio_model_to_record": 1.1840970490309033
+     },
+     "pedestrian|lat|straight": {
+      "E": 0.0006007372288260621,
+      "rho": 0.026634925867804686,
+      "logs": 242,
+      "records": 10760.0,
+      "se_record_bootstrap": 0.0003662466394861224,
+      "se_model": 0.0005816712486970533,
+      "ratio_model_to_record": 1.5881954562455272
+     },
+     "pedestrian|lat|turning": {
+      "E": 0.0016003584111249412,
+      "rho": 0.037436961499184664,
+      "logs": 243,
+      "records": 9886.0,
+      "se_record_bootstrap": 0.0007315236205868548,
+      "se_model": 0.0009877381527531957,
+      "ratio_model_to_record": 1.3502477909883432
+     },
+     "pedestrian|lat|new": {
+      "E": 0.0043883946057859105,
+      "rho": 0.1582925698686137,
+      "logs": 148,
+      "records": 1430.0,
+      "se_record_bootstrap": 0.002706522384099267,
+      "se_model": 0.0032193083515407363,
+      "ratio_model_to_record": 1.1894630432225761
+     },
+     "two_wheeler|long|straight": {
+      "E": 0.0032653061224489797,
+      "rho": 0.125683588616365,
+      "logs": 49,
+      "records": 1087.0,
+      "se_record_bootstrap": 0.0032549659390182285,
+      "se_model": 0.00402964412144222,
+      "ratio_model_to_record": 1.2379988598767493
+     },
+     "two_wheeler|long|new": {
+      "E": 0.00930115635997989,
+      "rho": 0.131978957563729,
+      "logs": 51,
+      "records": 315.0,
+      "se_record_bootstrap": 0.0067944898692812354,
+      "se_model": 0.008037878265319352,
+      "ratio_model_to_record": 1.1829995216652887
+     },
+     "large|long|static": {
+      "E": 0.007699873011914391,
+      "rho": 0.2294074663727681,
+      "logs": 186,
+      "records": 5677.0,
+      "se_record_bootstrap": 0.005504190273984474,
+      "se_model": 0.0036394307527220335,
+      "ratio_model_to_record": 0.6612109268685321
+     },
+     "large|long|straight": {
+      "E": 0.06532983314559046,
+      "rho": 0.2633662172864031,
+      "logs": 128,
+      "records": 2591.0,
+      "se_record_bootstrap": 0.01551647021926877,
+      "se_model": 0.013519726483107435,
+      "ratio_model_to_record": 0.8713145639475578
+     },
+     "large|long|turning": {
+      "E": 0.08267782870724046,
+      "rho": 0.4280841083953916,
+      "logs": 85,
+      "records": 1036.0,
+      "se_record_bootstrap": 0.024843198484725732,
+      "se_model": 0.021880664769608486,
+      "ratio_model_to_record": 0.8807507126371553
+     },
+     "large|long|new": {
+      "E": 0.24360731860731857,
+      "rho": 0.5435295493684865,
+      "logs": 91,
+      "records": 514.0,
+      "se_record_bootstrap": 0.03888235906488461,
+      "se_model": 0.036539018853546164,
+      "ratio_model_to_record": 0.9397325607886081
+     },
+     "large|lat|static": {
+      "E": 0.0,
+      "rho": 0.0,
+      "logs": 127,
+      "records": 3015.0,
+      "se_record_bootstrap": 0.0,
+      "se_model": 0.0,
+      "ratio_model_to_record": null
+     },
+     "large|lat|straight": {
+      "E": 0.0015015015015015015,
+      "rho": 0.015091663111876196,
+      "logs": 74,
+      "records": 775.0,
+      "se_record_bootstrap": 0.0014894964707412967,
+      "se_model": 0.0021996027521841576,
+      "ratio_model_to_record": 1.4767425068751274
+     },
+     "large|lat|turning": {
+      "E": 0.009302325581395349,
+      "rho": 0.03559490876526798,
+      "logs": 43,
+      "records": 270.0,
+      "se_record_bootstrap": 0.006487403905959804,
+      "se_model": 0.008628317958378184,
+      "ratio_model_to_record": 1.3300109078227085
+     }
+    },
+    "ratio_median": 1.0438842285573717,
+    "ratio_min": 0.34791628851007045,
+    "ratio_max": 1.9207860290726435,
+    "share_cells_ratio_below_0.8": 0.25
+   },
+   "RETUNED|PD7_primary": {
+    "cells": {
+     "car|long|static": {
+      "E": 0.007348987107902437,
+      "rho": 0.04418270254036609,
+      "logs": 373,
+      "records": 160282.0,
+      "se_record_bootstrap": 0.002748787250307586,
+      "se_model": 0.001007932049143206,
+      "ratio_model_to_record": 0.3666824520633307
+     },
+     "car|long|straight": {
+      "E": 0.039843733914687186,
+      "rho": 0.10231892372362072,
+      "logs": 344,
+      "records": 43697.0,
+      "se_record_bootstrap": 0.005046916236973711,
+      "se_model": 0.0038719178461716604,
+      "ratio_model_to_record": 0.7671848836733188
+     },
+     "car|long|turning": {
+      "E": 0.06582094803139946,
+      "rho": 0.24605800795057217,
+      "logs": 277,
+      "records": 7579.0,
+      "se_record_bootstrap": 0.010991019707474887,
+      "se_model": 0.008694575457782305,
+      "ratio_model_to_record": 0.7910617658040597
+     },
+     "car|long|new": {
+      "E": 0.1784318106147983,
+      "rho": 0.22892851744303547,
+      "logs": 340,
+      "records": 10745.0,
+      "se_record_bootstrap": 0.012386417322839332,
+      "se_model": 0.011149846421349533,
+      "ratio_model_to_record": 0.9001671856147069
+     },
+     "car|lat|static": {
+      "E": 0.012184897176928076,
+      "rho": 0.05596024138512714,
+      "logs": 372,
+      "records": 100799.0,
+      "se_record_bootstrap": 0.003096947365173444,
+      "se_model": 0.0015087551560364345,
+      "ratio_model_to_record": 0.4871749429787086
+     },
+     "car|lat|straight": {
+      "E": 0.04811306270753606,
+      "rho": 0.17001834301329855,
+      "logs": 316,
+      "records": 17366.0,
+      "se_record_bootstrap": 0.006884316613750124,
+      "se_model": 0.005874463496570035,
+      "ratio_model_to_record": 0.8533110584770175
+     },
+     "car|lat|turning": {
+      "E": 0.15369145980667576,
+      "rho": 0.4006165252900733,
+      "logs": 245,
+      "records": 5996.0,
+      "se_record_bootstrap": 0.017113915517200658,
+      "se_model": 0.01603615608691093,
+      "ratio_model_to_record": 0.9370243805862833
+     },
+     "car|lat|new": {
+      "E": 0.09551919707659645,
+      "rho": 0.29671025080324576,
+      "logs": 285,
+      "records": 4200.0,
+      "se_record_bootstrap": 0.012357051758429676,
+      "se_model": 0.011534828436207609,
+      "ratio_model_to_record": 0.9334612059335944
+     },
+     "pedestrian|long|static": {
+      "E": 0.07598727174047581,
+      "rho": 0.05811982458818542,
+      "logs": 318,
+      "records": 53169.0,
+      "se_record_bootstrap": 0.007103933867662505,
+      "se_model": 0.004878120419747901,
+      "ratio_model_to_record": 0.686678748792042
+     },
+     "pedestrian|long|straight": {
+      "E": 0.05955798782108807,
+      "rho": 0.11592136200290819,
+      "logs": 271,
+      "records": 21046.0,
+      "se_record_bootstrap": 0.009498234118513294,
+      "se_model": 0.0061944082353819875,
+      "ratio_model_to_record": 0.6521641979016163
+     },
+     "pedestrian|long|turning": {
+      "E": 0.07246422251811338,
+      "rho": 0.11121970509469344,
+      "logs": 277,
+      "records": 20339.0,
+      "se_record_bootstrap": 0.009121639566586631,
+      "se_model": 0.0065729921558405355,
+      "ratio_model_to_record": 0.7205932779801982
+     },
+     "pedestrian|long|new": {
+      "E": 0.05646377838183876,
+      "rho": 0.142926763068529,
+      "logs": 240,
+      "records": 5515.0,
+      "se_record_bootstrap": 0.0090481553574237,
+      "se_model": 0.007205981287138184,
+      "ratio_model_to_record": 0.7964033554337596
+     },
+     "pedestrian|lat|static": {
+      "E": 0.0020867415751857753,
+      "rho": 0.06687296661568215,
+      "logs": 302,
+      "records": 37890.0,
+      "se_record_bootstrap": 0.0007243767256471328,
+      "se_model": 0.0009041652832559763,
+      "ratio_model_to_record": 1.2481975900705902
+     },
+     "pedestrian|lat|straight": {
+      "E": 0.0007405172486509026,
+      "rho": 0.032438885247135785,
+      "logs": 237,
+      "records": 9237.0,
+      "se_record_bootstrap": 0.0004387641213695666,
+      "se_model": 0.000695795246627208,
+      "ratio_model_to_record": 1.5858070720444044
+     },
+     "pedestrian|lat|turning": {
+      "E": 0.0020593289732288413,
+      "rho": 0.03535785003190486,
+      "logs": 237,
+      "records": 8545.0,
+      "se_record_bootstrap": 0.0008398906733147899,
+      "se_model": 0.0011322126764733572,
+      "ratio_model_to_record": 1.3480476834024866
+     },
+     "pedestrian|lat|new": {
+      "E": 0.005032369400766236,
+      "rho": 0.18001933393614825,
+      "logs": 138,
+      "records": 1281.0,
+      "se_record_bootstrap": 0.003259988993247509,
+      "se_model": 0.0037251509904874408,
+      "ratio_model_to_record": 1.142688210973544
+     },
+     "two_wheeler|long|straight": {
+      "E": 0.0,
+      "rho": 0.0,
+      "logs": 50,
+      "records": 1108.0,
+      "se_record_bootstrap": 0.0,
+      "se_model": 0.0,
+      "ratio_model_to_record": null
+     },
+     "two_wheeler|long|new": {
+      "E": 0.007948717948717949,
+      "rho": 0.05133797982961382,
+      "logs": 50,
+      "records": 303.0,
+      "se_record_bootstrap": 0.005625392941439997,
+      "se_model": 0.006949637120914062,
+      "ratio_model_to_record": 1.2354047429680677
+     },
+     "two_wheeler|lat|straight": {
+      "E": 0.0014245014245014244,
+      "rho": 0.0,
+      "logs": 39,
+      "records": 438.0,
+      "se_record_bootstrap": 0.0014368531329369192,
+      "se_model": 0.003407372319573885,
+      "ratio_model_to_record": 2.371413084237243
+     },
+     "large|long|static": {
+      "E": 0.01122898673604141,
+      "rho": 0.20468309595786358,
+      "logs": 189,
+      "records": 5701.0,
+      "se_record_bootstrap": 0.006107232733860006,
+      "se_model": 0.004282795325273643,
+      "ratio_model_to_record": 0.7012661072385155
+     },
+     "large|long|straight": {
+      "E": 0.041853361681562624,
+      "rho": 0.3287771642780085,
+      "logs": 129,
+      "records": 2530.0,
+      "se_record_bootstrap": 0.011999509672530618,
+      "se_model": 0.011788694309976496,
+      "ratio_model_to_record": 0.9824313352539127
+     },
+     "large|long|turning": {
+      "E": 0.08681571808997715,
+      "rho": 0.33080991777607743,
+      "logs": 85,
+      "records": 1022.0,
+      "se_record_bootstrap": 0.02442392967277398,
+      "se_model": 0.02076164235733357,
+      "ratio_model_to_record": 0.8500533139217616
+     },
+     "large|long|new": {
+      "E": 0.2131216931216931,
+      "rho": 0.527433354567309,
+      "logs": 90,
+      "records": 510.0,
+      "se_record_bootstrap": 0.03706991844733603,
+      "se_model": 0.03460176346105755,
+      "ratio_model_to_record": 0.9334189259200851
+     },
+     "large|lat|static": {
+      "E": 0.007462686567164179,
+      "rho": 1.0,
+      "logs": 134,
+      "records": 3124.0,
+      "se_record_bootstrap": 0.007442158365470072,
+      "se_model": 0.007434788575803534,
+      "ratio_model_to_record": 0.9990097241546576
+     },
+     "large|lat|straight": {
+      "E": 0.00048100048100048096,
+      "rho": 0.0,
+      "logs": 77,
+      "records": 850.0,
+      "se_record_bootstrap": 0.00047720699636471126,
+      "se_model": 0.001167277398530761,
+      "ratio_model_to_record": 2.44606094927966
+     },
+     "large|lat|turning": {
+      "E": 0.010869565217391304,
+      "rho": 0.07197690539132531,
+      "logs": 46,
+      "records": 280.0,
+      "se_record_bootstrap": 0.008036710463335943,
+      "se_model": 0.009506623749192032,
+      "ratio_model_to_record": 1.182899868368027
+     }
+    },
+    "ratio_median": 0.9334189259200851,
+    "ratio_min": 0.3666824520633307,
+    "ratio_max": 2.44606094927966,
+    "share_cells_ratio_below_0.8": 0.36
+   }
+  },
+  "t3": {
+   "Mstar|PD7_primary": {
+    "cells": {
+     "car|long|static": {
+      "E": 0.04780713649559775,
+      "rho": 0.06983475075226955,
+      "logs": 374,
+      "records": 176249.0,
+      "se_record_bootstrap": 0.0042377442042436965,
+      "se_model": 0.0030837693464657854,
+      "ratio_model_to_record": 0.7276912427554463
+     },
+     "car|long|straight": {
+      "E": 0.04178005771836508,
+      "rho": 0.07087181518557453,
+      "logs": 344,
+      "records": 44417.0,
+      "se_record_bootstrap": 0.0051439643717189785,
+      "se_model": 0.0034322351965671715,
+      "ratio_model_to_record": 0.667235413883749
+     },
+     "car|long|turning": {
+      "E": 0.04285508106505851,
+      "rho": 0.13943225064306655,
+      "logs": 294,
+      "records": 9886.0,
+      "se_record_bootstrap": 0.0069861767821601676,
+      "se_model": 0.005547808799324871,
+      "ratio_model_to_record": 0.7941122837732507
+     },
+     "car|long|new": {
+      "E": 0.05575532009133511,
+      "rho": 0.1251137699791374,
+      "logs": 339,
+      "records": 7880.0,
+      "se_record_bootstrap": 0.006147926700105511,
+      "se_model": 0.0057523519946106015,
+      "ratio_model_to_record": 0.935657218312619
+     },
+     "car|lat|static": {
+      "E": 0.05744156345450077,
+      "rho": 0.05595680200095512,
+      "logs": 370,
+      "records": 92164.0,
+      "se_record_bootstrap": 0.004869413906268984,
+      "se_model": 0.003248477404454282,
+      "ratio_model_to_record": 0.6671187676759467
+     },
+     "car|lat|straight": {
+      "E": 0.06258662249631415,
+      "rho": 0.12043394376591185,
+      "logs": 319,
+      "records": 15761.0,
+      "se_record_bootstrap": 0.008313697872971386,
+      "se_model": 0.006128805188564339,
+      "ratio_model_to_record": 0.7371936390050522
+     },
+     "car|lat|turning": {
+      "E": 0.060055813705204,
+      "rho": 0.19143037654566314,
+      "logs": 244,
+      "records": 4567.0,
+      "se_record_bootstrap": 0.011034259140496524,
+      "se_model": 0.00894139500468822,
+      "ratio_model_to_record": 0.810330343962347
+     },
+     "car|lat|new": {
+      "E": 0.06255890528486956,
+      "rho": 0.11767206271165599,
+      "logs": 302,
+      "records": 5856.0,
+      "se_record_bootstrap": 0.008135150776409621,
+      "se_model": 0.007024990807499662,
+      "ratio_model_to_record": 0.8635354157013032
+     },
+     "pedestrian|long|static": {
+      "E": 0.045073556679747356,
+      "rho": 0.04303844706274101,
+      "logs": 324,
+      "records": 49224.0,
+      "se_record_bootstrap": 0.005578160533020504,
+      "se_model": 0.003590632129393115,
+      "ratio_model_to_record": 0.6436946567130855
+     },
+     "pedestrian|long|straight": {
+      "E": 0.04217138136204723,
+      "rho": 0.07861943864967637,
+      "logs": 264,
+      "records": 18950.0,
+      "se_record_bootstrap": 0.007277888378333553,
+      "se_model": 0.005004520564341367,
+      "ratio_model_to_record": 0.6876335970251954
+     },
+     "pedestrian|long|turning": {
+      "E": 0.040541857014451795,
+      "rho": 0.1288038597628295,
+      "logs": 270,
+      "records": 15197.0,
+      "se_record_bootstrap": 0.006278222268503263,
+      "se_model": 0.005567796195215929,
+      "ratio_model_to_record": 0.8868427967497398
+     },
+     "pedestrian|long|new": {
+      "E": 0.039985985823851315,
+      "rho": 0.10516502122481741,
+      "logs": 243,
+      "records": 5089.0,
+      "se_record_bootstrap": 0.007150787371034389,
+      "se_model": 0.005810956572905696,
+      "ratio_model_to_record": 0.8126317105224062
+     },
+     "pedestrian|lat|static": {
+      "E": 0.04826494512936665,
+      "rho": 0.05973977853640376,
+      "logs": 318,
+      "records": 46560.0,
+      "se_record_bootstrap": 0.006058144858764181,
+      "se_model": 0.004014367876747625,
+      "ratio_model_to_record": 0.6626397965608448
+     },
+     "pedestrian|lat|straight": {
+      "E": 0.04135605947583332,
+      "rho": 0.08759072171840561,
+      "logs": 245,
+      "records": 12583.0,
+      "se_record_bootstrap": 0.0056178550534687595,
+      "se_model": 0.005275686994839991,
+      "ratio_model_to_record": 0.9390927577568068
+     },
+     "pedestrian|lat|turning": {
+      "E": 0.04514321050596046,
+      "rho": 0.08795020871382606,
+      "logs": 239,
+      "records": 8431.0,
+      "se_record_bootstrap": 0.006552463540051903,
+      "se_model": 0.006210998617760253,
+      "ratio_model_to_record": 0.9478875509639318
+     },
+     "pedestrian|lat|new": {
+      "E": 0.05852566339005154,
+      "rho": 0.1623533886062548,
+      "logs": 186,
+      "records": 1842.0,
+      "se_record_bootstrap": 0.011964022589242153,
+      "se_model": 0.010462082260463967,
+      "ratio_model_to_record": 0.8744619280367537
+     },
+     "two_wheeler|long|straight": {
+      "E": 0.027068475672804196,
+      "rho": 0.09812294613276948,
+      "logs": 51,
+      "records": 1108.0,
+      "se_record_bootstrap": 0.009068385235836734,
+      "se_model": 0.011290110929387177,
+      "ratio_model_to_record": 1.2449968363464046
+     },
+     "two_wheeler|long|new": {
+      "E": 0.013443472627146093,
+      "rho": 0.06346987452785305,
+      "logs": 49,
+      "records": 316.0,
+      "se_record_bootstrap": 0.008272372782577227,
+      "se_model": 0.008509637758259315,
+      "ratio_model_to_record": 1.0286816106960026
+     },
+     "two_wheeler|lat|straight": {
+      "E": 0.01844865660655134,
+      "rho": 0.16426577983111065,
+      "logs": 46,
+      "records": 582.0,
+      "se_record_bootstrap": 0.01314670359417157,
+      "se_model": 0.011647584288412324,
+      "ratio_model_to_record": 0.8859699471414368
+     },
+     "large|long|static": {
+      "E": 0.05604515522323795,
+      "rho": 0.27472380816213726,
+      "logs": 184,
+      "records": 5493.0,
+      "se_record_bootstrap": 0.011939571498032034,
+      "se_model": 0.010339608654534151,
+      "ratio_model_to_record": 0.8659949526864008
+     },
+     "large|long|straight": {
+      "E": 0.052557573511521447,
+      "rho": 0.22161162517405408,
+      "logs": 127,
+      "records": 2471.0,
+      "se_record_bootstrap": 0.012306416327808819,
+      "se_model": 0.011740024129479566,
+      "ratio_model_to_record": 0.9539758624085083
+     },
+     "large|long|turning": {
+      "E": 0.06251027453559098,
+      "rho": 0.46685817081988784,
+      "logs": 79,
+      "records": 754.0,
+      "se_record_bootstrap": 0.024005972601307414,
+      "se_model": 0.021217787623345485,
+      "ratio_model_to_record": 0.8838545296927449
+     },
+     "large|long|new": {
+      "E": 0.048596938775510204,
+      "rho": 0.27577925473720133,
+      "logs": 84,
+      "records": 327.0,
+      "se_record_bootstrap": 0.01686840929411195,
+      "se_model": 0.017531515457628065,
+      "ratio_model_to_record": 1.0393105331957755
+     },
+     "large|lat|static": {
+      "E": 0.04170995966168781,
+      "rho": 0.3780040966178473,
+      "logs": 151,
+      "records": 4264.0,
+      "se_record_bootstrap": 0.013309773461423766,
+      "se_model": 0.010870196673826051,
+      "ratio_model_to_record": 0.8167078654893387
+     },
+     "large|lat|straight": {
+      "E": 0.05360596628814231,
+      "rho": 0.3402822706953468,
+      "logs": 99,
+      "records": 1311.0,
+      "se_record_bootstrap": 0.018537877980553136,
+      "se_model": 0.01527114104469898,
+      "ratio_model_to_record": 0.8237804273347212
+     },
+     "large|lat|turning": {
+      "E": 0.049343164674972455,
+      "rho": 0.1445446102467567,
+      "logs": 46,
+      "records": 299.0,
+      "se_record_bootstrap": 0.024136593645680406,
+      "se_model": 0.020746550973790412,
+      "ratio_model_to_record": 0.8595475931005413
+     },
+     "large|lat|new": {
+      "E": 0.01053639846743295,
+      "rho": 0.11563745625874546,
+      "logs": 58,
+      "records": 234.0,
+      "se_record_bootstrap": 0.008805271474638898,
+      "se_model": 0.009453466777543633,
+      "ratio_model_to_record": 1.0736144597894204
+     }
+    },
+    "ratio_median": 0.8635354157013032,
+    "ratio_min": 0.6436946567130855,
+    "ratio_max": 1.2449968363464046,
+    "share_cells_ratio_below_0.8": 0.2962962962962963
+   },
+   "Mstar|SD1_7_gap_le_5m": {
+    "cells": {
+     "car|long|static": {
+      "E": 0.035434961537387934,
+      "rho": 0.18429780503249552,
+      "logs": 282,
+      "records": 8620.0,
+      "se_record_bootstrap": 0.005602968736916448,
+      "se_model": 0.005866734175120853,
+      "ratio_model_to_record": 1.0470760146253406
+     },
+     "car|long|straight": {
+      "E": 0.029501492659387396,
+      "rho": 0.3428161154782998,
+      "logs": 209,
+      "records": 1771.0,
+      "se_record_bootstrap": 0.008833789303858464,
+      "se_model": 0.008786572439167363,
+      "ratio_model_to_record": 0.9946549704699797
+     },
+     "car|long|turning": {
+      "E": 0.03728070175438597,
+      "rho": 0.287528093561941,
+      "logs": 95,
+      "records": 320.0,
+      "se_record_bootstrap": 0.016579778281247994,
+      "se_model": 0.015959182652551522,
+      "ratio_model_to_record": 0.9625691237742078
+     },
+     "car|lat|static": {
+      "E": 0.032795284236902277,
+      "rho": 0.19527866692877358,
+      "logs": 295,
+      "records": 24515.0,
+      "se_record_bootstrap": 0.006535744213126964,
+      "se_model": 0.0052134604051372645,
+      "ratio_model_to_record": 0.7976842781983561
+     },
+     "car|lat|straight": {
+      "E": 0.04279607562122876,
+      "rho": 0.2294813057392723,
+      "logs": 265,
+      "records": 6194.0,
+      "se_record_bootstrap": 0.00921390720228596,
+      "se_model": 0.007430582644833033,
+      "ratio_model_to_record": 0.8064529500567919
+     },
+     "car|lat|turning": {
+      "E": 0.036349708262751745,
+      "rho": 0.37684543934617526,
+      "logs": 115,
+      "records": 717.0,
+      "se_record_bootstrap": 0.014279434543731463,
+      "se_model": 0.013699436230152968,
+      "ratio_model_to_record": 0.9593822632260247
+     },
+     "car|lat|new": {
+      "E": 0.019083969465648856,
+      "rho": 0.33531711211093834,
+      "logs": 131,
+      "records": 489.0,
+      "se_record_bootstrap": 0.011074719361094847,
+      "se_model": 0.00952122688357125,
+      "ratio_model_to_record": 0.8597262443524331
+     },
+     "pedestrian|long|static": {
+      "E": 0.028693855812219348,
+      "rho": 0.13421567123844616,
+      "logs": 174,
+      "records": 3054.0,
+      "se_record_bootstrap": 0.007988430457672136,
+      "se_model": 0.007834970823478633,
+      "ratio_model_to_record": 0.9807897640210262
+     },
+     "pedestrian|long|straight": {
+      "E": 0.03474847069553868,
+      "rho": 0.2345832427032687,
+      "logs": 94,
+      "records": 739.0,
+      "se_record_bootstrap": 0.014243504879632125,
+      "se_model": 0.013947892145753819,
+      "ratio_model_to_record": 0.9792457870182623
+     },
+     "pedestrian|long|turning": {
+      "E": 0.02600511695906433,
+      "rho": 0.45644760683819646,
+      "logs": 80,
+      "records": 446.0,
+      "se_record_bootstrap": 0.011790053734396531,
+      "se_model": 0.014698955505687302,
+      "ratio_model_to_record": 1.246725064772545
+     },
+     "pedestrian|lat|static": {
+      "E": 0.04624316953555345,
+      "rho": 0.15305444577961871,
+      "logs": 177,
+      "records": 3609.0,
+      "se_record_bootstrap": 0.011601390695691447,
+      "se_model": 0.009323735918932924,
+      "ratio_model_to_record": 0.8036739873259847
+     },
+     "pedestrian|lat|straight": {
+      "E": 0.03832507949720857,
+      "rho": 0.24197203760878852,
+      "logs": 121,
+      "records": 2500.0,
+      "se_record_bootstrap": 0.012587182947100211,
+      "se_model": 0.011546243427832191,
+      "ratio_model_to_record": 0.9173016294716024
+     },
+     "pedestrian|lat|turning": {
+      "E": 0.0630399922789186,
+      "rho": 0.1467294126078655,
+      "logs": 111,
+      "records": 1395.0,
+      "se_record_bootstrap": 0.01742047945323653,
+      "se_model": 0.015235241957337702,
+      "ratio_model_to_record": 0.8745592793949861
+     },
+     "large|long|static": {
+      "E": 0.03181205871423263,
+      "rho": 0.3981485838625798,
+      "logs": 48,
+      "records": 341.0,
+      "se_record_bootstrap": 0.017311915189993744,
+      "se_model": 0.01933879743433704,
+      "ratio_model_to_record": 1.1170801856466366
+     },
+     "large|lat|static": {
+      "E": 0.048528489695507,
+      "rho": 0.5048590451234409,
+      "logs": 69,
+      "records": 1316.0,
+      "se_record_bootstrap": 0.022729324992739625,
+      "se_model": 0.01987311789087287,
+      "ratio_model_to_record": 0.8743382347351227
+     },
+     "large|lat|straight": {
+      "E": 0.052024638598712675,
+      "rho": 0.20507096950976855,
+      "logs": 54,
+      "records": 497.0,
+      "se_record_bootstrap": 0.026470039673407986,
+      "se_model": 0.019467688838926283,
+      "ratio_model_to_record": 0.735461264097903
+     }
+    },
+    "ratio_median": 0.9383419463488136,
+    "ratio_min": 0.735461264097903,
+    "ratio_max": 1.246725064772545,
+    "share_cells_ratio_below_0.8": 0.125
+   },
+   "Mstar|PD_inpath": {
+    "cells": {
+     "car|long|static": {
+      "E": 0.029805552363978437,
+      "rho": 0.28524000508021147,
+      "logs": 172,
+      "records": 3927.0,
+      "se_record_bootstrap": 0.008360761167093419,
+      "se_model": 0.007916674687491866,
+      "ratio_model_to_record": 0.9468844438052597
+     },
+     "car|long|straight": {
+      "E": 0.040904990751027374,
+      "rho": 0.2658992599537637,
+      "logs": 218,
+      "records": 8708.0,
+      "se_record_bootstrap": 0.008506049128228488,
+      "se_model": 0.007901126164733508,
+      "ratio_model_to_record": 0.9288832036617962
+     },
+     "car|long|turning": {
+      "E": 0.043079869865584146,
+      "rho": 0.34588554557593953,
+      "logs": 126,
+      "records": 1340.0,
+      "se_record_bootstrap": 0.012645511303858489,
+      "se_model": 0.012415651401041087,
+      "ratio_model_to_record": 0.9818228067419255
+     },
+     "car|long|new": {
+      "E": 0.0378607729358668,
+      "rho": 0.3344605199865311,
+      "logs": 141,
+      "records": 755.0,
+      "se_record_bootstrap": 0.012571405237245308,
+      "se_model": 0.01189349448248584,
+      "ratio_model_to_record": 0.9460751807800276
+     },
+     "car|lat|static": {
+      "E": 0.050856697819314636,
+      "rho": 0.5200664165092466,
+      "logs": 107,
+      "records": 1012.0,
+      "se_record_bootstrap": 0.019035866915535108,
+      "se_model": 0.017098859070099268,
+      "ratio_model_to_record": 0.8982443061810306
+     },
+     "car|lat|straight": {
+      "E": 0.0994937055281883,
+      "rho": 0.5633129662833333,
+      "logs": 87,
+      "records": 540.0,
+      "se_record_bootstrap": 0.027170413059883866,
+      "se_model": 0.027156343684144834,
+      "ratio_model_to_record": 0.999482180277936
+     },
+     "car|lat|turning": {
+      "E": 0.06755270092226615,
+      "rho": 0.6212122757399647,
+      "logs": 66,
+      "records": 583.0,
+      "se_record_bootstrap": 0.02792539001227655,
+      "se_model": 0.026130471288264227,
+      "ratio_model_to_record": 0.9357244886025499
+     },
+     "large|long|straight": {
+      "E": 0.02791457668338653,
+      "rho": 0.18850852798441867,
+      "logs": 43,
+      "records": 697.0,
+      "se_record_bootstrap": 0.01277826537305653,
+      "se_model": 0.015079003362303332,
+      "ratio_model_to_record": 1.1800508850049394
+     }
+    },
+    "ratio_median": 0.9464798122926437,
+    "ratio_min": 0.8982443061810306,
+    "ratio_max": 1.1800508850049394,
+    "share_cells_ratio_below_0.8": 0.0
+   },
+   "B1|PD7_primary": {
+    "cells": {
+     "car|long|static": {
+      "E": 0.007197932372214503,
+      "rho": 0.05490969313536027,
+      "logs": 373,
+      "records": 166502.0,
+      "se_record_bootstrap": 0.0011812211369899572,
+      "se_model": 0.0010837596256600337,
+      "ratio_model_to_record": 0.9174908844094345
+     },
+     "car|long|straight": {
+      "E": 0.03385969459332353,
+      "rho": 0.05016896481889688,
+      "logs": 348,
+      "records": 46965.0,
+      "se_record_bootstrap": 0.004104797169013509,
+      "se_model": 0.0028033816340800113,
+      "ratio_model_to_record": 0.6829525354485999
+     },
+     "car|long|turning": {
+      "E": 0.04300613961801879,
+      "rho": 0.11446869932444897,
+      "logs": 296,
+      "records": 10475.0,
+      "se_record_bootstrap": 0.005918020832901435,
+      "se_model": 0.0051675146157274775,
+      "ratio_model_to_record": 0.873182903817862
+     },
+     "car|long|new": {
+      "E": 0.08787535810785607,
+      "rho": 0.11420685077526822,
+      "logs": 342,
+      "records": 8763.0,
+      "se_record_bootstrap": 0.007550679152527571,
+      "se_model": 0.006737783143631193,
+      "ratio_model_to_record": 0.8923413387755639
+     },
+     "car|lat|static": {
+      "E": 0.0041181393222388075,
+      "rho": 0.03688325787900884,
+      "logs": 371,
+      "records": 85886.0,
+      "se_record_bootstrap": 0.0017796195388938933,
+      "se_model": 0.0008262986025474552,
+      "ratio_model_to_record": 0.46431194111356733
+     },
+     "car|lat|straight": {
+      "E": 0.005959267376115527,
+      "rho": 0.3072596912050928,
+      "logs": 235,
+      "records": 5125.0,
+      "se_record_bootstrap": 0.0038693028197999083,
+      "se_model": 0.003328965019723388,
+      "ratio_model_to_record": 0.8603526719822713
+     },
+     "car|lat|turning": {
+      "E": 0.006942245817895811,
+      "rho": 0.1392370477765331,
+      "logs": 211,
+      "records": 2748.0,
+      "se_record_bootstrap": 0.0036073576042171505,
+      "se_model": 0.003402463268348495,
+      "ratio_model_to_record": 0.9432009913214244
+     },
+     "car|lat|new": {
+      "E": 0.02072522750154329,
+      "rho": 0.15199350467665848,
+      "logs": 232,
+      "records": 2523.0,
+      "se_record_bootstrap": 0.006353603451739893,
+      "se_model": 0.005689016810687816,
+      "ratio_model_to_record": 0.8954000440694667
+     },
+     "pedestrian|long|static": {
+      "E": 0.013700885219158814,
+      "rho": 0.03019313439180529,
+      "logs": 324,
+      "records": 48363.0,
+      "se_record_bootstrap": 0.002082093551831861,
+      "se_model": 0.0019388444635793462,
+      "ratio_model_to_record": 0.9311994947938425
+     },
+     "pedestrian|long|straight": {
+      "E": 0.005333162460355052,
+      "rho": 0.06363397273199402,
+      "logs": 266,
+      "records": 19210.0,
+      "se_record_bootstrap": 0.0014404324667220815,
+      "se_model": 0.0017324177371427709,
+      "ratio_model_to_record": 1.2027066712021184
+     },
+     "pedestrian|long|turning": {
+      "E": 0.0065198301903902555,
+      "rho": 0.09777722984022502,
+      "logs": 269,
+      "records": 15266.0,
+      "se_record_bootstrap": 0.0017609383127854042,
+      "se_model": 0.00209812420204107,
+      "ratio_model_to_record": 1.1914808070262917
+     },
+     "pedestrian|long|new": {
+      "E": 0.0210218240797078,
+      "rho": 0.10650892246896511,
+      "logs": 242,
+      "records": 4862.0,
+      "se_record_bootstrap": 0.005180935497708034,
+      "se_model": 0.004290163301051192,
+      "ratio_model_to_record": 0.8280673061745498
+     },
+     "pedestrian|lat|static": {
+      "E": 0.01818547061830674,
+      "rho": 0.036963218397245604,
+      "logs": 320,
+      "records": 46806.0,
+      "se_record_bootstrap": 0.0028293573755531994,
+      "se_model": 0.0022962001155880495,
+      "ratio_model_to_record": 0.8115624188828722
+     },
+     "pedestrian|lat|straight": {
+      "E": 0.0014519251075849062,
+      "rho": 0.09389287542899566,
+      "logs": 243,
+      "records": 11987.0,
+      "se_record_bootstrap": 0.0007650529815008224,
+      "se_model": 0.0010812574969847795,
+      "ratio_model_to_record": 1.4133106113300171
+     },
+     "pedestrian|lat|turning": {
+      "E": 0.004148241063908631,
+      "rho": 0.12604899190317104,
+      "logs": 232,
+      "records": 8126.0,
+      "se_record_bootstrap": 0.0016932060635386757,
+      "se_model": 0.0020755254778366166,
+      "ratio_model_to_record": 1.2257961523589878
+     },
+     "pedestrian|lat|new": {
+      "E": 0.02401708714436383,
+      "rho": 0.13067856267190922,
+      "logs": 199,
+      "records": 2047.0,
+      "se_record_bootstrap": 0.0064907168451612,
+      "se_model": 0.006344958620619783,
+      "ratio_model_to_record": 0.9775435860139117
+     },
+     "two_wheeler|long|straight": {
+      "E": 0.11392238987586331,
+      "rho": 0.2613319370023854,
+      "logs": 51,
+      "records": 1149.0,
+      "se_record_bootstrap": 0.028832700591043373,
+      "se_model": 0.026659517787974957,
+      "ratio_model_to_record": 0.9246278441311357
+     },
+     "two_wheeler|long|new": {
+      "E": 0.12030677655677656,
+      "rho": 0.34844780197373326,
+      "logs": 52,
+      "records": 332.0,
+      "se_record_bootstrap": 0.03538511769124145,
+      "se_model": 0.032222639526008005,
+      "ratio_model_to_record": 0.9106268857764398
+     },
+     "two_wheeler|lat|straight": {
+      "E": 0.012517573184913934,
+      "rho": 0.03556343055035664,
+      "logs": 46,
+      "records": 552.0,
+      "se_record_bootstrap": 0.008988547437253585,
+      "se_model": 0.00848559918358265,
+      "ratio_model_to_record": 0.9440456584134568
+     },
+     "large|long|static": {
+      "E": 0.03912012401109338,
+      "rho": 0.21631256585843192,
+      "logs": 186,
+      "records": 5513.0,
+      "se_record_bootstrap": 0.010438819913369818,
+      "se_model": 0.008093933216502128,
+      "ratio_model_to_record": 0.77536860331651
+     },
+     "large|long|straight": {
+      "E": 0.13143488073903242,
+      "rho": 0.3003632373327579,
+      "logs": 134,
+      "records": 2792.0,
+      "se_record_bootstrap": 0.018534690322521936,
+      "se_model": 0.018494218822554313,
+      "ratio_model_to_record": 0.9978164458502743
+     },
+     "large|long|turning": {
+      "E": 0.13502897993638735,
+      "rho": 0.4117682704717849,
+      "logs": 81,
+      "records": 891.0,
+      "se_record_bootstrap": 0.029378053449312477,
+      "se_model": 0.027409254746970854,
+      "ratio_model_to_record": 0.932984031575186
+     },
+     "large|long|new": {
+      "E": 0.22900189933523274,
+      "rho": 0.45411443497059256,
+      "logs": 90,
+      "records": 455.0,
+      "se_record_bootstrap": 0.03756288989026358,
+      "se_model": 0.03432886201835719,
+      "ratio_model_to_record": 0.9139036458229307
+     },
+     "large|lat|static": {
+      "E": 0.007352941176470588,
+      "rho": 1.0,
+      "logs": 136,
+      "records": 3634.0,
+      "se_record_bootstrap": 0.007359549610661092,
+      "se_model": 0.007325858428180932,
+      "ratio_model_to_record": 0.9954221135446448
+     },
+     "large|lat|straight": {
+      "E": 0.0037593984962406013,
+      "rho": 0.18023883493665865,
+      "logs": 76,
+      "records": 577.0,
+      "se_record_bootstrap": 0.00377131430835388,
+      "se_model": 0.004781945294100342,
+      "ratio_model_to_record": 1.2679784560803649
+     }
+    },
+    "ratio_median": 0.9246278441311357,
+    "ratio_min": 0.46431194111356733,
+    "ratio_max": 1.4133106113300171,
+    "share_cells_ratio_below_0.8": 0.12
+   },
+   "B4|PD7_primary": {
+    "cells": {
+     "car|long|static": {
+      "E": 0.0358460011370152,
+      "rho": 0.06674268016482929,
+      "logs": 374,
+      "records": 176560.0,
+      "se_record_bootstrap": 0.003694501271269837,
+      "se_model": 0.002630598907342253,
+      "ratio_model_to_record": 0.7120308572632024
+     },
+     "car|long|straight": {
+      "E": 0.19651618180122105,
+      "rho": 0.0873641889590652,
+      "logs": 346,
+      "records": 48430.0,
+      "se_record_bootstrap": 0.00862662290966729,
+      "se_model": 0.0072548715049864905,
+      "ratio_model_to_record": 0.8409862794462051
+     },
+     "car|long|turning": {
+      "E": 0.22406737005672195,
+      "rho": 0.19166823876312936,
+      "logs": 295,
+      "records": 10731.0,
+      "se_record_bootstrap": 0.014552653926996532,
+      "se_model": 0.012379972598494151,
+      "ratio_model_to_record": 0.8507020548003376
+     },
+     "car|long|new": {
+      "E": 0.2481472080082625,
+      "rho": 0.08949475928092027,
+      "logs": 341,
+      "records": 11158.0,
+      "se_record_bootstrap": 0.011540633584416048,
+      "se_model": 0.009232951322335585,
+      "ratio_model_to_record": 0.8000385121665544
+     },
+     "car|lat|static": {
+      "E": 0.011947565083812764,
+      "rho": 0.02697120173416749,
+      "logs": 370,
+      "records": 90433.0,
+      "se_record_bootstrap": 0.0016639989058063155,
+      "se_model": 0.0011671066188673048,
+      "ratio_model_to_record": 0.7013866504327814
+     },
+     "car|lat|straight": {
+      "E": 0.0138937298258287,
+      "rho": 0.11266098301991996,
+      "logs": 301,
+      "records": 10118.0,
+      "se_record_bootstrap": 0.004218463438258317,
+      "se_model": 0.0031874238289877716,
+      "ratio_model_to_record": 0.7555888241391913
+     },
+     "car|lat|turning": {
+      "E": 0.05218222277753903,
+      "rho": 0.18648363794486147,
+      "logs": 228,
+      "records": 3919.0,
+      "se_record_bootstrap": 0.010630916778593345,
+      "se_model": 0.008517511739473658,
+      "ratio_model_to_record": 0.8012019957323636
+     },
+     "car|lat|new": {
+      "E": 0.07153461586998054,
+      "rho": 0.2107133707740671,
+      "logs": 256,
+      "records": 3331.0,
+      "se_record_bootstrap": 0.011290977983005508,
+      "se_model": 0.010121078733915729,
+      "ratio_model_to_record": 0.8963863669869306
+     },
+     "pedestrian|long|static": {
+      "E": 0.05975071457998443,
+      "rho": 0.04503307154840348,
+      "logs": 324,
+      "records": 49622.0,
+      "se_record_bootstrap": 0.0063535999708596155,
+      "se_model": 0.004134917843946515,
+      "ratio_model_to_record": 0.6507992103549255
+     },
+     "pedestrian|long|straight": {
+      "E": 0.018888645502879123,
+      "rho": 0.07833202109637234,
+      "logs": 265,
+      "records": 19122.0,
+      "se_record_bootstrap": 0.005330011467360613,
+      "se_model": 0.0033728007044080805,
+      "ratio_model_to_record": 0.6327942679039431
+     },
+     "pedestrian|long|turning": {
+      "E": 0.02536863263056449,
+      "rho": 0.12083289974263144,
+      "logs": 270,
+      "records": 15271.0,
+      "se_record_bootstrap": 0.0044084045862592585,
+      "se_model": 0.004348782483786545,
+      "ratio_model_to_record": 0.9864753560372949
+     },
+     "pedestrian|long|new": {
+      "E": 0.030920275347649306,
+      "rho": 0.12077380135455561,
+      "logs": 242,
+      "records": 5151.0,
+      "se_record_bootstrap": 0.006504516225825802,
+      "se_model": 0.005258672865534159,
+      "ratio_model_to_record": 0.808464870093629
+     },
+     "pedestrian|lat|static": {
+      "E": 0.05637221316244535,
+      "rho": 0.06578481966340076,
+      "logs": 319,
+      "records": 46190.0,
+      "se_record_bootstrap": 0.006985889458959442,
+      "se_model": 0.004474846782482703,
+      "ratio_model_to_record": 0.6405550515466126
+     },
+     "pedestrian|lat|straight": {
+      "E": 0.012768702555212164,
+      "rho": 0.0796347003148237,
+      "logs": 246,
+      "records": 12393.0,
+      "se_record_bootstrap": 0.002847909271134669,
+      "se_model": 0.0030123781998287196,
+      "ratio_model_to_record": 1.0577507613606394
+     },
+     "pedestrian|lat|turning": {
+      "E": 0.020716702665203004,
+      "rho": 0.09220072263584107,
+      "logs": 239,
+      "records": 8343.0,
+      "se_record_bootstrap": 0.004177095440313193,
+      "se_model": 0.004320762817302233,
+      "ratio_model_to_record": 1.0343940853260152
+     },
+     "pedestrian|lat|new": {
+      "E": 0.06621377346722551,
+      "rho": 0.21164874671748762,
+      "logs": 181,
+      "records": 1791.0,
+      "se_record_bootstrap": 0.013169717403382738,
+      "se_model": 0.01166795020890137,
+      "ratio_model_to_record": 0.8859681534172003
+     },
+     "two_wheeler|long|straight": {
+      "E": 0.15148682690448695,
+      "rho": 0.23090937021222044,
+      "logs": 51,
+      "records": 1135.0,
+      "se_record_bootstrap": 0.03370088168909755,
+      "se_model": 0.02907374245770999,
+      "ratio_model_to_record": 0.8626997574106653
+     },
+     "two_wheeler|long|new": {
+      "E": 0.17583943833943833,
+      "rho": 0.4324648044785848,
+      "logs": 52,
+      "records": 334.0,
+      "se_record_bootstrap": 0.04174525526329093,
+      "se_model": 0.039666995031240965,
+      "ratio_model_to_record": 0.9502156539960721
+     },
+     "two_wheeler|lat|straight": {
+      "E": 0.018040487403480326,
+      "rho": 0.13053258353303565,
+      "logs": 46,
+      "records": 578.0,
+      "se_record_bootstrap": 0.013449965802922775,
+      "se_model": 0.011306662343740767,
+      "ratio_model_to_record": 0.8406461777979947
+     },
+     "large|long|static": {
+      "E": 0.12625499579652408,
+      "rho": 0.38737554353200976,
+      "logs": 185,
+      "records": 5779.0,
+      "se_record_bootstrap": 0.01755779316877208,
+      "se_model": 0.01656304531172479,
+      "ratio_model_to_record": 0.9433443686524041
+     },
+     "large|long|straight": {
+      "E": 0.27991266404913295,
+      "rho": 0.3311516752599846,
+      "logs": 138,
+      "records": 2904.0,
+      "se_record_bootstrap": 0.026145136105739954,
+      "se_model": 0.025350928640622238,
+      "ratio_model_to_record": 0.9696231275329504
+     },
+     "large|long|turning": {
+      "E": 0.27487664596137,
+      "rho": 0.49233549149347355,
+      "logs": 82,
+      "records": 967.0,
+      "se_record_bootstrap": 0.03940932938763569,
+      "se_model": 0.037667389864857764,
+      "ratio_model_to_record": 0.9557988032314897
+     },
+     "large|long|new": {
+      "E": 0.3186584094917428,
+      "rho": 0.3936550004180972,
+      "logs": 90,
+      "records": 500.0,
+      "se_record_bootstrap": 0.03961028942697993,
+      "se_model": 0.036338807989333706,
+      "ratio_model_to_record": 0.9174082925176026
+     },
+     "large|lat|static": {
+      "E": 0.026592706340363155,
+      "rho": 0.37860992655067943,
+      "logs": 146,
+      "records": 3946.0,
+      "se_record_bootstrap": 0.011601638589064829,
+      "se_model": 0.008955037064242175,
+      "ratio_model_to_record": 0.7718769202725192
+     },
+     "large|lat|straight": {
+      "E": 0.021750443524541693,
+      "rho": 0.2926004654720853,
+      "logs": 89,
+      "records": 821.0,
+      "se_record_bootstrap": 0.01299577714393908,
+      "se_model": 0.010673749806269287,
+      "ratio_model_to_record": 0.821324472407352
+     },
+     "large|lat|turning": {
+      "E": 0.015945165945165946,
+      "rho": 0.05140030127782748,
+      "logs": 40,
+      "records": 227.0,
+      "se_record_bootstrap": 0.009264787760092846,
+      "se_model": 0.012391554505424793,
+      "ratio_model_to_record": 1.3374893010285873
+     }
+    },
+    "ratio_median": 0.8458441671232713,
+    "ratio_min": 0.6327942679039431,
+    "ratio_max": 1.3374893010285873,
+    "share_cells_ratio_below_0.8": 0.2692307692307692
+   },
+   "B6|PD7_primary": {
+    "cells": {
+     "car|long|static": {
+      "E": 0.018982707748686756,
+      "rho": 0.05927769402908103,
+      "logs": 373,
+      "records": 168832.0,
+      "se_record_bootstrap": 0.002648256066846331,
+      "se_model": 0.0018075667326912168,
+      "ratio_model_to_record": 0.6825498316874444
+     },
+     "car|long|straight": {
+      "E": 0.10241906267464446,
+      "rho": 0.09108616323530586,
+      "logs": 345,
+      "records": 46118.0,
+      "se_record_bootstrap": 0.007178014489721392,
+      "se_model": 0.005669507094501441,
+      "ratio_model_to_record": 0.7898433616454705
+     },
+     "car|long|turning": {
+      "E": 0.1266359255380218,
+      "rho": 0.16824795033301948,
+      "logs": 295,
+      "records": 10137.0,
+      "se_record_bootstrap": 0.011822024303661341,
+      "se_model": 0.00962362073257649,
+      "ratio_model_to_record": 0.8140416975454877
+     },
+     "car|long|new": {
+      "E": 0.18495700175959712,
+      "rho": 0.11000253004754856,
+      "logs": 340,
+      "records": 9682.0,
+      "se_record_bootstrap": 0.010623241641377868,
+      "se_model": 0.009013497895221954,
+      "ratio_model_to_record": 0.8484696290926952
+     },
+     "car|lat|static": {
+      "E": 0.05387994313283408,
+      "rho": 0.051969271878098244,
+      "logs": 371,
+      "records": 99275.0,
+      "se_record_bootstrap": 0.004367222700187855,
+      "se_model": 0.0030324174782161675,
+      "ratio_model_to_record": 0.6943583339786471
+     },
+     "car|lat|straight": {
+      "E": 0.04854176740927525,
+      "rho": 0.12067056479301161,
+      "logs": 314,
+      "records": 13865.0,
+      "se_record_bootstrap": 0.007500489155879329,
+      "se_model": 0.005494984225473094,
+      "ratio_model_to_record": 0.7326167815556134
+     },
+     "car|lat|turning": {
+      "E": 0.14435820138907116,
+      "rho": 0.1930884522917588,
+      "logs": 239,
+      "records": 4618.0,
+      "se_record_bootstrap": 0.015023766991416403,
+      "se_model": 0.012976812397819287,
+      "ratio_model_to_record": 0.8637522403824146
+     },
+     "car|lat|new": {
+      "E": 0.11258019906803829,
+      "rho": 0.22861871210298187,
+      "logs": 291,
+      "records": 4902.0,
+      "se_record_bootstrap": 0.012786675572138327,
+      "se_model": 0.011385238707967416,
+      "ratio_model_to_record": 0.8903986531710723
+     },
+     "pedestrian|long|static": {
+      "E": 0.07255177925909968,
+      "rho": 0.05109667382492818,
+      "logs": 325,
+      "records": 49567.0,
+      "se_record_bootstrap": 0.00733736364076533,
+      "se_model": 0.004714720808032167,
+      "ratio_model_to_record": 0.6425633291278983
+     },
+     "pedestrian|long|straight": {
+      "E": 0.026154782333713347,
+      "rho": 0.0735929632410006,
+      "logs": 265,
+      "records": 19021.0,
+      "se_record_bootstrap": 0.006483012748417045,
+      "se_model": 0.0038883286815776024,
+      "ratio_model_to_record": 0.5997718703433083
+     },
+     "pedestrian|long|turning": {
+      "E": 0.033536585723080596,
+      "rho": 0.12086454680844233,
+      "logs": 270,
+      "records": 15223.0,
+      "se_record_bootstrap": 0.005388459878352937,
+      "se_model": 0.004987798758551176,
+      "ratio_model_to_record": 0.9256445944023194
+     },
+     "pedestrian|long|new": {
+      "E": 0.033708970136744065,
+      "rho": 0.12428563296804519,
+      "logs": 243,
+      "records": 5152.0,
+      "se_record_bootstrap": 0.0068228591968724946,
+      "se_model": 0.005541953907287435,
+      "ratio_model_to_record": 0.8122626815789766
+     },
+     "pedestrian|lat|static": {
+      "E": 0.07124340166661101,
+      "rho": 0.06684602033936554,
+      "logs": 319,
+      "records": 46268.0,
+      "se_record_bootstrap": 0.007948653226076928,
+      "se_model": 0.004993916459877002,
+      "ratio_model_to_record": 0.6282720251895753
+     },
+     "pedestrian|lat|straight": {
+      "E": 0.020532070881221245,
+      "rho": 0.07880895539800935,
+      "logs": 246,
+      "records": 12501.0,
+      "se_record_bootstrap": 0.003978184044432871,
+      "se_model": 0.003740498957807293,
+      "ratio_model_to_record": 0.9402528681501808
+     },
+     "pedestrian|lat|turning": {
+      "E": 0.033147162680000265,
+      "rho": 0.08898052270913696,
+      "logs": 239,
+      "records": 8400.0,
+      "se_record_bootstrap": 0.005560105105364834,
+      "se_model": 0.005347015554708286,
+      "ratio_model_to_record": 0.9616752657335664
+     },
+     "pedestrian|lat|new": {
+      "E": 0.07614327713560476,
+      "rho": 0.22947739356441998,
+      "logs": 179,
+      "records": 1791.0,
+      "se_record_bootstrap": 0.015012482451314828,
+      "se_model": 0.012720608245487406,
+      "ratio_model_to_record": 0.8473354281505459
+     },
+     "two_wheeler|long|straight": {
+      "E": 0.0357527362244005,
+      "rho": 0.0866081066611217,
+      "logs": 51,
+      "records": 1096.0,
+      "se_record_bootstrap": 0.010405110075733524,
+      "se_model": 0.012703926109856866,
+      "ratio_model_to_record": 1.220931447855085
+     },
+     "two_wheeler|long|new": {
+      "E": 0.014603174603174602,
+      "rho": 0.11714058696866365,
+      "logs": 50,
+      "records": 320.0,
+      "se_record_bootstrap": 0.008901093311320947,
+      "se_model": 0.009751134468963368,
+      "ratio_model_to_record": 1.0954985110156399
+     },
+     "two_wheeler|lat|straight": {
+      "E": 0.034649484763901235,
+      "rho": 0.2043709297067323,
+      "logs": 46,
+      "records": 611.0,
+      "se_record_bootstrap": 0.0178257741617093,
+      "se_model": 0.016267047843051517,
+      "ratio_model_to_record": 0.9125577209428576
+     },
+     "large|long|static": {
+      "E": 0.011336648753297098,
+      "rho": 0.2169396643536932,
+      "logs": 181,
+      "records": 5102.0,
+      "se_record_bootstrap": 0.005949878567950197,
+      "se_model": 0.0044598226229558635,
+      "ratio_model_to_record": 0.7495653183544425
+     },
+     "large|long|straight": {
+      "E": 0.07635702906591414,
+      "rho": 0.287721629315504,
+      "logs": 132,
+      "records": 2601.0,
+      "se_record_bootstrap": 0.015049686506322265,
+      "se_model": 0.014823554431700556,
+      "ratio_model_to_record": 0.984974299994441
+     },
+     "large|long|turning": {
+      "E": 0.06771280845354921,
+      "rho": 0.3029133025447135,
+      "logs": 81,
+      "records": 797.0,
+      "se_record_bootstrap": 0.02157265043106231,
+      "se_model": 0.01930154997478443,
+      "ratio_model_to_record": 0.8947231605344267
+     },
+     "large|long|new": {
+      "E": 0.17811000369139907,
+      "rho": 0.46146395124452466,
+      "logs": 86,
+      "records": 375.0,
+      "se_record_bootstrap": 0.034919272179289744,
+      "se_model": 0.03289035860068794,
+      "ratio_model_to_record": 0.9418970255684443
+     },
+     "large|lat|static": {
+      "E": 0.052031907953420914,
+      "rho": 0.38972511327373344,
+      "logs": 154,
+      "records": 4609.0,
+      "se_record_bootstrap": 0.013543395543985759,
+      "se_model": 0.012086985845701921,
+      "ratio_model_to_record": 0.8924634746468297
+     },
+     "large|lat|straight": {
+      "E": 0.03300942695272592,
+      "rho": 0.32275597057902183,
+      "logs": 97,
+      "records": 1107.0,
+      "se_record_bootstrap": 0.0140552990460305,
+      "se_model": 0.01231344300833786,
+      "ratio_model_to_record": 0.8760712218225926
+     },
+     "large|lat|turning": {
+      "E": 0.05772367795036559,
+      "rho": 0.12759865368646955,
+      "logs": 48,
+      "records": 331.0,
+      "se_record_bootstrap": 0.01988262987321203,
+      "se_model": 0.02138781445989768,
+      "ratio_model_to_record": 1.0757034957791773
+     },
+     "large|lat|new": {
+      "E": 0.027777777777777776,
+      "rho": 0.30492653471876946,
+      "logs": 57,
+      "records": 212.0,
+      "se_record_bootstrap": 0.018354906785431183,
+      "se_model": 0.017166060310150312,
+      "ratio_model_to_record": 0.9352300456124085
+     }
+    },
+    "ratio_median": 0.8760712218225926,
+    "ratio_min": 0.5997718703433083,
+    "ratio_max": 1.220931447855085,
+    "share_cells_ratio_below_0.8": 0.2962962962962963
+   },
+   "B9|PD7_primary": {
+    "cells": {
+     "car|long|static": {
+      "E": 0.007565762060087178,
+      "rho": 0.05591812734700586,
+      "logs": 374,
+      "records": 175182.0,
+      "se_record_bootstrap": 0.0028314989855807624,
+      "se_model": 0.0011201081132230415,
+      "ratio_model_to_record": 0.39558838584337286
+     },
+     "car|long|straight": {
+      "E": 0.03067873523442759,
+      "rho": 0.06728953047058243,
+      "logs": 346,
+      "records": 45315.0,
+      "se_record_bootstrap": 0.004238593162875418,
+      "se_model": 0.002942380191857825,
+      "ratio_model_to_record": 0.6941879248117657
+     },
+     "car|long|turning": {
+      "E": 0.046410848195006155,
+      "rho": 0.1390988084827105,
+      "logs": 295,
+      "records": 10254.0,
+      "se_record_bootstrap": 0.007431914520971659,
+      "se_model": 0.005745914036356454,
+      "ratio_model_to_record": 0.773140490265653
+     },
+     "car|long|new": {
+      "E": 0.13843665413402528,
+      "rho": 0.1995980639323045,
+      "logs": 341,
+      "records": 11371.0,
+      "se_record_bootstrap": 0.010452845827479396,
+      "se_model": 0.009503265105018826,
+      "ratio_model_to_record": 0.9091557707696954
+     },
+     "car|lat|static": {
+      "E": 0.0027052311682585622,
+      "rho": 0.06621496533266245,
+      "logs": 365,
+      "records": 72444.0,
+      "se_record_bootstrap": 0.0018599875463101048,
+      "se_model": 0.00079964827471146,
+      "ratio_model_to_record": 0.4299213058161731
+     },
+     "car|lat|straight": {
+      "E": 0.007160769255139739,
+      "rho": 0.15378651390846493,
+      "logs": 269,
+      "records": 10274.0,
+      "se_record_bootstrap": 0.003416991564028133,
+      "se_model": 0.0025781938757908395,
+      "ratio_model_to_record": 0.7545215806010145
+     },
+     "car|lat|turning": {
+      "E": 0.023162079649882348,
+      "rho": 0.16961452469269162,
+      "logs": 228,
+      "records": 3836.0,
+      "se_record_bootstrap": 0.007278232533576868,
+      "se_model": 0.005613423385903241,
+      "ratio_model_to_record": 0.7712618908514783
+     },
+     "car|lat|new": {
+      "E": 0.041025284853770515,
+      "rho": 0.17780382015485985,
+      "logs": 244,
+      "records": 3140.0,
+      "se_record_bootstrap": 0.009781881646423459,
+      "se_model": 0.00761552659656203,
+      "ratio_model_to_record": 0.7785339131910769
+     },
+     "pedestrian|long|static": {
+      "E": 0.0018843834657625354,
+      "rho": 0.018783909320310467,
+      "logs": 325,
+      "records": 49432.0,
+      "se_record_bootstrap": 0.00041226784018980734,
+      "se_model": 0.000642329971295587,
+      "ratio_model_to_record": 1.5580404501109266
+     },
+     "pedestrian|long|straight": {
+      "E": 0.0035879445029231728,
+      "rho": 0.05137722527421174,
+      "logs": 267,
+      "records": 18776.0,
+      "se_record_bootstrap": 0.0011355099619579068,
+      "se_model": 0.0014540348632389889,
+      "ratio_model_to_record": 1.2805126436159702
+     },
+     "pedestrian|long|turning": {
+      "E": 0.0038921498971701282,
+      "rho": 0.07072721413236457,
+      "logs": 268,
+      "records": 15074.0,
+      "se_record_bootstrap": 0.0011892577150023902,
+      "se_model": 0.0015502326773949773,
+      "ratio_model_to_record": 1.3035296368809863
+     },
+     "pedestrian|long|new": {
+      "E": 0.0027669220201643223,
+      "rho": 0.055401960766998416,
+      "logs": 245,
+      "records": 5330.0,
+      "se_record_bootstrap": 0.0014763728270138624,
+      "se_model": 0.0013687888249951812,
+      "ratio_model_to_record": 0.9271295163049821
+     },
+     "pedestrian|lat|static": {
+      "E": 0.0013760683518437326,
+      "rho": 0.028368050884674232,
+      "logs": 317,
+      "records": 43446.0,
+      "se_record_bootstrap": 0.00045522533338110464,
+      "se_model": 0.0006140351646033539,
+      "ratio_model_to_record": 1.3488598273798114
+     },
+     "pedestrian|lat|straight": {
+      "E": 0.0008132863301252626,
+      "rho": 0.060833276477023523,
+      "logs": 242,
+      "records": 11365.0,
+      "se_record_bootstrap": 0.0005295096545810819,
+      "se_model": 0.0007470859849635496,
+      "ratio_model_to_record": 1.4109015359778507
+     },
+     "pedestrian|lat|turning": {
+      "E": 0.0023639475763669406,
+      "rho": 0.13976729020997922,
+      "logs": 230,
+      "records": 7731.0,
+      "se_record_bootstrap": 0.0013576948746205103,
+      "se_model": 0.0015973405672330765,
+      "ratio_model_to_record": 1.1765092415772356
+     },
+     "pedestrian|lat|new": {
+      "E": 0.0007547169811320754,
+      "rho": 0.017854917399992128,
+      "logs": 159,
+      "records": 1543.0,
+      "se_record_bootstrap": 0.000755390164310999,
+      "se_model": 0.0010999539215711706,
+      "ratio_model_to_record": 1.456140116113972
+     },
+     "two_wheeler|long|straight": {
+      "E": 0.005545600593178448,
+      "rho": 0.05469385691845817,
+      "logs": 51,
+      "records": 1130.0,
+      "se_record_bootstrap": 0.0031886326456004124,
+      "se_model": 0.004364261896647805,
+      "ratio_model_to_record": 1.3686938514756453
+     },
+     "two_wheeler|long|new": {
+      "E": 0.012138188608776844,
+      "rho": 0.15798538882694577,
+      "logs": 51,
+      "records": 327.0,
+      "se_record_bootstrap": 0.008525647403191648,
+      "se_model": 0.009065962050172757,
+      "ratio_model_to_record": 1.063375204418944
+     },
+     "two_wheeler|lat|straight": {
+      "E": 0.0,
+      "rho": 0.0,
+      "logs": 41,
+      "records": 473.0,
+      "se_record_bootstrap": 0.0,
+      "se_model": 0.0,
+      "ratio_model_to_record": null
+     },
+     "large|long|static": {
+      "E": 0.010288639520317626,
+      "rho": 0.16276186640205503,
+      "logs": 188,
+      "records": 5741.0,
+      "se_record_bootstrap": 0.005567426414227834,
+      "se_model": 0.003828514092658858,
+      "ratio_model_to_record": 0.6876631692652283
+     },
+     "large|long|straight": {
+      "E": 0.07690259470592865,
+      "rho": 0.20409311004276678,
+      "logs": 134,
+      "records": 2704.0,
+      "se_record_bootstrap": 0.015242345568526976,
+      "se_model": 0.013515535387439142,
+      "ratio_model_to_record": 0.8867096817006024
+     },
+     "large|long|turning": {
+      "E": 0.07801991525188405,
+      "rho": 0.3403758092411042,
+      "logs": 81,
+      "records": 936.0,
+      "se_record_bootstrap": 0.023569043742664296,
+      "se_model": 0.02057988272397953,
+      "ratio_model_to_record": 0.8731742767622839
+     },
+     "large|long|new": {
+      "E": 0.25905944830363437,
+      "rho": 0.6041906286745362,
+      "logs": 86,
+      "records": 498.0,
+      "se_record_bootstrap": 0.04217503510392768,
+      "se_model": 0.03949860222817056,
+      "ratio_model_to_record": 0.9365398779358012
+     },
+     "large|lat|static": {
+      "E": 0.007874015748031496,
+      "rho": 1.0,
+      "logs": 127,
+      "records": 3081.0,
+      "se_record_bootstrap": 0.007879599173177501,
+      "se_model": 0.007842954420847413,
+      "ratio_model_to_record": 0.9953494141612141
+     },
+     "large|lat|straight": {
+      "E": 0.0019345238095238096,
+      "rho": 0.0,
+      "logs": 80,
+      "records": 855.0,
+      "se_record_bootstrap": 0.0014596897042141713,
+      "se_model": 0.002280811592906323,
+      "ratio_model_to_record": 1.562531808179195
+     },
+     "large|lat|turning": {
+      "E": 0.010317460317460317,
+      "rho": 0.0,
+      "logs": 44,
+      "records": 239.0,
+      "se_record_bootstrap": 0.006011633685008627,
+      "se_model": 0.009816882665519092,
+      "ratio_model_to_record": 1.632980846787075
+     }
+    },
+    "ratio_median": 0.9365398779358012,
+    "ratio_min": 0.39558838584337286,
+    "ratio_max": 1.632980846787075,
+    "share_cells_ratio_below_0.8": 0.32
+   },
+   "RETUNED|PD7_primary": {
+    "cells": {
+     "car|long|static": {
+      "E": 0.013453086362324729,
+      "rho": 0.05168313928643699,
+      "logs": 373,
+      "records": 170414.0,
+      "se_record_bootstrap": 0.0021199379849274396,
+      "se_model": 0.0014319272828283043,
+      "ratio_model_to_record": 0.6754571562985205
+     },
+     "car|long|straight": {
+      "E": 0.08277616246836557,
+      "rho": 0.09688097232350627,
+      "logs": 347,
+      "records": 47984.0,
+      "se_record_bootstrap": 0.006739891540145272,
+      "se_model": 0.005219545443184564,
+      "ratio_model_to_record": 0.774425732535165
+     },
+     "car|long|turning": {
+      "E": 0.10744454799718234,
+      "rho": 0.16806140131586272,
+      "logs": 295,
+      "records": 10678.0,
+      "se_record_bootstrap": 0.011013264204642166,
+      "se_model": 0.008765598857443477,
+      "ratio_model_to_record": 0.7959128823722141
+     },
+     "car|long|new": {
+      "E": 0.16106118587984766,
+      "rho": 0.13004484593670768,
+      "logs": 342,
+      "records": 9841.0,
+      "se_record_bootstrap": 0.009956045360613933,
+      "se_model": 0.008915815566553437,
+      "ratio_model_to_record": 0.8955177727317676
+     },
+     "car|lat|static": {
+      "E": 0.004442994436646291,
+      "rho": 0.0247822722524266,
+      "logs": 372,
+      "records": 89145.0,
+      "se_record_bootstrap": 0.0010080111464312177,
+      "se_model": 0.0007267543567462022,
+      "ratio_model_to_record": 0.7209784924692723
+     },
+     "car|lat|straight": {
+      "E": 0.0024041573435229606,
+      "rho": 0.06308141271839049,
+      "logs": 285,
+      "records": 7356.0,
+      "se_record_bootstrap": 0.0012354798893065592,
+      "se_model": 0.0013641107607221196,
+      "ratio_model_to_record": 1.1041140956877553
+     },
+     "car|lat|turning": {
+      "E": 0.024548408431425223,
+      "rho": 0.22886436741080668,
+      "logs": 221,
+      "records": 3271.0,
+      "se_record_bootstrap": 0.008423799957037743,
+      "se_model": 0.006445026721092629,
+      "ratio_model_to_record": 0.765097314034395
+     },
+     "car|lat|new": {
+      "E": 0.028379622312800955,
+      "rho": 0.11809941366666395,
+      "logs": 248,
+      "records": 2846.0,
+      "se_record_bootstrap": 0.006841697569906161,
+      "se_model": 0.006177529565629106,
+      "ratio_model_to_record": 0.9029235072888256
+     },
+     "pedestrian|long|static": {
+      "E": 0.011789500002091731,
+      "rho": 0.03529514917327795,
+      "logs": 324,
+      "records": 47837.0,
+      "se_record_bootstrap": 0.002069746272739632,
+      "se_model": 0.0018404319140556218,
+      "ratio_model_to_record": 0.8892065362289664
+     },
+     "pedestrian|long|straight": {
+      "E": 0.005364392492262546,
+      "rho": 0.0677412930187112,
+      "logs": 266,
+      "records": 19192.0,
+      "se_record_bootstrap": 0.0014763402519740708,
+      "se_model": 0.0017725794611024965,
+      "ratio_model_to_record": 1.2006578149801939
+     },
+     "pedestrian|long|turning": {
+      "E": 0.006020305932379916,
+      "rho": 0.09603163122969682,
+      "logs": 269,
+      "records": 15275.0,
+      "se_record_bootstrap": 0.0016423920854898308,
+      "se_model": 0.0020194370101446644,
+      "ratio_model_to_record": 1.2295705927871559
+     },
+     "pedestrian|long|new": {
+      "E": 0.02289503851935932,
+      "rho": 0.1491412124460763,
+      "logs": 242,
+      "records": 4551.0,
+      "se_record_bootstrap": 0.006082168270915253,
+      "se_model": 0.004894023445537002,
+      "ratio_model_to_record": 0.8046511092006573
+     },
+     "pedestrian|lat|static": {
+      "E": 0.011437882197442104,
+      "rho": 0.038360307508383075,
+      "logs": 322,
+      "records": 47260.0,
+      "se_record_bootstrap": 0.0021647354603161963,
+      "se_model": 0.0018642075885371917,
+      "ratio_model_to_record": 0.8611710865885167
+     },
+     "pedestrian|lat|straight": {
+      "E": 0.0022253240885119923,
+      "rho": 0.056873046655716644,
+      "logs": 245,
+      "records": 11736.0,
+      "se_record_bootstrap": 0.0008653771098346746,
+      "se_model": 0.001214626472752984,
+      "ratio_model_to_record": 1.4035805418807894
+     },
+     "pedestrian|lat|turning": {
+      "E": 0.004950253960675931,
+      "rho": 0.08481146587523618,
+      "logs": 231,
+      "records": 7971.0,
+      "se_record_bootstrap": 0.0016681363187151866,
+      "se_model": 0.0020718161976369257,
+      "ratio_model_to_record": 1.2419945386913325
+     },
+     "pedestrian|lat|new": {
+      "E": 0.011607775960809119,
+      "rho": 0.17635913588826752,
+      "logs": 213,
+      "records": 2249.0,
+      "se_record_bootstrap": 0.005005366090315652,
+      "se_model": 0.004472277880097343,
+      "ratio_model_to_record": 0.8934966592653983
+     },
+     "two_wheeler|long|straight": {
+      "E": 0.031925691090916,
+      "rho": 0.11532435470765187,
+      "logs": 51,
+      "records": 1151.0,
+      "se_record_bootstrap": 0.01019372731472066,
+      "se_model": 0.01198104570879149,
+      "ratio_model_to_record": 1.1753351192247197
+     },
+     "two_wheeler|long|new": {
+      "E": 0.023809523809523808,
+      "rho": 0.16743537959559932,
+      "logs": 50,
+      "records": 332.0,
+      "se_record_bootstrap": 0.012718780136716288,
+      "se_model": 0.012540371404883151,
+      "ratio_model_to_record": 0.9859728110781544
+     },
+     "two_wheeler|lat|straight": {
+      "E": 0.0007246376811594203,
+      "rho": 0.0,
+      "logs": 46,
+      "records": 514.0,
+      "se_record_bootstrap": 0.0007247077193992481,
+      "se_model": 0.002093999880876619,
+      "ratio_model_to_record": 2.889440563172773
+     },
+     "large|long|static": {
+      "E": 0.04710759128285334,
+      "rho": 0.20975031095862548,
+      "logs": 187,
+      "records": 5480.0,
+      "se_record_bootstrap": 0.010049692419002129,
+      "se_model": 0.008806563241001744,
+      "ratio_model_to_record": 0.8763017686342465
+     },
+     "large|long|straight": {
+      "E": 0.1316960299147879,
+      "rho": 0.35838246015578973,
+      "logs": 136,
+      "records": 2800.0,
+      "se_record_bootstrap": 0.01875554903450238,
+      "se_model": 0.019620464699955775,
+      "ratio_model_to_record": 1.0461151877698867
+     },
+     "large|long|turning": {
+      "E": 0.13385853403275003,
+      "rho": 0.44651526285496296,
+      "logs": 82,
+      "records": 890.0,
+      "se_record_bootstrap": 0.029381968719336647,
+      "se_model": 0.028166284587466152,
+      "ratio_model_to_record": 0.9586248238338625
+     },
+     "large|long|new": {
+      "E": 0.2201913567082107,
+      "rho": 0.5016975246537214,
+      "logs": 89,
+      "records": 452.0,
+      "se_record_bootstrap": 0.03801742057124483,
+      "se_model": 0.03495200824769205,
+      "ratio_model_to_record": 0.9193682191613135
+     },
+     "large|lat|static": {
+      "E": 0.006993006993006993,
+      "rho": 1.0,
+      "logs": 143,
+      "records": 3681.0,
+      "se_record_bootstrap": 0.007001181940166038,
+      "se_model": 0.006968513022852841,
+      "ratio_model_to_record": 0.9953337996937668
+     },
+     "large|lat|straight": {
+      "E": 0.0007087172218284905,
+      "rho": 0.0,
+      "logs": 83,
+      "records": 607.0,
+      "se_record_bootstrap": 0.0007103044134630979,
+      "se_model": 0.001715069907104239,
+      "ratio_model_to_record": 2.4145561742216897
+     }
+    },
+    "ratio_median": 0.9193682191613135,
+    "ratio_min": 0.6754571562985205,
+    "ratio_max": 2.889440563172773,
+    "share_cells_ratio_below_0.8": 0.2
+   }
+  }
+ }
+}

@@ -1,0 +1,585 @@
+{
+ "stamp": "X3 POST-REGISTRATION EXPLORATORY (after the verdict of record; not part of the registered test)",
+ "label": "added after review (amendment A4)",
+ "analysis": "X3 amendment A4 part (4): heading error, stricter cuts and annotation axes",
+ "amendment_sha256": "ab19dd66b1838109534a4cb23f93835b5558af1e1cffd73d74416ef3bdf7832b",
+ "extends": {
+  "A1_amendment_sha256": "a5cc32611fd31da1ad847a12cc177286c6f6f9349b86bd65f7f45c20d699837a",
+  "A1_result_sha256": "caa6904ea3f529888d2f3c57d87152642ea12adaac2a52fbf335ed9953d421a8",
+  "A1_rebuild_checkpoint": "60_RESULTS/x3_explore_v01/a1_heading/ckpt/a1_hr_v01.pkl",
+  "A1_rebuild_checkpoint_sha256": "5dbb4e094f2a25e15b2c2705018f2fb5d39fd0ffc0829c4e6b6b5c88d0e76a3f"
+ },
+ "x2_result_sha256": "3a6a9c58f7eb4012c03588497d9005bd5f8fab0a58f595f617aa64de592e88cd",
+ "hashes": {
+  "prereg": "41bc5a936684dab6f6978c7d54e3d34c730afe7117ce62571b87bdb40aa447bc",
+  "amendment": "a5cc32611fd31da1ad847a12cc177286c6f6f9349b86bd65f7f45c20d699837a",
+  "code": {
+   "x2_full_v02.py": "7025ea878bff9b1b2ae8c8a0a2765e197b1d7869dd16e468b28a2f00dfe53c00",
+   "x1_full_v02.py": "b59dd08a407b8907d93386e7b136af973a5889444c3a0c84053d3e8a4a42bf64",
+   "x1_lib_v03.py": "f78a7844ef61730d982d73cdebd690c53f190b693b426ba7fbd2106b26081cbd",
+   "x1_lib_v02.py": "9728e9f518e284e39e522c7252353f1342e7b9ffd682a742cd1eba9b646f8571",
+   "x1_prefreeze_v02.py": "a2d613f047ae09e37fb03291ef635ce6ac3055d67e49346a7fac88333a128538"
+  },
+  "inputs": {
+   "30_DATA/x2_gt/x2_train_gt_v03.json": "93b4ac8b234f87ac152ce71c26e70e8bdb9eeb656242a44aa68bd654d5bf3d58",
+   "30_DATA/nuscenes/v1.0-trainval/scene.json": "bdc3211bfbfda652d5e9dab73c45c7132925ca84f869bf45e8e14edeafb1d20b",
+   "60_RESULTS/x2/x2_horizon_v01.jsonl.gz": "8da9170cc0a084198fc7aa2a6fc7aa09c9834e499da1babfaa269b8ff2df72c5",
+   "60_RESULTS/x2_export_train700_fast_v02/worker0/x1_tracks.jsonl.gz": "964ea1889ad5f40dc3491989b2d37739c824dc35e2706002021a832bd07adb7d",
+   "60_RESULTS/x2_export_train700_fast_v02/worker1/x1_tracks.jsonl.gz": "eb25f03fb7ed1928897b3790e6eff29d86417dc8e71775a4e8ee516e66d973bf",
+   "60_RESULTS/x2_export_train700_fast_v02/worker2/x1_tracks.jsonl.gz": "cc3200e39ede625b6250355fcfd0c14d534c7caca782a71a1739779851eea8ab",
+   "60_RESULTS/x2_export_train700_fast_v02/worker3/x1_tracks.jsonl.gz": "684bed144db5c142855025bfd3f19934b7957549ba8dd5b6e51f27464b617073",
+   "60_RESULTS/x2_export_train700_fast_v02/worker4/x1_tracks.jsonl.gz": "00a146675e7d58b586f96cc1f0563e7f461e45db4e0c00a88d3b590dde5d49f9",
+   "60_RESULTS/x2_export_train700_fast_v02/worker5/x1_tracks.jsonl.gz": "9aa13e330e5d12cb267b83e9b88cc196299d7ff02bda096182582aca3fe829a7",
+   "60_RESULTS/x2_export_train700_fast_v02/worker6/x1_tracks.jsonl.gz": "052fc67cf16eba81850f88b0cf3cef96d22fa6396ffad164811427fa16665fc2",
+   "60_RESULTS/x2_export_train700_fast_v02/worker7/x1_tracks.jsonl.gz": "465efbd545734133e71a9e56db4f845f0ceec63417f274322069bb8a0cb6b521",
+   "60_RESULTS/x2_export_train700_fast_v02/worker8/x1_tracks.jsonl.gz": "1f5c09af8fd0fa71c34c38c4d5ce43943121c4e7d0b0d0c75ac3fa4337608326",
+   "60_RESULTS/x2_export_train700_fast_v02/worker9/x1_tracks.jsonl.gz": "c00f26f4a2d464490176946b2215a5981f7b237a014888f185c9f3b524fc93f7",
+   "60_RESULTS/x2_export_train700_fast_v02/worker10/x1_tracks.jsonl.gz": "8ab657fc4b55e406e308dcf9c4c5bda14e2249ff5318fa93f3811bb548320eb2",
+   "60_RESULTS/x2_export_train700_fast_v02/worker11/x1_tracks.jsonl.gz": "3846f0774e223b974b89db6892947b7f4cf72bbc2cb88097b6f6d596cab23c4b"
+  }
+ },
+ "code": {
+  "x3_a1_a4_heading_v01.py": "8e5a121794b8d7beaaccaf2d747fc903952a8c9b9c97312e57ef8d6b19438982",
+  "x3_a1_heading_v01.py": "c0f2092bac6d01323a40047b415601aedfea5bd96f4b75b42fd5d1c88ab15a52"
+ },
+ "reuse_gate": {
+  "cells": {
+   "estimate car|<20|lat": {
+    "n": 3396,
+    "scenes": 442,
+    "E_rec": 0.19405182567726736,
+    "n_record": 3396,
+    "scenes_record": 442,
+    "E_rec_record": 0.19405182567726736,
+    "equal": true,
+    "max_abs_Ut_minus_U": 0.0
+   },
+   "estimate car|20-40|lat": {
+    "n": 1229,
+    "scenes": 219,
+    "E_rec": 0.27176566314076483,
+    "n_record": 1229,
+    "scenes_record": 219,
+    "E_rec_record": 0.27176566314076483,
+    "equal": true,
+    "max_abs_Ut_minus_U": 0.0
+   },
+   "estimate car|<20|long": {
+    "n": 8038,
+    "scenes": 529,
+    "E_rec": 0.004354316994277184,
+    "n_record": 8038,
+    "scenes_record": 529,
+    "E_rec_record": 0.004354316994277184,
+    "equal": true,
+    "max_abs_Ut_minus_U": 0.0
+   },
+   "estimate car|20-40|long": {
+    "n": 3522,
+    "scenes": 345,
+    "E_rec": 0.010789324247586598,
+    "n_record": 3522,
+    "scenes_record": 345,
+    "E_rec_record": 0.010789324247586598,
+    "equal": true,
+    "max_abs_Ut_minus_U": 0.0
+   },
+   "truth car|<20|lat": {
+    "n": 3554,
+    "scenes": 454,
+    "E_rec": 0.15447383230163197,
+    "n_record": 3554,
+    "scenes_record": 454,
+    "E_rec_record": 0.15447383230163197,
+    "equal": true,
+    "max_abs_Ut_minus_U": 0.0
+   },
+   "truth car|20-40|lat": {
+    "n": 1248,
+    "scenes": 224,
+    "E_rec": 0.22756410256410256,
+    "n_record": 1248,
+    "scenes_record": 224,
+    "E_rec_record": 0.22756410256410256,
+    "equal": true,
+    "max_abs_Ut_minus_U": 0.0
+   },
+   "truth car|<20|long": {
+    "n": 8233,
+    "scenes": 530,
+    "E_rec": 0.0012146240738491437,
+    "n_record": 8233,
+    "scenes_record": 530,
+    "E_rec_record": 0.0012146240738491437,
+    "equal": true,
+    "max_abs_Ut_minus_U": 0.0
+   },
+   "truth car|20-40|long": {
+    "n": 3522,
+    "scenes": 345,
+    "E_rec": 0.010505394662123793,
+    "n_record": 3522,
+    "scenes_record": 345,
+    "E_rec_record": 0.010505394662123793,
+    "equal": true,
+    "max_abs_Ut_minus_U": 0.0
+   }
+  },
+  "passed": true
+ },
+ "cells_order": [
+  "car|<20|lat",
+  "car|20-40|lat",
+  "car|<20|long",
+  "car|20-40|long"
+ ],
+ "results": {
+  "estimate": {
+   "car|<20|lat": {
+    "n_all": 3396,
+    "E_all_record": 0.19405182567726736,
+    "threshold_of_record": 0.07746072921170197,
+    "he_le5": {
+     "E": 0.13929492691315562,
+     "ci95": [
+      0.11014617145235123,
+      0.1709422011084719
+     ],
+     "n_items": 1163,
+     "n_scenes": 322,
+     "exceedances": 162,
+     "seed": [
+      20261211,
+      0,
+      1
+     ],
+     "replicates_used": 2000
+    },
+    "he_le10": {
+     "E": 0.16195372750642673,
+     "ci95": [
+      0.13137594052772625,
+      0.19363564652611306
+     ],
+     "n_items": 1556,
+     "n_scenes": 352,
+     "exceedances": 252,
+     "seed": [
+      20261211,
+      0,
+      2
+     ],
+     "replicates_used": 2000
+    },
+    "annotation_axes": {
+     "E": 0.1239693757361602,
+     "ci95": [
+      0.10228955430003298,
+      0.14594355795777303
+     ],
+     "n_items": 3396,
+     "n_scenes": 442,
+     "exceedances": 421,
+     "seed": [
+      20261211,
+      0,
+      3
+     ],
+     "replicates_used": 2000
+    }
+   },
+   "car|20-40|lat": {
+    "n_all": 1229,
+    "E_all_record": 0.27176566314076483,
+    "threshold_of_record": 0.08163423521203195,
+    "he_le5": {
+     "E": 0.2318840579710145,
+     "ci95": [
+      0.1583318345323741,
+      0.3144242340886428
+     ],
+     "n_items": 276,
+     "n_scenes": 107,
+     "exceedances": 64,
+     "seed": [
+      20261211,
+      1,
+      1
+     ],
+     "replicates_used": 2000
+    },
+    "he_le10": {
+     "E": 0.23346303501945526,
+     "ci95": [
+      0.17633962894868793,
+      0.29690013212948657
+     ],
+     "n_items": 514,
+     "n_scenes": 144,
+     "exceedances": 120,
+     "seed": [
+      20261211,
+      1,
+      2
+     ],
+     "replicates_used": 2000
+    },
+    "annotation_axes": {
+     "E": 0.10821806346623271,
+     "ci95": [
+      0.07413927876356285,
+      0.1426584663057048
+     ],
+     "n_items": 1229,
+     "n_scenes": 219,
+     "exceedances": 133,
+     "seed": [
+      20261211,
+      1,
+      3
+     ],
+     "replicates_used": 2000
+    }
+   },
+   "car|<20|long": {
+    "n_all": 8038,
+    "E_all_record": 0.004354316994277184,
+    "threshold_of_record": 0.06461161448424854,
+    "he_le5": {
+     "E": 0.004140786749482402,
+     "ci95": [
+      0.0021660272856822713,
+      0.006345939802551082
+     ],
+     "n_items": 5313,
+     "n_scenes": 455,
+     "exceedances": 22,
+     "seed": [
+      20261211,
+      2,
+      1
+     ],
+     "replicates_used": 2000
+    },
+    "he_le10": {
+     "E": 0.004143426294820717,
+     "ci95": [
+      0.0023473811275535605,
+      0.006262540734786318
+     ],
+     "n_items": 6275,
+     "n_scenes": 474,
+     "exceedances": 26,
+     "seed": [
+      20261211,
+      2,
+      2
+     ],
+     "replicates_used": 2000
+    },
+    "annotation_axes": {
+     "E": 0.00721572530480219,
+     "ci95": [
+      0.004708636495263168,
+      0.009893644914339514
+     ],
+     "n_items": 8038,
+     "n_scenes": 529,
+     "exceedances": 58,
+     "seed": [
+      20261211,
+      2,
+      3
+     ],
+     "replicates_used": 2000
+    }
+   },
+   "car|20-40|long": {
+    "n_all": 3522,
+    "E_all_record": 0.010789324247586598,
+    "threshold_of_record": 0.05,
+    "he_le5": {
+     "E": 0.01282051282051282,
+     "ci95": [
+      0.00631768953068592,
+      0.020569107887367065
+     ],
+     "n_items": 2418,
+     "n_scenes": 255,
+     "exceedances": 31,
+     "seed": [
+      20261211,
+      3,
+      1
+     ],
+     "replicates_used": 2000
+    },
+    "he_le10": {
+     "E": 0.013610315186246419,
+     "ci95": [
+      0.007557768962733436,
+      0.02042448912757309
+     ],
+     "n_items": 2792,
+     "n_scenes": 287,
+     "exceedances": 38,
+     "seed": [
+      20261211,
+      3,
+      2
+     ],
+     "replicates_used": 2000
+    },
+    "annotation_axes": {
+     "E": 0.019875070982396367,
+     "ci95": [
+      0.012777317478914358,
+      0.028113331048163593
+     ],
+     "n_items": 3522,
+     "n_scenes": 345,
+     "exceedances": 70,
+     "seed": [
+      20261211,
+      3,
+      3
+     ],
+     "replicates_used": 2000
+    }
+   }
+  },
+  "truth": {
+   "car|<20|lat": {
+    "n_all": 3554,
+    "E_all_record": 0.15447383230163197,
+    "threshold_of_record": 0.05,
+    "he_le5": {
+     "E": 0.10142497904442582,
+     "ci95": [
+      0.07810803731845432,
+      0.12599358360467341
+     ],
+     "n_items": 1193,
+     "n_scenes": 339,
+     "exceedances": 121,
+     "seed": [
+      20261211,
+      0,
+      1
+     ],
+     "replicates_used": 2000
+    },
+    "he_le10": {
+     "E": 0.12178702570379436,
+     "ci95": [
+      0.09547919188893465,
+      0.1501942195993992
+     ],
+     "n_items": 1634,
+     "n_scenes": 376,
+     "exceedances": 199,
+     "seed": [
+      20261211,
+      0,
+      2
+     ],
+     "replicates_used": 2000
+    },
+    "annotation_axes": {
+     "E": 0.08891389983117615,
+     "ci95": [
+      0.06984411945132585,
+      0.1081868009020001
+     ],
+     "n_items": 3554,
+     "n_scenes": 454,
+     "exceedances": 316,
+     "seed": [
+      20261211,
+      0,
+      3
+     ],
+     "replicates_used": 2000
+    }
+   },
+   "car|20-40|lat": {
+    "n_all": 1248,
+    "E_all_record": 0.22756410256410256,
+    "threshold_of_record": 0.05,
+    "he_le5": {
+     "E": 0.12280701754385964,
+     "ci95": [
+      0.06938716527073258,
+      0.1821923897581792
+     ],
+     "n_items": 285,
+     "n_scenes": 112,
+     "exceedances": 35,
+     "seed": [
+      20261211,
+      1,
+      1
+     ],
+     "replicates_used": 2000
+    },
+    "he_le10": {
+     "E": 0.14367816091954022,
+     "ci95": [
+      0.09380624715481317,
+      0.20328986550752462
+     ],
+     "n_items": 522,
+     "n_scenes": 149,
+     "exceedances": 75,
+     "seed": [
+      20261211,
+      1,
+      2
+     ],
+     "replicates_used": 2000
+    },
+    "annotation_axes": {
+     "E": 0.0641025641025641,
+     "ci95": [
+      0.040129680634795724,
+      0.0932164026058568
+     ],
+     "n_items": 1248,
+     "n_scenes": 224,
+     "exceedances": 80,
+     "seed": [
+      20261211,
+      1,
+      3
+     ],
+     "replicates_used": 2000
+    }
+   },
+   "car|<20|long": {
+    "n_all": 8233,
+    "E_all_record": 0.0012146240738491437,
+    "threshold_of_record": 0.05,
+    "he_le5": {
+     "E": 0.0005538120731031936,
+     "ci95": [
+      0.0,
+      0.0012671688880073072
+     ],
+     "n_items": 5417,
+     "n_scenes": 457,
+     "exceedances": 3,
+     "seed": [
+      20261211,
+      2,
+      1
+     ],
+     "replicates_used": 2000
+    },
+    "he_le10": {
+     "E": 0.0007814942169427947,
+     "ci95": [
+      0.00015551074305842518,
+      0.0014835791836038882
+     ],
+     "n_items": 6398,
+     "n_scenes": 474,
+     "exceedances": 5,
+     "seed": [
+      20261211,
+      2,
+      2
+     ],
+     "replicates_used": 2000
+    },
+    "annotation_axes": {
+     "E": 0.002307785740313373,
+     "ci95": [
+      0.0012551304145894582,
+      0.003560068002021983
+     ],
+     "n_items": 8233,
+     "n_scenes": 530,
+     "exceedances": 19,
+     "seed": [
+      20261211,
+      2,
+      3
+     ],
+     "replicates_used": 2000
+    }
+   },
+   "car|20-40|long": {
+    "n_all": 3522,
+    "E_all_record": 0.010505394662123793,
+    "threshold_of_record": 0.05,
+    "he_le5": {
+     "E": 0.01240694789081886,
+     "ci95": [
+      0.005884578606660567,
+      0.020410831267341997
+     ],
+     "n_items": 2418,
+     "n_scenes": 255,
+     "exceedances": 30,
+     "seed": [
+      20261211,
+      3,
+      1
+     ],
+     "replicates_used": 2000
+    },
+    "he_le10": {
+     "E": 0.01325214899713467,
+     "ci95": [
+      0.007245378476509944,
+      0.02014291743791062
+     ],
+     "n_items": 2792,
+     "n_scenes": 287,
+     "exceedances": 37,
+     "seed": [
+      20261211,
+      3,
+      2
+     ],
+     "replicates_used": 2000
+    },
+    "annotation_axes": {
+     "E": 0.019307211811470756,
+     "ci95": [
+      0.012109943188902097,
+      0.027830030262103036
+     ],
+     "n_items": 3522,
+     "n_scenes": 345,
+     "exceedances": 68,
+     "seed": [
+      20261211,
+      3,
+      3
+     ],
+     "replicates_used": 2000
+    }
+   }
+  }
+ },
+ "method_notes": [
+  "Same items as A1 and X2 (L.cell_items on the A1 rebuild, reloaded unchanged; n, scenes and E_rec re-checked equal to the X2 result of record in all eight cell-orientation pairs).",
+  "Heading error as A1: |wrap(psi_track - psi_annotation)| at the decision keyframe k, folded to [0, 90] deg; (4a) keeps items with heading error <= 5 deg or <= 10 deg; E record-weighted (exceedances / items), exceedance U > z_0.95 = 1.6448536269514722.",
+  "(4b) Annotation axes: for an item on the track's lateral (longitudinal) axis, the annotated box's lateral (longitudinal) axis b at keyframe k (the annotation paired at k, as in A1; A4 does not name the keyframe, and k keeps the analysis at decision time, swapping only the heading). Error (g - m) projected on b, signed toward the ego as X2 orients: sign of b.(c - m) estimate-oriented, of b.(c - g) truth-oriented (c = CTRV-predicted ego centre at 2 s, m = predicted mean, g = annotation centre at 2 s). sd = sqrt(b' S b + 0.10^2) from the same predicted covariance S. The item set is X2's: the separating filter is not re-evaluated along b.",
+  "Code-path check: the (4b) computation run with the track's own yaw in place of the annotation's reproduces X2's U (max abs difference per cell in reuse_gate, tolerance 1e-9).",
+  "Bootstrap: scene-cluster, B = 2000, numpy default_rng([20261211, cell, k]); cell = 0..3 in X2's DEC order (car <20 lat, car 20-40 lat, car <20 long, car 20-40 long); k = 1 (<= 5 deg), 2 (<= 10 deg), 3 (annotation axes); the same seed for the estimate- and truth-oriented versions. Weights L.boot_weights (multinomial over the 700 scenes, X2's convention); replicate = ratio of weighted sums; pointwise 95 % percentile interval.",
+  "Thresholds listed for reference only (A4 (4) fixes no reading): estimate-oriented max(0.05, E0) of record; truth-oriented 0.05 of record."
+ ],
+ "integrity": {
+  "run_log_before": "8bc6235d0c582f0b52952dcb86717a6ab42236a1e472582ebf8f4a10f95e2090",
+  "run_log_after": "8bc6235d0c582f0b52952dcb86717a6ab42236a1e472582ebf8f4a10f95e2090",
+  "manifest_before_ok": true,
+  "manifest_after_ok": true,
+  "manifest_after": {
+   "files": 3091
+  }
+ },
+ "wall_s": 16.1,
+ "written": "2026-11-07 15:13:49"
+}

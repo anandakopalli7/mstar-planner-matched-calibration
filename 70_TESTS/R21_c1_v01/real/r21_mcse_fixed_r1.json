@@ -1,0 +1,6839 @@
+{
+ "label": "R21 Monte Carlo error and seed-set stability (descriptive; plan section 6.1; the verdict is the primary seed's)",
+ "B": 40000,
+ "power_mode": "fixed",
+ "routes": {
+  "within_lt3d/t1": {
+   "n_sets": 20,
+   "reference_seed": [
+    20261110,
+    0,
+    0
+   ],
+   "alt_seeds": [
+    [
+     20261121,
+     0,
+     0,
+     1
+    ],
+    [
+     20261121,
+     0,
+     0,
+     2
+    ],
+    [
+     20261121,
+     0,
+     0,
+     3
+    ],
+    [
+     20261121,
+     0,
+     0,
+     4
+    ],
+    [
+     20261121,
+     0,
+     0,
+     5
+    ],
+    [
+     20261121,
+     0,
+     0,
+     6
+    ],
+    [
+     20261121,
+     0,
+     0,
+     7
+    ],
+    [
+     20261121,
+     0,
+     0,
+     8
+    ],
+    [
+     20261121,
+     0,
+     0,
+     9
+    ],
+    [
+     20261121,
+     0,
+     0,
+     10
+    ],
+    [
+     20261121,
+     0,
+     0,
+     11
+    ],
+    [
+     20261121,
+     0,
+     0,
+     12
+    ],
+    [
+     20261121,
+     0,
+     0,
+     13
+    ],
+    [
+     20261121,
+     0,
+     0,
+     14
+    ],
+    [
+     20261121,
+     0,
+     0,
+     15
+    ],
+    [
+     20261121,
+     0,
+     0,
+     16
+    ],
+    [
+     20261121,
+     0,
+     0,
+     17
+    ],
+    [
+     20261121,
+     0,
+     0,
+     18
+    ],
+    [
+     20261121,
+     0,
+     0,
+     19
+    ],
+    [
+     20261121,
+     0,
+     0,
+     20
+    ]
+   ],
+   "decisive_quantities": {
+    "removal_stat B0": {
+     "n": 20,
+     "mean": 0.08521583145283015,
+     "min": 0.08367538977994475,
+     "max": 0.08659763087476245,
+     "mc_se_empirical": 0.0007649473187235849,
+     "mc_se_andrews_buchinsky_ref": 0.0011954843638167807,
+     "reference": 0.08568344772017229
+    },
+    "removal_stat B1": {
+     "n": 20,
+     "mean": 0.08145845209425913,
+     "min": 0.07652227240351515,
+     "max": 0.0858807313515307,
+     "mc_se_empirical": 0.002165218534966119,
+     "mc_se_andrews_buchinsky_ref": 0.0032549337056821666,
+     "reference": 0.08446580264015295
+    },
+    "removal_stat B3": {
+     "n": 20,
+     "mean": -0.049292444444133485,
+     "min": -0.04932413688077131,
+     "max": -0.0492732952303079,
+     "mc_se_empirical": 1.2466602137304592e-05,
+     "mc_se_andrews_buchinsky_ref": 2.4203184528903613e-05,
+     "reference": -0.04930332005753444
+    },
+    "removal_stat B4": {
+     "n": 20,
+     "mean": 0.17409075422557593,
+     "min": 0.1720587870351552,
+     "max": 0.17565804853712158,
+     "mc_se_empirical": 0.0008383024143006933,
+     "mc_se_andrews_buchinsky_ref": 0.001131893998652481,
+     "reference": 0.1743950491397978
+    },
+    "removal_stat B6": {
+     "n": 20,
+     "mean": 0.16461255856457563,
+     "min": 0.16307396635880878,
+     "max": 0.16595586218129116,
+     "mc_se_empirical": 0.0008658709005248402,
+     "mc_se_andrews_buchinsky_ref": 0.0017298386688202267,
+     "reference": 0.1652304273807499
+    },
+    "removal_stat B9": {
+     "n": 20,
+     "mean": 0.03689585218003447,
+     "min": 0.03500800944482202,
+     "max": 0.038289667761197396,
+     "mc_se_empirical": 0.0008043930841644424,
+     "mc_se_andrews_buchinsky_ref": 0.0010211633059102167,
+     "reference": 0.03716973302592069
+    },
+    "removal_stat RETUNED": {
+     "n": 20,
+     "mean": 0.06759442444552347,
+     "min": 0.0661321858129126,
+     "max": 0.06895785984234816,
+     "mc_se_empirical": 0.0006679018160044471,
+     "mc_se_andrews_buchinsky_ref": 0.0011339930471423205,
+     "reference": 0.06790732245967844
+    },
+    "Form B UB M* - B3 (level 0.987500)": {
+     "n": 20,
+     "mean": -0.7603405326678765,
+     "min": -0.7606119741883443,
+     "max": -0.7601064347650732,
+     "mc_se_empirical": 0.00012084042777597152,
+     "mc_se_andrews_buchinsky_ref": 0.0002699638647393667,
+     "reference": -0.7601998185117965
+    },
+    "p_c M* - B3": {
+     "n": 20,
+     "mean": 2.499937501562461e-05,
+     "min": 2.499937501562461e-05,
+     "max": 2.499937501562461e-05,
+     "mc_se_empirical": 0.0,
+     "mc_se_andrews_buchinsky_ref": 2.499937501562461e-05,
+     "reference": 2.499937501562461e-05
+    },
+    "HK1c UB M* PD7_primary": {
+     "n": 20,
+     "mean": 0.048236036537723695,
+     "min": 0.048158699285403395,
+     "max": 0.04831056637523428,
+     "mc_se_empirical": 3.735674001989982e-05,
+     "mc_se_andrews_buchinsky_ref": 5.959495365420279e-05,
+     "reference": 0.04824894445822791
+    },
+    "pooled LB M* PD7_primary": {
+     "n": 20,
+     "mean": 0.04106970592667007,
+     "min": 0.04103787934851931,
+     "max": 0.04109617335344772,
+     "mc_se_empirical": 1.90068236483928e-05,
+     "mc_se_andrews_buchinsky_ref": 1.933948551630502e-05,
+     "reference": 0.04106874468989723
+    },
+    "HK1c UB M* SD1_7_gap_le_5m": {
+     "n": 20,
+     "mean": 0.04730784180874958,
+     "min": 0.047131706978276955,
+     "max": 0.047490149718987254,
+     "mc_se_empirical": 8.941973628147503e-05,
+     "mc_se_andrews_buchinsky_ref": 0.00010959072486445093,
+     "reference": 0.047253537173355446
+    },
+    "pooled LB M* SD1_7_gap_le_5m": {
+     "n": 20,
+     "mean": 0.03027418496130923,
+     "min": 0.03015385898707265,
+     "max": 0.030383214219497984,
+     "mc_se_empirical": 5.1414983908836e-05,
+     "mc_se_andrews_buchinsky_ref": 5.6293952164215784e-05,
+     "reference": 0.03015178581260249
+    },
+    "HK1c UB M* PD_inpath": {
+     "n": 20,
+     "mean": 0.05459592435132547,
+     "min": 0.0544218079485361,
+     "max": 0.05490529572323624,
+     "mc_se_empirical": 0.00012956977229995395,
+     "mc_se_andrews_buchinsky_ref": 0.00017388642971112036,
+     "reference": 0.05459639540329428
+    },
+    "pooled LB M* PD_inpath": {
+     "n": 20,
+     "mean": 0.029750859197919467,
+     "min": 0.029624542026053,
+     "max": 0.029869162492564313,
+     "mc_se_empirical": 7.716114179814244e-05,
+     "mc_se_andrews_buchinsky_ref": 7.595438030790686e-05,
+     "reference": 0.029627890638079517
+    },
+    "H3 p (this tracker; doubled)": {
+     "n": 20,
+     "mean": 4.999875003124922e-05,
+     "min": 4.999875003124922e-05,
+     "max": 4.999875003124922e-05,
+     "mc_se_empirical": 0.0,
+     "reference": 4.999875003124922e-05
+    },
+    "H3 UB M*Jx - B3 (own level)": {
+     "n": 20,
+     "mean": -0.09176524944545267,
+     "min": -0.09196563823351482,
+     "max": -0.09148068158903001,
+     "mc_se_empirical": 0.00012003207071332841,
+     "mc_se_andrews_buchinsky_ref": 0.00019828990487705928,
+     "reference": -0.09169897156684816
+    }
+   },
+   "stability": {
+    "Mstar/PD7_primary NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD7_primary FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD7_primary Floor": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD7_primary HK1c": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD7_primary valid": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/SD1_7_gap_le_5m Floor": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/SD1_7_gap_le_5m HK1c": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/SD1_7_gap_le_5m valid": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD_inpath Floor": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD_inpath HK1c": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD_inpath valid": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/PD7_primary FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/PD7_primary NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/PD7_primary FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/PD7_primary shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 0.8,
+     "analysis": true
+    },
+    "B4/SD1_7_gap_le_5m FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/SD1_7_gap_le_5m shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/PD_inpath NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/PD_inpath FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/PD_inpath shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B6/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/SD1_7_gap_le_5m FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/SD1_7_gap_le_5m shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B6/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B9/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B9/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B9/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B9/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B9/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "V_t membership identical": {
+     "reference": [
+      "B3"
+     ],
+     "share_same": 1.0,
+     "analysis": [
+      "B3"
+     ],
+     "differing_sets": {}
+    },
+    "Form B met": {
+     "reference": true,
+     "share_same": 1.0
+    },
+    "Form B UB < 0 M* - B3": {
+     "reference": true,
+     "share_same": 1.0
+    },
+    "V^J membership identical": {
+     "reference": [
+      "B3"
+     ],
+     "share_same": 1.0
+    }
+   },
+   "cells_t_minus_q_below_0.2": {
+    "B0/PD7_primary/pedestrian|long|static cells": [
+     {
+      "set": 0,
+      "t": 5.1988737672342715,
+      "q": 5.1789816550071475
+     },
+     {
+      "set": 1,
+      "t": 5.1834092901071775,
+      "q": 5.1089423765672715
+     },
+     {
+      "set": 2,
+      "t": 5.147381337930107,
+      "q": 5.070832418888906
+     },
+     {
+      "set": 3,
+      "t": 5.134848818897459,
+      "q": 5.165289691087652
+     },
+     {
+      "set": 4,
+      "t": 5.1851224601475545,
+      "q": 5.074736061382821
+     },
+     {
+      "set": 5,
+      "t": 5.187220886546028,
+      "q": 5.191253304086272
+     },
+     {
+      "set": 6,
+      "t": 5.142444807319695,
+      "q": 5.178951306637425
+     },
+     {
+      "set": 7,
+      "t": 5.158279996207228,
+      "q": 5.19935227925396
+     },
+     {
+      "set": 8,
+      "t": 5.152750782555451,
+      "q": 5.07225728111418
+     },
+     {
+      "set": 9,
+      "t": 5.149101054804796,
+      "q": 5.199092645602239
+     },
+     {
+      "set": 10,
+      "t": 5.172584037198745,
+      "q": 5.096936496463343
+     },
+     {
+      "set": 11,
+      "t": 5.1834142569749755,
+      "q": 5.095202783409333
+     },
+     {
+      "set": 12,
+      "t": 5.181535384333391,
+      "q": 5.133700416320248
+     },
+     {
+      "set": 13,
+      "t": 5.156784941917433,
+      "q": 5.145077840303039
+     },
+     {
+      "set": 14,
+      "t": 5.146327410460408,
+      "q": 5.205208740167891
+     },
+     {
+      "set": 15,
+      "t": 5.12579952158818,
+      "q": 5.195078746022982
+     },
+     {
+      "set": 16,
+      "t": 5.160321333106311,
+      "q": 5.1111078583564185
+     },
+     {
+      "set": 17,
+      "t": 5.163403530667966,
+      "q": 5.201875005080217
+     },
+     {
+      "set": 18,
+      "t": 5.1598638274232185,
+      "q": 5.151771369980832
+     },
+     {
+      "set": 19,
+      "t": 5.18205566263433,
+      "q": 5.148460016944003
+     },
+     {
+      "set": 20,
+      "t": 5.132638953684768,
+      "q": 5.201988555816323
+     }
+    ],
+    "B4/PD7_primary/car|long|straight family": [
+     {
+      "set": 0,
+      "t": 4.746015574355379,
+      "q": 4.696111610738418
+     },
+     {
+      "set": 1,
+      "t": 4.776007014666385,
+      "q": 4.7168218114049605
+     },
+     {
+      "set": 2,
+      "t": 4.7361738889795415,
+      "q": 4.654356693447721
+     },
+     {
+      "set": 3,
+      "t": 4.76028854958326,
+      "q": 4.660597125363887
+     },
+     {
+      "set": 4,
+      "t": 4.762319892241881,
+      "q": 4.752794468604792
+     },
+     {
+      "set": 5,
+      "t": 4.756825690327974,
+      "q": 4.670021517114873
+     },
+     {
+      "set": 6,
+      "t": 4.798357780663867,
+      "q": 4.703731194877683
+     },
+     {
+      "set": 7,
+      "t": 4.762448754955728,
+      "q": 4.670550331244193
+     },
+     {
+      "set": 8,
+      "t": 4.79696829716322,
+      "q": 4.744587544229754
+     },
+     {
+      "set": 9,
+      "t": 4.749548656147296,
+      "q": 4.767481551076003
+     },
+     {
+      "set": 10,
+      "t": 4.743242837730275,
+      "q": 4.707746412675997
+     },
+     {
+      "set": 11,
+      "t": 4.769175886527502,
+      "q": 4.700275673033517
+     },
+     {
+      "set": 12,
+      "t": 4.743482735357318,
+      "q": 4.691624480676532
+     },
+     {
+      "set": 13,
+      "t": 4.7562771780556306,
+      "q": 4.7870086214480825
+     },
+     {
+      "set": 14,
+      "t": 4.744986850118804,
+      "q": 4.7237368142779
+     },
+     {
+      "set": 15,
+      "t": 4.76916407227197,
+      "q": 4.72531182118761
+     },
+     {
+      "set": 16,
+      "t": 4.766001727708468,
+      "q": 4.738188235294541
+     },
+     {
+      "set": 17,
+      "t": 4.775476465480835,
+      "q": 4.686702745070408
+     },
+     {
+      "set": 18,
+      "t": 4.735825017675065,
+      "q": 4.845066516231497
+     },
+     {
+      "set": 19,
+      "t": 4.750564709643638,
+      "q": 4.741101309096485
+     },
+     {
+      "set": 20,
+      "t": 4.760813678717837,
+      "q": 4.861480530265178
+     }
+    ],
+    "B4/SD1_7_gap_le_5m/car|lat|turning cells": [
+     {
+      "set": 0,
+      "t": 4.7032128192601474,
+      "q": 4.848046157261089
+     },
+     {
+      "set": 1,
+      "t": 4.682355132631377,
+      "q": 4.800432268374352
+     },
+     {
+      "set": 2,
+      "t": 4.702997349816163,
+      "q": 4.719350465849581
+     },
+     {
+      "set": 3,
+      "t": 4.682156205019778,
+      "q": 4.781282843228628
+     },
+     {
+      "set": 4,
+      "t": 4.6836936151451045,
+      "q": 4.849885561516612
+     },
+     {
+      "set": 5,
+      "t": 4.691406724909182,
+      "q": 4.69535204628847
+     },
+     {
+      "set": 6,
+      "t": 4.708224344734851,
+      "q": 4.764507674499206
+     },
+     {
+      "set": 7,
+      "t": 4.686194676950313,
+      "q": 4.721965083231977
+     },
+     {
+      "set": 8,
+      "t": 4.681136589811932,
+      "q": 4.7205224654834375
+     },
+     {
+      "set": 9,
+      "t": 4.682800867756444,
+      "q": 4.671396310492872
+     },
+     {
+      "set": 10,
+      "t": 4.691135438063293,
+      "q": 4.7899658303025285
+     },
+     {
+      "set": 11,
+      "t": 4.66218678092425,
+      "q": 4.665752645818555
+     },
+     {
+      "set": 12,
+      "t": 4.675172786902497,
+      "q": 4.648856569873736
+     },
+     {
+      "set": 13,
+      "t": 4.691257736887379,
+      "q": 4.8291051687188995
+     },
+     {
+      "set": 14,
+      "t": 4.708923615492891,
+      "q": 4.7722739201551
+     },
+     {
+      "set": 15,
+      "t": 4.666793334823981,
+      "q": 4.720104306198656
+     },
+     {
+      "set": 16,
+      "t": 4.699878682532832,
+      "q": 4.76227705045965
+     },
+     {
+      "set": 17,
+      "t": 4.6913758631917695,
+      "q": 4.676899874162491
+     },
+     {
+      "set": 18,
+      "t": 4.70171957389572,
+      "q": 4.758600822488118
+     },
+     {
+      "set": 19,
+      "t": 4.688644703703949,
+      "q": 4.76470635556967
+     },
+     {
+      "set": 20,
+      "t": 4.707305729153273,
+      "q": 4.678704117868265
+     }
+    ],
+    "B6/SD1_7_gap_le_5m/car|lat|turning cells": [
+     {
+      "set": 1,
+      "t": 4.655533262420427,
+      "q": 4.829424877148872
+     },
+     {
+      "set": 2,
+      "t": 4.68999987615281,
+      "q": 4.870740086164266
+     },
+     {
+      "set": 3,
+      "t": 4.6650004872316995,
+      "q": 4.847466030232396
+     },
+     {
+      "set": 5,
+      "t": 4.673447823241147,
+      "q": 4.825191706626942
+     },
+     {
+      "set": 6,
+      "t": 4.68947151518983,
+      "q": 4.768690231092439
+     },
+     {
+      "set": 7,
+      "t": 4.680634783463502,
+      "q": 4.853272959696747
+     },
+     {
+      "set": 14,
+      "t": 4.691242254988919,
+      "q": 4.861185619735039
+     },
+     {
+      "set": 15,
+      "t": 4.664408857711451,
+      "q": 4.788456306589194
+     },
+     {
+      "set": 16,
+      "t": 4.688206658918588,
+      "q": 4.8610531789060625
+     },
+     {
+      "set": 17,
+      "t": 4.675985250698156,
+      "q": 4.862216921010181
+     },
+     {
+      "set": 18,
+      "t": 4.696230047358938,
+      "q": 4.849620480037576
+     },
+     {
+      "set": 19,
+      "t": 4.676861923192372,
+      "q": 4.7433674717117205
+     },
+     {
+      "set": 20,
+      "t": 4.702447084559151,
+      "q": 4.888379650592737
+     }
+    ],
+    "B4/SD1_7_gap_le_5m/pedestrian|long|turning cells": [
+     {
+      "set": 2,
+      "t": 4.537860687755402,
+      "q": 4.719350465849581
+     },
+     {
+      "set": 5,
+      "t": 4.496468317293832,
+      "q": 4.69535204628847
+     },
+     {
+      "set": 9,
+      "t": 4.515450643044578,
+      "q": 4.671396310492872
+     },
+     {
+      "set": 11,
+      "t": 4.535434226666685,
+      "q": 4.665752645818555
+     },
+     {
+      "set": 12,
+      "t": 4.543361392082044,
+      "q": 4.648856569873736
+     },
+     {
+      "set": 15,
+      "t": 4.5315219221097935,
+      "q": 4.720104306198656
+     },
+     {
+      "set": 17,
+      "t": 4.508732099415958,
+      "q": 4.676899874162491
+     },
+     {
+      "set": 20,
+      "t": 4.5059468010674575,
+      "q": 4.678704117868265
+     }
+    ],
+    "B0/PD7_primary/pedestrian|long|static family": [
+     {
+      "set": 3,
+      "t": 5.134848818897459,
+      "q": 4.9425244808391735
+     },
+     {
+      "set": 20,
+      "t": 5.132638953684768,
+      "q": 4.96967318855947
+     }
+    ],
+    "B6/SD1_7_gap_le_5m/car|lat|turning family": [
+     {
+      "set": 4,
+      "t": 4.660280972775808,
+      "q": 4.509899465253355
+     }
+    ],
+    "B4/PD7_primary/car|long|straight cells": [
+     {
+      "set": 7,
+      "t": 4.762448754955728,
+      "q": 4.938599759940612
+     },
+     {
+      "set": 15,
+      "t": 4.76916407227197,
+      "q": 4.966645098904691
+     }
+    ]
+   },
+   "seconds_per_set": {
+    "n": 20,
+    "mean": 3.721882092952728,
+    "min": 3.5828988552093506,
+    "max": 4.139287948608398,
+    "mc_se_empirical": 0.1651601007644647
+   }
+  },
+  "within_lt3d/t3": {
+   "n_sets": 20,
+   "reference_seed": [
+    20261110,
+    1,
+    0
+   ],
+   "alt_seeds": [
+    [
+     20261121,
+     1,
+     0,
+     1
+    ],
+    [
+     20261121,
+     1,
+     0,
+     2
+    ],
+    [
+     20261121,
+     1,
+     0,
+     3
+    ],
+    [
+     20261121,
+     1,
+     0,
+     4
+    ],
+    [
+     20261121,
+     1,
+     0,
+     5
+    ],
+    [
+     20261121,
+     1,
+     0,
+     6
+    ],
+    [
+     20261121,
+     1,
+     0,
+     7
+    ],
+    [
+     20261121,
+     1,
+     0,
+     8
+    ],
+    [
+     20261121,
+     1,
+     0,
+     9
+    ],
+    [
+     20261121,
+     1,
+     0,
+     10
+    ],
+    [
+     20261121,
+     1,
+     0,
+     11
+    ],
+    [
+     20261121,
+     1,
+     0,
+     12
+    ],
+    [
+     20261121,
+     1,
+     0,
+     13
+    ],
+    [
+     20261121,
+     1,
+     0,
+     14
+    ],
+    [
+     20261121,
+     1,
+     0,
+     15
+    ],
+    [
+     20261121,
+     1,
+     0,
+     16
+    ],
+    [
+     20261121,
+     1,
+     0,
+     17
+    ],
+    [
+     20261121,
+     1,
+     0,
+     18
+    ],
+    [
+     20261121,
+     1,
+     0,
+     19
+    ],
+    [
+     20261121,
+     1,
+     0,
+     20
+    ]
+   ],
+   "decisive_quantities": {
+    "removal_stat B0": {
+     "n": 20,
+     "mean": -0.04232470206512716,
+     "min": -0.042819786967610504,
+     "max": -0.04207228408654161,
+     "mc_se_empirical": 0.00019013591653914316,
+     "mc_se_andrews_buchinsky_ref": 0.00040633802964160055,
+     "reference": -0.04242877298055341
+    },
+    "removal_stat B1": {
+     "n": 20,
+     "mean": 0.0008774493239338606,
+     "min": 0.0003125617486188434,
+     "max": 0.001467878650439236,
+     "mc_se_empirical": 0.0003949768491523563,
+     "mc_se_andrews_buchinsky_ref": 0.0007022915190194707,
+     "reference": 0.0011327704270383057
+    },
+    "removal_stat B3": {
+     "n": 20,
+     "mean": -0.049426347857391806,
+     "min": -0.0494450183414437,
+     "max": -0.049404685075690256,
+     "mc_se_empirical": 1.1825923314014073e-05,
+     "mc_se_andrews_buchinsky_ref": 1.9728928663331325e-05,
+     "reference": -0.04946709757614256
+    },
+    "removal_stat B4": {
+     "n": 20,
+     "mean": 0.14646864809289836,
+     "min": 0.14471083810243668,
+     "max": 0.1476950320846796,
+     "mc_se_empirical": 0.0006275633009384602,
+     "mc_se_andrews_buchinsky_ref": 0.0007753671777673355,
+     "reference": 0.14666391520445166
+    },
+    "removal_stat B6": {
+     "n": 20,
+     "mean": 0.08663988809316411,
+     "min": 0.08567611881528046,
+     "max": 0.08786001013103971,
+     "mc_se_empirical": 0.0005264098368050105,
+     "mc_se_andrews_buchinsky_ref": 0.00071815423634626,
+     "reference": 0.0871875529657931
+    },
+    "removal_stat B9": {
+     "n": 20,
+     "mean": 0.034808985501858805,
+     "min": 0.03370013626846509,
+     "max": 0.03593590658077722,
+     "mc_se_empirical": 0.0006064263476439018,
+     "mc_se_andrews_buchinsky_ref": 0.001080187316381311,
+     "reference": 0.035013978702727225
+    },
+    "removal_stat RETUNED": {
+     "n": 20,
+     "mean": 0.0628934065903579,
+     "min": 0.06162319199040331,
+     "max": 0.06391840577002575,
+     "mc_se_empirical": 0.0006139552465531408,
+     "mc_se_andrews_buchinsky_ref": 0.00092641135692068,
+     "reference": 0.06307882246637168
+    },
+    "Form B UB M* - B0 (level 0.993750)": {
+     "n": 20,
+     "mean": -0.5819471093970557,
+     "min": -0.5826470054446462,
+     "max": -0.5814418975599919,
+     "mc_se_empirical": 0.0003156344788271053,
+     "mc_se_andrews_buchinsky_ref": 0.0003952378054123081,
+     "reference": -0.5818851572897763
+    },
+    "p_c M* - B0": {
+     "n": 20,
+     "mean": 2.499937501562461e-05,
+     "min": 2.499937501562461e-05,
+     "max": 2.499937501562461e-05,
+     "mc_se_empirical": 0.0,
+     "mc_se_andrews_buchinsky_ref": 2.499937501562461e-05,
+     "reference": 2.499937501562461e-05
+    },
+    "Form B UB M* - B3 (level 0.993750)": {
+     "n": 20,
+     "mean": -0.6662494920850979,
+     "min": -0.6666666283524904,
+     "max": -0.6655539413188143,
+     "mc_se_empirical": 0.0002704901843943113,
+     "mc_se_andrews_buchinsky_ref": 0.0003902006049575804,
+     "reference": -0.6664299183303086
+    },
+    "p_c M* - B3": {
+     "n": 20,
+     "mean": 2.499937501562461e-05,
+     "min": 2.499937501562461e-05,
+     "max": 2.499937501562461e-05,
+     "mc_se_empirical": 0.0,
+     "mc_se_andrews_buchinsky_ref": 2.499937501562461e-05,
+     "reference": 2.499937501562461e-05
+    },
+    "HK1c UB M* PD7_primary": {
+     "n": 20,
+     "mean": 0.04707937954376229,
+     "min": 0.04702767518802116,
+     "max": 0.047134123199400565,
+     "mc_se_empirical": 2.8819097978830784e-05,
+     "mc_se_andrews_buchinsky_ref": 4.8767382093453126e-05,
+     "reference": 0.04710010241236827
+    },
+    "pooled LB M* PD7_primary": {
+     "n": 20,
+     "mean": 0.04019381713665395,
+     "min": 0.040151674474079586,
+     "max": 0.040218743845971565,
+     "mc_se_empirical": 1.5491861629970244e-05,
+     "mc_se_andrews_buchinsky_ref": 1.856521975571044e-05,
+     "reference": 0.040197003626934194
+    },
+    "HK1c UB M* SD1_7_gap_le_5m": {
+     "n": 20,
+     "mean": 0.04117597559588028,
+     "min": 0.041078871835917866,
+     "max": 0.04132692500155666,
+     "mc_se_empirical": 7.351804048030996e-05,
+     "mc_se_andrews_buchinsky_ref": 9.437523043917825e-05,
+     "reference": 0.04115731459690131
+    },
+    "pooled LB M* SD1_7_gap_le_5m": {
+     "n": 20,
+     "mean": 0.025516264165229813,
+     "min": 0.025354596057125138,
+     "max": 0.025647377310307348,
+     "mc_se_empirical": 6.492555684166319e-05,
+     "mc_se_andrews_buchinsky_ref": 5.1448867024663334e-05,
+     "reference": 0.02552611507411272
+    },
+    "HK1c UB M* PD_inpath": {
+     "n": 20,
+     "mean": 0.051992236828637885,
+     "min": 0.051828841235149435,
+     "max": 0.0521816290721381,
+     "mc_se_empirical": 9.860169232280233e-05,
+     "mc_se_andrews_buchinsky_ref": 0.00014289764454991622,
+     "reference": 0.052099511336679866
+    },
+    "pooled LB M* PD_inpath": {
+     "n": 20,
+     "mean": 0.0321636429192094,
+     "min": 0.03205247095174593,
+     "max": 0.03226316215430709,
+     "mc_se_empirical": 6.0494650614920704e-05,
+     "mc_se_andrews_buchinsky_ref": 5.9790170763970945e-05,
+     "reference": 0.032192858142462095
+    },
+    "H3 p (this tracker; doubled)": {
+     "n": 20,
+     "mean": 1.0,
+     "min": 1.0,
+     "max": 1.0,
+     "mc_se_empirical": 0.0,
+     "reference": 1.0
+    },
+    "H3 UB M*Jx - B0 (own level)": {
+     "n": 20,
+     "mean": 0.055532151693889885,
+     "min": 0.05520614942528734,
+     "max": 0.05584400080661424,
+     "mc_se_empirical": 0.000149067172739378,
+     "mc_se_andrews_buchinsky_ref": 0.0002126491217957544,
+     "reference": 0.05539654970760232
+    },
+    "H3 UB M*Jx - B3 (own level)": {
+     "n": 20,
+     "mean": -0.028274993395845948,
+     "min": -0.028511334946561814,
+     "max": -0.028006061705989127,
+     "mc_se_empirical": 0.00015002585120127643,
+     "mc_se_andrews_buchinsky_ref": 0.00018129405422281737,
+     "reference": -0.028470882234321437
+    }
+   },
+   "stability": {
+    "Mstar/PD7_primary NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD7_primary FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD7_primary Floor": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD7_primary HK1c": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD7_primary valid": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/SD1_7_gap_le_5m Floor": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/SD1_7_gap_le_5m HK1c": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/SD1_7_gap_le_5m valid": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD_inpath Floor": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD_inpath HK1c": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD_inpath valid": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/PD7_primary NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/PD7_primary FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/PD7_primary shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/PD7_primary NoFlag": {
+     "reference": true,
+     "share_same": 0.95,
+     "analysis": true
+    },
+    "B1/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/PD7_primary NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/PD7_primary FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/PD7_primary shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/PD7_primary NoFlag_pool": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/SD1_7_gap_le_5m NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/SD1_7_gap_le_5m FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/SD1_7_gap_le_5m shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/PD_inpath NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/PD_inpath FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/PD_inpath NoFlag_pool": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/PD_inpath shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B6/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B6/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B6/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B6/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B9/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B9/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B9/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B9/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B9/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "V_t membership identical": {
+     "reference": [
+      "B0",
+      "B3"
+     ],
+     "share_same": 1.0,
+     "analysis": [
+      "B0",
+      "B3"
+     ],
+     "differing_sets": {}
+    },
+    "Form B met": {
+     "reference": true,
+     "share_same": 1.0
+    },
+    "Form B UB < 0 M* - B0": {
+     "reference": true,
+     "share_same": 1.0
+    },
+    "Form B UB < 0 M* - B3": {
+     "reference": true,
+     "share_same": 1.0
+    },
+    "V^J membership identical": {
+     "reference": [
+      "B0",
+      "B3"
+     ],
+     "share_same": 1.0
+    }
+   },
+   "cells_t_minus_q_below_0.2": {
+    "B1/PD7_primary/car|long|new cells": [
+     {
+      "set": 0,
+      "t": 5.016152500027418,
+      "q": 5.16332827054166
+     },
+     {
+      "set": 2,
+      "t": 5.020360202807505,
+      "q": 5.090564104997089
+     },
+     {
+      "set": 3,
+      "t": 5.0157789604843135,
+      "q": 5.128530075081154
+     },
+     {
+      "set": 4,
+      "t": 5.0218297135643795,
+      "q": 5.039231181405982
+     },
+     {
+      "set": 5,
+      "t": 5.010294960655702,
+      "q": 5.026196247789829
+     },
+     {
+      "set": 6,
+      "t": 5.038568832393987,
+      "q": 5.101630145763876
+     },
+     {
+      "set": 7,
+      "t": 5.024560292768131,
+      "q": 5.043494633358443
+     },
+     {
+      "set": 8,
+      "t": 5.038444131787714,
+      "q": 5.1479938162843455
+     },
+     {
+      "set": 9,
+      "t": 5.023755732888403,
+      "q": 5.103245940791778
+     },
+     {
+      "set": 10,
+      "t": 5.030496528457977,
+      "q": 5.017764360021111
+     },
+     {
+      "set": 11,
+      "t": 5.002003103552512,
+      "q": 5.171216457965582
+     },
+     {
+      "set": 12,
+      "t": 5.028642221989551,
+      "q": 5.0556838005854905
+     },
+     {
+      "set": 13,
+      "t": 5.016777704339372,
+      "q": 5.0212590585835475
+     },
+     {
+      "set": 14,
+      "t": 5.011357600994735,
+      "q": 5.07833906379686
+     },
+     {
+      "set": 15,
+      "t": 5.04062224334563,
+      "q": 5.100450283368098
+     },
+     {
+      "set": 16,
+      "t": 4.99832209861356,
+      "q": 5.144276680273342
+     },
+     {
+      "set": 17,
+      "t": 5.032471714120754,
+      "q": 5.1568316656818745
+     },
+     {
+      "set": 18,
+      "t": 5.006141880965516,
+      "q": 5.061389453346512
+     },
+     {
+      "set": 19,
+      "t": 4.9783378447642015,
+      "q": 5.071545081896328
+     },
+     {
+      "set": 20,
+      "t": 5.015816854996777,
+      "q": 5.038205989964738
+     }
+    ],
+    "B1/PD7_primary/car|long|new family": [
+     {
+      "set": 0,
+      "t": 5.016152500027418,
+      "q": 4.86613017698127
+     },
+     {
+      "set": 1,
+      "t": 4.990174040156125,
+      "q": 4.900892112042303
+     },
+     {
+      "set": 2,
+      "t": 5.020360202807505,
+      "q": 4.937814692824078
+     },
+     {
+      "set": 3,
+      "t": 5.0157789604843135,
+      "q": 4.958299173520513
+     },
+     {
+      "set": 4,
+      "t": 5.0218297135643795,
+      "q": 4.827993674890317
+     },
+     {
+      "set": 5,
+      "t": 5.010294960655702,
+      "q": 4.842862633675878
+     },
+     {
+      "set": 6,
+      "t": 5.038568832393987,
+      "q": 4.928900933489741
+     },
+     {
+      "set": 7,
+      "t": 5.024560292768131,
+      "q": 4.941959157264308
+     },
+     {
+      "set": 8,
+      "t": 5.038444131787714,
+      "q": 4.922851844459929
+     },
+     {
+      "set": 9,
+      "t": 5.023755732888403,
+      "q": 4.920543791438232
+     },
+     {
+      "set": 10,
+      "t": 5.030496528457977,
+      "q": 4.8470260992441085
+     },
+     {
+      "set": 11,
+      "t": 5.002003103552512,
+      "q": 4.960724686271515
+     },
+     {
+      "set": 12,
+      "t": 5.028642221989551,
+      "q": 4.833754650568154
+     },
+     {
+      "set": 13,
+      "t": 5.016777704339372,
+      "q": 4.830902991902584
+     },
+     {
+      "set": 14,
+      "t": 5.011357600994735,
+      "q": 4.87295915433567
+     },
+     {
+      "set": 15,
+      "t": 5.04062224334563,
+      "q": 4.916774200263592
+     },
+     {
+      "set": 16,
+      "t": 4.99832209861356,
+      "q": 4.932513883146833
+     },
+     {
+      "set": 17,
+      "t": 5.032471714120754,
+      "q": 4.935067283869267
+     },
+     {
+      "set": 18,
+      "t": 5.006141880965516,
+      "q": 4.948936933605267
+     },
+     {
+      "set": 19,
+      "t": 4.9783378447642015,
+      "q": 4.9266977604545215
+     },
+     {
+      "set": 20,
+      "t": 5.015816854996777,
+      "q": 4.8312592496153135
+     }
+    ],
+    "B4/PD7_primary/large|long|static family": [
+     {
+      "set": 0,
+      "t": 4.343085435825136,
+      "q": 4.46104561133728
+     },
+     {
+      "set": 1,
+      "t": 4.318448106916255,
+      "q": 4.446449782869819
+     },
+     {
+      "set": 3,
+      "t": 4.330200355956961,
+      "q": 4.456220089293306
+     },
+     {
+      "set": 4,
+      "t": 4.325680277741208,
+      "q": 4.467980349966114
+     },
+     {
+      "set": 5,
+      "t": 4.320832620455871,
+      "q": 4.471777465711324
+     },
+     {
+      "set": 6,
+      "t": 4.318052301649808,
+      "q": 4.453357451862847
+     },
+     {
+      "set": 7,
+      "t": 4.29512971687659,
+      "q": 4.456872782923553
+     },
+     {
+      "set": 8,
+      "t": 4.305056482775206,
+      "q": 4.440005870364841
+     },
+     {
+      "set": 9,
+      "t": 4.304634631968675,
+      "q": 4.359451218127766
+     },
+     {
+      "set": 10,
+      "t": 4.339590944831009,
+      "q": 4.419806629451268
+     },
+     {
+      "set": 11,
+      "t": 4.323692381441451,
+      "q": 4.429861323157513
+     },
+     {
+      "set": 12,
+      "t": 4.348128917394969,
+      "q": 4.523199932853404
+     },
+     {
+      "set": 13,
+      "t": 4.326542243247825,
+      "q": 4.502469882274375
+     },
+     {
+      "set": 14,
+      "t": 4.30718044852854,
+      "q": 4.4746782067267805
+     },
+     {
+      "set": 17,
+      "t": 4.33493695828624,
+      "q": 4.4663050668598245
+     },
+     {
+      "set": 18,
+      "t": 4.327434556247362,
+      "q": 4.4000020833277995
+     },
+     {
+      "set": 19,
+      "t": 4.34032934876931,
+      "q": 4.51316011717698
+     },
+     {
+      "set": 20,
+      "t": 4.305032367574916,
+      "q": 4.4570237125872865
+     }
+    ],
+    "B4/SD1_7_gap_le_5m/large|long|straight cells": [
+     {
+      "set": 0,
+      "t": 4.93466604458763,
+      "q": 4.924918184738097
+     },
+     {
+      "set": 1,
+      "t": 4.997996030383911,
+      "q": 5.00062867601926
+     },
+     {
+      "set": 2,
+      "t": 4.987534377621562,
+      "q": 5.009462816997961
+     },
+     {
+      "set": 3,
+      "t": 4.976748700456796,
+      "q": 4.872038544940473
+     },
+     {
+      "set": 4,
+      "t": 5.012147621199189,
+      "q": 5.066251733965551
+     },
+     {
+      "set": 5,
+      "t": 5.003205545011726,
+      "q": 5.143371052738034
+     },
+     {
+      "set": 6,
+      "t": 4.981013577300505,
+      "q": 4.911981596552737
+     },
+     {
+      "set": 7,
+      "t": 4.941666965010207,
+      "q": 4.9534144209605975
+     },
+     {
+      "set": 8,
+      "t": 4.966956805928634,
+      "q": 5.095330129274919
+     },
+     {
+      "set": 9,
+      "t": 4.999627843136173,
+      "q": 4.991273871215437
+     },
+     {
+      "set": 10,
+      "t": 4.980048210296376,
+      "q": 4.948725042637823
+     },
+     {
+      "set": 11,
+      "t": 4.974660106196529,
+      "q": 4.984362718403729
+     },
+     {
+      "set": 12,
+      "t": 4.979738590750198,
+      "q": 5.122107391192614
+     },
+     {
+      "set": 13,
+      "t": 4.9874203219963995,
+      "q": 4.9367750656877964
+     },
+     {
+      "set": 14,
+      "t": 4.97825895533833,
+      "q": 5.043774779314839
+     },
+     {
+      "set": 15,
+      "t": 4.967180857888948,
+      "q": 4.939992492278976
+     },
+     {
+      "set": 16,
+      "t": 5.009821387622868,
+      "q": 4.934770506062709
+     },
+     {
+      "set": 17,
+      "t": 4.968267467130493,
+      "q": 5.012805721625056
+     },
+     {
+      "set": 18,
+      "t": 4.95757400566873,
+      "q": 4.904037045740182
+     },
+     {
+      "set": 19,
+      "t": 4.9908766711673955,
+      "q": 4.992111871124215
+     },
+     {
+      "set": 20,
+      "t": 4.969984359896332,
+      "q": 4.9055477205367115
+     }
+    ],
+    "B4/SD1_7_gap_le_5m/car|long|turning family": [
+     {
+      "set": 0,
+      "t": 4.6216432676432495,
+      "q": 4.438967721996909
+     },
+     {
+      "set": 1,
+      "t": 4.613184985936396,
+      "q": 4.5463014643882005
+     },
+     {
+      "set": 2,
+      "t": 4.633080519923475,
+      "q": 4.622097736314371
+     },
+     {
+      "set": 3,
+      "t": 4.6042666008061675,
+      "q": 4.453736872708102
+     },
+     {
+      "set": 4,
+      "t": 4.614268736300145,
+      "q": 4.567338852701698
+     },
+     {
+      "set": 5,
+      "t": 4.597013971518237,
+      "q": 4.632008143322664
+     },
+     {
+      "set": 6,
+      "t": 4.618747998900921,
+      "q": 4.459962457604598
+     },
+     {
+      "set": 7,
+      "t": 4.6044531588276305,
+      "q": 4.449355962393097
+     },
+     {
+      "set": 8,
+      "t": 4.607788561346859,
+      "q": 4.579759268014099
+     },
+     {
+      "set": 9,
+      "t": 4.610949706781945,
+      "q": 4.435639968134005
+     },
+     {
+      "set": 10,
+      "t": 4.609427740569075,
+      "q": 4.443272092822569
+     },
+     {
+      "set": 11,
+      "t": 4.6212751689383325,
+      "q": 4.480779245100557
+     },
+     {
+      "set": 12,
+      "t": 4.567304286643387,
+      "q": 4.638916486417609
+     },
+     {
+      "set": 13,
+      "t": 4.612617455549962,
+      "q": 4.453032713724065
+     },
+     {
+      "set": 14,
+      "t": 4.618575813258835,
+      "q": 4.4817480455894065
+     },
+     {
+      "set": 15,
+      "t": 4.615532480836635,
+      "q": 4.593546462091442
+     },
+     {
+      "set": 16,
+      "t": 4.640465466238292,
+      "q": 4.53238769173088
+     },
+     {
+      "set": 17,
+      "t": 4.611162049796773,
+      "q": 4.478988628108775
+     },
+     {
+      "set": 18,
+      "t": 4.616473629507537,
+      "q": 4.515794955965014
+     },
+     {
+      "set": 19,
+      "t": 4.625191746106271,
+      "q": 4.502282989463683
+     },
+     {
+      "set": 20,
+      "t": 4.614077914299831,
+      "q": 4.417286767840279
+     }
+    ],
+    "B6/PD7_primary/car|lat|new cells": [
+     {
+      "set": 0,
+      "t": 4.894172743726925,
+      "q": 4.822954424825947
+     },
+     {
+      "set": 1,
+      "t": 4.873449488223546,
+      "q": 4.802138749990754
+     },
+     {
+      "set": 2,
+      "t": 4.872880073616067,
+      "q": 4.962421292654243
+     },
+     {
+      "set": 3,
+      "t": 4.907866193388894,
+      "q": 4.922390475697513
+     },
+     {
+      "set": 4,
+      "t": 4.871554830272587,
+      "q": 4.914847483981753
+     },
+     {
+      "set": 5,
+      "t": 4.869367936422505,
+      "q": 4.983498528997997
+     },
+     {
+      "set": 6,
+      "t": 4.869002556573582,
+      "q": 4.786652078429237
+     },
+     {
+      "set": 7,
+      "t": 4.86493837448157,
+      "q": 4.83126223325651
+     },
+     {
+      "set": 8,
+      "t": 4.8728863182926245,
+      "q": 4.891718712720728
+     },
+     {
+      "set": 9,
+      "t": 4.914973950239691,
+      "q": 4.860793640610324
+     },
+     {
+      "set": 10,
+      "t": 4.885052853991697,
+      "q": 4.884882836666373
+     },
+     {
+      "set": 11,
+      "t": 4.886741607322583,
+      "q": 4.933129594563159
+     },
+     {
+      "set": 12,
+      "t": 4.873358990728115,
+      "q": 4.986761476647403
+     },
+     {
+      "set": 13,
+      "t": 4.873090275360147,
+      "q": 4.849462429891214
+     },
+     {
+      "set": 14,
+      "t": 4.89859088721481,
+      "q": 4.730976774671609
+     },
+     {
+      "set": 15,
+      "t": 4.883763099299349,
+      "q": 4.749956663066445
+     },
+     {
+      "set": 16,
+      "t": 4.8741335651857876,
+      "q": 4.807195287958986
+     },
+     {
+      "set": 17,
+      "t": 4.859020643961866,
+      "q": 4.894372730569814
+     },
+     {
+      "set": 18,
+      "t": 4.86695507616349,
+      "q": 4.77108120413486
+     },
+     {
+      "set": 19,
+      "t": 4.8795393640243105,
+      "q": 4.771116986975346
+     },
+     {
+      "set": 20,
+      "t": 4.874927493555589,
+      "q": 4.821870613305116
+     }
+    ],
+    "RETUNED/PD7_primary/car|long|turning cells": [
+     {
+      "set": 0,
+      "t": 5.215942061298145,
+      "q": 5.085003549800268
+     },
+     {
+      "set": 1,
+      "t": 5.180524009187026,
+      "q": 4.996865894459316
+     },
+     {
+      "set": 2,
+      "t": 5.1936348248505375,
+      "q": 5.107880529973476
+     },
+     {
+      "set": 3,
+      "t": 5.216828892750067,
+      "q": 5.144715343555489
+     },
+     {
+      "set": 4,
+      "t": 5.171025371557791,
+      "q": 5.055753641887989
+     },
+     {
+      "set": 5,
+      "t": 5.191072831161642,
+      "q": 5.078820820708269
+     },
+     {
+      "set": 6,
+      "t": 5.180006975648686,
+      "q": 5.024114205698222
+     },
+     {
+      "set": 7,
+      "t": 5.22760827799474,
+      "q": 5.046674638262169
+     },
+     {
+      "set": 8,
+      "t": 5.174649700257719,
+      "q": 5.031220155787006
+     },
+     {
+      "set": 9,
+      "t": 5.207272036646451,
+      "q": 5.050700216717839
+     },
+     {
+      "set": 10,
+      "t": 5.1844911023738245,
+      "q": 5.071348591801035
+     },
+     {
+      "set": 11,
+      "t": 5.204343239260621,
+      "q": 5.045854885458929
+     },
+     {
+      "set": 12,
+      "t": 5.217157464471998,
+      "q": 5.076025423659646
+     },
+     {
+      "set": 13,
+      "t": 5.209909306375137,
+      "q": 5.031290009639997
+     },
+     {
+      "set": 14,
+      "t": 5.183025790500658,
+      "q": 5.020593841862785
+     },
+     {
+      "set": 15,
+      "t": 5.205789497890501,
+      "q": 5.090676941848669
+     },
+     {
+      "set": 16,
+      "t": 5.22576692459864,
+      "q": 5.054095139896842
+     },
+     {
+      "set": 17,
+      "t": 5.2099269832455,
+      "q": 5.118866381950164
+     },
+     {
+      "set": 18,
+      "t": 5.1876491812099745,
+      "q": 5.07930619033097
+     },
+     {
+      "set": 19,
+      "t": 5.17669842279443,
+      "q": 5.032536456826352
+     },
+     {
+      "set": 20,
+      "t": 5.229379265914128,
+      "q": 5.049548329882951
+     }
+    ],
+    "RETUNED/PD7_primary/car|long|straight family": [
+     {
+      "set": 0,
+      "t": 4.86301037236856,
+      "q": 4.819419927845447
+     },
+     {
+      "set": 1,
+      "t": 4.847365771932391,
+      "q": 4.78178908992447
+     },
+     {
+      "set": 2,
+      "t": 4.847628629984262,
+      "q": 4.875292067943907
+     },
+     {
+      "set": 3,
+      "t": 4.836437911383222,
+      "q": 4.929920914698119
+     },
+     {
+      "set": 4,
+      "t": 4.847119371359209,
+      "q": 4.812071404755911
+     },
+     {
+      "set": 5,
+      "t": 4.842437318548991,
+      "q": 4.901166086922183
+     },
+     {
+      "set": 6,
+      "t": 4.833897331189981,
+      "q": 4.744348394854216
+     },
+     {
+      "set": 7,
+      "t": 4.829875404624934,
+      "q": 4.879258672684464
+     },
+     {
+      "set": 8,
+      "t": 4.835806460248074,
+      "q": 4.8011357425568
+     },
+     {
+      "set": 9,
+      "t": 4.827239481420636,
+      "q": 4.857309124400994
+     },
+     {
+      "set": 10,
+      "t": 4.831061634957479,
+      "q": 4.81958273364701
+     },
+     {
+      "set": 11,
+      "t": 4.82913390487584,
+      "q": 4.732366027083118
+     },
+     {
+      "set": 12,
+      "t": 4.85520646500762,
+      "q": 4.867937453101476
+     },
+     {
+      "set": 13,
+      "t": 4.829647872525131,
+      "q": 4.789622099920011
+     },
+     {
+      "set": 14,
+      "t": 4.8189595857179635,
+      "q": 4.7716928807309005
+     },
+     {
+      "set": 15,
+      "t": 4.849488821037054,
+      "q": 4.828311718320094
+     },
+     {
+      "set": 16,
+      "t": 4.830503321060367,
+      "q": 4.806769488274185
+     },
+     {
+      "set": 17,
+      "t": 4.827349120050454,
+      "q": 4.782995965718913
+     },
+     {
+      "set": 18,
+      "t": 4.823162316543874,
+      "q": 4.882019877267682
+     },
+     {
+      "set": 19,
+      "t": 4.84380323940166,
+      "q": 4.755853220317582
+     },
+     {
+      "set": 20,
+      "t": 4.838396959188344,
+      "q": 4.786376058067781
+     }
+    ],
+    "RETUNED/PD7_primary/car|long|straight cells": [
+     {
+      "set": 1,
+      "t": 4.847365771932391,
+      "q": 4.996865894459316
+     },
+     {
+      "set": 6,
+      "t": 4.833897331189981,
+      "q": 5.024114205698222
+     },
+     {
+      "set": 8,
+      "t": 4.835806460248074,
+      "q": 5.031220155787006
+     },
+     {
+      "set": 19,
+      "t": 4.84380323940166,
+      "q": 5.032536456826352
+     }
+    ],
+    "B9/PD7_primary/large|long|new cells": [
+     {
+      "set": 2,
+      "t": 4.999076043015376,
+      "q": 5.183389925969143
+     },
+     {
+      "set": 13,
+      "t": 4.971239179233705,
+      "q": 5.118001169349126
+     },
+     {
+      "set": 15,
+      "t": 4.976447792779399,
+      "q": 5.150690149243125
+     },
+     {
+      "set": 20,
+      "t": 4.973294394862997,
+      "q": 5.157561006479893
+     }
+    ]
+   },
+   "seconds_per_set": {
+    "n": 20,
+    "mean": 3.716488814353943,
+    "min": 3.6054928302764893,
+    "max": 4.2598114013671875,
+    "mc_se_empirical": 0.14717977603232602
+   }
+  },
+  "transfer_lt3d/t1": {
+   "n_sets": 20,
+   "reference_seed": [
+    20261110,
+    0,
+    1
+   ],
+   "alt_seeds": [
+    [
+     20261121,
+     0,
+     1,
+     1
+    ],
+    [
+     20261121,
+     0,
+     1,
+     2
+    ],
+    [
+     20261121,
+     0,
+     1,
+     3
+    ],
+    [
+     20261121,
+     0,
+     1,
+     4
+    ],
+    [
+     20261121,
+     0,
+     1,
+     5
+    ],
+    [
+     20261121,
+     0,
+     1,
+     6
+    ],
+    [
+     20261121,
+     0,
+     1,
+     7
+    ],
+    [
+     20261121,
+     0,
+     1,
+     8
+    ],
+    [
+     20261121,
+     0,
+     1,
+     9
+    ],
+    [
+     20261121,
+     0,
+     1,
+     10
+    ],
+    [
+     20261121,
+     0,
+     1,
+     11
+    ],
+    [
+     20261121,
+     0,
+     1,
+     12
+    ],
+    [
+     20261121,
+     0,
+     1,
+     13
+    ],
+    [
+     20261121,
+     0,
+     1,
+     14
+    ],
+    [
+     20261121,
+     0,
+     1,
+     15
+    ],
+    [
+     20261121,
+     0,
+     1,
+     16
+    ],
+    [
+     20261121,
+     0,
+     1,
+     17
+    ],
+    [
+     20261121,
+     0,
+     1,
+     18
+    ],
+    [
+     20261121,
+     0,
+     1,
+     19
+    ],
+    [
+     20261121,
+     0,
+     1,
+     20
+    ]
+   ],
+   "decisive_quantities": {
+    "removal_stat B0": {
+     "n": 20,
+     "mean": 0.07661140823679784,
+     "min": 0.07234929958467999,
+     "max": 0.07910219655164684,
+     "mc_se_empirical": 0.0019464218152446925,
+     "mc_se_andrews_buchinsky_ref": 0.0009116052721495004,
+     "reference": 0.07826956571835296
+    },
+    "removal_stat B1": {
+     "n": 20,
+     "mean": 0.10155522891098687,
+     "min": 0.0873520120489301,
+     "max": 0.11254647048532222,
+     "mc_se_empirical": 0.006426859691134193,
+     "mc_se_andrews_buchinsky_ref": 0.00912675862465039,
+     "reference": 0.1119483752355948
+    },
+    "removal_stat B3": {
+     "n": 20,
+     "mean": -0.04848328048353261,
+     "min": -0.04855353392635478,
+     "max": -0.048397951506034556,
+     "mc_se_empirical": 4.600750913314529e-05,
+     "mc_se_andrews_buchinsky_ref": 4.826173727598974e-05,
+     "reference": -0.04845779297146439
+    },
+    "removal_stat B4": {
+     "n": 20,
+     "mean": 0.21061723357030426,
+     "min": 0.20741944544940533,
+     "max": 0.21422169973242133,
+     "mc_se_empirical": 0.0019777143536370305,
+     "mc_se_andrews_buchinsky_ref": 0.0031863054458712947,
+     "reference": 0.21408799815192792
+    },
+    "removal_stat B6": {
+     "n": 20,
+     "mean": 0.19625267592799803,
+     "min": 0.19368616892293716,
+     "max": 0.20011115680168984,
+     "mc_se_empirical": 0.0013969789629351332,
+     "mc_se_andrews_buchinsky_ref": 0.002088223416523717,
+     "reference": 0.19877535436575122
+    },
+    "removal_stat B9": {
+     "n": 20,
+     "mean": 0.13071566320168743,
+     "min": 0.12658412945159292,
+     "max": 0.13369303857402037,
+     "mc_se_empirical": 0.0018146200417165444,
+     "mc_se_andrews_buchinsky_ref": 0.002897324639737126,
+     "reference": 0.13389885300996734
+    },
+    "removal_stat RETUNED": {
+     "n": 20,
+     "mean": 0.07661140823679784,
+     "min": 0.07234929958467999,
+     "max": 0.07910219655164684,
+     "mc_se_empirical": 0.0019464218152446925,
+     "mc_se_andrews_buchinsky_ref": 0.0009116052721495004,
+     "reference": 0.07826956571835296
+    },
+    "Form B UB M* - B3 (level 0.987500)": {
+     "n": 20,
+     "mean": -0.7221867948175035,
+     "min": -0.722607604355717,
+     "max": -0.7218917160717887,
+     "mc_se_empirical": 0.00017948446432943885,
+     "mc_se_andrews_buchinsky_ref": 0.00027847723688253427,
+     "reference": -0.7222829864892116
+    },
+    "p_c M* - B3": {
+     "n": 20,
+     "mean": 2.499937501562461e-05,
+     "min": 2.499937501562461e-05,
+     "max": 2.499937501562461e-05,
+     "mc_se_empirical": 0.0,
+     "mc_se_andrews_buchinsky_ref": 2.499937501562461e-05,
+     "reference": 2.499937501562461e-05
+    },
+    "HK1c UB M* PD7_primary": {
+     "n": 20,
+     "mean": 0.05608959750750826,
+     "min": 0.056015430754083835,
+     "max": 0.056193950897115215,
+     "mc_se_empirical": 4.519087734700816e-05,
+     "mc_se_andrews_buchinsky_ref": 6.811981860877948e-05,
+     "reference": 0.05602921609077447
+    },
+    "pooled LB M* PD7_primary": {
+     "n": 20,
+     "mean": 0.04799302805766957,
+     "min": 0.04795677289730489,
+     "max": 0.048023570906688254,
+     "mc_se_empirical": 1.7650452623295454e-05,
+     "mc_se_andrews_buchinsky_ref": 2.3083315487216943e-05,
+     "reference": 0.04798324384518456
+    },
+    "HK1c UB M* SD1_7_gap_le_5m": {
+     "n": 20,
+     "mean": 0.05662933660345428,
+     "min": 0.05650880324853397,
+     "max": 0.05672347105369523,
+     "mc_se_empirical": 5.7673966703764864e-05,
+     "mc_se_andrews_buchinsky_ref": 0.00011723849053687366,
+     "reference": 0.05660506499251726
+    },
+    "pooled LB M* SD1_7_gap_le_5m": {
+     "n": 20,
+     "mean": 0.040407841418284664,
+     "min": 0.04032930903106128,
+     "max": 0.0405063285855091,
+     "mc_se_empirical": 5.460359448541823e-05,
+     "mc_se_andrews_buchinsky_ref": 4.629066260953304e-05,
+     "reference": 0.04040182025654058
+    },
+    "HK1c UB M* PD_inpath": {
+     "n": 20,
+     "mean": 0.08885729978726833,
+     "min": 0.08862734532846184,
+     "max": 0.08916240104377846,
+     "mc_se_empirical": 0.00014880257613593983,
+     "mc_se_andrews_buchinsky_ref": 0.00022770344711646348,
+     "reference": 0.08892176452840275
+    },
+    "pooled LB M* PD_inpath": {
+     "n": 20,
+     "mean": 0.05700939755314358,
+     "min": 0.05687749758028756,
+     "max": 0.05718657843638986,
+     "mc_se_empirical": 9.70811591738495e-05,
+     "mc_se_andrews_buchinsky_ref": 9.204274645889772e-05,
+     "reference": 0.057075412390688134
+    },
+    "H4 p (this tracker; doubled)": {
+     "n": 20,
+     "mean": 4.999875003124922e-05,
+     "min": 4.999875003124922e-05,
+     "max": 4.999875003124922e-05,
+     "mc_se_empirical": 0.0,
+     "reference": 4.999875003124922e-05
+    }
+   },
+   "stability": {
+    "Mstar/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD7_primary Floor": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD7_primary HK1c": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD7_primary valid": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/SD1_7_gap_le_5m NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/SD1_7_gap_le_5m Floor": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/SD1_7_gap_le_5m HK1c": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/SD1_7_gap_le_5m valid": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/PD_inpath NoFlag_pool": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/PD_inpath Floor": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD_inpath HK1c": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/PD_inpath valid": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/PD7_primary NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/PD7_primary FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/PD7_primary shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/PD7_primary NoFlag_pool": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/SD1_7_gap_le_5m NoFlag": {
+     "reference": false,
+     "share_same": 0.7,
+     "analysis": false
+    },
+    "B4/SD1_7_gap_le_5m FamFlag": {
+     "reference": true,
+     "share_same": 0.65,
+     "analysis": true
+    },
+    "B4/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/SD1_7_gap_le_5m shown_above": {
+     "reference": true,
+     "share_same": 0.9,
+     "analysis": true
+    },
+    "B4/PD_inpath NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/PD_inpath FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/PD_inpath NoFlag_pool": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/PD_inpath shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B6/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B6/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B6/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 0.15,
+     "analysis": false
+    },
+    "B6/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 0.15,
+     "analysis": true
+    },
+    "B9/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B9/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B9/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B9/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B9/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "V_t membership identical": {
+     "reference": [
+      "B3"
+     ],
+     "share_same": 1.0,
+     "analysis": [
+      "B3"
+     ],
+     "differing_sets": {}
+    },
+    "Form B met": {
+     "reference": false,
+     "share_same": 1.0
+    },
+    "Form B UB < 0 M* - B3": {
+     "reference": true,
+     "share_same": 1.0
+    }
+   },
+   "cells_t_minus_q_below_0.2": {
+    "Mstar/PD7_primary/car|long|turning family": [
+     {
+      "set": 0,
+      "t": 2.984603093412367,
+      "q": 3.0310043547314107
+     },
+     {
+      "set": 1,
+      "t": 3.013431533575723,
+      "q": 3.021934765594652
+     },
+     {
+      "set": 2,
+      "t": 3.0021554234744294,
+      "q": 3.0516304026110164
+     },
+     {
+      "set": 3,
+      "t": 2.9825962103342962,
+      "q": 3.027983087768059
+     },
+     {
+      "set": 4,
+      "t": 2.9878705272789503,
+      "q": 3.0444630997385396
+     },
+     {
+      "set": 5,
+      "t": 2.9847273301519346,
+      "q": 3.0306426088221174
+     },
+     {
+      "set": 6,
+      "t": 2.9729079727398813,
+      "q": 3.037184355337235
+     },
+     {
+      "set": 7,
+      "t": 2.995863323293692,
+      "q": 3.033624644993643
+     },
+     {
+      "set": 8,
+      "t": 2.9877756766899233,
+      "q": 3.0357810872849114
+     },
+     {
+      "set": 9,
+      "t": 2.997903377510263,
+      "q": 3.048573579511555
+     },
+     {
+      "set": 10,
+      "t": 2.98272935115471,
+      "q": 3.034603914141468
+     },
+     {
+      "set": 11,
+      "t": 2.9919412923049324,
+      "q": 3.03463960134385
+     },
+     {
+      "set": 12,
+      "t": 2.9831112638447532,
+      "q": 3.0350759859731005
+     },
+     {
+      "set": 13,
+      "t": 2.9916644704185966,
+      "q": 3.0512747606939548
+     },
+     {
+      "set": 14,
+      "t": 2.9903643475994137,
+      "q": 3.0420066893876303
+     },
+     {
+      "set": 15,
+      "t": 2.989012104269728,
+      "q": 3.0377386729697586
+     },
+     {
+      "set": 16,
+      "t": 3.0085834138121883,
+      "q": 3.052146835585832
+     },
+     {
+      "set": 17,
+      "t": 3.0146183385805654,
+      "q": 3.0411813859361776
+     },
+     {
+      "set": 18,
+      "t": 2.9910003583559663,
+      "q": 3.0425034694637754
+     },
+     {
+      "set": 19,
+      "t": 2.994981584678323,
+      "q": 3.0406776182405753
+     },
+     {
+      "set": 20,
+      "t": 2.9856701900177316,
+      "q": 3.0423232157348488
+     }
+    ],
+    "Mstar/PD_inpath/car|long|static family": [
+     {
+      "set": 0,
+      "t": 2.392137804806703,
+      "q": 2.490273519343818
+     },
+     {
+      "set": 1,
+      "t": 2.3956126093554446,
+      "q": 2.496550524323912
+     },
+     {
+      "set": 2,
+      "t": 2.394337324281631,
+      "q": 2.5075726727070147
+     },
+     {
+      "set": 3,
+      "t": 2.3997319174831464,
+      "q": 2.4965145555194206
+     },
+     {
+      "set": 4,
+      "t": 2.3923367597803575,
+      "q": 2.499664704168642
+     },
+     {
+      "set": 5,
+      "t": 2.405599085897101,
+      "q": 2.495556366638698
+     },
+     {
+      "set": 6,
+      "t": 2.402746416519352,
+      "q": 2.501284980031379
+     },
+     {
+      "set": 7,
+      "t": 2.3891524961086077,
+      "q": 2.5051732449231463
+     },
+     {
+      "set": 8,
+      "t": 2.3996468800616055,
+      "q": 2.5098362890980304
+     },
+     {
+      "set": 9,
+      "t": 2.4006773261400136,
+      "q": 2.504067668582888
+     },
+     {
+      "set": 10,
+      "t": 2.4023523230240706,
+      "q": 2.522017476663437
+     },
+     {
+      "set": 11,
+      "t": 2.403508073884338,
+      "q": 2.5192577692540707
+     },
+     {
+      "set": 12,
+      "t": 2.394105659044937,
+      "q": 2.505929495898455
+     },
+     {
+      "set": 13,
+      "t": 2.4002654245578574,
+      "q": 2.5096396379829677
+     },
+     {
+      "set": 14,
+      "t": 2.390360019630706,
+      "q": 2.504508591181095
+     },
+     {
+      "set": 15,
+      "t": 2.393951915188818,
+      "q": 2.506632100053012
+     },
+     {
+      "set": 16,
+      "t": 2.3954406458641007,
+      "q": 2.5027631253957945
+     },
+     {
+      "set": 17,
+      "t": 2.3621437242432024,
+      "q": 2.509280732866329
+     },
+     {
+      "set": 18,
+      "t": 2.398781779802953,
+      "q": 2.5162168830933074
+     },
+     {
+      "set": 19,
+      "t": 2.39748961885676,
+      "q": 2.512621554107144
+     },
+     {
+      "set": 20,
+      "t": 2.3916732858957235,
+      "q": 2.5080739954516504
+     }
+    ],
+    "B1/PD7_primary/car|lat|turning family": [
+     {
+      "set": 0,
+      "t": 5.290290508691546,
+      "q": 5.445779877488112
+     },
+     {
+      "set": 2,
+      "t": 5.344650046926017,
+      "q": 5.514970312938334
+     },
+     {
+      "set": 5,
+      "t": 5.337311623572356,
+      "q": 5.513142983678761
+     },
+     {
+      "set": 6,
+      "t": 5.285797196606137,
+      "q": 5.324914235934867
+     },
+     {
+      "set": 16,
+      "t": 5.323993899600597,
+      "q": 5.4946728453020635
+     },
+     {
+      "set": 18,
+      "t": 5.305197608700238,
+      "q": 5.501228369627634
+     }
+    ],
+    "B4/PD7_primary/car|lat|straight cells": [
+     {
+      "set": 0,
+      "t": 5.406239358083001,
+      "q": 5.37538820280555
+     },
+     {
+      "set": 1,
+      "t": 5.399910343741344,
+      "q": 5.380045605618001
+     },
+     {
+      "set": 2,
+      "t": 5.4459521253528225,
+      "q": 5.566577194027571
+     },
+     {
+      "set": 3,
+      "t": 5.408986077994925,
+      "q": 5.449593293879142
+     },
+     {
+      "set": 4,
+      "t": 5.417398697649149,
+      "q": 5.4404407241072255
+     },
+     {
+      "set": 5,
+      "t": 5.443320208060621,
+      "q": 5.587990017905517
+     },
+     {
+      "set": 6,
+      "t": 5.422800125012809,
+      "q": 5.588218105169986
+     },
+     {
+      "set": 8,
+      "t": 5.4537824453698835,
+      "q": 5.50023817986981
+     },
+     {
+      "set": 9,
+      "t": 5.433140271594923,
+      "q": 5.46946432433594
+     },
+     {
+      "set": 12,
+      "t": 5.416936117036325,
+      "q": 5.504577018895289
+     },
+     {
+      "set": 13,
+      "t": 5.420219447764145,
+      "q": 5.307204655353246
+     },
+     {
+      "set": 14,
+      "t": 5.416966746794826,
+      "q": 5.548313455920187
+     },
+     {
+      "set": 15,
+      "t": 5.438123126439872,
+      "q": 5.595169395477682
+     },
+     {
+      "set": 16,
+      "t": 5.415210219469086,
+      "q": 5.4653071473375245
+     },
+     {
+      "set": 17,
+      "t": 5.428294825908121,
+      "q": 5.495582580768348
+     },
+     {
+      "set": 18,
+      "t": 5.407283063976241,
+      "q": 5.429869927226328
+     },
+     {
+      "set": 20,
+      "t": 5.400818414433994,
+      "q": 5.586547062927078
+     }
+    ],
+    "B4/SD1_7_gap_le_5m/pedestrian|long|turning cells": [
+     {
+      "set": 0,
+      "t": 5.657934048669624,
+      "q": 5.480987010329646
+     },
+     {
+      "set": 1,
+      "t": 5.652929861689561,
+      "q": 5.703908475985392
+     },
+     {
+      "set": 2,
+      "t": 5.652887477900858,
+      "q": 5.542918846728641
+     },
+     {
+      "set": 4,
+      "t": 5.666274913524748,
+      "q": 5.603877469158345
+     },
+     {
+      "set": 5,
+      "t": 5.659802894220695,
+      "q": 5.483765818674573
+     },
+     {
+      "set": 6,
+      "t": 5.678406322228958,
+      "q": 5.483391181986379
+     },
+     {
+      "set": 8,
+      "t": 5.653992384409909,
+      "q": 5.46200234417261
+     },
+     {
+      "set": 9,
+      "t": 5.64255606057578,
+      "q": 5.73046486804717
+     },
+     {
+      "set": 11,
+      "t": 5.656360198090042,
+      "q": 5.816297335873684
+     },
+     {
+      "set": 13,
+      "t": 5.65459094759881,
+      "q": 5.6734116679435305
+     },
+     {
+      "set": 14,
+      "t": 5.670331277024012,
+      "q": 5.528398811146373
+     },
+     {
+      "set": 16,
+      "t": 5.6359209868234075,
+      "q": 5.7211680450651
+     },
+     {
+      "set": 17,
+      "t": 5.613474279535697,
+      "q": 5.711519981657473
+     },
+     {
+      "set": 19,
+      "t": 5.618893548447402,
+      "q": 5.6083780177669285
+     }
+    ],
+    "B6/PD7_primary/large|long|straight family": [
+     {
+      "set": 0,
+      "t": 4.853281111303749,
+      "q": 4.910376885576574
+     },
+     {
+      "set": 1,
+      "t": 4.8424216682586705,
+      "q": 5.004595356496042
+     },
+     {
+      "set": 3,
+      "t": 4.82887787357129,
+      "q": 4.995393291654973
+     },
+     {
+      "set": 6,
+      "t": 4.893030754831067,
+      "q": 5.043214714265447
+     },
+     {
+      "set": 8,
+      "t": 4.844853423239961,
+      "q": 5.037502017370843
+     },
+     {
+      "set": 9,
+      "t": 4.870973504666608,
+      "q": 4.998642669527298
+     },
+     {
+      "set": 11,
+      "t": 4.86090041523535,
+      "q": 5.012866197003349
+     },
+     {
+      "set": 14,
+      "t": 4.8428978831832215,
+      "q": 5.018597730753155
+     },
+     {
+      "set": 16,
+      "t": 4.853745280612275,
+      "q": 4.788528570519375
+     },
+     {
+      "set": 20,
+      "t": 4.835446899584937,
+      "q": 4.986840892461899
+     }
+    ],
+    "B6/SD1_7_gap_le_5m/car|long|new cells": [
+     {
+      "set": 0,
+      "t": 4.885924609061251,
+      "q": 5.031019531958488
+     },
+     {
+      "set": 1,
+      "t": 4.873053355893616,
+      "q": 5.069369730907166
+     },
+     {
+      "set": 7,
+      "t": 4.869562374843591,
+      "q": 4.90705183995181
+     },
+     {
+      "set": 8,
+      "t": 4.888659828995918,
+      "q": 5.064024175217237
+     },
+     {
+      "set": 11,
+      "t": 4.898965339850566,
+      "q": 4.990425473727959
+     },
+     {
+      "set": 14,
+      "t": 4.854990750385219,
+      "q": 5.0080340883504055
+     },
+     {
+      "set": 18,
+      "t": 4.904150069848602,
+      "q": 5.089647408002121
+     },
+     {
+      "set": 19,
+      "t": 4.883812196245984,
+      "q": 5.075226503110661
+     }
+    ],
+    "B6/PD_inpath/car|long|new family": [
+     {
+      "set": 0,
+      "t": 4.768747484169658,
+      "q": 4.7722238506045835
+     },
+     {
+      "set": 1,
+      "t": 4.814300314884218,
+      "q": 4.813134513355399
+     },
+     {
+      "set": 2,
+      "t": 4.767953206121117,
+      "q": 4.61065406959397
+     },
+     {
+      "set": 3,
+      "t": 4.783196233791195,
+      "q": 4.700771861516855
+     },
+     {
+      "set": 4,
+      "t": 4.7846174640143575,
+      "q": 4.716389034346159
+     },
+     {
+      "set": 5,
+      "t": 4.798759160352001,
+      "q": 4.672463116699472
+     },
+     {
+      "set": 6,
+      "t": 4.783612078613273,
+      "q": 4.6777306648149946
+     },
+     {
+      "set": 8,
+      "t": 4.787168704170861,
+      "q": 4.786732712525439
+     },
+     {
+      "set": 10,
+      "t": 4.802393767611521,
+      "q": 4.6911595574595415
+     },
+     {
+      "set": 11,
+      "t": 4.799034531712719,
+      "q": 4.952832992097291
+     },
+     {
+      "set": 12,
+      "t": 4.754156580823801,
+      "q": 4.660101081031283
+     },
+     {
+      "set": 14,
+      "t": 4.786869011949,
+      "q": 4.649049402395036
+     },
+     {
+      "set": 15,
+      "t": 4.783074065559079,
+      "q": 4.7662525968137
+     },
+     {
+      "set": 16,
+      "t": 4.766335995034651,
+      "q": 4.814402325524417
+     },
+     {
+      "set": 17,
+      "t": 4.752689947056103,
+      "q": 4.649169118790121
+     },
+     {
+      "set": 18,
+      "t": 4.785957279874141,
+      "q": 4.67772993141334
+     },
+     {
+      "set": 20,
+      "t": 4.791274364916309,
+      "q": 4.840925702706334
+     }
+    ],
+    "B1/PD7_primary/large|long|straight cells": [
+     {
+      "set": 1,
+      "t": 5.954110386914554,
+      "q": 5.8265869436514155
+     },
+     {
+      "set": 3,
+      "t": 5.93033484071911,
+      "q": 6.115891266426385
+     },
+     {
+      "set": 4,
+      "t": 5.981069899091354,
+      "q": 5.837478199721422
+     },
+     {
+      "set": 6,
+      "t": 6.012121348250086,
+      "q": 5.8679228036833875
+     },
+     {
+      "set": 7,
+      "t": 5.950990489519633,
+      "q": 6.107712678368928
+     },
+     {
+      "set": 8,
+      "t": 5.96848937897512,
+      "q": 5.980112886635827
+     },
+     {
+      "set": 9,
+      "t": 5.9839270082760425,
+      "q": 5.8636041752385095
+     },
+     {
+      "set": 10,
+      "t": 5.927222947086578,
+      "q": 6.116562600434638
+     },
+     {
+      "set": 11,
+      "t": 5.980321139299993,
+      "q": 5.976518271747794
+     },
+     {
+      "set": 12,
+      "t": 5.962100986295202,
+      "q": 5.906774023684908
+     },
+     {
+      "set": 14,
+      "t": 5.933828222729086,
+      "q": 5.918696031172036
+     },
+     {
+      "set": 15,
+      "t": 5.940713146680935,
+      "q": 5.902640780272163
+     },
+     {
+      "set": 16,
+      "t": 5.9477950523227685,
+      "q": 5.904760433471027
+     },
+     {
+      "set": 17,
+      "t": 5.993691850508015,
+      "q": 5.863476726612519
+     },
+     {
+      "set": 18,
+      "t": 5.9525568728478575,
+      "q": 5.893315848416769
+     },
+     {
+      "set": 19,
+      "t": 5.938851142459485,
+      "q": 5.875541859199918
+     },
+     {
+      "set": 20,
+      "t": 5.923391834617312,
+      "q": 5.7301435063296315
+     }
+    ],
+    "B1/PD7_primary/large|long|straight family": [
+     {
+      "set": 1,
+      "t": 5.954110386914554,
+      "q": 5.762260430403565
+     },
+     {
+      "set": 3,
+      "t": 5.93033484071911,
+      "q": 5.972722260746231
+     },
+     {
+      "set": 7,
+      "t": 5.950990489519633,
+      "q": 5.858744159550772
+     },
+     {
+      "set": 10,
+      "t": 5.927222947086578,
+      "q": 5.827859793593627
+     },
+     {
+      "set": 13,
+      "t": 5.917803295502497,
+      "q": 6.0517703549756865
+     },
+     {
+      "set": 14,
+      "t": 5.933828222729086,
+      "q": 5.773245521814153
+     }
+    ],
+    "B4/SD1_7_gap_le_5m/car|lat|turning family": [
+     {
+      "set": 1,
+      "t": 4.908021407208563,
+      "q": 4.912742928936015
+     },
+     {
+      "set": 2,
+      "t": 4.892354037436472,
+      "q": 4.907819140288501
+     },
+     {
+      "set": 4,
+      "t": 4.906187229229671,
+      "q": 4.912700560968971
+     },
+     {
+      "set": 5,
+      "t": 4.941251212035374,
+      "q": 4.948134698616478
+     },
+     {
+      "set": 6,
+      "t": 4.917200280258121,
+      "q": 5.054838850047135
+     },
+     {
+      "set": 7,
+      "t": 4.921603682104134,
+      "q": 4.777524971922914
+     },
+     {
+      "set": 8,
+      "t": 4.947324861623965,
+      "q": 4.931761671746837
+     },
+     {
+      "set": 9,
+      "t": 4.940487495169007,
+      "q": 4.8333417869933
+     },
+     {
+      "set": 10,
+      "t": 4.8832782458166655,
+      "q": 4.729968931121492
+     },
+     {
+      "set": 11,
+      "t": 4.906574914542359,
+      "q": 4.88072529136758
+     },
+     {
+      "set": 13,
+      "t": 4.9099593454435135,
+      "q": 4.753705532142816
+     },
+     {
+      "set": 15,
+      "t": 4.899099603765695,
+      "q": 4.710408281862367
+     },
+     {
+      "set": 16,
+      "t": 4.922288489727086,
+      "q": 4.974613509183392
+     },
+     {
+      "set": 17,
+      "t": 4.93577065075285,
+      "q": 4.895417266041248
+     },
+     {
+      "set": 18,
+      "t": 4.916013715632243,
+      "q": 4.754493808274116
+     },
+     {
+      "set": 19,
+      "t": 4.908120172900971,
+      "q": 4.931952084206246
+     },
+     {
+      "set": 20,
+      "t": 4.899190275408823,
+      "q": 4.888733626998039
+     }
+    ],
+    "B4/PD7_primary/car|lat|straight family": [
+     {
+      "set": 2,
+      "t": 5.4459521253528225,
+      "q": 5.3267922344238166
+     },
+     {
+      "set": 4,
+      "t": 5.417398697649149,
+      "q": 5.358427326050085
+     },
+     {
+      "set": 5,
+      "t": 5.443320208060621,
+      "q": 5.3498906836748485
+     },
+     {
+      "set": 7,
+      "t": 5.405387334439493,
+      "q": 5.429613898564744
+     },
+     {
+      "set": 10,
+      "t": 5.443720131033548,
+      "q": 5.332297936487994
+     },
+     {
+      "set": 12,
+      "t": 5.416936117036325,
+      "q": 5.303196945624897
+     },
+     {
+      "set": 14,
+      "t": 5.416966746794826,
+      "q": 5.3896800595945935
+     },
+     {
+      "set": 15,
+      "t": 5.438123126439872,
+      "q": 5.287953069200928
+     },
+     {
+      "set": 18,
+      "t": 5.407283063976241,
+      "q": 5.318267021508834
+     },
+     {
+      "set": 20,
+      "t": 5.400818414433994,
+      "q": 5.297120565987324
+     }
+    ],
+    "B6/PD_inpath/car|long|new cells": [
+     {
+      "set": 4,
+      "t": 4.7846174640143575,
+      "q": 4.969545454071719
+     },
+     {
+      "set": 6,
+      "t": 4.783612078613273,
+      "q": 4.837162962804092
+     },
+     {
+      "set": 7,
+      "t": 4.783494865764618,
+      "q": 4.887654055385751
+     },
+     {
+      "set": 8,
+      "t": 4.787168704170861,
+      "q": 4.8603093725163395
+     },
+     {
+      "set": 12,
+      "t": 4.754156580823801,
+      "q": 4.935227253315263
+     },
+     {
+      "set": 13,
+      "t": 4.788681373233949,
+      "q": 4.88657529388622
+     },
+     {
+      "set": 15,
+      "t": 4.783074065559079,
+      "q": 4.963764003206614
+     },
+     {
+      "set": 18,
+      "t": 4.785957279874141,
+      "q": 4.917911686657982
+     }
+    ],
+    "B0/PD7_primary/pedestrian|long|static family": [
+     {
+      "set": 6,
+      "t": 5.166171088830376,
+      "q": 5.364623948964311
+     },
+     {
+      "set": 12,
+      "t": 5.17763277541874,
+      "q": 5.345141843688894
+     },
+     {
+      "set": 16,
+      "t": 5.152903874191193,
+      "q": 5.352662007636278
+     }
+    ],
+    "RETUNED/PD7_primary/pedestrian|long|static family": [
+     {
+      "set": 6,
+      "t": 5.166171088830376,
+      "q": 5.364623948964311
+     },
+     {
+      "set": 12,
+      "t": 5.17763277541874,
+      "q": 5.345141843688894
+     },
+     {
+      "set": 16,
+      "t": 5.152903874191193,
+      "q": 5.352662007636278
+     }
+    ],
+    "B0/PD7_primary/car|lat|turning cells": [
+     {
+      "set": 7,
+      "t": 6.1707835613000634,
+      "q": 6.064478135448231
+     },
+     {
+      "set": 9,
+      "t": 6.1680659245795235,
+      "q": 6.017844248787969
+     },
+     {
+      "set": 10,
+      "t": 6.143223575286206,
+      "q": 6.129892461009091
+     },
+     {
+      "set": 15,
+      "t": 6.189536536579443,
+      "q": 6.138332541970845
+     },
+     {
+      "set": 19,
+      "t": 6.202443143249527,
+      "q": 6.177566433129708
+     }
+    ],
+    "RETUNED/PD7_primary/car|lat|turning cells": [
+     {
+      "set": 7,
+      "t": 6.1707835613000634,
+      "q": 6.064478135448231
+     },
+     {
+      "set": 9,
+      "t": 6.1680659245795235,
+      "q": 6.017844248787969
+     },
+     {
+      "set": 10,
+      "t": 6.143223575286206,
+      "q": 6.129892461009091
+     },
+     {
+      "set": 15,
+      "t": 6.189536536579443,
+      "q": 6.138332541970845
+     },
+     {
+      "set": 19,
+      "t": 6.202443143249527,
+      "q": 6.177566433129708
+     }
+    ],
+    "B6/PD7_primary/large|long|straight cells": [
+     {
+      "set": 16,
+      "t": 4.853745280612275,
+      "q": 5.00142137740994
+     },
+     {
+      "set": 20,
+      "t": 4.835446899584937,
+      "q": 5.026060633012007
+     }
+    ]
+   },
+   "seconds_per_set": {
+    "n": 20,
+    "mean": 3.394496977329254,
+    "min": 3.2381367683410645,
+    "max": 3.6648366451263428,
+    "mc_se_empirical": 0.12147546485498972
+   }
+  },
+  "transfer_lt3d/t3": {
+   "n_sets": 20,
+   "reference_seed": [
+    20261110,
+    1,
+    1
+   ],
+   "alt_seeds": [
+    [
+     20261121,
+     1,
+     1,
+     1
+    ],
+    [
+     20261121,
+     1,
+     1,
+     2
+    ],
+    [
+     20261121,
+     1,
+     1,
+     3
+    ],
+    [
+     20261121,
+     1,
+     1,
+     4
+    ],
+    [
+     20261121,
+     1,
+     1,
+     5
+    ],
+    [
+     20261121,
+     1,
+     1,
+     6
+    ],
+    [
+     20261121,
+     1,
+     1,
+     7
+    ],
+    [
+     20261121,
+     1,
+     1,
+     8
+    ],
+    [
+     20261121,
+     1,
+     1,
+     9
+    ],
+    [
+     20261121,
+     1,
+     1,
+     10
+    ],
+    [
+     20261121,
+     1,
+     1,
+     11
+    ],
+    [
+     20261121,
+     1,
+     1,
+     12
+    ],
+    [
+     20261121,
+     1,
+     1,
+     13
+    ],
+    [
+     20261121,
+     1,
+     1,
+     14
+    ],
+    [
+     20261121,
+     1,
+     1,
+     15
+    ],
+    [
+     20261121,
+     1,
+     1,
+     16
+    ],
+    [
+     20261121,
+     1,
+     1,
+     17
+    ],
+    [
+     20261121,
+     1,
+     1,
+     18
+    ],
+    [
+     20261121,
+     1,
+     1,
+     19
+    ],
+    [
+     20261121,
+     1,
+     1,
+     20
+    ]
+   ],
+   "decisive_quantities": {
+    "removal_stat B0": {
+     "n": 20,
+     "mean": -0.0455590699645029,
+     "min": -0.04740195613132861,
+     "max": -0.044230322701531044,
+     "mc_se_empirical": 0.0007395482451041685,
+     "mc_se_andrews_buchinsky_ref": 0.0008636276720016042,
+     "reference": -0.04503077999085833
+    },
+    "removal_stat B1": {
+     "n": 20,
+     "mean": 0.07514945556408015,
+     "min": 0.07021103994714319,
+     "max": 0.07968890258043641,
+     "mc_se_empirical": 0.002330108599918157,
+     "mc_se_andrews_buchinsky_ref": 0.005573495625290846,
+     "reference": 0.08000478390400219
+    },
+    "removal_stat B3": {
+     "n": 20,
+     "mean": -0.04806209687446926,
+     "min": -0.048107851516438274,
+     "max": -0.048003487202585585,
+     "mc_se_empirical": 3.0689883108992153e-05,
+     "mc_se_andrews_buchinsky_ref": 5.3971060982497246e-05,
+     "reference": -0.04806923373704667
+    },
+    "removal_stat B4": {
+     "n": 20,
+     "mean": 0.15906915576949224,
+     "min": 0.1574659900836295,
+     "max": 0.16117455228504812,
+     "mc_se_empirical": 0.0011278500609662224,
+     "mc_se_andrews_buchinsky_ref": 0.0007952100292733969,
+     "reference": 0.15954097099788345
+    },
+    "removal_stat B6": {
+     "n": 20,
+     "mean": 0.0901244658535171,
+     "min": 0.08884486854487526,
+     "max": 0.09214976730309159,
+     "mc_se_empirical": 0.0009276983023841392,
+     "mc_se_andrews_buchinsky_ref": 0.0008898367314650967,
+     "reference": 0.09047893543488696
+    },
+    "removal_stat B9": {
+     "n": 20,
+     "mean": 0.12655687152419653,
+     "min": 0.12319656499073199,
+     "max": 0.13040476785478222,
+     "mc_se_empirical": 0.0017483484503688401,
+     "mc_se_andrews_buchinsky_ref": 0.004836839104390232,
+     "reference": 0.12356848800087288
+    },
+    "removal_stat RETUNED": {
+     "n": 20,
+     "mean": 0.08674782393751199,
+     "min": 0.0832881004228661,
+     "max": 0.08902324050879566,
+     "mc_se_empirical": 0.0014257754395733662,
+     "mc_se_andrews_buchinsky_ref": 0.0022055292356450446,
+     "reference": 0.08539808844031165
+    },
+    "Form B UB M* - B0 (level 0.993750)": {
+     "n": 20,
+     "mean": -0.5827953456846139,
+     "min": -0.5833327213147811,
+     "max": -0.5823595029239765,
+     "mc_se_empirical": 0.00028609303383386086,
+     "mc_se_andrews_buchinsky_ref": 0.00038797541565915194,
+     "reference": -0.5829134795321638
+    },
+    "p_c M* - B0": {
+     "n": 20,
+     "mean": 2.499937501562461e-05,
+     "min": 2.499937501562461e-05,
+     "max": 2.499937501562461e-05,
+     "mc_se_empirical": 0.0,
+     "mc_se_andrews_buchinsky_ref": 2.499937501562461e-05,
+     "reference": 2.499937501562461e-05
+    },
+    "Form B UB M* - B3 (level 0.993750)": {
+     "n": 20,
+     "mean": -0.6089533589937488,
+     "min": -0.6094739302278686,
+     "max": -0.6084115698729584,
+     "mc_se_empirical": 0.0003408466923376881,
+     "mc_se_andrews_buchinsky_ref": 0.0003995675232387208,
+     "reference": -0.6089920568663036
+    },
+    "p_c M* - B3": {
+     "n": 20,
+     "mean": 2.499937501562461e-05,
+     "min": 2.499937501562461e-05,
+     "max": 2.499937501562461e-05,
+     "mc_se_empirical": 0.0,
+     "mc_se_andrews_buchinsky_ref": 2.499937501562461e-05,
+     "reference": 2.499937501562461e-05
+    },
+    "HK1c UB M* PD7_primary": {
+     "n": 20,
+     "mean": 0.0515449897367007,
+     "min": 0.051486702861236786,
+     "max": 0.05160815473717097,
+     "mc_se_empirical": 3.281100884223495e-05,
+     "mc_se_andrews_buchinsky_ref": 5.2671856806371875e-05,
+     "reference": 0.05152108288628276
+    },
+    "pooled LB M* PD7_primary": {
+     "n": 20,
+     "mean": 0.04429111358096607,
+     "min": 0.044266752678579796,
+     "max": 0.04434625173445122,
+     "mc_se_empirical": 1.9938639279814352e-05,
+     "mc_se_andrews_buchinsky_ref": 2.0524359882997943e-05,
+     "reference": 0.04430797664091191
+    },
+    "HK1c UB M* SD1_7_gap_le_5m": {
+     "n": 20,
+     "mean": 0.05309944949075414,
+     "min": 0.05298534387936899,
+     "max": 0.05322215189585495,
+     "mc_se_empirical": 8.470933038353663e-05,
+     "mc_se_andrews_buchinsky_ref": 0.0001317138364694269,
+     "reference": 0.05326214034419614
+    },
+    "pooled LB M* SD1_7_gap_le_5m": {
+     "n": 20,
+     "mean": 0.03651859045210484,
+     "min": 0.03641488026562999,
+     "max": 0.03665560399664952,
+     "mc_se_empirical": 5.442301213556669e-05,
+     "mc_se_andrews_buchinsky_ref": 5.133101112057582e-05,
+     "reference": 0.03652609665494197
+    },
+    "HK1c UB M* PD_inpath": {
+     "n": 20,
+     "mean": 0.08935102409399047,
+     "min": 0.08900904471625769,
+     "max": 0.08965705463230328,
+     "mc_se_empirical": 0.0001517349920299293,
+     "mc_se_andrews_buchinsky_ref": 0.0002093346603736804,
+     "reference": 0.08906386140716573
+    },
+    "pooled LB M* PD_inpath": {
+     "n": 20,
+     "mean": 0.05693661631837484,
+     "min": 0.056838157769934505,
+     "max": 0.05702482684625959,
+     "mc_se_empirical": 5.234729308531375e-05,
+     "mc_se_andrews_buchinsky_ref": 9.720963099577391e-05,
+     "reference": 0.056855698749448444
+    },
+    "H4 p (this tracker; doubled)": {
+     "n": 20,
+     "mean": 9.999750006249843e-05,
+     "min": 9.999750006249843e-05,
+     "max": 9.999750006249843e-05,
+     "mc_se_empirical": 0.0,
+     "reference": 9.999750006249843e-05
+    }
+   },
+   "stability": {
+    "Mstar/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD7_primary Floor": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD7_primary HK1c": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD7_primary valid": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/SD1_7_gap_le_5m Floor": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/SD1_7_gap_le_5m HK1c": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/SD1_7_gap_le_5m valid": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD_inpath FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD_inpath NoFlag_pool": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/PD_inpath Floor": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "Mstar/PD_inpath HK1c": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "Mstar/PD_inpath valid": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/PD7_primary NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/PD7_primary FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/PD7_primary shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B0/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B0/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/SD1_7_gap_le_5m NoFlag": {
+     "reference": false,
+     "share_same": 0.6,
+     "analysis": false
+    },
+    "B1/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/SD1_7_gap_le_5m shown_above": {
+     "reference": true,
+     "share_same": 0.6,
+     "analysis": true
+    },
+    "B1/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B1/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B1/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/PD7_primary NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/PD7_primary FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/PD7_primary shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B3/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B3/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/PD7_primary NoFlag_pool": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/SD1_7_gap_le_5m NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/SD1_7_gap_le_5m FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/SD1_7_gap_le_5m shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/PD_inpath NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/PD_inpath FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B4/PD_inpath NoFlag_pool": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B4/PD_inpath shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B6/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B6/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B6/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B6/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B6/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B9/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B9/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B9/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "B9/PD_inpath NoFlag": {
+     "reference": false,
+     "share_same": 0.05,
+     "analysis": false
+    },
+    "B9/PD_inpath FamFlag": {
+     "reference": true,
+     "share_same": 0.85,
+     "analysis": true
+    },
+    "B9/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "B9/PD_inpath shown_above": {
+     "reference": true,
+     "share_same": 0.85,
+     "analysis": true
+    },
+    "RETUNED/PD7_primary NoFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/PD7_primary FamFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/PD7_primary NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/PD7_primary shown_above": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/SD1_7_gap_le_5m NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/SD1_7_gap_le_5m FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/SD1_7_gap_le_5m NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/SD1_7_gap_le_5m shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/PD_inpath NoFlag": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/PD_inpath FamFlag": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "RETUNED/PD_inpath NoFlag_pool": {
+     "reference": true,
+     "share_same": 1.0,
+     "analysis": true
+    },
+    "RETUNED/PD_inpath shown_above": {
+     "reference": false,
+     "share_same": 1.0,
+     "analysis": false
+    },
+    "V_t membership identical": {
+     "reference": [
+      "B0",
+      "B3"
+     ],
+     "share_same": 1.0,
+     "analysis": [
+      "B0",
+      "B3"
+     ],
+     "differing_sets": {}
+    },
+    "Form B met": {
+     "reference": false,
+     "share_same": 1.0
+    },
+    "Form B UB < 0 M* - B0": {
+     "reference": true,
+     "share_same": 1.0
+    },
+    "Form B UB < 0 M* - B3": {
+     "reference": true,
+     "share_same": 1.0
+    }
+   },
+   "cells_t_minus_q_below_0.2": {
+    "Mstar/PD7_primary/large|long|straight cells": [
+     {
+      "set": 0,
+      "t": 3.398862277192035,
+      "q": 3.267426318732887
+     },
+     {
+      "set": 1,
+      "t": 3.390113485605611,
+      "q": 3.245454538419897
+     },
+     {
+      "set": 2,
+      "t": 3.380907203296864,
+      "q": 3.2598734118933232
+     },
+     {
+      "set": 3,
+      "t": 3.397043600019059,
+      "q": 3.260696371977245
+     },
+     {
+      "set": 4,
+      "t": 3.391569185612124,
+      "q": 3.2650736905727538
+     },
+     {
+      "set": 5,
+      "t": 3.4020245954907153,
+      "q": 3.2577626053334194
+     },
+     {
+      "set": 6,
+      "t": 3.3964215026892814,
+      "q": 3.2578142669701005
+     },
+     {
+      "set": 7,
+      "t": 3.3666663644250434,
+      "q": 3.2638433118832446
+     },
+     {
+      "set": 8,
+      "t": 3.4064114559660834,
+      "q": 3.2621805346631563
+     },
+     {
+      "set": 9,
+      "t": 3.3784656036257776,
+      "q": 3.2584959578326242
+     },
+     {
+      "set": 10,
+      "t": 3.372498337131271,
+      "q": 3.2520963303883934
+     },
+     {
+      "set": 11,
+      "t": 3.3767207114756452,
+      "q": 3.256008566168871
+     },
+     {
+      "set": 12,
+      "t": 3.395241380726576,
+      "q": 3.2533011392665583
+     },
+     {
+      "set": 13,
+      "t": 3.3779748802878355,
+      "q": 3.2403653731926756
+     },
+     {
+      "set": 14,
+      "t": 3.3682498973210455,
+      "q": 3.2618365653896864
+     },
+     {
+      "set": 15,
+      "t": 3.3880228176980296,
+      "q": 3.2571431005731535
+     },
+     {
+      "set": 16,
+      "t": 3.36935203555139,
+      "q": 3.2527415071984564
+     },
+     {
+      "set": 17,
+      "t": 3.4031807637853246,
+      "q": 3.2627033864608026
+     },
+     {
+      "set": 18,
+      "t": 3.3589262971335354,
+      "q": 3.2597034378609706
+     },
+     {
+      "set": 19,
+      "t": 3.3657209605848153,
+      "q": 3.2438533963894587
+     },
+     {
+      "set": 20,
+      "t": 3.374922608585657,
+      "q": 3.2414041422138515
+     }
+    ],
+    "Mstar/PD_inpath/car|long|new cells": [
+     {
+      "set": 0,
+      "t": 2.570650015049558,
+      "q": 2.7681764353685425
+     },
+     {
+      "set": 1,
+      "t": 2.564667804597216,
+      "q": 2.745552837838539
+     },
+     {
+      "set": 2,
+      "t": 2.5650085399333378,
+      "q": 2.7555763704979244
+     },
+     {
+      "set": 4,
+      "t": 2.5808174339872347,
+      "q": 2.7647743907015974
+     },
+     {
+      "set": 5,
+      "t": 2.5695100207360233,
+      "q": 2.7459150729433826
+     },
+     {
+      "set": 7,
+      "t": 2.563766121578473,
+      "q": 2.763208693956239
+     },
+     {
+      "set": 8,
+      "t": 2.577605816063899,
+      "q": 2.7506159147981317
+     },
+     {
+      "set": 10,
+      "t": 2.5720195709378975,
+      "q": 2.7556383075092836
+     },
+     {
+      "set": 11,
+      "t": 2.581135079113272,
+      "q": 2.7514734803264176
+     },
+     {
+      "set": 13,
+      "t": 2.567870944796882,
+      "q": 2.7598480325512074
+     },
+     {
+      "set": 14,
+      "t": 2.575354637847113,
+      "q": 2.76499045281698
+     },
+     {
+      "set": 15,
+      "t": 2.5594254394294484,
+      "q": 2.743062348180247
+     },
+     {
+      "set": 16,
+      "t": 2.577325495291669,
+      "q": 2.761447443179123
+     },
+     {
+      "set": 17,
+      "t": 2.574630508147191,
+      "q": 2.7662161160168597
+     },
+     {
+      "set": 18,
+      "t": 2.5774867986453516,
+      "q": 2.76510458890046
+     },
+     {
+      "set": 19,
+      "t": 2.573053828695442,
+      "q": 2.7518324632614113
+     },
+     {
+      "set": 20,
+      "t": 2.5655259769571503,
+      "q": 2.7604986477163966
+     }
+    ],
+    "Mstar/PD_inpath/car|long|new family": [
+     {
+      "set": 0,
+      "t": 2.570650015049558,
+      "q": 2.5043740854926484
+     },
+     {
+      "set": 1,
+      "t": 2.564667804597216,
+      "q": 2.5134869095015855
+     },
+     {
+      "set": 2,
+      "t": 2.5650085399333378,
+      "q": 2.512314492152109
+     },
+     {
+      "set": 3,
+      "t": 2.5556668661529542,
+      "q": 2.501680117807108
+     },
+     {
+      "set": 4,
+      "t": 2.5808174339872347,
+      "q": 2.5266167920339706
+     },
+     {
+      "set": 5,
+      "t": 2.5695100207360233,
+      "q": 2.504985539181846
+     },
+     {
+      "set": 6,
+      "t": 2.561212426556127,
+      "q": 2.5081319492071965
+     },
+     {
+      "set": 7,
+      "t": 2.563766121578473,
+      "q": 2.5169483967222956
+     },
+     {
+      "set": 8,
+      "t": 2.577605816063899,
+      "q": 2.520568283540736
+     },
+     {
+      "set": 9,
+      "t": 2.5609911482338283,
+      "q": 2.51899234852137
+     },
+     {
+      "set": 10,
+      "t": 2.5720195709378975,
+      "q": 2.504082747197095
+     },
+     {
+      "set": 11,
+      "t": 2.581135079113272,
+      "q": 2.491481190390348
+     },
+     {
+      "set": 12,
+      "t": 2.5642324291709997,
+      "q": 2.5275108714295853
+     },
+     {
+      "set": 13,
+      "t": 2.567870944796882,
+      "q": 2.5219231815718848
+     },
+     {
+      "set": 14,
+      "t": 2.575354637847113,
+      "q": 2.5183113704014826
+     },
+     {
+      "set": 15,
+      "t": 2.5594254394294484,
+      "q": 2.5258211700048783
+     },
+     {
+      "set": 16,
+      "t": 2.577325495291669,
+      "q": 2.5002624249621164
+     },
+     {
+      "set": 17,
+      "t": 2.574630508147191,
+      "q": 2.512405229616137
+     },
+     {
+      "set": 18,
+      "t": 2.5774867986453516,
+      "q": 2.4959738958011157
+     },
+     {
+      "set": 19,
+      "t": 2.573053828695442,
+      "q": 2.5217617699050017
+     },
+     {
+      "set": 20,
+      "t": 2.5655259769571503,
+      "q": 2.509806070312866
+     }
+    ],
+    "B1/PD7_primary/car|long|turning family": [
+     {
+      "set": 0,
+      "t": 4.941891587515527,
+      "q": 5.081584540971643
+     },
+     {
+      "set": 7,
+      "t": 4.94957731693465,
+      "q": 5.127964051874852
+     },
+     {
+      "set": 13,
+      "t": 5.000740275068355,
+      "q": 5.071179734050419
+     },
+     {
+      "set": 17,
+      "t": 4.9799945425468755,
+      "q": 5.150550822278777
+     },
+     {
+      "set": 19,
+      "t": 4.961689932545536,
+      "q": 5.123636159701246
+     }
+    ],
+    "B1/SD1_7_gap_le_5m/car|long|new cells": [
+     {
+      "set": 0,
+      "t": 5.543909783203549,
+      "q": 5.715390067779333
+     },
+     {
+      "set": 1,
+      "t": 5.552296696285596,
+      "q": 5.728788293940259
+     },
+     {
+      "set": 3,
+      "t": 5.532151219831938,
+      "q": 5.543612195911561
+     },
+     {
+      "set": 4,
+      "t": 5.5333049415355005,
+      "q": 5.669981045137563
+     },
+     {
+      "set": 8,
+      "t": 5.564657793682037,
+      "q": 5.714139846870953
+     },
+     {
+      "set": 9,
+      "t": 5.558728867505806,
+      "q": 5.687826063908685
+     },
+     {
+      "set": 10,
+      "t": 5.537410012882967,
+      "q": 5.700834599764121
+     },
+     {
+      "set": 12,
+      "t": 5.580480693757155,
+      "q": 5.64157295989834
+     },
+     {
+      "set": 13,
+      "t": 5.560847113856419,
+      "q": 5.612901304097131
+     },
+     {
+      "set": 14,
+      "t": 5.547996982559081,
+      "q": 5.63818500112485
+     },
+     {
+      "set": 15,
+      "t": 5.536276939381006,
+      "q": 5.7323508735761735
+     },
+     {
+      "set": 17,
+      "t": 5.549027675875081,
+      "q": 5.7120701039576645
+     },
+     {
+      "set": 18,
+      "t": 5.548623322044867,
+      "q": 5.643118593783388
+     },
+     {
+      "set": 20,
+      "t": 5.5255532109844605,
+      "q": 5.626222805986311
+     }
+    ],
+    "B1/SD1_7_gap_le_5m/large|long|straight cells": [
+     {
+      "set": 0,
+      "t": 5.749258338629456,
+      "q": 5.715390067779333
+     },
+     {
+      "set": 1,
+      "t": 5.724927986038079,
+      "q": 5.728788293940259
+     },
+     {
+      "set": 2,
+      "t": 5.75217606728555,
+      "q": 5.83972997767859
+     },
+     {
+      "set": 4,
+      "t": 5.744266378322384,
+      "q": 5.669981045137563
+     },
+     {
+      "set": 5,
+      "t": 5.772776960212742,
+      "q": 5.8178224598477
+     },
+     {
+      "set": 8,
+      "t": 5.750008936954116,
+      "q": 5.714139846870953
+     },
+     {
+      "set": 9,
+      "t": 5.7217098868159395,
+      "q": 5.687826063908685
+     },
+     {
+      "set": 10,
+      "t": 5.733930477755637,
+      "q": 5.700834599764121
+     },
+     {
+      "set": 11,
+      "t": 5.740149548496075,
+      "q": 5.756513113683386
+     },
+     {
+      "set": 12,
+      "t": 5.747412041684175,
+      "q": 5.64157295989834
+     },
+     {
+      "set": 13,
+      "t": 5.703328081687881,
+      "q": 5.612901304097131
+     },
+     {
+      "set": 14,
+      "t": 5.733656677935968,
+      "q": 5.63818500112485
+     },
+     {
+      "set": 15,
+      "t": 5.750464995306892,
+      "q": 5.7323508735761735
+     },
+     {
+      "set": 16,
+      "t": 5.747770913707938,
+      "q": 5.829990661838539
+     },
+     {
+      "set": 17,
+      "t": 5.7364311210566,
+      "q": 5.7120701039576645
+     },
+     {
+      "set": 18,
+      "t": 5.7365671181403375,
+      "q": 5.643118593783388
+     },
+     {
+      "set": 19,
+      "t": 5.729912744959061,
+      "q": 5.896876683576934
+     },
+     {
+      "set": 20,
+      "t": 5.737602038735984,
+      "q": 5.626222805986311
+     }
+    ],
+    "B4/PD7_primary/large|long|static cells": [
+     {
+      "set": 0,
+      "t": 5.093628525307821,
+      "q": 5.041724110426562
+     },
+     {
+      "set": 2,
+      "t": 5.0744402997447215,
+      "q": 5.235599972857654
+     },
+     {
+      "set": 3,
+      "t": 5.056407649091406,
+      "q": 5.20531608356509
+     },
+     {
+      "set": 4,
+      "t": 5.094055282734565,
+      "q": 5.211152634697182
+     },
+     {
+      "set": 5,
+      "t": 5.111137926392253,
+      "q": 5.135576116861917
+     },
+     {
+      "set": 6,
+      "t": 5.089077367296579,
+      "q": 5.216259313501974
+     },
+     {
+      "set": 7,
+      "t": 5.073015755147857,
+      "q": 5.240649733767834
+     },
+     {
+      "set": 8,
+      "t": 5.059140309374575,
+      "q": 5.224520414468091
+     },
+     {
+      "set": 10,
+      "t": 5.089433037615632,
+      "q": 5.240425297033369
+     },
+     {
+      "set": 11,
+      "t": 5.057577044078723,
+      "q": 5.225792188997987
+     },
+     {
+      "set": 12,
+      "t": 5.096103340080992,
+      "q": 5.252389660989534
+     },
+     {
+      "set": 13,
+      "t": 5.077797030592649,
+      "q": 5.171934722104242
+     },
+     {
+      "set": 14,
+      "t": 5.07203280906836,
+      "q": 5.201558915341158
+     },
+     {
+      "set": 16,
+      "t": 5.0735303207207805,
+      "q": 5.132862519431068
+     },
+     {
+      "set": 17,
+      "t": 5.0907035969699965,
+      "q": 5.240577339572501
+     },
+     {
+      "set": 19,
+      "t": 5.065244608808126,
+      "q": 5.117711020928209
+     }
+    ],
+    "B6/PD7_primary/car|lat|turning cells": [
+     {
+      "set": 0,
+      "t": 5.117395129346794,
+      "q": 5.056157073002343
+     },
+     {
+      "set": 1,
+      "t": 5.186988013301496,
+      "q": 5.255234793771149
+     },
+     {
+      "set": 2,
+      "t": 5.127099855708048,
+      "q": 5.232055636246467
+     },
+     {
+      "set": 3,
+      "t": 5.11886895461066,
+      "q": 5.045665844476865
+     },
+     {
+      "set": 4,
+      "t": 5.116072528229891,
+      "q": 5.093803915761542
+     },
+     {
+      "set": 5,
+      "t": 5.128747033401967,
+      "q": 5.13349640450553
+     },
+     {
+      "set": 6,
+      "t": 5.121263694633083,
+      "q": 5.152940796323323
+     },
+     {
+      "set": 7,
+      "t": 5.098331618165985,
+      "q": 5.0668737489721165
+     },
+     {
+      "set": 8,
+      "t": 5.139899278904257,
+      "q": 5.058498966673793
+     },
+     {
+      "set": 9,
+      "t": 5.112965627585619,
+      "q": 5.129024008122167
+     },
+     {
+      "set": 10,
+      "t": 5.116204616881698,
+      "q": 5.201256016636309
+     },
+     {
+      "set": 11,
+      "t": 5.135234069579008,
+      "q": 4.983329919874506
+     },
+     {
+      "set": 12,
+      "t": 5.117266946908608,
+      "q": 5.098777227471194
+     },
+     {
+      "set": 13,
+      "t": 5.121087058407688,
+      "q": 4.974132322405716
+     },
+     {
+      "set": 14,
+      "t": 5.119400287641539,
+      "q": 4.997765580254184
+     },
+     {
+      "set": 15,
+      "t": 5.122397735342783,
+      "q": 5.067612448331297
+     },
+     {
+      "set": 16,
+      "t": 5.12647636656719,
+      "q": 5.073430466565516
+     },
+     {
+      "set": 17,
+      "t": 5.123142274434976,
+      "q": 5.084983547386903
+     },
+     {
+      "set": 18,
+      "t": 5.08126069440347,
+      "q": 5.184954385579941
+     },
+     {
+      "set": 19,
+      "t": 5.147865200066105,
+      "q": 5.141658337619736
+     },
+     {
+      "set": 20,
+      "t": 5.12835285952805,
+      "q": 5.0659115066769065
+     }
+    ],
+    "B9/PD_inpath/car|long|new cells": [
+     {
+      "set": 0,
+      "t": 4.815501107067632,
+      "q": 4.777601499192431
+     },
+     {
+      "set": 1,
+      "t": 4.770591822609427,
+      "q": 4.942909768364138
+     },
+     {
+      "set": 2,
+      "t": 4.785601629092107,
+      "q": 4.93345001062555
+     },
+     {
+      "set": 3,
+      "t": 4.782527598783269,
+      "q": 4.900748379367364
+     },
+     {
+      "set": 5,
+      "t": 4.758665451265985,
+      "q": 4.891842321800359
+     },
+     {
+      "set": 6,
+      "t": 4.810173918072452,
+      "q": 4.886905394243959
+     },
+     {
+      "set": 7,
+      "t": 4.824278691969571,
+      "q": 4.843544551414126
+     },
+     {
+      "set": 11,
+      "t": 4.795058911273718,
+      "q": 4.772545495305731
+     },
+     {
+      "set": 13,
+      "t": 4.77633411808463,
+      "q": 4.957161766849047
+     },
+     {
+      "set": 17,
+      "t": 4.780247613906088,
+      "q": 4.832799812286584
+     },
+     {
+      "set": 18,
+      "t": 4.815844322876034,
+      "q": 4.880040109138224
+     },
+     {
+      "set": 19,
+      "t": 4.7915241439663525,
+      "q": 4.920444415224473
+     },
+     {
+      "set": 20,
+      "t": 4.792685280794242,
+      "q": 4.946705865909854
+     }
+    ],
+    "RETUNED/PD7_primary/large|long|new cells": [
+     {
+      "set": 0,
+      "t": 5.421868127770356,
+      "q": 5.570379378189725
+     },
+     {
+      "set": 1,
+      "t": 5.393073341894358,
+      "q": 5.541175119334573
+     },
+     {
+      "set": 3,
+      "t": 5.378240558194919,
+      "q": 5.424307387144605
+     },
+     {
+      "set": 5,
+      "t": 5.405761685084111,
+      "q": 5.577596717783958
+     },
+     {
+      "set": 6,
+      "t": 5.352028278877468,
+      "q": 5.487275298560786
+     },
+     {
+      "set": 7,
+      "t": 5.381870233198416,
+      "q": 5.438244989123089
+     },
+     {
+      "set": 10,
+      "t": 5.388901665655001,
+      "q": 5.482689430197596
+     },
+     {
+      "set": 11,
+      "t": 5.399238420087897,
+      "q": 5.384188015844946
+     },
+     {
+      "set": 14,
+      "t": 5.366772557321679,
+      "q": 5.530863054626425
+     },
+     {
+      "set": 17,
+      "t": 5.412036669447468,
+      "q": 5.53037051306546
+     },
+     {
+      "set": 18,
+      "t": 5.356973594832537,
+      "q": 5.386484235434971
+     },
+     {
+      "set": 19,
+      "t": 5.378051361118316,
+      "q": 5.531398089104403
+     }
+    ],
+    "B1/PD7_primary/car|long|straight cells": [
+     {
+      "set": 1,
+      "t": 6.015209084807507,
+      "q": 5.959057023362862
+     }
+    ],
+    "B1/PD7_primary/large|long|new cells": [
+     {
+      "set": 1,
+      "t": 6.125171829282911,
+      "q": 5.959057023362862
+     }
+    ],
+    "B4/PD7_primary/large|long|static family": [
+     {
+      "set": 1,
+      "t": 5.097680784748344,
+      "q": 4.951781434251261
+     },
+     {
+      "set": 2,
+      "t": 5.0744402997447215,
+      "q": 4.897376485466044
+     },
+     {
+      "set": 3,
+      "t": 5.056407649091406,
+      "q": 4.8868422555193005
+     },
+     {
+      "set": 4,
+      "t": 5.094055282734565,
+      "q": 4.896227301156256
+     },
+     {
+      "set": 5,
+      "t": 5.111137926392253,
+      "q": 5.059952414884632
+     },
+     {
+      "set": 6,
+      "t": 5.089077367296579,
+      "q": 5.049365989027975
+     },
+     {
+      "set": 7,
+      "t": 5.073015755147857,
+      "q": 4.946923343807459
+     },
+     {
+      "set": 8,
+      "t": 5.059140309374575,
+      "q": 4.982883734869254
+     },
+     {
+      "set": 9,
+      "t": 5.078139202602327,
+      "q": 5.0237937518057025
+     },
+     {
+      "set": 10,
+      "t": 5.089433037615632,
+      "q": 4.9538392909114926
+     },
+     {
+      "set": 12,
+      "t": 5.096103340080992,
+      "q": 5.101056975151327
+     },
+     {
+      "set": 14,
+      "t": 5.07203280906836,
+      "q": 5.024649640110289
+     },
+     {
+      "set": 17,
+      "t": 5.0907035969699965,
+      "q": 4.936754928177971
+     },
+     {
+      "set": 18,
+      "t": 5.1144979563597435,
+      "q": 5.066430556184709
+     },
+     {
+      "set": 20,
+      "t": 5.098667388132751,
+      "q": 4.959547206820688
+     }
+    ],
+    "B4/SD1_7_gap_le_5m/large|long|straight cells": [
+     {
+      "set": 1,
+      "t": 5.817369770723193,
+      "q": 5.942070655455209
+     },
+     {
+      "set": 2,
+      "t": 5.854883599134599,
+      "q": 5.9112471641014315
+     },
+     {
+      "set": 4,
+      "t": 5.830061305900864,
+      "q": 5.69834695861641
+     },
+     {
+      "set": 5,
+      "t": 5.840566889293027,
+      "q": 5.705696435372293
+     },
+     {
+      "set": 7,
+      "t": 5.811717575787412,
+      "q": 5.642406414108916
+     },
+     {
+      "set": 8,
+      "t": 5.8261230491191185,
+      "q": 5.877518434118206
+     },
+     {
+      "set": 10,
+      "t": 5.820292043156602,
+      "q": 5.621670396634748
+     },
+     {
+      "set": 11,
+      "t": 5.832069502256084,
+      "q": 5.682733527786657
+     },
+     {
+      "set": 14,
+      "t": 5.814617360024777,
+      "q": 5.714062865695892
+     },
+     {
+      "set": 15,
+      "t": 5.834079168913084,
+      "q": 5.655591647335907
+     },
+     {
+      "set": 16,
+      "t": 5.827494330191604,
+      "q": 5.840108541345138
+     },
+     {
+      "set": 17,
+      "t": 5.8149343870873915,
+      "q": 5.6646905763645945
+     },
+     {
+      "set": 18,
+      "t": 5.820900224885669,
+      "q": 5.66331747918057
+     },
+     {
+      "set": 19,
+      "t": 5.828634461676319,
+      "q": 5.7217079812825204
+     },
+     {
+      "set": 20,
+      "t": 5.823152835893788,
+      "q": 5.678753646160115
+     }
+    ],
+    "B6/PD7_primary/large|long|new cells": [
+     {
+      "set": 1,
+      "t": 5.412221131051109,
+      "q": 5.255234793771149
+     },
+     {
+      "set": 2,
+      "t": 5.423128487597311,
+      "q": 5.232055636246467
+     },
+     {
+      "set": 18,
+      "t": 5.376089374590605,
+      "q": 5.184954385579941
+     }
+    ],
+    "B9/PD_inpath/car|long|new family": [
+     {
+      "set": 1,
+      "t": 4.770591822609427,
+      "q": 4.771136565020907
+     },
+     {
+      "set": 2,
+      "t": 4.785601629092107,
+      "q": 4.666615781416959
+     },
+     {
+      "set": 4,
+      "t": 4.75749433848752,
+      "q": 4.576491225409893
+     },
+     {
+      "set": 5,
+      "t": 4.758665451265985,
+      "q": 4.653475532332621
+     },
+     {
+      "set": 9,
+      "t": 4.769607480303958,
+      "q": 4.829909018610133
+     },
+     {
+      "set": 12,
+      "t": 4.79886418399219,
+      "q": 4.83430860364167
+     },
+     {
+      "set": 13,
+      "t": 4.77633411808463,
+      "q": 4.664659293473882
+     },
+     {
+      "set": 15,
+      "t": 4.771238886775343,
+      "q": 4.7279741822663945
+     },
+     {
+      "set": 16,
+      "t": 4.786084010403675,
+      "q": 4.64613785729709
+     },
+     {
+      "set": 17,
+      "t": 4.780247613906088,
+      "q": 4.697903162074352
+     },
+     {
+      "set": 18,
+      "t": 4.815844322876034,
+      "q": 4.738735270669115
+     }
+    ],
+    "B4/SD1_7_gap_le_5m/car|long|turning family": [
+     {
+      "set": 2,
+      "t": 5.270720643078082,
+      "q": 5.114625776226349
+     },
+     {
+      "set": 4,
+      "t": 5.279222759005711,
+      "q": 5.128753573043763
+     },
+     {
+      "set": 16,
+      "t": 5.276653752865871,
+      "q": 5.28348385848212
+     }
+    ],
+    "B6/PD7_primary/car|lat|turning family": [
+     {
+      "set": 2,
+      "t": 5.127099855708048,
+      "q": 5.006302067545462
+     },
+     {
+      "set": 5,
+      "t": 5.128747033401967,
+      "q": 4.990020873001518
+     },
+     {
+      "set": 8,
+      "t": 5.139899278904257,
+      "q": 4.9566969032458115
+     },
+     {
+      "set": 9,
+      "t": 5.112965627585619,
+      "q": 5.003827425244927
+     },
+     {
+      "set": 10,
+      "t": 5.116204616881698,
+      "q": 4.94717069425963
+     },
+     {
+      "set": 17,
+      "t": 5.123142274434976,
+      "q": 5.011590557437474
+     },
+     {
+      "set": 18,
+      "t": 5.08126069440347,
+      "q": 4.983641206477803
+     }
+    ],
+    "B4/SD1_7_gap_le_5m/car|long|turning cells": [
+     {
+      "set": 3,
+      "t": 5.306193301183767,
+      "q": 5.483951589615832
+     },
+     {
+      "set": 9,
+      "t": 5.302691675375778,
+      "q": 5.491389444500193
+     },
+     {
+      "set": 13,
+      "t": 5.331215518776606,
+      "q": 5.445076994931504
+     }
+    ]
+   },
+   "seconds_per_set": {
+    "n": 20,
+    "mean": 3.8172768473625185,
+    "min": 3.2365074157714844,
+    "max": 8.16980266571045,
+    "mc_se_empirical": 1.1974495669000265
+   }
+  }
+ },
+ "H1_by_set": {
+  "reference": true,
+  "share_same": 1.0,
+  "by_set": {
+   "0": true,
+   "1": true,
+   "2": true,
+   "3": true,
+   "4": true,
+   "5": true,
+   "6": true,
+   "7": true,
+   "8": true,
+   "9": true,
+   "10": true,
+   "11": true,
+   "12": true,
+   "13": true,
+   "14": true,
+   "15": true,
+   "16": true,
+   "17": true,
+   "18": true,
+   "19": true,
+   "20": true
+  }
+ },
+ "seconds_this_call": 416.10697174072266,
+ "memory": {
+  "working_set_mb": 57.5078125,
+  "peak_working_set_mb": 359.484375,
+  "peak_private_mb": 376.74609375
+ },
+ "code_sha256": {
+  "r21_mcse_v01.py": "c071cf8f0ed1497ee026dc4cf7f6a2b180a0dc025fe3ae7ca2bda4bed794fe8a",
+  "r21_lib_v01.py": "31ed82cb61047e2d2db2858b2c84437d766e8d5a214343d060f428ef2d4f9a52",
+  "r21_rederive_v01.py": "4ebd379afaab74b19e13402c3b9a3572a85310dde65ac03ae5d58df01298c0c7"
+ }
+}

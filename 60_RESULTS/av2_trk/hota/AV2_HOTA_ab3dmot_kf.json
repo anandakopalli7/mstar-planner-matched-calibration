@@ -1,0 +1,120 @@
+{
+ "label": "ab3dmot_kf",
+ "evaluator": "av2 0.3.6 av2.evaluation.tracking.eval (TrackEval 1.0.dev1, commit 12c8791b)",
+ "differences_from_official_runner": [
+  "seven tracking classes instead of the 26 AV2 categories",
+  "no ROI filter (no maps)",
+  "threshold tuning run serially"
+ ],
+ "max_range_m": 50,
+ "labels": "AV2 val 2 Hz annotations with >= 1 interior point (av2_gt_prep_v01)",
+ "exports": [
+  "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\av2_trk_v01\\export_ab3dmot_v04w6\\ab3dmot_kf\\worker0",
+  "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\av2_trk_v01\\export_ab3dmot_v04w6\\ab3dmot_kf\\worker1",
+  "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\av2_trk_v01\\export_ab3dmot_v04w6\\ab3dmot_kf\\worker2",
+  "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\av2_trk_v01\\export_ab3dmot_v04w6\\ab3dmot_kf\\worker3",
+  "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\av2_trk_v01\\export_ab3dmot_v04w6\\ab3dmot_kf\\worker4",
+  "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\av2_trk_v01\\export_ab3dmot_v04w6\\ab3dmot_kf\\worker5"
+ ],
+ "per_class": {
+  "car": {
+   "HOTA": 0.5714878805476405,
+   "DetA": 0.5065034039142382,
+   "AssA": 0.6476931995518456,
+   "LocA": 0.8911162906686149,
+   "MOTA_av2": 0.3857357785790252,
+   "IDSW_av2": 6189,
+   "CLR_TP": 55743,
+   "CLR_FN": 21359,
+   "CLR_FP": 19813,
+   "tuned_score_threshold": 0.4768427345487807,
+   "HOTA_at_tuned_threshold_from_tuning": 0.5714878805476405,
+   "HOTA_mean_over_10_thresholds": 0.45998553690958194
+  },
+  "pedestrian": {
+   "HOTA": 0.5215797538761072,
+   "DetA": 0.490435325094431,
+   "AssA": 0.5562185203741207,
+   "LocA": 0.906835793456769,
+   "MOTA_av2": 0.3054754139488209,
+   "IDSW_av2": 3122,
+   "CLR_TP": 22167,
+   "CLR_FN": 9721,
+   "CLR_FP": 9304,
+   "tuned_score_threshold": 0.506451715528965,
+   "HOTA_at_tuned_threshold_from_tuning": 0.5215797538761072,
+   "HOTA_mean_over_10_thresholds": 0.4241423352644402
+  },
+  "bicycle": {
+   "HOTA": 0.2622981705206253,
+   "DetA": 0.32214679881169955,
+   "AssA": 0.2143023139710835,
+   "LocA": 0.9066647614487436,
+   "MOTA_av2": -0.3396584440227704,
+   "IDSW_av2": 171,
+   "CLR_TP": 292,
+   "CLR_FN": 235,
+   "CLR_FP": 300,
+   "tuned_score_threshold": 0.36478103150924046,
+   "HOTA_at_tuned_threshold_from_tuning": 0.2622981705206253,
+   "HOTA_mean_over_10_thresholds": 0.1783953324381647
+  },
+  "motorcycle": {
+   "HOTA": 0.34063874699390195,
+   "DetA": 0.40015526703358734,
+   "AssA": 0.291074688123101,
+   "LocA": 0.8952979232351203,
+   "MOTA_av2": -0.15671641791044777,
+   "IDSW_av2": 95,
+   "CLR_TP": 178,
+   "CLR_FN": 90,
+   "CLR_FP": 125,
+   "tuned_score_threshold": 0.42655616998672485,
+   "HOTA_at_tuned_threshold_from_tuning": 0.34063874699390195,
+   "HOTA_mean_over_10_thresholds": 0.21136197713108634
+  },
+  "truck": {
+   "HOTA": 0.37132425979915157,
+   "DetA": 0.2564402848767406,
+   "AssA": 0.5437551646616672,
+   "LocA": 0.8310588623779663,
+   "MOTA_av2": -0.015928322548531607,
+   "IDSW_av2": 134,
+   "CLR_TP": 1671,
+   "CLR_FN": 2347,
+   "CLR_FP": 1601,
+   "tuned_score_threshold": 0.3604237347841263,
+   "HOTA_at_tuned_threshold_from_tuning": 0.37132425979915157,
+   "HOTA_mean_over_10_thresholds": 0.3014007738392286
+  },
+  "bus": {
+   "HOTA": 0.44276693300445086,
+   "DetA": 0.31453728984890966,
+   "AssA": 0.629314248363309,
+   "LocA": 0.8408097800753993,
+   "MOTA_av2": 0.26731927710843373,
+   "IDSW_av2": 30,
+   "CLR_TP": 569,
+   "CLR_FN": 759,
+   "CLR_FP": 184,
+   "tuned_score_threshold": 0.45212661258635983,
+   "HOTA_at_tuned_threshold_from_tuning": 0.44276693300445086,
+   "HOTA_mean_over_10_thresholds": 0.36275549495906045
+  },
+  "trailer": {
+   "HOTA": 0.3669805997635592,
+   "DetA": 0.23431086905127224,
+   "AssA": 0.5806775868087701,
+   "LocA": 0.8401237501620709,
+   "MOTA_av2": 0.06966490299823633,
+   "IDSW_av2": 24,
+   "CLR_TP": 359,
+   "CLR_FN": 775,
+   "CLR_FP": 256,
+   "tuned_score_threshold": 0.40760298624522706,
+   "HOTA_at_tuned_threshold_from_tuning": 0.3669805997635592,
+   "HOTA_mean_over_10_thresholds": 0.28263975992314133
+  }
+ },
+ "wall_seconds": 288.1
+}

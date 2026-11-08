@@ -1,0 +1,12 @@
+Trajectron++ checkout provenance (v01, 2 Nov 2026)
+repo: https://github.com/StanfordASL/Trajectron-plus-plus  branch eccv2020  commit ef0165a93ee5ba8cdc14f9b999b3e00070cd8588
+fetch: git init + fetch --depth 1 --filter=blob:none of the commit; sparse checkout of /trajectron/ /config/ /experiments/nuScenes/*.py /experiments/nuScenes/models/ LICENSE README.md requirements.txt .gitmodules (65 files); submodule experiments/nuScenes/devkit not fetched
+note: repo-local git config http.sslBackend=schannel in this checkout's .git/config (the bundled OpenSSL CA store rejected the TLS chain); no global or system setting changed
+core.autocrlf=true on this machine: text files are CRLF on disk; git blob ids below equal the tree (git hash-object)
+experiments/nuScenes/models/int_ee/model_registrar-12.pt bytes=1121423 sha256=3fcc65cd8f48b70fce4965813e503e03c664e027f1f83f8a27d317773a138028 git_blob=53c415a21f65a32703a78c58e6c1d214b96a9896
+experiments/nuScenes/models/int_ee_me/model_registrar-12.pt bytes=1286107 sha256=6d567ebc4908ea3e4261346ebb6978f5c5189adeb5386ea956321f493f0dd6dd git_blob=a0b75b032b25ee8d349187ce95d99eaf41710543
+experiments/nuScenes/models/vel_ee/model_registrar-12.pt bytes=1120722 sha256=1ddbc1575897d59c37c093fad449ea77f4950ac803d7a679a08af52fb45a22f7 git_blob=181ed52f8c2f8db9590075b854d0f9971e5a9ce1
+experiments/nuScenes/models/robot/model_registrar-12.pt bytes=1091726 sha256=2535d2c58046e560b05c78412b38f274e0120a4a97dacd4c38f189c3951ea5a7 git_blob=cbb906a9f50f953185c6eeadf9be313069eb7b85
+experiments/nuScenes/models/int_ee/config.json sha256(on disk, CRLF)=3538638ef65601e80dd2ac146d1a3f7ca87fa28fc2936bae2cb2adea2b18923d git_blob=7b2702b8c77e4c2f5da5b09ef1e5625de921abaf
+experiments/nuScenes/models/int_ee_me/config.json sha256(on disk, CRLF)=384566241ba67afea3b899923beff499ffebe7ccd322a115476762f4f6bf9419 git_blob=df709e7c2b95adc6655f65f3a7470854cf39140a
+pickle scan (tpp_pickle_scan_v01.py, before any torch.load): int_ee and int_ee_me reference only collections.OrderedDict, torch.* and model.components.{additive_attention.AdditiveAttention, map_encoder.CNNMapEncoder}: no disallowed global

@@ -1,0 +1,7528 @@
+{
+ "stamp": "X3 POST-REGISTRATION EXPLORATORY (after the verdict of record; not part of the registered test)",
+ "label": "added after review (amendment A4)",
+ "amendment_sha256": "ab19dd66b1838109534a4cb23f93835b5558af1e1cffd73d74416ef3bdf7832b",
+ "part": "(1) matched validity on the neutral screen",
+ "by_tracker": {
+  "t1": {
+   "tracker": "t1",
+   "seeds": {
+    "bootstrap": [
+     20261201,
+     0,
+     11
+    ],
+    "power": [
+     20261202,
+     0,
+     11
+    ]
+   },
+   "B": 4000,
+   "families": {
+    "Mstar": {
+     "grid_order": [
+      "Mstar@0.05",
+      "Mstar@0.04",
+      "Mstar@0.03",
+      "Mstar@0.02",
+      "Mstar@0.015",
+      "Mstar@0.01",
+      "Mstar@0.005"
+     ],
+     "curve": [
+      {
+       "point": "Mstar@0.05",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|lat"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.4,0.5)|lat"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          "1-10|lat"
+         ]
+        },
+        "n_flagged": 5,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.043966572620651324,
+          "ub": 0.048239735401187644,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0376366655516585,
+          "ub": 0.04710095025764097,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.04040572614693565,
+          "ub": 0.054031063375215356,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 154
+       },
+       "endpoints": {
+        "infeasible_rate": 0.1863591853196209,
+        "progress_ratio": 0.9723416295485365,
+        "mean_backoff_level": 0.8967424884049202,
+        "V2_exec": 0.5508766498523546
+       }
+      },
+      {
+       "point": "Mstar@0.04",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.4,0.5)|lat"
+         ]
+        },
+        "n_flagged": 3,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.03459383225860927,
+          "ub": 0.03816160311678381,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.028106650591466848,
+          "ub": 0.035508427821643984,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.030650438452116055,
+          "ub": 0.0413715044849041,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 154
+       },
+       "endpoints": {
+        "infeasible_rate": 0.21810655374067353,
+        "progress_ratio": 0.9686982550276795,
+        "mean_backoff_level": 0.8761576930832828,
+        "V2_exec": 0.5023510517624252
+       }
+      },
+      {
+       "point": "Mstar@0.03",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.02561134499362396,
+          "ub": 0.02865189489685007,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.020865287171754194,
+          "ub": 0.027037287130086303,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.023127142012120037,
+          "ub": 0.03332734560571418,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 154
+       },
+       "endpoints": {
+        "infeasible_rate": 0.260313127646703,
+        "progress_ratio": 0.965747622354307,
+        "mean_backoff_level": 0.8480161726154465,
+        "V2_exec": 0.4480098258368192
+       }
+      },
+      {
+       "point": "Mstar@0.02",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.015463107338213421,
+          "ub": 0.017533112676314903,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.011599272603239532,
+          "ub": 0.01604613578246969,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.013013950910520147,
+          "ub": 0.01984710537256484,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.342850252066949,
+        "progress_ratio": 0.9599123680528073,
+        "mean_backoff_level": 0.7902135107884654,
+        "V2_exec": 0.4087507503703753
+       }
+      },
+      {
+       "point": "Mstar@0.015",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.011186012096799888,
+          "ub": 0.012905935339816712,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.008716530795562677,
+          "ub": 0.012230318986079954,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.012568112476402974,
+          "ub": 0.018150171388110172,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.3809414801371245,
+        "progress_ratio": 0.9570273775322126,
+        "mean_backoff_level": 0.7639226860254085,
+        "V2_exec": 0.3759975074290499
+       }
+      },
+      {
+       "point": "Mstar@0.01",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.006674320610127161,
+          "ub": 0.007922162501844545,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.006489484108356215,
+          "ub": 0.00987838824481907,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.006936312891252983,
+          "ub": 0.01046572174872495,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 152
+       },
+       "endpoints": {
+        "infeasible_rate": 0.5059124823553136,
+        "progress_ratio": 0.9547070756267007,
+        "mean_backoff_level": 0.681080419439403,
+        "V2_exec": 0.3733123312751867
+       }
+      },
+      {
+       "point": "Mstar@0.005",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.00222227489839261,
+          "ub": 0.00287331378576499,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0035756367399039897,
+          "ub": 0.006275087050303094,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.0012803927508863624,
+          "ub": 0.0024499511686213444,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 145
+       },
+       "endpoints": {
+        "infeasible_rate": 0.8330105263157894,
+        "progress_ratio": 0.9550548670494938,
+        "mean_backoff_level": 0.36758971566848153,
+        "V2_exec": 0.49799961383958974
+       }
+      }
+     ],
+     "choice_by_fold": {
+      "0": "Mstar@0.03",
+      "1": "Mstar@0.03",
+      "2": "Mstar@0.03",
+      "3": "Mstar@0.03",
+      "4": "Mstar@0.03"
+     },
+     "in_sample_best_point": "Mstar@0.03",
+     "result": "matched",
+     "composite_neutral": {
+      "passes": true,
+      "flagged": {},
+      "n_flagged": 0,
+      "hk1c": {
+       "PD7_primary": {
+        "evaluable": true,
+        "E": 0.02561134499362396,
+        "ub": 0.02865189489685007,
+        "holds": true
+       },
+       "SD1_7_gap_le_5m": {
+        "evaluable": true,
+        "E": 0.020865287171754194,
+        "ub": 0.027037287130086303,
+        "holds": true
+       },
+       "PD_inpath": {
+        "evaluable": true,
+        "E": 0.023127142012120037,
+        "ub": 0.03332734560571418,
+        "holds": true
+       }
+      },
+      "evaluable_partition_cells": 154
+     },
+     "composite_registered": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 7,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "composite_registered_class": "Valid",
+     "composite_endpoints": {
+      "infeasible_rate": 0.260313127646703,
+      "progress_ratio": 0.965747622354307,
+      "mean_backoff_level": 0.8480161726154465,
+      "V2_exec": 0.4480098258368192
+     }
+    },
+    "B4": {
+     "grid_order": [
+      "B4@0.05",
+      "B4@0.04",
+      "B4@0.03",
+      "B4@0.02",
+      "B4@0.015",
+      "B4@0.01",
+      "B4@0.005"
+     ],
+     "curve": [
+      {
+       "point": "B4@0.05",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[0.5,3)|long",
+          "[3,8)|lat"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          "<2|long",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          "<2|long"
+         ],
+         "P2_track_length/PD_inpath": [
+          "[2,5.5)|lat"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "3-5|long"
+         ],
+         "P3_track_age/SD1_7_gap_le_5m": [
+          "1-2|long",
+          "3-5|long"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long"
+         ],
+         "P4_detection_score/SD1_7_gap_le_5m": [
+          "[0.4,0.5)|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat"
+         ],
+         "P5_ego_speed/PD7_primary": [
+          "<1|long",
+          "[1,5)|long",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "[1,5)|lat"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          "1-10|long",
+          "11-50|long",
+          "51-200|long",
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/SD1_7_gap_le_5m": [
+          "51-200|long"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          "51-200|long",
+          ">200|lat"
+         ],
+         "P7_city/PD7_primary": [
+          "MIA|long",
+          "PIT|long"
+         ]
+        },
+        "n_flagged": 39,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.053516062025152404,
+          "ub": 0.05911467667859725,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.03788018114687653,
+          "ub": 0.0461613531104143,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.07733081132033018,
+          "ub": 0.09809493273182052,
+          "holds": false
+         }
+        },
+        "evaluable_partition_cells": 154
+       },
+       "endpoints": {
+        "infeasible_rate": 0.2018868320225852,
+        "progress_ratio": 0.9724962465884632,
+        "mean_backoff_level": 0.888491308731599,
+        "V2_exec": 0.5782896329831356
+       }
+      },
+      {
+       "point": "B4@0.04",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[3,8)|lat"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[3,8)|lat",
+          ">=8|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          "<2|long"
+         ],
+         "P2_track_length/PD_inpath": [
+          "[2,5.5)|lat"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.5,0.7)|lat"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "[1,5)|lat"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          ">200|lat"
+         ]
+        },
+        "n_flagged": 16,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.04218276031505157,
+          "ub": 0.04697156506875658,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.03018957787171249,
+          "ub": 0.03773184874638416,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.06204171962638848,
+          "ub": 0.08003842976983977,
+          "holds": false
+         }
+        },
+        "evaluable_partition_cells": 154
+       },
+       "endpoints": {
+        "infeasible_rate": 0.2644894535188546,
+        "progress_ratio": 0.9668926380077864,
+        "mean_backoff_level": 0.8561895946763461,
+        "V2_exec": 0.5312159254064034
+       }
+      },
+      {
+       "point": "B4@0.03",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          "[3,8)|lat"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[3,8)|lat"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.5,0.7)|lat"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "[1,5)|lat"
+         ]
+        },
+        "n_flagged": 8,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.03048396270355032,
+          "ub": 0.034171253566882706,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.02453297542402913,
+          "ub": 0.03165727143308644,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.04496499115273368,
+          "ub": 0.06021000012129982,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.3523178060092761,
+        "progress_ratio": 0.9629949302293889,
+        "mean_backoff_level": 0.8048060092760637,
+        "V2_exec": 0.4835550021187167
+       }
+      },
+      {
+       "point": "B4@0.02",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD_inpath": [
+          "[3,8)|lat"
+         ]
+        },
+        "n_flagged": 1,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.01907511696025789,
+          "ub": 0.021829740414901367,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.018110435522683765,
+          "ub": 0.02416689189995494,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.029103572064137644,
+          "ub": 0.04093341074713416,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.47501528533978626,
+        "progress_ratio": 0.9574097060443801,
+        "mean_backoff_level": 0.7249924984875982,
+        "V2_exec": 0.439332896604415
+       }
+      },
+      {
+       "point": "B4@0.015",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.013655398662302339,
+          "ub": 0.01589556959333199,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.01306507241066962,
+          "ub": 0.018131904893029033,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.021253670806659495,
+          "ub": 0.031395379726368314,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 152
+       },
+       "endpoints": {
+        "infeasible_rate": 0.5676907441016333,
+        "progress_ratio": 0.9526267325302445,
+        "mean_backoff_level": 0.6576151643476508,
+        "V2_exec": 0.42514409657112623
+       }
+      },
+      {
+       "point": "B4@0.01",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.008176499586389198,
+          "ub": 0.009875852284235572,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.010337676437049439,
+          "ub": 0.015417218692870386,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.01130971091186653,
+          "ub": 0.017490674751056264,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 148
+       },
+       "endpoints": {
+        "infeasible_rate": 0.6951335349868926,
+        "progress_ratio": 0.9495458282683119,
+        "mean_backoff_level": 0.5366711030449687,
+        "V2_exec": 0.44566321419030447
+       }
+      },
+      {
+       "point": "B4@0.005",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.00242443152012979,
+          "ub": 0.003218861796126776,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.004846774449401313,
+          "ub": 0.008634890526976904,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.002844346481679845,
+          "ub": 0.004867742469318807,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 137
+       },
+       "endpoints": {
+        "infeasible_rate": 0.9106152046783625,
+        "progress_ratio": 0.9566840723137223,
+        "mean_backoff_level": 0.2801528130671506,
+        "V2_exec": 0.5471826783335193
+       }
+      }
+     ],
+     "choice_by_fold": {
+      "0": "B4@0.015",
+      "1": "B4@0.02",
+      "2": "B4@0.02",
+      "3": "B4@0.015",
+      "4": "B4@0.015"
+     },
+     "in_sample_best_point": "B4@0.015",
+     "result": "matched",
+     "composite_neutral": {
+      "passes": true,
+      "flagged": {},
+      "n_flagged": 0,
+      "hk1c": {
+       "PD7_primary": {
+        "evaluable": true,
+        "E": 0.016032648585129074,
+        "ub": 0.018623288088665882,
+        "holds": true
+       },
+       "SD1_7_gap_le_5m": {
+        "evaluable": true,
+        "E": 0.014535692248461912,
+        "ub": 0.019861164919495404,
+        "holds": true
+       },
+       "PD_inpath": {
+        "evaluable": true,
+        "E": 0.025297468708232743,
+        "ub": 0.03636751398637702,
+        "holds": true
+       }
+      },
+      "evaluable_partition_cells": 153
+     },
+     "composite_registered": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|new",
+         "car|lat|turning"
+        ],
+        "family_flagged": [
+         "car|long|new",
+         "car|lat|turning"
+        ],
+        "family_size": 19,
+        "evaluable": 25
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [],
+        "family_flagged": [
+         "car|lat|turning"
+        ],
+        "family_size": 8,
+        "evaluable": 15
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "composite_registered_class": "flagged",
+     "composite_endpoints": {
+      "infeasible_rate": 0.5326544867916918,
+      "progress_ratio": 0.9537024419742391,
+      "mean_backoff_level": 0.6836350473885864,
+      "V2_exec": 0.429522137906905
+     },
+     "Mstar_minus_composite": {
+      "infeasible_rate": {
+       "mean_diff": -0.2723413591449889,
+       "ci95": [
+        -0.29924441217987513,
+        -0.24568412986489224
+       ]
+      },
+      "progress_ratio": {
+       "mean_diff": 0.012045180380067917,
+       "ci95": [
+        0.008931600687545733,
+        0.015043364688402476
+       ]
+      },
+      "V2_exec": {
+       "mean_diff": 0.018487687929914186,
+       "ci95": [
+        -0.0017176150625606114,
+        0.03837527250117631
+       ]
+      }
+     }
+    },
+    "B6": {
+     "grid_order": [
+      "B6@0.05",
+      "B6@0.04",
+      "B6@0.03",
+      "B6@0.02",
+      "B6@0.015",
+      "B6@0.01",
+      "B6@0.005"
+     ],
+     "curve": [
+      {
+       "point": "B6@0.05",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[3,8)|lat",
+          ">=8|lat"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "1-2|lat"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.4,0.5)|lat",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat"
+         ],
+         "P5_ego_speed/PD7_primary": [
+          "<1|lat"
+         ]
+        },
+        "n_flagged": 15,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.047380064320545125,
+          "ub": 0.05255107267557919,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.04136351292345279,
+          "ub": 0.051743112416979015,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.04684247590657583,
+          "ub": 0.062365067548659614,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.16529267997580158,
+        "progress_ratio": 0.9710773551914327,
+        "mean_backoff_level": 0.911354466626336,
+        "V2_exec": 0.5483563664835533
+       }
+      },
+      {
+       "point": "B6@0.04",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[3,8)|lat"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|lat"
+         ]
+        },
+        "n_flagged": 8,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.03730531165700464,
+          "ub": 0.04171274610454659,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.03274581288329937,
+          "ub": 0.04191108532290269,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.0369426286328163,
+          "ub": 0.05026658017971258,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.23365597902802987,
+        "progress_ratio": 0.965971471155789,
+        "mean_backoff_level": 0.8790484371849162,
+        "V2_exec": 0.49836175047600334
+       }
+      },
+      {
+       "point": "B6@0.03",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[3,8)|long",
+          "[3,8)|lat"
+         ]
+        },
+        "n_flagged": 2,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.027466638306456726,
+          "ub": 0.031187909895113813,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.023835791214820656,
+          "ub": 0.03163308974913409,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.02833012318476515,
+          "ub": 0.039843841440522824,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.33274208509780195,
+        "progress_ratio": 0.9615233754390147,
+        "mean_backoff_level": 0.8236118168985683,
+        "V2_exec": 0.45281295895697593
+       }
+      },
+      {
+       "point": "B6@0.02",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.017221400160580914,
+          "ub": 0.019956927096931247,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.01258499477317897,
+          "ub": 0.01764164938397176,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.015499528567060878,
+          "ub": 0.02411063345150212,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.4926006049606775,
+        "progress_ratio": 0.9553806768877794,
+        "mean_backoff_level": 0.6974238354506956,
+        "V2_exec": 0.4607109835793925
+       }
+      },
+      {
+       "point": "B6@0.015",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.0120067736668676,
+          "ub": 0.014111562733785667,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.009265374363674974,
+          "ub": 0.013667233528146722,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.014344560854461471,
+          "ub": 0.020792211634842538,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 152
+       },
+       "endpoints": {
+        "infeasible_rate": 0.5571728171002218,
+        "progress_ratio": 0.9542617888662097,
+        "mean_backoff_level": 0.6204670296430733,
+        "V2_exec": 0.45889889694764474
+       }
+      },
+      {
+       "point": "B6@0.01",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.0073393890699626815,
+          "ub": 0.008842791467915303,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.006699706002870769,
+          "ub": 0.010310166948406299,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.006819235743902931,
+          "ub": 0.010706428873017974,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 150
+       },
+       "endpoints": {
+        "infeasible_rate": 0.6783561201855213,
+        "progress_ratio": 0.9539070148191059,
+        "mean_backoff_level": 0.5270775559588626,
+        "V2_exec": 0.47628490350052355
+       }
+      },
+      {
+       "point": "B6@0.005",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.0019223967353295638,
+          "ub": 0.0025466293723214453,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.004246562946547745,
+          "ub": 0.007635134820073846,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.0011876466231107092,
+          "ub": 0.0022704824297451577,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 139
+       },
+       "endpoints": {
+        "infeasible_rate": 0.8631345029239766,
+        "progress_ratio": 0.9566717596300032,
+        "mean_backoff_level": 0.33675543456342005,
+        "V2_exec": 0.5082344428021621
+       }
+      }
+     ],
+     "choice_by_fold": {
+      "0": "B6@0.02",
+      "1": "B6@0.02",
+      "2": "B6@0.02",
+      "3": "B6@0.02",
+      "4": "B6@0.02"
+     },
+     "in_sample_best_point": "B6@0.02",
+     "result": "matched",
+     "composite_neutral": {
+      "passes": true,
+      "flagged": {},
+      "n_flagged": 0,
+      "hk1c": {
+       "PD7_primary": {
+        "evaluable": true,
+        "E": 0.017221400160580914,
+        "ub": 0.019956927096931247,
+        "holds": true
+       },
+       "SD1_7_gap_le_5m": {
+        "evaluable": true,
+        "E": 0.01258499477317897,
+        "ub": 0.01764164938397176,
+        "holds": true
+       },
+       "PD_inpath": {
+        "evaluable": true,
+        "E": 0.015499528567060878,
+        "ub": 0.02411063345150212,
+        "holds": true
+       }
+      },
+      "evaluable_partition_cells": 153
+     },
+     "composite_registered": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|new",
+         "car|lat|turning"
+        ],
+        "family_flagged": [
+         "car|long|new",
+         "car|lat|turning"
+        ],
+        "family_size": 19,
+        "evaluable": 26
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 10,
+        "evaluable": 15
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 4,
+        "evaluable": 8
+       }
+      }
+     },
+     "composite_registered_class": "flagged",
+     "composite_endpoints": {
+      "infeasible_rate": 0.4926006049606775,
+      "progress_ratio": 0.9553806768877794,
+      "mean_backoff_level": 0.6974238354506956,
+      "V2_exec": 0.4607109835793925
+     },
+     "Mstar_minus_composite": {
+      "infeasible_rate": {
+       "mean_diff": -0.23228747731397462,
+       "ci95": [
+        -0.25789337769711634,
+        -0.20746258519862887
+       ]
+      },
+      "progress_ratio": {
+       "mean_diff": 0.010366945466527668,
+       "ci95": [
+        0.007741737075204914,
+        0.013066006993340021
+       ]
+      },
+      "V2_exec": {
+       "mean_diff": -0.012701157742573348,
+       "ci95": [
+        -0.03075197733933517,
+        0.004136895109987364
+       ]
+      }
+     }
+    },
+    "B9": {
+     "grid_order": [
+      "B9@0.05",
+      "B9@0.04",
+      "B9@0.03",
+      "B9@0.02",
+      "B9@0.015",
+      "B9@0.01",
+      "B9@0.005"
+     ],
+     "curve": [
+      {
+       "point": "B9@0.05",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.011823235048389238,
+          "ub": 0.014007213273271299,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.005255382854824071,
+          "ub": 0.007774181457994852,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.01958798999306799,
+          "ub": 0.029547135595990266,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.692768058076225,
+        "progress_ratio": 0.9552307576566105,
+        "mean_backoff_level": 0.5047927404718694,
+        "V2_exec": 0.526563994981067
+       }
+      },
+      {
+       "point": "B9@0.04",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.009225911022660863,
+          "ub": 0.010984838601570799,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.004389682090313172,
+          "ub": 0.0066833839307798805,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.012519273234007193,
+          "ub": 0.020089836647475132,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 152
+       },
+       "endpoints": {
+        "infeasible_rate": 0.7261413994757009,
+        "progress_ratio": 0.9537665405173623,
+        "mean_backoff_level": 0.47248102440008066,
+        "V2_exec": 0.5225995560716311
+       }
+      },
+      {
+       "point": "B9@0.03",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.006675446096979409,
+          "ub": 0.008116156072418484,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0029839360058916014,
+          "ub": 0.005014150196879009,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.009047217297299934,
+          "ub": 0.015411570868357729,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 152
+       },
+       "endpoints": {
+        "infeasible_rate": 0.7658948981649526,
+        "progress_ratio": 0.9538243282936071,
+        "mean_backoff_level": 0.4327543456342005,
+        "V2_exec": 0.5283564017027538
+       }
+      },
+      {
+       "point": "B9@0.02",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.004222950311089407,
+          "ub": 0.005314585967586762,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0020634916316625714,
+          "ub": 0.0038184994404255835,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.004633650953555199,
+          "ub": 0.008356556518256968,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 150
+       },
+       "endpoints": {
+        "infeasible_rate": 0.8215875781407541,
+        "progress_ratio": 0.9571485850069185,
+        "mean_backoff_level": 0.3761838273845533,
+        "V2_exec": 0.5435334483374169
+       }
+      },
+      {
+       "point": "B9@0.015",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.002978845476677935,
+          "ub": 0.003843486158815012,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0018467939194341976,
+          "ub": 0.003662022619500198,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.002003843476414285,
+          "ub": 0.0036035551139157723,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 148
+       },
+       "endpoints": {
+        "infeasible_rate": 0.8545730994152047,
+        "progress_ratio": 0.9575351367522721,
+        "mean_backoff_level": 0.33893518854607785,
+        "V2_exec": 0.5510875006752564
+       }
+      },
+      {
+       "point": "B9@0.01",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.0016701864409842315,
+          "ub": 0.002295720329710166,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.002218110534999102,
+          "ub": 0.004436221069998204,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.0010247022751300684,
+          "ub": 0.002049404550260137,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 141
+       },
+       "endpoints": {
+        "infeasible_rate": 0.8955883040935674,
+        "progress_ratio": 0.960429802020984,
+        "mean_backoff_level": 0.2853412784835653,
+        "V2_exec": 0.5650094301821948
+       }
+      },
+      {
+       "point": "B9@0.005",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.00014812594402711807,
+          "ub": 0.0002650808796385473,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": false,
+          "ub": null,
+          "holds": false
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.0,
+          "ub": 0.0,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 84
+       },
+       "endpoints": {
+        "infeasible_rate": 0.9723929824561404,
+        "progress_ratio": 0.9746880106610619,
+        "mean_backoff_level": 0.12479548296027425,
+        "V2_exec": 0.7120798923430983
+       }
+      }
+     ],
+     "choice_by_fold": {
+      "0": "B9@0.05",
+      "1": "B9@0.05",
+      "2": "B9@0.05",
+      "3": "B9@0.04",
+      "4": "B9@0.05"
+     },
+     "in_sample_best_point": "B9@0.05",
+     "result": "matched",
+     "composite_neutral": {
+      "passes": true,
+      "flagged": {},
+      "n_flagged": 0,
+      "hk1c": {
+       "PD7_primary": {
+        "evaluable": true,
+        "E": 0.011318249034486501,
+        "ub": 0.01341182095259042,
+        "holds": true
+       },
+       "SD1_7_gap_le_5m": {
+        "evaluable": true,
+        "E": 0.005134092224028293,
+        "ub": 0.007659848374339633,
+        "holds": true
+       },
+       "PD_inpath": {
+        "evaluable": true,
+        "E": 0.01946434236139257,
+        "ub": 0.029431870906686364,
+        "holds": true
+       }
+      },
+      "evaluable_partition_cells": 153
+     },
+     "composite_registered": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|new",
+         "large|long|new"
+        ],
+        "family_flagged": [
+         "car|long|new"
+        ],
+        "family_size": 19,
+        "evaluable": 25
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 6,
+        "evaluable": 17
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 4,
+        "evaluable": 8
+       }
+      }
+     },
+     "composite_registered_class": "flagged",
+     "composite_endpoints": {
+      "infeasible_rate": 0.6997835047388586,
+      "progress_ratio": 0.9554638834441687,
+      "mean_backoff_level": 0.49869114740875176,
+      "V2_exec": 0.5255576272097869
+     },
+     "Mstar_minus_composite": {
+      "infeasible_rate": {
+       "mean_diff": -0.4394703770921557,
+       "ci95": [
+        -0.46490262149626954,
+        -0.41456121395442636
+       ]
+      },
+      "progress_ratio": {
+       "mean_diff": 0.010283738910138403,
+       "ci95": [
+        0.007283971383968892,
+        0.013081116937495127
+       ]
+      },
+      "V2_exec": {
+       "mean_diff": -0.07754780137296774,
+       "ci95": [
+        -0.0996097318569043,
+        -0.05574591658584517
+       ]
+      }
+     }
+    },
+    "B0": {
+     "grid_order": [
+      "B0d0.5",
+      "B0a0.03125",
+      "B0a0.0625",
+      "B0d0.3",
+      "B0a0.125",
+      "B0a0.25",
+      "B0d0.2",
+      "B0a0.333",
+      "B0a0.5",
+      "B0d0.1",
+      "B0a1",
+      "B0d0.05",
+      "B0d0.02",
+      "B0a2",
+      "B0d0.01",
+      "B0d0.005",
+      "B0a3",
+      "B0d0.001",
+      "B0a4",
+      "B0a5",
+      "B0a8"
+     ],
+     "curve": [
+      {
+       "point": "B0d0.5",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0,0.5)|long",
+          "[0,0.5)|lat",
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[0,0.5)|long",
+          "[0,0.5)|lat",
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[0,0.5)|long",
+          "[0,0.5)|lat",
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P2_track_length/PD7_primary": [
+          "<2|long",
+          "<2|lat",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long",
+          "[5.5,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          "<2|long",
+          "<2|lat",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long",
+          "[5.5,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P2_track_length/PD_inpath": [
+          "<2|long",
+          "<2|lat",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "1-2|lat",
+          "3-5|long",
+          "3-5|lat",
+          "6-10|long",
+          "6-10|lat",
+          ">10|long",
+          ">10|lat"
+         ],
+         "P3_track_age/SD1_7_gap_le_5m": [
+          "1-2|long",
+          "1-2|lat",
+          "3-5|long",
+          "3-5|lat",
+          "6-10|long",
+          "6-10|lat",
+          ">10|long",
+          ">10|lat"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long",
+          "1-2|lat",
+          "3-5|long",
+          "3-5|lat",
+          "6-10|long",
+          "6-10|lat",
+          ">10|long",
+          ">10|lat"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.4,0.5)|lat",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat",
+          ">=0.85|long",
+          ">=0.85|lat"
+         ],
+         "P4_detection_score/SD1_7_gap_le_5m": [
+          "[0.4,0.5)|long",
+          "[0.4,0.5)|lat",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat",
+          ">=0.85|long",
+          ">=0.85|lat"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat",
+          ">=0.85|long"
+         ],
+         "P5_ego_speed/PD7_primary": [
+          "<1|long",
+          "<1|lat",
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          "[5,10)|lat",
+          ">=10|long",
+          ">=10|lat"
+         ],
+         "P5_ego_speed/SD1_7_gap_le_5m": [
+          "<1|long",
+          "<1|lat",
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          "[5,10)|lat",
+          ">=10|long",
+          ">=10|lat"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "<1|long",
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          "[5,10)|lat",
+          ">=10|long",
+          ">=10|lat"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          "1-10|long",
+          "1-10|lat",
+          "11-50|long",
+          "11-50|lat",
+          "51-200|long",
+          "51-200|lat",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P6_gt_lidar_points/SD1_7_gap_le_5m": [
+          "11-50|long",
+          "11-50|lat",
+          "51-200|long",
+          "51-200|lat",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          "11-50|long",
+          "51-200|long",
+          "51-200|lat",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P7_city/PD7_primary": [
+          "DTW|long",
+          "DTW|lat",
+          "MIA|long",
+          "MIA|lat",
+          "PIT|long",
+          "PIT|lat",
+          "WDC|long",
+          "WDC|lat"
+         ],
+         "P7_city/SD1_7_gap_le_5m": [
+          "DTW|long",
+          "DTW|lat",
+          "MIA|long",
+          "MIA|lat",
+          "PIT|long",
+          "PIT|lat",
+          "WDC|long",
+          "WDC|lat"
+         ],
+         "P7_city/PD_inpath": [
+          "MIA|long",
+          "MIA|lat",
+          "PIT|long",
+          "PIT|lat",
+          "WDC|long"
+         ]
+        },
+        "n_flagged": 155,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.4925688465295181,
+          "ub": 0.5047786730264376,
+          "holds": false
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.4808860161587379,
+          "ub": 0.5046216823445306,
+          "holds": false
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.4509480228838632,
+          "ub": 0.49573191482025913,
+          "holds": false
+         }
+        },
+        "evaluable_partition_cells": 155
+       },
+       "endpoints": {
+        "infeasible_rate": 0.004210526315789474,
+        "progress_ratio": 0.9940999627173722,
+        "mean_backoff_level": 0.9957894736842106,
+        "V2_exec": 0.9755608613487742
+       }
+      },
+      {
+       "point": "B0a0.03125",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0,0.5)|long",
+          "[0,0.5)|lat",
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[0,0.5)|long",
+          "[0,0.5)|lat",
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[0,0.5)|long",
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P2_track_length/PD7_primary": [
+          "<2|long",
+          "<2|lat",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long",
+          "[5.5,8)|lat",
+          ">=8|long"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          "<2|long",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long",
+          "[5.5,8)|lat",
+          ">=8|long"
+         ],
+         "P2_track_length/PD_inpath": [
+          "<2|long",
+          "<2|lat",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "1-2|lat",
+          "3-5|long",
+          "3-5|lat",
+          "6-10|long",
+          "6-10|lat",
+          ">10|long",
+          ">10|lat"
+         ],
+         "P3_track_age/SD1_7_gap_le_5m": [
+          "1-2|long",
+          "1-2|lat",
+          "3-5|long",
+          "3-5|lat",
+          "6-10|long",
+          "6-10|lat",
+          ">10|long",
+          ">10|lat"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long",
+          "1-2|lat",
+          "3-5|long",
+          "3-5|lat",
+          "6-10|long",
+          "6-10|lat",
+          ">10|long",
+          ">10|lat"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.4,0.5)|lat",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat",
+          ">=0.85|long"
+         ],
+         "P4_detection_score/SD1_7_gap_le_5m": [
+          "[0.4,0.5)|long",
+          "[0.4,0.5)|lat",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat",
+          ">=0.85|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat"
+         ],
+         "P5_ego_speed/PD7_primary": [
+          "<1|long",
+          "<1|lat",
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          "[5,10)|lat",
+          ">=10|long",
+          ">=10|lat"
+         ],
+         "P5_ego_speed/SD1_7_gap_le_5m": [
+          "<1|long",
+          "<1|lat",
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          "[5,10)|lat",
+          ">=10|long",
+          ">=10|lat"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "<1|long",
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          "[5,10)|lat",
+          ">=10|long",
+          ">=10|lat"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          "1-10|long",
+          "1-10|lat",
+          "11-50|long",
+          "11-50|lat",
+          "51-200|long",
+          "51-200|lat",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P6_gt_lidar_points/SD1_7_gap_le_5m": [
+          "11-50|long",
+          "51-200|long",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          "11-50|long",
+          "51-200|long",
+          "51-200|lat",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P7_city/PD7_primary": [
+          "DTW|long",
+          "DTW|lat",
+          "MIA|long",
+          "MIA|lat",
+          "PIT|long",
+          "PIT|lat",
+          "WDC|long",
+          "WDC|lat"
+         ],
+         "P7_city/SD1_7_gap_le_5m": [
+          "DTW|long",
+          "DTW|lat",
+          "MIA|long",
+          "MIA|lat",
+          "PIT|long",
+          "PIT|lat",
+          "WDC|long",
+          "WDC|lat"
+         ],
+         "P7_city/PD_inpath": [
+          "MIA|long",
+          "MIA|lat",
+          "PIT|long",
+          "PIT|lat",
+          "WDC|long"
+         ]
+        },
+        "n_flagged": 146,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.1858372814658382,
+          "ub": 0.196349383466992,
+          "holds": false
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.16224981651382198,
+          "ub": 0.18072941087977154,
+          "holds": false
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.24017259858875953,
+          "ub": 0.27628776108495895,
+          "holds": false
+         }
+        },
+        "evaluable_partition_cells": 155
+       },
+       "endpoints": {
+        "infeasible_rate": 0.03731300665456745,
+        "progress_ratio": 0.9884902629135119,
+        "mean_backoff_level": 0.9775606775559588,
+        "V2_exec": 0.895571002385618
+       }
+      },
+      {
+       "point": "B0a0.0625",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0,0.5)|long",
+          "[0,0.5)|lat",
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[0,0.5)|long",
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P2_track_length/PD7_primary": [
+          "<2|long",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long",
+          "[5.5,8)|lat",
+          ">=8|long"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          "<2|long",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long",
+          "[5.5,8)|lat",
+          ">=8|long"
+         ],
+         "P2_track_length/PD_inpath": [
+          "<2|long",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "1-2|lat",
+          "3-5|long",
+          "3-5|lat",
+          "6-10|long",
+          "6-10|lat",
+          ">10|long",
+          ">10|lat"
+         ],
+         "P3_track_age/SD1_7_gap_le_5m": [
+          "1-2|long",
+          "1-2|lat",
+          "3-5|long",
+          "3-5|lat",
+          "6-10|long",
+          "6-10|lat",
+          ">10|long",
+          ">10|lat"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long",
+          "1-2|lat",
+          "3-5|long",
+          "3-5|lat",
+          "6-10|long",
+          "6-10|lat",
+          ">10|long",
+          ">10|lat"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.4,0.5)|lat",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat",
+          ">=0.85|long"
+         ],
+         "P4_detection_score/SD1_7_gap_le_5m": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat",
+          ">=0.85|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat"
+         ],
+         "P5_ego_speed/PD7_primary": [
+          "<1|long",
+          "<1|lat",
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          "[5,10)|lat",
+          ">=10|long",
+          ">=10|lat"
+         ],
+         "P5_ego_speed/SD1_7_gap_le_5m": [
+          "<1|long",
+          "<1|lat",
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          "[5,10)|lat",
+          ">=10|long",
+          ">=10|lat"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "<1|long",
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          "[5,10)|lat",
+          ">=10|long"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          "1-10|long",
+          "1-10|lat",
+          "11-50|long",
+          "11-50|lat",
+          "51-200|long",
+          "51-200|lat",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P6_gt_lidar_points/SD1_7_gap_le_5m": [
+          "11-50|long",
+          "51-200|long",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          "11-50|long",
+          "51-200|long",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P7_city/PD7_primary": [
+          "DTW|long",
+          "DTW|lat",
+          "MIA|long",
+          "MIA|lat",
+          "PIT|long",
+          "PIT|lat",
+          "WDC|long",
+          "WDC|lat"
+         ],
+         "P7_city/SD1_7_gap_le_5m": [
+          "DTW|long",
+          "MIA|long",
+          "MIA|lat",
+          "PIT|long",
+          "PIT|lat",
+          "WDC|long"
+         ],
+         "P7_city/PD_inpath": [
+          "MIA|long",
+          "MIA|lat",
+          "PIT|long",
+          "PIT|lat",
+          "WDC|long"
+         ]
+        },
+        "n_flagged": 137,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.1469754162515872,
+          "ub": 0.1565069629673808,
+          "holds": false
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.1209426198343058,
+          "ub": 0.13715568611167547,
+          "holds": false
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.2018889871639827,
+          "ub": 0.23433559103256302,
+          "holds": false
+         }
+        },
+        "evaluable_partition_cells": 155
+       },
+       "endpoints": {
+        "infeasible_rate": 0.058103649929421256,
+        "progress_ratio": 0.9860296596957291,
+        "mean_backoff_level": 0.9658355313571284,
+        "V2_exec": 0.8501147973775682
+       }
+      },
+      {
+       "point": "B0d0.3",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0,0.5)|long",
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          "<2|long",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long",
+          "[5.5,8)|lat",
+          ">=8|long"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          "<2|long",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|lat",
+          ">=8|long"
+         ],
+         "P2_track_length/PD_inpath": [
+          "<2|long",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "1-2|lat",
+          "3-5|long",
+          "3-5|lat",
+          "6-10|long",
+          "6-10|lat",
+          ">10|long",
+          ">10|lat"
+         ],
+         "P3_track_age/SD1_7_gap_le_5m": [
+          "1-2|long",
+          "3-5|long",
+          "3-5|lat",
+          "6-10|long",
+          "6-10|lat",
+          ">10|long"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long",
+          "1-2|lat",
+          "3-5|long",
+          "3-5|lat",
+          "6-10|long",
+          "6-10|lat",
+          ">10|long",
+          ">10|lat"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.4,0.5)|lat",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat",
+          ">=0.85|long"
+         ],
+         "P4_detection_score/SD1_7_gap_le_5m": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat",
+          ">=0.85|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat"
+         ],
+         "P5_ego_speed/PD7_primary": [
+          "<1|long",
+          "<1|lat",
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          "[5,10)|lat",
+          ">=10|long",
+          ">=10|lat"
+         ],
+         "P5_ego_speed/SD1_7_gap_le_5m": [
+          "<1|long",
+          "<1|lat",
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          "[5,10)|lat",
+          ">=10|long"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          "1-10|long",
+          "1-10|lat",
+          "11-50|long",
+          "11-50|lat",
+          "51-200|long",
+          "51-200|lat",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P6_gt_lidar_points/SD1_7_gap_le_5m": [
+          "11-50|long",
+          "51-200|long",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          "51-200|long",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P7_city/PD7_primary": [
+          "DTW|long",
+          "MIA|long",
+          "MIA|lat",
+          "PIT|long",
+          "PIT|lat",
+          "WDC|long",
+          "WDC|lat"
+         ],
+         "P7_city/SD1_7_gap_le_5m": [
+          "MIA|long",
+          "MIA|lat",
+          "PIT|long"
+         ],
+         "P7_city/PD_inpath": [
+          "MIA|long",
+          "MIA|lat",
+          "PIT|long",
+          "PIT|lat",
+          "WDC|long"
+         ]
+        },
+        "n_flagged": 122,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.12148951602934288,
+          "ub": 0.13015413390046543,
+          "holds": false
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.093436888627748,
+          "ub": 0.10730529910031335,
+          "holds": false
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.17024385104981812,
+          "ub": 0.2002530780029189,
+          "holds": false
+         }
+        },
+        "evaluable_partition_cells": 155
+       },
+       "endpoints": {
+        "infeasible_rate": 0.07646622302883646,
+        "progress_ratio": 0.9834544920527504,
+        "mean_backoff_level": 0.955250736035491,
+        "V2_exec": 0.8057040518429387
+       }
+      },
+      {
+       "point": "B0a0.125",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          "<2|long",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long",
+          "[5.5,8)|lat",
+          ">=8|long"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          "<2|long",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|lat",
+          ">=8|long"
+         ],
+         "P2_track_length/PD_inpath": [
+          "<2|long",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "1-2|lat",
+          "3-5|long",
+          "3-5|lat",
+          "6-10|long",
+          "6-10|lat",
+          ">10|long"
+         ],
+         "P3_track_age/SD1_7_gap_le_5m": [
+          "1-2|long",
+          "3-5|long",
+          "6-10|long",
+          ">10|long"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long",
+          "3-5|long",
+          "3-5|lat",
+          "6-10|long",
+          "6-10|lat",
+          ">10|long",
+          ">10|lat"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.4,0.5)|lat",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          ">=0.85|long"
+         ],
+         "P4_detection_score/SD1_7_gap_le_5m": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          ">=0.85|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat"
+         ],
+         "P5_ego_speed/PD7_primary": [
+          "<1|long",
+          "<1|lat",
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          "[5,10)|lat",
+          ">=10|long"
+         ],
+         "P5_ego_speed/SD1_7_gap_le_5m": [
+          "<1|long",
+          "<1|lat",
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          "[5,10)|lat",
+          ">=10|long"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          "1-10|long",
+          "1-10|lat",
+          "11-50|long",
+          "11-50|lat",
+          "51-200|long",
+          "51-200|lat",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P6_gt_lidar_points/SD1_7_gap_le_5m": [
+          "11-50|long",
+          "51-200|long",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          "51-200|long",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P7_city/PD7_primary": [
+          "DTW|long",
+          "MIA|long",
+          "MIA|lat",
+          "PIT|long",
+          "PIT|lat",
+          "WDC|long"
+         ],
+         "P7_city/SD1_7_gap_le_5m": [
+          "MIA|long",
+          "PIT|long"
+         ],
+         "P7_city/PD_inpath": [
+          "MIA|long",
+          "MIA|lat",
+          "PIT|long",
+          "PIT|lat"
+         ]
+        },
+        "n_flagged": 111,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.1114421470068158,
+          "ub": 0.11988911329515509,
+          "holds": false
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.08433878918287771,
+          "ub": 0.09703665682599326,
+          "holds": false
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.15810749891487905,
+          "ub": 0.18741393729264016,
+          "holds": false
+         }
+        },
+        "evaluable_partition_cells": 155
+       },
+       "endpoints": {
+        "infeasible_rate": 0.08458786045573703,
+        "progress_ratio": 0.9822291688402858,
+        "mean_backoff_level": 0.9501103851582982,
+        "V2_exec": 0.7815038709308885
+       }
+      },
+      {
+       "point": "B0a0.25",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          "<2|long",
+          "[2,5.5)|long",
+          "[5.5,8)|long",
+          "[5.5,8)|lat",
+          ">=8|long"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          "<2|long",
+          ">=8|long"
+         ],
+         "P2_track_length/PD_inpath": [
+          "<2|long",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "1-2|lat",
+          "3-5|long",
+          "6-10|long",
+          ">10|long"
+         ],
+         "P3_track_age/SD1_7_gap_le_5m": [
+          "1-2|long",
+          "3-5|long",
+          "6-10|long",
+          ">10|long"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long",
+          "3-5|long",
+          "6-10|lat"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.4,0.5)|lat",
+          "[0.5,0.7)|long",
+          "[0.7,0.85)|long"
+         ],
+         "P4_detection_score/SD1_7_gap_le_5m": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.7,0.85)|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat"
+         ],
+         "P5_ego_speed/PD7_primary": [
+          "<1|long",
+          "[1,5)|long",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P5_ego_speed/SD1_7_gap_le_5m": [
+          "<1|long",
+          "[1,5)|long",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          "1-10|long",
+          "11-50|long",
+          "51-200|long",
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/SD1_7_gap_le_5m": [
+          "51-200|long",
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          "51-200|long",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P7_city/PD7_primary": [
+          "DTW|long",
+          "MIA|long",
+          "PIT|long",
+          "WDC|long"
+         ],
+         "P7_city/SD1_7_gap_le_5m": [
+          "MIA|long",
+          "PIT|long"
+         ],
+         "P7_city/PD_inpath": [
+          "MIA|long",
+          "PIT|long"
+         ]
+        },
+        "n_flagged": 80,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.08105822154736259,
+          "ub": 0.08815354414762368,
+          "holds": false
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.058997120215858526,
+          "ub": 0.06965348759268097,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.11630558220989957,
+          "ub": 0.14268702214035558,
+          "holds": false
+         }
+        },
+        "evaluable_partition_cells": 155
+       },
+       "endpoints": {
+        "infeasible_rate": 0.13580028231498287,
+        "progress_ratio": 0.9766212640111522,
+        "mean_backoff_level": 0.9229942327082071,
+        "V2_exec": 0.6955464055659337
+       }
+      },
+      {
+       "point": "B0d0.2",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          "<2|long",
+          "[2,5.5)|long",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          "<2|long"
+         ],
+         "P2_track_length/PD_inpath": [
+          "<2|long",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "3-5|long",
+          "6-10|long",
+          ">10|long"
+         ],
+         "P3_track_age/SD1_7_gap_le_5m": [
+          "1-2|long",
+          "3-5|long",
+          "6-10|long",
+          ">10|long"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long",
+          "3-5|long",
+          "6-10|lat"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.4,0.5)|lat",
+          "[0.5,0.7)|long",
+          "[0.7,0.85)|long"
+         ],
+         "P4_detection_score/SD1_7_gap_le_5m": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.7,0.85)|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat"
+         ],
+         "P5_ego_speed/PD7_primary": [
+          "<1|long",
+          "[1,5)|long",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P5_ego_speed/SD1_7_gap_le_5m": [
+          "<1|long",
+          "[1,5)|long",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          "1-10|long",
+          "11-50|long",
+          "51-200|long",
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/SD1_7_gap_le_5m": [
+          "51-200|long",
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          "51-200|long",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P7_city/PD7_primary": [
+          "DTW|long",
+          "MIA|long",
+          "PIT|long",
+          "WDC|long"
+         ],
+         "P7_city/SD1_7_gap_le_5m": [
+          "MIA|long",
+          "PIT|long"
+         ],
+         "P7_city/PD_inpath": [
+          "MIA|long",
+          "PIT|long"
+         ]
+        },
+        "n_flagged": 77,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.07916304356661555,
+          "ub": 0.0861203601154558,
+          "holds": false
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.05734378057042257,
+          "ub": 0.06785192946080647,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.1130105975537104,
+          "ub": 0.13880081300584868,
+          "holds": false
+         }
+        },
+        "evaluable_partition_cells": 155
+       },
+       "endpoints": {
+        "infeasible_rate": 0.14038507763662028,
+        "progress_ratio": 0.9762038174274624,
+        "mean_backoff_level": 0.9206924783222424,
+        "V2_exec": 0.6897561483136075
+       }
+      },
+      {
+       "point": "B0a0.333",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          "<2|long",
+          "[2,5.5)|long",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          "<2|long"
+         ],
+         "P2_track_length/PD_inpath": [
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "3-5|long",
+          "6-10|long",
+          ">10|long"
+         ],
+         "P3_track_age/SD1_7_gap_le_5m": [
+          "1-2|long",
+          "3-5|long",
+          "6-10|long"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long",
+          "3-5|long"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.7,0.85)|long"
+         ],
+         "P4_detection_score/SD1_7_gap_le_5m": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.7,0.85)|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat"
+         ],
+         "P5_ego_speed/PD7_primary": [
+          "<1|long",
+          "[1,5)|long",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P5_ego_speed/SD1_7_gap_le_5m": [
+          "<1|long",
+          "[1,5)|long",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          "1-10|long",
+          "11-50|long",
+          "51-200|long",
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/SD1_7_gap_le_5m": [
+          "51-200|long",
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          "51-200|long",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P7_city/PD7_primary": [
+          "DTW|long",
+          "MIA|long",
+          "PIT|long"
+         ],
+         "P7_city/SD1_7_gap_le_5m": [
+          "MIA|long",
+          "PIT|long"
+         ],
+         "P7_city/PD_inpath": [
+          "MIA|long",
+          "PIT|long"
+         ]
+        },
+        "n_flagged": 70,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.06971745527833574,
+          "ub": 0.07626671401750244,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.04983266639104267,
+          "ub": 0.05989873455627385,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.09849084758455019,
+          "ub": 0.12205990109137156,
+          "holds": false
+         }
+        },
+        "evaluable_partition_cells": 155
+       },
+       "endpoints": {
+        "infeasible_rate": 0.16946577939100624,
+        "progress_ratio": 0.973238422522818,
+        "mean_backoff_level": 0.9059439403105465,
+        "V2_exec": 0.6549994389451376
+       }
+      },
+      {
+       "point": "B0a0.5",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          "[3,8)|lat"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          "<2|long",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          "<2|long"
+         ],
+         "P2_track_length/PD_inpath": [
+          "[2,5.5)|lat",
+          "[5.5,8)|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "3-5|long"
+         ],
+         "P3_track_age/SD1_7_gap_le_5m": [
+          "1-2|long",
+          "3-5|long"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long"
+         ],
+         "P4_detection_score/SD1_7_gap_le_5m": [
+          "[0.4,0.5)|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat"
+         ],
+         "P5_ego_speed/PD7_primary": [
+          "<1|long",
+          "[1,5)|long",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "[1,5)|lat"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          "1-10|long",
+          "11-50|long",
+          "51-200|long",
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/SD1_7_gap_le_5m": [
+          "51-200|long"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          "51-200|long",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P7_city/PD7_primary": [
+          "MIA|long",
+          "PIT|long"
+         ]
+        },
+        "n_flagged": 43,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.05506433209619603,
+          "ub": 0.060708225854426874,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.03976415942213292,
+          "ub": 0.0486935272962091,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.08133790297793034,
+          "ub": 0.10326701370178945,
+          "holds": false
+         }
+        },
+        "evaluable_partition_cells": 154
+       },
+       "endpoints": {
+        "infeasible_rate": 0.232277475297439,
+        "progress_ratio": 0.9695159384268913,
+        "mean_backoff_level": 0.8743147005444647,
+        "V2_exec": 0.6000126870767645
+       }
+      },
+      {
+       "point": "B0d0.1",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[0.5,3)|long",
+          "[3,8)|lat"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          "<2|long",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          "<2|long"
+         ],
+         "P2_track_length/PD_inpath": [
+          "[2,5.5)|lat"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "3-5|long"
+         ],
+         "P3_track_age/SD1_7_gap_le_5m": [
+          "3-5|long"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.5,0.7)|lat"
+         ],
+         "P5_ego_speed/PD7_primary": [
+          "<1|long",
+          "[1,5)|long"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "[1,5)|lat"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          "1-10|long",
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/SD1_7_gap_le_5m": [
+          "51-200|long"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          "51-200|long",
+          ">200|lat"
+         ],
+         "P7_city/PD7_primary": [
+          "MIA|long"
+         ]
+        },
+        "n_flagged": 30,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.048633182320598725,
+          "ub": 0.053863709322137326,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.03399043770628373,
+          "ub": 0.04217009838374371,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.07223659456997707,
+          "ub": 0.0930773314143271,
+          "holds": false
+         }
+        },
+        "evaluable_partition_cells": 154
+       },
+       "endpoints": {
+        "infeasible_rate": 0.27138697318007665,
+        "progress_ratio": 0.966469232928936,
+        "mean_backoff_level": 0.8544102440008067,
+        "V2_exec": 0.5726018841090347
+       }
+      },
+      {
+       "point": "B0a1",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[3,8)|lat"
+         ],
+         "P2_track_length/PD7_primary": [
+          "<2|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.5,0.7)|lat"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "[1,5)|lat"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          ">200|lat"
+         ]
+        },
+        "n_flagged": 11,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.033710508657954934,
+          "ub": 0.037646980845472536,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.02582399603281733,
+          "ub": 0.03314327696935472,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.050161283921014994,
+          "ub": 0.06657983562699793,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.3710796531558782,
+        "progress_ratio": 0.9608754744063925,
+        "mean_backoff_level": 0.7948582375478928,
+        "V2_exec": 0.5152846616787573
+       }
+      },
+      {
+       "point": "B0d0.05",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[3,8)|lat"
+         ],
+         "P2_track_length/PD7_primary": [
+          "<2|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.5,0.7)|lat"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "[1,5)|lat"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          ">200|lat"
+         ]
+        },
+        "n_flagged": 11,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.033710508657954934,
+          "ub": 0.037646980845472536,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.02582399603281733,
+          "ub": 0.03314327696935472,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.050161283921014994,
+          "ub": 0.06657983562699793,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.3710796531558782,
+        "progress_ratio": 0.9608754744063925,
+        "mean_backoff_level": 0.7948582375478928,
+        "V2_exec": 0.5152846616787573
+       }
+      },
+      {
+       "point": "B0d0.02",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD_inpath": [
+          "[3,8)|lat"
+         ]
+        },
+        "n_flagged": 1,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.02291200549582821,
+          "ub": 0.025900072024616222,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.019847800744155236,
+          "ub": 0.026426709925243794,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.03592554671812397,
+          "ub": 0.04923763601144321,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.46820826779592656,
+        "progress_ratio": 0.9572065746874273,
+        "mean_backoff_level": 0.7313109901189755,
+        "V2_exec": 0.4761184465584829
+       }
+      },
+      {
+       "point": "B0a2",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD_inpath": [
+          "[3,8)|lat"
+         ]
+        },
+        "n_flagged": 1,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.018498413283254446,
+          "ub": 0.021244646071606536,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.015854649225518772,
+          "ub": 0.02130899966233261,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.028656591009246536,
+          "ub": 0.04067257404032677,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.524955192579149,
+        "progress_ratio": 0.9544171004863872,
+        "mean_backoff_level": 0.6899824158096393,
+        "V2_exec": 0.46085942463979973
+       }
+      },
+      {
+       "point": "B0d0.01",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD_inpath": [
+          "[3,8)|lat"
+         ]
+        },
+        "n_flagged": 1,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.018497554323052414,
+          "ub": 0.021244646168215163,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.01585471904385495,
+          "ub": 0.02130913895364689,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.028656591009246536,
+          "ub": 0.04067257404032677,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.524955192579149,
+        "progress_ratio": 0.9544045323172516,
+        "mean_backoff_level": 0.6899601935874169,
+        "V2_exec": 0.46077053575091087
+       }
+      },
+      {
+       "point": "B0d0.005",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.015410595759229378,
+          "ub": 0.017831703048802397,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.013834598770872874,
+          "ub": 0.019085360973244203,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.023943126290131057,
+          "ub": 0.03462319977831527,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.5701033272837265,
+        "progress_ratio": 0.9518610368397444,
+        "mean_backoff_level": 0.6552022585198629,
+        "V2_exec": 0.4484245927669158
+       }
+      },
+      {
+       "point": "B0a3",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.012971124900409506,
+          "ub": 0.01513799698940156,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0122917473699748,
+          "ub": 0.017237283621602054,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.021028570795628504,
+          "ub": 0.031226369193072256,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 152
+       },
+       "endpoints": {
+        "infeasible_rate": 0.606110909457552,
+        "progress_ratio": 0.951910851279602,
+        "mean_backoff_level": 0.6219302278685218,
+        "V2_exec": 0.44575330579617334
+       }
+      },
+      {
+       "point": "B0d0.001",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.011214494656125512,
+          "ub": 0.013185170162911911,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.012795789658829788,
+          "ub": 0.018526093352644084,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.01720234144647011,
+          "ub": 0.025779579659107904,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 151
+       },
+       "endpoints": {
+        "infeasible_rate": 0.6374573906029442,
+        "progress_ratio": 0.9514618171039461,
+        "mean_backoff_level": 0.5935934260939706,
+        "V2_exec": 0.4429049830441119
+       }
+      },
+      {
+       "point": "B0a4",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.0101319729301083,
+          "ub": 0.012011867917794477,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.011756468935031532,
+          "ub": 0.016994734262664728,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.0157470460284963,
+          "ub": 0.024032177850717963,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 150
+       },
+       "endpoints": {
+        "infeasible_rate": 0.6603407138535994,
+        "progress_ratio": 0.9506729745424112,
+        "mean_backoff_level": 0.5700619479733817,
+        "V2_exec": 0.44904588369932597
+       }
+      },
+      {
+       "point": "B0a5",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.008374166804426113,
+          "ub": 0.010061788412241344,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.010238374153987722,
+          "ub": 0.0153659864055497,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.013215983564640772,
+          "ub": 0.02023423073019564,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 149
+       },
+       "endpoints": {
+        "infeasible_rate": 0.7010189151038515,
+        "progress_ratio": 0.9495392892991248,
+        "mean_backoff_level": 0.5306656583988708,
+        "V2_exec": 0.45287419176194743
+       }
+      },
+      {
+       "point": "B0a8",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.005668486601874435,
+          "ub": 0.007020135708474729,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.00812792296767393,
+          "ub": 0.01231186735105528,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.009183316091554745,
+          "ub": 0.014790796918937749,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 146
+       },
+       "endpoints": {
+        "infeasible_rate": 0.780954708610607,
+        "progress_ratio": 0.9495197629291583,
+        "mean_backoff_level": 0.44445105868118573,
+        "V2_exec": 0.4686236099089458
+       }
+      }
+     ],
+     "choice_by_fold": {
+      "0": "B0d0.005",
+      "1": "B0a2",
+      "2": "B0a2",
+      "3": "B0d0.005",
+      "4": "B0a3"
+     },
+     "in_sample_best_point": "B0d0.005",
+     "result": "matched",
+     "composite_neutral": {
+      "passes": true,
+      "flagged": {},
+      "n_flagged": 0,
+      "hk1c": {
+       "PD7_primary": {
+        "evaluable": true,
+        "E": 0.016260978096399717,
+        "ub": 0.018822434972703625,
+        "holds": true
+       },
+       "SD1_7_gap_le_5m": {
+        "evaluable": true,
+        "E": 0.013968703892735761,
+        "ub": 0.01915149304992413,
+        "holds": true
+       },
+       "PD_inpath": {
+        "evaluable": true,
+        "E": 0.02496487361496322,
+        "ub": 0.03612239681408721,
+        "holds": true
+       }
+      },
+      "evaluable_partition_cells": 153
+     },
+     "composite_registered": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|new",
+         "car|lat|turning"
+        ],
+        "family_flagged": [
+         "car|long|new",
+         "car|lat|turning"
+        ],
+        "family_size": 19,
+        "evaluable": 25
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 9,
+        "evaluable": 15
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "composite_registered_class": "flagged",
+     "composite_endpoints": {
+      "infeasible_rate": 0.5624104859850776,
+      "progress_ratio": 0.9522278735579771,
+      "mean_backoff_level": 0.6615422464206494,
+      "V2_exec": 0.453836518814474
+     },
+     "Mstar_minus_composite": {
+      "infeasible_rate": {
+       "mean_diff": -0.3020973583383747,
+       "ci95": [
+        -0.32956135107884654,
+        -0.27532751764468655
+       ]
+      },
+      "progress_ratio": {
+       "mean_diff": 0.01351974879632993,
+       "ci95": [
+        0.010236697643506076,
+        0.016825937989314862
+       ]
+      },
+      "V2_exec": {
+       "mean_diff": -0.005826692977654865,
+       "ci95": [
+        -0.024977541068507796,
+        0.01357186182089965
+       ]
+      }
+     }
+    }
+   }
+  },
+  "t3": {
+   "tracker": "t3",
+   "seeds": {
+    "bootstrap": [
+     20261201,
+     1,
+     11
+    ],
+    "power": [
+     20261202,
+     1,
+     11
+    ]
+   },
+   "B": 4000,
+   "families": {
+    "Mstar": {
+     "grid_order": [
+      "Mstar@0.05",
+      "Mstar@0.04",
+      "Mstar@0.03",
+      "Mstar@0.02",
+      "Mstar@0.015",
+      "Mstar@0.01",
+      "Mstar@0.005"
+     ],
+     "curve": [
+      {
+       "point": "Mstar@0.05",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P3_track_age/PD7_primary": [
+          "1-2|lat"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.4,0.5)|lat"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          "1-10|lat",
+          "11-50|lat"
+         ]
+        },
+        "n_flagged": 5,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.04295600831997782,
+          "ub": 0.047028156385077124,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.03239819091422257,
+          "ub": 0.04122093608119324,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.040455847744691874,
+          "ub": 0.051510077958309065,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.2466319822544868,
+        "progress_ratio": 0.9731286934601263,
+        "mean_backoff_level": 0.858453922161726,
+        "V2_exec": 0.5804903793918433
+       }
+      },
+      {
+       "point": "Mstar@0.04",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.4,0.5)|lat"
+         ]
+        },
+        "n_flagged": 2,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.03416800693820644,
+          "ub": 0.03773740599724097,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.02519271067064536,
+          "ub": 0.0330467846181715,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.02979033562736584,
+          "ub": 0.03992781356818479,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.2947847549909256,
+        "progress_ratio": 0.9707634061833368,
+        "mean_backoff_level": 0.8255537810042348,
+        "V2_exec": 0.5429493607237468
+       }
+      },
+      {
+       "point": "Mstar@0.03",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.025382789789964402,
+          "ub": 0.028287226302163605,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.017255272513845753,
+          "ub": 0.023788881086826297,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.023145050838792702,
+          "ub": 0.03194830775242369,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.35052583182093167,
+        "progress_ratio": 0.9662849982350963,
+        "mean_backoff_level": 0.7842964710627142,
+        "V2_exec": 0.5043598840947541
+       }
+      },
+      {
+       "point": "Mstar@0.02",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.015840289371900275,
+          "ub": 0.017886277281727887,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.009978448965643393,
+          "ub": 0.013957396266068154,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.012652921989491406,
+          "ub": 0.018622409361169222,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.4429436579955636,
+        "progress_ratio": 0.963111330375839,
+        "mean_backoff_level": 0.720762855414398,
+        "V2_exec": 0.4665422524037768
+       }
+      },
+      {
+       "point": "Mstar@0.015",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.01187188677768897,
+          "ub": 0.013700686343022555,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.007988146447571608,
+          "ub": 0.011442459157171335,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.010972087152631578,
+          "ub": 0.01586081495814637,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 152
+       },
+       "endpoints": {
+        "infeasible_rate": 0.5187607178866708,
+        "progress_ratio": 0.9601390152266485,
+        "mean_backoff_level": 0.673021536600121,
+        "V2_exec": 0.4537897299442732
+       }
+      },
+      {
+       "point": "Mstar@0.01",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.006940291460513572,
+          "ub": 0.008238879932377857,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.004257365901765605,
+          "ub": 0.006191758310471312,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.0048263972920776785,
+          "ub": 0.0070963302633377835,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 150
+       },
+       "endpoints": {
+        "infeasible_rate": 0.6148429925388184,
+        "progress_ratio": 0.958216256418301,
+        "mean_backoff_level": 0.5802077031659608,
+        "V2_exec": 0.46106929324982554
+       }
+      },
+      {
+       "point": "Mstar@0.005",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.0023010811971666727,
+          "ub": 0.003015278008830471,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0018345682628993147,
+          "ub": 0.0032413657726811755,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.0004145476560233695,
+          "ub": 0.0007785012740191063,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 136
+       },
+       "endpoints": {
+        "infeasible_rate": 0.8812607380520266,
+        "progress_ratio": 0.9674057769843127,
+        "mean_backoff_level": 0.2901884654164146,
+        "V2_exec": 0.5826387762706698
+       }
+      }
+     ],
+     "choice_by_fold": {
+      "0": "Mstar@0.03",
+      "1": "Mstar@0.03",
+      "2": "Mstar@0.03",
+      "3": "Mstar@0.03",
+      "4": "Mstar@0.03"
+     },
+     "in_sample_best_point": "Mstar@0.03",
+     "result": "matched",
+     "composite_neutral": {
+      "passes": true,
+      "flagged": {},
+      "n_flagged": 0,
+      "hk1c": {
+       "PD7_primary": {
+        "evaluable": true,
+        "E": 0.025382789789964402,
+        "ub": 0.028287226302163605,
+        "holds": true
+       },
+       "SD1_7_gap_le_5m": {
+        "evaluable": true,
+        "E": 0.017255272513845753,
+        "ub": 0.023788881086826297,
+        "holds": true
+       },
+       "PD_inpath": {
+        "evaluable": true,
+        "E": 0.023145050838792702,
+        "ub": 0.03194830775242369,
+        "holds": true
+       }
+      },
+      "evaluable_partition_cells": 153
+     },
+     "composite_registered": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 7,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "composite_registered_class": "Valid",
+     "composite_endpoints": {
+      "infeasible_rate": 0.35052583182093167,
+      "progress_ratio": 0.9662849982350963,
+      "mean_backoff_level": 0.7842964710627142,
+      "V2_exec": 0.5043598840947541
+     }
+    },
+    "B4": {
+     "grid_order": [
+      "B4@0.05",
+      "B4@0.04",
+      "B4@0.03",
+      "B4@0.02",
+      "B4@0.015",
+      "B4@0.01",
+      "B4@0.005"
+     ],
+     "curve": [
+      {
+       "point": "B4@0.05",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          "[2,5.5)|long",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          "[2,5.5)|long",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/PD_inpath": [
+          "[2,5.5)|long",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "3-5|long",
+          "6-10|long",
+          ">10|long"
+         ],
+         "P3_track_age/SD1_7_gap_le_5m": [
+          "1-2|long",
+          "3-5|long",
+          "6-10|long"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long",
+          "3-5|long",
+          "6-10|long",
+          ">10|long"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.7,0.85)|long"
+         ],
+         "P4_detection_score/SD1_7_gap_le_5m": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.7,0.85)|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.7,0.85)|long"
+         ],
+         "P5_ego_speed/PD7_primary": [
+          "<1|long",
+          "[1,5)|long",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P5_ego_speed/SD1_7_gap_le_5m": [
+          "<1|long",
+          "[1,5)|long",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "[1,5)|long",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          "1-10|long",
+          "51-200|long",
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/SD1_7_gap_le_5m": [
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          "51-200|long",
+          ">200|long"
+         ],
+         "P7_city/PD7_primary": [
+          "DTW|long",
+          "MIA|long",
+          "PIT|long",
+          "WDC|long"
+         ],
+         "P7_city/SD1_7_gap_le_5m": [
+          "MIA|long",
+          "PIT|long"
+         ],
+         "P7_city/PD_inpath": [
+          "MIA|long",
+          "PIT|long"
+         ]
+        },
+        "n_flagged": 62,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.06081005521149861,
+          "ub": 0.06722862599571659,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.043705598660995035,
+          "ub": 0.05191278643234657,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.11219694504338794,
+          "ub": 0.1350331016442926,
+          "holds": false
+         }
+        },
+        "evaluable_partition_cells": 154
+       },
+       "endpoints": {
+        "infeasible_rate": 0.315185642266586,
+        "progress_ratio": 0.9694118039241846,
+        "mean_backoff_level": 0.8018122202056865,
+        "V2_exec": 0.6425127652366007
+       }
+      },
+      {
+       "point": "B4@0.04",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          "[2,5.5)|long",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          "[2,5.5)|long",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/PD_inpath": [
+          "[2,5.5)|long",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "3-5|long"
+         ],
+         "P3_track_age/SD1_7_gap_le_5m": [
+          "1-2|long",
+          "3-5|long"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long",
+          "3-5|long"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long"
+         ],
+         "P4_detection_score/SD1_7_gap_le_5m": [
+          "[0.5,0.7)|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.7,0.85)|long"
+         ],
+         "P5_ego_speed/PD7_primary": [
+          "<1|long",
+          "[1,5)|long"
+         ],
+         "P5_ego_speed/SD1_7_gap_le_5m": [
+          "[1,5)|long"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "[1,5)|long",
+          "[5,10)|long"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/SD1_7_gap_le_5m": [
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          ">200|long"
+         ],
+         "P7_city/PD7_primary": [
+          "MIA|long"
+         ],
+         "P7_city/SD1_7_gap_le_5m": [
+          "MIA|long"
+         ],
+         "P7_city/PD_inpath": [
+          "MIA|long",
+          "PIT|long"
+         ]
+        },
+        "n_flagged": 40,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.048682812400834365,
+          "ub": 0.05456892049478121,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.030478743051091363,
+          "ub": 0.03643274441880123,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.08079820717078032,
+          "ub": 0.09928850619871449,
+          "holds": false
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.38235111917725345,
+        "progress_ratio": 0.9659864003884225,
+        "mean_backoff_level": 0.7565589030046379,
+        "V2_exec": 0.5994703482500336
+       }
+      },
+      {
+       "point": "B4@0.03",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long"
+         ],
+         "P3_track_age/SD1_7_gap_le_5m": [
+          "1-2|long",
+          "3-5|long"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long",
+          "3-5|long"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long"
+         ],
+         "P4_detection_score/SD1_7_gap_le_5m": [
+          "[0.5,0.7)|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.5,0.7)|long"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          ">200|long"
+         ]
+        },
+        "n_flagged": 21,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.03655295675607264,
+          "ub": 0.04153111364306283,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.023172582661132094,
+          "ub": 0.028557850215103646,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.05923239298809788,
+          "ub": 0.07529464488519527,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 154
+       },
+       "endpoints": {
+        "infeasible_rate": 0.4678948175035289,
+        "progress_ratio": 0.9641843869800734,
+        "mean_backoff_level": 0.6950424682395645,
+        "V2_exec": 0.5626750994984268
+       }
+      },
+      {
+       "point": "B4@0.02",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          ">=8|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          ">=8|long"
+         ]
+        },
+        "n_flagged": 4,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.02345082718703801,
+          "ub": 0.027209721363421643,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.014446728007645343,
+          "ub": 0.0185568081169298,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.035840821554787544,
+          "ub": 0.047324243178298225,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 152
+       },
+       "endpoints": {
+        "infeasible_rate": 0.5659171607178867,
+        "progress_ratio": 0.961417345239148,
+        "mean_backoff_level": 0.610740108892922,
+        "V2_exec": 0.5252235456161772
+       }
+      },
+      {
+       "point": "B4@0.015",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[3,8)|long"
+         ]
+        },
+        "n_flagged": 1,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.01666091345693753,
+          "ub": 0.01946764855588855,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.010900626562320643,
+          "ub": 0.014584722159440278,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.023069733841930992,
+          "ub": 0.03126075168091867,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 152
+       },
+       "endpoints": {
+        "infeasible_rate": 0.6331105464811454,
+        "progress_ratio": 0.9607515038293306,
+        "mean_backoff_level": 0.5535812462189957,
+        "V2_exec": 0.5164106127091971
+       }
+      },
+      {
+       "point": "B4@0.01",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.009354503592123928,
+          "ub": 0.011040723427279842,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.004689201187182216,
+          "ub": 0.007310435357356584,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.011743255881827274,
+          "ub": 0.016976472299271593,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 150
+       },
+       "endpoints": {
+        "infeasible_rate": 0.7205838273845533,
+        "progress_ratio": 0.9614595265008042,
+        "mean_backoff_level": 0.471121274450494,
+        "V2_exec": 0.5152272901282581
+       }
+      },
+      {
+       "point": "B4@0.005",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.0022035835494304333,
+          "ub": 0.00293542700040135,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0018309219134914664,
+          "ub": 0.0036492419757346442,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.001302342406660516,
+          "ub": 0.0023158946450174724,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 141
+       },
+       "endpoints": {
+        "infeasible_rate": 0.8646923976608186,
+        "progress_ratio": 0.9684301209096257,
+        "mean_backoff_level": 0.29092667876588024,
+        "V2_exec": 0.5891760144589787
+       }
+      }
+     ],
+     "choice_by_fold": {
+      "0": "B4@0.01",
+      "1": "B4@0.01",
+      "2": "B4@0.015",
+      "3": "B4@0.01",
+      "4": "B4@0.01"
+     },
+     "in_sample_best_point": "B4@0.01",
+     "result": "matched",
+     "composite_neutral": {
+      "passes": true,
+      "flagged": {},
+      "n_flagged": 0,
+      "hk1c": {
+       "PD7_primary": {
+        "evaluable": true,
+        "E": 0.01156739483837458,
+        "ub": 0.014079195374882619,
+        "holds": true
+       },
+       "SD1_7_gap_le_5m": {
+        "evaluable": true,
+        "E": 0.006263973354436453,
+        "ub": 0.009377956156721049,
+        "holds": true
+       },
+       "PD_inpath": {
+        "evaluable": true,
+        "E": 0.015866916185636928,
+        "ub": 0.02277856538023444,
+        "holds": true
+       }
+      },
+      "evaluable_partition_cells": 151
+     },
+     "composite_registered": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|new"
+        ],
+        "family_flagged": [
+         "car|long|new"
+        ],
+        "family_size": 19,
+        "evaluable": 25
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": false,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 4,
+        "evaluable": 8
+       }
+      }
+     },
+     "composite_registered_class": "flagged",
+     "composite_endpoints": {
+      "infeasible_rate": 0.7009768098406937,
+      "progress_ratio": 0.9618206335755632,
+      "mean_backoff_level": 0.48780548497680987,
+      "V2_exec": 0.5172275966416681
+     },
+     "Mstar_minus_composite": {
+      "infeasible_rate": {
+       "mean_diff": -0.35045097801976205,
+       "ci95": [
+        -0.3739104456543658,
+        -0.3284254406130269
+       ]
+      },
+      "progress_ratio": {
+       "mean_diff": 0.004464364659533048,
+       "ci95": [
+        0.0017449567030278902,
+        0.00708827353259569
+       ]
+      },
+      "V2_exec": {
+       "mean_diff": -0.012867712546913997,
+       "ci95": [
+        -0.033180014547863915,
+        0.0067308774177806206
+       ]
+      }
+     }
+    },
+    "B6": {
+     "grid_order": [
+      "B6@0.05",
+      "B6@0.04",
+      "B6@0.03",
+      "B6@0.02",
+      "B6@0.015",
+      "B6@0.01",
+      "B6@0.005"
+     ],
+     "curve": [
+      {
+       "point": "B6@0.05",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          ">=8|long"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[3,8)|lat"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "1-2|lat"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.4,0.5)|lat",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat"
+         ],
+         "P5_ego_speed/PD7_primary": [
+          "<1|lat"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          "1-10|lat",
+          "11-50|lat"
+         ]
+        },
+        "n_flagged": 16,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.04899733179233997,
+          "ub": 0.053481207280535445,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.03612058525397221,
+          "ub": 0.04566644888066554,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.04369201051578729,
+          "ub": 0.05583612518082173,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.22861286549707605,
+        "progress_ratio": 0.9734075427879164,
+        "mean_backoff_level": 0.8657251461988305,
+        "V2_exec": 0.5968916834132684
+       }
+      },
+      {
+       "point": "B6@0.04",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "1-2|lat"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|lat"
+         ]
+        },
+        "n_flagged": 6,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.03857772669588862,
+          "ub": 0.042297820802139036,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.029439316171565505,
+          "ub": 0.038416115931314436,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.033108713092524694,
+          "ub": 0.043176794453983855,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.2626900584795322,
+        "progress_ratio": 0.9687577091492451,
+        "mean_backoff_level": 0.8419251461988304,
+        "V2_exec": 0.5487861126241284
+       }
+      },
+      {
+       "point": "B6@0.03",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[3,8)|long"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|lat"
+         ]
+        },
+        "n_flagged": 2,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.02854493645084077,
+          "ub": 0.031600320872816036,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.021047017067050516,
+          "ub": 0.028961467300477318,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.024679409061227633,
+          "ub": 0.03323685318710509,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.3215390199637024,
+        "progress_ratio": 0.9656706307427008,
+        "mean_backoff_level": 0.8057520871143375,
+        "V2_exec": 0.4983579318273087
+       }
+      },
+      {
+       "point": "B6@0.02",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.01807963810202578,
+          "ub": 0.020278317304898784,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.014623386915859717,
+          "ub": 0.021238927477860034,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.013670425287895069,
+          "ub": 0.018906630553144385,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 152
+       },
+       "endpoints": {
+        "infeasible_rate": 0.4295714458560194,
+        "progress_ratio": 0.9615001518815381,
+        "mean_backoff_level": 0.742970518249647,
+        "V2_exec": 0.4499262997753741
+       }
+      },
+      {
+       "point": "B6@0.015",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.013319807252888137,
+          "ub": 0.01522824907811026,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.010996902108229553,
+          "ub": 0.016200554453304983,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.0108035391946152,
+          "ub": 0.015060951257878492,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 151
+       },
+       "endpoints": {
+        "infeasible_rate": 0.48622464206493243,
+        "progress_ratio": 0.9591137531091832,
+        "mean_backoff_level": 0.7026708207299859,
+        "V2_exec": 0.4307231835951013
+       }
+      },
+      {
+       "point": "B6@0.01",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.007875375499036195,
+          "ub": 0.009314488265455374,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0056330936814065,
+          "ub": 0.008140632419173123,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.0047352041333028885,
+          "ub": 0.007190324435152051,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 150
+       },
+       "endpoints": {
+        "infeasible_rate": 0.6245849566444848,
+        "progress_ratio": 0.9556095302394827,
+        "mean_backoff_level": 0.5966435168380722,
+        "V2_exec": 0.44057398662192365
+       }
+      },
+      {
+       "point": "B6@0.005",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.0023515986912984684,
+          "ub": 0.003093696085683314,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0017976298174081846,
+          "ub": 0.003114096078874983,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.00041479224413510784,
+          "ub": 0.0007823180060916519,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 134
+       },
+       "endpoints": {
+        "infeasible_rate": 0.875875297439,
+        "progress_ratio": 0.9640468278252434,
+        "mean_backoff_level": 0.31099427303891913,
+        "V2_exec": 0.5471776259491442
+       }
+      }
+     ],
+     "choice_by_fold": {
+      "0": "B6@0.02",
+      "1": "B6@0.02",
+      "2": "B6@0.02",
+      "3": "B6@0.02",
+      "4": "B6@0.02"
+     },
+     "in_sample_best_point": "B6@0.02",
+     "result": "matched",
+     "composite_neutral": {
+      "passes": true,
+      "flagged": {},
+      "n_flagged": 0,
+      "hk1c": {
+       "PD7_primary": {
+        "evaluable": true,
+        "E": 0.01807963810202578,
+        "ub": 0.020278317304898784,
+        "holds": true
+       },
+       "SD1_7_gap_le_5m": {
+        "evaluable": true,
+        "E": 0.014623386915859717,
+        "ub": 0.021238927477860034,
+        "holds": true
+       },
+       "PD_inpath": {
+        "evaluable": true,
+        "E": 0.013670425287895069,
+        "ub": 0.018906630553144385,
+        "holds": true
+       }
+      },
+      "evaluable_partition_cells": 152
+     },
+     "composite_registered": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|new"
+        ],
+        "family_flagged": [
+         "car|long|new"
+        ],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 7,
+        "evaluable": 17
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "composite_registered_class": "flagged",
+     "composite_endpoints": {
+      "infeasible_rate": 0.4295714458560194,
+      "progress_ratio": 0.9615001518815381,
+      "mean_backoff_level": 0.742970518249647,
+      "V2_exec": 0.4499262997753741
+     },
+     "Mstar_minus_composite": {
+      "infeasible_rate": {
+       "mean_diff": -0.07904561403508772,
+       "ci95": [
+        -0.09213590643274853,
+        -0.06689111111111112
+       ]
+      },
+      "progress_ratio": {
+       "mean_diff": 0.00478484635355806,
+       "ci95": [
+        0.0026098617143600735,
+        0.007126971418349081
+       ]
+      },
+      "V2_exec": {
+       "mean_diff": 0.05443358431937984,
+       "ci95": [
+        0.04333541889784388,
+        0.06566502014331932
+       ]
+      }
+     }
+    },
+    "B9": {
+     "grid_order": [
+      "B9@0.05",
+      "B9@0.04",
+      "B9@0.03",
+      "B9@0.02",
+      "B9@0.015",
+      "B9@0.01",
+      "B9@0.005"
+     ],
+     "curve": [
+      {
+       "point": "B9@0.05",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[3,8)|long"
+         ]
+        },
+        "n_flagged": 1,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.013743258079723413,
+          "ub": 0.016144784298975475,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.00484131980115978,
+          "ub": 0.007416122678980007,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.015947897586433613,
+          "ub": 0.02247142928803815,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 153
+       },
+       "endpoints": {
+        "infeasible_rate": 0.6629360758217382,
+        "progress_ratio": 0.9587499422566087,
+        "mean_backoff_level": 0.533814841701956,
+        "V2_exec": 0.5230074488313327
+       }
+      },
+      {
+       "point": "B9@0.04",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.010827211784797789,
+          "ub": 0.01288485753026979,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.00407333027551334,
+          "ub": 0.00648866113596591,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.011924097647893999,
+          "ub": 0.01767480970380933,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 150
+       },
+       "endpoints": {
+        "infeasible_rate": 0.7073421254285137,
+        "progress_ratio": 0.957939045282881,
+        "mean_backoff_level": 0.4929324460576729,
+        "V2_exec": 0.5241904471612276
+       }
+      },
+      {
+       "point": "B9@0.03",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.007802644981713865,
+          "ub": 0.009477665584006716,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.002383207459583209,
+          "ub": 0.004186886269739795,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.008404208249383373,
+          "ub": 0.013078750827888294,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 148
+       },
+       "endpoints": {
+        "infeasible_rate": 0.7530682798951402,
+        "progress_ratio": 0.9575658091615771,
+        "mean_backoff_level": 0.4447468844525106,
+        "V2_exec": 0.529518752254445
+       }
+      },
+      {
+       "point": "B9@0.02",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.004930511605516079,
+          "ub": 0.006184600170791038,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0021468028437380696,
+          "ub": 0.003967626821516186,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.0039008174344581925,
+          "ub": 0.006593983591695014,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 148
+       },
+       "endpoints": {
+        "infeasible_rate": 0.8174315789473685,
+        "progress_ratio": 0.9601769503374983,
+        "mean_backoff_level": 0.3792018148820327,
+        "V2_exec": 0.542937489002002
+       }
+      },
+      {
+       "point": "B9@0.015",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.00353039044337048,
+          "ub": 0.004522408171790442,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0016147877661856472,
+          "ub": 0.003162753859214073,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.003579754116443847,
+          "ub": 0.006464035019422667,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 146
+       },
+       "endpoints": {
+        "infeasible_rate": 0.8573286549707603,
+        "progress_ratio": 0.9605279949408887,
+        "mean_backoff_level": 0.33482331115144187,
+        "V2_exec": 0.5536006437549814
+       }
+      },
+      {
+       "point": "B9@0.01",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.0020862457257254667,
+          "ub": 0.002810918886512871,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.001238012205754141,
+          "ub": 0.002476024411508282,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.0009199304283872551,
+          "ub": 0.0017398509825776443,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 138
+       },
+       "endpoints": {
+        "infeasible_rate": 0.9068771929824561,
+        "progress_ratio": 0.9661996846574568,
+        "mean_backoff_level": 0.2706919540229885,
+        "V2_exec": 0.5748956324695224
+       }
+      },
+      {
+       "point": "B9@0.005",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.0004233535352011401,
+          "ub": 0.0007041103825957682,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": false,
+          "ub": null,
+          "holds": false
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.0,
+          "ub": 0.0,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 85
+       },
+       "endpoints": {
+        "infeasible_rate": 0.9715040935672514,
+        "progress_ratio": 0.9771222251814656,
+        "mean_backoff_level": 0.12772413793103446,
+        "V2_exec": 0.7094451962207313
+       }
+      }
+     ],
+     "choice_by_fold": {
+      "0": "B9@0.05",
+      "1": "B9@0.04",
+      "2": "B9@0.05",
+      "3": "B9@0.04",
+      "4": "B9@0.04"
+     },
+     "in_sample_best_point": "B9@0.04",
+     "result": "matched",
+     "composite_neutral": {
+      "passes": true,
+      "flagged": {},
+      "n_flagged": 0,
+      "hk1c": {
+       "PD7_primary": {
+        "evaluable": true,
+        "E": 0.012011086389893061,
+        "ub": 0.014274633005030558,
+        "holds": true
+       },
+       "SD1_7_gap_le_5m": {
+        "evaluable": true,
+        "E": 0.004146432873462615,
+        "ub": 0.006539077086393463,
+        "holds": true
+       },
+       "PD_inpath": {
+        "evaluable": true,
+        "E": 0.014030552919145359,
+        "ub": 0.02026409166388763,
+        "holds": true
+       }
+      },
+      "evaluable_partition_cells": 152
+     },
+     "composite_registered": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|new",
+         "large|long|new"
+        ],
+        "family_flagged": [
+         "car|long|new"
+        ],
+        "family_size": 19,
+        "evaluable": 26
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 6,
+        "evaluable": 17
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 4,
+        "evaluable": 8
+       }
+      }
+     },
+     "composite_registered_class": "flagged",
+     "composite_endpoints": {
+      "infeasible_rate": 0.691912885662432,
+      "progress_ratio": 0.9577826348278665,
+      "mean_backoff_level": 0.5093488203266787,
+      "V2_exec": 0.5256961427884478
+     },
+     "Mstar_minus_composite": {
+      "infeasible_rate": {
+       "mean_diff": -0.34138705384150037,
+       "ci95": [
+        -0.37126247630570675,
+        -0.3132196370235934
+       ]
+      },
+      "progress_ratio": {
+       "mean_diff": 0.008502363407229756,
+       "ci95": [
+        0.005625958485952741,
+        0.011317476617088299
+       ]
+      },
+      "V2_exec": {
+       "mean_diff": -0.021336258693693665,
+       "ci95": [
+        -0.04405689763459637,
+        0.0009379766648175574
+       ]
+      }
+     }
+    },
+    "B0": {
+     "grid_order": [
+      "B0d0.5",
+      "B0a0.03125",
+      "B0a0.0625",
+      "B0d0.3",
+      "B0a0.125",
+      "B0a0.25",
+      "B0d0.2",
+      "B0a0.333",
+      "B0a0.5",
+      "B0d0.1",
+      "B0a1",
+      "B0d0.05",
+      "B0d0.02",
+      "B0a2",
+      "B0d0.01",
+      "B0d0.005",
+      "B0a3",
+      "B0d0.001",
+      "B0a4",
+      "B0a5",
+      "B0a8"
+     ],
+     "curve": [
+      {
+       "point": "B0d0.5",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0,0.5)|long",
+          "[0,0.5)|lat",
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[0,0.5)|long",
+          "[0,0.5)|lat",
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[0,0.5)|long",
+          "[0,0.5)|lat",
+          "[0.5,3)|long",
+          "[0.5,3)|lat",
+          "[3,8)|long",
+          "[3,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P2_track_length/PD7_primary": [
+          "<2|long",
+          "<2|lat",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long",
+          "[5.5,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          "<2|long",
+          "<2|lat",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long",
+          "[5.5,8)|lat",
+          ">=8|long",
+          ">=8|lat"
+         ],
+         "P2_track_length/PD_inpath": [
+          "<2|long",
+          "<2|lat",
+          "[2,5.5)|long",
+          "[2,5.5)|lat",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "1-2|lat",
+          "3-5|long",
+          "3-5|lat",
+          "6-10|long",
+          "6-10|lat",
+          ">10|long",
+          ">10|lat"
+         ],
+         "P3_track_age/SD1_7_gap_le_5m": [
+          "1-2|long",
+          "1-2|lat",
+          "3-5|long",
+          "3-5|lat",
+          "6-10|long",
+          "6-10|lat",
+          ">10|long",
+          ">10|lat"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long",
+          "1-2|lat",
+          "3-5|long",
+          "3-5|lat",
+          "6-10|long",
+          "6-10|lat",
+          ">10|long",
+          ">10|lat"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.4,0.5)|lat",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat",
+          ">=0.85|long",
+          ">=0.85|lat"
+         ],
+         "P4_detection_score/SD1_7_gap_le_5m": [
+          "[0.4,0.5)|long",
+          "[0.4,0.5)|lat",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat",
+          ">=0.85|long",
+          ">=0.85|lat"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.5,0.7)|lat",
+          "[0.7,0.85)|long",
+          "[0.7,0.85)|lat",
+          ">=0.85|long"
+         ],
+         "P5_ego_speed/PD7_primary": [
+          "<1|long",
+          "<1|lat",
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          "[5,10)|lat",
+          ">=10|long",
+          ">=10|lat"
+         ],
+         "P5_ego_speed/SD1_7_gap_le_5m": [
+          "<1|long",
+          "<1|lat",
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          "[5,10)|lat",
+          ">=10|long",
+          ">=10|lat"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "<1|long",
+          "[1,5)|long",
+          "[1,5)|lat",
+          "[5,10)|long",
+          "[5,10)|lat",
+          ">=10|long",
+          ">=10|lat"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          "1-10|long",
+          "1-10|lat",
+          "11-50|long",
+          "11-50|lat",
+          "51-200|long",
+          "51-200|lat",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P6_gt_lidar_points/SD1_7_gap_le_5m": [
+          "1-10|lat",
+          "11-50|long",
+          "11-50|lat",
+          "51-200|long",
+          "51-200|lat",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          "11-50|long",
+          "51-200|long",
+          "51-200|lat",
+          ">200|long",
+          ">200|lat"
+         ],
+         "P7_city/PD7_primary": [
+          "DTW|long",
+          "DTW|lat",
+          "MIA|long",
+          "MIA|lat",
+          "PIT|long",
+          "PIT|lat",
+          "WDC|long",
+          "WDC|lat"
+         ],
+         "P7_city/SD1_7_gap_le_5m": [
+          "DTW|long",
+          "DTW|lat",
+          "MIA|long",
+          "MIA|lat",
+          "PIT|long",
+          "PIT|lat",
+          "WDC|long",
+          "WDC|lat"
+         ],
+         "P7_city/PD_inpath": [
+          "MIA|long",
+          "MIA|lat",
+          "PIT|long",
+          "PIT|lat"
+         ]
+        },
+        "n_flagged": 155,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.49740952054349635,
+          "ub": 0.5088792434298751,
+          "holds": false
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.46730645640175583,
+          "ub": 0.4916246457768442,
+          "holds": false
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.46822834640050953,
+          "ub": 0.5062740228158542,
+          "holds": false
+         }
+        },
+        "evaluable_partition_cells": 155
+       },
+       "endpoints": {
+        "infeasible_rate": 0.002381286549707602,
+        "progress_ratio": 0.9956342783447806,
+        "mean_backoff_level": 0.9976187134502925,
+        "V2_exec": 0.978478002349424
+       }
+      },
+      {
+       "point": "B0a0.03125",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          "[2,5.5)|long",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          "[2,5.5)|long",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/PD_inpath": [
+          "[2,5.5)|long",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "3-5|long",
+          "6-10|long",
+          ">10|long"
+         ],
+         "P3_track_age/SD1_7_gap_le_5m": [
+          "1-2|long",
+          "3-5|long",
+          "6-10|long"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long",
+          "3-5|long",
+          "6-10|long",
+          ">10|long"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.7,0.85)|long"
+         ],
+         "P4_detection_score/SD1_7_gap_le_5m": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.7,0.85)|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long",
+          "[0.7,0.85)|long"
+         ],
+         "P5_ego_speed/PD7_primary": [
+          "<1|long",
+          "[1,5)|long",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P5_ego_speed/SD1_7_gap_le_5m": [
+          "<1|long",
+          "[1,5)|long",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "[1,5)|long",
+          "[5,10)|long",
+          ">=10|long"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          "1-10|long",
+          "11-50|long",
+          "51-200|long",
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/SD1_7_gap_le_5m": [
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          "51-200|long",
+          ">200|long"
+         ],
+         "P7_city/PD7_primary": [
+          "DTW|long",
+          "MIA|long",
+          "PIT|long",
+          "WDC|long"
+         ],
+         "P7_city/SD1_7_gap_le_5m": [
+          "MIA|long",
+          "PIT|long"
+         ],
+         "P7_city/PD_inpath": [
+          "MIA|long",
+          "PIT|long"
+         ]
+        },
+        "n_flagged": 64,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.0666922811007915,
+          "ub": 0.07334466752830307,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.043109932339546395,
+          "ub": 0.050664132181896845,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.12125394974735702,
+          "ub": 0.1452260373365412,
+          "holds": false
+         }
+        },
+        "evaluable_partition_cells": 154
+       },
+       "endpoints": {
+        "infeasible_rate": 0.32869981851179675,
+        "progress_ratio": 0.9666433970830735,
+        "mean_backoff_level": 0.7942567049808428,
+        "V2_exec": 0.6796922747333999
+       }
+      },
+      {
+       "point": "B0a0.0625",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[0.5,3)|long",
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          "[2,5.5)|long",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          ">=8|long"
+         ],
+         "P2_track_length/PD_inpath": [
+          "[2,5.5)|long",
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long",
+          "3-5|long"
+         ],
+         "P3_track_age/SD1_7_gap_le_5m": [
+          "1-2|long",
+          "3-5|long"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long",
+          "3-5|long"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long"
+         ],
+         "P4_detection_score/SD1_7_gap_le_5m": [
+          "[0.5,0.7)|long"
+         ],
+         "P4_detection_score/PD_inpath": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long"
+         ],
+         "P5_ego_speed/PD7_primary": [
+          "<1|long",
+          "[1,5)|long"
+         ],
+         "P5_ego_speed/PD_inpath": [
+          "[1,5)|long",
+          "[5,10)|long"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/SD1_7_gap_le_5m": [
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          ">200|long"
+         ],
+         "P7_city/PD7_primary": [
+          "MIA|long"
+         ],
+         "P7_city/SD1_7_gap_le_5m": [
+          "MIA|long"
+         ],
+         "P7_city/PD_inpath": [
+          "PIT|long"
+         ]
+        },
+        "n_flagged": 35,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.04624213463814735,
+          "ub": 0.05184368953092931,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.028273291526675393,
+          "ub": 0.03406030295298484,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.07867264184332831,
+          "ub": 0.09828443513301233,
+          "holds": false
+         }
+        },
+        "evaluable_partition_cells": 154
+       },
+       "endpoints": {
+        "infeasible_rate": 0.4476297640653358,
+        "progress_ratio": 0.963247470705963,
+        "mean_backoff_level": 0.7127539423270821,
+        "V2_exec": 0.6157299908381819
+       }
+      },
+      {
+       "point": "B0d0.3",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          ">=8|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long"
+         ],
+         "P3_track_age/SD1_7_gap_le_5m": [
+          "1-2|long"
+         ],
+         "P3_track_age/PD_inpath": [
+          "1-2|long"
+         ],
+         "P4_detection_score/PD7_primary": [
+          "[0.4,0.5)|long",
+          "[0.5,0.7)|long"
+         ],
+         "P6_gt_lidar_points/PD7_primary": [
+          ">200|long"
+         ],
+         "P6_gt_lidar_points/PD_inpath": [
+          ">200|long"
+         ]
+        },
+        "n_flagged": 16,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.03450986297602577,
+          "ub": 0.03915191336160846,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.020227438681735953,
+          "ub": 0.0250782360294785,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.056271614436346186,
+          "ub": 0.07257177662032806,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 152
+       },
+       "endpoints": {
+        "infeasible_rate": 0.5274611816898568,
+        "progress_ratio": 0.9602023849321514,
+        "mean_backoff_level": 0.6477427303891914,
+        "V2_exec": 0.5834954306879291
+       }
+      },
+      {
+       "point": "B0a0.125",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P1_track_speed/SD1_7_gap_le_5m": [
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P1_track_speed/PD_inpath": [
+          "[3,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          "[5.5,8)|long",
+          ">=8|long"
+         ],
+         "P2_track_length/SD1_7_gap_le_5m": [
+          ">=8|long"
+         ],
+         "P3_track_age/PD7_primary": [
+          "1-2|long"
+         ]
+        },
+        "n_flagged": 10,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.03001049947222543,
+          "ub": 0.03431661232439398,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.01623827446376339,
+          "ub": 0.020678097118082443,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.047899306819153255,
+          "ub": 0.06262506698013925,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 152
+       },
+       "endpoints": {
+        "infeasible_rate": 0.5647288566243194,
+        "progress_ratio": 0.9600984690858395,
+        "mean_backoff_level": 0.6184012905827788,
+        "V2_exec": 0.5717031757505562
+       }
+      },
+      {
+       "point": "B0a0.25",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[3,8)|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          ">=8|long"
+         ]
+        },
+        "n_flagged": 2,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.01749362197612525,
+          "ub": 0.02039373587024952,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.009845717137059833,
+          "ub": 0.0133766368526726,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.024382761056297973,
+          "ub": 0.03248976758510287,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 152
+       },
+       "endpoints": {
+        "infeasible_rate": 0.6935929017947168,
+        "progress_ratio": 0.9592046627044526,
+        "mean_backoff_level": 0.5099305505142165,
+        "V2_exec": 0.557759353423346
+       }
+      },
+      {
+       "point": "B0d0.2",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {
+         "P1_track_speed/PD7_primary": [
+          "[3,8)|long"
+         ],
+         "P2_track_length/PD7_primary": [
+          ">=8|long"
+         ]
+        },
+        "n_flagged": 2,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.01679894975354234,
+          "ub": 0.01958132304002976,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.009668593382331876,
+          "ub": 0.013209515766320951,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.02361249597860277,
+          "ub": 0.031526204346513535,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 152
+       },
+       "endpoints": {
+        "infeasible_rate": 0.7003515224843719,
+        "progress_ratio": 0.9590467117867171,
+        "mean_backoff_level": 0.5028151643476508,
+        "V2_exec": 0.5577124286401237
+       }
+      },
+      {
+       "point": "B0a0.333",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.013519992204348383,
+          "ub": 0.015856648477009842,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.007769935439846103,
+          "ub": 0.010844705950456201,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.018088481515507703,
+          "ub": 0.02468414302071296,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 151
+       },
+       "endpoints": {
+        "infeasible_rate": 0.7323716878402905,
+        "progress_ratio": 0.9595761282600016,
+        "mean_backoff_level": 0.46564412179874975,
+        "V2_exec": 0.5566025800723442
+       }
+      },
+      {
+       "point": "B0a0.5",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.008985521814299841,
+          "ub": 0.010704865859456472,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0065083957037541385,
+          "ub": 0.009637663085749667,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.010543511619670851,
+          "ub": 0.015449344920785047,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 150
+       },
+       "endpoints": {
+        "infeasible_rate": 0.7805944746924783,
+        "progress_ratio": 0.9612956952833154,
+        "mean_backoff_level": 0.40403791086912677,
+        "V2_exec": 0.5630260087590032
+       }
+      },
+      {
+       "point": "B0d0.1",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.00716618896642651,
+          "ub": 0.008598562812187448,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.005288369047613165,
+          "ub": 0.00828958184747829,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.007716433278351069,
+          "ub": 0.011799766710989564,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 150
+       },
+       "endpoints": {
+        "infeasible_rate": 0.8012494454527123,
+        "progress_ratio": 0.9606366702396597,
+        "mean_backoff_level": 0.3745284936479129,
+        "V2_exec": 0.5752560932934556
+       }
+      },
+      {
+       "point": "B0a1",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.004109316781095675,
+          "ub": 0.005140764531939568,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0030934971930771616,
+          "ub": 0.005506110601541509,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.002950612030176641,
+          "ub": 0.004927801481894978,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 147
+       },
+       "endpoints": {
+        "infeasible_rate": 0.8575049808429118,
+        "progress_ratio": 0.9651998795518679,
+        "mean_backoff_level": 0.3020454930429522,
+        "V2_exec": 0.6041749292082746
+       }
+      },
+      {
+       "point": "B0d0.05",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.004109316781095675,
+          "ub": 0.005140764531939568,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0030934971930771616,
+          "ub": 0.005506110601541509,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.002950612030176641,
+          "ub": 0.004927801481894978,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 147
+       },
+       "endpoints": {
+        "infeasible_rate": 0.8575049808429118,
+        "progress_ratio": 0.9651998795518679,
+        "mean_backoff_level": 0.3020454930429522,
+        "V2_exec": 0.6041749292082746
+       }
+      },
+      {
+       "point": "B0d0.02",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.0024918992176724913,
+          "ub": 0.003258263994775583,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0032412456542903986,
+          "ub": 0.006173246369368375,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.0018506709245794252,
+          "ub": 0.0034782538949357034,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 146
+       },
+       "endpoints": {
+        "infeasible_rate": 0.9041216374269007,
+        "progress_ratio": 0.9677569209129109,
+        "mean_backoff_level": 0.2448640048396854,
+        "V2_exec": 0.6351364202627602
+       }
+      },
+      {
+       "point": "B0a2",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.001984030317945803,
+          "ub": 0.002642339461137284,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.003238786844466675,
+          "ub": 0.0062702702005225566,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.00141540199783225,
+          "ub": 0.0027473884943348265,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 145
+       },
+       "endpoints": {
+        "infeasible_rate": 0.9217356725146197,
+        "progress_ratio": 0.9702622778790745,
+        "mean_backoff_level": 0.21509058277878604,
+        "V2_exec": 0.6548100049219228
+       }
+      },
+      {
+       "point": "B0d0.01",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.00198403961588041,
+          "ub": 0.002642350113523137,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.003238786844466675,
+          "ub": 0.0062702702005225566,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.00141540199783225,
+          "ub": 0.0027473884943348265,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 145
+       },
+       "endpoints": {
+        "infeasible_rate": 0.9217356725146197,
+        "progress_ratio": 0.9702622778790745,
+        "mean_backoff_level": 0.21509058277878604,
+        "V2_exec": 0.6548100049219228
+       }
+      },
+      {
+       "point": "B0d0.005",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.0016504442512401943,
+          "ub": 0.0022564187119944,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0018683559648521525,
+          "ub": 0.0036879247918983633,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.0006590222643744543,
+          "ub": 0.0013180445287489086,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 142
+       },
+       "endpoints": {
+        "infeasible_rate": 0.9362573099415206,
+        "progress_ratio": 0.9710248642211481,
+        "mean_backoff_level": 0.19085791490219803,
+        "V2_exec": 0.6778749698886178
+       }
+      },
+      {
+       "point": "B0a3",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.001343376556650269,
+          "ub": 0.0018792012859031601,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0018653702590573998,
+          "ub": 0.0037307405181147995,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.000596378009530911,
+          "ub": 0.001192756019061822,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 139
+       },
+       "endpoints": {
+        "infeasible_rate": 0.9469005847953217,
+        "progress_ratio": 0.9730990737920824,
+        "mean_backoff_level": 0.1688209719701553,
+        "V2_exec": 0.697520285156353
+       }
+      },
+      {
+       "point": "B0d0.001",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.0011717656857022788,
+          "ub": 0.0016642559903325034,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0011292613636363635,
+          "ub": 0.002258522727272727,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.0003177448264624409,
+          "ub": 0.0006354896529248818,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 135
+       },
+       "endpoints": {
+        "infeasible_rate": 0.9529964912280702,
+        "progress_ratio": 0.9750685398214121,
+        "mean_backoff_level": 0.15281633393829402,
+        "V2_exec": 0.7158910102794072
+       }
+      },
+      {
+       "point": "B0a4",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.0010747173789823952,
+          "ub": 0.001543136952322241,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.0016029294426080018,
+          "ub": 0.0032058588852160036,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.0002475002475002475,
+          "ub": 0.000495000495000495,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 128
+       },
+       "endpoints": {
+        "infeasible_rate": 0.9567298245614035,
+        "progress_ratio": 0.9765300202336815,
+        "mean_backoff_level": 0.14037406735228877,
+        "V2_exec": 0.7294503118834516
+       }
+      },
+      {
+       "point": "B0a5",
+       "neutral_in_sample": {
+        "passes": true,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.0009379186904210937,
+          "ub": 0.0013615068875705212,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": true,
+          "E": 0.009900990099009901,
+          "ub": 0.0198019801980198,
+          "holds": true
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.00016891891891891893,
+          "ub": 0.00033783783783783786,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 106
+       },
+       "endpoints": {
+        "infeasible_rate": 0.9657076023391814,
+        "progress_ratio": 0.9786326165582899,
+        "mean_backoff_level": 0.1202637628554144,
+        "V2_exec": 0.7497686343474366
+       }
+      },
+      {
+       "point": "B0a8",
+       "neutral_in_sample": {
+        "passes": false,
+        "flagged": {},
+        "n_flagged": 0,
+        "hk1c": {
+         "PD7_primary": {
+          "evaluable": true,
+          "E": 0.0006519070830244455,
+          "ub": 0.0010078965164491006,
+          "holds": true
+         },
+         "SD1_7_gap_le_5m": {
+          "evaluable": false,
+          "ub": null,
+          "holds": false
+         },
+         "PD_inpath": {
+          "evaluable": true,
+          "E": 0.00010809642200843153,
+          "ub": 0.00021619284401686305,
+          "holds": true
+         }
+        },
+        "evaluable_partition_cells": 93
+       },
+       "endpoints": {
+        "infeasible_rate": 0.9769777777777778,
+        "progress_ratio": 0.9825338739837204,
+        "mean_backoff_level": 0.08970167372454126,
+        "V2_exec": 0.7903344575556189
+       }
+      }
+     ],
+     "choice_by_fold": {
+      "0": "B0a0.333",
+      "1": "B0a0.333",
+      "2": "B0a0.333",
+      "3": "B0a0.333",
+      "4": "B0a0.333"
+     },
+     "in_sample_best_point": "B0a0.333",
+     "result": "matched",
+     "composite_neutral": {
+      "passes": true,
+      "flagged": {},
+      "n_flagged": 0,
+      "hk1c": {
+       "PD7_primary": {
+        "evaluable": true,
+        "E": 0.013519992204348383,
+        "ub": 0.015856648477009842,
+        "holds": true
+       },
+       "SD1_7_gap_le_5m": {
+        "evaluable": true,
+        "E": 0.007769935439846103,
+        "ub": 0.010844705950456201,
+        "holds": true
+       },
+       "PD_inpath": {
+        "evaluable": true,
+        "E": 0.018088481515507703,
+        "ub": 0.02468414302071296,
+        "holds": true
+       }
+      },
+      "evaluable_partition_cells": 151
+     },
+     "composite_registered": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|new",
+         "large|long|new"
+        ],
+        "family_flagged": [
+         "car|long|new"
+        ],
+        "family_size": 19,
+        "evaluable": 25
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 6,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 4,
+        "evaluable": 8
+       }
+      }
+     },
+     "composite_registered_class": "flagged",
+     "composite_endpoints": {
+      "infeasible_rate": 0.7323716878402905,
+      "progress_ratio": 0.9595761282600016,
+      "mean_backoff_level": 0.46564412179874975,
+      "V2_exec": 0.5566025800723442
+     },
+     "Mstar_minus_composite": {
+      "infeasible_rate": {
+       "mean_diff": -0.3818458560193587,
+       "ci95": [
+        -0.405557584190361,
+        -0.35950569066344035
+       ]
+      },
+      "progress_ratio": {
+       "mean_diff": 0.006708869975094591,
+       "ci95": [
+        0.0037619826873490133,
+        0.00947742701512503
+       ]
+      },
+      "V2_exec": {
+       "mean_diff": -0.05224269597759011,
+       "ci95": [
+        -0.07137594385708845,
+        -0.03362253589913482
+       ]
+      }
+     }
+    }
+   }
+  }
+ },
+ "a_redo": {
+  "t1": {
+   "B4": {
+    "curve": [
+     {
+      "point": "B4@0.05",
+      "class": "flagged",
+      "infeasible_rate": 0.2018868320225852
+     },
+     {
+      "point": "B4@0.04",
+      "class": "flagged",
+      "infeasible_rate": 0.2644894535188546
+     },
+     {
+      "point": "B4@0.03",
+      "class": "flagged",
+      "infeasible_rate": 0.3523178060092761
+     },
+     {
+      "point": "B4@0.02",
+      "class": "flagged",
+      "infeasible_rate": 0.47501528533978626
+     },
+     {
+      "point": "B4@0.015",
+      "class": "flagged",
+      "infeasible_rate": 0.5676907441016333
+     },
+     {
+      "point": "B4@0.01",
+      "class": "Valid",
+      "infeasible_rate": 0.6951335349868926
+     },
+     {
+      "point": "B4@0.005",
+      "class": "fails a floor only",
+      "infeasible_rate": 0.9106152046783625
+     }
+    ],
+    "composite_choice": {
+     "0": "B4@0.005",
+     "1": "B4@0.005",
+     "2": "B4@0.005",
+     "3": "B4@0.005",
+     "4": "B4@0.005"
+    },
+    "composite_class": "fails a floor only",
+    "composite_infeasible": 0.9106152046783625,
+    "Mstar_minus_composite": "no contrast: the composite does not pass"
+   },
+   "B6": {
+    "curve": [
+     {
+      "point": "B6@0.05",
+      "class": "flagged",
+      "infeasible_rate": 0.16529267997580158
+     },
+     {
+      "point": "B6@0.04",
+      "class": "flagged",
+      "infeasible_rate": 0.23365597902802987
+     },
+     {
+      "point": "B6@0.03",
+      "class": "flagged",
+      "infeasible_rate": 0.33274208509780195
+     },
+     {
+      "point": "B6@0.02",
+      "class": "flagged",
+      "infeasible_rate": 0.4926006049606775
+     },
+     {
+      "point": "B6@0.015",
+      "class": "flagged",
+      "infeasible_rate": 0.5571728171002218
+     },
+     {
+      "point": "B6@0.01",
+      "class": "Valid",
+      "infeasible_rate": 0.6783561201855213
+     },
+     {
+      "point": "B6@0.005",
+      "class": "fails a floor only",
+      "infeasible_rate": 0.8631345029239766
+     }
+    ],
+    "composite_choice": {
+     "0": "B6@0.015",
+     "1": "B6@0.005",
+     "2": "B6@0.015",
+     "3": "B6@0.015",
+     "4": "B6@0.015"
+    },
+    "composite_class": "Valid",
+    "composite_infeasible": 0.6225950393224441,
+    "Mstar_minus_composite": {
+     "mean_diff": -0.43623585400282316,
+     "ci95": [
+      -0.46344405726961097,
+      -0.40984808630772335
+     ],
+     "ub_0.95": -0.414066586005243,
+     "p_lt0": 0.00024993751562109475
+    }
+   },
+   "B9": {
+    "curve": [
+     {
+      "point": "B9@0.05",
+      "class": "flagged",
+      "infeasible_rate": 0.692768058076225
+     },
+     {
+      "point": "B9@0.04",
+      "class": "flagged",
+      "infeasible_rate": 0.7261413994757009
+     },
+     {
+      "point": "B9@0.03",
+      "class": "flagged",
+      "infeasible_rate": 0.7658948981649526
+     },
+     {
+      "point": "B9@0.02",
+      "class": "Valid",
+      "infeasible_rate": 0.8215875781407541
+     },
+     {
+      "point": "B9@0.015",
+      "class": "fails a floor only",
+      "infeasible_rate": 0.8545730994152047
+     },
+     {
+      "point": "B9@0.01",
+      "class": "fails a floor only",
+      "infeasible_rate": 0.8955883040935674
+     },
+     {
+      "point": "B9@0.005",
+      "class": "fails HK1c and a floor",
+      "infeasible_rate": 0.9723929824561404
+     }
+    ],
+    "composite_choice": {
+     "0": "B9@0.005",
+     "1": "B9@0.005",
+     "2": "B9@0.005",
+     "3": "B9@0.005",
+     "4": "B9@0.005"
+    },
+    "composite_class": "fails HK1c and a floor",
+    "composite_infeasible": 0.9723929824561404,
+    "Mstar_minus_composite": "no contrast: the composite does not pass"
+   }
+  },
+  "t3": {
+   "B4": {
+    "curve": [
+     {
+      "point": "B4@0.05",
+      "class": "flagged",
+      "infeasible_rate": 0.315185642266586
+     },
+     {
+      "point": "B4@0.04",
+      "class": "flagged",
+      "infeasible_rate": 0.38235111917725345
+     },
+     {
+      "point": "B4@0.03",
+      "class": "flagged",
+      "infeasible_rate": 0.4678948175035289
+     },
+     {
+      "point": "B4@0.02",
+      "class": "flagged",
+      "infeasible_rate": 0.5659171607178867
+     },
+     {
+      "point": "B4@0.015",
+      "class": "flagged",
+      "infeasible_rate": 0.6331105464811454
+     },
+     {
+      "point": "B4@0.01",
+      "class": "flagged",
+      "infeasible_rate": 0.7205838273845533
+     },
+     {
+      "point": "B4@0.005",
+      "class": "fails a floor only",
+      "infeasible_rate": 0.8646923976608186
+     }
+    ],
+    "composite_choice": {
+     "0": "B4@0.005",
+     "1": "B4@0.005",
+     "2": "B4@0.005",
+     "3": "B4@0.005",
+     "4": "B4@0.005"
+    },
+    "composite_class": "fails a floor only",
+    "composite_infeasible": 0.8646923976608186,
+    "Mstar_minus_composite": "no contrast: the composite does not pass"
+   },
+   "B6": {
+    "curve": [
+     {
+      "point": "B6@0.05",
+      "class": "flagged",
+      "infeasible_rate": 0.22861286549707605
+     },
+     {
+      "point": "B6@0.04",
+      "class": "flagged",
+      "infeasible_rate": 0.2626900584795322
+     },
+     {
+      "point": "B6@0.03",
+      "class": "flagged",
+      "infeasible_rate": 0.3215390199637024
+     },
+     {
+      "point": "B6@0.02",
+      "class": "flagged",
+      "infeasible_rate": 0.4295714458560194
+     },
+     {
+      "point": "B6@0.015",
+      "class": "Valid",
+      "infeasible_rate": 0.48622464206493243
+     },
+     {
+      "point": "B6@0.01",
+      "class": "Valid",
+      "infeasible_rate": 0.6245849566444848
+     },
+     {
+      "point": "B6@0.005",
+      "class": "fails a floor only",
+      "infeasible_rate": 0.875875297439
+     }
+    ],
+    "composite_choice": {
+     "0": "B6@0.015",
+     "1": "B6@0.015",
+     "2": "B6@0.015",
+     "3": "B6@0.015",
+     "4": "B6@0.015"
+    },
+    "composite_class": "Valid",
+    "composite_infeasible": 0.48622464206493243,
+    "Mstar_minus_composite": {
+     "mean_diff": -0.23959265981044564,
+     "ci95": [
+      -0.255871195805606,
+      -0.2236758983666061
+     ],
+     "ub_0.95": -0.22605422867513603,
+     "p_lt0": 0.00024993751562109475
+    }
+   },
+   "B9": {
+    "curve": [
+     {
+      "point": "B9@0.05",
+      "class": "flagged",
+      "infeasible_rate": 0.6629360758217382
+     },
+     {
+      "point": "B9@0.04",
+      "class": "flagged",
+      "infeasible_rate": 0.7073421254285137
+     },
+     {
+      "point": "B9@0.03",
+      "class": "flagged",
+      "infeasible_rate": 0.7530682798951402
+     },
+     {
+      "point": "B9@0.02",
+      "class": "Valid",
+      "infeasible_rate": 0.8174315789473685
+     },
+     {
+      "point": "B9@0.015",
+      "class": "fails a floor only",
+      "infeasible_rate": 0.8573286549707603
+     },
+     {
+      "point": "B9@0.01",
+      "class": "fails a floor only",
+      "infeasible_rate": 0.9068771929824561
+     },
+     {
+      "point": "B9@0.005",
+      "class": "fails HK1c and a floor",
+      "infeasible_rate": 0.9715040935672514
+     }
+    ],
+    "composite_choice": {
+     "0": "B9@0.005",
+     "1": "B9@0.005",
+     "2": "B9@0.005",
+     "3": "B9@0.005",
+     "4": "B9@0.005"
+    },
+    "composite_class": "fails HK1c and a floor",
+    "composite_infeasible": 0.9715040935672514,
+    "Mstar_minus_composite": "no contrast: the composite does not pass"
+   }
+  }
+ },
+ "seconds": 83.7
+}

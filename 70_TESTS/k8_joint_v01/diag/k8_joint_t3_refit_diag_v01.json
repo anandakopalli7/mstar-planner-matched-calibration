@@ -1,0 +1,59 @@
+{
+ "fold": 4,
+ "step": "h2s",
+ "k7_items_check": {
+  "k7_items_sha256": "81d265fc43d02df2480fb3ef853a586e42945c9b6d511e8e62a1dc10cf2aa6a2",
+  "items": 1613073,
+  "k": "equal",
+  "h": "equal",
+  "g": "equal",
+  "r": "equal",
+  "a": "equal",
+  "m": "equal",
+  "inpath": "equal",
+  "sd": "equal",
+  "D": "equal",
+  "l0": "equal"
+ },
+ "k7_v01_items_own_order_reproduces_k7_fits": true,
+ "k7_v01_items_sorted_name_order_equals_merged_refit": true,
+ "k7_v01_items_sorted_name_order_reproduces_k7_fits": false,
+ "differing_entries": [
+  {
+   "entry": 74,
+   "l0": 74,
+   "l0_name": "large|<20|long|turning",
+   "inpath": 0,
+   "src_k7": 0,
+   "src_refit": 0,
+   "thr_k7": 0.3956987027264914,
+   "thr_refit": 0.38664953418894527,
+   "level": 0,
+   "cell_id": 74,
+   "cell_items": 243,
+   "cell_scenes": 108,
+   "at_thr_k7": {
+    "bound_exact": "89/2180",
+    "bound_exact_minus_delta": -0.009174311926605505,
+    "exact_le_delta": true,
+    "n_scenes": 108,
+    "float_bound_merged_order": "0.0408256880733945",
+    "float_ok_merged_order": true,
+    "float_bound_k7_order": "0.040825688073394505",
+    "float_ok_k7_order": true
+   },
+   "at_thr_refit": {
+    "bound_exact": "1/20",
+    "bound_exact_minus_delta": 0.0,
+    "exact_le_delta": true,
+    "n_scenes": 108,
+    "float_bound_merged_order": "0.049999999999999996",
+    "float_ok_merged_order": true,
+    "float_bound_k7_order": "0.05000000000000001",
+    "float_ok_k7_order": false
+   },
+   "unique_U_between": 0
+  }
+ ],
+ "n_differing": 1
+}

@@ -1,0 +1,321 @@
+{
+ "rule": "X1 v02 section 6 orientation null (x1_lib_v03.orientation_null), stage-A rows (no GT position after k)",
+ "mode": "c1",
+ "seed": 20261114,
+ "n_draw": 20,
+ "sigmas": [
+  0.1,
+  0.2
+ ],
+ "primary_sigma": 0.1,
+ "decision_cells": [
+  "car|<20|lat",
+  "car|20-40|lat"
+ ],
+ "E0": {
+  "h2s": {
+   "0.10": {
+    "car|<20|long": {
+     "E0": 0.06891532236163163,
+     "m0": 1.8033012415377225,
+     "items_before_filter": 5777
+    },
+    "car|<20|lat": {
+     "E0": 0.08235634679403676,
+     "m0": 1.90036349397236,
+     "items_before_filter": 5777
+    },
+    "car|20-40|long": {
+     "E0": 0.05053740479749448,
+     "m0": 1.6511996229530126,
+     "items_before_filter": 2822
+    },
+    "car|20-40|lat": {
+     "E0": 0.08973113054745707,
+     "m0": 1.956982223127078,
+     "items_before_filter": 2822
+    },
+    "car|>=40|long": {
+     "E0": 0.04786789297658863,
+     "m0": 1.630584002751108,
+     "items_before_filter": 240
+    },
+    "car|>=40|lat": {
+     "E0": 0.09530483531885074,
+     "m0": 1.9152378910669678,
+     "items_before_filter": 240
+    },
+    "pedestrian|<20|long": {
+     "E0": 0.05980816249764905,
+     "m0": 1.734719980773008,
+     "items_before_filter": 386
+    },
+    "pedestrian|<20|lat": {
+     "E0": 0.09545942080800858,
+     "m0": 1.9713059377960718,
+     "items_before_filter": 386
+    },
+    "pedestrian|20-40|long": {
+     "E0": 0.04247104247104247,
+     "m0": 1.5125153547031929,
+     "items_before_filter": 13
+    },
+    "pedestrian|20-40|lat": {
+     "E0": 0.09090909090909091,
+     "m0": 1.8964994138423177,
+     "items_before_filter": 13
+    },
+    "pedestrian|>=40|long": {
+     "E0": null,
+     "m0": null,
+     "items_before_filter": 0
+    },
+    "pedestrian|>=40|lat": {
+     "E0": null,
+     "m0": null,
+     "items_before_filter": 0
+    },
+    "two_wheeler|<20|long": {
+     "E0": 0.07158962795941376,
+     "m0": 1.8275172064559357,
+     "items_before_filter": 113
+    },
+    "two_wheeler|<20|lat": {
+     "E0": 0.1063658340048348,
+     "m0": 1.964494142351361,
+     "items_before_filter": 113
+    },
+    "two_wheeler|20-40|long": {
+     "E0": 0.06407766990291262,
+     "m0": 1.7311246528224937,
+     "items_before_filter": 27
+    },
+    "two_wheeler|20-40|lat": {
+     "E0": 0.10550458715596331,
+     "m0": 2.021547984992667,
+     "items_before_filter": 27
+    },
+    "two_wheeler|>=40|long": {
+     "E0": null,
+     "m0": null,
+     "items_before_filter": 0
+    },
+    "two_wheeler|>=40|lat": {
+     "E0": null,
+     "m0": null,
+     "items_before_filter": 0
+    },
+    "large|<20|long": {
+     "E0": 0.06454904962367648,
+     "m0": 1.748616329395938,
+     "items_before_filter": 529
+    },
+    "large|<20|lat": {
+     "E0": 0.17736240913811008,
+     "m0": 2.2485297902009656,
+     "items_before_filter": 529
+    },
+    "large|20-40|long": {
+     "E0": 0.05197093151288262,
+     "m0": 1.6564412589182356,
+     "items_before_filter": 229
+    },
+    "large|20-40|lat": {
+     "E0": 0.19479882237487733,
+     "m0": 2.25422810222737,
+     "items_before_filter": 229
+    },
+    "large|>=40|long": {
+     "E0": 0.07962962962962963,
+     "m0": 1.9029382123966618,
+     "items_before_filter": 27
+    },
+    "large|>=40|lat": {
+     "E0": 0.2636363636363636,
+     "m0": 2.1934148713321933,
+     "items_before_filter": 27
+    }
+   },
+   "0.20": {
+    "car|<20|long": {
+     "E0": 0.06643105698129621,
+     "m0": 1.7790783371624912,
+     "items_before_filter": 5777
+    },
+    "car|<20|lat": {
+     "E0": 0.08720677985711393,
+     "m0": 1.9324090703208052,
+     "items_before_filter": 5777
+    },
+    "car|20-40|long": {
+     "E0": 0.048653746907977864,
+     "m0": 1.6321574223404576,
+     "items_before_filter": 2822
+    },
+    "car|20-40|lat": {
+     "E0": 0.0899373091142903,
+     "m0": 1.9612409869372371,
+     "items_before_filter": 2822
+    },
+    "car|>=40|long": {
+     "E0": 0.045559038662486936,
+     "m0": 1.6052093441686592,
+     "items_before_filter": 240
+    },
+    "car|>=40|lat": {
+     "E0": 0.09156976744186046,
+     "m0": 1.9313594858175396,
+     "items_before_filter": 240
+    },
+    "pedestrian|<20|long": {
+     "E0": 0.059499152701939374,
+     "m0": 1.7194428016202479,
+     "items_before_filter": 386
+    },
+    "pedestrian|<20|lat": {
+     "E0": 0.09163558870538092,
+     "m0": 1.9423809392846074,
+     "items_before_filter": 386
+    },
+    "pedestrian|20-40|long": {
+     "E0": 0.054474708171206226,
+     "m0": 1.7484872337245054,
+     "items_before_filter": 13
+    },
+    "pedestrian|20-40|lat": {
+     "E0": 0.07024793388429752,
+     "m0": 1.7416932121551076,
+     "items_before_filter": 13
+    },
+    "pedestrian|>=40|long": {
+     "E0": null,
+     "m0": null,
+     "items_before_filter": 0
+    },
+    "pedestrian|>=40|lat": {
+     "E0": null,
+     "m0": null,
+     "items_before_filter": 0
+    },
+    "two_wheeler|<20|long": {
+     "E0": 0.08521444695259593,
+     "m0": 1.9357007695973647,
+     "items_before_filter": 113
+    },
+    "two_wheeler|<20|lat": {
+     "E0": 0.09736632083000799,
+     "m0": 2.009714855230009,
+     "items_before_filter": 113
+    },
+    "two_wheeler|20-40|long": {
+     "E0": 0.045364891518737675,
+     "m0": 1.6231885920160922,
+     "items_before_filter": 27
+    },
+    "two_wheeler|20-40|lat": {
+     "E0": 0.08928571428571429,
+     "m0": 1.977821726398991,
+     "items_before_filter": 27
+    },
+    "two_wheeler|>=40|long": {
+     "E0": null,
+     "m0": null,
+     "items_before_filter": 0
+    },
+    "two_wheeler|>=40|lat": {
+     "E0": null,
+     "m0": null,
+     "items_before_filter": 0
+    },
+    "large|<20|long": {
+     "E0": 0.06871401151631477,
+     "m0": 1.7781242310448175,
+     "items_before_filter": 529
+    },
+    "large|<20|lat": {
+     "E0": 0.18628691983122364,
+     "m0": 2.247890974989083,
+     "items_before_filter": 529
+    },
+    "large|20-40|long": {
+     "E0": 0.05586100725753244,
+     "m0": 1.6881224984995762,
+     "items_before_filter": 229
+    },
+    "large|20-40|lat": {
+     "E0": 0.18615751789976134,
+     "m0": 2.2135445200129515,
+     "items_before_filter": 229
+    },
+    "large|>=40|long": {
+     "E0": 0.04259259259259259,
+     "m0": 1.48079570783232,
+     "items_before_filter": 27
+    },
+    "large|>=40|lat": {
+     "E0": 0.27601809954751133,
+     "m0": 2.4448972846109474,
+     "items_before_filter": 27
+    }
+   }
+  }
+ },
+ "H8_E0_primary": {
+  "car|<20|lat": 0.08235634679403676,
+  "car|20-40|lat": 0.08973113054745707
+ },
+ "info": {
+  "pairing": {
+   "frame0_records": 22134,
+   "records_k_ge_1": 836114,
+   "inpath_records": 15164,
+   "paired_inpath": 11412,
+   "unpaired": 482893,
+   "unpaired_inpath": 3720,
+   "censored": 21790,
+   "duplicate_records_1m": 111059,
+   "id_switches": 2364
+  },
+  "horizon": {
+   "censored_at_horizon": 29835,
+   "no_future_frame": 43628
+  }
+ },
+ "inputs_sha256": {
+  "30_DATA/av2_trk_v02/export/t1_owncp/worker0/x1_tracks.jsonl.gz": "ff63140158a1b0a8bf222b80386cf7f8414e801aa247869deb0324bf3d51a0d1",
+  "30_DATA/av2_trk_v02/export/t1_owncp/worker1/x1_tracks.jsonl.gz": "b86f4769e87b3d04f9f8c30d041ca81c96f1aec31ef25b417d6fdf4c470c4a44",
+  "30_DATA/av2_trk_v02/export/t1_owncp/worker2/x1_tracks.jsonl.gz": "4d3d3d5a7ab35efc0b062347c7c23878a6d7e9f0f5a9e839271ba5dfca864478",
+  "30_DATA/av2_trk_v02/export/t1_owncp/worker3/x1_tracks.jsonl.gz": "afe6f5bda1a54ce58e1753e12383ffd7c7c6d5267a0b5d00abb9ead49e9aacba",
+  "30_DATA/av2_trk_v02/export/t1_owncp/worker4/x1_tracks.jsonl.gz": "9dc42c213b52fb75980e04a8753d8a350d00263bd23130e4b39e399de9b85561",
+  "30_DATA/av2_trk_v02/export/t1_owncp/worker5/x1_tracks.jsonl.gz": "1ebc86a2952d480e0b1ea89ffc2163fce683d93a90bd4b982f38a3271ddba13e",
+  "30_DATA/av2_trk_v02/export/t1_owncp/worker6/x1_tracks.jsonl.gz": "6d5e571617001e471d5fc1ed81ad04ef638dd4d856216fb22d2412ef28c8e32e",
+  "30_DATA/av2_trk_v02/export/t1_owncp/worker7/x1_tracks.jsonl.gz": "fd66684282b8ad0fc5fa31337126a79735c8698b30ecd692bb10741fff0481d5",
+  "30_DATA/av2_trk_v02/gt/av2_c1_gt375_v01.json": "e5c390aad971502aec3546d4e2093a3282d3774ed93dc004fb141599d8adb2c2",
+  "30_DATA/av2_trk_v02/horizon/horizon8_t1_owncp.jsonl.gz": "168f0ad9eb55d8ff9ed14cb75677c853d9e2b1356bea471e1daa1963321651f2",
+  "30_DATA/av2_c1_meta_v01/scene.json": "f7296605656d342927505300000e899e34e0e59c1a48804c9ec81260e2fadb2c"
+ },
+ "stageA_manifests_sha256": {
+  "30_DATA/av2_cache_stageA_v02/cache_stageA_t1_owncp375/MANIFEST.json": "e9b3a385552f976fb12f74a8accef5b932f6aedd13d30b067aa16570c423c5e3"
+ },
+ "check": "pre-freeze, stage-A inputs only",
+ "dataset": "av2",
+ "plan_sha256": null,
+ "code": {
+  "entry_point": {
+   "50_CODE/c1_av2/c1_e0_v05.py": "8f1312a373a40ca82a020d37ee46c5904808c8f139683e1871868035382c438e"
+  },
+  "code_sha256": {
+   "50_CODE/c1_av2/c1_e0_v01.py": "d706a5e2969e17a7ecb232019f0fe478cab97316a2563bbd828725a48655bd7a",
+   "50_CODE/c1_av2/c1_e0_v05.py": "8f1312a373a40ca82a020d37ee46c5904808c8f139683e1871868035382c438e",
+   "50_CODE/c1_av2/c1_guard_v03.py": "ec6e7390e02fc357224d83329eee5f5267294bf053083d903b51e9aefb152408",
+   "50_CODE/c1_av2/c1_guard_v04.py": "56b65e908b5007eff4039fb5d265c231828effc8b05dccba982c8cf6d0c3cd4c",
+   "50_CODE/c1_av2/c1_guard_v05.py": "cd40e98ac1d6d4f559ea3a95075dcb361f4779e688947356e66e880853a87608",
+   "50_CODE/x1/x1_lib_v03.py": "f78a7844ef61730d982d73cdebd690c53f190b693b426ba7fbd2106b26081cbd"
+  },
+  "versions": {
+   "python": "3.10.22",
+   "numpy": "1.26.4",
+   "scipy": "1.15.3"
+  }
+ }
+}

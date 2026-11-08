@@ -1,0 +1,1649 @@
+{
+ "stamp": "X3 POST-REGISTRATION EXPLORATORY (after the verdict of record; not part of the registered test)",
+ "analysis": "e (e2 then e1)",
+ "plan_sha256": "38e2526d9f43f202fe4c8fe345be03d21421d6c7ada585022abf34a649362dc6",
+ "amendment_A2_sha256": "b50779e08ce73ba00d3a148b59eec0b3a94095c7c4521ab85f461f649d3c3443",
+ "by_tracker": {
+  "t1": {
+   "tracker": "t1",
+   "seeds": {
+    "bootstrap": [
+     20261201,
+     0,
+     5
+    ],
+    "power": [
+     20261202,
+     0,
+     5
+    ]
+   },
+   "B": 4000,
+   "run_record_sha256": "ea5a2550c124f81f371189cde1abf103b372935f8f160f1e1ea90397be7b22ae",
+   "arms": {
+    "Mstar": {
+     "label": "Mstar",
+     "power_key": [
+      20261202,
+      0,
+      5
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 9,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.043966572620651324,
+       "lb": 0.04115921120855269,
+       "ub": 0.04836396949315257,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.0376366655516585,
+       "lb": 0.030405717089789227,
+       "ub": 0.04715584695609819,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.04040572614693565,
+       "lb": 0.02954581583017159,
+       "ub": 0.0547108363548999,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.1863591853196209,
+     "infeasible_ci95": [
+      0.16780577939100622,
+      0.20504569469651135
+     ],
+     "seconds": 20.7
+    },
+    "X3E2_B0_cache_cov": {
+     "label": "X3E2_B0_cache_cov",
+     "power_key": [
+      20261202,
+      0,
+      5,
+      100
+     ],
+     "status": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|new",
+         "car|lat|turning",
+         "car|lat|new",
+         "pedestrian|long|static",
+         "pedestrian|long|turning",
+         "large|long|new"
+        ],
+        "family_flagged": [
+         "car|long|new",
+         "car|lat|turning",
+         "car|lat|new",
+         "pedestrian|long|static",
+         "pedestrian|long|turning"
+        ],
+        "family_size": 19,
+        "evaluable": 26
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|lat|turning"
+        ],
+        "family_flagged": [
+         "car|lat|turning"
+        ],
+        "family_size": 10,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|new",
+         "car|lat|turning"
+        ],
+        "family_flagged": [
+         "car|long|new"
+        ],
+        "family_size": 6,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.033710508657954934,
+       "lb": 0.031198132134393344,
+       "ub": 0.03746033643318194,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.02582399603281733,
+       "lb": 0.02024250467049493,
+       "ub": 0.03367997793873003,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.050161283921014994,
+       "lb": 0.03829243675201921,
+       "ub": 0.0658331371328049,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.3710796531558782,
+     "infeasible_ci95": [
+      0.34350845735027213,
+      0.3989792780802581
+     ],
+     "seconds": 2.8,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.18472046783625728,
+      "ci95": [
+       -0.20970904214559397,
+       -0.1594431256301673
+      ],
+      "ub_0.95": -0.16321078443234519,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "B0 on the cache's own covariance (check)"
+    },
+    "X3E2_B0_qrefit": {
+     "label": "X3E2_B0_qrefit",
+     "power_key": [
+      20261202,
+      0,
+      5,
+      101
+     ],
+     "status": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|straight",
+         "car|long|turning",
+         "car|long|new",
+         "car|lat|turning",
+         "car|lat|new",
+         "pedestrian|long|static",
+         "large|long|new"
+        ],
+        "family_flagged": [
+         "car|long|straight",
+         "car|long|turning",
+         "car|long|new",
+         "car|lat|turning",
+         "car|lat|new",
+         "pedestrian|long|static"
+        ],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|lat|turning"
+        ],
+        "family_flagged": [
+         "car|lat|turning"
+        ],
+        "family_size": 9,
+        "evaluable": 18
+       },
+       "PD_inpath": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": false,
+        "Floor": true,
+        "HK1c": false,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|new",
+         "car|lat|straight",
+         "car|lat|turning"
+        ],
+        "family_flagged": [
+         "car|long|new",
+         "car|lat|straight"
+        ],
+        "family_size": 6,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.04310251000972733,
+       "lb": 0.03976427778411142,
+       "ub": 0.04817236589967992,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.03180503080542693,
+       "lb": 0.02595124592312724,
+       "ub": 0.03988952995851547,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.0696365199630967,
+       "lb": 0.05550031893078839,
+       "ub": 0.0891677068100123,
+       "flagged": true
+      }
+     },
+     "infeasible_rate": 0.270911393426094,
+     "infeasible_ci95": [
+      0.24594050413389798,
+      0.2951609477717281
+     ],
+     "seconds": 2.9,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.08455220810647307,
+      "ci95": [
+       -0.10847806009276068,
+       -0.05955088525912482
+      ],
+      "ub_0.95": -0.0638915426497278,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "Q-refit, plan grid"
+    },
+    "X3E2_B0_qrefit_ext": {
+     "label": "X3E2_B0_qrefit_ext",
+     "power_key": [
+      20261202,
+      0,
+      5,
+      102
+     ],
+     "status": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|straight",
+         "car|long|turning",
+         "car|long|new",
+         "car|lat|straight",
+         "car|lat|turning",
+         "car|lat|new",
+         "pedestrian|long|static",
+         "large|long|new"
+        ],
+        "family_flagged": [
+         "car|long|straight",
+         "car|long|turning",
+         "car|long|new",
+         "car|lat|straight",
+         "car|lat|turning",
+         "car|lat|new",
+         "pedestrian|long|static"
+        ],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|new",
+         "car|lat|turning"
+        ],
+        "family_flagged": [
+         "car|lat|straight",
+         "car|lat|turning"
+        ],
+        "family_size": 9,
+        "evaluable": 18
+       },
+       "PD_inpath": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": false,
+        "Floor": true,
+        "HK1c": false,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|new",
+         "car|lat|straight",
+         "car|lat|turning"
+        ],
+        "family_flagged": [
+         "car|long|turning",
+         "car|long|new",
+         "car|lat|straight"
+        ],
+        "family_size": 6,
+        "evaluable": 9
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.04884271073225549,
+       "lb": 0.04509895410262217,
+       "ub": 0.05466111724698734,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.03673107577909402,
+       "lb": 0.030358973924519604,
+       "ub": 0.045729617348779936,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.08027239203036962,
+       "lb": 0.06564111743086766,
+       "ub": 0.10142171137612627,
+       "flagged": true
+      }
+     },
+     "infeasible_rate": 0.2299289372857431,
+     "infeasible_ci95": [
+      0.207192623512805,
+      0.2530334744908248
+     ],
+     "seconds": 3.0,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.0435697519661222,
+      "ci95": [
+       -0.06682106069772131,
+       -0.01989980641258318
+      ],
+      "ub_0.95": -0.02401419641056666,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "Q-refit, extended grid (amendment A2)"
+    },
+    "X3E1_B5": {
+     "label": "X3E1_B5",
+     "power_key": [
+      20261202,
+      0,
+      5,
+      110
+     ],
+     "status": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|new",
+         "car|lat|straight",
+         "car|lat|turning",
+         "car|lat|new",
+         "pedestrian|long|static",
+         "pedestrian|long|turning",
+         "large|long|new"
+        ],
+        "family_flagged": [
+         "car|long|turning",
+         "car|long|new",
+         "car|lat|straight",
+         "car|lat|turning",
+         "car|lat|new",
+         "pedestrian|long|static",
+         "pedestrian|long|turning"
+        ],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|lat|straight",
+         "car|lat|turning"
+        ],
+        "family_flagged": [
+         "car|lat|straight",
+         "car|lat|turning"
+        ],
+        "family_size": 8,
+        "evaluable": 17
+       },
+       "PD_inpath": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|new",
+         "car|lat|turning"
+        ],
+        "family_flagged": [
+         "car|long|new"
+        ],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.047144826267697025,
+       "lb": 0.044013046508279446,
+       "ub": 0.0519697587647448,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.04730154225875524,
+       "lb": 0.03921015063047895,
+       "ub": 0.05903279373210533,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.05340121705624042,
+       "lb": 0.040917877847374204,
+       "ub": 0.0700826306601252,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.16680685622101232,
+     "infeasible_ci95": [
+      0.1492858076225045,
+      0.18398575115950797
+     ],
+     "seconds": 3.1,
+     "Mstar_minus_arm": {
+      "mean_diff": 0.019552329098608594,
+      "ci95": [
+       0.0008785158298043997,
+       0.03840683202258519
+      ],
+      "ub_0.95": 0.03517492236337972,
+      "p_lt0": 0.9792551862034491
+     },
+     "description": "B5: per-axis CRC scalars"
+    },
+    "X3E1_B8": {
+     "label": "X3E1_B8",
+     "power_key": [
+      20261202,
+      0,
+      5,
+      111
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 8,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.015690989210896317,
+       "lb": 0.01422472708501933,
+       "ub": 0.01797237196447451,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.017701112778077243,
+       "lb": 0.01172712951563509,
+       "ub": 0.024997075236934816,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.029056369973095283,
+       "lb": 0.02082364266330071,
+       "ub": 0.04000364461537728,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.28221705989110707,
+     "infeasible_ci95": [
+      0.2586886106069773,
+      0.3063616212946159
+     ],
+     "seconds": 3.0,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.09585787457148619,
+      "ci95": [
+       -0.1090995321637427,
+       -0.08358154466626336
+      ],
+      "ub_0.95": -0.08566769913288967,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "B8: stratified variance matching"
+    },
+    "X3E1_B7": {
+     "label": "X3E1_B7",
+     "power_key": [
+      20261202,
+      0,
+      5,
+      112
+     ],
+     "status": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|turning",
+         "car|long|new",
+         "car|lat|turning",
+         "car|lat|new",
+         "pedestrian|long|static",
+         "large|long|static"
+        ],
+        "family_flagged": [
+         "car|long|turning",
+         "car|long|new",
+         "car|lat|turning",
+         "car|lat|new",
+         "pedestrian|long|static",
+         "large|long|static"
+        ],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 8,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.04631087847848615,
+       "lb": 0.04342430049608829,
+       "ub": 0.050914164768808674,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.0314063358252214,
+       "lb": 0.026694207168480612,
+       "ub": 0.03834676268318315,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.048491221091129064,
+       "lb": 0.03723422168759746,
+       "ub": 0.06322203356986858,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.15383069167170801,
+     "infeasible_ci95": [
+      0.13665296229078444,
+      0.17121403508771932
+     ],
+     "seconds": 3.1,
+     "Mstar_minus_arm": {
+      "mean_diff": 0.03252849364791289,
+      "ci95": [
+       0.018043653962492433,
+       0.0470977737447066
+      ],
+      "ub_0.95": 0.04458050413389796,
+      "p_lt0": 1.0
+     },
+     "description": "B7: learned scale"
+    }
+   },
+   "runs": [
+    "e2_t1",
+    "e1_t1"
+   ],
+   "check_e2": true,
+   "q_tables": {
+    "plan": {
+     "0": {
+      "0": 0.25,
+      "1": 2.0,
+      "2": 0.25,
+      "3": 0.25
+     },
+     "1": {
+      "0": 0.25,
+      "1": 1.0,
+      "2": 0.25,
+      "3": 0.25
+     },
+     "2": {
+      "0": 0.25,
+      "1": 2.0,
+      "2": 0.25,
+      "3": 0.25
+     },
+     "3": {
+      "0": 0.25,
+      "1": 2.0,
+      "2": 0.25,
+      "3": 0.25
+     },
+     "4": {
+      "0": 0.25,
+      "1": 4.0,
+      "2": 0.25,
+      "3": 0.25
+     }
+    },
+    "ext": {
+     "0": {
+      "0": 0.0,
+      "1": 2.0,
+      "2": 0.125,
+      "3": 0.25
+     },
+     "1": {
+      "0": 0.0,
+      "1": 1.0,
+      "2": 0.0625,
+      "3": 0.25
+     },
+     "2": {
+      "0": 0.0,
+      "1": 2.0,
+      "2": 0.125,
+      "3": 0.0625
+     },
+     "3": {
+      "0": 0.0,
+      "1": 2.0,
+      "2": 0.125,
+      "3": 0.25
+     },
+     "4": {
+      "0": 0.0,
+      "1": 4.0,
+      "2": 0.125,
+      "3": 0.25
+     }
+    }
+   },
+   "b7_margin_check": true
+  },
+  "t3": {
+   "tracker": "t3",
+   "seeds": {
+    "bootstrap": [
+     20261201,
+     1,
+     5
+    ],
+    "power": [
+     20261202,
+     1,
+     5
+    ]
+   },
+   "B": 4000,
+   "run_record_sha256": "894de67069e1b64f6398634c9dee43a7fff1060938c8145685c6e260f8edd0cd",
+   "arms": {
+    "Mstar": {
+     "label": "Mstar",
+     "power_key": [
+      20261202,
+      1,
+      5
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 8,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.04295600831997782,
+       "lb": 0.04012088182774064,
+       "ub": 0.04700628879924565,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.03239819091422257,
+       "lb": 0.025350697850818983,
+       "ub": 0.040750328479627895,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.040455847744691874,
+       "lb": 0.03220107119897112,
+       "ub": 0.05200397614913965,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.2466319822544868,
+     "infeasible_ci95": [
+      0.22630761443839492,
+      0.2680736963097399
+     ],
+     "seconds": 21.4
+    },
+    "X3E2_B0_cache_cov": {
+     "label": "X3E2_B0_cache_cov",
+     "power_key": [
+      20261202,
+      1,
+      5,
+      100
+     ],
+     "status": {
+      "valid": false,
+      "shown_above": false,
+      "floor_only": true,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 25
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": false,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 13
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 4,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.004109316781095675,
+       "lb": 0.003391248958928876,
+       "ub": 0.005168203264768314,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.0030934971930771616,
+       "lb": 0.0008685643028741334,
+       "ub": 0.0056160317357904325,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.002950612030176641,
+       "lb": 0.0012034802387624302,
+       "ub": 0.004879637721294216,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.8575049808429118,
+     "infeasible_ci95": [
+      0.8397128654970758,
+      0.8748386650534382
+     ],
+     "seconds": 2.9,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.610872998588425,
+      "ci95": [
+       -0.6341336237144588,
+       -0.5887841459971769
+      ],
+      "ub_0.95": -0.591686364186328,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "B0 on the cache's own covariance (check)"
+    },
+    "X3E2_B0_qrefit": {
+     "label": "X3E2_B0_qrefit",
+     "power_key": [
+      20261202,
+      1,
+      5,
+      101
+     ],
+     "status": {
+      "valid": false,
+      "shown_above": false,
+      "floor_only": true,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 25
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": false,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 4,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.00636411090648071,
+       "lb": 0.005471266919080686,
+       "ub": 0.007681725882413374,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.004612139395630432,
+       "lb": 0.002349730056585701,
+       "ub": 0.007423006312683426,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.0064852727860549115,
+       "lb": 0.003805187439228793,
+       "ub": 0.00981630932426332,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.8135737043758821,
+     "infeasible_ci95": [
+      0.7932962290784435,
+      0.8334515063520872
+     ],
+     "seconds": 3.0,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.5669417221213955,
+      "ci95": [
+       -0.5902012220205687,
+       -0.5442736842105264
+      ],
+      "ub_0.95": -0.5478581165557572,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "Q-refit, plan grid"
+    },
+    "X3E2_B0_qrefit_ext": {
+     "label": "X3E2_B0_qrefit_ext",
+     "power_key": [
+      20261202,
+      1,
+      5,
+      102
+     ],
+     "status": {
+      "valid": false,
+      "shown_above": false,
+      "floor_only": true,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 25
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": false,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 4,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.007807730321547199,
+       "lb": 0.006806131661333496,
+       "ub": 0.009310728049107856,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.006038190410999573,
+       "lb": 0.0037267380438859125,
+       "ub": 0.009014241689721857,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.008024886739136889,
+       "lb": 0.004975952524307936,
+       "ub": 0.011859635113507192,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.7834928009679372,
+     "infeasible_ci95": [
+      0.7626382778786047,
+      0.8041556120185521
+     ],
+     "seconds": 3.1,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.5368608187134504,
+      "ci95": [
+       -0.5601038596491225,
+       -0.5145227102238354
+      ],
+      "ub_0.95": -0.5176576567856425,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "Q-refit, extended grid (amendment A2)"
+    },
+    "X3E1_B5": {
+     "label": "X3E1_B5",
+     "power_key": [
+      20261202,
+      1,
+      5,
+      110
+     ],
+     "status": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|straight",
+         "car|long|turning",
+         "car|long|new",
+         "car|lat|turning",
+         "car|lat|new",
+         "pedestrian|lat|static",
+         "pedestrian|lat|new",
+         "large|long|straight",
+         "large|long|turning",
+         "large|long|new"
+        ],
+        "family_flagged": [
+         "car|long|straight",
+         "car|long|turning",
+         "car|long|new",
+         "car|lat|turning",
+         "car|lat|new",
+         "pedestrian|lat|static",
+         "pedestrian|lat|new",
+         "large|long|straight"
+        ],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|straight",
+         "car|long|new"
+        ],
+        "family_flagged": [
+         "car|long|straight",
+         "pedestrian|lat|static"
+        ],
+        "family_size": 7,
+        "evaluable": 18
+       },
+       "PD_inpath": {
+        "NoFlag": false,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|lat|turning"
+        ],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.050691459550216686,
+       "lb": 0.04723991291125368,
+       "ub": 0.055621837829702925,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.03459977312210199,
+       "lb": 0.027516628087490606,
+       "ub": 0.04306235189885573,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.05344396431191246,
+       "lb": 0.04313469807914688,
+       "ub": 0.06789724322470504,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.23950086711030455,
+     "infeasible_ci95": [
+      0.21884090744101636,
+      0.2607363057067957
+     ],
+     "seconds": 3.3,
+     "Mstar_minus_arm": {
+      "mean_diff": 0.007131115144182295,
+      "ci95": [
+       -0.0023338011695906414,
+       0.016589090542448084
+      ],
+      "ub_0.95": 0.01518305303488606,
+      "p_lt0": 0.9240189952511872
+     },
+     "description": "B5: per-axis CRC scalars"
+    },
+    "X3E1_B8": {
+     "label": "X3E1_B8",
+     "power_key": [
+      20261202,
+      1,
+      5,
+      111
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 6,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.014821241973488547,
+       "lb": 0.013255876031239426,
+       "ub": 0.016989730773728465,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.014409746918553635,
+       "lb": 0.008173125414217951,
+       "ub": 0.02146379619382918,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.029789569902255963,
+       "lb": 0.022728404730691668,
+       "ub": 0.039582521115513004,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.5073624521072797,
+     "infeasible_ci95": [
+      0.48183760435571704,
+      0.5338919096592053
+     ],
+     "seconds": 3.3,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.26073046985279297,
+      "ci95": [
+       -0.28173995563621707,
+       -0.2403966444847751
+      ],
+      "ub_0.95": -0.2434204799354709,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "B8: stratified variance matching"
+    },
+    "X3E1_B7": {
+     "label": "X3E1_B7",
+     "power_key": [
+      20261202,
+      1,
+      5,
+      112
+     ],
+     "status": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|straight",
+         "car|long|turning",
+         "car|long|new",
+         "car|lat|new",
+         "large|long|static",
+         "large|long|new"
+        ],
+        "family_flagged": [
+         "car|long|straight",
+         "car|long|turning",
+         "car|long|new",
+         "car|lat|new",
+         "pedestrian|lat|static",
+         "pedestrian|lat|new",
+         "large|long|static",
+         "large|long|straight"
+        ],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 7,
+        "evaluable": 18
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.04853707690696324,
+       "lb": 0.04504481667023302,
+       "ub": 0.05345042699878366,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.027557350680291335,
+       "lb": 0.02133793189392308,
+       "ub": 0.03492464956410501,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.05323620372779052,
+       "lb": 0.042461340605182335,
+       "ub": 0.06860089304138374,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.26341649526114136,
+     "infeasible_ci95": [
+      0.24222136721113133,
+      0.2858919338576326
+     ],
+     "seconds": 3.3,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.016784513006654567,
+      "ci95": [
+       -0.02961136519459568,
+       -0.003964303286953015
+      ],
+      "ub_0.95": -0.006009776164549304,
+      "p_lt0": 0.005748562859285179
+     },
+     "description": "B7: learned scale"
+    }
+   },
+   "runs": [
+    "e2_t3",
+    "e1_t3"
+   ],
+   "check_e2": true,
+   "q_tables": {
+    "plan": {
+     "0": {
+      "0": 0.25,
+      "1": 0.25,
+      "2": 0.25,
+      "3": 0.25
+     },
+     "1": {
+      "0": 0.25,
+      "1": 0.25,
+      "2": 0.25,
+      "3": 0.25
+     },
+     "2": {
+      "0": 0.25,
+      "1": 0.25,
+      "2": 0.25,
+      "3": 0.25
+     },
+     "3": {
+      "0": 0.25,
+      "1": 0.25,
+      "2": 0.25,
+      "3": 0.25
+     },
+     "4": {
+      "0": 0.25,
+      "1": 0.25,
+      "2": 0.25,
+      "3": 0.25
+     }
+    },
+    "ext": {
+     "0": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0
+     },
+     "1": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0
+     },
+     "2": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0
+     },
+     "3": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0
+     },
+     "4": {
+      "0": 0.0,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0
+     }
+    }
+   },
+   "b7_margin_check": true
+  }
+ },
+ "seconds": 123.7
+}

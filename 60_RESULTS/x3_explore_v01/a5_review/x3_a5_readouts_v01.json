@@ -1,0 +1,243 @@
+{
+ "stamp": "X3 POST-REGISTRATION EXPLORATORY (after the verdict of record; not part of the registered test)",
+ "label": "added after review (amendment A5)",
+ "i": {
+  "t1": {
+   "PD7_primary": {
+    "exceed": 24186,
+    "records": 533293,
+    "pooled_record_weighted": 0.04535217975859424,
+    "cells_used": 27,
+    "cells_all": 32,
+    "records_all_cells": 534846,
+    "share_of_records_covered": 0.9970963604476802,
+    "note": "the CSV stores 'exceed' only for evaluable cells; non-evaluable cells (records only) are left out"
+   },
+   "SD1_7_gap_le_5m": {
+    "exceed": 1780,
+    "records": 56403,
+    "pooled_record_weighted": 0.03155860503873907,
+    "cells_used": 16,
+    "cells_all": 32,
+    "records_all_cells": 57257,
+    "share_of_records_covered": 0.9850847931257314,
+    "note": "the CSV stores 'exceed' only for evaluable cells; non-evaluable cells (records only) are left out"
+   },
+   "PD_inpath": {
+    "exceed": 653,
+    "records": 18385,
+    "pooled_record_weighted": 0.03551808539570302,
+    "cells_used": 8,
+    "cells_all": 32,
+    "records_all_cells": 20692,
+    "share_of_records_covered": 0.8885076358012759,
+    "note": "the CSV stores 'exceed' only for evaluable cells; non-evaluable cells (records only) are left out"
+   }
+  },
+  "t3": {
+   "PD7_primary": {
+    "exceed": 23663,
+    "records": 531815,
+    "pooled_record_weighted": 0.044494796122711844,
+    "cells_used": 27,
+    "cells_all": 32,
+    "records_all_cells": 533331,
+    "share_of_records_covered": 0.9971574875640081,
+    "note": "the CSV stores 'exceed' only for evaluable cells; non-evaluable cells (records only) are left out"
+   },
+   "SD1_7_gap_le_5m": {
+    "exceed": 1680,
+    "records": 56523,
+    "pooled_record_weighted": 0.029722413884613344,
+    "cells_used": 16,
+    "cells_all": 32,
+    "records_all_cells": 57463,
+    "share_of_records_covered": 0.9836416476689348,
+    "note": "the CSV stores 'exceed' only for evaluable cells; non-evaluable cells (records only) are left out"
+   },
+   "PD_inpath": {
+    "exceed": 613,
+    "records": 17562,
+    "pooled_record_weighted": 0.034904908324792164,
+    "cells_used": 8,
+    "cells_all": 32,
+    "records_all_cells": 19754,
+    "share_of_records_covered": 0.8890351321251392,
+    "note": "the CSV stores 'exceed' only for evaluable cells; non-evaluable cells (records only) are left out"
+   }
+  }
+ },
+ "ii": {
+  "t1": {
+   "records": 20692,
+   "fallback_records": 1543,
+   "share": 0.07456988208003093,
+   "source": "c1_analysis_r1.json k8.within_lt3d.t1.A13_fallback_record_weighted.by_population.PD_inpath.pooled"
+  },
+  "t3": {
+   "records": 19754,
+   "fallback_records": 1497,
+   "share": 0.07578212007694644,
+   "source": "c1_analysis_r1.json k8.within_lt3d.t3.A13_fallback_record_weighted.by_population.PD_inpath.pooled"
+  }
+ },
+ "iii": {
+  "t1": {
+   "screen_flag_any_population_at_delta": 0.113,
+   "simultaneous_ub_coverage_at_observed_rates": {
+    "PD7_primary": {
+     "sim_ub_cover_all": 0.346,
+     "sim_ub_cover_all_ci95": [
+      0.3171566601020642,
+      0.3760219815114867
+     ],
+     "sim_ub_cover_cell_mean": 0.9632962962962963,
+     "sim_ub_cover_cell_min": 0.868,
+     "hk1c_cover": 0.994
+    },
+    "SD1_7_gap_le_5m": {
+     "sim_ub_cover_all": 0.37,
+     "sim_ub_cover_all_ci95": [
+      0.3406266753339855,
+      0.4003682818722588
+     ],
+     "sim_ub_cover_cell_mean": 0.9373125,
+     "sim_ub_cover_cell_min": 0.857,
+     "hk1c_cover": 0.978
+    },
+    "PD_inpath": {
+     "sim_ub_cover_all": 0.406,
+     "sim_ub_cover_all_ci95": [
+      0.37597870513494724,
+      0.43674072546033715
+     ],
+     "sim_ub_cover_cell_mean": 0.896,
+     "sim_ub_cover_cell_min": 0.671,
+     "hk1c_cover": 0.969
+    }
+   },
+   "screen_flag_any_population_at_observed_rates": 0.615
+  },
+  "t3": {
+   "screen_flag_any_population_at_delta": 0.127,
+   "simultaneous_ub_coverage_at_observed_rates": {
+    "PD7_primary": {
+     "sim_ub_cover_all": 0.271,
+     "sim_ub_cover_all_ci95": [
+      0.2443667197375407,
+      0.2993859356488436
+     ],
+     "sim_ub_cover_cell_mean": 0.9548888888888889,
+     "sim_ub_cover_cell_min": 0.712,
+     "hk1c_cover": 0.991
+    },
+    "SD1_7_gap_le_5m": {
+     "sim_ub_cover_all": 0.256,
+     "sim_ub_cover_all_ci95": [
+      0.22992018472379963,
+      0.2839472734171513
+     ],
+     "sim_ub_cover_cell_mean": 0.9190625,
+     "sim_ub_cover_cell_min": 0.85,
+     "hk1c_cover": 0.978
+    },
+    "PD_inpath": {
+     "sim_ub_cover_all": 0.52,
+     "sim_ub_cover_all_ci95": [
+      0.4890177246575191,
+      0.5508292050030589
+     ],
+     "sim_ub_cover_cell_mean": 0.921625,
+     "sim_ub_cover_cell_min": 0.849,
+     "hk1c_cover": 0.97
+    }
+   },
+   "screen_flag_any_population_at_observed_rates": 0.404
+  }
+ },
+ "iv": {
+  "t1": {
+   "holm_levels": {
+    "0.005000": {
+     "level": 0.995,
+     "ub": 0.010642998185117944,
+     "holds": true
+    },
+    "0.006250": {
+     "level": 0.99375,
+     "ub": 0.009927570074611798,
+     "holds": true
+    },
+    "0.008333": {
+     "level": 0.9916666666666667,
+     "ub": 0.008849614841701972,
+     "holds": true
+    },
+    "0.012500": {
+     "level": 0.9875,
+     "ub": 0.0072609860859044785,
+     "holds": true
+    },
+    "0.025000": {
+     "level": 0.975,
+     "ub": 0.004523976608187124,
+     "holds": true
+    }
+   },
+   "nominal": {
+    "level": 0.975,
+    "ub": 0.004523976608187124,
+    "c": 0.03
+   }
+  },
+  "t3": {
+   "holm_levels": {
+    "0.005000": {
+     "level": 0.995,
+     "ub": -0.04939096350070585,
+     "holds": true
+    },
+    "0.006250": {
+     "level": 0.99375,
+     "ub": -0.04989634906231095,
+     "holds": true
+    },
+    "0.008333": {
+     "level": 0.9916666666666667,
+     "ub": -0.05070358136721111,
+     "holds": true
+    },
+    "0.012500": {
+     "level": 0.9875,
+     "ub": -0.051945337769711594,
+     "holds": true
+    },
+    "0.025000": {
+     "level": 0.975,
+     "ub": -0.05415201048598506,
+     "holds": true
+    }
+   },
+   "nominal": {
+    "level": 0.975,
+    "ub": -0.05415201048598506,
+    "c": 0.03
+   }
+  },
+  "holm_level_assigned": 0.005,
+  "bound_at_holm_level": {
+   "t1": {
+    "level": 0.995,
+    "ub": 0.010642998185117944,
+    "holds": true
+   },
+   "t3": {
+    "level": 0.995,
+    "ub": -0.04939096350070585,
+    "holds": true
+   }
+  },
+  "p": 2.499937501562461e-05,
+  "status": "holds"
+ }
+}

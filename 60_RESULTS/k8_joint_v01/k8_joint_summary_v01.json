@@ -1,0 +1,2973 @@
+{
+ "analysis": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\70_TESTS\\k8_joint_v01_linux\\full_v02fits\\k8_joint_analysis_v04.json",
+ "analysis_sha256": "264f75510bf5abb7979277db834b6ee69175ffc2217cd033935514ce4683999c",
+ "stamp": "EXPLORATORY (K8 joint arm M*J, k8_run_v04 --joint): nuScenes development evidence, not a confirmation",
+ "delta": 0.05,
+ "fits": {
+  "t1": {
+   "path": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\60_RESULTS\\k8_joint_fits_v01\\k8_joint_fits_t1_v02.json",
+   "sha256": "d418f5a6d9c1ed2843d5a5cfb9767253811198d0bc648b5864705fd581eeefbc"
+  },
+  "t3": {
+   "path": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\60_RESULTS\\k8_joint_fits_v01\\k8_joint_fits_t3_v02.json",
+   "sha256": "e4b3b6e0cc1a972734ec7d953a06a2d964427c4641772dcaf7747b1f7649d271"
+  }
+ },
+ "trackers": {
+  "t1": {
+   "stamp": "EXPLORATORY (K8 joint arm M*J, k8_run_v04 --joint): nuScenes development evidence, not a confirmation",
+   "scenes": 840,
+   "logs": 68,
+   "arms": [
+    {
+     "arm": "Mstar",
+     "per_constraint_valid_form_B": true,
+     "HK1": true,
+     "HK1c_all_pops": true,
+     "joint_valid": false,
+     "infeasible_rate": 0.11405202628886839,
+     "infeasible_ci95": [
+      0.09945089410924259,
+      0.12897064432187985
+     ],
+     "V1_PD7": 0.042232253706022314,
+     "V1_PD7_ub": 0.04489531988660831,
+     "V2_PD7": 0.35841500662282,
+     "V2_PD7_ci95": [
+      0.32541019281360634,
+      0.39211290376523583
+     ],
+     "V2_PD7_ub": 0.386682128446988,
+     "V2_PD7_lb": 0.3309125058899652,
+     "V2_PD7_flagged": true,
+     "V2_PD7_valid": false,
+     "V1_SD1_7": 0.03211741473054023,
+     "V1_SD1_7_ub": 0.036423553932240456,
+     "V2_SD1_7": 0.09056778313078521,
+     "V2_SD1_7_ci95": [
+      0.08099019443380599,
+      0.10046111811300701
+     ],
+     "V2_SD1_7_ub": 0.09864536687615574,
+     "V2_SD1_7_lb": 0.08211646521921054,
+     "V2_SD1_7_flagged": true,
+     "V2_SD1_7_valid": false,
+     "V1_PD": 0.049452247143123046,
+     "V1_PD_ub": 0.058649208350046056,
+     "V2_PD": 0.09195673480080688,
+     "V2_PD_ci95": [
+      0.07732591709715422,
+      0.10616254586791611
+     ],
+     "V2_PD_ub": 0.10440007933180068,
+     "V2_PD_lb": 0.07978932999505362,
+     "V2_PD_flagged": true,
+     "V2_PD_valid": false,
+     "V2_PD7_reference": 0.30800149050809983,
+     "V2_PD7_tracks_per_decision": 8.349703166226913,
+     "V2_viol_PD7": 0.007971645108940384,
+     "V2_viol_PD7_ci95": [
+      0.00597033160307454,
+      0.010070936879320367
+     ],
+     "V2_near_PD7": 0.09056778313078521,
+     "V2_near_PD7_ci95": [
+      0.08099019443380599,
+      0.10046111811300701
+     ],
+     "V2_binding_PD7": 0.034977407663086005,
+     "V2_binding_PD7_ci95": [
+      0.026601990020554314,
+      0.04460128387043175
+     ],
+     "V2_exec_PD7": 0.4039629542673617,
+     "V2_exec_PD7_ci95": [
+      0.37125751334212004,
+      0.43657119085611673
+     ],
+     "V2_one_step_PD7": 0.2597644886936251,
+     "V2_one_step_PD7_ci95": [
+      0.23083889618041847,
+      0.2895195227393249
+     ],
+     "V2_near_PD7_reference": 0.0955616848162854,
+     "progress_ratio": 0.9792945399864453,
+     "mean_chosen_speed": 4.911697187093889,
+     "estop_share": 0.007829058092215986,
+     "mean_backoff_level": 0.9299255860111124
+    },
+    {
+     "arm": "MstarJ",
+     "per_constraint_valid_form_B": true,
+     "HK1": true,
+     "HK1c_all_pops": true,
+     "joint_valid": true,
+     "infeasible_rate": 0.4210992918887656,
+     "infeasible_ci95": [
+      0.3881580576097006,
+      0.45283018941812314
+     ],
+     "V1_PD7": 0.003775729836804429,
+     "V1_PD7_ub": 0.00437379958217866,
+     "V2_PD7": 0.04829686630069607,
+     "V2_PD7_ci95": [
+      0.037878681107940376,
+      0.06004884043078723
+     ],
+     "V2_PD7_ub": 0.057661475857791536,
+     "V2_PD7_lb": 0.038515926540212214,
+     "V2_PD7_flagged": false,
+     "V2_PD7_valid": true,
+     "V1_SD1_7": 0.0024066634073486616,
+     "V1_SD1_7_ub": 0.0031057287221707237,
+     "V2_SD1_7": 0.006629929089461103,
+     "V2_SD1_7_ci95": [
+      0.004886552362126593,
+      0.008570547579824535
+     ],
+     "V2_SD1_7_ub": 0.0081446636748851,
+     "V2_SD1_7_lb": 0.004995448820542162,
+     "V2_SD1_7_flagged": false,
+     "V2_SD1_7_valid": true,
+     "V1_PD": 0.000993995996906391,
+     "V1_PD_ub": 0.0018722646637237318,
+     "V2_PD": 0.0020784532733062145,
+     "V2_PD_ci95": [
+      0.0003724388547153814,
+      0.004358979713133747
+     ],
+     "V2_PD_ub": 0.003606742258652613,
+     "V2_PD_lb": 0.0001557312782230224,
+     "V2_PD_flagged": false,
+     "V2_PD_valid": true,
+     "V2_PD7_reference": 0.30466843205709326,
+     "V2_PD7_tracks_per_decision": 8.255157365776249,
+     "V2_viol_PD7": 0.0029490243430511883,
+     "V2_viol_PD7_ci95": [
+      0.001730684632645712,
+      0.0043136424289513635
+     ],
+     "V2_near_PD7": 0.006629929089461103,
+     "V2_near_PD7_ci95": [
+      0.004886552362126593,
+      0.008570547579824535
+     ],
+     "V2_binding_PD7": 0.0017687963543265442,
+     "V2_binding_PD7_ci95": [
+      0.0007862452551327921,
+      0.0030023126549915138
+     ],
+     "V2_exec_PD7": 0.209344667999246,
+     "V2_exec_PD7_ci95": [
+      0.18495467785182543,
+      0.2335836704357647
+     ],
+     "V2_one_step_PD7": 0.03439478240089318,
+     "V2_one_step_PD7_ci95": [
+      0.024755676703073,
+      0.04505339472979034
+     ],
+     "V2_near_PD7_reference": 0.08955508253982662,
+     "progress_ratio": 0.9607854859555136,
+     "mean_chosen_speed": 4.743057494517308,
+     "estop_share": 0.007829058092215986,
+     "mean_backoff_level": 0.7377559923283609,
+     "arm_minus_Mstar_infeasible_rate": 0.3070472655998972,
+     "arm_minus_Mstar_infeasible_rate_ci95": [
+      0.2807866596686727,
+      0.3327078017374255
+     ],
+     "arm_minus_Mstar_V2_PD7_scene_rate": -0.310118140322124,
+     "arm_minus_Mstar_V2_PD7_scene_rate_ci95": [
+      -0.33519747990704196,
+      -0.2847887517095282
+     ],
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate": -0.005022620765889197,
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate_ci95": [
+      -0.0064501670714924185,
+      -0.003576930343488155
+     ],
+     "arm_minus_Mstar_V1_PD7_scene_rate": -0.038456523869217885,
+     "arm_minus_Mstar_V1_PD7_scene_rate_ci95": [
+      -0.041369816773024676,
+      -0.03556370326661555
+     ],
+     "arm_minus_Mstar_progress_ratio": -0.018509054030931796,
+     "arm_minus_Mstar_progress_ratio_ci95": [
+      -0.020650823958893866,
+      -0.016449494404748972
+     ]
+    },
+    {
+     "arm": "MstarJx",
+     "per_constraint_valid_form_B": true,
+     "HK1": true,
+     "HK1c_all_pops": true,
+     "joint_valid": true,
+     "infeasible_rate": 0.4527621461831988,
+     "infeasible_ci95": [
+      0.4157649233408632,
+      0.48713939653738825
+     ],
+     "V1_PD7": 0.00350400383205059,
+     "V1_PD7_ub": 0.004121612229671549,
+     "V2_PD7": 0.043633107249957295,
+     "V2_PD7_ci95": [
+      0.03325000213993169,
+      0.055879135169661004
+     ],
+     "V2_PD7_ub": 0.052075003634602365,
+     "V2_PD7_lb": 0.03405346915060718,
+     "V2_PD7_flagged": false,
+     "V2_PD7_valid": true,
+     "V1_SD1_7": 0.003712430906755016,
+     "V1_SD1_7_ub": 0.005583949143019122,
+     "V2_SD1_7": 0.007563925113404356,
+     "V2_SD1_7_ci95": [
+      0.004764156081887002,
+      0.01096587099245762
+     ],
+     "V2_SD1_7_ub": 0.009977619112929763,
+     "V2_SD1_7_lb": 0.004726251167575869,
+     "V2_SD1_7_flagged": false,
+     "V2_SD1_7_valid": true,
+     "V1_PD": 0.0011847055505895886,
+     "V1_PD_ub": 0.0021252359533016052,
+     "V2_PD": 0.002450610496424976,
+     "V2_PD_ci95": [
+      0.0005583546365470771,
+      0.0048468615258186526
+     ],
+     "V2_PD_ub": 0.004099576870703621,
+     "V2_PD_lb": 0.0004806105030512628,
+     "V2_PD_flagged": false,
+     "V2_PD_valid": true,
+     "V2_PD7_reference": 0.3037157924137235,
+     "V2_PD7_tracks_per_decision": 8.22784558896497,
+     "V2_viol_PD7": 0.0031918882555392256,
+     "V2_viol_PD7_ci95": [
+      0.0018740607337615113,
+      0.004658732204466103
+     ],
+     "V2_near_PD7": 0.007563925113404356,
+     "V2_near_PD7_ci95": [
+      0.004764156081887002,
+      0.01096587099245762
+     ],
+     "V2_binding_PD7": 0.0034593763299793447,
+     "V2_binding_PD7_ci95": [
+      0.0014892890567390527,
+      0.0060584015007121
+     ],
+     "V2_exec_PD7": 0.21588174859866974,
+     "V2_exec_PD7_ci95": [
+      0.19143224453617105,
+      0.24044605587652207
+     ],
+     "V2_one_step_PD7": 0.03070157845794223,
+     "V2_one_step_PD7_ci95": [
+      0.021638976073258008,
+      0.04179683640040014
+     ],
+     "V2_near_PD7_reference": 0.08887453859508307,
+     "progress_ratio": 0.9611451059692449,
+     "mean_chosen_speed": 4.740047554366209,
+     "estop_share": 0.007829058092215986,
+     "mean_backoff_level": 0.7118944808747442,
+     "arm_minus_Mstar_infeasible_rate": 0.3387101198943304,
+     "arm_minus_Mstar_infeasible_rate_ci95": [
+      0.30653623925072004,
+      0.36986052336851166
+     ],
+     "arm_minus_Mstar_V2_PD7_scene_rate": -0.3147818993728627,
+     "arm_minus_Mstar_V2_PD7_scene_rate_ci95": [
+      -0.34174918082268596,
+      -0.2880892149071579
+     ],
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate": -0.004779756853401159,
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate_ci95": [
+      -0.006099431924539225,
+      -0.0035092706145695763
+     ],
+     "arm_minus_Mstar_V1_PD7_scene_rate": -0.038728249873971735,
+     "arm_minus_Mstar_V1_PD7_scene_rate_ci95": [
+      -0.04163711348598192,
+      -0.03578344739503364
+     ],
+     "arm_minus_Mstar_progress_ratio": -0.01814943401720042,
+     "arm_minus_Mstar_progress_ratio_ci95": [
+      -0.020324667317655514,
+      -0.0160245619174435
+     ]
+    },
+    {
+     "arm": "B4",
+     "per_constraint_valid_form_B": false,
+     "HK1": false,
+     "HK1c_all_pops": false,
+     "joint_valid": false,
+     "infeasible_rate": 0.19813416944995893,
+     "infeasible_ci95": [
+      0.17487551677677957,
+      0.22124583667944786
+     ],
+     "V1_PD7": 0.051615605628124915,
+     "V1_PD7_ub": 0.056670731586233536,
+     "V2_PD7": 0.3697810787211642,
+     "V2_PD7_ci95": [
+      0.33134034949799984,
+      0.407795048906835
+     ],
+     "V2_PD7_ub": 0.4017849217520879,
+     "V2_PD7_lb": 0.3387467625675695,
+     "V2_PD7_flagged": true,
+     "V2_PD7_valid": false,
+     "V1_SD1_7": 0.043714372704505455,
+     "V1_SD1_7_ub": 0.04972790735689324,
+     "V2_SD1_7": 0.09760280501236078,
+     "V2_SD1_7_ci95": [
+      0.08498955393634812,
+      0.11090289366922275
+     ],
+     "V2_SD1_7_ub": 0.10845171399591064,
+     "V2_SD1_7_lb": 0.08682745495330382,
+     "V2_SD1_7_flagged": true,
+     "V2_SD1_7_valid": false,
+     "V1_PD": 0.07663125581429754,
+     "V1_PD_ub": 0.08819369016106768,
+     "V2_PD": 0.1237054596284939,
+     "V2_PD_ci95": [
+      0.1071296435375674,
+      0.13929458546578732
+     ],
+     "V2_PD_ub": 0.13799043800671082,
+     "V2_PD_lb": 0.11025806457052928,
+     "V2_PD_flagged": true,
+     "V2_PD_valid": false,
+     "V2_PD7_reference": 0.3070955555085496,
+     "V2_PD7_tracks_per_decision": 8.325103967258565,
+     "V2_viol_PD7": 0.013824490915336045,
+     "V2_viol_PD7_ci95": [
+      0.011053175099815068,
+      0.016830524034568424
+     ],
+     "V2_near_PD7": 0.09760280501236078,
+     "V2_near_PD7_ci95": [
+      0.08498955393634812,
+      0.11090289366922275
+     ],
+     "V2_binding_PD7": 0.04441773315707179,
+     "V2_binding_PD7_ci95": [
+      0.03579014997749005,
+      0.054765271814077504
+     ],
+     "V2_exec_PD7": 0.44013532533000416,
+     "V2_exec_PD7_ci95": [
+      0.40095172400319656,
+      0.47695124713903114
+     ],
+     "V2_one_step_PD7": 0.2650324513484184,
+     "V2_one_step_PD7_ci95": [
+      0.23214325010139708,
+      0.2979066996088687
+     ],
+     "V2_near_PD7_reference": 0.09361080686552616,
+     "progress_ratio": 0.9735005509599922,
+     "mean_chosen_speed": 4.862392328032831,
+     "estop_share": 0.007829058092215986,
+     "mean_backoff_level": 0.8746836653744549,
+     "arm_minus_Mstar_infeasible_rate": 0.08408214316109053,
+     "arm_minus_Mstar_infeasible_rate_ci95": [
+      0.06588945189686471,
+      0.10405079413336199
+     ],
+     "arm_minus_Mstar_V2_PD7_scene_rate": 0.01136607209834412,
+     "arm_minus_Mstar_V2_PD7_scene_rate_ci95": [
+      -0.011293834164063087,
+      0.03347650287515458
+     ],
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate": 0.005852845806395661,
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate_ci95": [
+      0.0042620249804707746,
+      0.007464144115859306
+     ],
+     "arm_minus_Mstar_V1_PD7_scene_rate": 0.009383351922102599,
+     "arm_minus_Mstar_V1_PD7_scene_rate_ci95": [
+      0.00514785283814414,
+      0.013508801100233746
+     ],
+     "arm_minus_Mstar_progress_ratio": -0.005793989026453062,
+     "arm_minus_Mstar_progress_ratio_ci95": [
+      -0.007635310881322448,
+      -0.004037175952545129
+     ]
+    },
+    {
+     "arm": "B0",
+     "per_constraint_valid_form_B": false,
+     "HK1": false,
+     "HK1c_all_pops": true,
+     "joint_valid": false,
+     "infeasible_rate": 0.3384662539925698,
+     "infeasible_ci95": [
+      0.3095453880979097,
+      0.36727195598033796
+     ],
+     "V1_PD7": 0.02575124180761627,
+     "V1_PD7_ub": 0.02853471300316778,
+     "V2_PD7": 0.21631733833191633,
+     "V2_PD7_ci95": [
+      0.1863816835179704,
+      0.2449418608281982
+     ],
+     "V2_PD7_ub": 0.2409855091194401,
+     "V2_PD7_lb": 0.1918648627668198,
+     "V2_PD7_flagged": true,
+     "V2_PD7_valid": false,
+     "V1_SD1_7": 0.024926890440429804,
+     "V1_SD1_7_ub": 0.029198854508756276,
+     "V2_SD1_7": 0.05123875228982349,
+     "V2_SD1_7_ci95": [
+      0.043393906965894305,
+      0.05953964751065826
+     ],
+     "V2_SD1_7_ub": 0.05783820386283888,
+     "V2_SD1_7_lb": 0.044194060216145484,
+     "V2_SD1_7_flagged": false,
+     "V2_SD1_7_valid": true,
+     "V1_PD": 0.044131316318958454,
+     "V1_PD_ub": 0.05411688360906152,
+     "V2_PD": 0.06735964453728087,
+     "V2_PD_ci95": [
+      0.05323060261907734,
+      0.08117992842986582
+     ],
+     "V2_PD_ub": 0.07904117316874672,
+     "V2_PD_lb": 0.05589259302059453,
+     "V2_PD_flagged": true,
+     "V2_PD_valid": false,
+     "V2_PD7_reference": 0.3057552979438143,
+     "V2_PD7_tracks_per_decision": 8.282652488359037,
+     "V2_viol_PD7": 0.012186073335817983,
+     "V2_viol_PD7_ci95": [
+      0.009555833386241221,
+      0.01497928581740959
+     ],
+     "V2_near_PD7": 0.05123875228982349,
+     "V2_near_PD7_ci95": [
+      0.043393906965894305,
+      0.05953964751065826
+     ],
+     "V2_binding_PD7": 0.02600299736006925,
+     "V2_binding_PD7_ci95": [
+      0.01992615696492397,
+      0.03295335119597126
+     ],
+     "V2_exec_PD7": 0.35112581200017035,
+     "V2_exec_PD7_ci95": [
+      0.316862979083618,
+      0.38511538490932157
+     ],
+     "V2_one_step_PD7": 0.14548024909492188,
+     "V2_one_step_PD7_ci95": [
+      0.12155571980808653,
+      0.16992394535998262
+     ],
+     "V2_near_PD7_reference": 0.08963296429480185,
+     "progress_ratio": 0.9646290601004761,
+     "mean_chosen_speed": 4.77642426579748,
+     "estop_share": 0.007829058092215986,
+     "mean_backoff_level": 0.7885502564449933,
+     "arm_minus_Mstar_infeasible_rate": 0.2244142277037014,
+     "arm_minus_Mstar_infeasible_rate_ci95": [
+      0.2013362791896712,
+      0.24856479381641225
+     ],
+     "arm_minus_Mstar_V2_PD7_scene_rate": -0.14209766829090364,
+     "arm_minus_Mstar_V2_PD7_scene_rate_ci95": [
+      -0.16092101582309223,
+      -0.12265113037474842
+     ],
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate": 0.004214428226877597,
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate_ci95": [
+      0.0027199993683309763,
+      0.005680977116659498
+     ],
+     "arm_minus_Mstar_V1_PD7_scene_rate": -0.016481011898406044,
+     "arm_minus_Mstar_V1_PD7_scene_rate_ci95": [
+      -0.018567664426837698,
+      -0.014421074678201308
+     ],
+     "arm_minus_Mstar_progress_ratio": -0.014665479885969184,
+     "arm_minus_Mstar_progress_ratio_ci95": [
+      -0.016697881875332225,
+      -0.012871852132487576
+     ]
+    },
+    {
+     "arm": "B1",
+     "per_constraint_valid_form_B": false,
+     "HK1": false,
+     "HK1c_all_pops": true,
+     "joint_valid": false,
+     "infeasible_rate": 0.3901004156267315,
+     "infeasible_ci95": [
+      0.3550085908529301,
+      0.4256057943262693
+     ],
+     "V1_PD7": 0.01671764940048469,
+     "V1_PD7_ub": 0.01869033656657566,
+     "V2_PD7": 0.15073927751934038,
+     "V2_PD7_ci95": [
+      0.1285599907455595,
+      0.172364317923633
+     ],
+     "V2_PD7_ub": 0.1690666275953071,
+     "V2_PD7_lb": 0.13240096980667432,
+     "V2_PD7_flagged": true,
+     "V2_PD7_valid": false,
+     "V1_SD1_7": 0.018140265117858847,
+     "V1_SD1_7_ub": 0.021427071283252025,
+     "V2_SD1_7": 0.036526838450731076,
+     "V2_SD1_7_ci95": [
+      0.029883871398902973,
+      0.04318229880747097
+     ],
+     "V2_SD1_7_ub": 0.041792174067987096,
+     "V2_SD1_7_lb": 0.030952039807552456,
+     "V2_SD1_7_flagged": false,
+     "V2_SD1_7_valid": true,
+     "V1_PD": 0.039843912318954434,
+     "V1_PD_ub": 0.04833720530821603,
+     "V2_PD": 0.06110325651507184,
+     "V2_PD_ci95": [
+      0.047719063385986055,
+      0.07515308998459001
+     ],
+     "V2_PD_ub": 0.07246001236727229,
+     "V2_PD_lb": 0.04927482102614621,
+     "V2_PD_flagged": false,
+     "V2_PD_valid": true,
+     "V2_PD7_reference": 0.30323132925037194,
+     "V2_PD7_tracks_per_decision": 8.186858180617467,
+     "V2_viol_PD7": 0.012649956282031286,
+     "V2_viol_PD7_ci95": [
+      0.009497485580964795,
+      0.015956419064972048
+     ],
+     "V2_near_PD7": 0.036526838450731076,
+     "V2_near_PD7_ci95": [
+      0.029883871398902973,
+      0.04318229880747097
+     ],
+     "V2_binding_PD7": 0.020043117027165998,
+     "V2_binding_PD7_ci95": [
+      0.014873488451718599,
+      0.025772993083697248
+     ],
+     "V2_exec_PD7": 0.29743824633577703,
+     "V2_exec_PD7_ci95": [
+      0.2695063517432809,
+      0.32520203547538945
+     ],
+     "V2_one_step_PD7": 0.0811789848346463,
+     "V2_one_step_PD7_ci95": [
+      0.06713566149802574,
+      0.09650079706860408
+     ],
+     "V2_near_PD7_reference": 0.08558942511645033,
+     "progress_ratio": 0.9623610121229553,
+     "mean_chosen_speed": 4.751275598450925,
+     "estop_share": 0.007829058092215986,
+     "mean_backoff_level": 0.7627742139913193,
+     "arm_minus_Mstar_infeasible_rate": 0.2760483893378631,
+     "arm_minus_Mstar_infeasible_rate_ci95": [
+      0.24797856754542047,
+      0.3050865531176118
+     ],
+     "arm_minus_Mstar_V2_PD7_scene_rate": -0.20767572910347962,
+     "arm_minus_Mstar_V2_PD7_scene_rate_ci95": [
+      -0.22789702661232783,
+      -0.18703639218309115
+     ],
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate": 0.004678311173090902,
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate_ci95": [
+      0.0025731212157362434,
+      0.0066433629842543645
+     ],
+     "arm_minus_Mstar_V1_PD7_scene_rate": -0.025514604305537623,
+     "arm_minus_Mstar_V1_PD7_scene_rate_ci95": [
+      -0.027957518017344512,
+      -0.023212079650138374
+     ],
+     "arm_minus_Mstar_progress_ratio": -0.016933527863489926,
+     "arm_minus_Mstar_progress_ratio_ci95": [
+      -0.019349243981827472,
+      -0.014580518333202041
+     ]
+    },
+    {
+     "arm": "B3",
+     "per_constraint_valid_form_B": true,
+     "HK1": true,
+     "HK1c_all_pops": true,
+     "joint_valid": true,
+     "infeasible_rate": 0.8663383814699603,
+     "infeasible_ci95": [
+      0.8383545635572296,
+      0.8908513162970265
+     ],
+     "V1_PD7": 0.0020023337039580947,
+     "V1_PD7_ub": 0.0024594391013102743,
+     "V2_PD7": 0.03006500634002093,
+     "V2_PD7_ci95": [
+      0.02132832286050096,
+      0.04100899093716413
+     ],
+     "V2_PD7_ub": 0.03791512734820587,
+     "V2_PD7_lb": 0.02109979446270749,
+     "V2_PD7_flagged": false,
+     "V2_PD7_valid": true,
+     "V1_SD1_7": 0.001192355552288455,
+     "V1_SD1_7_ub": 0.001771915578619018,
+     "V2_SD1_7": 0.002500719124246438,
+     "V2_SD1_7_ci95": [
+      0.0011079644565185494,
+      0.004049721379092383
+     ],
+     "V2_SD1_7_ub": 0.0036462083139019623,
+     "V2_SD1_7_lb": 0.0011722160422553795,
+     "V2_SD1_7_flagged": false,
+     "V2_SD1_7_valid": true,
+     "V1_PD": 0.0011756847743691697,
+     "V1_PD_ub": 0.0019880525004572977,
+     "V2_PD": 0.0034015132747016803,
+     "V2_PD_ci95": [
+      0.0008789803946053946,
+      0.006761263216341339
+     ],
+     "V2_PD_ub": 0.0057059843691633,
+     "V2_PD_lb": 0.0007004746807224597,
+     "V2_PD_flagged": false,
+     "V2_PD_valid": true,
+     "V2_PD7_reference": 0.2905801750380507,
+     "V2_PD7_tracks_per_decision": 7.827223908475368,
+     "V2_viol_PD7": 0.004364820448023395,
+     "V2_viol_PD7_ci95": [
+      0.0020444238083197055,
+      0.007280472854819469
+     ],
+     "V2_near_PD7": 0.002500719124246438,
+     "V2_near_PD7_ci95": [
+      0.0011079644565185494,
+      0.004049721379092383
+     ],
+     "V2_binding_PD7": 0.002465247459508265,
+     "V2_binding_PD7_ci95": [
+      0.0010225536855756488,
+      0.004133924071976413
+     ],
+     "V2_exec_PD7": 0.5034493391613193,
+     "V2_exec_PD7_ci95": [
+      0.4716774707942724,
+      0.5336934107348598
+     ],
+     "V2_one_step_PD7": 0.02426130501032637,
+     "V2_one_step_PD7_ci95": [
+      0.016759970183611427,
+      0.03393372360049191
+     ],
+     "V2_near_PD7_reference": 0.07040643684126921,
+     "progress_ratio": 0.9577319959903801,
+     "mean_chosen_speed": 4.676468724091546,
+     "estop_share": 0.007829058092215986,
+     "mean_backoff_level": 0.3037186293436293,
+     "arm_minus_Mstar_infeasible_rate": 0.752286355181092,
+     "arm_minus_Mstar_infeasible_rate_ci95": [
+      0.7249944552414171,
+      0.7768479449234754
+     ],
+     "arm_minus_Mstar_V2_PD7_scene_rate": -0.3283500002827991,
+     "arm_minus_Mstar_V2_PD7_scene_rate_ci95": [
+      -0.35613777946837893,
+      -0.30050991676604283
+     ],
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate": -0.0036068246609169893,
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate_ci95": [
+      -0.005681720217460468,
+      -0.001327097248723977
+     ],
+     "arm_minus_Mstar_V1_PD7_scene_rate": -0.04022992000206421,
+     "arm_minus_Mstar_V1_PD7_scene_rate_ci95": [
+      -0.043378943399236425,
+      -0.03710697188360684
+     ],
+     "arm_minus_Mstar_progress_ratio": -0.021562543996065282,
+     "arm_minus_Mstar_progress_ratio_ci95": [
+      -0.024343811394934314,
+      -0.018913505791097747
+     ]
+    },
+    {
+     "arm": "B6",
+     "per_constraint_valid_form_B": false,
+     "HK1": false,
+     "HK1c_all_pops": true,
+     "joint_valid": false,
+     "infeasible_rate": 0.17580690291216608,
+     "infeasible_ci95": [
+      0.15177040573652997,
+      0.1992859277279027
+     ],
+     "V1_PD7": 0.0427523825006628,
+     "V1_PD7_ub": 0.04682832464253406,
+     "V2_PD7": 0.328348293712019,
+     "V2_PD7_ci95": [
+      0.29371875168214223,
+      0.36275711010911466
+     ],
+     "V2_PD7_ub": 0.3571707571811377,
+     "V2_PD7_lb": 0.30046217918162343,
+     "V2_PD7_flagged": true,
+     "V2_PD7_valid": false,
+     "V1_SD1_7": 0.035597849263735076,
+     "V1_SD1_7_ub": 0.041097307883358705,
+     "V2_SD1_7": 0.08303159829252618,
+     "V2_SD1_7_ci95": [
+      0.07067376436118512,
+      0.09507519500801499
+     ],
+     "V2_SD1_7_ub": 0.0936545990647389,
+     "V2_SD1_7_lb": 0.07299930519900272,
+     "V2_SD1_7_flagged": true,
+     "V2_SD1_7_valid": false,
+     "V1_PD": 0.04767313377981937,
+     "V1_PD_ub": 0.05690198750581428,
+     "V2_PD": 0.0772205448267184,
+     "V2_PD_ci95": [
+      0.06336630856326236,
+      0.09098911388320993
+     ],
+     "V2_PD_ub": 0.08890211853334597,
+     "V2_PD_lb": 0.06594267293641144,
+     "V2_PD_flagged": true,
+     "V2_PD_valid": false,
+     "V2_PD7_reference": 0.30778294724774197,
+     "V2_PD7_tracks_per_decision": 8.342370868790818,
+     "V2_viol_PD7": 0.012191720986576638,
+     "V2_viol_PD7_ci95": [
+      0.009281050985597688,
+      0.01503004111389379
+     ],
+     "V2_near_PD7": 0.08303159829252618,
+     "V2_near_PD7_ci95": [
+      0.07067376436118512,
+      0.09507519500801499
+     ],
+     "V2_binding_PD7": 0.03854954906829828,
+     "V2_binding_PD7_ci95": [
+      0.027617653385441154,
+      0.050833257018046
+     ],
+     "V2_exec_PD7": 0.39003262644773584,
+     "V2_exec_PD7_ci95": [
+      0.35472045438630856,
+      0.4246152506201985
+     ],
+     "V2_one_step_PD7": 0.24414096639143315,
+     "V2_one_step_PD7_ci95": [
+      0.2139320864429303,
+      0.27471471998689384
+     ],
+     "V2_near_PD7_reference": 0.09437895478186847,
+     "progress_ratio": 0.9747844418771101,
+     "mean_chosen_speed": 4.874522622892353,
+     "estop_share": 0.007829058092215986,
+     "mean_backoff_level": 0.898990615832721,
+     "arm_minus_Mstar_infeasible_rate": 0.06175487662329768,
+     "arm_minus_Mstar_infeasible_rate_ci95": [
+      0.04340103874398777,
+      0.08141378974325301
+     ],
+     "arm_minus_Mstar_V2_PD7_scene_rate": -0.030066712910800916,
+     "arm_minus_Mstar_V2_PD7_scene_rate_ci95": [
+      -0.04763792596470464,
+      -0.011805534717913787
+     ],
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate": 0.004220075877636252,
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate_ci95": [
+      0.0026873810174380197,
+      0.005790626208251426
+     ],
+     "arm_minus_Mstar_V1_PD7_scene_rate": 0.000520128794640486,
+     "arm_minus_Mstar_V1_PD7_scene_rate_ci95": [
+      -0.0025064581084140256,
+      0.0035881193194937434
+     ],
+     "arm_minus_Mstar_progress_ratio": -0.004510098109335284,
+     "arm_minus_Mstar_progress_ratio_ci95": [
+      -0.0065486298602793255,
+      -0.0026465028640652918
+     ]
+    },
+    {
+     "arm": "B9",
+     "per_constraint_valid_form_B": false,
+     "HK1": false,
+     "HK1c_all_pops": true,
+     "joint_valid": false,
+     "infeasible_rate": 0.44735180814128184,
+     "infeasible_ci95": [
+      0.40777117498994925,
+      0.48636694913309203
+     ],
+     "V1_PD7": 0.012665569579254514,
+     "V1_PD7_ub": 0.01437480780958306,
+     "V2_PD7": 0.1256679661445799,
+     "V2_PD7_ci95": [
+      0.10505842828469375,
+      0.14559586018600332
+     ],
+     "V2_PD7_ub": 0.14299487620761606,
+     "V2_PD7_lb": 0.1085032462346443,
+     "V2_PD7_flagged": true,
+     "V2_PD7_valid": false,
+     "V1_SD1_7": 0.006791255973366654,
+     "V1_SD1_7_ub": 0.00837422805641734,
+     "V2_SD1_7": 0.015419186969926616,
+     "V2_SD1_7_ci95": [
+      0.012326436808952923,
+      0.01845770856867057
+     ],
+     "V2_SD1_7_ub": 0.01808192911722636,
+     "V2_SD1_7_lb": 0.012904893893477268,
+     "V2_SD1_7_flagged": false,
+     "V2_SD1_7_valid": true,
+     "V1_PD": 0.02798014929777397,
+     "V1_PD_ub": 0.035204523632429416,
+     "V2_PD": 0.04255036839826997,
+     "V2_PD_ci95": [
+      0.03163549562033002,
+      0.05492760243769913
+     ],
+     "V2_PD_ub": 0.05183799365452479,
+     "V2_PD_lb": 0.032684798610213193,
+     "V2_PD_flagged": false,
+     "V2_PD_valid": true,
+     "V2_PD7_reference": 0.3032298271532057,
+     "V2_PD7_tracks_per_decision": 8.199517801704207,
+     "V2_viol_PD7": 0.006147003454636518,
+     "V2_viol_PD7_ci95": [
+      0.004344458518144418,
+      0.007997032049230616
+     ],
+     "V2_near_PD7": 0.015419186969926616,
+     "V2_near_PD7_ci95": [
+      0.012326436808952923,
+      0.01845770856867057
+     ],
+     "V2_binding_PD7": 0.008980526937943292,
+     "V2_binding_PD7_ci95": [
+      0.006026149706984947,
+      0.012105084018928736
+     ],
+     "V2_exec_PD7": 0.32955258591103676,
+     "V2_exec_PD7_ci95": [
+      0.29318594979700624,
+      0.36674624406715267
+     ],
+     "V2_one_step_PD7": 0.08779549758682983,
+     "V2_one_step_PD7_ci95": [
+      0.07334091180421648,
+      0.10253796365216412
+     ],
+     "V2_near_PD7_reference": 0.08578745240481812,
+     "progress_ratio": 0.9615435499328664,
+     "mean_chosen_speed": 4.7520812625850315,
+     "estop_share": 0.007829058092215986,
+     "mean_backoff_level": 0.6925297629902892,
+     "arm_minus_Mstar_infeasible_rate": 0.3332997818524134,
+     "arm_minus_Mstar_infeasible_rate_ci95": [
+      0.30126204251626815,
+      0.36491696343409863
+     ],
+     "arm_minus_Mstar_V2_PD7_scene_rate": -0.23274704047824013,
+     "arm_minus_Mstar_V2_PD7_scene_rate_ci95": [
+      -0.2570092969766742,
+      -0.2085216861153147
+     ],
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate": -0.0018246416543038662,
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate_ci95": [
+      -0.0030167055195540944,
+      -0.0006759036852083263
+     ],
+     "arm_minus_Mstar_V1_PD7_scene_rate": -0.029566684126767804,
+     "arm_minus_Mstar_V1_PD7_scene_rate_ci95": [
+      -0.03263277611373436,
+      -0.026673668423519786
+     ],
+     "arm_minus_Mstar_progress_ratio": -0.017750990053578882,
+     "arm_minus_Mstar_progress_ratio_ci95": [
+      -0.02010020454206643,
+      -0.015243747082919269
+     ]
+    }
+   ],
+   "form_B_joint": {
+    "MstarJ": {
+     "method": "MstarJ",
+     "comparators": [
+      "Mstar",
+      "B0",
+      "B1",
+      "B3",
+      "B4",
+      "B6",
+      "B9"
+     ],
+     "comparators_valid_on_joint_loss": [
+      "B3"
+     ],
+     "comparators_invalid_on_joint_loss": [
+      "Mstar",
+      "B0",
+      "B1",
+      "B4",
+      "B6",
+      "B9"
+     ],
+     "level": 0.95,
+     "validity_method": true,
+     "lower_than_every_valid_comparator": {
+      "B3": {
+       "mean_diff": -0.44523908958119485,
+       "ub_one_sided": -0.42079376719133443,
+       "lower": true
+      }
+     },
+     "vacuous": false,
+     "missing_comparators": [
+      "RETUNED"
+     ],
+     "rule": "Form B validity (D14 v05 section 6 (i)) applied to the joint loss: for each of PD7, SD1_7 and PD the scene-level V2 (per scene, the share of its decisions with a relied record in the population that have >= 1 exceedance; then the mean over scenes) must be evaluable (>= 39 scenes from >= 8 logs), not flagged (A.flag: one-sided 0.95 log-cluster bootstrap lower bound > delta, or est > delta when the bootstrap SE is zero) and its one-sided 0.95 upper bound must be <= delta + 0.03 (HK1c). The same rule for M*J, M* and every comparator. HK1a's per-stratum cell family has no analogue (a decision's union spans strata), so the test is HK1b and HK1c on the pooled joint loss.",
+     "met": true,
+     "trade_off_table": [
+      {
+       "arm": "MstarJ",
+       "valid_joint": true,
+       "infeasible_rate": 0.4210992918887656,
+       "V2_PD7_E": 0.04829686630069607,
+       "V2_PD7_ub": 0.057661475857791536,
+       "V2_SD1_7_E": 0.006629929089461103,
+       "V2_SD1_7_ub": 0.0081446636748851,
+       "V2_PD_E": 0.0020784532733062145,
+       "V2_PD_ub": 0.003606742258652613
+      },
+      {
+       "arm": "Mstar",
+       "valid_joint": false,
+       "infeasible_rate": 0.11405202628886839,
+       "V2_PD7_E": 0.35841500662282,
+       "V2_PD7_ub": 0.386682128446988,
+       "V2_SD1_7_E": 0.09056778313078521,
+       "V2_SD1_7_ub": 0.09864536687615574,
+       "V2_PD_E": 0.09195673480080688,
+       "V2_PD_ub": 0.10440007933180068,
+       "method_minus_arm_infeasible": 0.3070472655998972,
+       "method_minus_arm_infeasible_ci95": [
+        0.2807866596686727,
+        0.3327078017374255
+       ]
+      },
+      {
+       "arm": "B0",
+       "valid_joint": false,
+       "infeasible_rate": 0.3384662539925698,
+       "V2_PD7_E": 0.21631733833191633,
+       "V2_PD7_ub": 0.2409855091194401,
+       "V2_SD1_7_E": 0.05123875228982349,
+       "V2_SD1_7_ub": 0.05783820386283888,
+       "V2_PD_E": 0.06735964453728087,
+       "V2_PD_ub": 0.07904117316874672,
+       "method_minus_arm_infeasible": 0.08263303789619578,
+       "method_minus_arm_infeasible_ci95": [
+        0.056859155498735915,
+        0.10821984459040716
+       ]
+      },
+      {
+       "arm": "B1",
+       "valid_joint": false,
+       "infeasible_rate": 0.3901004156267315,
+       "V2_PD7_E": 0.15073927751934038,
+       "V2_PD7_ub": 0.1690666275953071,
+       "V2_SD1_7_E": 0.036526838450731076,
+       "V2_SD1_7_ub": 0.041792174067987096,
+       "V2_PD_E": 0.06110325651507184,
+       "V2_PD_ub": 0.07246001236727229,
+       "method_minus_arm_infeasible": 0.030998876262034156,
+       "method_minus_arm_infeasible_ci95": [
+        0.0014179001092161293,
+        0.06079158918694971
+       ]
+      },
+      {
+       "arm": "B3",
+       "valid_joint": true,
+       "infeasible_rate": 0.8663383814699603,
+       "V2_PD7_E": 0.03006500634002093,
+       "V2_PD7_ub": 0.03791512734820587,
+       "V2_SD1_7_E": 0.002500719124246438,
+       "V2_SD1_7_ub": 0.0036462083139019623,
+       "V2_PD_E": 0.0034015132747016803,
+       "V2_PD_ub": 0.0057059843691633,
+       "method_minus_arm_infeasible": -0.44523908958119485,
+       "method_minus_arm_infeasible_ci95": [
+        -0.4733237463310952,
+        -0.41596825638122026
+       ]
+      },
+      {
+       "arm": "B4",
+       "valid_joint": false,
+       "infeasible_rate": 0.19813416944995893,
+       "V2_PD7_E": 0.3697810787211642,
+       "V2_PD7_ub": 0.4017849217520879,
+       "V2_SD1_7_E": 0.09760280501236078,
+       "V2_SD1_7_ub": 0.10845171399591064,
+       "V2_PD_E": 0.1237054596284939,
+       "V2_PD_ub": 0.13799043800671082,
+       "method_minus_arm_infeasible": 0.22296512243880665,
+       "method_minus_arm_infeasible_ci95": [
+        0.19334699140377437,
+        0.2521032433989406
+       ]
+      },
+      {
+       "arm": "B6",
+       "valid_joint": false,
+       "infeasible_rate": 0.17580690291216608,
+       "V2_PD7_E": 0.328348293712019,
+       "V2_PD7_ub": 0.3571707571811377,
+       "V2_SD1_7_E": 0.08303159829252618,
+       "V2_SD1_7_ub": 0.0936545990647389,
+       "V2_PD_E": 0.0772205448267184,
+       "V2_PD_ub": 0.08890211853334597,
+       "method_minus_arm_infeasible": 0.24529238897659952,
+       "method_minus_arm_infeasible_ci95": [
+        0.21788441668774375,
+        0.2728852157100444
+       ]
+      },
+      {
+       "arm": "B9",
+       "valid_joint": false,
+       "infeasible_rate": 0.44735180814128184,
+       "V2_PD7_E": 0.1256679661445799,
+       "V2_PD7_ub": 0.14299487620761606,
+       "V2_SD1_7_E": 0.015419186969926616,
+       "V2_SD1_7_ub": 0.01808192911722636,
+       "V2_PD_E": 0.04255036839826997,
+       "V2_PD_ub": 0.05183799365452479,
+       "method_minus_arm_infeasible": -0.026252516252516254,
+       "method_minus_arm_infeasible_ci95": [
+        -0.05368643886190411,
+        0.002512110128615232
+       ]
+      }
+     ]
+    },
+    "MstarJx": {
+     "method": "MstarJx",
+     "comparators": [
+      "Mstar",
+      "B0",
+      "B1",
+      "B3",
+      "B4",
+      "B6",
+      "B9"
+     ],
+     "comparators_valid_on_joint_loss": [
+      "B3"
+     ],
+     "comparators_invalid_on_joint_loss": [
+      "Mstar",
+      "B0",
+      "B1",
+      "B4",
+      "B6",
+      "B9"
+     ],
+     "level": 0.95,
+     "validity_method": true,
+     "lower_than_every_valid_comparator": {
+      "B3": {
+       "mean_diff": -0.41357623528676163,
+       "ub_one_sided": -0.38576279666429397,
+       "lower": true
+      }
+     },
+     "vacuous": false,
+     "missing_comparators": [
+      "RETUNED"
+     ],
+     "rule": "Form B validity (D14 v05 section 6 (i)) applied to the joint loss: for each of PD7, SD1_7 and PD the scene-level V2 (per scene, the share of its decisions with a relied record in the population that have >= 1 exceedance; then the mean over scenes) must be evaluable (>= 39 scenes from >= 8 logs), not flagged (A.flag: one-sided 0.95 log-cluster bootstrap lower bound > delta, or est > delta when the bootstrap SE is zero) and its one-sided 0.95 upper bound must be <= delta + 0.03 (HK1c). The same rule for M*J, M* and every comparator. HK1a's per-stratum cell family has no analogue (a decision's union spans strata), so the test is HK1b and HK1c on the pooled joint loss.",
+     "met": true,
+     "trade_off_table": [
+      {
+       "arm": "MstarJx",
+       "valid_joint": true,
+       "infeasible_rate": 0.4527621461831988,
+       "V2_PD7_E": 0.043633107249957295,
+       "V2_PD7_ub": 0.052075003634602365,
+       "V2_SD1_7_E": 0.007563925113404356,
+       "V2_SD1_7_ub": 0.009977619112929763,
+       "V2_PD_E": 0.002450610496424976,
+       "V2_PD_ub": 0.004099576870703621
+      },
+      {
+       "arm": "Mstar",
+       "valid_joint": false,
+       "infeasible_rate": 0.11405202628886839,
+       "V2_PD7_E": 0.35841500662282,
+       "V2_PD7_ub": 0.386682128446988,
+       "V2_SD1_7_E": 0.09056778313078521,
+       "V2_SD1_7_ub": 0.09864536687615574,
+       "V2_PD_E": 0.09195673480080688,
+       "V2_PD_ub": 0.10440007933180068,
+       "method_minus_arm_infeasible": 0.3387101198943304,
+       "method_minus_arm_infeasible_ci95": [
+        0.30653623925072004,
+        0.36986052336851166
+       ]
+      },
+      {
+       "arm": "B0",
+       "valid_joint": false,
+       "infeasible_rate": 0.3384662539925698,
+       "V2_PD7_E": 0.21631733833191633,
+       "V2_PD7_ub": 0.2409855091194401,
+       "V2_SD1_7_E": 0.05123875228982349,
+       "V2_SD1_7_ub": 0.05783820386283888,
+       "V2_PD_E": 0.06735964453728087,
+       "V2_PD_ub": 0.07904117316874672,
+       "method_minus_arm_infeasible": 0.11429589219062902,
+       "method_minus_arm_infeasible_ci95": [
+        0.08410251124181808,
+        0.14431797955812742
+       ]
+      },
+      {
+       "arm": "B1",
+       "valid_joint": false,
+       "infeasible_rate": 0.3901004156267315,
+       "V2_PD7_E": 0.15073927751934038,
+       "V2_PD7_ub": 0.1690666275953071,
+       "V2_SD1_7_E": 0.036526838450731076,
+       "V2_SD1_7_ub": 0.041792174067987096,
+       "V2_PD_E": 0.06110325651507184,
+       "V2_PD_ub": 0.07246001236727229,
+       "method_minus_arm_infeasible": 0.0626617305564674,
+       "method_minus_arm_infeasible_ci95": [
+        0.031267795608351176,
+        0.09350816904863274
+       ]
+      },
+      {
+       "arm": "B3",
+       "valid_joint": true,
+       "infeasible_rate": 0.8663383814699603,
+       "V2_PD7_E": 0.03006500634002093,
+       "V2_PD7_ub": 0.03791512734820587,
+       "V2_SD1_7_E": 0.002500719124246438,
+       "V2_SD1_7_ub": 0.0036462083139019623,
+       "V2_PD_E": 0.0034015132747016803,
+       "V2_PD_ub": 0.0057059843691633,
+       "method_minus_arm_infeasible": -0.41357623528676163,
+       "method_minus_arm_infeasible_ci95": [
+        -0.4445504875875181,
+        -0.3813178120851231
+       ]
+      },
+      {
+       "arm": "B4",
+       "valid_joint": false,
+       "infeasible_rate": 0.19813416944995893,
+       "V2_PD7_E": 0.3697810787211642,
+       "V2_PD7_ub": 0.4017849217520879,
+       "V2_SD1_7_E": 0.09760280501236078,
+       "V2_SD1_7_ub": 0.10845171399591064,
+       "V2_PD_E": 0.1237054596284939,
+       "V2_PD_ub": 0.13799043800671082,
+       "method_minus_arm_infeasible": 0.2546279767332399,
+       "method_minus_arm_infeasible_ci95": [
+        0.22043387281378937,
+        0.2894288971890456
+       ]
+      },
+      {
+       "arm": "B6",
+       "valid_joint": false,
+       "infeasible_rate": 0.17580690291216608,
+       "V2_PD7_E": 0.328348293712019,
+       "V2_PD7_ub": 0.3571707571811377,
+       "V2_SD1_7_E": 0.08303159829252618,
+       "V2_SD1_7_ub": 0.0936545990647389,
+       "V2_PD_E": 0.0772205448267184,
+       "V2_PD_ub": 0.08890211853334597,
+       "method_minus_arm_infeasible": 0.27695524327103277,
+       "method_minus_arm_infeasible_ci95": [
+        0.24677032532009252,
+        0.30870985260373907
+       ]
+      },
+      {
+       "arm": "B9",
+       "valid_joint": false,
+       "infeasible_rate": 0.44735180814128184,
+       "V2_PD7_E": 0.1256679661445799,
+       "V2_PD7_ub": 0.14299487620761606,
+       "V2_SD1_7_E": 0.015419186969926616,
+       "V2_SD1_7_ub": 0.01808192911722636,
+       "V2_PD_E": 0.04255036839826997,
+       "V2_PD_ub": 0.05183799365452479,
+       "method_minus_arm_infeasible": 0.0054103380419169905,
+       "method_minus_arm_infeasible_ci95": [
+        -0.02662247271969607,
+        0.03872292565500655
+       ]
+      }
+     ]
+    }
+   },
+   "price_vs_Mstar": {
+    "MstarJ": {
+     "infeasible_rate_MstarJ": 0.4210992918887656,
+     "infeasible_rate_Mstar": 0.11405202628886839,
+     "diff_mean": 0.3070472655998972,
+     "diff_ci95": [
+      0.2807866596686727,
+      0.3327078017374255
+     ],
+     "note": "paired at identical decision states; scene-level means; log-cluster bootstrap"
+    },
+    "MstarJx": {
+     "infeasible_rate_MstarJx": 0.4527621461831988,
+     "infeasible_rate_Mstar": 0.11405202628886839,
+     "diff_mean": 0.3387101198943304,
+     "diff_ci95": [
+      0.30653623925072004,
+      0.36986052336851166
+     ],
+     "note": "paired at identical decision states; scene-level means; log-cluster bootstrap"
+    }
+   },
+   "lambda_by_fold": {
+    "0": {
+     "MstarJ": 3.52,
+     "MstarJx": 3.29
+    },
+    "1": {
+     "MstarJ": 3.56,
+     "MstarJx": 3.52
+    },
+    "2": {
+     "MstarJ": 3.54,
+     "MstarJx": 3.35
+    },
+    "3": {
+     "MstarJ": 3.62,
+     "MstarJx": 4.62
+    },
+    "4": {
+     "MstarJ": 3.47,
+     "MstarJx": 4.49
+    }
+   },
+   "fit": [
+    {
+     "tracker": "t1",
+     "fold": 0,
+     "arm": "MstarJ",
+     "lambda": 3.52,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 671,
+     "cal_decisions_PD7": 24372,
+     "lam_PD7": 3.52,
+     "lam_SD1_7": 1.33,
+     "lam_PD": 1.2,
+     "bound_at_lambda_PD7": 0.049971571911302214,
+     "loss_at_1_PD7": 0.359283702445505,
+     "items_oof_PD7_at_lambda": 0.0596383612190708,
+     "items_oof_SD1_7_at_lambda": 0.009153456079412823,
+     "items_oof_PD_at_lambda": 0.002506265664160401,
+     "items_oof_PD7_at_1": 0.38606086007191537
+    },
+    {
+     "tracker": "t1",
+     "fold": 0,
+     "arm": "MstarJx",
+     "lambda": 3.29,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 179,
+     "cal_decisions_PD7": 6689,
+     "lam_PD7": 3.29,
+     "lam_SD1_7": 1.29,
+     "lam_PD": 1.38,
+     "bound_at_lambda_PD7": 0.04976621171351355,
+     "loss_at_1_PD7": 0.35235326305962417,
+     "items_oof_PD7_at_lambda": 0.06163327024764855,
+     "items_oof_SD1_7_at_lambda": 0.010174998988671606,
+     "items_oof_PD_at_lambda": 0.002734107997265892,
+     "items_oof_PD7_at_1": 0.37659410931353515
+    },
+    {
+     "tracker": "t1",
+     "fold": 1,
+     "arm": "MstarJ",
+     "lambda": 3.56,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 668,
+     "cal_decisions_PD7": 24014,
+     "lam_PD7": 3.56,
+     "lam_SD1_7": 1.35,
+     "lam_PD": 1.22,
+     "bound_at_lambda_PD7": 0.04990239035738116,
+     "loss_at_1_PD7": 0.35405399701133544,
+     "items_oof_PD7_at_lambda": 0.03758834076675073,
+     "items_oof_SD1_7_at_lambda": 0.0056898474542799145,
+     "items_oof_PD_at_lambda": 0.005553631960741568,
+     "items_oof_PD7_at_1": 0.3496901542218608
+    },
+    {
+     "tracker": "t1",
+     "fold": 1,
+     "arm": "MstarJx",
+     "lambda": 3.52,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 160,
+     "cal_decisions_PD7": 5719,
+     "lam_PD7": 3.52,
+     "lam_SD1_7": 1.32,
+     "lam_PD": 1.17,
+     "bound_at_lambda_PD7": 0.04987237820990118,
+     "loss_at_1_PD7": 0.3003347545088239,
+     "items_oof_PD7_at_lambda": 0.036131674293739584,
+     "items_oof_SD1_7_at_lambda": 0.0053794191216476345,
+     "items_oof_PD_at_lambda": 0.005553631960741568,
+     "items_oof_PD7_at_1": 0.3355132339105967
+    },
+    {
+     "tracker": "t1",
+     "fold": 2,
+     "arm": "MstarJ",
+     "lambda": 3.54,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 687,
+     "cal_decisions_PD7": 24984,
+     "lam_PD7": 3.54,
+     "lam_SD1_7": 1.34,
+     "lam_PD": 1.22,
+     "bound_at_lambda_PD7": 0.04994338087105125,
+     "loss_at_1_PD7": 0.3652009321775653,
+     "items_oof_PD7_at_lambda": 0.04645232937485659,
+     "items_oof_SD1_7_at_lambda": 0.007593114383197532,
+     "items_oof_PD_at_lambda": 0.0005376344086021505,
+     "items_oof_PD7_at_1": 0.3147388163108695
+    },
+    {
+     "tracker": "t1",
+     "fold": 2,
+     "arm": "MstarJx",
+     "lambda": 3.35,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 168,
+     "cal_decisions_PD7": 5867,
+     "lam_PD7": 3.35,
+     "lam_SD1_7": 1.34,
+     "lam_PD": 1.55,
+     "bound_at_lambda_PD7": 0.04995846406921699,
+     "loss_at_1_PD7": 0.31084262467365137,
+     "items_oof_PD7_at_lambda": 0.04842576662789912,
+     "items_oof_SD1_7_at_lambda": 0.007581003237483146,
+     "items_oof_PD_at_lambda": 0.001075268817204301,
+     "items_oof_PD7_at_1": 0.3062211902933102
+    },
+    {
+     "tracker": "t1",
+     "fold": 3,
+     "arm": "MstarJ",
+     "lambda": 3.62,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 679,
+     "cal_decisions_PD7": 24836,
+     "lam_PD7": 3.62,
+     "lam_SD1_7": 1.33,
+     "lam_PD": 1.22,
+     "bound_at_lambda_PD7": 0.04982078435600545,
+     "loss_at_1_PD7": 0.36655920236495276,
+     "items_oof_PD7_at_lambda": 0.040474150588129656,
+     "items_oof_SD1_7_at_lambda": 0.008524676926375218,
+     "items_oof_PD_at_lambda": 0.0,
+     "items_oof_PD7_at_1": 0.3194544950655916
+    },
+    {
+     "tracker": "t1",
+     "fold": 3,
+     "arm": "MstarJx",
+     "lambda": 4.62,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 164,
+     "cal_decisions_PD7": 6097,
+     "lam_PD7": 4.62,
+     "lam_SD1_7": 1.48,
+     "lam_PD": 1.39,
+     "bound_at_lambda_PD7": 0.0498639764584037,
+     "loss_at_1_PD7": 0.4400012872774409,
+     "items_oof_PD7_at_lambda": 0.02982627941670695,
+     "items_oof_SD1_7_at_lambda": 0.00708578491596238,
+     "items_oof_PD_at_lambda": 0.0,
+     "items_oof_PD7_at_1": 0.3224794985498433
+    },
+    {
+     "tracker": "t1",
+     "fold": 4,
+     "arm": "MstarJ",
+     "lambda": 3.47,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 683,
+     "cal_decisions_PD7": 24606,
+     "lam_PD7": 3.47,
+     "lam_SD1_7": 1.32,
+     "lam_PD": 1.17,
+     "bound_at_lambda_PD7": 0.04979074827808195,
+     "loss_at_1_PD7": 0.3470058685662369,
+     "items_oof_PD7_at_lambda": 0.06582969077683266,
+     "items_oof_SD1_7_at_lambda": 0.0057292657962965815,
+     "items_oof_PD_at_lambda": 0.0008680555555555555,
+     "items_oof_PD7_at_1": 0.44481281612298784
+    },
+    {
+     "tracker": "t1",
+     "fold": 4,
+     "arm": "MstarJx",
+     "lambda": 4.49,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 176,
+     "cal_decisions_PD7": 6331,
+     "lam_PD7": 4.49,
+     "lam_SD1_7": 1.47,
+     "lam_PD": 1.33,
+     "bound_at_lambda_PD7": 0.04996544527898751,
+     "loss_at_1_PD7": 0.3937718716282689,
+     "items_oof_PD7_at_lambda": 0.04679969181687071,
+     "items_oof_SD1_7_at_lambda": 0.0042495059004492965,
+     "items_oof_PD_at_lambda": 0.0,
+     "items_oof_PD7_at_1": 0.4505322954010745
+    }
+   ],
+   "per_constraint_form_B": {
+    "comparators_passing_validity": [
+     "B3"
+    ],
+    "validity_M": true,
+    "met": true,
+    "vacuous": false
+   }
+  },
+  "t3": {
+   "stamp": "EXPLORATORY (K8 joint arm M*J, k8_run_v04 --joint): nuScenes development evidence, not a confirmation",
+   "scenes": 840,
+   "logs": 68,
+   "arms": [
+    {
+     "arm": "Mstar",
+     "per_constraint_valid_form_B": true,
+     "HK1": true,
+     "HK1c_all_pops": true,
+     "joint_valid": false,
+     "infeasible_rate": 0.1613015430120693,
+     "infeasible_ci95": [
+      0.14330710761490345,
+      0.1784255034472532
+     ],
+     "V1_PD7": 0.04021047306084702,
+     "V1_PD7_ub": 0.042654543723365315,
+     "V2_PD7": 0.3513068119106858,
+     "V2_PD7_ci95": [
+      0.3195552545027302,
+      0.3856363044032483
+     ],
+     "V2_PD7_ub": 0.3781659662706307,
+     "V2_PD7_lb": 0.32353106211408794,
+     "V2_PD7_flagged": true,
+     "V2_PD7_valid": false,
+     "V1_SD1_7": 0.03114605222584303,
+     "V1_SD1_7_ub": 0.035392518448861265,
+     "V2_SD1_7": 0.08243355023685084,
+     "V2_SD1_7_ci95": [
+      0.07333965690943597,
+      0.09199963941426242
+     ],
+     "V2_SD1_7_ub": 0.09029045287694495,
+     "V2_SD1_7_lb": 0.07410818787256675,
+     "V2_SD1_7_flagged": true,
+     "V2_SD1_7_valid": false,
+     "V1_PD": 0.041583513440027926,
+     "V1_PD_ub": 0.04881362038445147,
+     "V2_PD": 0.08152239836418976,
+     "V2_PD_ci95": [
+      0.06739513041441701,
+      0.09650129664127768
+     ],
+     "V2_PD_ub": 0.09321777983539772,
+     "V2_PD_lb": 0.0687865932250849,
+     "V2_PD_flagged": true,
+     "V2_PD_valid": false,
+     "V2_PD7_reference": 0.30787120414960517,
+     "V2_PD7_tracks_per_decision": 8.343104926465738,
+     "V2_viol_PD7": 0.008705703926500536,
+     "V2_viol_PD7_ci95": [
+      0.0063255369745919676,
+      0.011458006360708354
+     ],
+     "V2_near_PD7": 0.08243355023685084,
+     "V2_near_PD7_ci95": [
+      0.07333965690943597,
+      0.09199963941426242
+     ],
+     "V2_binding_PD7": 0.01964277878462373,
+     "V2_binding_PD7_ci95": [
+      0.014571868013413477,
+      0.025849188146833926
+     ],
+     "V2_exec_PD7": 0.41508839176623713,
+     "V2_exec_PD7_ci95": [
+      0.3827619464674034,
+      0.44862201239650285
+     ],
+     "V2_one_step_PD7": 0.2523342368483195,
+     "V2_one_step_PD7_ci95": [
+      0.22450855070608702,
+      0.2834431776217433
+     ],
+     "V2_near_PD7_reference": 0.09497198380427511,
+     "progress_ratio": 0.9804438239129808,
+     "mean_chosen_speed": 4.92452577527386,
+     "estop_share": 0.003347332294700716,
+     "mean_backoff_level": 0.9036978827439355
+    },
+    {
+     "arm": "MstarJ",
+     "per_constraint_valid_form_B": true,
+     "HK1": true,
+     "HK1c_all_pops": true,
+     "joint_valid": true,
+     "infeasible_rate": 0.5541257596520754,
+     "infeasible_ci95": [
+      0.5201619250536277,
+      0.5870719514809436
+     ],
+     "V1_PD7": 0.003988394512759239,
+     "V1_PD7_ub": 0.004669619551873257,
+     "V2_PD7": 0.04944647612336062,
+     "V2_PD7_ci95": [
+      0.038223445929292395,
+      0.06195546138233868
+     ],
+     "V2_PD7_ub": 0.05898724065982269,
+     "V2_PD7_lb": 0.03877647922230161,
+     "V2_PD7_flagged": false,
+     "V2_PD7_valid": true,
+     "V1_SD1_7": 0.004181360780107805,
+     "V1_SD1_7_ub": 0.00629422418581087,
+     "V2_SD1_7": 0.008412523772078599,
+     "V2_SD1_7_ci95": [
+      0.005233014211735021,
+      0.012112312088542966
+     ],
+     "V2_SD1_7_ub": 0.01119860621311234,
+     "V2_SD1_7_lb": 0.0053484545273605015,
+     "V2_SD1_7_flagged": false,
+     "V2_SD1_7_valid": true,
+     "V1_PD": 0.003342043471958809,
+     "V1_PD_ub": 0.005780566252735969,
+     "V2_PD": 0.0042790676633120365,
+     "V2_PD_ci95": [
+      0.0014578647833110574,
+      0.007731532206183908
+     ],
+     "V2_PD_ub": 0.006700827007634592,
+     "V2_PD_lb": 0.0014112377076527663,
+     "V2_PD_flagged": false,
+     "V2_PD_valid": true,
+     "V2_PD7_reference": 0.3035803740205697,
+     "V2_PD7_tracks_per_decision": 8.221946539632128,
+     "V2_viol_PD7": 0.004472490970375776,
+     "V2_viol_PD7_ci95": [
+      0.002375308384997925,
+      0.006905608559216311
+     ],
+     "V2_near_PD7": 0.008412523772078599,
+     "V2_near_PD7_ci95": [
+      0.005233014211735021,
+      0.012112312088542966
+     ],
+     "V2_binding_PD7": 0.0013876722390713445,
+     "V2_binding_PD7_ci95": [
+      0.0006909461321054843,
+      0.002258279525600993
+     ],
+     "V2_exec_PD7": 0.27584022256035956,
+     "V2_exec_PD7_ci95": [
+      0.2471731049224317,
+      0.3036841511508444
+     ],
+     "V2_one_step_PD7": 0.03555383033961065,
+     "V2_one_step_PD7_ci95": [
+      0.02575750938933868,
+      0.04711376292258827
+     ],
+     "V2_near_PD7_reference": 0.08900924101223077,
+     "progress_ratio": 0.9644088277295746,
+     "mean_chosen_speed": 4.771647470456257,
+     "estop_share": 0.003347332294700716,
+     "mean_backoff_level": 0.6424980199980199,
+     "arm_minus_Mstar_infeasible_rate": 0.3928242166400061,
+     "arm_minus_Mstar_infeasible_rate_ci95": [
+      0.3673279258084845,
+      0.418745927458827
+     ],
+     "arm_minus_Mstar_V2_PD7_scene_rate": -0.30186033578732524,
+     "arm_minus_Mstar_V2_PD7_scene_rate_ci95": [
+      -0.3263081872423043,
+      -0.27789377356788564
+     ],
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate": -0.00423321295612476,
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate_ci95": [
+      -0.005255723964651019,
+      -0.0033042449029234903
+     ],
+     "arm_minus_Mstar_V1_PD7_scene_rate": -0.03622207854808779,
+     "arm_minus_Mstar_V1_PD7_scene_rate_ci95": [
+      -0.03886016894361613,
+      -0.033558459070412196
+     ],
+     "arm_minus_Mstar_progress_ratio": -0.016034996183406106,
+     "arm_minus_Mstar_progress_ratio_ci95": [
+      -0.017819799070980115,
+      -0.014220404001715467
+     ]
+    },
+    {
+     "arm": "MstarJx",
+     "per_constraint_valid_form_B": true,
+     "HK1": true,
+     "HK1c_all_pops": true,
+     "joint_valid": true,
+     "infeasible_rate": 0.5767922013974646,
+     "infeasible_ci95": [
+      0.541934356041245,
+      0.6106236323482428
+     ],
+     "V1_PD7": 0.00372425052066925,
+     "V1_PD7_ub": 0.004439210180427734,
+     "V2_PD7": 0.046190206268845485,
+     "V2_PD7_ci95": [
+      0.03562355443255384,
+      0.058243273801219554
+     ],
+     "V2_PD7_ub": 0.05491077932289339,
+     "V2_PD7_lb": 0.036210758004982135,
+     "V2_PD7_flagged": false,
+     "V2_PD7_valid": true,
+     "V1_SD1_7": 0.0044328490174828,
+     "V1_SD1_7_ub": 0.0068401340984004765,
+     "V2_SD1_7": 0.008305636845268933,
+     "V2_SD1_7_ci95": [
+      0.0049854173321377095,
+      0.012195485664737138
+     ],
+     "V2_SD1_7_ub": 0.011279448375801271,
+     "V2_SD1_7_lb": 0.005184502371974754,
+     "V2_SD1_7_flagged": false,
+     "V2_SD1_7_valid": true,
+     "V1_PD": 0.002804446167841307,
+     "V1_PD_ub": 0.005010136021735054,
+     "V2_PD": 0.004411005767182963,
+     "V2_PD_ci95": [
+      0.0014506971764525933,
+      0.007975741351479803
+     ],
+     "V2_PD_ub": 0.00700053445962998,
+     "V2_PD_lb": 0.001413650095500171,
+     "V2_PD_flagged": false,
+     "V2_PD_valid": true,
+     "V2_PD7_reference": 0.30282518558185156,
+     "V2_PD7_tracks_per_decision": 8.199728575684354,
+     "V2_viol_PD7": 0.004368351714751587,
+     "V2_viol_PD7_ci95": [
+      0.0022441533298800877,
+      0.006887145489475903
+     ],
+     "V2_near_PD7": 0.008305636845268933,
+     "V2_near_PD7_ci95": [
+      0.0049854173321377095,
+      0.012195485664737138
+     ],
+     "V2_binding_PD7": 0.0016141875848529595,
+     "V2_binding_PD7_ci95": [
+      0.0005159161923908064,
+      0.00281967756605198
+     ],
+     "V2_exec_PD7": 0.2811385474099764,
+     "V2_exec_PD7_ci95": [
+      0.25190497264672707,
+      0.3093825980108629
+     ],
+     "V2_one_step_PD7": 0.03322523543841565,
+     "V2_one_step_PD7_ci95": [
+      0.02418278836918092,
+      0.04370091596231059
+     ],
+     "V2_near_PD7_reference": 0.08859015618624842,
+     "progress_ratio": 0.9637435869687205,
+     "mean_chosen_speed": 4.767284133560243,
+     "estop_share": 0.003347332294700716,
+     "mean_backoff_level": 0.619227709129025,
+     "arm_minus_Mstar_infeasible_rate": 0.41549065838539523,
+     "arm_minus_Mstar_infeasible_rate_ci95": [
+      0.3867407209165055,
+      0.4460083015448428
+     ],
+     "arm_minus_Mstar_V2_PD7_scene_rate": -0.30511660564184045,
+     "arm_minus_Mstar_V2_PD7_scene_rate_ci95": [
+      -0.33126547903092896,
+      -0.2801061771124722
+     ],
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate": -0.00433735221174895,
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate_ci95": [
+      -0.00532428045726823,
+      -0.0033727652893691808
+     ],
+     "arm_minus_Mstar_V1_PD7_scene_rate": -0.03648622254017777,
+     "arm_minus_Mstar_V1_PD7_scene_rate_ci95": [
+      -0.03908880713987166,
+      -0.03386679312522487
+     ],
+     "arm_minus_Mstar_progress_ratio": -0.01670023694426018,
+     "arm_minus_Mstar_progress_ratio_ci95": [
+      -0.018728073134140804,
+      -0.014687826660144312
+     ]
+    },
+    {
+     "arm": "B4",
+     "per_constraint_valid_form_B": false,
+     "HK1": false,
+     "HK1c_all_pops": false,
+     "joint_valid": false,
+     "infeasible_rate": 0.20822355611829296,
+     "infeasible_ci95": [
+      0.18420689756940958,
+      0.23115604058413047
+     ],
+     "V1_PD7": 0.05674094325540851,
+     "V1_PD7_ub": 0.062454434688319356,
+     "V2_PD7": 0.4032346820785351,
+     "V2_PD7_ci95": [
+      0.3684556455349241,
+      0.4379057048114594
+     ],
+     "V2_PD7_ub": 0.4322311636194679,
+     "V2_PD7_lb": 0.3733922991531799,
+     "V2_PD7_flagged": true,
+     "V2_PD7_valid": false,
+     "V1_SD1_7": 0.03865916513083948,
+     "V1_SD1_7_ub": 0.0441174233546773,
+     "V2_SD1_7": 0.09392667213985406,
+     "V2_SD1_7_ci95": [
+      0.08320322759223273,
+      0.10431661911141253
+     ],
+     "V2_SD1_7_ub": 0.10248830747273997,
+     "V2_SD1_7_lb": 0.08516129659305158,
+     "V2_SD1_7_flagged": true,
+     "V2_SD1_7_valid": false,
+     "V1_PD": 0.10586570457383253,
+     "V1_PD_ub": 0.11766530081682647,
+     "V2_PD": 0.16938140307310273,
+     "V2_PD_ci95": [
+      0.15168887362316286,
+      0.18684070621072726
+     ],
+     "V2_PD_ub": 0.18440984124011411,
+     "V2_PD_lb": 0.15457446527751834,
+     "V2_PD_flagged": true,
+     "V2_PD_valid": false,
+     "V2_PD7_reference": 0.30737699981723343,
+     "V2_PD7_tracks_per_decision": 8.326486201325464,
+     "V2_viol_PD7": 0.017750078487095696,
+     "V2_viol_PD7_ci95": [
+      0.014408538024796686,
+      0.021148483284068174
+     ],
+     "V2_near_PD7": 0.09392667213985406,
+     "V2_near_PD7_ci95": [
+      0.08320322759223273,
+      0.10431661911141253
+     ],
+     "V2_binding_PD7": 0.04777167302100681,
+     "V2_binding_PD7_ci95": [
+      0.03737281750108751,
+      0.058496664574402744
+     ],
+     "V2_exec_PD7": 0.4643386604590543,
+     "V2_exec_PD7_ci95": [
+      0.4274752269137137,
+      0.5009064892651562
+     ],
+     "V2_one_step_PD7": 0.27803038039307926,
+     "V2_one_step_PD7_ci95": [
+      0.2519692590948151,
+      0.30639858875043074
+     ],
+     "V2_near_PD7_reference": 0.09435942980860003,
+     "progress_ratio": 0.9768747250756307,
+     "mean_chosen_speed": 4.905259590072191,
+     "estop_share": 0.003347332294700716,
+     "mean_backoff_level": 0.8724661011503118,
+     "arm_minus_Mstar_infeasible_rate": 0.046922013106223626,
+     "arm_minus_Mstar_infeasible_rate_ci95": [
+      0.03345559167219397,
+      0.06147484613248379
+     ],
+     "arm_minus_Mstar_V2_PD7_scene_rate": 0.05192787016784915,
+     "arm_minus_Mstar_V2_PD7_scene_rate_ci95": [
+      0.030562010992395288,
+      0.07423192706683929
+     ],
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate": 0.009044374560595158,
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate_ci95": [
+      0.007287863891732145,
+      0.010790274781922151
+     ],
+     "arm_minus_Mstar_V1_PD7_scene_rate": 0.016530470194561508,
+     "arm_minus_Mstar_V1_PD7_scene_rate_ci95": [
+      0.010993677137487877,
+      0.022497428913875923
+     ],
+     "arm_minus_Mstar_progress_ratio": -0.0035690988373501048,
+     "arm_minus_Mstar_progress_ratio_ci95": [
+      -0.005980234693720094,
+      -0.0014838995940906188
+     ]
+    },
+    {
+     "arm": "B0",
+     "per_constraint_valid_form_B": true,
+     "HK1": true,
+     "HK1c_all_pops": true,
+     "joint_valid": true,
+     "infeasible_rate": 0.7641563411300253,
+     "infeasible_ci95": [
+      0.7315214466141405,
+      0.7952950367459966
+     ],
+     "V1_PD7": 0.002315518611696903,
+     "V1_PD7_ub": 0.0028741223000452003,
+     "V2_PD7": 0.026439628530667395,
+     "V2_PD7_ci95": [
+      0.01919958295799635,
+      0.03478260654797985
+     ],
+     "V2_PD7_ub": 0.03269655911824321,
+     "V2_PD7_lb": 0.019515878940237073,
+     "V2_PD7_flagged": false,
+     "V2_PD7_valid": true,
+     "V1_SD1_7": 0.0004507412361037074,
+     "V1_SD1_7_ub": 0.0006405890890517451,
+     "V2_SD1_7": 0.001297180251586614,
+     "V2_SD1_7_ci95": [
+      0.0006479578078908507,
+      0.002116590315834558
+     ],
+     "V2_SD1_7_ub": 0.0018575062026440774,
+     "V2_SD1_7_lb": 0.0006320230954767054,
+     "V2_SD1_7_flagged": false,
+     "V2_SD1_7_valid": true,
+     "V1_PD": 0.0024369828008394857,
+     "V1_PD_ub": 0.004525613113707482,
+     "V2_PD": 0.002825803941887094,
+     "V2_PD_ci95": [
+      0.0006812741027933856,
+      0.005571439638416296
+     ],
+     "V2_PD_ub": 0.004722764481618089,
+     "V2_PD_lb": 0.0006167462692352483,
+     "V2_PD_flagged": false,
+     "V2_PD_valid": true,
+     "V2_PD7_reference": 0.2940083045155282,
+     "V2_PD7_tracks_per_decision": 7.918753736796652,
+     "V2_viol_PD7": 0.0048583845105646456,
+     "V2_viol_PD7_ci95": [
+      0.0027760911189722666,
+      0.007319096895927766
+     ],
+     "V2_near_PD7": 0.001297180251586614,
+     "V2_near_PD7_ci95": [
+      0.0006479578078908507,
+      0.002116590315834558
+     ],
+     "V2_binding_PD7": 0.0028964999891301444,
+     "V2_binding_PD7_ci95": [
+      0.0007713300439985704,
+      0.005758208325374556
+     ],
+     "V2_exec_PD7": 0.4412627162546766,
+     "V2_exec_PD7_ci95": [
+      0.40393145045558027,
+      0.4785606004481447
+     ],
+     "V2_one_step_PD7": 0.021456194711964124,
+     "V2_one_step_PD7_ci95": [
+      0.015165204266341936,
+      0.028906229435744762
+     ],
+     "V2_near_PD7_reference": 0.07497789703768336,
+     "progress_ratio": 0.9642080402137408,
+     "mean_chosen_speed": 4.755792170935267,
+     "estop_share": 0.003347332294700716,
+     "mean_backoff_level": 0.4032827054208633,
+     "arm_minus_Mstar_infeasible_rate": 0.6028547981179561,
+     "arm_minus_Mstar_infeasible_rate_ci95": [
+      0.5753971810549033,
+      0.6291908533191465
+     ],
+     "arm_minus_Mstar_V2_PD7_scene_rate": -0.32486718338001846,
+     "arm_minus_Mstar_V2_PD7_scene_rate_ci95": [
+      -0.35314965034248075,
+      -0.2973479394565311
+     ],
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate": -0.0038473194159358904,
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate_ci95": [
+      -0.004797926846934249,
+      -0.0029361145702477493
+     ],
+     "arm_minus_Mstar_V1_PD7_scene_rate": -0.03789495444915012,
+     "arm_minus_Mstar_V1_PD7_scene_rate_ci95": [
+      -0.04072975643111553,
+      -0.03496268703433531
+     ],
+     "arm_minus_Mstar_progress_ratio": -0.016235783699239996,
+     "arm_minus_Mstar_progress_ratio_ci95": [
+      -0.01930490442390577,
+      -0.013302607903884933
+     ]
+    },
+    {
+     "arm": "B1",
+     "per_constraint_valid_form_B": false,
+     "HK1": false,
+     "HK1c_all_pops": true,
+     "joint_valid": false,
+     "infeasible_rate": 0.3789333998544525,
+     "infeasible_ci95": [
+      0.3411729913755162,
+      0.4153273558871652
+     ],
+     "V1_PD7": 0.02191490098313683,
+     "V1_PD7_ub": 0.024590735197301705,
+     "V2_PD7": 0.1937897817491454,
+     "V2_PD7_ci95": [
+      0.1716247265191627,
+      0.21584407885958426
+     ],
+     "V2_PD7_ub": 0.21267437374446926,
+     "V2_PD7_lb": 0.17542840829667278,
+     "V2_PD7_flagged": true,
+     "V2_PD7_valid": false,
+     "V1_SD1_7": 0.016058970893426058,
+     "V1_SD1_7_ub": 0.019253735209122432,
+     "V2_SD1_7": 0.035639037035780835,
+     "V2_SD1_7_ci95": [
+      0.030049877235826524,
+      0.04144103142623078
+     ],
+     "V2_SD1_7_ub": 0.04041448238829198,
+     "V2_SD1_7_lb": 0.030759561788900904,
+     "V2_SD1_7_flagged": false,
+     "V2_SD1_7_valid": true,
+     "V1_PD": 0.042696236806280194,
+     "V1_PD_ub": 0.04922598693486052,
+     "V2_PD": 0.07671084672202716,
+     "V2_PD_ci95": [
+      0.06451634491060136,
+      0.08938769893230261
+     ],
+     "V2_PD_ub": 0.08706507583680863,
+     "V2_PD_lb": 0.06639905948741898,
+     "V2_PD_flagged": true,
+     "V2_PD_valid": false,
+     "V2_PD7_reference": 0.30442414646620525,
+     "V2_PD7_tracks_per_decision": 8.230705777543141,
+     "V2_viol_PD7": 0.012366763655939021,
+     "V2_viol_PD7_ci95": [
+      0.009391768541906197,
+      0.01551443159869719
+     ],
+     "V2_near_PD7": 0.035639037035780835,
+     "V2_near_PD7_ci95": [
+      0.030049877235826524,
+      0.04144103142623078
+     ],
+     "V2_binding_PD7": 0.02396481884929235,
+     "V2_binding_PD7_ci95": [
+      0.017371312098056948,
+      0.03010847858673818
+     ],
+     "V2_exec_PD7": 0.33494684423295995,
+     "V2_exec_PD7_ci95": [
+      0.3020728318746377,
+      0.3675899132267866
+     ],
+     "V2_one_step_PD7": 0.07654265976624587,
+     "V2_one_step_PD7_ci95": [
+      0.06530545401887437,
+      0.08936670956866001
+     ],
+     "V2_near_PD7_reference": 0.08995366709184423,
+     "progress_ratio": 0.9727479864739514,
+     "mean_chosen_speed": 4.864600411648673,
+     "estop_share": 0.003347332294700716,
+     "mean_backoff_level": 0.7627135080424554,
+     "arm_minus_Mstar_infeasible_rate": 0.21763185684238315,
+     "arm_minus_Mstar_infeasible_rate_ci95": [
+      0.18992230431994386,
+      0.24656737745084578
+     ],
+     "arm_minus_Mstar_V2_PD7_scene_rate": -0.15751703016154045,
+     "arm_minus_Mstar_V2_PD7_scene_rate_ci95": [
+      -0.18179551563588467,
+      -0.13192113973081054
+     ],
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate": 0.0036610597294384865,
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate_ci95": [
+      0.002179926378644,
+      0.005253170440075859
+     ],
+     "arm_minus_Mstar_V1_PD7_scene_rate": -0.018295572077710185,
+     "arm_minus_Mstar_V1_PD7_scene_rate_ci95": [
+      -0.021257183823670284,
+      -0.014973177165795342
+     ],
+     "arm_minus_Mstar_progress_ratio": -0.0076958374390292544,
+     "arm_minus_Mstar_progress_ratio_ci95": [
+      -0.010233147090869425,
+      -0.005602899341719089
+     ]
+    },
+    {
+     "arm": "B3",
+     "per_constraint_valid_form_B": true,
+     "HK1": true,
+     "HK1c_all_pops": true,
+     "joint_valid": true,
+     "infeasible_rate": 0.8702953459532407,
+     "infeasible_ci95": [
+      0.843971590471584,
+      0.8936005239685203
+     ],
+     "V1_PD7": 0.0019573754917544517,
+     "V1_PD7_ub": 0.0024778581825412728,
+     "V2_PD7": 0.021214198167116935,
+     "V2_PD7_ci95": [
+      0.015301056941665543,
+      0.02858232698054416
+     ],
+     "V2_PD7_ub": 0.02633815682650832,
+     "V2_PD7_lb": 0.015056960759480452,
+     "V2_PD7_flagged": false,
+     "V2_PD7_valid": true,
+     "V1_SD1_7": 0.0007612409217232881,
+     "V1_SD1_7_ub": 0.0013394221498599914,
+     "V2_SD1_7": 0.00128774024670109,
+     "V2_SD1_7_ci95": [
+      0.0003426843790815316,
+      0.002517941560904968
+     ],
+     "V2_SD1_7_ub": 0.002125304280941887,
+     "V2_SD1_7_lb": 0.00026786843375229937,
+     "V2_SD1_7_flagged": false,
+     "V2_SD1_7_valid": true,
+     "V1_PD": 0.0029718520310518803,
+     "V1_PD_ub": 0.0055583928798275915,
+     "V2_PD": 0.002986974023227398,
+     "V2_PD_ci95": [
+      0.0006402245397416517,
+      0.005913350800417512
+     ],
+     "V2_PD_ub": 0.0050531339505026735,
+     "V2_PD_lb": 0.0005842010642066247,
+     "V2_PD_flagged": false,
+     "V2_PD_valid": true,
+     "V2_PD7_reference": 0.28560987595004167,
+     "V2_PD7_tracks_per_decision": 7.649389226353381,
+     "V2_viol_PD7": 0.004236613523540518,
+     "V2_viol_PD7_ci95": [
+      0.002187588382017685,
+      0.006662728000532655
+     ],
+     "V2_near_PD7": 0.00128774024670109,
+     "V2_near_PD7_ci95": [
+      0.0003426843790815316,
+      0.002517941560904968
+     ],
+     "V2_binding_PD7": 0.0011995921268595855,
+     "V2_binding_PD7_ci95": [
+      0.000505792377464538,
+      0.00197743581837668
+     ],
+     "V2_exec_PD7": 0.5972328469684921,
+     "V2_exec_PD7_ci95": [
+      0.5548408191981827,
+      0.6378435110420219
+     ],
+     "V2_one_step_PD7": 0.014580545213588795,
+     "V2_one_step_PD7_ci95": [
+      0.009553762444193089,
+      0.020878767621252788
+     ],
+     "V2_near_PD7_reference": 0.07088196576787328,
+     "progress_ratio": 0.9705454156474134,
+     "mean_chosen_speed": 4.811505873516451,
+     "estop_share": 0.003347332294700716,
+     "mean_backoff_level": 0.2573437068502858,
+     "arm_minus_Mstar_infeasible_rate": 0.7089938029411713,
+     "arm_minus_Mstar_infeasible_rate_ci95": [
+      0.6844162574991788,
+      0.7325633904021437
+     ],
+     "arm_minus_Mstar_V2_PD7_scene_rate": -0.33009261374356896,
+     "arm_minus_Mstar_V2_PD7_scene_rate_ci95": [
+      -0.3591981066849531,
+      -0.301007524618737
+     ],
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate": -0.004469090402960018,
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate_ci95": [
+      -0.005624342241667759,
+      -0.0034099057100473898
+     ],
+     "arm_minus_Mstar_V1_PD7_scene_rate": -0.038253097569092565,
+     "arm_minus_Mstar_V1_PD7_scene_rate_ci95": [
+      -0.041160683216642714,
+      -0.035280171819273315
+     ],
+     "arm_minus_Mstar_progress_ratio": -0.009898408265567678,
+     "arm_minus_Mstar_progress_ratio_ci95": [
+      -0.012886855132846146,
+      -0.00663504971001873
+     ]
+    },
+    {
+     "arm": "B6",
+     "per_constraint_valid_form_B": false,
+     "HK1": false,
+     "HK1c_all_pops": true,
+     "joint_valid": false,
+     "infeasible_rate": 0.1666909347172505,
+     "infeasible_ci95": [
+      0.1487392773893727,
+      0.18482468681550746
+     ],
+     "V1_PD7": 0.04492187976277997,
+     "V1_PD7_ub": 0.0483099993976458,
+     "V2_PD7": 0.36284440828153836,
+     "V2_PD7_ci95": [
+      0.33285725658550386,
+      0.3974123613737654
+     ],
+     "V2_PD7_ub": 0.38928844756658043,
+     "V2_PD7_lb": 0.334381444940004,
+     "V2_PD7_flagged": true,
+     "V2_PD7_valid": false,
+     "V1_SD1_7": 0.03533848316734602,
+     "V1_SD1_7_ub": 0.04007444541824906,
+     "V2_SD1_7": 0.08823965519891126,
+     "V2_SD1_7_ci95": [
+      0.07920676243942401,
+      0.09771996729639017
+     ],
+     "V2_SD1_7_ub": 0.09590905342858695,
+     "V2_SD1_7_lb": 0.08035627938909048,
+     "V2_SD1_7_flagged": true,
+     "V2_SD1_7_valid": false,
+     "V1_PD": 0.048570669985249074,
+     "V1_PD_ub": 0.05652891423914052,
+     "V2_PD": 0.09125098703368117,
+     "V2_PD_ci95": [
+      0.07891466271435005,
+      0.10371923993220827
+     ],
+     "V2_PD_ub": 0.10199362662107954,
+     "V2_PD_lb": 0.08088237666032161,
+     "V2_PD_flagged": true,
+     "V2_PD_valid": false,
+     "V2_PD7_reference": 0.30786874982635204,
+     "V2_PD7_tracks_per_decision": 8.341851876277781,
+     "V2_viol_PD7": 0.011178850361678405,
+     "V2_viol_PD7_ci95": [
+      0.008538920792168685,
+      0.013976560649518847
+     ],
+     "V2_near_PD7": 0.08823965519891126,
+     "V2_near_PD7_ci95": [
+      0.07920676243942401,
+      0.09771996729639017
+     ],
+     "V2_binding_PD7": 0.0313218333763786,
+     "V2_binding_PD7_ci95": [
+      0.023121565354866633,
+      0.03959864354895473
+     ],
+     "V2_exec_PD7": 0.42153388657064095,
+     "V2_exec_PD7_ci95": [
+      0.390747223707279,
+      0.4549300074047115
+     ],
+     "V2_one_step_PD7": 0.2504455824856146,
+     "V2_one_step_PD7_ci95": [
+      0.22394750176372358,
+      0.2815644880345802
+     ],
+     "V2_near_PD7_reference": 0.09468612375058769,
+     "progress_ratio": 0.9777027911415168,
+     "mean_chosen_speed": 4.9059981099049335,
+     "estop_share": 0.003347332294700716,
+     "mean_backoff_level": 0.9040323890981786,
+     "arm_minus_Mstar_infeasible_rate": 0.005389391705181178,
+     "arm_minus_Mstar_infeasible_rate_ci95": [
+      -0.005272793333341954,
+      0.016127262609367875
+     ],
+     "arm_minus_Mstar_V2_PD7_scene_rate": 0.011537596370852434,
+     "arm_minus_Mstar_V2_PD7_scene_rate_ci95": [
+      0.0010752458689629579,
+      0.022067394682549774
+     ],
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate": 0.0024731464351778697,
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate_ci95": [
+      0.0013241891884566365,
+      0.003604821409531092
+     ],
+     "arm_minus_Mstar_V1_PD7_scene_rate": 0.004711406701932954,
+     "arm_minus_Mstar_V1_PD7_scene_rate_ci95": [
+      0.002919051350502524,
+      0.006577901893625901
+     ],
+     "arm_minus_Mstar_progress_ratio": -0.002741032771463885,
+     "arm_minus_Mstar_progress_ratio_ci95": [
+      -0.004212063137314677,
+      -0.0014721119669182097
+     ]
+    },
+    {
+     "arm": "B9",
+     "per_constraint_valid_form_B": false,
+     "HK1": false,
+     "HK1c_all_pops": true,
+     "joint_valid": false,
+     "infeasible_rate": 0.4335074953496006,
+     "infeasible_ci95": [
+      0.39388706854044636,
+      0.4744963282240875
+     ],
+     "V1_PD7": 0.014137051798692032,
+     "V1_PD7_ub": 0.015904388471101025,
+     "V2_PD7": 0.14121634569673586,
+     "V2_PD7_ci95": [
+      0.12071887412591648,
+      0.16236489544291452
+     ],
+     "V2_PD7_ub": 0.15821455256799355,
+     "V2_PD7_lb": 0.12399299342456699,
+     "V2_PD7_flagged": true,
+     "V2_PD7_valid": false,
+     "V1_SD1_7": 0.006595117846728089,
+     "V1_SD1_7_ub": 0.00852888391165388,
+     "V2_SD1_7": 0.013956150944082122,
+     "V2_SD1_7_ci95": [
+      0.010747120469812651,
+      0.017265384671738004
+     ],
+     "V2_SD1_7_ub": 0.016632584309604858,
+     "V2_SD1_7_lb": 0.011261059579846591,
+     "V2_SD1_7_flagged": false,
+     "V2_SD1_7_valid": true,
+     "V1_PD": 0.03324332285276916,
+     "V1_PD_ub": 0.04140085663356968,
+     "V2_PD": 0.0505034905951065,
+     "V2_PD_ci95": [
+      0.03896445900828331,
+      0.06334462982419971
+     ],
+     "V2_PD_ub": 0.06064926646774661,
+     "V2_PD_lb": 0.04014992931667087,
+     "V2_PD_flagged": false,
+     "V2_PD_valid": true,
+     "V2_PD7_reference": 0.3042177144252035,
+     "V2_PD7_tracks_per_decision": 8.227889472120431,
+     "V2_viol_PD7": 0.007663520756325301,
+     "V2_viol_PD7_ci95": [
+      0.005312908669974278,
+      0.010327865125101867
+     ],
+     "V2_near_PD7": 0.013956150944082122,
+     "V2_near_PD7_ci95": [
+      0.010747120469812651,
+      0.017265384671738004
+     ],
+     "V2_binding_PD7": 0.005317762756516017,
+     "V2_binding_PD7_ci95": [
+      0.003261769542546059,
+      0.007849501240009521
+     ],
+     "V2_exec_PD7": 0.34131453545020224,
+     "V2_exec_PD7_ci95": [
+      0.30139641557053565,
+      0.381064945301777
+     ],
+     "V2_one_step_PD7": 0.0926106299902517,
+     "V2_one_step_PD7_ci95": [
+      0.07821176515751359,
+      0.10830936725172502
+     ],
+     "V2_near_PD7_reference": 0.08674656036681117,
+     "progress_ratio": 0.9685211110917078,
+     "mean_chosen_speed": 4.820043607172499,
+     "estop_share": 0.003347332294700716,
+     "mean_backoff_level": 0.7057511480537796,
+     "arm_minus_Mstar_infeasible_rate": 0.27220595233753125,
+     "arm_minus_Mstar_infeasible_rate_ci95": [
+      0.2394451456951946,
+      0.3065527960197896
+     ],
+     "arm_minus_Mstar_V2_PD7_scene_rate": -0.21009046621395003,
+     "arm_minus_Mstar_V2_PD7_scene_rate_ci95": [
+      -0.23354785807542858,
+      -0.18606269456162502
+     ],
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate": -0.0010421831701752345,
+     "arm_minus_Mstar_V2_viol_PD7_scene_rate_ci95": [
+      -0.0021756036601414167,
+      0.00014502790474919998
+     ],
+     "arm_minus_Mstar_V1_PD7_scene_rate": -0.026073421262154985,
+     "arm_minus_Mstar_V1_PD7_scene_rate_ci95": [
+      -0.02868148412152264,
+      -0.02337882666202654
+     ],
+     "arm_minus_Mstar_progress_ratio": -0.011922712821272972,
+     "arm_minus_Mstar_progress_ratio_ci95": [
+      -0.013777456296394562,
+      -0.010025639167185548
+     ]
+    }
+   ],
+   "form_B_joint": {
+    "MstarJ": {
+     "method": "MstarJ",
+     "comparators": [
+      "Mstar",
+      "B0",
+      "B1",
+      "B3",
+      "B4",
+      "B6",
+      "B9"
+     ],
+     "comparators_valid_on_joint_loss": [
+      "B0",
+      "B3"
+     ],
+     "comparators_invalid_on_joint_loss": [
+      "Mstar",
+      "B1",
+      "B4",
+      "B6",
+      "B9"
+     ],
+     "level": 0.975,
+     "validity_method": true,
+     "lower_than_every_valid_comparator": {
+      "B0": {
+       "mean_diff": -0.2100305814779499,
+       "ub_one_sided": -0.19048993750091742,
+       "lower": true
+      },
+      "B3": {
+       "mean_diff": -0.31616958630116526,
+       "ub_one_sided": -0.2906719217489103,
+       "lower": true
+      }
+     },
+     "vacuous": false,
+     "missing_comparators": [
+      "RETUNED"
+     ],
+     "rule": "Form B validity (D14 v05 section 6 (i)) applied to the joint loss: for each of PD7, SD1_7 and PD the scene-level V2 (per scene, the share of its decisions with a relied record in the population that have >= 1 exceedance; then the mean over scenes) must be evaluable (>= 39 scenes from >= 8 logs), not flagged (A.flag: one-sided 0.95 log-cluster bootstrap lower bound > delta, or est > delta when the bootstrap SE is zero) and its one-sided 0.95 upper bound must be <= delta + 0.03 (HK1c). The same rule for M*J, M* and every comparator. HK1a's per-stratum cell family has no analogue (a decision's union spans strata), so the test is HK1b and HK1c on the pooled joint loss.",
+     "met": true,
+     "trade_off_table": [
+      {
+       "arm": "MstarJ",
+       "valid_joint": true,
+       "infeasible_rate": 0.5541257596520754,
+       "V2_PD7_E": 0.04944647612336062,
+       "V2_PD7_ub": 0.05898724065982269,
+       "V2_SD1_7_E": 0.008412523772078599,
+       "V2_SD1_7_ub": 0.01119860621311234,
+       "V2_PD_E": 0.0042790676633120365,
+       "V2_PD_ub": 0.006700827007634592
+      },
+      {
+       "arm": "Mstar",
+       "valid_joint": false,
+       "infeasible_rate": 0.1613015430120693,
+       "V2_PD7_E": 0.3513068119106858,
+       "V2_PD7_ub": 0.3781659662706307,
+       "V2_SD1_7_E": 0.08243355023685084,
+       "V2_SD1_7_ub": 0.09029045287694495,
+       "V2_PD_E": 0.08152239836418976,
+       "V2_PD_ub": 0.09321777983539772,
+       "method_minus_arm_infeasible": 0.3928242166400061,
+       "method_minus_arm_infeasible_ci95": [
+        0.3673279258084845,
+        0.418745927458827
+       ]
+      },
+      {
+       "arm": "B0",
+       "valid_joint": true,
+       "infeasible_rate": 0.7641563411300253,
+       "V2_PD7_E": 0.026439628530667395,
+       "V2_PD7_ub": 0.03269655911824321,
+       "V2_SD1_7_E": 0.001297180251586614,
+       "V2_SD1_7_ub": 0.0018575062026440774,
+       "V2_PD_E": 0.002825803941887094,
+       "V2_PD_ub": 0.004722764481618089,
+       "method_minus_arm_infeasible": -0.2100305814779499,
+       "method_minus_arm_infeasible_ci95": [
+        -0.22791955965523172,
+        -0.19048993750091742
+       ]
+      },
+      {
+       "arm": "B1",
+       "valid_joint": false,
+       "infeasible_rate": 0.3789333998544525,
+       "V2_PD7_E": 0.1937897817491454,
+       "V2_PD7_ub": 0.21267437374446926,
+       "V2_SD1_7_E": 0.035639037035780835,
+       "V2_SD1_7_ub": 0.04041448238829198,
+       "V2_PD_E": 0.07671084672202716,
+       "V2_PD_ub": 0.08706507583680863,
+       "method_minus_arm_infeasible": 0.17519235979762296,
+       "method_minus_arm_infeasible_ci95": [
+        0.15735771597614215,
+        0.19316191628046392
+       ]
+      },
+      {
+       "arm": "B3",
+       "valid_joint": true,
+       "infeasible_rate": 0.8702953459532407,
+       "V2_PD7_E": 0.021214198167116935,
+       "V2_PD7_ub": 0.02633815682650832,
+       "V2_SD1_7_E": 0.00128774024670109,
+       "V2_SD1_7_ub": 0.002125304280941887,
+       "V2_PD_E": 0.002986974023227398,
+       "V2_PD_ub": 0.0050531339505026735,
+       "method_minus_arm_infeasible": -0.31616958630116526,
+       "method_minus_arm_infeasible_ci95": [
+        -0.3419808498765734,
+        -0.2906719217489103
+       ]
+      },
+      {
+       "arm": "B4",
+       "valid_joint": false,
+       "infeasible_rate": 0.20822355611829296,
+       "V2_PD7_E": 0.4032346820785351,
+       "V2_PD7_ub": 0.4322311636194679,
+       "V2_SD1_7_E": 0.09392667213985406,
+       "V2_SD1_7_ub": 0.10248830747273997,
+       "V2_PD_E": 0.16938140307310273,
+       "V2_PD_ub": 0.18440984124011411,
+       "method_minus_arm_infeasible": 0.3459022035337825,
+       "method_minus_arm_infeasible_ci95": [
+        0.3252357815506465,
+        0.3668012537159675
+       ]
+      },
+      {
+       "arm": "B6",
+       "valid_joint": false,
+       "infeasible_rate": 0.1666909347172505,
+       "V2_PD7_E": 0.36284440828153836,
+       "V2_PD7_ub": 0.38928844756658043,
+       "V2_SD1_7_E": 0.08823965519891126,
+       "V2_SD1_7_ub": 0.09590905342858695,
+       "V2_PD_E": 0.09125098703368117,
+       "V2_PD_ub": 0.10199362662107954,
+       "method_minus_arm_infeasible": 0.38743482493482495,
+       "method_minus_arm_infeasible_ci95": [
+        0.35787878391887745,
+        0.4173761120536543
+       ]
+      },
+      {
+       "arm": "B9",
+       "valid_joint": false,
+       "infeasible_rate": 0.4335074953496006,
+       "V2_PD7_E": 0.14121634569673586,
+       "V2_PD7_ub": 0.15821455256799355,
+       "V2_SD1_7_E": 0.013956150944082122,
+       "V2_SD1_7_ub": 0.016632584309604858,
+       "V2_PD_E": 0.0505034905951065,
+       "V2_PD_ub": 0.06064926646774661,
+       "method_minus_arm_infeasible": 0.12061826430247483,
+       "method_minus_arm_infeasible_ci95": [
+        0.09305300473456699,
+        0.1456455832023116
+       ]
+      }
+     ]
+    },
+    "MstarJx": {
+     "method": "MstarJx",
+     "comparators": [
+      "Mstar",
+      "B0",
+      "B1",
+      "B3",
+      "B4",
+      "B6",
+      "B9"
+     ],
+     "comparators_valid_on_joint_loss": [
+      "B0",
+      "B3"
+     ],
+     "comparators_invalid_on_joint_loss": [
+      "Mstar",
+      "B1",
+      "B4",
+      "B6",
+      "B9"
+     ],
+     "level": 0.975,
+     "validity_method": true,
+     "lower_than_every_valid_comparator": {
+      "B0": {
+       "mean_diff": -0.1873641397325608,
+       "ub_one_sided": -0.16420350676876141,
+       "lower": true
+      },
+      "B3": {
+       "mean_diff": -0.29350314455577614,
+       "ub_one_sided": -0.2667312913886771,
+       "lower": true
+      }
+     },
+     "vacuous": false,
+     "missing_comparators": [
+      "RETUNED"
+     ],
+     "rule": "Form B validity (D14 v05 section 6 (i)) applied to the joint loss: for each of PD7, SD1_7 and PD the scene-level V2 (per scene, the share of its decisions with a relied record in the population that have >= 1 exceedance; then the mean over scenes) must be evaluable (>= 39 scenes from >= 8 logs), not flagged (A.flag: one-sided 0.95 log-cluster bootstrap lower bound > delta, or est > delta when the bootstrap SE is zero) and its one-sided 0.95 upper bound must be <= delta + 0.03 (HK1c). The same rule for M*J, M* and every comparator. HK1a's per-stratum cell family has no analogue (a decision's union spans strata), so the test is HK1b and HK1c on the pooled joint loss.",
+     "met": true,
+     "trade_off_table": [
+      {
+       "arm": "MstarJx",
+       "valid_joint": true,
+       "infeasible_rate": 0.5767922013974646,
+       "V2_PD7_E": 0.046190206268845485,
+       "V2_PD7_ub": 0.05491077932289339,
+       "V2_SD1_7_E": 0.008305636845268933,
+       "V2_SD1_7_ub": 0.011279448375801271,
+       "V2_PD_E": 0.004411005767182963,
+       "V2_PD_ub": 0.00700053445962998
+      },
+      {
+       "arm": "Mstar",
+       "valid_joint": false,
+       "infeasible_rate": 0.1613015430120693,
+       "V2_PD7_E": 0.3513068119106858,
+       "V2_PD7_ub": 0.3781659662706307,
+       "V2_SD1_7_E": 0.08243355023685084,
+       "V2_SD1_7_ub": 0.09029045287694495,
+       "V2_PD_E": 0.08152239836418976,
+       "V2_PD_ub": 0.09321777983539772,
+       "method_minus_arm_infeasible": 0.41549065838539523,
+       "method_minus_arm_infeasible_ci95": [
+        0.3867407209165055,
+        0.4460083015448428
+       ]
+      },
+      {
+       "arm": "B0",
+       "valid_joint": true,
+       "infeasible_rate": 0.7641563411300253,
+       "V2_PD7_E": 0.026439628530667395,
+       "V2_PD7_ub": 0.03269655911824321,
+       "V2_SD1_7_E": 0.001297180251586614,
+       "V2_SD1_7_ub": 0.0018575062026440774,
+       "V2_PD_E": 0.002825803941887094,
+       "V2_PD_ub": 0.004722764481618089,
+       "method_minus_arm_infeasible": -0.1873641397325608,
+       "method_minus_arm_infeasible_ci95": [
+        -0.20905369544736088,
+        -0.16420350676876141
+       ]
+      },
+      {
+       "arm": "B1",
+       "valid_joint": false,
+       "infeasible_rate": 0.3789333998544525,
+       "V2_PD7_E": 0.1937897817491454,
+       "V2_PD7_ub": 0.21267437374446926,
+       "V2_SD1_7_E": 0.035639037035780835,
+       "V2_SD1_7_ub": 0.04041448238829198,
+       "V2_PD_E": 0.07671084672202716,
+       "V2_PD_ub": 0.08706507583680863,
+       "method_minus_arm_infeasible": 0.1978588015430121,
+       "method_minus_arm_infeasible_ci95": [
+        0.17268924201056507,
+        0.2224629540106806
+       ]
+      },
+      {
+       "arm": "B3",
+       "valid_joint": true,
+       "infeasible_rate": 0.8702953459532407,
+       "V2_PD7_E": 0.021214198167116935,
+       "V2_PD7_ub": 0.02633815682650832,
+       "V2_SD1_7_E": 0.00128774024670109,
+       "V2_SD1_7_ub": 0.002125304280941887,
+       "V2_PD_E": 0.002986974023227398,
+       "V2_PD_ub": 0.0050531339505026735,
+       "method_minus_arm_infeasible": -0.29350314455577614,
+       "method_minus_arm_infeasible_ci95": [
+        -0.3191601562015473,
+        -0.2667312913886771
+       ]
+      },
+      {
+       "arm": "B4",
+       "valid_joint": false,
+       "infeasible_rate": 0.20822355611829296,
+       "V2_PD7_E": 0.4032346820785351,
+       "V2_PD7_ub": 0.4322311636194679,
+       "V2_SD1_7_E": 0.09392667213985406,
+       "V2_SD1_7_ub": 0.10248830747273997,
+       "V2_PD_E": 0.16938140307310273,
+       "V2_PD_ub": 0.18440984124011411,
+       "method_minus_arm_infeasible": 0.3685686452791716,
+       "method_minus_arm_infeasible_ci95": [
+        0.34454809788923446,
+        0.394946085244964
+       ]
+      },
+      {
+       "arm": "B6",
+       "valid_joint": false,
+       "infeasible_rate": 0.1666909347172505,
+       "V2_PD7_E": 0.36284440828153836,
+       "V2_PD7_ub": 0.38928844756658043,
+       "V2_SD1_7_E": 0.08823965519891126,
+       "V2_SD1_7_ub": 0.09590905342858695,
+       "V2_PD_E": 0.09125098703368117,
+       "V2_PD_ub": 0.10199362662107954,
+       "method_minus_arm_infeasible": 0.4101012666802141,
+       "method_minus_arm_infeasible_ci95": [
+        0.3784880313597128,
+        0.44313089920380194
+       ]
+      },
+      {
+       "arm": "B9",
+       "valid_joint": false,
+       "infeasible_rate": 0.4335074953496006,
+       "V2_PD7_E": 0.14121634569673586,
+       "V2_PD7_ub": 0.15821455256799355,
+       "V2_SD1_7_E": 0.013956150944082122,
+       "V2_SD1_7_ub": 0.016632584309604858,
+       "V2_PD_E": 0.0505034905951065,
+       "V2_PD_ub": 0.06064926646774661,
+       "method_minus_arm_infeasible": 0.14328470604786395,
+       "method_minus_arm_infeasible_ci95": [
+        0.11160581859919906,
+        0.1730802442243364
+       ]
+      }
+     ]
+    }
+   },
+   "price_vs_Mstar": {
+    "MstarJ": {
+     "infeasible_rate_MstarJ": 0.5541257596520754,
+     "infeasible_rate_Mstar": 0.1613015430120693,
+     "diff_mean": 0.3928242166400061,
+     "diff_ci95": [
+      0.3673279258084845,
+      0.418745927458827
+     ],
+     "note": "paired at identical decision states; scene-level means; log-cluster bootstrap"
+    },
+    "MstarJx": {
+     "infeasible_rate_MstarJx": 0.5767922013974646,
+     "infeasible_rate_Mstar": 0.1613015430120693,
+     "diff_mean": 0.41549065838539523,
+     "diff_ci95": [
+      0.3867407209165055,
+      0.4460083015448428
+     ],
+     "note": "paired at identical decision states; scene-level means; log-cluster bootstrap"
+    }
+   },
+   "lambda_by_fold": {
+    "0": {
+     "MstarJ": 3.46,
+     "MstarJx": 3.06
+    },
+    "1": {
+     "MstarJ": 3.6,
+     "MstarJx": 3.48
+    },
+    "2": {
+     "MstarJ": 3.44,
+     "MstarJx": 3.62
+    },
+    "3": {
+     "MstarJ": 3.5,
+     "MstarJx": 4.13
+    },
+    "4": {
+     "MstarJ": 3.44,
+     "MstarJx": 4.42
+    }
+   },
+   "fit": [
+    {
+     "tracker": "t3",
+     "fold": 0,
+     "arm": "MstarJ",
+     "lambda": 3.46,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 671,
+     "cal_decisions_PD7": 24382,
+     "lam_PD7": 3.46,
+     "lam_SD1_7": 1.29,
+     "lam_PD": 1.21,
+     "bound_at_lambda_PD7": 0.04979160324441777,
+     "loss_at_1_PD7": 0.34961213262781515,
+     "items_oof_PD7_at_lambda": 0.06222151664755356,
+     "items_oof_SD1_7_at_lambda": 0.012667222584725905,
+     "items_oof_PD_at_lambda": 0.00858974358974359,
+     "items_oof_PD7_at_1": 0.38158337808098397
+    },
+    {
+     "tracker": "t3",
+     "fold": 0,
+     "arm": "MstarJx",
+     "lambda": 3.06,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 179,
+     "cal_decisions_PD7": 6690,
+     "lam_PD7": 3.06,
+     "lam_SD1_7": 1.27,
+     "lam_PD": 1.47,
+     "bound_at_lambda_PD7": 0.04971826103088795,
+     "loss_at_1_PD7": 0.34121225798550864,
+     "items_oof_PD7_at_lambda": 0.0748553652003325,
+     "items_oof_SD1_7_at_lambda": 0.014075042193412952,
+     "items_oof_PD_at_lambda": 0.00879217273954116,
+     "items_oof_PD7_at_1": 0.3765799442621471
+    },
+    {
+     "tracker": "t3",
+     "fold": 1,
+     "arm": "MstarJ",
+     "lambda": 3.6,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 668,
+     "cal_decisions_PD7": 24025,
+     "lam_PD7": 3.6,
+     "lam_SD1_7": 1.29,
+     "lam_PD": 1.19,
+     "bound_at_lambda_PD7": 0.049952350821297085,
+     "loss_at_1_PD7": 0.34869685237414094,
+     "items_oof_PD7_at_lambda": 0.03249766823503648,
+     "items_oof_SD1_7_at_lambda": 0.004301616490160588,
+     "items_oof_PD_at_lambda": 0.007136269006772603,
+     "items_oof_PD7_at_1": 0.3340180874094607
+    },
+    {
+     "tracker": "t3",
+     "fold": 1,
+     "arm": "MstarJx",
+     "lambda": 3.48,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 160,
+     "cal_decisions_PD7": 5720,
+     "lam_PD7": 3.48,
+     "lam_SD1_7": 1.31,
+     "lam_PD": 1.24,
+     "bound_at_lambda_PD7": 0.049967926965706275,
+     "loss_at_1_PD7": 0.31472231747512247,
+     "items_oof_PD7_at_lambda": 0.03220343330393003,
+     "items_oof_SD1_7_at_lambda": 0.003744308965149713,
+     "items_oof_PD_at_lambda": 0.006416844546340949,
+     "items_oof_PD7_at_1": 0.32173573278661804
+    },
+    {
+     "tracker": "t3",
+     "fold": 2,
+     "arm": "MstarJ",
+     "lambda": 3.44,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 687,
+     "cal_decisions_PD7": 24995,
+     "lam_PD7": 3.44,
+     "lam_SD1_7": 1.29,
+     "lam_PD": 1.23,
+     "bound_at_lambda_PD7": 0.04994722884981926,
+     "loss_at_1_PD7": 0.35159815393119964,
+     "items_oof_PD7_at_lambda": 0.04824564380708958,
+     "items_oof_SD1_7_at_lambda": 0.005228096612205924,
+     "items_oof_PD_at_lambda": 0.0,
+     "items_oof_PD7_at_1": 0.3223093162346009
+    },
+    {
+     "tracker": "t3",
+     "fold": 2,
+     "arm": "MstarJx",
+     "lambda": 3.62,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 168,
+     "cal_decisions_PD7": 5870,
+     "lam_PD7": 3.62,
+     "lam_SD1_7": 1.26,
+     "lam_PD": 1.3,
+     "bound_at_lambda_PD7": 0.049716789666906645,
+     "loss_at_1_PD7": 0.29698613360943593,
+     "items_oof_PD7_at_lambda": 0.042218654737337345,
+     "items_oof_SD1_7_at_lambda": 0.004534589339751282,
+     "items_oof_PD_at_lambda": 0.00042105263157894734,
+     "items_oof_PD7_at_1": 0.3201294458216791
+    },
+    {
+     "tracker": "t3",
+     "fold": 3,
+     "arm": "MstarJ",
+     "lambda": 3.5,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 679,
+     "cal_decisions_PD7": 24845,
+     "lam_PD7": 3.5,
+     "lam_SD1_7": 1.31,
+     "lam_PD": 1.26,
+     "bound_at_lambda_PD7": 0.049931056987797616,
+     "loss_at_1_PD7": 0.35847292954728216,
+     "items_oof_PD7_at_lambda": 0.04673768476798829,
+     "items_oof_SD1_7_at_lambda": 0.004524099711744662,
+     "items_oof_PD_at_lambda": 0.0,
+     "items_oof_PD7_at_1": 0.3047040353071282
+    },
+    {
+     "tracker": "t3",
+     "fold": 3,
+     "arm": "MstarJx",
+     "lambda": 4.13,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 164,
+     "cal_decisions_PD7": 6102,
+     "lam_PD7": 4.13,
+     "lam_SD1_7": 1.48,
+     "lam_PD": 1.54,
+     "bound_at_lambda_PD7": 0.049698537593274424,
+     "loss_at_1_PD7": 0.4174994481614618,
+     "items_oof_PD7_at_lambda": 0.03629332624961929,
+     "items_oof_SD1_7_at_lambda": 0.0029066161050137437,
+     "items_oof_PD_at_lambda": 0.0,
+     "items_oof_PD7_at_1": 0.30439184180775064
+    },
+    {
+     "tracker": "t3",
+     "fold": 4,
+     "arm": "MstarJ",
+     "lambda": 3.44,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 683,
+     "cal_decisions_PD7": 24613,
+     "lam_PD7": 3.44,
+     "lam_SD1_7": 1.27,
+     "lam_PD": 1.22,
+     "bound_at_lambda_PD7": 0.049902617632800524,
+     "loss_at_1_PD7": 0.33701748889807415,
+     "items_oof_PD7_at_lambda": 0.06084081771208522,
+     "items_oof_SD1_7_at_lambda": 0.010105335087278289,
+     "items_oof_PD_at_lambda": 0.0028737839221710188,
+     "items_oof_PD7_at_1": 0.4223887189846222
+    },
+    {
+     "tracker": "t3",
+     "fold": 4,
+     "arm": "MstarJx",
+     "lambda": 4.42,
+     "binding": "PD7_primary",
+     "none_qualifies": false,
+     "cal_scenes_PD7": 176,
+     "cal_decisions_PD7": 6333,
+     "lam_PD7": 4.42,
+     "lam_SD1_7": 1.48,
+     "lam_PD": 1.37,
+     "bound_at_lambda_PD7": 0.04973195768201419,
+     "loss_at_1_PD7": 0.3847454142534288,
+     "items_oof_PD7_at_lambda": 0.04285792298643222,
+     "items_oof_SD1_7_at_lambda": 0.0071848179322603145,
+     "items_oof_PD_at_lambda": 0.002336149513568868,
+     "items_oof_PD7_at_1": 0.4285281935290381
+    }
+   ],
+   "per_constraint_form_B": {
+    "comparators_passing_validity": [
+     "B0",
+     "B3"
+    ],
+    "validity_M": true,
+    "met": true,
+    "vacuous": false
+   }
+  }
+ }
+}

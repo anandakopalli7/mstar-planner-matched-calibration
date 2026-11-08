@@ -1,0 +1,1537 @@
+{
+ "L": 0.995,
+ "levels": {
+  "flag_against_Mstar": 0.95,
+  "removal_each": 0.9972222222222222,
+  "superiority_alpha": 0.025,
+  "form_C_H10": 0.975,
+  "H3_removal_each": 0.9916666666666667
+ },
+ "trackers": {
+  "t1": {
+   "arms": {
+    "Mstar": {
+     "pops": {
+      "PD7": {
+       "evaluable": 32,
+       "cell_flags": [],
+       "family_flags": [],
+       "pooled": {
+        "E": 0.042232253706022314,
+        "lb": 0.03950633481650657,
+        "flagged": false
+       },
+       "pooled_ub_at_L": 0.04618665407200862,
+       "HK1c": true,
+       "family_size": 27,
+       "record_share": 0.9965470390778113,
+       "floor": true,
+       "ok": true
+      },
+      "SD1_7": {
+       "evaluable": 25,
+       "cell_flags": [],
+       "family_flags": [],
+       "pooled": {
+        "E": 0.03211741473054023,
+        "lb": 0.027369846779487155,
+        "flagged": false
+       },
+       "pooled_ub_at_L": 0.038635613403029366,
+       "HK1c": true,
+       "family_size": 18,
+       "record_share": 0.9831753195493218,
+       "floor": true,
+       "ok": true
+      },
+      "PD": {
+       "evaluable": 18,
+       "cell_flags": [],
+       "family_flags": [],
+       "pooled": {
+        "E": 0.049452247143123046,
+        "lb": 0.0401894614665207,
+        "flagged": false
+       },
+       "pooled_ub_at_L": 0.06248312492709172,
+       "HK1c": true,
+       "family_size": 5,
+       "record_share": 0.6549283249742113,
+       "floor": true,
+       "ok": true
+      }
+     },
+     "valid": true
+    },
+    "B0": {
+     "pops": {
+      "PD7": {
+       "evaluable": 32,
+       "cell_flags": [
+        "car|long|new",
+        "car|lat|turning",
+        "car|lat|new",
+        "pedestrian|long|static"
+       ],
+       "family_flags": [
+        "car|long|new",
+        "car|lat|turning",
+        "car|lat|new",
+        "pedestrian|long|static"
+       ],
+       "pooled": {
+        "E": 0.02575124180761627,
+        "lb": 0.021084623148496705,
+        "flagged": false
+       },
+       "family_size": 26
+      },
+      "SD1_7": {
+       "evaluable": 24,
+       "cell_flags": [
+        "car|lat|turning"
+       ],
+       "family_flags": [
+        "car|lat|turning"
+       ],
+       "pooled": {
+        "E": 0.024926890440429804,
+        "lb": 0.016760703155397846,
+        "flagged": false
+       },
+       "family_size": 14
+      },
+      "PD": {
+       "evaluable": 17,
+       "cell_flags": [
+        "car|lat|turning"
+       ],
+       "family_flags": [],
+       "pooled": {
+        "E": 0.044131316318958454,
+        "lb": 0.025494834969826026,
+        "flagged": false
+       },
+       "family_size": 6
+      }
+     },
+     "removed": true,
+     "removed_by": [
+      "PD7: cell flag at 1-0.025/9 (car|long|new, car|lat|turning, car|lat|new, pedestrian|long|static)",
+      "PD7: family flag at 1-0.025/9 (car|long|new, car|lat|turning, car|lat|new, pedestrian|long|static)",
+      "SD1_7: cell flag at 1-0.025/9 (car|lat|turning)",
+      "SD1_7: family flag at 1-0.025/9 (car|lat|turning)",
+      "PD: cell flag at 1-0.025/9 (car|lat|turning)"
+     ],
+     "family_computed_all_pops": true
+    },
+    "B1": {
+     "pops": {
+      "PD7": {
+       "evaluable": 32,
+       "cell_flags": [
+        "car|lat|turning",
+        "large|long|straight",
+        "large|long|turning",
+        "large|long|new"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.01671764940048469,
+        "lb": 0.013502468587485186,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "SD1_7": {
+       "evaluable": 25,
+       "cell_flags": [
+        "car|lat|turning"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.018140265117858847,
+        "lb": 0.011695995569670478,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "PD": {
+       "evaluable": 14,
+       "cell_flags": [
+        "car|lat|turning"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.039843912318954434,
+        "lb": 0.02414635528567757,
+        "flagged": false
+       },
+       "family_size": null
+      }
+     },
+     "removed": true,
+     "removed_by": [
+      "PD7: cell flag at 1-0.025/9 (car|lat|turning, large|long|straight, large|long|turning, large|long|new)",
+      "SD1_7: cell flag at 1-0.025/9 (car|lat|turning)",
+      "PD: cell flag at 1-0.025/9 (car|lat|turning)"
+     ],
+     "family_computed_all_pops": false
+    },
+    "B3": {
+     "pops": {
+      "PD7": {
+       "evaluable": 32,
+       "cell_flags": [],
+       "family_flags": [],
+       "pooled": {
+        "E": 0.0020023337039580947,
+        "lb": 0.0010998762014942487,
+        "flagged": false
+       },
+       "family_size": 25
+      },
+      "SD1_7": {
+       "evaluable": 12,
+       "cell_flags": [],
+       "family_flags": [],
+       "pooled": {
+        "E": 0.001192355552288455,
+        "lb": 0.00019018199899372475,
+        "flagged": false
+       },
+       "family_size": 7
+      },
+      "PD": {
+       "evaluable": 14,
+       "cell_flags": [],
+       "family_flags": [],
+       "pooled": {
+        "E": 0.0011756847743691697,
+        "lb": -0.0005367868116110917,
+        "flagged": false
+       },
+       "family_size": 5
+      }
+     },
+     "removed": false,
+     "removed_by": [],
+     "family_computed_all_pops": true
+    },
+    "B4": {
+     "pops": {
+      "PD7": {
+       "evaluable": 32,
+       "cell_flags": [
+        "car|long|straight",
+        "car|long|turning",
+        "car|long|new",
+        "car|lat|straight",
+        "car|lat|turning",
+        "car|lat|new",
+        "pedestrian|long|static",
+        "pedestrian|long|straight",
+        "pedestrian|long|turning",
+        "pedestrian|long|new",
+        "large|long|new"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.051615605628124915,
+        "lb": 0.04414295352214957,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "SD1_7": {
+       "evaluable": 25,
+       "cell_flags": [
+        "car|lat|turning",
+        "car|lat|new",
+        "pedestrian|long|static",
+        "pedestrian|long|turning"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.043714372704505455,
+        "lb": 0.03217178394218806,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "PD": {
+       "evaluable": 17,
+       "cell_flags": [
+        "car|lat|turning",
+        "car|lat|new"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.07663125581429754,
+        "lb": 0.0554678627137435,
+        "flagged": true
+       },
+       "family_size": null
+      }
+     },
+     "removed": true,
+     "removed_by": [
+      "PD7: cell flag at 1-0.025/9 (car|long|straight, car|long|turning, car|long|new, car|lat|straight, car|lat|turning, car|lat|new, pedestrian|long|static, pedestrian|long|straight, pedestrian|long|turning, pedestrian|long|new, large|long|new)",
+      "SD1_7: cell flag at 1-0.025/9 (car|lat|turning, car|lat|new, pedestrian|long|static, pedestrian|long|turning)",
+      "PD: cell flag at 1-0.025/9 (car|lat|turning, car|lat|new)",
+      "PD: pooled LB at 1-0.025/9 > delta"
+     ],
+     "family_computed_all_pops": false
+    },
+    "B6": {
+     "pops": {
+      "PD7": {
+       "evaluable": 32,
+       "cell_flags": [
+        "car|long|straight",
+        "car|long|turning",
+        "car|long|new",
+        "car|lat|turning",
+        "car|lat|new",
+        "pedestrian|long|static",
+        "two_wheeler|long|new",
+        "large|long|straight",
+        "large|long|new",
+        "large|lat|turning",
+        "large|lat|new"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.0427523825006628,
+        "lb": 0.03591622936268368,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "SD1_7": {
+       "evaluable": 25,
+       "cell_flags": [
+        "car|lat|turning"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.035597849263735076,
+        "lb": 0.025631998293568527,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "PD": {
+       "evaluable": 17,
+       "cell_flags": [],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.04767313377981937,
+        "lb": 0.02786539637976739,
+        "flagged": false
+       },
+       "family_size": null
+      }
+     },
+     "removed": true,
+     "removed_by": [
+      "PD7: cell flag at 1-0.025/9 (car|long|straight, car|long|turning, car|long|new, car|lat|turning, car|lat|new, pedestrian|long|static, two_wheeler|long|new, large|long|straight, large|long|new, large|lat|turning, large|lat|new)",
+      "SD1_7: cell flag at 1-0.025/9 (car|lat|turning)"
+     ],
+     "family_computed_all_pops": false
+    },
+    "B9": {
+     "pops": {
+      "PD7": {
+       "evaluable": 32,
+       "cell_flags": [
+        "car|long|new",
+        "large|long|new"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.012665569579254514,
+        "lb": 0.009868782091196555,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "SD1_7": {
+       "evaluable": 24,
+       "cell_flags": [],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.006791255973366654,
+        "lb": 0.003866911693395753,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "PD": {
+       "evaluable": 17,
+       "cell_flags": [],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.02798014929777397,
+        "lb": 0.01280418002362662,
+        "flagged": false
+       },
+       "family_size": null
+      }
+     },
+     "removed": true,
+     "removed_by": [
+      "PD7: cell flag at 1-0.025/9 (car|long|new, large|long|new)"
+     ],
+     "family_computed_all_pops": false
+    },
+    "RETUNED": {
+     "pops": {
+      "PD7": {
+       "evaluable": 32,
+       "cell_flags": [
+        "car|long|new",
+        "car|lat|turning",
+        "car|lat|new",
+        "pedestrian|long|static"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.02575124180761627,
+        "lb": 0.021084623148496705,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "SD1_7": {
+       "evaluable": 24,
+       "cell_flags": [
+        "car|lat|turning"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.024926890440429804,
+        "lb": 0.016760703155397846,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "PD": {
+       "evaluable": 17,
+       "cell_flags": [
+        "car|lat|turning"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.044131316318958454,
+        "lb": 0.025494834969826026,
+        "flagged": false
+       },
+       "family_size": null
+      }
+     },
+     "removed": true,
+     "removed_by": [
+      "PD7: cell flag at 1-0.025/9 (car|long|new, car|lat|turning, car|lat|new, pedestrian|long|static)",
+      "SD1_7: cell flag at 1-0.025/9 (car|lat|turning)",
+      "PD: cell flag at 1-0.025/9 (car|lat|turning)"
+     ],
+     "family_computed_all_pops": false
+    }
+   },
+   "V_t": [
+    "B3"
+   ],
+   "formB": {
+    "level": 0.975,
+    "ub": {
+     "B3": -0.7249944552414173
+    },
+    "met": true,
+    "vacuous": false
+   },
+   "formA_descriptive": {
+    "ub_at_1-0.05/4": {
+     "B0": -0.197090339694796,
+     "B1": -0.24370116240294212,
+     "B4": -0.06359988315135072,
+     "B9": -0.2972570391640447
+    },
+    "met": true,
+    "ub_at_1-0.025/4": {
+     "B0": -0.19282839462313764,
+     "B1": -0.24027862783043025,
+     "B4": -0.061349412287368406,
+     "B9": -0.29269151620222783
+    },
+    "met_at_0.025": true
+   },
+   "formC": {
+    "ub_0.975": -0.06588945189686472,
+    "mean_diff": -0.08408214316109053,
+    "met": true
+   },
+   "H10": {
+    "ablation_part": true,
+    "ni_ub_0.975": -0.04340103874398778,
+    "ni_met": true,
+    "holds": true
+   },
+   "H3": {
+    "ValidJ_MstarJx": true,
+    "V_J": [
+     "B3"
+    ],
+    "missing": [
+     "RETUNED"
+    ],
+    "level": 0.975,
+    "ub": {
+     "B3": -0.3813178120851231
+    },
+    "holds": true,
+    "joint_status": {
+     "B0": {
+      "PD7": {
+       "E": 0.21631733833191633,
+       "evaluable": true,
+       "lb95": 0.1918648627668198,
+       "ub95": 0.2409855091194401,
+       "flag95": true,
+       "lb_removal": 0.18047642630776942,
+       "removed_flag": true,
+       "ub_at_L": 0.25587360946210774
+      },
+      "SD1_7": {
+       "E": 0.05123875228982349,
+       "evaluable": true,
+       "lb95": 0.044194060216145484,
+       "ub95": 0.05783820386283888,
+       "flag95": false,
+       "lb_removal": 0.04063189338344778,
+       "removed_flag": false,
+       "ub_at_L": 0.062059688049941344
+      },
+      "PD": {
+       "E": 0.06735964453728087,
+       "evaluable": true,
+       "lb95": 0.05589259302059453,
+       "ub95": 0.07904117316874672,
+       "flag95": true,
+       "lb_removal": 0.04931976406853059,
+       "removed_flag": false,
+       "ub_at_L": 0.08593473922084191
+      }
+     },
+     "B1": {
+      "PD7": {
+       "E": 0.15073927751934038,
+       "evaluable": true,
+       "lb95": 0.13240096980667432,
+       "ub95": 0.16906662759530708,
+       "flag95": true,
+       "lb_removal": 0.12310759694324513,
+       "removed_flag": true,
+       "ub_at_L": 0.17915197377973274
+      },
+      "SD1_7": {
+       "E": 0.036526838450731076,
+       "evaluable": true,
+       "lb95": 0.030952039807552456,
+       "ub95": 0.041792174067987096,
+       "flag95": false,
+       "lb_removal": 0.028365809976069647,
+       "removed_flag": false,
+       "ub_at_L": 0.04512434433819752
+      },
+      "PD": {
+       "E": 0.06110325651507184,
+       "evaluable": true,
+       "lb95": 0.04927482102614621,
+       "ub95": 0.07246001236727229,
+       "flag95": false,
+       "lb_removal": 0.04392435205023139,
+       "removed_flag": false,
+       "ub_at_L": 0.07905176517381739
+      }
+     },
+     "B3": {
+      "PD7": {
+       "E": 0.03006500634002093,
+       "evaluable": true,
+       "lb95": 0.02109979446270749,
+       "ub95": 0.03791512734820587,
+       "flag95": false,
+       "lb_removal": 0.01647138021907429,
+       "removed_flag": false,
+       "ub_at_L": 0.041012742625425466
+      },
+      "SD1_7": {
+       "E": 0.002500719124246438,
+       "evaluable": true,
+       "lb95": 0.0011722160422553795,
+       "ub95": 0.0036462083139019623,
+       "flag95": false,
+       "lb_removal": 0.0006082072775892729,
+       "removed_flag": false,
+       "ub_at_L": 0.004270186772811181
+      },
+      "PD": {
+       "E": 0.0034015132747016803,
+       "evaluable": true,
+       "lb95": 0.0007004746807224597,
+       "ub95": 0.0057059843691633,
+       "flag95": false,
+       "lb_removal": -0.0005947978618658189,
+       "removed_flag": false,
+       "ub_at_L": 0.006696742044395327
+      }
+     },
+     "B4": {
+      "PD7": {
+       "E": 0.3697810787211642,
+       "evaluable": true,
+       "lb95": 0.3387467625675695,
+       "ub95": 0.4017849217520879,
+       "flag95": true,
+       "lb_removal": 0.3245888165230222,
+       "removed_flag": true,
+       "ub_at_L": 0.42173352926708196
+      },
+      "SD1_7": {
+       "E": 0.09760280501236078,
+       "evaluable": true,
+       "lb95": 0.08682745495330382,
+       "ub95": 0.10845171399591064,
+       "flag95": true,
+       "lb_removal": 0.08115570604362984,
+       "removed_flag": true,
+       "ub_at_L": 0.11354464056500997
+      },
+      "PD": {
+       "E": 0.1237054596284939,
+       "evaluable": true,
+       "lb95": 0.11025806457052928,
+       "ub95": 0.13799043800671082,
+       "flag95": true,
+       "lb_removal": 0.10421665322212018,
+       "removed_flag": true,
+       "ub_at_L": 0.14576722627259517
+      }
+     },
+     "B6": {
+      "PD7": {
+       "E": 0.328348293712019,
+       "evaluable": true,
+       "lb95": 0.30046217918162255,
+       "ub95": 0.3571707571811377,
+       "flag95": true,
+       "lb_removal": 0.2868469673457313,
+       "removed_flag": true,
+       "ub_at_L": 0.374488244026099
+      },
+      "SD1_7": {
+       "E": 0.08303159829252618,
+       "evaluable": true,
+       "lb95": 0.07299930519900272,
+       "ub95": 0.09365459906473894,
+       "flag95": true,
+       "lb_removal": 0.06785172290550084,
+       "removed_flag": true,
+       "ub_at_L": 0.09861855957284409
+      },
+      "PD": {
+       "E": 0.0772205448267184,
+       "evaluable": true,
+       "lb95": 0.06594267293641144,
+       "ub95": 0.08890211853334598,
+       "flag95": true,
+       "lb_removal": 0.05878542583892,
+       "removed_flag": true,
+       "ub_at_L": 0.0954626029702241
+      }
+     },
+     "B9": {
+      "PD7": {
+       "E": 0.1256679661445799,
+       "evaluable": true,
+       "lb95": 0.1085032462346443,
+       "ub95": 0.14299487620761606,
+       "flag95": true,
+       "lb_removal": 0.10061009785399908,
+       "removed_flag": true,
+       "ub_at_L": 0.15247547515387003
+      },
+      "SD1_7": {
+       "E": 0.015419186969926616,
+       "evaluable": true,
+       "lb95": 0.012904893893477268,
+       "ub95": 0.01808192911722636,
+       "flag95": false,
+       "lb_removal": 0.01183234900157042,
+       "removed_flag": false,
+       "ub_at_L": 0.019285643975614622
+      },
+      "PD": {
+       "E": 0.04255036839826997,
+       "evaluable": true,
+       "lb95": 0.032684798610213193,
+       "ub95": 0.05183799365452479,
+       "flag95": false,
+       "lb_removal": 0.0262848745516939,
+       "removed_flag": false,
+       "ub_at_L": 0.056424159896111555
+      }
+     },
+     "Mstar": {
+      "PD7": {
+       "E": 0.35841500662282,
+       "evaluable": true,
+       "lb95": 0.3309125058899652,
+       "ub95": 0.386682128446988,
+       "flag95": true,
+       "lb_removal": 0.31640807401782406,
+       "removed_flag": true,
+       "ub_at_L": 0.4031863856266085
+      },
+      "SD1_7": {
+       "E": 0.09056778313078521,
+       "evaluable": true,
+       "lb95": 0.08211646521921054,
+       "ub95": 0.09864536687615574,
+       "flag95": true,
+       "lb_removal": 0.07865365435459588,
+       "removed_flag": true,
+       "ub_at_L": 0.10355281400425353
+      },
+      "PD": {
+       "E": 0.09195673480080688,
+       "evaluable": true,
+       "lb95": 0.07978932999505362,
+       "ub95": 0.10440007933180068,
+       "flag95": true,
+       "lb_removal": 0.07375293011827141,
+       "removed_flag": true,
+       "ub_at_L": 0.11070282421982511
+      }
+     },
+     "MstarJ": {
+      "PD7": {
+       "E": 0.04829686630069607,
+       "evaluable": true,
+       "lb95": 0.038515926540212214,
+       "ub95": 0.057661475857791536,
+       "flag95": false,
+       "lb_removal": 0.03370585811691276,
+       "removed_flag": false,
+       "ub_at_L": 0.061556161308187064
+      },
+      "SD1_7": {
+       "E": 0.006629929089461103,
+       "evaluable": true,
+       "lb95": 0.004995448820542162,
+       "ub95": 0.0081446636748851,
+       "flag95": false,
+       "lb_removal": 0.004079310504751799,
+       "removed_flag": false,
+       "ub_at_L": 0.008904400505662966
+      },
+      "PD": {
+       "E": 0.0020784532733062145,
+       "evaluable": true,
+       "lb95": 0.0001557312782230224,
+       "ub95": 0.003606742258652613,
+       "flag95": false,
+       "lb_removal": -0.000726934490902231,
+       "removed_flag": false,
+       "ub_at_L": 0.0039662511442932966
+      }
+     },
+     "MstarJx": {
+      "PD7": {
+       "E": 0.043633107249957295,
+       "evaluable": true,
+       "lb95": 0.03405346915060718,
+       "ub95": 0.052075003634602365,
+       "flag95": false,
+       "lb_removal": 0.029603497675286774,
+       "removed_flag": false,
+       "ub_at_L": 0.05585657718343965
+      },
+      "SD1_7": {
+       "E": 0.007563925113404356,
+       "evaluable": true,
+       "lb95": 0.004726251167575869,
+       "ub95": 0.009977619112929763,
+       "flag95": false,
+       "lb_removal": 0.003320555794089447,
+       "removed_flag": false,
+       "ub_at_L": 0.011076552770981896
+      },
+      "PD": {
+       "E": 0.002450610496424976,
+       "evaluable": true,
+       "lb95": 0.0004806105030512628,
+       "ub95": 0.004099576870703621,
+       "flag95": false,
+       "lb_removal": -0.00054075286171277,
+       "removed_flag": false,
+       "ub_at_L": 0.0046234282884929055
+      }
+     }
+    },
+    "reproduces_stored_0.95_bounds": true,
+    "max_abs_diff_vs_stored": 8.881784197001252e-16
+   }
+  },
+  "t3": {
+   "arms": {
+    "Mstar": {
+     "pops": {
+      "PD7": {
+       "evaluable": 32,
+       "cell_flags": [],
+       "family_flags": [],
+       "pooled": {
+        "E": 0.04021047306084702,
+        "lb": 0.03782751289371315,
+        "flagged": false
+       },
+       "pooled_ub_at_L": 0.04398747069968033,
+       "HK1c": true,
+       "family_size": 26,
+       "record_share": 0.9937533288181956,
+       "floor": true,
+       "ok": true
+      },
+      "SD1_7": {
+       "evaluable": 24,
+       "cell_flags": [],
+       "family_flags": [],
+       "pooled": {
+        "E": 0.03114605222584303,
+        "lb": 0.026892795756902833,
+        "flagged": false
+       },
+       "pooled_ub_at_L": 0.037023033837803296,
+       "HK1c": true,
+       "family_size": 18,
+       "record_share": 0.9836555261229781,
+       "floor": true,
+       "ok": true
+      },
+      "PD": {
+       "evaluable": 18,
+       "cell_flags": [],
+       "family_flags": [],
+       "pooled": {
+        "E": 0.041583513440027926,
+        "lb": 0.0341796377543093,
+        "flagged": false
+       },
+       "pooled_ub_at_L": 0.05270953465347017,
+       "HK1c": true,
+       "family_size": 5,
+       "record_share": 0.6708389846928889,
+       "floor": true,
+       "ok": true
+      }
+     },
+     "valid": true
+    },
+    "B0": {
+     "pops": {
+      "PD7": {
+       "evaluable": 32,
+       "cell_flags": [],
+       "family_flags": [],
+       "pooled": {
+        "E": 0.002315518611696903,
+        "lb": 0.001267128381244895,
+        "flagged": false
+       },
+       "family_size": 26
+      },
+      "SD1_7": {
+       "evaluable": 20,
+       "cell_flags": [],
+       "family_flags": [],
+       "pooled": {
+        "E": 0.0004507412361037074,
+        "lb": 4.982631219366344e-05,
+        "flagged": false
+       },
+       "family_size": 11
+      },
+      "PD": {
+       "evaluable": 14,
+       "cell_flags": [],
+       "family_flags": [],
+       "pooled": {
+        "E": 0.0024369828008394857,
+        "lb": -0.0019806097722716654,
+        "flagged": false
+       },
+       "family_size": 4
+      }
+     },
+     "removed": false,
+     "removed_by": [],
+     "family_computed_all_pops": true
+    },
+    "B1": {
+     "pops": {
+      "PD7": {
+       "evaluable": 32,
+       "cell_flags": [
+        "car|long|straight",
+        "car|long|turning",
+        "car|long|new",
+        "two_wheeler|long|straight",
+        "two_wheeler|long|turning",
+        "two_wheeler|long|new",
+        "large|long|straight",
+        "large|long|turning",
+        "large|long|new"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.02191490098313683,
+        "lb": 0.016943182087552126,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "SD1_7": {
+       "evaluable": 26,
+       "cell_flags": [
+        "large|long|straight"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.016058970893426058,
+        "lb": 0.010613694697464983,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "PD": {
+       "evaluable": 16,
+       "cell_flags": [],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.042696236806280194,
+        "lb": 0.030992592106169,
+        "flagged": false
+       },
+       "family_size": null
+      }
+     },
+     "removed": true,
+     "removed_by": [
+      "PD7: cell flag at 1-0.025/9 (car|long|straight, car|long|turning, car|long|new, two_wheeler|long|straight, two_wheeler|long|turning, two_wheeler|long|new, large|long|straight, large|long|turning, large|long|new)",
+      "SD1_7: cell flag at 1-0.025/9 (large|long|straight)"
+     ],
+     "family_computed_all_pops": false
+    },
+    "B3": {
+     "pops": {
+      "PD7": {
+       "evaluable": 32,
+       "cell_flags": [],
+       "family_flags": [],
+       "pooled": {
+        "E": 0.0019573754917544517,
+        "lb": 0.0009638291523320689,
+        "flagged": false
+       },
+       "family_size": 25
+      },
+      "SD1_7": {
+       "evaluable": 17,
+       "cell_flags": [],
+       "family_flags": [],
+       "pooled": {
+        "E": 0.0007612409217232881,
+        "lb": -0.0005250354432430477,
+        "flagged": false
+       },
+       "family_size": 6
+      },
+      "PD": {
+       "evaluable": 14,
+       "cell_flags": [],
+       "family_flags": [],
+       "pooled": {
+        "E": 0.0029718520310518803,
+        "lb": -0.002874203591570668,
+        "flagged": false
+       },
+       "family_size": 4
+      }
+     },
+     "removed": false,
+     "removed_by": [],
+     "family_computed_all_pops": true
+    },
+    "B4": {
+     "pops": {
+      "PD7": {
+       "evaluable": 32,
+       "cell_flags": [
+        "car|long|straight",
+        "car|long|turning",
+        "car|long|new",
+        "pedestrian|long|static",
+        "pedestrian|lat|static",
+        "two_wheeler|long|straight",
+        "two_wheeler|long|turning",
+        "two_wheeler|long|new",
+        "large|long|straight",
+        "large|long|turning",
+        "large|long|new"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.05674094325540851,
+        "lb": 0.04647949816473176,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "SD1_7": {
+       "evaluable": 26,
+       "cell_flags": [
+        "car|long|straight",
+        "car|long|turning",
+        "car|long|new",
+        "large|long|straight"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.03865916513083948,
+        "lb": 0.029454652275246504,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "PD": {
+       "evaluable": 18,
+       "cell_flags": [
+        "car|long|straight",
+        "car|long|turning",
+        "car|long|new"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.10586570457383253,
+        "lb": 0.08517533884398502,
+        "flagged": true
+       },
+       "family_size": null
+      }
+     },
+     "removed": true,
+     "removed_by": [
+      "PD7: cell flag at 1-0.025/9 (car|long|straight, car|long|turning, car|long|new, pedestrian|long|static, pedestrian|lat|static, two_wheeler|long|straight, two_wheeler|long|turning, two_wheeler|long|new, large|long|straight, large|long|turning, large|long|new)",
+      "SD1_7: cell flag at 1-0.025/9 (car|long|straight, car|long|turning, car|long|new, large|long|straight)",
+      "PD: cell flag at 1-0.025/9 (car|long|straight, car|long|turning, car|long|new)",
+      "PD: pooled LB at 1-0.025/9 > delta"
+     ],
+     "family_computed_all_pops": false
+    },
+    "B6": {
+     "pops": {
+      "PD7": {
+       "evaluable": 32,
+       "cell_flags": [
+        "car|long|straight",
+        "car|long|turning",
+        "car|long|new",
+        "car|lat|turning",
+        "car|lat|new",
+        "pedestrian|long|static",
+        "pedestrian|lat|static",
+        "two_wheeler|long|straight",
+        "large|long|straight"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.04492187976277997,
+        "lb": 0.039216065629514255,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "SD1_7": {
+       "evaluable": 27,
+       "cell_flags": [],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.03533848316734602,
+        "lb": 0.02690763313526999,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "PD": {
+       "evaluable": 18,
+       "cell_flags": [],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.048570669985249074,
+        "lb": 0.035177966316569984,
+        "flagged": false
+       },
+       "family_size": null
+      }
+     },
+     "removed": true,
+     "removed_by": [
+      "PD7: cell flag at 1-0.025/9 (car|long|straight, car|long|turning, car|long|new, car|lat|turning, car|lat|new, pedestrian|long|static, pedestrian|lat|static, two_wheeler|long|straight, large|long|straight)"
+     ],
+     "family_computed_all_pops": false
+    },
+    "B9": {
+     "pops": {
+      "PD7": {
+       "evaluable": 32,
+       "cell_flags": [
+        "car|long|new"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.014137051798692032,
+        "lb": 0.011176084140398324,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "SD1_7": {
+       "evaluable": 25,
+       "cell_flags": [],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.006595117846728089,
+        "lb": 0.0029117460199977636,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "PD": {
+       "evaluable": 17,
+       "cell_flags": [],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.03324332285276916,
+        "lb": 0.016080335128960784,
+        "flagged": false
+       },
+       "family_size": null
+      }
+     },
+     "removed": true,
+     "removed_by": [
+      "PD7: cell flag at 1-0.025/9 (car|long|new)"
+     ],
+     "family_computed_all_pops": false
+    },
+    "RETUNED": {
+     "pops": {
+      "PD7": {
+       "evaluable": 32,
+       "cell_flags": [
+        "car|long|straight",
+        "car|long|turning",
+        "car|long|new",
+        "large|long|straight"
+       ],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.02262660504348721,
+        "lb": 0.018419611385957997,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "SD1_7": {
+       "evaluable": 26,
+       "cell_flags": [],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.013449406860896006,
+        "lb": 0.008095311504528219,
+        "flagged": false
+       },
+       "family_size": null
+      },
+      "PD": {
+       "evaluable": 16,
+       "cell_flags": [],
+       "family_flags": null,
+       "pooled": {
+        "E": 0.04039437894249089,
+        "lb": 0.026441152276943526,
+        "flagged": false
+       },
+       "family_size": null
+      }
+     },
+     "removed": true,
+     "removed_by": [
+      "PD7: cell flag at 1-0.025/9 (car|long|straight, car|long|turning, car|long|new, large|long|straight)"
+     ],
+     "family_computed_all_pops": false
+    }
+   },
+   "V_t": [
+    "B0",
+    "B3"
+   ],
+   "formB": {
+    "level": 0.9875,
+    "ub": {
+     "B0": -0.5712926013818742,
+     "B3": -0.68015349639217
+    },
+    "met": true,
+    "vacuous": false
+   },
+   "formA_descriptive": {
+    "ub_at_1-0.05/4": {
+     "B0": -0.5712926013818742,
+     "B1": -0.186028054286564,
+     "B4": -0.031463740369205295,
+     "B9": -0.2362623671246809
+    },
+    "met": true,
+    "ub_at_1-0.025/4": {
+     "B0": -0.5675385211287512,
+     "B1": -0.18233443750446726,
+     "B4": -0.029291556257261323,
+     "B9": -0.23349918058045588
+    },
+    "met_at_0.025": true
+   },
+   "formC": {
+    "ub_0.975": -0.03345559167219397,
+    "mean_diff": -0.046922013106223626,
+    "met": true
+   },
+   "H10": {
+    "ablation_part": true,
+    "ni_ub_0.975": 0.0052727933333419396,
+    "ni_met": true,
+    "holds": true
+   },
+   "H3": {
+    "ValidJ_MstarJx": true,
+    "V_J": [
+     "B0",
+     "B3"
+    ],
+    "missing": [
+     "RETUNED"
+    ],
+    "level": 0.9875,
+    "ub": {
+     "B0": -0.1602238099461406,
+     "B3": -0.2634401848174201
+    },
+    "holds": true,
+    "joint_status": {
+     "B0": {
+      "PD7": {
+       "E": 0.026439628530667395,
+       "evaluable": true,
+       "lb95": 0.019515878940237073,
+       "ub95": 0.03269655911824321,
+       "flag95": false,
+       "lb_removal": 0.01596519715381793,
+       "removed_flag": false,
+       "ub_at_L": 0.03561050703594876
+      },
+      "SD1_7": {
+       "E": 0.001297180251586614,
+       "evaluable": true,
+       "lb95": 0.0006320230954767054,
+       "ub95": 0.0018575062026440774,
+       "flag95": false,
+       "lb_removal": 0.0003286499099039061,
+       "removed_flag": false,
+       "ub_at_L": 0.002087705018960573
+      },
+      "PD": {
+       "E": 0.002825803941887094,
+       "evaluable": true,
+       "lb95": 0.0006167462692352483,
+       "ub95": 0.004722764481618089,
+       "flag95": false,
+       "lb_removal": -0.0006209715299419398,
+       "removed_flag": false,
+       "ub_at_L": 0.005297021497054476
+      }
+     },
+     "B1": {
+      "PD7": {
+       "E": 0.1937897817491454,
+       "evaluable": true,
+       "lb95": 0.17542840829667278,
+       "ub95": 0.21267437374446926,
+       "flag95": true,
+       "lb_removal": 0.1666242181722408,
+       "removed_flag": true,
+       "ub_at_L": 0.22153653058024564
+      },
+      "SD1_7": {
+       "E": 0.035639037035780835,
+       "evaluable": true,
+       "lb95": 0.030759561788900904,
+       "ub95": 0.04041448238829198,
+       "flag95": false,
+       "lb_removal": 0.02856771521313741,
+       "removed_flag": false,
+       "ub_at_L": 0.04309226788902188
+      },
+      "PD": {
+       "E": 0.07671084672202716,
+       "evaluable": true,
+       "lb95": 0.06639905948741896,
+       "ub95": 0.08706507583680863,
+       "flag95": true,
+       "lb_removal": 0.060775914043860395,
+       "removed_flag": true,
+       "ub_at_L": 0.09152891687822332
+      }
+     },
+     "B3": {
+      "PD7": {
+       "E": 0.021214198167116935,
+       "evaluable": true,
+       "lb95": 0.015056960759480452,
+       "ub95": 0.02633815682650832,
+       "flag95": false,
+       "lb_removal": 0.01182032286449563,
+       "removed_flag": false,
+       "ub_at_L": 0.028626791106409314
+      },
+      "SD1_7": {
+       "E": 0.00128774024670109,
+       "evaluable": true,
+       "lb95": 0.00026786843375229937,
+       "ub95": 0.002125304280941887,
+       "flag95": false,
+       "lb_removal": -0.00021958528508373744,
+       "removed_flag": false,
+       "ub_at_L": 0.0023911827154202763
+      },
+      "PD": {
+       "E": 0.002986974023227398,
+       "evaluable": true,
+       "lb95": 0.0005842010642066247,
+       "ub95": 0.0050531339505026735,
+       "flag95": false,
+       "lb_removal": -0.0008106359818466861,
+       "removed_flag": false,
+       "ub_at_L": 0.005865384965103923
+      }
+     },
+     "B4": {
+      "PD7": {
+       "E": 0.4032346820785351,
+       "evaluable": true,
+       "lb95": 0.3733922991531799,
+       "ub95": 0.4322311636194679,
+       "flag95": true,
+       "lb_removal": 0.36204375449855486,
+       "removed_flag": true,
+       "ub_at_L": 0.4449610829329153
+      },
+      "SD1_7": {
+       "E": 0.09392667213985406,
+       "evaluable": true,
+       "lb95": 0.08516129659305158,
+       "ub95": 0.10248830747273997,
+       "flag95": true,
+       "lb_removal": 0.08126166458906103,
+       "removed_flag": true,
+       "ub_at_L": 0.10707212701122622
+      },
+      "PD": {
+       "E": 0.16938140307310273,
+       "evaluable": true,
+       "lb95": 0.15457446527751834,
+       "ub95": 0.18440984124011411,
+       "flag95": true,
+       "lb_removal": 0.1483101879857248,
+       "removed_flag": true,
+       "ub_at_L": 0.19314217923170712
+      }
+     },
+     "B6": {
+      "PD7": {
+       "E": 0.36284440828153836,
+       "evaluable": true,
+       "lb95": 0.334381444940004,
+       "ub95": 0.38928844756658043,
+       "flag95": true,
+       "lb_removal": 0.3209739597600878,
+       "removed_flag": true,
+       "ub_at_L": 0.40154056733766974
+      },
+      "SD1_7": {
+       "E": 0.08823965519891126,
+       "evaluable": true,
+       "lb95": 0.08035627938909048,
+       "ub95": 0.09590905342858695,
+       "flag95": true,
+       "lb_removal": 0.07656879732744734,
+       "removed_flag": true,
+       "ub_at_L": 0.09949801999115172
+      },
+      "PD": {
+       "E": 0.09125098703368117,
+       "evaluable": true,
+       "lb95": 0.08088237666032161,
+       "ub95": 0.10199362662107954,
+       "flag95": true,
+       "lb_removal": 0.07670180224529546,
+       "removed_flag": true,
+       "ub_at_L": 0.10743493783582148
+      }
+     },
+     "B9": {
+      "PD7": {
+       "E": 0.14121634569673586,
+       "evaluable": true,
+       "lb95": 0.12399299342456699,
+       "ub95": 0.15821455256799355,
+       "flag95": true,
+       "lb_removal": 0.11547618461283035,
+       "removed_flag": true,
+       "ub_at_L": 0.16688157393221725
+      },
+      "SD1_7": {
+       "E": 0.013956150944082122,
+       "evaluable": true,
+       "lb95": 0.011261059579846591,
+       "ub95": 0.016632584309604858,
+       "flag95": false,
+       "lb_removal": 0.009850997304861494,
+       "removed_flag": false,
+       "ub_at_L": 0.01791436027726769
+      },
+      "PD": {
+       "E": 0.0505034905951065,
+       "evaluable": true,
+       "lb95": 0.04014992931667087,
+       "ub95": 0.06064926646774661,
+       "flag95": false,
+       "lb_removal": 0.03365067938657805,
+       "removed_flag": false,
+       "ub_at_L": 0.06572341303464439
+      }
+     },
+     "Mstar": {
+      "PD7": {
+       "E": 0.3513068119106858,
+       "evaluable": true,
+       "lb95": 0.32353106211408794,
+       "ub95": 0.3781659662706307,
+       "flag95": true,
+       "lb_removal": 0.3105023833863122,
+       "removed_flag": true,
+       "ub_at_L": 0.39115612354433227
+      },
+      "SD1_7": {
+       "E": 0.08243355023685084,
+       "evaluable": true,
+       "lb95": 0.07410818787256675,
+       "ub95": 0.09029045287694495,
+       "flag95": true,
+       "lb_removal": 0.06990432905315526,
+       "removed_flag": true,
+       "ub_at_L": 0.09407423192801617
+      },
+      "PD": {
+       "E": 0.08152239836418976,
+       "evaluable": true,
+       "lb95": 0.0687865932250849,
+       "ub95": 0.09321777983539772,
+       "flag95": true,
+       "lb_removal": 0.062321998156352434,
+       "removed_flag": true,
+       "ub_at_L": 0.09959378468839566
+      }
+     },
+     "MstarJ": {
+      "PD7": {
+       "E": 0.04944647612336062,
+       "evaluable": true,
+       "lb95": 0.03877647922230161,
+       "ub95": 0.05898724065982269,
+       "flag95": false,
+       "lb_removal": 0.03330601069577652,
+       "removed_flag": false,
+       "ub_at_L": 0.06366634323833457
+      },
+      "SD1_7": {
+       "E": 0.008412523772078599,
+       "evaluable": true,
+       "lb95": 0.0053484545273605015,
+       "ub95": 0.01119860621311234,
+       "flag95": false,
+       "lb_removal": 0.0034833652283246764,
+       "removed_flag": false,
+       "ub_at_L": 0.012254879500167671
+      },
+      "PD": {
+       "E": 0.0042790676633120365,
+       "evaluable": true,
+       "lb95": 0.0014112377076527663,
+       "ub95": 0.006700827007634592,
+       "flag95": false,
+       "lb_removal": 4.855003188982722e-05,
+       "removed_flag": false,
+       "ub_at_L": 0.007678239782562851
+      }
+     },
+     "MstarJx": {
+      "PD7": {
+       "E": 0.046190206268845485,
+       "evaluable": true,
+       "lb95": 0.036210758004982135,
+       "ub95": 0.05491077932289339,
+       "flag95": false,
+       "lb_removal": 0.032345072319115035,
+       "removed_flag": false,
+       "ub_at_L": 0.059672735976036465
+      },
+      "SD1_7": {
+       "E": 0.008305636845268933,
+       "evaluable": true,
+       "lb95": 0.005184502371974754,
+       "ub95": 0.011279448375801271,
+       "flag95": false,
+       "lb_removal": 0.003171268193280271,
+       "removed_flag": false,
+       "ub_at_L": 0.01246924011180264
+      },
+      "PD": {
+       "E": 0.004411005767182963,
+       "evaluable": true,
+       "lb95": 0.001413650095500171,
+       "ub95": 0.00700053445962998,
+       "flag95": false,
+       "lb_removal": -4.3373246863658184e-05,
+       "removed_flag": false,
+       "ub_at_L": 0.00802406402935934
+      }
+     }
+    },
+    "reproduces_stored_0.95_bounds": true,
+    "max_abs_diff_vs_stored": 1.3877787807814457e-17
+   }
+  }
+ }
+}

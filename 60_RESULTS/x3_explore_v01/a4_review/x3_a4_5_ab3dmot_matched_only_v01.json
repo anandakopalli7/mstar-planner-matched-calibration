@@ -1,0 +1,320 @@
+{
+ "stamp": "X3 POST-REGISTRATION EXPLORATORY (after the verdict of record; not part of the registered test)",
+ "label": "added after review (amendment A4)",
+ "amendment_sha256": "ab19dd66b1838109534a4cb23f93835b5558af1e1cffd73d74416ef3bdf7832b",
+ "part": "(5) AB3DMOT without unmatched tracks",
+ "by_tracker": {
+  "tab": {
+   "tracker": "tab",
+   "seeds": {
+    "bootstrap": [
+     20261201,
+     2,
+     15
+    ],
+    "power": [
+     20261202,
+     2,
+     15
+    ]
+   },
+   "run": "a4tab",
+   "arms": {
+    "Mstar_matched_only": {
+     "screen_label": "Mstar",
+     "registered": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": false,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 18,
+        "evaluable": 24
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 6,
+        "evaluable": 15
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "registered_class": "flagged",
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.06092834208013395,
+       "lb": 0.057236663360225946,
+       "ub": 0.06651640124019266,
+       "flagged": true
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.05882765313536271,
+       "lb": 0.04938202920690413,
+       "ub": 0.07189603438543647,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.04064686729054259,
+       "lb": 0.03164722465945524,
+       "ub": 0.05325698516141667,
+       "flagged": false
+      }
+     },
+     "endpoints": {
+      "infeasible_rate": 0.7570116555757208,
+      "progress_ratio": 0.9764649006745387,
+      "mean_backoff_level": 0.35975128050010086,
+      "V2_exec": 0.8231800185644832
+     },
+     "endpoints_ci95": {
+      "infeasible_rate": [
+       0.7365471143375679,
+       0.7776019479733817
+      ],
+      "progress_ratio": [
+       0.9744063166940445,
+       0.9784322082431902
+      ],
+      "V2_exec": [
+       0.8029690378492921,
+       0.8422151017288368
+      ]
+     }
+    },
+    "Z0_matched_only": {
+     "screen_label": "Z0",
+     "registered": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": false,
+        "Floor": true,
+        "HK1c": false,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|static",
+         "car|long|straight",
+         "car|long|turning",
+         "car|long|new",
+         "car|lat|static",
+         "car|lat|straight",
+         "car|lat|turning",
+         "car|lat|new",
+         "pedestrian|long|static",
+         "pedestrian|long|straight",
+         "pedestrian|long|turning",
+         "pedestrian|long|new",
+         "pedestrian|lat|static",
+         "pedestrian|lat|straight",
+         "pedestrian|lat|turning",
+         "pedestrian|lat|new",
+         "two_wheeler|long|static",
+         "two_wheeler|lat|static",
+         "large|long|static",
+         "large|long|straight",
+         "large|long|turning",
+         "large|long|new",
+         "large|lat|static",
+         "large|lat|straight",
+         "large|lat|new"
+        ],
+        "family_flagged": [
+         "car|long|static",
+         "car|long|straight",
+         "car|long|turning",
+         "car|long|new",
+         "car|lat|static",
+         "car|lat|straight",
+         "car|lat|turning",
+         "car|lat|new",
+         "pedestrian|long|static",
+         "pedestrian|long|straight",
+         "pedestrian|long|turning",
+         "pedestrian|long|new",
+         "pedestrian|lat|static",
+         "pedestrian|lat|straight",
+         "pedestrian|lat|turning",
+         "pedestrian|lat|new",
+         "large|long|static",
+         "large|lat|static"
+        ],
+        "family_size": 18,
+        "evaluable": 25
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": false,
+        "Floor": true,
+        "HK1c": false,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|static",
+         "car|long|straight",
+         "car|long|turning",
+         "car|long|new",
+         "car|lat|static",
+         "car|lat|straight",
+         "car|lat|turning",
+         "car|lat|new",
+         "pedestrian|long|static",
+         "pedestrian|long|straight",
+         "pedestrian|long|turning",
+         "pedestrian|lat|static",
+         "pedestrian|lat|straight",
+         "pedestrian|lat|turning",
+         "pedestrian|lat|new",
+         "large|long|static",
+         "large|lat|static"
+        ],
+        "family_flagged": [
+         "car|long|static",
+         "car|long|straight",
+         "car|long|turning",
+         "car|long|new",
+         "car|lat|static",
+         "car|lat|straight",
+         "car|lat|turning",
+         "car|lat|new",
+         "pedestrian|long|static",
+         "pedestrian|lat|static"
+        ],
+        "family_size": 10,
+        "evaluable": 17
+       },
+       "PD_inpath": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": false,
+        "Floor": true,
+        "HK1c": false,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|long|static",
+         "car|long|straight",
+         "car|long|turning",
+         "car|long|new",
+         "car|lat|static",
+         "car|lat|straight",
+         "car|lat|turning",
+         "car|lat|new",
+         "pedestrian|long|static"
+        ],
+        "family_flagged": [
+         "car|long|static",
+         "car|long|straight",
+         "car|long|turning",
+         "car|long|new",
+         "car|lat|static"
+        ],
+        "family_size": 5,
+        "evaluable": 9
+       }
+      }
+     },
+     "registered_class": "flagged",
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.4982992757497642,
+       "lb": 0.4916036584514605,
+       "ub": 0.5085065671657626,
+       "flagged": true
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.4662246942053268,
+       "lb": 0.4525677253702776,
+       "ub": 0.48634418758321485,
+       "flagged": true
+      },
+      "PD_inpath": {
+       "E": 0.39822470919469133,
+       "lb": 0.3729300535106538,
+       "ub": 0.43709900066701163,
+       "flagged": true
+      }
+     },
+     "endpoints": {
+      "infeasible_rate": 0.004407017543859649,
+      "progress_ratio": 0.9948785123548061,
+      "mean_backoff_level": 0.9955929824561404,
+      "V2_exec": 0.976632395283684
+     },
+     "endpoints_ci95": {
+      "infeasible_rate": [
+       0.002895906432748538,
+       0.006222222222222224
+      ],
+      "progress_ratio": [
+       0.9936217507673066,
+       0.9960306150467859
+      ],
+      "V2_exec": [
+       0.9700192705416738,
+       0.9825708955851455
+      ]
+     }
+    }
+   },
+   "record": {
+    "Mstar": {
+     "infeasible_rate": 0.8906892518652955,
+     "progress_ratio": 0.9812358928348309,
+     "V2_exec": 0.8872978564837729,
+     "source": "c1_analysis_csv_r1 (record)",
+     "registered_valid": false
+    },
+    "Z0": {
+     "infeasible_rate": 0.006325146198830409,
+     "progress_ratio": 0.9929257600924339,
+     "V2_exec": 0.976632395283684,
+     "source": "c1_analysis_csv_r1 (record)",
+     "registered_valid": false
+    }
+   },
+   "dropped_unmatched_track_rows": 203733,
+   "reading": "the infeasible rate does not fall by more than half (0.8907 -> 0.7570): the text drops the false-positive explanation"
+  }
+ }
+}

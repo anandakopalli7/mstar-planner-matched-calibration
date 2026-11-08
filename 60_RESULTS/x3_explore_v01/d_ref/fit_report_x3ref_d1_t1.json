@@ -1,0 +1,199 @@
+{
+ "stamp": "X3 POST-REGISTRATION EXPLORATORY (after the verdict of record; not part of the registered test)",
+ "reference": "d1",
+ "reference_text": "arm Z0's chosen candidate (k8_sim_v04.plan_step, decision mode, leash = log), leashed positions",
+ "tracker": "t1",
+ "fits": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\60_RESULTS\\x3_explore_v01\\d_ref\\fits_x3ref_d1_t1.json",
+ "fits_sha256": "8e89c47e26d52a21980a3b0984cd7ba9f6ee66e66b0f4c9b93c720c1875fe2be",
+ "items": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\60_RESULTS\\x3_explore_v01\\d_ref\\items_x3ref_d1_t1.npz",
+ "items_sha256": "acbd5f5444bbb0a6750fc1bae9ab16e3f1e13cb1065924b73f186ea1a1418fed",
+ "item_counts": {
+  "items": 947842,
+  "records": 538329,
+  "relied_items": 538329,
+  "relied_share": 0.5679522536456498,
+  "inpath_share": 0.0317394671263776,
+  "relied_inpath_share": 0.04022075719494956,
+  "relied_near_share": 0.1154981433287079,
+  "totals": {
+   "decisions": 11288,
+   "pairs_considered": 561124,
+   "pairs_enforced": 560318,
+   "pairs_with_gt": 538329
+  },
+  "per_population": {
+   "PD7_primary": 538329,
+   "SD1_7_gap_le_5m": 62176,
+   "PD_inpath": 21652
+  }
+ },
+ "record_item_counts": {
+  "items": 947306,
+  "relied_items": 537924,
+  "relied_share": 0.5678460814140309,
+  "inpath_share": 0.031459739513947975,
+  "per_population": {
+   "PD7_primary": 537924,
+   "SD1_7_gap_le_5m": 62148,
+   "PD_inpath": 21442
+  }
+ },
+ "threshold_change_vs_record": {
+  "per_part": {
+   "h0p5s/not_inpath": {
+    "median_ratio": 1.0,
+    "q10": 1.0,
+    "q90": 1.0,
+    "share_changed": 0.029166666666666667,
+    "n": 480,
+    "n_record_le_0": 0
+   },
+   "h0p5s/inpath": {
+    "median_ratio": 1.0,
+    "q10": 1.0,
+    "q90": 1.0029111758069602,
+    "share_changed": 0.1625,
+    "n": 480,
+    "n_record_le_0": 0
+   },
+   "h1s/not_inpath": {
+    "median_ratio": 1.0,
+    "q10": 1.0,
+    "q90": 1.0,
+    "share_changed": 0.07291666666666667,
+    "n": 480,
+    "n_record_le_0": 0
+   },
+   "h1s/inpath": {
+    "median_ratio": 1.0,
+    "q10": 1.0,
+    "q90": 1.0444160255487727,
+    "share_changed": 0.3541666666666667,
+    "n": 480,
+    "n_record_le_0": 0
+   },
+   "h1p5s/not_inpath": {
+    "median_ratio": 1.0,
+    "q10": 1.0,
+    "q90": 1.0,
+    "share_changed": 0.11875,
+    "n": 480,
+    "n_record_le_0": 0
+   },
+   "h1p5s/inpath": {
+    "median_ratio": 1.0,
+    "q10": 1.0,
+    "q90": 1.0166023000085658,
+    "share_changed": 0.28541666666666665,
+    "n": 480,
+    "n_record_le_0": 0
+   },
+   "h2s/not_inpath": {
+    "median_ratio": 1.0,
+    "q10": 1.0,
+    "q90": 1.0,
+    "share_changed": 0.15,
+    "n": 480,
+    "n_record_le_0": 0
+   },
+   "h2s/inpath": {
+    "median_ratio": 1.0,
+    "q10": 0.9952689057810298,
+    "q90": 1.0436695538201586,
+    "share_changed": 0.4479166666666667,
+    "n": 480,
+    "n_record_le_0": 0
+   }
+  },
+  "per_population_item_weighted": {
+   "h0p5s/PD7_primary": {
+    "median_ratio": 1.0,
+    "q10": 0.9999207527084358,
+    "q90": 1.0,
+    "items": 143754
+   },
+   "h0p5s/SD1_7_gap_le_5m": {
+    "median_ratio": 1.0,
+    "q10": 0.9969379622823987,
+    "q90": 1.0,
+    "items": 14880
+   },
+   "h0p5s/PD_inpath": {
+    "median_ratio": 1.0,
+    "q10": 1.0,
+    "q90": 1.0,
+    "items": 5612
+   },
+   "h1s/PD7_primary": {
+    "median_ratio": 1.0,
+    "q10": 0.9955207842881424,
+    "q90": 1.0,
+    "items": 137355
+   },
+   "h1s/SD1_7_gap_le_5m": {
+    "median_ratio": 1.0,
+    "q10": 0.9884081394192378,
+    "q90": 1.0,
+    "items": 15860
+   },
+   "h1s/PD_inpath": {
+    "median_ratio": 1.0,
+    "q10": 1.0,
+    "q90": 1.0,
+    "items": 5457
+   },
+   "h1p5s/PD7_primary": {
+    "median_ratio": 1.0,
+    "q10": 0.998363521201676,
+    "q90": 1.0085941961985794,
+    "items": 131357
+   },
+   "h1p5s/SD1_7_gap_le_5m": {
+    "median_ratio": 1.0,
+    "q10": 0.9959514513630384,
+    "q90": 1.0,
+    "items": 15893
+   },
+   "h1p5s/PD_inpath": {
+    "median_ratio": 1.0,
+    "q10": 1.0,
+    "q90": 1.0193893966677334,
+    "items": 5283
+   },
+   "h2s/PD7_primary": {
+    "median_ratio": 1.0,
+    "q10": 0.994669577261368,
+    "q90": 1.0086335292060689,
+    "items": 125458
+   },
+   "h2s/SD1_7_gap_le_5m": {
+    "median_ratio": 0.9988877577296952,
+    "q10": 0.9883199829330732,
+    "q90": 1.0021354150197286,
+    "items": 15515
+   },
+   "h2s/PD_inpath": {
+    "median_ratio": 1.0,
+    "q10": 0.9915716510181486,
+    "q90": 1.0258898362157696,
+    "items": 5090
+   }
+  },
+  "fallback_level_shares": {
+   "reference": {
+    "L0": 0.5161458333333333,
+    "L1": 0.2015625,
+    "L2": 0.15729166666666666,
+    "L3": 0.125
+   },
+   "record": {
+    "L0": 0.5158854166666667,
+    "L1": 0.20182291666666666,
+    "L2": 0.15729166666666666,
+    "L3": 0.125
+   }
+  }
+ },
+ "nonpositive_flags": [],
+ "seconds": 52.6
+}

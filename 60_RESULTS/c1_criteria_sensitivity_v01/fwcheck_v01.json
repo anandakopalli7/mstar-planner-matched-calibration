@@ -1,0 +1,180 @@
+{
+ "level_each": 0.9944444444444445,
+ "trackers": {
+  "t1": {
+   "V_t_familywise": [
+    "B3"
+   ],
+   "formB_familywise": true,
+   "formB_ub": {
+    "B3": -0.7300698353229756
+   },
+   "removal_reasons": {
+    "Mstar": [],
+    "B0": [
+     "PD7 cells ['car|long|new', 'car|lat|turning', 'car|lat|new', 'pedestrian|long|static']",
+     "PD7 family ['car|long|new', 'car|lat|turning', 'car|lat|new', 'pedestrian|long|static']",
+     "SD1_7 cells ['car|lat|turning']",
+     "SD1_7 family ['car|lat|turning']",
+     "PD cells ['car|lat|turning']",
+     "PD family ['car|lat|turning']"
+    ],
+    "B1": [
+     "PD7 cells ['car|lat|turning', 'car|lat|new', 'large|long|straight', 'large|long|turning', 'large|long|new']",
+     "PD7 family ['car|lat|turning', 'car|lat|new', 'large|long|straight', 'large|long|turning', 'large|long|new']",
+     "SD1_7 cells ['car|lat|turning']",
+     "SD1_7 family ['car|lat|turning']",
+     "PD cells ['car|lat|turning']",
+     "PD family ['car|lat|turning']"
+    ],
+    "B3": [],
+    "B4": [
+     "PD7 cells ['car|long|straight', 'car|long|turning', 'car|long|new', 'car|lat|straight', 'car|lat|turning', 'car|lat|new', 'pedestrian|long|static', 'pedestrian|long|straight', 'pedestrian|long|turning', 'pedestrian|long|new', 'large|long|straight', 'large|long|new']",
+     "PD7 family ['car|long|straight', 'car|long|turning', 'car|long|new', 'car|lat|straight', 'car|lat|turning', 'car|lat|new', 'pedestrian|long|static', 'pedestrian|long|straight', 'pedestrian|long|turning', 'pedestrian|long|new', 'large|long|straight', 'large|long|new']",
+     "SD1_7 cells ['car|lat|turning', 'car|lat|new', 'pedestrian|long|static', 'pedestrian|long|straight', 'pedestrian|long|turning']",
+     "SD1_7 family ['car|lat|turning', 'car|lat|new', 'pedestrian|long|static', 'pedestrian|long|straight', 'pedestrian|long|turning']",
+     "PD cells ['car|lat|turning', 'car|lat|new']",
+     "PD family ['car|long|new', 'car|lat|straight', 'car|lat|turning']",
+     "PD pooled"
+    ],
+    "B6": [
+     "PD7 cells ['car|long|straight', 'car|long|turning', 'car|long|new', 'car|lat|turning', 'car|lat|new', 'pedestrian|long|static', 'two_wheeler|long|new', 'large|long|straight', 'large|long|new', 'large|lat|turning', 'large|lat|new']",
+     "PD7 family ['car|long|straight', 'car|long|turning', 'car|long|new', 'car|lat|turning', 'car|lat|new', 'pedestrian|long|static', 'large|long|straight', 'large|long|new', 'large|lat|turning', 'large|lat|new']",
+     "SD1_7 cells ['car|long|new', 'car|lat|turning']",
+     "SD1_7 family ['car|lat|turning']"
+    ],
+    "B9": [
+     "PD7 cells ['car|long|new', 'large|long|new']",
+     "PD7 family ['car|long|new', 'large|long|new']"
+    ],
+    "RETUNED": [
+     "PD7 cells ['car|long|new', 'car|lat|turning', 'car|lat|new', 'pedestrian|long|static']",
+     "PD7 family ['car|long|new', 'car|lat|turning', 'car|lat|new', 'pedestrian|long|static']",
+     "SD1_7 cells ['car|lat|turning']",
+     "SD1_7 family ['car|lat|turning']",
+     "PD cells ['car|lat|turning']",
+     "PD family ['car|lat|turning']"
+    ]
+   },
+   "Mstar_moving_car_power_200": {
+    "PD7": {
+     "car|long|straight": 1.0,
+     "car|long|turning": 1.0,
+     "car|long|new": 1.0,
+     "car|lat|straight": 1.0,
+     "car|lat|turning": 1.0,
+     "car|lat|new": 1.0
+    },
+    "SD1_7": {
+     "car|long|straight": 1.0,
+     "car|long|turning": 0.93,
+     "car|long|new": 0.115,
+     "car|lat|straight": 1.0,
+     "car|lat|turning": 0.97,
+     "car|lat|new": 0.99
+    }
+   },
+   "Mstar_family_SD1_7": [
+    "car|long|static",
+    "car|long|straight",
+    "car|long|turning",
+    "car|lat|static",
+    "car|lat|straight",
+    "car|lat|turning",
+    "car|lat|new",
+    "pedestrian|long|static",
+    "pedestrian|long|straight",
+    "pedestrian|long|turning",
+    "pedestrian|lat|static",
+    "pedestrian|lat|straight",
+    "pedestrian|lat|turning",
+    "two_wheeler|long|static",
+    "two_wheeler|lat|static",
+    "large|long|static",
+    "large|lat|static",
+    "large|lat|straight"
+   ]
+  },
+  "t3": {
+   "V_t_familywise": [
+    "B0",
+    "B3"
+   ],
+   "formB_familywise": true,
+   "formB_ub": {
+    "B0": -0.5753971810549033,
+    "B3": -0.6844162574991788
+   },
+   "removal_reasons": {
+    "Mstar": [],
+    "B0": [],
+    "B1": [
+     "PD7 cells ['car|long|straight', 'car|long|turning', 'car|long|new', 'two_wheeler|long|straight', 'two_wheeler|long|turning', 'two_wheeler|long|new', 'large|long|straight', 'large|long|turning', 'large|long|new']",
+     "PD7 family ['car|long|straight', 'car|long|turning', 'car|long|new', 'two_wheeler|long|straight', 'large|long|straight', 'large|long|turning', 'large|long|new']",
+     "SD1_7 cells ['large|long|straight']",
+     "SD1_7 family ['large|long|straight']"
+    ],
+    "B3": [],
+    "B4": [
+     "PD7 cells ['car|long|straight', 'car|long|turning', 'car|long|new', 'pedestrian|long|static', 'pedestrian|lat|static', 'two_wheeler|long|straight', 'two_wheeler|long|turning', 'two_wheeler|long|new', 'large|long|straight', 'large|long|turning', 'large|long|new']",
+     "PD7 family ['car|long|straight', 'car|long|turning', 'car|long|new', 'pedestrian|long|static', 'pedestrian|lat|static', 'two_wheeler|long|straight', 'large|long|straight', 'large|long|turning', 'large|long|new']",
+     "SD1_7 cells ['car|long|straight', 'car|long|turning', 'car|long|new', 'large|long|straight']",
+     "SD1_7 family ['car|long|straight', 'car|long|turning', 'car|long|new', 'large|long|straight']",
+     "PD cells ['car|long|straight', 'car|long|turning', 'car|long|new', 'large|long|straight']",
+     "PD family ['car|long|straight', 'car|long|turning', 'car|long|new']",
+     "PD pooled"
+    ],
+    "B6": [
+     "PD7 cells ['car|long|straight', 'car|long|turning', 'car|long|new', 'car|lat|turning', 'car|lat|new', 'pedestrian|long|static', 'pedestrian|lat|static', 'two_wheeler|long|straight', 'large|long|straight']",
+     "PD7 family ['car|long|straight', 'car|long|turning', 'car|long|new', 'car|lat|turning', 'car|lat|new', 'pedestrian|long|static', 'pedestrian|lat|static', 'two_wheeler|long|straight', 'large|long|straight']"
+    ],
+    "B9": [
+     "PD7 cells ['car|long|new']",
+     "PD7 family ['car|long|new']"
+    ],
+    "RETUNED": [
+     "PD7 cells ['car|long|straight', 'car|long|turning', 'car|long|new', 'large|long|straight']",
+     "PD7 family ['car|long|straight', 'car|long|turning', 'car|long|new', 'large|long|straight']"
+    ]
+   },
+   "Mstar_moving_car_power_200": {
+    "PD7": {
+     "car|long|straight": 1.0,
+     "car|long|turning": 1.0,
+     "car|long|new": 1.0,
+     "car|lat|straight": 1.0,
+     "car|lat|turning": 1.0,
+     "car|lat|new": 1.0
+    },
+    "SD1_7": {
+     "car|long|straight": 1.0,
+     "car|long|turning": 0.93,
+     "car|long|new": 0.51,
+     "car|lat|straight": 1.0,
+     "car|lat|turning": 1.0,
+     "car|lat|new": 0.925
+    }
+   },
+   "Mstar_family_SD1_7": [
+    "car|long|static",
+    "car|long|straight",
+    "car|long|turning",
+    "car|lat|static",
+    "car|lat|straight",
+    "car|lat|turning",
+    "car|lat|new",
+    "pedestrian|long|static",
+    "pedestrian|long|straight",
+    "pedestrian|long|turning",
+    "pedestrian|lat|static",
+    "pedestrian|lat|straight",
+    "pedestrian|lat|turning",
+    "two_wheeler|long|static",
+    "two_wheeler|lat|static",
+    "large|long|static",
+    "large|lat|static",
+    "large|lat|straight"
+   ]
+  }
+ }
+}

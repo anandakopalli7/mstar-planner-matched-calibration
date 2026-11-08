@@ -1,0 +1,72 @@
+{
+ "stamp": "X3 POST-REGISTRATION EXPLORATORY (after the verdict of record; not part of the registered test)",
+ "tracker": "tab",
+ "scenes": 375,
+ "validation_against_items_summary": {
+  "decisions": {
+   "x3": 11288,
+   "record": 11288,
+   "equal": true
+  },
+  "pairs_considered": {
+   "x3": 610603,
+   "record": 610603,
+   "equal": true
+  },
+  "pairs_enforced": {
+   "x3": 609960,
+   "record": 609960,
+   "equal": true
+  },
+  "pairs_with_gt": {
+   "x3": 587747,
+   "record": 587747,
+   "equal": true
+  }
+ },
+ "validated": true,
+ "decisions": 11288,
+ "pairs_considered_all_tracks": 1014644,
+ "pairs_enforced_all_tracks": 1013537,
+ "pairs_enforced_no_gt_track": 403577,
+ "share_enforced_without_gt_match": 0.3981867460191389,
+ "per_decision_enforced_without_gt_match": 35.752746279234586,
+ "decisions_with_an_enforced_no_gt_track_share": 0.9257618710134656,
+ "enforced_by_score_bin": {
+  "gt_matched": {
+   "<0.4": 0.0,
+   "[0.4,0.5)": 254370.0,
+   "[0.5,0.7)": 304487.0,
+   "[0.7,0.85)": 50265.0,
+   ">=0.85": 838.0
+  },
+  "no_gt_match": {
+   "<0.4": 0.0,
+   "[0.4,0.5)": 227906.0,
+   "[0.5,0.7)": 159135.0,
+   "[0.7,0.85)": 15768.0,
+   ">=0.85": 768.0
+  }
+ },
+ "share_without_gt_by_score_bin": {
+  "<0.4": null,
+  "[0.4,0.5)": 0.47256342841028787,
+  "[0.5,0.7)": 0.3432429867435109,
+  "[0.7,0.85)": 0.23878969606106037,
+  ">=0.85": 0.47820672478206727
+ },
+ "enforced_in_path": {
+  "gt_matched": 23726,
+  "no_gt_match": 0,
+  "share_without_gt": 0.0
+ },
+ "note": "pairs = (track, calibrated step) at the decision states of the items' reference run (logged ego, margin 0)",
+ "code_sha256": {
+  "x3_stats_h_fpcount_v01.py": "a6b9d27a2a6f22e84e79b34d7c9f4f45d63763838fe428b27d2cbd1062317e8d",
+  "x3_stats_common_v01.py": "def79e85212f39e5e2d16a8bfe9118114dc85baf9604bd373fe5d28bffb6bfbf",
+  "k6_sim_v02.py": "257bb10f5127c05eee82b81392a76e169e1becaaeaaa7d90acdf5aac0543aea4"
+ },
+ "items_summary_sha256": "cd07109594d2f2391012fbad43890ad2823597a4943479873e1c2e02ce5259f1",
+ "seconds": 76.89617609977722,
+ "written": "2026-11-07 11:57:24"
+}

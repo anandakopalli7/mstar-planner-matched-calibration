@@ -1,0 +1,45 @@
+{
+ "stamp": "X3 POST-REGISTRATION EXPLORATORY (after the verdict of record; not part of the registered test)",
+ "reference": "d2",
+ "reference_text": "constant current speed min(s_k + v_k t, s_end), v_k = max(v_log(t_k), 0)",
+ "tracker": "t1",
+ "cache": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\30_DATA\\av2_cache_stageB_c1b_t1_own375",
+ "manifest_sha256": "1957fbe529233fb4145f9007262c42c21c9a9b8d8f4c4e995eb2b0cbfc7fa936",
+ "scenes": 375,
+ "items": 947169,
+ "records": 538416,
+ "items_ref_relied": 537791,
+ "relied_share": 0.5677877971090692,
+ "items_inpath_share": 0.031188731894730506,
+ "relied_inpath_share": 0.0396008858459885,
+ "totals": {
+  "decisions": 11288,
+  "pairs_considered": 561124,
+  "pairs_enforced": 560405,
+  "pairs_with_gt": 538416
+ },
+ "source_diff_vs_k8_items_v08": [
+  "--- k8_items_v08.scene_items",
+  "+++ x3_ref_items_v01.scene_items_x3",
+  "@@ -1,2 +1,2 @@",
+  "-def scene_items(job):",
+  "-    path, si, counts_only = job",
+  "+def scene_items_x3(job):",
+  "+    path, si, counts_only, ref, aux = job",
+  "@@ -36 +36 @@",
+  "-        lead = sc.s_log(tk + S.EVAL_T)",
+  "+        lead = REF_FN[ref](sc, k, tk, s, v, vmax, aux)"
+ ],
+ "code_sha256": {
+  "50_CODE/x3/x3_ref_items_v01.py": "95ae5017c50316942c1cd960518cdd09e8139ef17e8e7da9fbaec73e71f57f55",
+  "50_CODE/x3/x3_ref_common_v01.py": "90c03213d3002479c1d9f61828aee31eb0281275cb88d3771c459fd4ebf0d32a",
+  "50_CODE/k6/k6_sim_v02.py": "257bb10f5127c05eee82b81392a76e169e1becaaeaaa7d90acdf5aac0543aea4",
+  "50_CODE/k8/k8_sim_v04.py": "03881acdbf28e53afbe6c5f4de8aeb352e14ddd43ad9f2feff6c67217a528e01",
+  "50_CODE/k8/k8_items_v08.py": "dfc7b8cface55b2234e6173a96eb68ecf2b906b6cba808d74c482faa551a65e3"
+ },
+ "out": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\60_RESULTS\\x3_explore_v01\\d_ref\\items_x3ref_d2_t1.npz",
+ "out_sha256": "397378a94c157a612dfaad0e9e6cd51a97d5bbe1d749c52b378a0aedfcfcf8bb",
+ "seconds": 77.5,
+ "no_guard_ran": true,
+ "guard_modules_loaded": []
+}

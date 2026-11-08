@@ -1,0 +1,2327 @@
+{
+ "stamp": "X3 POST-REGISTRATION EXPLORATORY (after the verdict of record; not part of the registered test)",
+ "analysis": "g",
+ "plan_sha256": "38e2526d9f43f202fe4c8fe345be03d21421d6c7ada585022abf34a649362dc6",
+ "by_tracker": {
+  "t1": {
+   "tracker": "t1",
+   "seeds": {
+    "bootstrap": [
+     20261201,
+     0,
+     7
+    ],
+    "power": [
+     20261202,
+     0,
+     7
+    ]
+   },
+   "B": 4000,
+   "run": "g_t1",
+   "run_record_sha256": "5044e6d80ffc6b720410515c04c67a88c977d231d716afc601c65a6aafb97ded",
+   "arms": {
+    "Mstar": {
+     "label": "Mstar",
+     "power_key": [
+      20261202,
+      0,
+      7
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 9,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.043966572620651324,
+       "lb": 0.04099800981717176,
+       "ub": 0.04832712094549034,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.0376366655516585,
+       "lb": 0.030426712505168176,
+       "ub": 0.047309924188642306,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.04040572614693565,
+       "lb": 0.029974644256055415,
+       "ub": 0.05488651331344842,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.1863591853196209,
+     "infeasible_ci95": [
+      0.1681562371445856,
+      0.20527281306715076
+     ],
+     "seconds": 19.6
+    },
+    "X3G_n25_r1": {
+     "label": "X3G_n25_r1",
+     "power_key": [
+      20261202,
+      0,
+      7,
+      100
+     ],
+     "status": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|lat|turning"
+        ],
+        "family_flagged": [
+         "car|lat|turning"
+        ],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": false,
+        "FamFlag": true,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "car|lat|turning"
+        ],
+        "family_flagged": [
+         "car|lat|turning"
+        ],
+        "family_size": 10,
+        "evaluable": 14
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 7
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.015827078616884142,
+       "lb": 0.014336201649184402,
+       "ub": 0.01802339174458421,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.01601228538038509,
+       "lb": 0.012008560761446524,
+       "ub": 0.021380598118081982,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.029236279365799145,
+       "lb": 0.018188861441152514,
+       "ub": 0.043325981217515255,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.43157362371445857,
+     "infeasible_ci95": [
+      0.40336134704577553,
+      0.46025139745916516
+     ],
+     "seconds": 3.2,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.2452144383948377,
+      "ci95": [
+       -0.2672078927203065,
+       -0.2239248880822747
+      ],
+      "ub_0.95": -0.22694640048396858,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "n = 25 training logs per fold, repeat 1"
+    },
+    "X3G_n50_r0": {
+     "label": "X3G_n50_r0",
+     "power_key": [
+      20261202,
+      0,
+      7,
+      101
+     ],
+     "status": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "large|long|new"
+        ],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 7,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": false,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "pedestrian|long|static"
+        ],
+        "family_flagged": [],
+        "family_size": 4,
+        "evaluable": 9
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.03130572535178783,
+       "lb": 0.028722835097785,
+       "ub": 0.03499142990213615,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.028822735137814522,
+       "lb": 0.023589870272796326,
+       "ub": 0.035957118067323254,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.04182150410911405,
+       "lb": 0.03024134880786431,
+       "ub": 0.05744348918010907,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.3017680984069369,
+     "infeasible_ci95": [
+      0.27786576729179263,
+      0.32599811655575717
+     ],
+     "seconds": 3.2,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.11540891308731599,
+      "ci95": [
+       -0.12982007662835254,
+       -0.10126288364589635
+      ],
+      "ub_0.95": -0.1035447146602138,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "n = 50 training logs per fold, repeat 0"
+    },
+    "X3G_n50_r1": {
+     "label": "X3G_n50_r1",
+     "power_key": [
+      20261202,
+      0,
+      7,
+      102
+     ],
+     "status": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "large|long|new"
+        ],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 8,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 4,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.02982158719301998,
+       "lb": 0.027430017509101977,
+       "ub": 0.03326664430954701,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.025005184742312378,
+       "lb": 0.020525581559867362,
+       "ub": 0.031115899987367055,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.03476102239134834,
+       "lb": 0.024384022556097326,
+       "ub": 0.04813719445461861,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.2689881024400081,
+     "infeasible_ci95": [
+      0.2467285783424077,
+      0.291703730590845
+     ],
+     "seconds": 3.2,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.08262891712038718,
+      "ci95": [
+       -0.09568137124420245,
+       -0.06946865497076024
+      ],
+      "ub_0.95": -0.07173330106876386,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "n = 50 training logs per fold, repeat 1"
+    },
+    "X3G_n50_r2": {
+     "label": "X3G_n50_r2",
+     "power_key": [
+      20261202,
+      0,
+      7,
+      103
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 8,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.029824328402312257,
+       "lb": 0.02754074167068459,
+       "ub": 0.03326048738962254,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.02550207670117149,
+       "lb": 0.02038302132981957,
+       "ub": 0.03246604252190931,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.030360235967284755,
+       "lb": 0.021296122540547798,
+       "ub": 0.04235956324258125,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.27970655374067355,
+     "infeasible_ci95": [
+      0.2562222423875782,
+      0.3030315265174431
+     ],
+     "seconds": 3.6,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.09334736842105262,
+      "ci95": [
+       -0.10735029239766086,
+       -0.07956923976608185
+      ],
+      "ub_0.95": -0.08167017543859649,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "n = 50 training logs per fold, repeat 2"
+    },
+    "X3G_n100_r0": {
+     "label": "X3G_n100_r0",
+     "power_key": [
+      20261202,
+      0,
+      7,
+      104
+     ],
+     "status": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "large|long|new"
+        ],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 8,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.037595332687354405,
+       "lb": 0.03505428110250579,
+       "ub": 0.04132582252541491,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.03134540680285924,
+       "lb": 0.02418003519514623,
+       "ub": 0.040105834242280924,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.04356096516608649,
+       "lb": 0.03204374526937299,
+       "ub": 0.05939539554839457,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.23228973583383747,
+     "infeasible_ci95": [
+      0.2112739786247228,
+      0.25406478725549525
+     ],
+     "seconds": 3.5,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.04593055051421658,
+      "ci95": [
+       -0.055605444646098026,
+       -0.036464375882234314
+      ],
+      "ub_0.95": -0.03824046783625731,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "n = 100 training logs per fold, repeat 0"
+    },
+    "X3G_n100_r1": {
+     "label": "X3G_n100_r1",
+     "power_key": [
+      20261202,
+      0,
+      7,
+      105
+     ],
+     "status": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "large|long|new"
+        ],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 9,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.039305485309157416,
+       "lb": 0.03668477193402405,
+       "ub": 0.04323705462661798,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.035474585871213,
+       "lb": 0.02833700080888802,
+       "ub": 0.04450547260215128,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.03796386363395198,
+       "lb": 0.028802843045563437,
+       "ub": 0.05101053757243727,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.20283637830207704,
+     "infeasible_ci95": [
+      0.18442529945553546,
+      0.22206165759225646
+     ],
+     "seconds": 3.6,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.01647719298245614,
+      "ci95": [
+       -0.023181637426900582,
+       -0.009740350877192981
+      ],
+      "ub_0.95": -0.010787368421052638,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "n = 100 training logs per fold, repeat 1"
+    },
+    "X3G_n100_r2": {
+     "label": "X3G_n100_r2",
+     "power_key": [
+      20261202,
+      0,
+      7,
+      106
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 26
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 9,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.038319225138582755,
+       "lb": 0.03573238866686407,
+       "ub": 0.04217243061820563,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.030739381625146056,
+       "lb": 0.025580898094893223,
+       "ub": 0.03793462500232366,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.040978633318201486,
+       "lb": 0.03017072572282227,
+       "ub": 0.05603585867824076,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.22140318612623514,
+     "infeasible_ci95": [
+      0.20223546279491827,
+      0.24129597902802982
+     ],
+     "seconds": 3.6,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.03504400080661423,
+      "ci95": [
+       -0.04275617664851783,
+       -0.02765078443234522
+      ],
+      "ub_0.95": -0.028872385561605148,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "n = 100 training logs per fold, repeat 2"
+    },
+    "X3G_n200_r0": {
+     "label": "X3G_n200_r0",
+     "power_key": [
+      20261202,
+      0,
+      7,
+      107
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 9,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.04172136869382538,
+       "lb": 0.03887410758347851,
+       "ub": 0.04591589155881395,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.035815330502847284,
+       "lb": 0.028635541163412798,
+       "ub": 0.04509258789634388,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.03964078196103278,
+       "lb": 0.02926695311674766,
+       "ub": 0.053933078067683424,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.19551474087517648,
+     "infeasible_ci95": [
+      0.17699920145190554,
+      0.21512966727162733
+     ],
+     "seconds": 3.5,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.009155555555555556,
+      "ci95": [
+       -0.014437777777777775,
+       -0.0038031578947368416
+      ],
+      "ub_0.95": -0.004603508771929828,
+      "p_lt0": 0.0012496875781054736
+     },
+     "description": "n = 200 training logs per fold, repeat 0"
+    },
+    "X3G_n200_r1": {
+     "label": "X3G_n200_r1",
+     "power_key": [
+      20261202,
+      0,
+      7,
+      108
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 9,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.04281946786316908,
+       "lb": 0.039862696259123136,
+       "ub": 0.04701599421407987,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.03424339192298942,
+       "lb": 0.02825932666596563,
+       "ub": 0.04258500323095726,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.03728307642826479,
+       "lb": 0.02797029288217902,
+       "ub": 0.05038544482399742,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.19108900988102445,
+     "infeasible_ci95": [
+      0.1728154184311353,
+      0.21061987497479326
+     ],
+     "seconds": 3.4,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.004729824561403508,
+      "ci95": [
+       -0.009777894736842105,
+       0.00017777777777777695
+      ],
+      "ub_0.95": -0.000715555555555557,
+      "p_lt0": 0.0284928767808048
+     },
+     "description": "n = 200 training logs per fold, repeat 1"
+    },
+    "X3G_n200_r2": {
+     "label": "X3G_n200_r2",
+     "power_key": [
+      20261202,
+      0,
+      7,
+      109
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 9,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.04249416223136949,
+       "lb": 0.039620949554036805,
+       "ub": 0.04672399389823628,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.036312284086434735,
+       "lb": 0.029326509777044804,
+       "ub": 0.045629264975014884,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.034637939306310636,
+       "lb": 0.025873989344568145,
+       "ub": 0.046886509099437264,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.19798491631377294,
+     "infeasible_ci95": [
+      0.17915084896148414,
+      0.21775395039322443
+     ],
+     "seconds": 3.6,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.011625730994152046,
+      "ci95": [
+       -0.01651508771929824,
+       -0.006774269005847955
+      ],
+      "ub_0.95": -0.007592982456140349,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "n = 200 training logs per fold, repeat 2"
+    }
+   },
+   "not_fittable": [
+    "X3G_n25_r0",
+    "X3G_n25_r2"
+   ],
+   "fallback": {
+    "X3G_n25_r0": {
+     "share_coarser_than_L0": 0.9065104166666667,
+     "share_undefined": 0.0125,
+     "by_level": {
+      "-1": 0.0125,
+      "0": 0.08098958333333334,
+      "1": 0.15859375,
+      "2": 0.10729166666666666,
+      "3": 0.640625
+     }
+    },
+    "X3G_n25_r1": {
+     "share_coarser_than_L0": 0.9127604166666666,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.08723958333333333,
+      "1": 0.15338541666666666,
+      "2": 0.11875,
+      "3": 0.640625
+     }
+    },
+    "X3G_n25_r2": {
+     "share_coarser_than_L0": 0.80234375,
+     "share_undefined": 0.1375,
+     "by_level": {
+      "-1": 0.1375,
+      "0": 0.06015625,
+      "1": 0.12317708333333334,
+      "2": 0.13229166666666667,
+      "3": 0.546875
+     }
+    },
+    "X3G_n50_r0": {
+     "share_coarser_than_L0": 0.7515625,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.2484375,
+      "1": 0.1671875,
+      "2": 0.084375,
+      "3": 0.5
+     }
+    },
+    "X3G_n50_r1": {
+     "share_coarser_than_L0": 0.7604166666666666,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.23958333333333334,
+      "1": 0.171875,
+      "2": 0.08854166666666667,
+      "3": 0.5
+     }
+    },
+    "X3G_n50_r2": {
+     "share_coarser_than_L0": 0.7544270833333333,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.24557291666666667,
+      "1": 0.17109375,
+      "2": 0.08333333333333333,
+      "3": 0.5
+     }
+    },
+    "X3G_n100_r0": {
+     "share_coarser_than_L0": 0.6533854166666667,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.34661458333333334,
+      "1": 0.13255208333333332,
+      "2": 0.18645833333333334,
+      "3": 0.334375
+     }
+    },
+    "X3G_n100_r1": {
+     "share_coarser_than_L0": 0.6486979166666667,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.35130208333333335,
+      "1": 0.15390625,
+      "2": 0.19479166666666667,
+      "3": 0.3
+     }
+    },
+    "X3G_n100_r2": {
+     "share_coarser_than_L0": 0.6453125,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.3546875,
+      "1": 0.1515625,
+      "2": 0.190625,
+      "3": 0.303125
+     }
+    },
+    "X3G_n200_r0": {
+     "share_coarser_than_L0": 0.5674479166666667,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.43255208333333334,
+      "1": 0.22786458333333334,
+      "2": 0.21458333333333332,
+      "3": 0.125
+     }
+    },
+    "X3G_n200_r1": {
+     "share_coarser_than_L0": 0.5627604166666667,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.43723958333333335,
+      "1": 0.22213541666666667,
+      "2": 0.215625,
+      "3": 0.125
+     }
+    },
+    "X3G_n200_r2": {
+     "share_coarser_than_L0": 0.5598958333333334,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.4401041666666667,
+      "1": 0.21822916666666667,
+      "2": 0.21666666666666667,
+      "3": 0.125
+     }
+    }
+   },
+   "n300": {
+    "equals_record_fit": true,
+    "fallback": {
+     "share_coarser_than_L0": 0.48411458333333335,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.5158854166666667,
+      "1": 0.20182291666666666,
+      "2": 0.15729166666666666,
+      "3": 0.125
+     }
+    },
+    "note": "n = 300 is M* of record (fit identical), screened as the reference row"
+   }
+  },
+  "t3": {
+   "tracker": "t3",
+   "seeds": {
+    "bootstrap": [
+     20261201,
+     1,
+     7
+    ],
+    "power": [
+     20261202,
+     1,
+     7
+    ]
+   },
+   "B": 4000,
+   "run": "g_t3",
+   "run_record_sha256": "5554d9701b031fbbf9b450fe8b5fa1d52030e300e50b2703fec520a640a62c0a",
+   "arms": {
+    "Mstar": {
+     "label": "Mstar",
+     "power_key": [
+      20261202,
+      1,
+      7
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 8,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.04295600831997782,
+       "lb": 0.04020580148307305,
+       "ub": 0.047028010525093734,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.03239819091422257,
+       "lb": 0.025340088680960066,
+       "ub": 0.04102279469734596,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.040455847744691874,
+       "lb": 0.03200355749761508,
+       "ub": 0.052214276672091685,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.2466319822544868,
+     "infeasible_ci95": [
+      0.22545241782617467,
+      0.2680067432950191
+     ],
+     "seconds": 22.6
+    },
+    "X3G_n50_r0": {
+     "label": "X3G_n50_r0",
+     "power_key": [
+      20261202,
+      1,
+      7,
+      100
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 8,
+        "evaluable": 15
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.03145462986752466,
+       "lb": 0.028915545202545637,
+       "ub": 0.03515144241185457,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.02626673623939925,
+       "lb": 0.01955089410845668,
+       "ub": 0.034454886870969016,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.030042292993582798,
+       "lb": 0.022399306524979505,
+       "ub": 0.040384824085331346,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.3650845735027224,
+     "infeasible_ci95": [
+      0.3411186327888688,
+      0.3897120911474087
+     ],
+     "seconds": 3.3,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.11845259124823554,
+      "ci95": [
+       -0.13052628352490425,
+       -0.10685321637426906
+      ],
+      "ub_0.95": -0.10867672514619883,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "n = 50 training logs per fold, repeat 0"
+    },
+    "X3G_n50_r1": {
+     "label": "X3G_n50_r1",
+     "power_key": [
+      20261202,
+      1,
+      7,
+      101
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 7,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.030379496999336765,
+       "lb": 0.02784311983369104,
+       "ub": 0.033933030903068866,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.02205670344606203,
+       "lb": 0.016056427160110152,
+       "ub": 0.029199838430214356,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.02794846433317566,
+       "lb": 0.02069362068006534,
+       "ub": 0.037374970303544086,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.3762366606170599,
+     "infeasible_ci95": [
+      0.35234286348054034,
+      0.4000608913087315
+     ],
+     "seconds": 3.3,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.12960467836257308,
+      "ci95": [
+       -0.14259424480742083,
+       -0.11719559991933862
+      ],
+      "ub_0.95": -0.11909429320427503,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "n = 50 training logs per fold, repeat 1"
+    },
+    "X3G_n50_r2": {
+     "label": "X3G_n50_r2",
+     "power_key": [
+      20261202,
+      1,
+      7,
+      102
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 7,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.028469648855324783,
+       "lb": 0.02625690371871519,
+       "ub": 0.03181748985225696,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.02317571336184492,
+       "lb": 0.016903077407518736,
+       "ub": 0.030405891426969624,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.023505208102392785,
+       "lb": 0.016352078562132145,
+       "ub": 0.03276079083375211,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.37639395039322443,
+     "infeasible_ci95": [
+      0.35165137729380913,
+      0.4014522000403305
+     ],
+     "seconds": 3.4,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.12976196813873764,
+      "ci95": [
+       -0.14198467836257314,
+       -0.11703895140149223
+      ],
+      "ub_0.95": -0.11883470861060703,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "n = 50 training logs per fold, repeat 2"
+    },
+    "X3G_n100_r0": {
+     "label": "X3G_n100_r0",
+     "power_key": [
+      20261202,
+      1,
+      7,
+      103
+     ],
+     "status": {
+      "valid": false,
+      "shown_above": true,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": false,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": false,
+        "shown_above": true,
+        "flagged_cells": [
+         "large|long|new"
+        ],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 7,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.03695222302628104,
+       "lb": 0.034521410520716875,
+       "ub": 0.04051643083668452,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.02746283982055884,
+       "lb": 0.020758563841620295,
+       "ub": 0.03549718852930178,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.03698592323582702,
+       "lb": 0.028919979806619086,
+       "ub": 0.04749999050029295,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.30097890703770924,
+     "infeasible_ci95": [
+      0.27877712845331715,
+      0.323834861867312
+     ],
+     "seconds": 3.3,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.05434692478322241,
+      "ci95": [
+       -0.06181536196813869,
+       -0.04709684210526316
+      ],
+      "ub_0.95": -0.04815882234321435,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "n = 100 training logs per fold, repeat 0"
+    },
+    "X3G_n100_r1": {
+     "label": "X3G_n100_r1",
+     "power_key": [
+      20261202,
+      1,
+      7,
+      104
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 8,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.038938912031777066,
+       "lb": 0.03637636972581417,
+       "ub": 0.04272840594541722,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.030567602191553654,
+       "lb": 0.0233311919839504,
+       "ub": 0.039529932329952264,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.03719844501744998,
+       "lb": 0.029138994693195776,
+       "ub": 0.04798067833439616,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.2919183706392418,
+     "infeasible_ci95": [
+      0.2695624884049203,
+      0.3143790723936279
+     ],
+     "seconds": 3.3,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.045286388384754996,
+      "ci95": [
+       -0.05328938092357331,
+       -0.03769801169590641
+      ],
+      "ub_0.95": -0.03885891510385158,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "n = 100 training logs per fold, repeat 1"
+    },
+    "X3G_n100_r2": {
+     "label": "X3G_n100_r2",
+     "power_key": [
+      20261202,
+      1,
+      7,
+      105
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 7,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.03762246090008762,
+       "lb": 0.035119159603346994,
+       "ub": 0.04123935808799457,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.02733783926548377,
+       "lb": 0.022323549642659878,
+       "ub": 0.034494607652833464,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.03764127592597349,
+       "lb": 0.028998386679660683,
+       "ub": 0.050136879234445854,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.3024603347449083,
+     "infeasible_ci95": [
+      0.2799175075620085,
+      0.32497920548497694
+     ],
+     "seconds": 3.4,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.05582835249042145,
+      "ci95": [
+       -0.062378406936882444,
+       -0.049078661020366995
+      ],
+      "ub_0.95": -0.05005679370840895,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "n = 100 training logs per fold, repeat 2"
+    },
+    "X3G_n200_r0": {
+     "label": "X3G_n200_r0",
+     "power_key": [
+      20261202,
+      1,
+      7,
+      106
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 8,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.04105539875125694,
+       "lb": 0.038348484653664146,
+       "ub": 0.04503927001626033,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.031505339217520356,
+       "lb": 0.02467131788820508,
+       "ub": 0.040015192699817556,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.038912067631154595,
+       "lb": 0.03049971016265115,
+       "ub": 0.05077023111659397,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.2640822746521476,
+     "infeasible_ci95": [
+      0.24285832627545859,
+      0.285737209114741
+     ],
+     "seconds": 3.4,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.017450292397660817,
+      "ci95": [
+       -0.022339532163742674,
+       -0.012809005847953211
+      ],
+      "ub_0.95": -0.01351976608187135,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "n = 200 training logs per fold, repeat 0"
+    },
+    "X3G_n200_r1": {
+     "label": "X3G_n200_r1",
+     "power_key": [
+      20261202,
+      1,
+      7,
+      107
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 8,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.04246737099638919,
+       "lb": 0.03953956296792938,
+       "ub": 0.046701616247314226,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.03067411858895255,
+       "lb": 0.023671768559667395,
+       "ub": 0.039222048563997726,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.039401028080443774,
+       "lb": 0.030361137892720578,
+       "ub": 0.05155305480229077,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.2538211736237145,
+     "infeasible_ci95": [
+      0.23246732405726953,
+      0.2754618753781004
+     ],
+     "seconds": 3.3,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.007189191369227667,
+      "ci95": [
+       -0.011265497076023385,
+       -0.00325147005444646
+      ],
+      "ub_0.95": -0.0038298205283323235,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "n = 200 training logs per fold, repeat 1"
+    },
+    "X3G_n200_r2": {
+     "label": "X3G_n200_r2",
+     "power_key": [
+      20261202,
+      1,
+      7,
+      108
+     ],
+     "status": {
+      "valid": true,
+      "shown_above": false,
+      "floor_only": false,
+      "pops": {
+       "PD7_primary": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 19,
+        "evaluable": 27
+       },
+       "SD1_7_gap_le_5m": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 8,
+        "evaluable": 16
+       },
+       "PD_inpath": {
+        "NoFlag": true,
+        "FamFlag": false,
+        "pooled_evaluable": true,
+        "NoFlag_pool": true,
+        "Floor": true,
+        "HK1c": true,
+        "valid": true,
+        "shown_above": false,
+        "flagged_cells": [],
+        "family_flagged": [],
+        "family_size": 5,
+        "evaluable": 8
+       }
+      }
+     },
+     "pooled": {
+      "PD7_primary": {
+       "E": 0.04241795943237013,
+       "lb": 0.03950117369096426,
+       "ub": 0.046667336537488883,
+       "flagged": false
+      },
+      "SD1_7_gap_le_5m": {
+       "E": 0.033612888471909456,
+       "lb": 0.02644835752870717,
+       "ub": 0.042586949887369455,
+       "flagged": false
+      },
+      "PD_inpath": {
+       "E": 0.03995444006209728,
+       "lb": 0.030985657296290027,
+       "ub": 0.052118064946343357,
+       "flagged": false
+      }
+     },
+     "infeasible_rate": 0.26077628554143983,
+     "infeasible_ci95": [
+      0.23964222625529355,
+      0.2822406735228877
+     ],
+     "seconds": 3.3,
+     "Mstar_minus_arm": {
+      "mean_diff": -0.014144303286953014,
+      "ci95": [
+       -0.019069005847953218,
+       -0.009084912280701752
+      ],
+      "ub_0.95": -0.009768187134502926,
+      "p_lt0": 0.00024993751562109475
+     },
+     "description": "n = 200 training logs per fold, repeat 2"
+    }
+   },
+   "not_fittable": [
+    "X3G_n25_r0",
+    "X3G_n25_r1",
+    "X3G_n25_r2"
+   ],
+   "fallback": {
+    "X3G_n25_r0": {
+     "share_coarser_than_L0": 0.846875,
+     "share_undefined": 0.0625,
+     "by_level": {
+      "-1": 0.0625,
+      "0": 0.090625,
+      "1": 0.14583333333333334,
+      "2": 0.09166666666666666,
+      "3": 0.609375
+     }
+    },
+    "X3G_n25_r1": {
+     "share_coarser_than_L0": 0.85859375,
+     "share_undefined": 0.05,
+     "by_level": {
+      "-1": 0.05,
+      "0": 0.09140625,
+      "1": 0.14609375,
+      "2": 0.0875,
+      "3": 0.625
+     }
+    },
+    "X3G_n25_r2": {
+     "share_coarser_than_L0": 0.7973958333333333,
+     "share_undefined": 0.1375,
+     "by_level": {
+      "-1": 0.1375,
+      "0": 0.06510416666666667,
+      "1": 0.1296875,
+      "2": 0.12708333333333333,
+      "3": 0.540625
+     }
+    },
+    "X3G_n50_r0": {
+     "share_coarser_than_L0": 0.7481770833333333,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.2518229166666667,
+      "1": 0.16276041666666666,
+      "2": 0.08541666666666667,
+      "3": 0.5
+     }
+    },
+    "X3G_n50_r1": {
+     "share_coarser_than_L0": 0.7575520833333333,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.24244791666666668,
+      "1": 0.16796875,
+      "2": 0.08958333333333333,
+      "3": 0.5
+     }
+    },
+    "X3G_n50_r2": {
+     "share_coarser_than_L0": 0.753125,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.246875,
+      "1": 0.16770833333333332,
+      "2": 0.08541666666666667,
+      "3": 0.5
+     }
+    },
+    "X3G_n100_r0": {
+     "share_coarser_than_L0": 0.6526041666666667,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.34739583333333335,
+      "1": 0.13697916666666668,
+      "2": 0.196875,
+      "3": 0.31875
+     }
+    },
+    "X3G_n100_r1": {
+     "share_coarser_than_L0": 0.6473958333333333,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.35260416666666666,
+      "1": 0.1515625,
+      "2": 0.18020833333333333,
+      "3": 0.315625
+     }
+    },
+    "X3G_n100_r2": {
+     "share_coarser_than_L0": 0.64296875,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.35703125,
+      "1": 0.14401041666666667,
+      "2": 0.19583333333333333,
+      "3": 0.303125
+     }
+    },
+    "X3G_n200_r0": {
+     "share_coarser_than_L0": 0.5604166666666667,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.4395833333333333,
+      "1": 0.22604166666666667,
+      "2": 0.209375,
+      "3": 0.125
+     }
+    },
+    "X3G_n200_r1": {
+     "share_coarser_than_L0": 0.5625,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.4375,
+      "1": 0.228125,
+      "2": 0.209375,
+      "3": 0.125
+     }
+    },
+    "X3G_n200_r2": {
+     "share_coarser_than_L0": 0.5546875,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.4453125,
+      "1": 0.2140625,
+      "2": 0.215625,
+      "3": 0.125
+     }
+    }
+   },
+   "n300": {
+    "equals_record_fit": true,
+    "fallback": {
+     "share_coarser_than_L0": 0.4828125,
+     "share_undefined": 0.0,
+     "by_level": {
+      "-1": 0.0,
+      "0": 0.5171875,
+      "1": 0.20677083333333332,
+      "2": 0.15104166666666666,
+      "3": 0.125
+     }
+    },
+    "note": "n = 300 is M* of record (fit identical), screened as the reference row"
+   }
+  }
+ },
+ "seconds": 108.4
+}

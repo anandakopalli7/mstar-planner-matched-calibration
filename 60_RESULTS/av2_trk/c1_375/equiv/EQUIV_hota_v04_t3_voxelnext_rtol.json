@@ -1,0 +1,158 @@
+{
+ "check": "hota",
+ "test": "C:\\Users\\anand\\AppData\\Local\\Temp\\claude\\C--Users-anand-OneDrive-Downs-Building-Evidence\\48b27148-cbd9-4b90-a29d-ddf2b9b9719c\\scratchpad\\tmp_trk_equiv4\\hota\\h_t3vx.json",
+ "ref": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\60_RESULTS\\av2_trk\\hota\\AV2_HOTA_t3_voxelnext.json",
+ "exact": {
+  "classes": {
+   "car": {
+    "equal": true,
+    "keys": 12,
+    "differences": {}
+   },
+   "pedestrian": {
+    "equal": true,
+    "keys": 12,
+    "differences": {}
+   },
+   "bicycle": {
+    "equal": false,
+    "keys": 12,
+    "differences": {
+     "HOTA_mean_over_10_thresholds": [
+      0.36836255402675544,
+      0.3683625540267555
+     ]
+    }
+   },
+   "motorcycle": {
+    "equal": true,
+    "keys": 12,
+    "differences": {}
+   },
+   "truck": {
+    "equal": false,
+    "keys": 12,
+    "differences": {
+     "AssA": [
+      0.6338765065023598,
+      0.6338765065023599
+     ]
+    }
+   },
+   "bus": {
+    "equal": true,
+    "keys": 12,
+    "differences": {}
+   },
+   "trailer": {
+    "equal": true,
+    "keys": 12,
+    "differences": {}
+   }
+  },
+  "identical": false
+ },
+ "rtol": 1e-12,
+ "differences_beyond_rtol": {},
+ "control_reference_rerun_vs_reference": {
+  "classes": {
+   "car": {
+    "equal": false,
+    "keys": 12,
+    "differences": {
+     "AssA": [
+      0.798330237421305,
+      0.7983302374213049
+     ]
+    }
+   },
+   "pedestrian": {
+    "equal": true,
+    "keys": 12,
+    "differences": {}
+   },
+   "bicycle": {
+    "equal": true,
+    "keys": 12,
+    "differences": {}
+   },
+   "motorcycle": {
+    "equal": true,
+    "keys": 12,
+    "differences": {}
+   },
+   "truck": {
+    "equal": false,
+    "keys": 12,
+    "differences": {
+     "AssA": [
+      0.6338765065023598,
+      0.6338765065023599
+     ]
+    }
+   },
+   "bus": {
+    "equal": true,
+    "keys": 12,
+    "differences": {}
+   },
+   "trailer": {
+    "equal": true,
+    "keys": 12,
+    "differences": {}
+   }
+  },
+  "identical": false
+ },
+ "control_reference_rerun_vs_test": {
+  "classes": {
+   "car": {
+    "equal": false,
+    "keys": 12,
+    "differences": {
+     "AssA": [
+      0.798330237421305,
+      0.7983302374213049
+     ]
+    }
+   },
+   "pedestrian": {
+    "equal": true,
+    "keys": 12,
+    "differences": {}
+   },
+   "bicycle": {
+    "equal": false,
+    "keys": 12,
+    "differences": {
+     "HOTA_mean_over_10_thresholds": [
+      0.3683625540267555,
+      0.36836255402675544
+     ]
+    }
+   },
+   "motorcycle": {
+    "equal": true,
+    "keys": 12,
+    "differences": {}
+   },
+   "truck": {
+    "equal": true,
+    "keys": 12,
+    "differences": {}
+   },
+   "bus": {
+    "equal": true,
+    "keys": 12,
+    "differences": {}
+   },
+   "trailer": {
+    "equal": true,
+    "keys": 12,
+    "differences": {}
+   }
+  },
+  "identical": false
+ },
+ "identical": true
+}

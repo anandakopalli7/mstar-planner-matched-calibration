@@ -1,0 +1,44 @@
+{
+ "source": "trk",
+ "model": "int_ee",
+ "checkpoint": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\50_CODE\\third_party\\Trajectron-plus-plus_eccv2020\\experiments\\nuScenes\\models\\int_ee\\model_registrar-12.pt",
+ "checkpoint_sha256": "3fcc65cd8f48b70fce4965813e503e03c664e027f1f83f8a27d317773a138028",
+ "weights_constant_over_steps": true,
+ "config_sha256": "3538638ef65601e80dd2ac146d1a3f7ca87fa28fc2936bae2cb2adea2b18923d",
+ "keys": "C:\\Users\\anand\\Downloads\\ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911\\60_RESULTS\\c1_av2_v01\\tpp\\keys_t3.npz",
+ "keys_sha256": "040704a30557914301deba696355d96bce760f05955fa34c3ae79c8571f1bec0",
+ "seed": 20261104,
+ "ph": 6,
+ "hp_overrides_differing_from_config": {},
+ "registrar_modules": null,
+ "workers": 4,
+ "threads": 1,
+ "scripts": {
+  "tpp_run_v01": "8f94cdbb619a3fb2e0e6439e049df1d9a9bdc33dbba4b8a16ac2f2405dfa1eb3",
+  "tpp_common_v01": "32942ff8c1c08a6c633648587102fbf2389f5b510dcc05c7d5817ae572033c7f"
+ },
+ "seconds": 6148.5,
+ "records": 538152,
+ "status_counts": {
+  "ok": 475288,
+  "class_not_covered": 3561,
+  "history_lt_2": 59303,
+  "not_predicted": 0,
+  "nonfinite": 0,
+  "not_pd": 0,
+  "no_gt_node": 0
+ },
+ "integrity": {
+  "v1_cov_not_pd_among_ok": 5431,
+  "v1_cov_not_pd_among_ok_by_step": {
+   "1": 4198,
+   "2": 803,
+   "3": 296,
+   "4": 134
+  },
+  "v2_mineig_min_among_ok": 6.263985040974411e-08,
+  "mixture_rows_step4": 110824,
+  "all_ok_finite": true
+ },
+ "out_sha256": "8a88d26baebab5d3a6b9f39023894cf330968c5639159de3ea85edd9fe4ec24c"
+}

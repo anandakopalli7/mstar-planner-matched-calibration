@@ -1,0 +1,186 @@
+{
+ "t1 B6 PD7 family": {
+  "family": [
+   "car|long|static",
+   "car|long|straight",
+   "car|long|new",
+   "car|lat|static",
+   "car|lat|straight",
+   "pedestrian|long|turning",
+   "pedestrian|lat|turning"
+  ],
+  "by_seed": [
+   {
+    "seed": [
+     20261110,
+     0,
+     0
+    ],
+    "max_lb_minus_delta": 0.0010747424020437352,
+    "cell": "car|long|new",
+    "flagged": true,
+    "q": 4.121065843703211,
+    "q_mcse_AB": 0.23311165294337538
+   },
+   {
+    "seed": [
+     20261121,
+     0,
+     0,
+     900
+    ],
+    "max_lb_minus_delta": 0.0010677214018335601,
+    "cell": "car|long|new",
+    "flagged": true,
+    "q": 4.135580878729974,
+    "q_mcse_AB": 0.17158961255895624
+   },
+   {
+    "seed": [
+     20261121,
+     0,
+     0,
+     901
+    ],
+    "max_lb_minus_delta": -0.0035038926392210595,
+    "cell": "car|long|new",
+    "flagged": false,
+    "q": 4.415538087868466,
+    "q_mcse_AB": 0.19543542303385747
+   },
+   {
+    "seed": [
+     20261121,
+     0,
+     0,
+     902
+    ],
+    "max_lb_minus_delta": 0.0019339711716206548,
+    "cell": "car|long|new",
+    "flagged": true,
+    "q": 4.198222978629082,
+    "q_mcse_AB": 0.494094207894061
+   },
+   {
+    "seed": [
+     20261121,
+     0,
+     0,
+     903
+    ],
+    "max_lb_minus_delta": 0.000213775846374456,
+    "cell": "car|long|new",
+    "flagged": true,
+    "q": 4.247546461045247,
+    "q_mcse_AB": 0.1729161870837673
+   },
+   {
+    "seed": [
+     20261121,
+     0,
+     0,
+     904
+    ],
+    "max_lb_minus_delta": -0.0016420350111070597,
+    "cell": "car|long|new",
+    "flagged": false,
+    "q": 4.228581683718827,
+    "q_mcse_AB": 0.13430705957229833
+   }
+  ],
+  "share_flagged": 0.6666666666666666
+ },
+ "t3 RETUNED PD7 family": {
+  "family": [
+   "car|long|static",
+   "car|long|straight",
+   "car|long|turning",
+   "car|long|new",
+   "car|lat|static",
+   "pedestrian|long|static",
+   "pedestrian|long|turning",
+   "pedestrian|lat|static",
+   "pedestrian|lat|turning"
+  ],
+  "by_seed": [
+   {
+    "seed": [
+     20261110,
+     1,
+     0
+    ],
+    "max_lb_minus_delta": 0.0035127727345066403,
+    "cell": "car|long|straight",
+    "flagged": true,
+    "q": 4.1847201025506395,
+    "q_mcse_AB": 0.46844958395064334
+   },
+   {
+    "seed": [
+     20261121,
+     1,
+     0,
+     900
+    ],
+    "max_lb_minus_delta": 0.0018765938319061648,
+    "cell": "car|long|straight",
+    "flagged": true,
+    "q": 4.14100757963541,
+    "q_mcse_AB": 0.07242538160101834
+   },
+   {
+    "seed": [
+     20261121,
+     1,
+     0,
+     901
+    ],
+    "max_lb_minus_delta": 0.0010286485727953598,
+    "cell": "car|long|straight",
+    "flagged": true,
+    "q": 4.2045189943700905,
+    "q_mcse_AB": 0.23182176499089033
+   },
+   {
+    "seed": [
+     20261121,
+     1,
+     0,
+     902
+    ],
+    "max_lb_minus_delta": 0.002727649094679034,
+    "cell": "car|long|straight",
+    "flagged": true,
+    "q": 4.179427439774666,
+    "q_mcse_AB": 0.36035786900395633
+   },
+   {
+    "seed": [
+     20261121,
+     1,
+     0,
+     903
+    ],
+    "max_lb_minus_delta": -0.00020721909615269152,
+    "cell": "car|long|straight",
+    "flagged": false,
+    "q": 4.407516644322305,
+    "q_mcse_AB": 0.2640595359320421
+   },
+   {
+    "seed": [
+     20261121,
+     1,
+     0,
+     904
+    ],
+    "max_lb_minus_delta": -0.0009473774026818871,
+    "cell": "car|long|straight",
+    "flagged": false,
+    "q": 4.341304836042806,
+    "q_mcse_AB": 0.15445633613256562
+   }
+  ],
+  "share_flagged": 0.6666666666666666
+ }
+}

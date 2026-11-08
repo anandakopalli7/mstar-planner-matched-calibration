@@ -1,0 +1,1687 @@
+{
+ "stamp": "X3 POST-REGISTRATION EXPLORATORY (after the verdict of record; not part of the registered test)",
+ "label": "added after review (amendment A3)",
+ "amendment_sha256": "009a0aade0ff5ef2721ff81469f2568fbe549cf2cd03e2338383790bcba993b3",
+ "part": "(iii)",
+ "by_tracker": {
+  "t1": {
+   "tracker": "t1",
+   "seed_bootstrap": [
+    20261201,
+    0,
+    9
+   ],
+   "B": 4000,
+   "items": 947306,
+   "own_threshold_strata_evaluable": 93,
+   "flagged": [],
+   "sup_t_q": 3.917581669091989,
+   "max_E_cell": "large|<20|long|turning|not_inpath",
+   "cells": {
+    "car|<20|long|static|not_inpath": {
+     "E": 0.04735292537176474,
+     "lb_sim": 0.027440727321993427,
+     "ub_sim": 0.061015588950397055,
+     "flagged": false,
+     "logs": 352,
+     "items": 66526
+    },
+    "car|<20|long|straight|not_inpath": {
+     "E": 0.050138373498946245,
+     "lb_sim": 0.031102412624625948,
+     "ub_sim": 0.06319981094908414,
+     "flagged": false,
+     "logs": 316,
+     "items": 15595
+    },
+    "car|<20|long|turning|not_inpath": {
+     "E": 0.057071000891481205,
+     "lb_sim": 0.009181286873639262,
+     "ub_sim": 0.08993030903351734,
+     "flagged": false,
+     "logs": 212,
+     "items": 2486
+    },
+    "car|<20|long|new|not_inpath": {
+     "E": 0.04782628721575076,
+     "lb_sim": 0.013692807627313695,
+     "ub_sim": 0.07124681804912525,
+     "flagged": false,
+     "logs": 257,
+     "items": 2451
+    },
+    "car|<20|lat|static|not_inpath": {
+     "E": 0.04841349613313963,
+     "lb_sim": 0.027057192457763925,
+     "ub_sim": 0.06306702617891567,
+     "flagged": false,
+     "logs": 353,
+     "items": 82591
+    },
+    "car|<20|lat|straight|not_inpath": {
+     "E": 0.048701987161134816,
+     "lb_sim": 0.015886569640492572,
+     "ub_sim": 0.07121813573781295,
+     "flagged": false,
+     "logs": 310,
+     "items": 20841
+    },
+    "car|<20|lat|turning|not_inpath": {
+     "E": 0.0391952038472013,
+     "lb_sim": -0.0002554598151147877,
+     "ub_sim": 0.06626409620276873,
+     "flagged": false,
+     "logs": 206,
+     "items": 3018
+    },
+    "car|<20|lat|new|not_inpath": {
+     "E": 0.05023933726739282,
+     "lb_sim": 0.01174377046213769,
+     "ub_sim": 0.07665289428477126,
+     "flagged": false,
+     "logs": 248,
+     "items": 3197
+    },
+    "car|20-40|long|static|not_inpath": {
+     "E": 0.04855134845405357,
+     "lb_sim": 0.031302202847718605,
+     "ub_sim": 0.06038677078408131,
+     "flagged": false,
+     "logs": 372,
+     "items": 117749
+    },
+    "car|20-40|long|straight|not_inpath": {
+     "E": 0.04555363982698271,
+     "lb_sim": 0.02227142705566537,
+     "ub_sim": 0.06152862358646269,
+     "flagged": false,
+     "logs": 340,
+     "items": 20050
+    },
+    "car|20-40|long|turning|not_inpath": {
+     "E": 0.04600676808212673,
+     "lb_sim": 0.01155842674392716,
+     "ub_sim": 0.06964333986437247,
+     "flagged": false,
+     "logs": 255,
+     "items": 5563
+    },
+    "car|20-40|long|new|not_inpath": {
+     "E": 0.0450398152128567,
+     "lb_sim": 0.021350157514084606,
+     "ub_sim": 0.06129436544494408,
+     "flagged": false,
+     "logs": 330,
+     "items": 6735
+    },
+    "car|20-40|lat|static|not_inpath": {
+     "E": 0.04658713428366807,
+     "lb_sim": 0.03152547422062081,
+     "ub_sim": 0.05692162341755352,
+     "flagged": false,
+     "logs": 372,
+     "items": 109604
+    },
+    "car|20-40|lat|straight|not_inpath": {
+     "E": 0.04410266024514228,
+     "lb_sim": 0.018657593698670673,
+     "ub_sim": 0.06156167622576858,
+     "flagged": false,
+     "logs": 332,
+     "items": 16362
+    },
+    "car|20-40|lat|turning|not_inpath": {
+     "E": 0.041729278418146706,
+     "lb_sim": 0.01010219779752125,
+     "ub_sim": 0.06343005506840958,
+     "flagged": false,
+     "logs": 249,
+     "items": 5051
+    },
+    "car|20-40|lat|new|not_inpath": {
+     "E": 0.04881812621230298,
+     "lb_sim": 0.015260317064147766,
+     "ub_sim": 0.07184366340720147,
+     "flagged": false,
+     "logs": 319,
+     "items": 6381
+    },
+    "car|>=40|long|static|not_inpath": {
+     "E": 0.048966259971227964,
+     "lb_sim": 0.026135871439945158,
+     "ub_sim": 0.06463122659584251,
+     "flagged": false,
+     "logs": 364,
+     "items": 46432
+    },
+    "car|>=40|long|straight|not_inpath": {
+     "E": 0.0487760510025108,
+     "lb_sim": 0.014346185719963295,
+     "ub_sim": 0.07239994552371266,
+     "flagged": false,
+     "logs": 282,
+     "items": 10175
+    },
+    "car|>=40|long|turning|not_inpath": {
+     "E": 0.04521456627057851,
+     "lb_sim": -0.00021338394623753032,
+     "ub_sim": 0.07638474644495372,
+     "flagged": false,
+     "logs": 180,
+     "items": 2035
+    },
+    "car|>=40|long|new|not_inpath": {
+     "E": 0.04278270683612486,
+     "lb_sim": 0.01310199048898376,
+     "ub_sim": 0.06314799454621062,
+     "flagged": false,
+     "logs": 307,
+     "items": 3500
+    },
+    "car|>=40|lat|static|not_inpath": {
+     "E": 0.04729946611402656,
+     "lb_sim": 0.028400243799278878,
+     "ub_sim": 0.06026708102719501,
+     "flagged": false,
+     "logs": 364,
+     "items": 42939
+    },
+    "car|>=40|lat|straight|not_inpath": {
+     "E": 0.04026354102233748,
+     "lb_sim": 0.011867295863747782,
+     "ub_sim": 0.05974749470381632,
+     "flagged": false,
+     "logs": 257,
+     "items": 7318
+    },
+    "car|>=40|lat|turning|not_inpath": {
+     "E": 0.040949471345723146,
+     "lb_sim": -0.004131949425491457,
+     "ub_sim": 0.07188188192663066,
+     "flagged": false,
+     "logs": 164,
+     "items": 1822
+    },
+    "car|>=40|lat|new|not_inpath": {
+     "E": 0.03811996072177791,
+     "lb_sim": 0.00857459015420172,
+     "ub_sim": 0.05839238154452351,
+     "flagged": false,
+     "logs": 292,
+     "items": 2972
+    },
+    "pedestrian|<20|long|static|not_inpath": {
+     "E": 0.04936994164345251,
+     "lb_sim": 0.018621026288381234,
+     "ub_sim": 0.07046816921501912,
+     "flagged": false,
+     "logs": 277,
+     "items": 35767
+    },
+    "pedestrian|<20|long|straight|not_inpath": {
+     "E": 0.047047657580235776,
+     "lb_sim": 0.010072887696285532,
+     "ub_sim": 0.0724177267488457,
+     "flagged": false,
+     "logs": 242,
+     "items": 12176
+    },
+    "pedestrian|<20|long|turning|not_inpath": {
+     "E": 0.04259113299734025,
+     "lb_sim": 0.013722428288211894,
+     "ub_sim": 0.06239926263756493,
+     "flagged": false,
+     "logs": 245,
+     "items": 9147
+    },
+    "pedestrian|<20|long|new|not_inpath": {
+     "E": 0.049025878571333115,
+     "lb_sim": -0.015590678622364434,
+     "ub_sim": 0.09336223362064835,
+     "flagged": false,
+     "logs": 121,
+     "items": 826
+    },
+    "pedestrian|<20|lat|static|not_inpath": {
+     "E": 0.047999149138056925,
+     "lb_sim": 0.023668137600856492,
+     "ub_sim": 0.06469376137170779,
+     "flagged": false,
+     "logs": 277,
+     "items": 36071
+    },
+    "pedestrian|<20|lat|straight|not_inpath": {
+     "E": 0.045063403096329196,
+     "lb_sim": 0.009345528003732118,
+     "ub_sim": 0.0695710596550871,
+     "flagged": false,
+     "logs": 240,
+     "items": 14702
+    },
+    "pedestrian|<20|lat|turning|not_inpath": {
+     "E": 0.04857564151168521,
+     "lb_sim": 0.017950788126315283,
+     "ub_sim": 0.06958874453041768,
+     "flagged": false,
+     "logs": 247,
+     "items": 10826
+    },
+    "pedestrian|<20|lat|new|not_inpath": {
+     "E": 0.048606702255404054,
+     "lb_sim": -0.0068218105614017005,
+     "ub_sim": 0.08663872269769891,
+     "flagged": false,
+     "logs": 123,
+     "items": 927
+    },
+    "pedestrian|20-40|long|static|not_inpath": {
+     "E": 0.04819869812789354,
+     "lb_sim": 0.02084560746078493,
+     "ub_sim": 0.06696689612825565,
+     "flagged": false,
+     "logs": 314,
+     "items": 35478
+    },
+    "pedestrian|20-40|long|straight|not_inpath": {
+     "E": 0.05052356123303933,
+     "lb_sim": 0.013749740316855025,
+     "ub_sim": 0.07575575018690868,
+     "flagged": false,
+     "logs": 254,
+     "items": 11433
+    },
+    "pedestrian|20-40|long|turning|not_inpath": {
+     "E": 0.044438974735377584,
+     "lb_sim": 0.012174188434469227,
+     "ub_sim": 0.06657731022018551,
+     "flagged": false,
+     "logs": 266,
+     "items": 12515
+    },
+    "pedestrian|20-40|long|new|not_inpath": {
+     "E": 0.04451845580412217,
+     "lb_sim": 0.007384747413119161,
+     "ub_sim": 0.06999757990208366,
+     "flagged": false,
+     "logs": 209,
+     "items": 3028
+    },
+    "pedestrian|20-40|lat|static|not_inpath": {
+     "E": 0.04430125131657994,
+     "lb_sim": 0.022066175381000676,
+     "ub_sim": 0.05955774692765346,
+     "flagged": false,
+     "logs": 315,
+     "items": 35271
+    },
+    "pedestrian|20-40|lat|straight|not_inpath": {
+     "E": 0.04512770470842531,
+     "lb_sim": 0.01557987362500765,
+     "ub_sim": 0.06540181380285684,
+     "flagged": false,
+     "logs": 253,
+     "items": 11174
+    },
+    "pedestrian|20-40|lat|turning|not_inpath": {
+     "E": 0.0449461476489308,
+     "lb_sim": 0.021095716632527357,
+     "ub_sim": 0.06131101175725259,
+     "flagged": false,
+     "logs": 265,
+     "items": 12225
+    },
+    "pedestrian|20-40|lat|new|not_inpath": {
+     "E": 0.0430425391246914,
+     "lb_sim": 0.01387999382014532,
+     "ub_sim": 0.06305228614492117,
+     "flagged": false,
+     "logs": 208,
+     "items": 2862
+    },
+    "pedestrian|>=40|long|static|not_inpath": {
+     "E": 0.046459637957844066,
+     "lb_sim": 0.013026116147347847,
+     "ub_sim": 0.06939989596471549,
+     "flagged": false,
+     "logs": 268,
+     "items": 10959
+    },
+    "pedestrian|>=40|long|straight|not_inpath": {
+     "E": 0.0392627312220314,
+     "lb_sim": -0.009521440088573245,
+     "ub_sim": 0.07273576714268469,
+     "flagged": false,
+     "logs": 139,
+     "items": 3179
+    },
+    "pedestrian|>=40|long|turning|not_inpath": {
+     "E": 0.04672458468459677,
+     "lb_sim": 0.0009774458699042393,
+     "ub_sim": 0.07811377465487805,
+     "flagged": false,
+     "logs": 179,
+     "items": 4188
+    },
+    "pedestrian|>=40|long|new|not_inpath": {
+     "E": 0.03722409315369673,
+     "lb_sim": 0.006236402928325301,
+     "ub_sim": 0.05848615500994595,
+     "flagged": false,
+     "logs": 225,
+     "items": 2649
+    },
+    "pedestrian|>=40|lat|static|not_inpath": {
+     "E": 0.041043418177202924,
+     "lb_sim": 0.017190874561099398,
+     "ub_sim": 0.0574097318361422,
+     "flagged": false,
+     "logs": 266,
+     "items": 10837
+    },
+    "pedestrian|>=40|lat|straight|not_inpath": {
+     "E": 0.0418271141216269,
+     "lb_sim": 0.005682915060576714,
+     "ub_sim": 0.06662729092058749,
+     "flagged": false,
+     "logs": 138,
+     "items": 2999
+    },
+    "pedestrian|>=40|lat|turning|not_inpath": {
+     "E": 0.04010916383851428,
+     "lb_sim": 0.006650622821789971,
+     "ub_sim": 0.0630665886592575,
+     "flagged": false,
+     "logs": 179,
+     "items": 4000
+    },
+    "pedestrian|>=40|lat|new|not_inpath": {
+     "E": 0.04029579633757107,
+     "lb_sim": 0.005966169633192915,
+     "ub_sim": 0.0638509126170286,
+     "flagged": false,
+     "logs": 220,
+     "items": 2511
+    },
+    "two_wheeler|<20|long|straight|not_inpath": {
+     "E": 0.02816492450638792,
+     "lb_sim": -0.02822740867162056,
+     "ub_sim": 0.06685826587932206,
+     "flagged": false,
+     "logs": 41,
+     "items": 628
+    },
+    "two_wheeler|<20|lat|straight|not_inpath": {
+     "E": 0.03985221819524146,
+     "lb_sim": -0.03366907622214893,
+     "ub_sim": 0.090298517944752,
+     "flagged": false,
+     "logs": 44,
+     "items": 771
+    },
+    "two_wheeler|20-40|long|straight|not_inpath": {
+     "E": 0.0644649094950778,
+     "lb_sim": -0.04974757102807634,
+     "ub_sim": 0.14283128039840817,
+     "flagged": false,
+     "logs": 47,
+     "items": 500
+    },
+    "two_wheeler|20-40|long|new|not_inpath": {
+     "E": 0.03953488372093023,
+     "lb_sim": -0.059387517280351264,
+     "ub_sim": 0.1074100365238922,
+     "flagged": false,
+     "logs": 43,
+     "items": 184
+    },
+    "two_wheeler|20-40|lat|straight|not_inpath": {
+     "E": 0.018085106382978722,
+     "lb_sim": -0.03642521355937548,
+     "ub_sim": 0.055487112985888674,
+     "flagged": false,
+     "logs": 47,
+     "items": 451
+    },
+    "two_wheeler|20-40|lat|new|not_inpath": {
+     "E": 0.027500000000000004,
+     "lb_sim": -0.07109271057914285,
+     "ub_sim": 0.09514893722839213,
+     "flagged": false,
+     "logs": 40,
+     "items": 143
+    },
+    "large|<20|long|static|not_inpath": {
+     "E": 0.041596266550310665,
+     "lb_sim": -0.009022445581564752,
+     "ub_sim": 0.07632806426108074,
+     "flagged": false,
+     "logs": 128,
+     "items": 2464
+    },
+    "large|<20|long|straight|not_inpath": {
+     "E": 0.040066728724128746,
+     "lb_sim": -0.010049807237067644,
+     "ub_sim": 0.07445396055321948,
+     "flagged": false,
+     "logs": 97,
+     "items": 801
+    },
+    "large|<20|long|turning|not_inpath": {
+     "E": 0.07142857142857142,
+     "lb_sim": -0.06912155218787838,
+     "ub_sim": 0.16786639562592529,
+     "flagged": false,
+     "logs": 49,
+     "items": 192
+    },
+    "large|<20|lat|static|not_inpath": {
+     "E": 0.042254183046384744,
+     "lb_sim": -0.014536646683534778,
+     "ub_sim": 0.08122095100499249,
+     "flagged": false,
+     "logs": 124,
+     "items": 3674
+    },
+    "large|<20|lat|straight|not_inpath": {
+     "E": 0.045920138888888885,
+     "lb_sim": -0.017792655168947007,
+     "ub_sim": 0.08963638099792581,
+     "flagged": false,
+     "logs": 96,
+     "items": 1447
+    },
+    "large|<20|lat|turning|not_inpath": {
+     "E": 0.048355899419729204,
+     "lb_sim": -0.07018571172234472,
+     "ub_sim": 0.12969268348821672,
+     "flagged": false,
+     "logs": 47,
+     "items": 234
+    },
+    "large|<20|lat|new|not_inpath": {
+     "E": 0.02564102564102564,
+     "lb_sim": -0.07486509087902044,
+     "ub_sim": 0.09460283760050339,
+     "flagged": false,
+     "logs": 39,
+     "items": 101
+    },
+    "large|20-40|long|static|not_inpath": {
+     "E": 0.04052672260508755,
+     "lb_sim": 0.0029112330707736014,
+     "ub_sim": 0.0663364186300223,
+     "flagged": false,
+     "logs": 161,
+     "items": 4116
+    },
+    "large|20-40|long|straight|not_inpath": {
+     "E": 0.04283086478738653,
+     "lb_sim": -0.009090790529750398,
+     "ub_sim": 0.07845667100278295,
+     "flagged": false,
+     "logs": 115,
+     "items": 1260
+    },
+    "large|20-40|long|turning|not_inpath": {
+     "E": 0.059773550411202234,
+     "lb_sim": -0.033394024661322574,
+     "ub_sim": 0.12370005573578621,
+     "flagged": false,
+     "logs": 78,
+     "items": 665
+    },
+    "large|20-40|long|new|not_inpath": {
+     "E": 0.03380405401225977,
+     "lb_sim": -0.03455503452709242,
+     "ub_sim": 0.08070832981951226,
+     "flagged": false,
+     "logs": 71,
+     "items": 278
+    },
+    "large|20-40|lat|static|not_inpath": {
+     "E": 0.04169523150838087,
+     "lb_sim": 0.0027965947967015584,
+     "ub_sim": 0.06838535309770559,
+     "flagged": false,
+     "logs": 149,
+     "items": 3592
+    },
+    "large|20-40|lat|straight|not_inpath": {
+     "E": 0.0380289666473877,
+     "lb_sim": -0.01731815843356114,
+     "ub_sim": 0.07600514326713419,
+     "flagged": false,
+     "logs": 104,
+     "items": 903
+    },
+    "large|20-40|lat|turning|not_inpath": {
+     "E": 0.020271736124995214,
+     "lb_sim": -0.03121259177428156,
+     "ub_sim": 0.05559747213372735,
+     "flagged": false,
+     "logs": 71,
+     "items": 543
+    },
+    "large|20-40|lat|new|not_inpath": {
+     "E": 0.051690821256038647,
+     "lb_sim": -0.04116973034246196,
+     "ub_sim": 0.11540666382878324,
+     "flagged": false,
+     "logs": 69,
+     "items": 266
+    },
+    "large|>=40|long|static|not_inpath": {
+     "E": 0.03604337580193367,
+     "lb_sim": -0.016906887574879383,
+     "ub_sim": 0.07237495673082467,
+     "flagged": false,
+     "logs": 125,
+     "items": 1320
+    },
+    "large|>=40|long|straight|not_inpath": {
+     "E": 0.05087983911513323,
+     "lb_sim": -0.06936930245791495,
+     "ub_sim": 0.13338823737560326,
+     "flagged": false,
+     "logs": 39,
+     "items": 185
+    },
+    "large|>=40|long|new|not_inpath": {
+     "E": 0.029411764705882353,
+     "lb_sim": -0.055626291426659445,
+     "ub_sim": 0.08776023780843431,
+     "flagged": false,
+     "logs": 51,
+     "items": 106
+    },
+    "large|>=40|lat|static|not_inpath": {
+     "E": 0.032645318391286135,
+     "lb_sim": -0.021488443216961736,
+     "ub_sim": 0.06978895121628542,
+     "flagged": false,
+     "logs": 112,
+     "items": 1269
+    },
+    "large|>=40|lat|new|not_inpath": {
+     "E": 0.03260869565217391,
+     "lb_sim": -0.061632097391708114,
+     "ub_sim": 0.0972715845770287,
+     "flagged": false,
+     "logs": 46,
+     "items": 69
+    },
+    "car|<20|long|static|inpath": {
+     "E": 0.043161315293880335,
+     "lb_sim": 0.0016937190619022366,
+     "ub_sim": 0.07161411670314437,
+     "flagged": false,
+     "logs": 179,
+     "items": 3506
+    },
+    "car|<20|long|straight|inpath": {
+     "E": 0.046721542431801974,
+     "lb_sim": 0.006756914002163328,
+     "ub_sim": 0.07414308936069405,
+     "flagged": false,
+     "logs": 200,
+     "items": 4873
+    },
+    "car|<20|long|turning|inpath": {
+     "E": 0.034235963841227,
+     "lb_sim": -0.018228415342405664,
+     "ub_sim": 0.07023415755425134,
+     "flagged": false,
+     "logs": 114,
+     "items": 1210
+    },
+    "car|<20|long|new|inpath": {
+     "E": 0.04375,
+     "lb_sim": -0.026842367451048205,
+     "ub_sim": 0.09218662991358918,
+     "flagged": false,
+     "logs": 100,
+     "items": 378
+    },
+    "car|<20|lat|static|inpath": {
+     "E": 0.036776782090481366,
+     "lb_sim": 7.19188730700579e-05,
+     "ub_sim": 0.061961656034870735,
+     "flagged": false,
+     "logs": 151,
+     "items": 2540
+    },
+    "car|<20|lat|straight|inpath": {
+     "E": 0.05364298254317354,
+     "lb_sim": -0.01045266705470331,
+     "ub_sim": 0.09762191922915875,
+     "flagged": false,
+     "logs": 163,
+     "items": 2178
+    },
+    "car|<20|lat|turning|inpath": {
+     "E": 0.03522245081651022,
+     "lb_sim": -0.007598956529099893,
+     "ub_sim": 0.06460416352669315,
+     "flagged": false,
+     "logs": 101,
+     "items": 1132
+    },
+    "car|<20|lat|new|inpath": {
+     "E": 0.03201970443349754,
+     "lb_sim": -0.05085187587252382,
+     "ub_sim": 0.08888166006093187,
+     "flagged": false,
+     "logs": 58,
+     "items": 196
+    },
+    "car|20-40|long|static|inpath": {
+     "E": 0.041199725504236784,
+     "lb_sim": -0.002185746369401269,
+     "ub_sim": 0.07096846850930844,
+     "flagged": false,
+     "logs": 133,
+     "items": 1017
+    },
+    "car|20-40|long|straight|inpath": {
+     "E": 0.04742572055318605,
+     "lb_sim": -0.004526803205439203,
+     "ub_sim": 0.08307270700846345,
+     "flagged": false,
+     "logs": 174,
+     "items": 3852
+    },
+    "car|20-40|long|turning|inpath": {
+     "E": 0.028333333333333332,
+     "lb_sim": -0.03581288228051299,
+     "ub_sim": 0.07234696565979862,
+     "flagged": false,
+     "logs": 80,
+     "items": 473
+    },
+    "car|20-40|long|new|inpath": {
+     "E": 0.05627576120196782,
+     "lb_sim": -0.021699067570531395,
+     "ub_sim": 0.10977783317098136,
+     "flagged": false,
+     "logs": 109,
+     "items": 605
+    },
+    "car|20-40|lat|static|inpath": {
+     "E": 0.04626945475159761,
+     "lb_sim": -0.01685625193119259,
+     "ub_sim": 0.08958286954461135,
+     "flagged": false,
+     "logs": 112,
+     "items": 724
+    },
+    "car|20-40|lat|straight|inpath": {
+     "E": 0.04640203689790466,
+     "lb_sim": -0.02101150280760755,
+     "ub_sim": 0.09265752869941188,
+     "flagged": false,
+     "logs": 121,
+     "items": 1010
+    },
+    "car|20-40|lat|turning|inpath": {
+     "E": 0.03833333333333334,
+     "lb_sim": -0.031540183964154,
+     "ub_sim": 0.08627672750333454,
+     "flagged": false,
+     "logs": 70,
+     "items": 362
+    },
+    "car|20-40|lat|new|inpath": {
+     "E": 0.0357060849598163,
+     "lb_sim": -0.04245827573227361,
+     "ub_sim": 0.08933820338820654,
+     "flagged": false,
+     "logs": 67,
+     "items": 309
+    },
+    "car|>=40|long|new|inpath": {
+     "E": 0.03459119496855346,
+     "lb_sim": -0.05028171218102306,
+     "ub_sim": 0.09282635185212407,
+     "flagged": false,
+     "logs": 53,
+     "items": 77
+    },
+    "pedestrian|<20|long|static|inpath": {
+     "E": 0.018149759903961588,
+     "lb_sim": -0.0210193907892467,
+     "ub_sim": 0.04502549342390835,
+     "flagged": false,
+     "logs": 42,
+     "items": 340
+    },
+    "pedestrian|<20|lat|static|inpath": {
+     "E": 0.02564102564102564,
+     "lb_sim": -0.07371919338967448,
+     "ub_sim": 0.09381658528152784,
+     "flagged": false,
+     "logs": 39,
+     "items": 277
+    }
+   },
+   "fallback_share_items": 0.006720109447211355,
+   "fallback_share_by_level": {
+    "0": 0.9932798905527886,
+    "1": 0.005477638693305014,
+    "2": 0.0008307769611931097,
+    "3": 0.00041169379271323097
+   },
+   "pooled_own": {
+    "E_log_weighted": 0.04294617421853815,
+    "ci95": [
+     0.04021214095937322,
+     0.04586095410950241
+    ],
+    "items": 940940,
+    "item_rate": 0.044353518821603925
+   },
+   "pooled_fallback": {
+    "E_log_weighted": 0.03964856685148997,
+    "ci95": [
+     0.025480657433880744,
+     0.05674523973832293
+    ],
+    "items": 6366,
+    "item_rate": 0.03188815582783538
+   },
+   "pooled_all": {
+    "E_log_weighted": 0.042824549968691075,
+    "ci95": [
+     0.04005680632034757,
+     0.04570315568599939
+    ],
+    "items": 947306,
+    "item_rate": 0.044269750217986584
+   },
+   "pooled_own_by_inpath": {
+    "0": {
+     "E_log_weighted": 0.04287576333520562,
+     "ci95": [
+      0.04014439130545692,
+      0.04576151098251439
+     ],
+     "items": 913775,
+     "item_rate": 0.04466416787502394
+    },
+    "1": {
+     "E_log_weighted": 0.039431554650357754,
+     "ci95": [
+      0.02901114909434549,
+      0.05164412219650099
+     ],
+     "items": 27165,
+     "item_rate": 0.03390392048591938
+    }
+   },
+   "pooled_fallback_by_level": {
+    "1": {
+     "E_log_weighted": 0.037924024171089046,
+     "ci95": [
+      0.023486438753352205,
+      0.055122783834351645
+     ],
+     "items": 5189,
+     "item_rate": 0.032376180381576414
+    },
+    "2": {
+     "E_log_weighted": 0.05038155846685872,
+     "ci95": [
+      0.022690036876396744,
+      0.0850139789867856
+     ],
+     "items": 787,
+     "item_rate": 0.044472681067344345
+    },
+    "3": {
+     "E_log_weighted": 0.0,
+     "ci95": [
+      0.0,
+      0.0
+     ],
+     "items": 390,
+     "item_rate": 0.0
+    }
+   }
+  },
+  "t3": {
+   "tracker": "t3",
+   "seed_bootstrap": [
+    20261201,
+    1,
+    9
+   ],
+   "B": 4000,
+   "items": 947746,
+   "own_threshold_strata_evaluable": 92,
+   "flagged": [],
+   "sup_t_q": 3.93748363161746,
+   "max_E_cell": "car|<20|long|turning|inpath",
+   "cells": {
+    "car|<20|long|static|not_inpath": {
+     "E": 0.05037533970335051,
+     "lb_sim": 0.02515591002125683,
+     "ub_sim": 0.06758418999495233,
+     "flagged": false,
+     "logs": 354,
+     "items": 67363
+    },
+    "car|<20|long|straight|not_inpath": {
+     "E": 0.05055228599962578,
+     "lb_sim": 0.030341847555482828,
+     "ub_sim": 0.06434317714574216,
+     "flagged": false,
+     "logs": 318,
+     "items": 15259
+    },
+    "car|<20|long|turning|not_inpath": {
+     "E": 0.04902232784751511,
+     "lb_sim": 0.01309160591540464,
+     "ub_sim": 0.07354018659346004,
+     "flagged": false,
+     "logs": 235,
+     "items": 2947
+    },
+    "car|<20|long|new|not_inpath": {
+     "E": 0.03883221894978819,
+     "lb_sim": 0.01293151557978766,
+     "ub_sim": 0.05650594640358535,
+     "flagged": false,
+     "logs": 251,
+     "items": 2365
+    },
+    "car|<20|lat|static|not_inpath": {
+     "E": 0.04987940904034816,
+     "lb_sim": 0.026150032754780637,
+     "ub_sim": 0.0660714993912794,
+     "flagged": false,
+     "logs": 354,
+     "items": 83395
+    },
+    "car|<20|lat|straight|not_inpath": {
+     "E": 0.0530682041790568,
+     "lb_sim": 0.02125610494025726,
+     "ub_sim": 0.07477565990517825,
+     "flagged": false,
+     "logs": 315,
+     "items": 20393
+    },
+    "car|<20|lat|turning|not_inpath": {
+     "E": 0.0477157200853288,
+     "lb_sim": 0.009624668741620171,
+     "ub_sim": 0.07370771150966388,
+     "flagged": false,
+     "logs": 226,
+     "items": 3172
+    },
+    "car|<20|lat|new|not_inpath": {
+     "E": 0.04872215188967549,
+     "lb_sim": 0.009260286373769869,
+     "ub_sim": 0.07564953860899988,
+     "flagged": false,
+     "logs": 246,
+     "items": 3103
+    },
+    "car|20-40|long|static|not_inpath": {
+     "E": 0.048545119734336485,
+     "lb_sim": 0.02970488019663747,
+     "ub_sim": 0.06140103542113658,
+     "flagged": false,
+     "logs": 372,
+     "items": 118753
+    },
+    "car|20-40|long|straight|not_inpath": {
+     "E": 0.043790772415161494,
+     "lb_sim": 0.020862674286797684,
+     "ub_sim": 0.05943609878201106,
+     "flagged": false,
+     "logs": 341,
+     "items": 19593
+    },
+    "car|20-40|long|turning|not_inpath": {
+     "E": 0.051580530514541256,
+     "lb_sim": 0.013676875116672482,
+     "ub_sim": 0.07744464954771355,
+     "flagged": false,
+     "logs": 270,
+     "items": 6244
+    },
+    "car|20-40|long|new|not_inpath": {
+     "E": 0.04742167581439088,
+     "lb_sim": 0.02632626045285073,
+     "ub_sim": 0.06181644402969509,
+     "flagged": false,
+     "logs": 329,
+     "items": 6828
+    },
+    "car|20-40|lat|static|not_inpath": {
+     "E": 0.04668618185995015,
+     "lb_sim": 0.033767404488019605,
+     "ub_sim": 0.05550150038802678,
+     "flagged": false,
+     "logs": 372,
+     "items": 110129
+    },
+    "car|20-40|lat|straight|not_inpath": {
+     "E": 0.04933484234583671,
+     "lb_sim": 0.02051986242327861,
+     "ub_sim": 0.0689971694441729,
+     "flagged": false,
+     "logs": 333,
+     "items": 15362
+    },
+    "car|20-40|lat|turning|not_inpath": {
+     "E": 0.05464568537547884,
+     "lb_sim": 0.01639768933589819,
+     "ub_sim": 0.08074477033084806,
+     "flagged": false,
+     "logs": 266,
+     "items": 5394
+    },
+    "car|20-40|lat|new|not_inpath": {
+     "E": 0.045530919432034064,
+     "lb_sim": 0.019173719127264174,
+     "ub_sim": 0.06351614431095337,
+     "flagged": false,
+     "logs": 321,
+     "items": 6469
+    },
+    "car|>=40|long|static|not_inpath": {
+     "E": 0.048060791562383263,
+     "lb_sim": 0.02712284513749362,
+     "ub_sim": 0.062348108523216,
+     "flagged": false,
+     "logs": 365,
+     "items": 46681
+    },
+    "car|>=40|long|straight|not_inpath": {
+     "E": 0.05174977660711012,
+     "lb_sim": 0.016806037148922495,
+     "ub_sim": 0.07559415328592359,
+     "flagged": false,
+     "logs": 284,
+     "items": 10119
+    },
+    "car|>=40|long|turning|not_inpath": {
+     "E": 0.04444228221822403,
+     "lb_sim": -0.00032863287625944926,
+     "ub_sim": 0.07499237732311145,
+     "flagged": false,
+     "logs": 190,
+     "items": 2348
+    },
+    "car|>=40|long|new|not_inpath": {
+     "E": 0.04195822959557693,
+     "lb_sim": 0.016032248474722045,
+     "ub_sim": 0.05964920569597888,
+     "flagged": false,
+     "logs": 308,
+     "items": 3617
+    },
+    "car|>=40|lat|static|not_inpath": {
+     "E": 0.045146314012052775,
+     "lb_sim": 0.02808918484304109,
+     "ub_sim": 0.056785498005275735,
+     "flagged": false,
+     "logs": 365,
+     "items": 42754
+    },
+    "car|>=40|lat|straight|not_inpath": {
+     "E": 0.04562656275122976,
+     "lb_sim": 0.01587698955111613,
+     "ub_sim": 0.06592662337485698,
+     "flagged": false,
+     "logs": 265,
+     "items": 6090
+    },
+    "car|>=40|lat|turning|not_inpath": {
+     "E": 0.041434407752518825,
+     "lb_sim": 0.0012810863806780245,
+     "ub_sim": 0.06883361958676595,
+     "flagged": false,
+     "logs": 178,
+     "items": 2005
+    },
+    "car|>=40|lat|new|not_inpath": {
+     "E": 0.038716438147196934,
+     "lb_sim": 0.010460851668372403,
+     "ub_sim": 0.05799705486791307,
+     "flagged": false,
+     "logs": 297,
+     "items": 3067
+    },
+    "pedestrian|<20|long|static|not_inpath": {
+     "E": 0.047497459539931654,
+     "lb_sim": 0.02152009210432396,
+     "ub_sim": 0.06522349985109355,
+     "flagged": false,
+     "logs": 289,
+     "items": 37087
+    },
+    "pedestrian|<20|long|straight|not_inpath": {
+     "E": 0.04990238119800223,
+     "lb_sim": 0.01791432469989196,
+     "ub_sim": 0.0717299039586034,
+     "flagged": false,
+     "logs": 240,
+     "items": 12463
+    },
+    "pedestrian|<20|long|turning|not_inpath": {
+     "E": 0.043738849868245076,
+     "lb_sim": 0.012740725856158774,
+     "ub_sim": 0.06489087757739093,
+     "flagged": false,
+     "logs": 235,
+     "items": 7407
+    },
+    "pedestrian|<20|long|new|not_inpath": {
+     "E": 0.0394393319485657,
+     "lb_sim": -0.009854643440201455,
+     "ub_sim": 0.07307580404315492,
+     "flagged": false,
+     "logs": 134,
+     "items": 935
+    },
+    "pedestrian|<20|lat|static|not_inpath": {
+     "E": 0.04730449497299821,
+     "lb_sim": 0.023615020559680056,
+     "ub_sim": 0.06346935769211741,
+     "flagged": false,
+     "logs": 288,
+     "items": 37305
+    },
+    "pedestrian|<20|lat|straight|not_inpath": {
+     "E": 0.05000607180266037,
+     "lb_sim": 0.018814065203142154,
+     "ub_sim": 0.07129039815865601,
+     "flagged": false,
+     "logs": 241,
+     "items": 15350
+    },
+    "pedestrian|<20|lat|turning|not_inpath": {
+     "E": 0.04623901094013416,
+     "lb_sim": 0.013343745564784938,
+     "ub_sim": 0.06868558107604938,
+     "flagged": false,
+     "logs": 238,
+     "items": 8933
+    },
+    "pedestrian|<20|lat|new|not_inpath": {
+     "E": 0.04999222742774024,
+     "lb_sim": -0.007926551065625426,
+     "ub_sim": 0.0895139612944052,
+     "flagged": false,
+     "logs": 132,
+     "items": 1075
+    },
+    "pedestrian|20-40|long|static|not_inpath": {
+     "E": 0.04778801576429152,
+     "lb_sim": 0.02235781046321902,
+     "ub_sim": 0.06514069191230047,
+     "flagged": false,
+     "logs": 317,
+     "items": 37868
+    },
+    "pedestrian|20-40|long|straight|not_inpath": {
+     "E": 0.04707660202889601,
+     "lb_sim": 0.020787198527425842,
+     "ub_sim": 0.06501556475784043,
+     "flagged": false,
+     "logs": 252,
+     "items": 11530
+    },
+    "pedestrian|20-40|long|turning|not_inpath": {
+     "E": 0.043534473404467394,
+     "lb_sim": 0.014262675570705322,
+     "ub_sim": 0.06350851695093616,
+     "flagged": false,
+     "logs": 262,
+     "items": 10134
+    },
+    "pedestrian|20-40|long|new|not_inpath": {
+     "E": 0.03973587152436713,
+     "lb_sim": 0.010245344484543405,
+     "ub_sim": 0.05985916817484993,
+     "flagged": false,
+     "logs": 231,
+     "items": 3014
+    },
+    "pedestrian|20-40|lat|static|not_inpath": {
+     "E": 0.051274230184779154,
+     "lb_sim": 0.026403193887728202,
+     "ub_sim": 0.06824534910492012,
+     "flagged": false,
+     "logs": 317,
+     "items": 37403
+    },
+    "pedestrian|20-40|lat|straight|not_inpath": {
+     "E": 0.047139167541545436,
+     "lb_sim": 0.01973216410415945,
+     "ub_sim": 0.06584074109180968,
+     "flagged": false,
+     "logs": 251,
+     "items": 11280
+    },
+    "pedestrian|20-40|lat|turning|not_inpath": {
+     "E": 0.04265392194052016,
+     "lb_sim": 0.019335256414147742,
+     "ub_sim": 0.05856575773941619,
+     "flagged": false,
+     "logs": 260,
+     "items": 9841
+    },
+    "pedestrian|20-40|lat|new|not_inpath": {
+     "E": 0.040547300864657736,
+     "lb_sim": 0.00824642006858381,
+     "ub_sim": 0.06258828390485652,
+     "flagged": false,
+     "logs": 227,
+     "items": 2866
+    },
+    "pedestrian|>=40|long|static|not_inpath": {
+     "E": 0.04355234453182779,
+     "lb_sim": 0.015039140219890383,
+     "ub_sim": 0.06300875058554514,
+     "flagged": false,
+     "logs": 275,
+     "items": 11520
+    },
+    "pedestrian|>=40|long|straight|not_inpath": {
+     "E": 0.03777202658275286,
+     "lb_sim": -0.005934147193757407,
+     "ub_sim": 0.06759557972490535,
+     "flagged": false,
+     "logs": 147,
+     "items": 3399
+    },
+    "pedestrian|>=40|long|turning|not_inpath": {
+     "E": 0.04195363415138806,
+     "lb_sim": -0.005118504863692752,
+     "ub_sim": 0.07407400338365316,
+     "flagged": false,
+     "logs": 175,
+     "items": 3419
+    },
+    "pedestrian|>=40|long|new|not_inpath": {
+     "E": 0.03929786043637016,
+     "lb_sim": 0.012343051706587286,
+     "ub_sim": 0.05769087224975572,
+     "flagged": false,
+     "logs": 226,
+     "items": 2651
+    },
+    "pedestrian|>=40|lat|static|not_inpath": {
+     "E": 0.04090116662213285,
+     "lb_sim": 0.01471397717144151,
+     "ub_sim": 0.05877038208400088,
+     "flagged": false,
+     "logs": 272,
+     "items": 11294
+    },
+    "pedestrian|>=40|lat|straight|not_inpath": {
+     "E": 0.040560303757694115,
+     "lb_sim": -0.004159722858996302,
+     "ub_sim": 0.07107567435822329,
+     "flagged": false,
+     "logs": 145,
+     "items": 3179
+    },
+    "pedestrian|>=40|lat|turning|not_inpath": {
+     "E": 0.03933283442332937,
+     "lb_sim": 0.009229178145777037,
+     "ub_sim": 0.05987450886405089,
+     "flagged": false,
+     "logs": 175,
+     "items": 3191
+    },
+    "pedestrian|>=40|lat|new|not_inpath": {
+     "E": 0.044437550194407704,
+     "lb_sim": 0.0037902386470840543,
+     "ub_sim": 0.07217384352028913,
+     "flagged": false,
+     "logs": 221,
+     "items": 2491
+    },
+    "two_wheeler|<20|long|straight|not_inpath": {
+     "E": 0.03476350809684143,
+     "lb_sim": -0.021022632061024928,
+     "ub_sim": 0.07283000469984233,
+     "flagged": false,
+     "logs": 45,
+     "items": 680
+    },
+    "two_wheeler|<20|lat|straight|not_inpath": {
+     "E": 0.023766387277025576,
+     "lb_sim": -0.02966400030473674,
+     "ub_sim": 0.0602254013192684,
+     "flagged": false,
+     "logs": 47,
+     "items": 825
+    },
+    "two_wheeler|20-40|long|straight|not_inpath": {
+     "E": 0.018105683831974348,
+     "lb_sim": -0.016206771794112382,
+     "ub_sim": 0.04151929466496669,
+     "flagged": false,
+     "logs": 49,
+     "items": 502
+    },
+    "two_wheeler|20-40|long|new|not_inpath": {
+     "E": 0.023255813953488372,
+     "lb_sim": -0.06788906299345815,
+     "ub_sim": 0.08544986679284103,
+     "flagged": false,
+     "logs": 43,
+     "items": 192
+    },
+    "two_wheeler|20-40|lat|straight|not_inpath": {
+     "E": 0.02036872720102534,
+     "lb_sim": -0.02795449861336359,
+     "ub_sim": 0.05334279398721964,
+     "flagged": false,
+     "logs": 49,
+     "items": 475
+    },
+    "two_wheeler|20-40|lat|new|not_inpath": {
+     "E": 0.020509977827051,
+     "lb_sim": -0.03162768705816579,
+     "ub_sim": 0.0560868834459934,
+     "flagged": false,
+     "logs": 41,
+     "items": 159
+    },
+    "large|<20|long|static|not_inpath": {
+     "E": 0.04116849027226773,
+     "lb_sim": -0.00047470117114361415,
+     "ub_sim": 0.06958433695269459,
+     "flagged": false,
+     "logs": 129,
+     "items": 2436
+    },
+    "large|<20|long|straight|not_inpath": {
+     "E": 0.043460536800917354,
+     "lb_sim": -0.006673229605126056,
+     "ub_sim": 0.0776700526984281,
+     "flagged": false,
+     "logs": 99,
+     "items": 799
+    },
+    "large|<20|long|turning|not_inpath": {
+     "E": 0.03777777777777778,
+     "lb_sim": -0.06265056475546746,
+     "ub_sim": 0.10630654046091742,
+     "flagged": false,
+     "logs": 45,
+     "items": 156
+    },
+    "large|<20|lat|static|not_inpath": {
+     "E": 0.03881625243591369,
+     "lb_sim": -0.018664148874585146,
+     "ub_sim": 0.07803885315776507,
+     "flagged": false,
+     "logs": 123,
+     "items": 3677
+    },
+    "large|<20|lat|straight|not_inpath": {
+     "E": 0.050937560300038424,
+     "lb_sim": -0.0175532483150029,
+     "ub_sim": 0.09767327505110845,
+     "flagged": false,
+     "logs": 97,
+     "items": 1506
+    },
+    "large|<20|lat|turning|not_inpath": {
+     "E": 0.0368106162843005,
+     "lb_sim": -0.054390588963163296,
+     "ub_sim": 0.09904310557138418,
+     "flagged": false,
+     "logs": 45,
+     "items": 203
+    },
+    "large|20-40|long|static|not_inpath": {
+     "E": 0.04299016960677888,
+     "lb_sim": 0.005413410817476476,
+     "ub_sim": 0.06863122591138973,
+     "flagged": false,
+     "logs": 162,
+     "items": 4143
+    },
+    "large|20-40|long|straight|not_inpath": {
+     "E": 0.04491557671004131,
+     "lb_sim": -0.0029319597359950336,
+     "ub_sim": 0.0775650498306184,
+     "flagged": false,
+     "logs": 116,
+     "items": 1342
+    },
+    "large|20-40|long|turning|not_inpath": {
+     "E": 0.0422550052687039,
+     "lb_sim": -0.04198850608757821,
+     "ub_sim": 0.09973980937585064,
+     "flagged": false,
+     "logs": 73,
+     "items": 589
+    },
+    "large|20-40|long|new|not_inpath": {
+     "E": 0.026557849021617133,
+     "lb_sim": -0.028357214547502646,
+     "ub_sim": 0.0640299536499691,
+     "flagged": false,
+     "logs": 72,
+     "items": 280
+    },
+    "large|20-40|lat|static|not_inpath": {
+     "E": 0.043218125801827705,
+     "lb_sim": -0.0018200861018782127,
+     "ub_sim": 0.0739506148320067,
+     "flagged": false,
+     "logs": 150,
+     "items": 3600
+    },
+    "large|20-40|lat|straight|not_inpath": {
+     "E": 0.04763954690091054,
+     "lb_sim": -0.01899018479625928,
+     "ub_sim": 0.09310532833213446,
+     "flagged": false,
+     "logs": 110,
+     "items": 1010
+    },
+    "large|20-40|lat|turning|not_inpath": {
+     "E": 0.03732782369146006,
+     "lb_sim": -0.04843998015274354,
+     "ub_sim": 0.09585275128894405,
+     "flagged": false,
+     "logs": 66,
+     "items": 500
+    },
+    "large|20-40|lat|new|not_inpath": {
+     "E": 0.01932367149758454,
+     "lb_sim": -0.04098208668522478,
+     "ub_sim": 0.06047419620696613,
+     "flagged": false,
+     "logs": 69,
+     "items": 265
+    },
+    "large|>=40|long|static|not_inpath": {
+     "E": 0.045828666458291444,
+     "lb_sim": -0.01567564142841956,
+     "ub_sim": 0.08779703925866822,
+     "flagged": false,
+     "logs": 126,
+     "items": 1364
+    },
+    "large|>=40|long|straight|not_inpath": {
+     "E": 0.04229797979797979,
+     "lb_sim": -0.05377612711484184,
+     "ub_sim": 0.10785556550087896,
+     "flagged": false,
+     "logs": 44,
+     "items": 225
+    },
+    "large|>=40|long|new|not_inpath": {
+     "E": 0.038461538461538464,
+     "lb_sim": -0.05533898472593028,
+     "ub_sim": 0.1024677107324836,
+     "flagged": false,
+     "logs": 52,
+     "items": 101
+    },
+    "large|>=40|lat|static|not_inpath": {
+     "E": 0.02983800151605898,
+     "lb_sim": -0.017752839457022034,
+     "ub_sim": 0.06231231468971003,
+     "flagged": false,
+     "logs": 113,
+     "items": 1249
+    },
+    "large|>=40|lat|new|not_inpath": {
+     "E": 0.02127659574468085,
+     "lb_sim": -0.06133562285844969,
+     "ub_sim": 0.07764826315029891,
+     "flagged": false,
+     "logs": 47,
+     "items": 79
+    },
+    "car|<20|long|static|inpath": {
+     "E": 0.04175446207874323,
+     "lb_sim": 0.001868723341283983,
+     "ub_sim": 0.06897108495068033,
+     "flagged": false,
+     "logs": 176,
+     "items": 3312
+    },
+    "car|<20|long|straight|inpath": {
+     "E": 0.04309555716445507,
+     "lb_sim": 0.005580906828022605,
+     "ub_sim": 0.06869423284901405,
+     "flagged": false,
+     "logs": 204,
+     "items": 4697
+    },
+    "car|<20|long|turning|inpath": {
+     "E": 0.05667876601034962,
+     "lb_sim": -0.011420873509027603,
+     "ub_sim": 0.10314756075209192,
+     "flagged": false,
+     "logs": 124,
+     "items": 1276
+    },
+    "car|<20|long|new|inpath": {
+     "E": 0.04411976911976912,
+     "lb_sim": -0.021998563823816077,
+     "ub_sim": 0.08923659005899595,
+     "flagged": false,
+     "logs": 106,
+     "items": 382
+    },
+    "car|<20|lat|static|inpath": {
+     "E": 0.03979909531380119,
+     "lb_sim": -0.013782977801459276,
+     "ub_sim": 0.07636161421996349,
+     "flagged": false,
+     "logs": 148,
+     "items": 2351
+    },
+    "car|<20|lat|straight|inpath": {
+     "E": 0.0530642772650106,
+     "lb_sim": -0.005065747546771179,
+     "ub_sim": 0.09273015817679514,
+     "flagged": false,
+     "logs": 156,
+     "items": 1843
+    },
+    "car|<20|lat|turning|inpath": {
+     "E": 0.04944359922288615,
+     "lb_sim": -0.02087053108676052,
+     "ub_sim": 0.09742348445962626,
+     "flagged": false,
+     "logs": 110,
+     "items": 1058
+    },
+    "car|<20|lat|new|inpath": {
+     "E": 0.03278688524590164,
+     "lb_sim": -0.04377206802944638,
+     "ub_sim": 0.08502801765868771,
+     "flagged": false,
+     "logs": 61,
+     "items": 210
+    },
+    "car|20-40|long|static|inpath": {
+     "E": 0.04447995871393588,
+     "lb_sim": -0.003683101770807752,
+     "ub_sim": 0.07734473432207757,
+     "flagged": false,
+     "logs": 134,
+     "items": 988
+    },
+    "car|20-40|long|straight|inpath": {
+     "E": 0.055094660795131145,
+     "lb_sim": 0.0010443376438210791,
+     "ub_sim": 0.09197669702864744,
+     "flagged": false,
+     "logs": 179,
+     "items": 3837
+    },
+    "car|20-40|long|turning|inpath": {
+     "E": 0.03392674740989348,
+     "lb_sim": -0.027717365400504526,
+     "ub_sim": 0.0759905181646287,
+     "flagged": false,
+     "logs": 89,
+     "items": 489
+    },
+    "car|20-40|long|new|inpath": {
+     "E": 0.04081763860524923,
+     "lb_sim": -0.01604979326244966,
+     "ub_sim": 0.07962197057529136,
+     "flagged": false,
+     "logs": 113,
+     "items": 577
+    },
+    "car|20-40|lat|static|inpath": {
+     "E": 0.04306265119684238,
+     "lb_sim": -0.02011363149661065,
+     "ub_sim": 0.08617192069881993,
+     "flagged": false,
+     "logs": 112,
+     "items": 663
+    },
+    "car|20-40|lat|straight|inpath": {
+     "E": 0.051022912705155694,
+     "lb_sim": -0.0233399767196421,
+     "ub_sim": 0.10176552851739587,
+     "flagged": false,
+     "logs": 107,
+     "items": 632
+    },
+    "car|20-40|lat|turning|inpath": {
+     "E": 0.04743589743589744,
+     "lb_sim": -0.032445214265486834,
+     "ub_sim": 0.10194395371331134,
+     "flagged": false,
+     "logs": 78,
+     "items": 351
+    },
+    "car|20-40|lat|new|inpath": {
+     "E": 0.03576737272389446,
+     "lb_sim": -0.028472178113961653,
+     "ub_sim": 0.07960217894686511,
+     "flagged": false,
+     "logs": 69,
+     "items": 290
+    },
+    "car|>=40|long|new|inpath": {
+     "E": 0.02586206896551724,
+     "lb_sim": -0.049570477065314436,
+     "ub_sim": 0.07733458075989097,
+     "flagged": false,
+     "logs": 58,
+     "items": 74
+    },
+    "pedestrian|<20|long|static|inpath": {
+     "E": 0.041983282674772034,
+     "lb_sim": -0.053839290428468085,
+     "ub_sim": 0.10736923056797729,
+     "flagged": false,
+     "logs": 47,
+     "items": 330
+    },
+    "pedestrian|<20|lat|static|inpath": {
+     "E": 0.023809523809523808,
+     "lb_sim": -0.06360817382988393,
+     "ub_sim": 0.08346028080428677,
+     "flagged": false,
+     "logs": 45,
+     "items": 297
+    }
+   },
+   "fallback_share_items": 0.006531285808644933,
+   "fallback_share_by_level": {
+    "0": 0.9934687141913551,
+    "1": 0.005444496732246826,
+    "2": 0.0006773966864539655,
+    "3": 0.00040939238994414117
+   },
+   "pooled_own": {
+    "E_log_weighted": 0.041765926493271155,
+    "ci95": [
+     0.03918970596954909,
+     0.04448310661660114
+    ],
+    "items": 941556,
+    "item_rate": 0.043535381857266055
+   },
+   "pooled_fallback": {
+    "E_log_weighted": 0.04289855040805594,
+    "ci95": [
+     0.02795429411858727,
+     0.05994415698149059
+    ],
+    "items": 6190,
+    "item_rate": 0.040226171243941844
+   },
+   "pooled_all": {
+    "E_log_weighted": 0.04168939037770768,
+    "ci95": [
+     0.03913517930816266,
+     0.044371035616623644
+    ],
+    "items": 947746,
+    "item_rate": 0.04351376845694944
+   },
+   "pooled_own_by_inpath": {
+    "0": {
+     "E_log_weighted": 0.04169716989135687,
+     "ci95": [
+      0.03914372532194921,
+      0.04445147854539773
+     ],
+     "items": 915940,
+     "item_rate": 0.04381509705875931
+    },
+    "1": {
+     "E_log_weighted": 0.03472530027829722,
+     "ci95": [
+      0.027347581368761253,
+      0.04259052764461254
+     ],
+     "items": 25616,
+     "item_rate": 0.03353372891942536
+    }
+   },
+   "pooled_fallback_by_level": {
+    "1": {
+     "E_log_weighted": 0.04435235459415428,
+     "ci95": [
+      0.02851392736331969,
+      0.06309508116783141
+     ],
+     "items": 5160,
+     "item_rate": 0.03662790697674419
+    },
+    "2": {
+     "E_log_weighted": 0.02849222805203938,
+     "ci95": [
+      0.009611402214262172,
+      0.0580627330569281
+     ],
+     "items": 642,
+     "item_rate": 0.04984423676012461
+    },
+    "3": {
+     "E_log_weighted": 0.08874956461163358,
+     "ci95": [
+      0.0,
+      0.20539794496691058
+     ],
+     "items": 388,
+     "item_rate": 0.07216494845360824
+    }
+   }
+  }
+ },
+ "seconds": 1.3
+}

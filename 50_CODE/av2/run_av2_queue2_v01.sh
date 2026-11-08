@@ -1,0 +1,51 @@
+#!/usr/bin/env bash
+# AV2 queue 2 (Claude line, v01, 2 Nov 2026), after run_av2_stageA_v01.sh: AB3DMOT (LT3D's, D16 Choice 11) and its stage-A
+# cache and K8 items; HOTA with the official av2 evaluator for every run (Choice 14); nuScenes-protocol AMOTA for the two
+# AB3DMOT exports; the final AV2_TRACKER_COUNTS_v02.json with all five runs. One process at a time until the K8 log prints
+# "K8 exploratory run v02 end", at most 3 after. No ground-truth position is read on AV2; nothing here computes an outcome.
+W=/c/Users/anand/Downloads/ProgrammeA_CLAUDE_IEEEACCESS_20261030_122911
+w() { cygpath -w "$1"; }
+PY="$W/50_CODE/env/canmot310/Scripts/python.exe"; PYA="$W/50_CODE/env/av2eval310/Scripts/python.exe"; PYB="$W/50_CODE/env/ab3dmot310/Scripts/python.exe"
+S="$W/50_CODE/av2"; O="$W/30_DATA/av2_cache_stageA_v01"; LG="$O/logs"; R="$W/60_RESULTS/av2_trk"; TX="$W/30_DATA/av2_trk_v01/export"
+AB="$W/30_DATA/av2_trk_v01/export_ab3dmot"; GT="$(w "$W/30_DATA/av2_trk_v01/gt/av2_val_gt_v01.json")"
+K8LOG="$W/80_LOGS/k8_expl_v02_20261101_190548.log"
+export OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 NUMBA_NUM_THREADS=1 NUMBA_CACHE_DIR="$(w "$W/30_DATA/av2_trk_v01/numba_cache")"
+mkdir -p "$R/hota" "$R/metrics" "$AB"
+cd /c/Users/anand
+maxj() { grep -q "K8 exploratory run v02 end" "$K8LOG" 2>/dev/null && echo 3 || echo 1; }
+limit() { while [ "$(jobs -rp | wc -l)" -ge "$(maxj)" ]; do sleep 20; done; }
+while ! grep -q "STAGE A ALL DONE" "$LG/run_stageA_v01.log" 2>/dev/null; do sleep 30; done
+echo "queue2 start $(date +%H:%M:%S) maxj=$(maxj)"
+"$PYB" -I -B "$(w "$S/av2_ab3dmot_v01.py")" --out "$(w "$AB")" > "$LG/ab3dmot.log" 2>&1
+echo "ab3dmot: $(tail -n 2 "$LG/ab3dmot.log" | tr '\n' ' ') $(date +%H:%M:%S)"
+"$PY" -I -B "$(w "$S/av2_cache_stageA_v01.py")" --dataset av2 --experiment lt3d/ab3dmot --workers "$(w "$AB/ab3dmot_kf/worker0")" \
+  --horizon "$(w "$AB/horizon8_ab3dmot_kf.jsonl.gz")" --gt "$GT" --ego "$(w "$O/av2_ego10hz_v01.json.gz")" \
+  --out "$(w "$O/cache_stageA_ab3dmot_lt3d")" > "$LG/stageA_ab3dmot_lt3d.log" 2>&1
+echo "stageA ab3dmot: $(tail -n 1 "$LG/stageA_ab3dmot_lt3d.log") $(date +%H:%M:%S)"
+"$PY" -I -B "$(w "$W/50_CODE/k8/k8_items_v04.py")" --caches "$(w "$O/cache_stageA_ab3dmot_lt3d")" \
+  --out "$(w "$O/items/items_k8_v04_av2_stageA_ab3dmot_lt3d.npz")" --av2 --counts-only --workers 1 > "$LG/items_ab3dmot_lt3d.log" 2>&1
+echo "items ab3dmot: $(tail -n 1 "$LG/items_ab3dmot_lt3d.log") $(date +%H:%M:%S)"
+"$PY" -I -B "$(w "$S/av2_counts_v02.py")" \
+  --runs $(for c in t1_lt3d t3_lt3d t1_voxelnext t3_voxelnext ab3dmot_lt3d; do echo "$c=$(w "$O/items/items_k8_v04_av2_stageA_$c.npz")"; done) \
+  --caches $(for c in t1_lt3d t3_lt3d t1_voxelnext t3_voxelnext ab3dmot_lt3d; do echo "$c=$(w "$O/cache_stageA_$c")"; done) \
+  --out "$(w "$R/AV2_TRACKER_COUNTS_v02.json")" > "$LG/counts_v02_final.log" 2>&1
+echo "counts v02 (5 runs): $(tail -n 5 "$LG/counts_v02_final.log" | cut -c1-150 | tr '\n' ' ') $(date +%H:%M:%S)"
+hota() {  # label, worker dirs...
+  local lab=$1; shift
+  "$PYA" -I -B "$(w "$S/av2_hota_v02.py")" --gt "$GT" --exports "$@" --label "$lab" --out "$(w "$R/hota/AV2_HOTA_$lab.json")" > "$LG/hota_$lab.log" 2>&1
+  echo "hota $lab: $(tail -n 2 "$LG/hota_$lab.log" | head -n 1 | cut -c1-200) $(date +%H:%M:%S)"
+}
+amota() {  # label, worker dir
+  "$PY" -I -B "$(w "$S/av2_track_metrics_v03.py")" --gt "$GT" --label "AV2 val $1" --exports "$2" --classes car pedestrian bicycle \
+    --out "$(w "$R/metrics/AV2_metrics_$1.json")" > "$LG/metrics_$1.log" 2>&1
+  echo "amota $1 done $(date +%H:%M:%S)"
+}
+for combo in t1_lt3d t3_lt3d t1_voxelnext t3_voxelnext t2_lt3d; do
+  limit; hota $combo $(for i in 0 1 2 3; do w "$TX/$combo/worker$i"; done) &
+done
+limit; hota ab3dmot_det "$(w "$AB/ab3dmot_det/worker0")" &
+limit; hota ab3dmot_kf "$(w "$AB/ab3dmot_kf/worker0")" &
+limit; amota ab3dmot_det "$(w "$AB/ab3dmot_det/worker0")" &
+limit; amota ab3dmot_kf "$(w "$AB/ab3dmot_kf/worker0")" &
+wait
+echo "QUEUE2 DONE $(date +%H:%M:%S)"; true
